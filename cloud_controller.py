@@ -91,7 +91,7 @@ def check_schedule():
 
     trigger_run = False
     for game in games:
-        if game['status']['statusCode'] in ['F', 'O', 'P', 'C', 'I']:
+        if game['status']['statusCode'] in ['F', 'O', 'C', 'I']:
             continue
 
         game_pk = game['gamePk']
