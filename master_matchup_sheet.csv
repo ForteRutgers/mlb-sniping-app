@@ -1,25 +1,433 @@
 Matchup,Stadium,Pitcher,Pitcher Archetype,Pitch Type,Contextual Usage % (vs Batter),Velocity (mph),Spin Rate (rpm),Batter,Batter Archetype,Batter xwOBA vs Pitch,Batter K%
-Los Angeles Angels vs Mike Burrows,Houston Astros,Mike Burrows,Power,Fastball,50.0%,96.5,2400,Shohei Ohtani,Slugger,0.446,25.7%
-Los Angeles Angels vs Mike Burrows,Houston Astros,Mike Burrows,Power,Breaking,35.0%,85.0,2400,Shohei Ohtani,Slugger,0.361,25.7%
-Los Angeles Angels vs Mike Burrows,Houston Astros,Mike Burrows,Power,Offspeed,15.0%,88.0,1700,Shohei Ohtani,Slugger,0.361,25.7%
-Los Angeles Angels vs Mike Burrows,Houston Astros,Mike Burrows,Power,Fastball,50.0%,96.5,2400,Aaron Judge,Slugger,0.482,23.6%
-Los Angeles Angels vs Mike Burrows,Houston Astros,Mike Burrows,Power,Breaking,35.0%,85.0,2400,Aaron Judge,Slugger,0.39,23.6%
-Los Angeles Angels vs Mike Burrows,Houston Astros,Mike Burrows,Power,Offspeed,15.0%,88.0,1700,Aaron Judge,Slugger,0.39,23.6%
-Los Angeles Angels vs Mike Burrows,Houston Astros,Mike Burrows,Power,Fastball,71.4%,96.5,2400,Bobby Witt Jr,Contact,0.383,18.2%
-Los Angeles Angels vs Mike Burrows,Houston Astros,Mike Burrows,Power,Breaking,19.0%,85.0,2400,Bobby Witt Jr,Contact,0.31,18.2%
-Los Angeles Angels vs Mike Burrows,Houston Astros,Mike Burrows,Power,Offspeed,9.5%,88.0,1700,Bobby Witt Jr,Contact,0.31,18.2%
-Los Angeles Angels vs Mike Burrows,Houston Astros,Mike Burrows,Power,Fastball,65.0%,96.5,2400,Juan Soto,Balanced,0.45,19.2%
-Los Angeles Angels vs Mike Burrows,Houston Astros,Mike Burrows,Power,Breaking,25.0%,85.0,2400,Juan Soto,Balanced,0.365,19.2%
-Los Angeles Angels vs Mike Burrows,Houston Astros,Mike Burrows,Power,Offspeed,10.0%,88.0,1700,Juan Soto,Balanced,0.365,19.2%
-Houston Astros vs Yusei Kikuchi,Houston Astros,Yusei Kikuchi,Power,Fastball,65.0%,96.5,2400,Francisco Lindor,Balanced,0.362,17.9%
-Houston Astros vs Yusei Kikuchi,Houston Astros,Yusei Kikuchi,Power,Breaking,25.0%,85.0,2400,Francisco Lindor,Balanced,0.293,17.9%
-Houston Astros vs Yusei Kikuchi,Houston Astros,Yusei Kikuchi,Power,Offspeed,10.0%,88.0,1700,Francisco Lindor,Balanced,0.293,17.9%
-Houston Astros vs Yusei Kikuchi,Houston Astros,Yusei Kikuchi,Power,Fastball,65.0%,96.5,2400,Bryce Harper,Balanced,0.386,20.9%
-Houston Astros vs Yusei Kikuchi,Houston Astros,Yusei Kikuchi,Power,Breaking,25.0%,85.0,2400,Bryce Harper,Balanced,0.313,20.9%
-Houston Astros vs Yusei Kikuchi,Houston Astros,Yusei Kikuchi,Power,Offspeed,10.0%,88.0,1700,Bryce Harper,Balanced,0.313,20.9%
-Houston Astros vs Yusei Kikuchi,Houston Astros,Yusei Kikuchi,Power,Fastball,65.0%,96.5,2400,Gunnar Henderson,Balanced,0.358,21.0%
-Houston Astros vs Yusei Kikuchi,Houston Astros,Yusei Kikuchi,Power,Breaking,25.0%,85.0,2400,Gunnar Henderson,Balanced,0.29,21.0%
-Houston Astros vs Yusei Kikuchi,Houston Astros,Yusei Kikuchi,Power,Offspeed,10.0%,88.0,1700,Gunnar Henderson,Balanced,0.29,21.0%
-Houston Astros vs Yusei Kikuchi,Houston Astros,Yusei Kikuchi,Power,Fastball,71.4%,96.5,2400,Mookie Betts,Contact,0.347,10.3%
-Houston Astros vs Yusei Kikuchi,Houston Astros,Yusei Kikuchi,Power,Breaking,19.0%,85.0,2400,Mookie Betts,Contact,0.281,10.3%
-Houston Astros vs Yusei Kikuchi,Houston Astros,Yusei Kikuchi,Power,Offspeed,9.5%,88.0,1700,Mookie Betts,Contact,0.281,10.3%
+New York Yankees vs Robbie Ray,Oracle Park,Robbie Ray,Balanced,Fastball,35.0%,94.5,2300,Aaron Judge,Slugger,0.482,23.6%
+New York Yankees vs Robbie Ray,Oracle Park,Robbie Ray,Balanced,Breaking,40.0%,84.0,2500,Aaron Judge,Slugger,0.39,23.6%
+New York Yankees vs Robbie Ray,Oracle Park,Robbie Ray,Balanced,Offspeed,25.0%,85.5,1800,Aaron Judge,Slugger,0.39,23.6%
+New York Yankees vs Robbie Ray,Oracle Park,Robbie Ray,Balanced,Fastball,60.0%,94.5,2300,Amed Rosario,Contact,0.348,16.2%
+New York Yankees vs Robbie Ray,Oracle Park,Robbie Ray,Balanced,Breaking,25.0%,84.0,2500,Amed Rosario,Contact,0.281,16.2%
+New York Yankees vs Robbie Ray,Oracle Park,Robbie Ray,Balanced,Offspeed,15.0%,85.5,1800,Amed Rosario,Contact,0.281,16.2%
+New York Yankees vs Robbie Ray,Oracle Park,Robbie Ray,Balanced,Fastball,35.0%,94.5,2300,Austin Wells,Slugger,0.308,26.3%
+New York Yankees vs Robbie Ray,Oracle Park,Robbie Ray,Balanced,Breaking,40.0%,84.0,2500,Austin Wells,Slugger,0.249,26.3%
+New York Yankees vs Robbie Ray,Oracle Park,Robbie Ray,Balanced,Offspeed,25.0%,85.5,1800,Austin Wells,Slugger,0.249,26.3%
+New York Yankees vs Robbie Ray,Oracle Park,Robbie Ray,Balanced,Fastball,50.0%,94.5,2300,Ben Rice,Balanced,0.414,18.9%
+New York Yankees vs Robbie Ray,Oracle Park,Robbie Ray,Balanced,Breaking,30.0%,84.0,2500,Ben Rice,Balanced,0.335,18.9%
+New York Yankees vs Robbie Ray,Oracle Park,Robbie Ray,Balanced,Offspeed,20.0%,85.5,1800,Ben Rice,Balanced,0.335,18.9%
+New York Yankees vs Robbie Ray,Oracle Park,Robbie Ray,Balanced,Fastball,50.0%,94.5,2300,Cody Bellinger,Balanced,0.343,13.7%
+New York Yankees vs Robbie Ray,Oracle Park,Robbie Ray,Balanced,Breaking,30.0%,84.0,2500,Cody Bellinger,Balanced,0.278,13.7%
+New York Yankees vs Robbie Ray,Oracle Park,Robbie Ray,Balanced,Offspeed,20.0%,85.5,1800,Cody Bellinger,Balanced,0.278,13.7%
+New York Yankees vs Robbie Ray,Oracle Park,Robbie Ray,Balanced,Fastball,35.0%,94.5,2300,Giancarlo Stanton,Slugger,0.372,34.2%
+New York Yankees vs Robbie Ray,Oracle Park,Robbie Ray,Balanced,Breaking,40.0%,84.0,2500,Giancarlo Stanton,Slugger,0.301,34.2%
+New York Yankees vs Robbie Ray,Oracle Park,Robbie Ray,Balanced,Offspeed,25.0%,85.5,1800,Giancarlo Stanton,Slugger,0.301,34.2%
+New York Yankees vs Robbie Ray,Oracle Park,Robbie Ray,Balanced,Fastball,60.0%,94.5,2300,J.C. Escarra,Contact,0.315,14.3%
+New York Yankees vs Robbie Ray,Oracle Park,Robbie Ray,Balanced,Breaking,25.0%,84.0,2500,J.C. Escarra,Contact,0.255,14.3%
+New York Yankees vs Robbie Ray,Oracle Park,Robbie Ray,Balanced,Offspeed,15.0%,85.5,1800,J.C. Escarra,Contact,0.255,14.3%
+New York Yankees vs Robbie Ray,Oracle Park,Robbie Ray,Balanced,Fastball,35.0%,94.5,2300,Jazz Chisholm Jr.,Slugger,0.362,27.9%
+New York Yankees vs Robbie Ray,Oracle Park,Robbie Ray,Balanced,Breaking,40.0%,84.0,2500,Jazz Chisholm Jr.,Slugger,0.293,27.9%
+New York Yankees vs Robbie Ray,Oracle Park,Robbie Ray,Balanced,Offspeed,25.0%,85.5,1800,Jazz Chisholm Jr.,Slugger,0.293,27.9%
+New York Yankees vs Robbie Ray,Oracle Park,Robbie Ray,Balanced,Fastball,50.0%,94.5,2300,José Caballero,Balanced,0.311,26.5%
+New York Yankees vs Robbie Ray,Oracle Park,Robbie Ray,Balanced,Breaking,30.0%,84.0,2500,José Caballero,Balanced,0.252,26.5%
+New York Yankees vs Robbie Ray,Oracle Park,Robbie Ray,Balanced,Offspeed,20.0%,85.5,1800,José Caballero,Balanced,0.252,26.5%
+San Francisco Giants vs Cam Schlittler,Oracle Park,Cam Schlittler,Spin,Fastball,40.0%,93.5,2200,Casey Schmitt,Balanced,0.344,23.9%
+San Francisco Giants vs Cam Schlittler,Oracle Park,Cam Schlittler,Spin,Breaking,45.0%,84.0,2700,Casey Schmitt,Balanced,0.279,23.9%
+San Francisco Giants vs Cam Schlittler,Oracle Park,Cam Schlittler,Spin,Offspeed,15.0%,86.0,1800,Casey Schmitt,Balanced,0.279,23.9%
+San Francisco Giants vs Cam Schlittler,Oracle Park,Cam Schlittler,Spin,Fastball,40.0%,93.5,2200,Christian Koss,Balanced,0.327,23.6%
+San Francisco Giants vs Cam Schlittler,Oracle Park,Cam Schlittler,Spin,Breaking,45.0%,84.0,2700,Christian Koss,Balanced,0.264,23.6%
+San Francisco Giants vs Cam Schlittler,Oracle Park,Cam Schlittler,Spin,Offspeed,15.0%,86.0,1800,Christian Koss,Balanced,0.264,23.6%
+San Francisco Giants vs Cam Schlittler,Oracle Park,Cam Schlittler,Spin,Fastball,40.0%,93.5,2200,Daniel Susac *,Balanced,0.336,22.0%
+San Francisco Giants vs Cam Schlittler,Oracle Park,Cam Schlittler,Spin,Breaking,45.0%,84.0,2700,Daniel Susac *,Balanced,0.272,22.0%
+San Francisco Giants vs Cam Schlittler,Oracle Park,Cam Schlittler,Spin,Offspeed,15.0%,86.0,1800,Daniel Susac *,Balanced,0.272,22.0%
+San Francisco Giants vs Cam Schlittler,Oracle Park,Cam Schlittler,Spin,Fastball,40.0%,93.5,2200,Harrison Bader,Balanced,0.312,27.1%
+San Francisco Giants vs Cam Schlittler,Oracle Park,Cam Schlittler,Spin,Breaking,45.0%,84.0,2700,Harrison Bader,Balanced,0.252,27.1%
+San Francisco Giants vs Cam Schlittler,Oracle Park,Cam Schlittler,Spin,Offspeed,15.0%,86.0,1800,Harrison Bader,Balanced,0.252,27.1%
+San Francisco Giants vs Cam Schlittler,Oracle Park,Cam Schlittler,Spin,Fastball,40.0%,93.5,2200,Heliot Ramos,Balanced,0.336,22.7%
+San Francisco Giants vs Cam Schlittler,Oracle Park,Cam Schlittler,Spin,Breaking,45.0%,84.0,2700,Heliot Ramos,Balanced,0.272,22.7%
+San Francisco Giants vs Cam Schlittler,Oracle Park,Cam Schlittler,Spin,Offspeed,15.0%,86.0,1800,Heliot Ramos,Balanced,0.272,22.7%
+San Francisco Giants vs Cam Schlittler,Oracle Park,Cam Schlittler,Spin,Fastball,40.0%,93.5,2200,Jared Oliva *,Balanced,0.336,22.0%
+San Francisco Giants vs Cam Schlittler,Oracle Park,Cam Schlittler,Spin,Breaking,45.0%,84.0,2700,Jared Oliva *,Balanced,0.272,22.0%
+San Francisco Giants vs Cam Schlittler,Oracle Park,Cam Schlittler,Spin,Offspeed,15.0%,86.0,1800,Jared Oliva *,Balanced,0.272,22.0%
+San Francisco Giants vs Cam Schlittler,Oracle Park,Cam Schlittler,Spin,Fastball,25.0%,93.5,2200,Jerar Encarnacion,Slugger,0.312,26.8%
+San Francisco Giants vs Cam Schlittler,Oracle Park,Cam Schlittler,Spin,Breaking,55.0%,84.0,2700,Jerar Encarnacion,Slugger,0.252,26.8%
+San Francisco Giants vs Cam Schlittler,Oracle Park,Cam Schlittler,Spin,Offspeed,20.0%,86.0,1800,Jerar Encarnacion,Slugger,0.252,26.8%
+San Francisco Giants vs Cam Schlittler,Oracle Park,Cam Schlittler,Spin,Fastball,50.0%,93.5,2200,Jung Hoo Lee,Contact,0.336,11.5%
+San Francisco Giants vs Cam Schlittler,Oracle Park,Cam Schlittler,Spin,Breaking,40.0%,84.0,2700,Jung Hoo Lee,Contact,0.272,11.5%
+San Francisco Giants vs Cam Schlittler,Oracle Park,Cam Schlittler,Spin,Offspeed,10.0%,86.0,1800,Jung Hoo Lee,Contact,0.272,11.5%
+San Francisco Giants vs Cam Schlittler,Oracle Park,Cam Schlittler,Spin,Fastball,50.0%,93.5,2200,Luis Arraez,Contact,0.318,3.1%
+San Francisco Giants vs Cam Schlittler,Oracle Park,Cam Schlittler,Spin,Breaking,40.0%,84.0,2700,Luis Arraez,Contact,0.258,3.1%
+San Francisco Giants vs Cam Schlittler,Oracle Park,Cam Schlittler,Spin,Offspeed,10.0%,86.0,1800,Luis Arraez,Contact,0.258,3.1%
+Athletics vs Kevin Gausman,Rogers Centre,Kevin Gausman,Spin,Fastball,50.0%,93.5,2200,Andy Ibáñez,Contact,0.319,13.5%
+Athletics vs Kevin Gausman,Rogers Centre,Kevin Gausman,Spin,Breaking,40.0%,84.0,2700,Andy Ibáñez,Contact,0.258,13.5%
+Athletics vs Kevin Gausman,Rogers Centre,Kevin Gausman,Spin,Offspeed,10.0%,86.0,1800,Andy Ibáñez,Contact,0.258,13.5%
+Athletics vs Kevin Gausman,Rogers Centre,Kevin Gausman,Spin,Fastball,25.0%,93.5,2200,Austin Wynns,Slugger,0.31,29.1%
+Athletics vs Kevin Gausman,Rogers Centre,Kevin Gausman,Spin,Breaking,55.0%,84.0,2700,Austin Wynns,Slugger,0.251,29.1%
+Athletics vs Kevin Gausman,Rogers Centre,Kevin Gausman,Spin,Offspeed,20.0%,86.0,1800,Austin Wynns,Slugger,0.251,29.1%
+Athletics vs Kevin Gausman,Rogers Centre,Kevin Gausman,Spin,Fastball,25.0%,93.5,2200,Brent Rooker,Slugger,0.369,22.2%
+Athletics vs Kevin Gausman,Rogers Centre,Kevin Gausman,Spin,Breaking,55.0%,84.0,2700,Brent Rooker,Slugger,0.298,22.2%
+Athletics vs Kevin Gausman,Rogers Centre,Kevin Gausman,Spin,Offspeed,20.0%,86.0,1800,Brent Rooker,Slugger,0.298,22.2%
+Athletics vs Kevin Gausman,Rogers Centre,Kevin Gausman,Spin,Fastball,40.0%,93.5,2200,Carlos Cortes,Balanced,0.332,20.2%
+Athletics vs Kevin Gausman,Rogers Centre,Kevin Gausman,Spin,Breaking,45.0%,84.0,2700,Carlos Cortes,Balanced,0.269,20.2%
+Athletics vs Kevin Gausman,Rogers Centre,Kevin Gausman,Spin,Offspeed,15.0%,86.0,1800,Carlos Cortes,Balanced,0.269,20.2%
+Athletics vs Kevin Gausman,Rogers Centre,Kevin Gausman,Spin,Fastball,50.0%,93.5,2200,Darell Hernaiz,Contact,0.32,12.2%
+Athletics vs Kevin Gausman,Rogers Centre,Kevin Gausman,Spin,Breaking,40.0%,84.0,2700,Darell Hernaiz,Contact,0.259,12.2%
+Athletics vs Kevin Gausman,Rogers Centre,Kevin Gausman,Spin,Offspeed,10.0%,86.0,1800,Darell Hernaiz,Contact,0.259,12.2%
+Athletics vs Kevin Gausman,Rogers Centre,Kevin Gausman,Spin,Fastball,40.0%,93.5,2200,Denzel Clarke,Balanced,0.267,38.4%
+Athletics vs Kevin Gausman,Rogers Centre,Kevin Gausman,Spin,Breaking,45.0%,84.0,2700,Denzel Clarke,Balanced,0.216,38.4%
+Athletics vs Kevin Gausman,Rogers Centre,Kevin Gausman,Spin,Offspeed,15.0%,86.0,1800,Denzel Clarke,Balanced,0.216,38.4%
+Athletics vs Kevin Gausman,Rogers Centre,Kevin Gausman,Spin,Fastball,50.0%,93.5,2200,Jacob Wilson,Contact,0.319,7.5%
+Athletics vs Kevin Gausman,Rogers Centre,Kevin Gausman,Spin,Breaking,40.0%,84.0,2700,Jacob Wilson,Contact,0.258,7.5%
+Athletics vs Kevin Gausman,Rogers Centre,Kevin Gausman,Spin,Offspeed,10.0%,86.0,1800,Jacob Wilson,Contact,0.258,7.5%
+Athletics vs Kevin Gausman,Rogers Centre,Kevin Gausman,Spin,Fastball,50.0%,93.5,2200,Jeff McNeil,Contact,0.347,11.9%
+Athletics vs Kevin Gausman,Rogers Centre,Kevin Gausman,Spin,Breaking,40.0%,84.0,2700,Jeff McNeil,Contact,0.281,11.9%
+Athletics vs Kevin Gausman,Rogers Centre,Kevin Gausman,Spin,Offspeed,10.0%,86.0,1800,Jeff McNeil,Contact,0.281,11.9%
+Athletics vs Kevin Gausman,Rogers Centre,Kevin Gausman,Spin,Fastball,40.0%,93.5,2200,Lawrence Butler,Balanced,0.32,28.4%
+Athletics vs Kevin Gausman,Rogers Centre,Kevin Gausman,Spin,Breaking,45.0%,84.0,2700,Lawrence Butler,Balanced,0.259,28.4%
+Athletics vs Kevin Gausman,Rogers Centre,Kevin Gausman,Spin,Offspeed,15.0%,86.0,1800,Lawrence Butler,Balanced,0.259,28.4%
+Toronto Blue Jays vs Luis Severino,Rogers Centre,Luis Severino,Spin,Fastball,25.0%,93.5,2200,Addison Barger,Slugger,0.348,24.1%
+Toronto Blue Jays vs Luis Severino,Rogers Centre,Luis Severino,Spin,Breaking,55.0%,84.0,2700,Addison Barger,Slugger,0.281,24.1%
+Toronto Blue Jays vs Luis Severino,Rogers Centre,Luis Severino,Spin,Offspeed,20.0%,86.0,1800,Addison Barger,Slugger,0.281,24.1%
+Toronto Blue Jays vs Luis Severino,Rogers Centre,Luis Severino,Spin,Fastball,50.0%,93.5,2200,Alejandro Kirk,Contact,0.377,11.7%
+Toronto Blue Jays vs Luis Severino,Rogers Centre,Luis Severino,Spin,Breaking,40.0%,84.0,2700,Alejandro Kirk,Contact,0.305,11.7%
+Toronto Blue Jays vs Luis Severino,Rogers Centre,Luis Severino,Spin,Offspeed,10.0%,86.0,1800,Alejandro Kirk,Contact,0.305,11.7%
+Toronto Blue Jays vs Luis Severino,Rogers Centre,Luis Severino,Spin,Fastball,50.0%,93.5,2200,Andrés Giménez,Contact,0.323,17.9%
+Toronto Blue Jays vs Luis Severino,Rogers Centre,Luis Severino,Spin,Breaking,40.0%,84.0,2700,Andrés Giménez,Contact,0.262,17.9%
+Toronto Blue Jays vs Luis Severino,Rogers Centre,Luis Severino,Spin,Offspeed,10.0%,86.0,1800,Andrés Giménez,Contact,0.262,17.9%
+Toronto Blue Jays vs Luis Severino,Rogers Centre,Luis Severino,Spin,Fastball,25.0%,93.5,2200,Daulton Varsho,Slugger,0.343,28.4%
+Toronto Blue Jays vs Luis Severino,Rogers Centre,Luis Severino,Spin,Breaking,55.0%,84.0,2700,Daulton Varsho,Slugger,0.278,28.4%
+Toronto Blue Jays vs Luis Severino,Rogers Centre,Luis Severino,Spin,Offspeed,20.0%,86.0,1800,Daulton Varsho,Slugger,0.278,28.4%
+Toronto Blue Jays vs Luis Severino,Rogers Centre,Luis Severino,Spin,Fastball,25.0%,93.5,2200,Davis Schneider,Slugger,0.339,26.4%
+Toronto Blue Jays vs Luis Severino,Rogers Centre,Luis Severino,Spin,Breaking,55.0%,84.0,2700,Davis Schneider,Slugger,0.275,26.4%
+Toronto Blue Jays vs Luis Severino,Rogers Centre,Luis Severino,Spin,Offspeed,20.0%,86.0,1800,Davis Schneider,Slugger,0.275,26.4%
+Toronto Blue Jays vs Luis Severino,Rogers Centre,Luis Severino,Spin,Fastball,50.0%,93.5,2200,Ernie Clement,Contact,0.307,10.4%
+Toronto Blue Jays vs Luis Severino,Rogers Centre,Luis Severino,Spin,Breaking,40.0%,84.0,2700,Ernie Clement,Contact,0.248,10.4%
+Toronto Blue Jays vs Luis Severino,Rogers Centre,Luis Severino,Spin,Offspeed,10.0%,86.0,1800,Ernie Clement,Contact,0.248,10.4%
+Toronto Blue Jays vs Luis Severino,Rogers Centre,Luis Severino,Spin,Fastball,40.0%,93.5,2200,George Springer,Balanced,0.424,18.9%
+Toronto Blue Jays vs Luis Severino,Rogers Centre,Luis Severino,Spin,Breaking,45.0%,84.0,2700,George Springer,Balanced,0.343,18.9%
+Toronto Blue Jays vs Luis Severino,Rogers Centre,Luis Severino,Spin,Offspeed,15.0%,86.0,1800,George Springer,Balanced,0.343,18.9%
+Toronto Blue Jays vs Luis Severino,Rogers Centre,Luis Severino,Spin,Fastball,40.0%,93.5,2200,Jesús Sánchez,Balanced,0.339,22.1%
+Toronto Blue Jays vs Luis Severino,Rogers Centre,Luis Severino,Spin,Breaking,45.0%,84.0,2700,Jesús Sánchez,Balanced,0.275,22.1%
+Toronto Blue Jays vs Luis Severino,Rogers Centre,Luis Severino,Spin,Offspeed,15.0%,86.0,1800,Jesús Sánchez,Balanced,0.275,22.1%
+Toronto Blue Jays vs Luis Severino,Rogers Centre,Luis Severino,Spin,Fastball,40.0%,93.5,2200,Kazuma Okamoto *,Balanced,0.336,22.0%
+Toronto Blue Jays vs Luis Severino,Rogers Centre,Luis Severino,Spin,Breaking,45.0%,84.0,2700,Kazuma Okamoto *,Balanced,0.272,22.0%
+Toronto Blue Jays vs Luis Severino,Rogers Centre,Luis Severino,Spin,Offspeed,15.0%,86.0,1800,Kazuma Okamoto *,Balanced,0.272,22.0%
+Colorado Rockies vs Sandy Alcantara,loanDepot park,Sandy Alcantara,Balanced,Fastball,50.0%,94.5,2300,Braxton Fulford,Balanced,0.275,30.0%
+Colorado Rockies vs Sandy Alcantara,loanDepot park,Sandy Alcantara,Balanced,Breaking,30.0%,84.0,2500,Braxton Fulford,Balanced,0.223,30.0%
+Colorado Rockies vs Sandy Alcantara,loanDepot park,Sandy Alcantara,Balanced,Offspeed,20.0%,85.5,1800,Braxton Fulford,Balanced,0.223,30.0%
+Colorado Rockies vs Sandy Alcantara,loanDepot park,Sandy Alcantara,Balanced,Fastball,50.0%,94.5,2300,Brenton Doyle,Balanced,0.315,25.7%
+Colorado Rockies vs Sandy Alcantara,loanDepot park,Sandy Alcantara,Balanced,Breaking,30.0%,84.0,2500,Brenton Doyle,Balanced,0.255,25.7%
+Colorado Rockies vs Sandy Alcantara,loanDepot park,Sandy Alcantara,Balanced,Offspeed,20.0%,85.5,1800,Brenton Doyle,Balanced,0.255,25.7%
+Colorado Rockies vs Sandy Alcantara,loanDepot park,Sandy Alcantara,Balanced,Fastball,50.0%,94.5,2300,Brett Sullivan *,Balanced,0.336,22.0%
+Colorado Rockies vs Sandy Alcantara,loanDepot park,Sandy Alcantara,Balanced,Breaking,30.0%,84.0,2500,Brett Sullivan *,Balanced,0.272,22.0%
+Colorado Rockies vs Sandy Alcantara,loanDepot park,Sandy Alcantara,Balanced,Offspeed,20.0%,85.5,1800,Brett Sullivan *,Balanced,0.272,22.0%
+Colorado Rockies vs Sandy Alcantara,loanDepot park,Sandy Alcantara,Balanced,Fastball,50.0%,94.5,2300,Edouard Julien,Balanced,0.345,29.3%
+Colorado Rockies vs Sandy Alcantara,loanDepot park,Sandy Alcantara,Balanced,Breaking,30.0%,84.0,2500,Edouard Julien,Balanced,0.28,29.3%
+Colorado Rockies vs Sandy Alcantara,loanDepot park,Sandy Alcantara,Balanced,Offspeed,20.0%,85.5,1800,Edouard Julien,Balanced,0.28,29.3%
+Colorado Rockies vs Sandy Alcantara,loanDepot park,Sandy Alcantara,Balanced,Fastball,50.0%,94.5,2300,Ezequiel Tovar,Balanced,0.336,25.1%
+Colorado Rockies vs Sandy Alcantara,loanDepot park,Sandy Alcantara,Balanced,Breaking,30.0%,84.0,2500,Ezequiel Tovar,Balanced,0.272,25.1%
+Colorado Rockies vs Sandy Alcantara,loanDepot park,Sandy Alcantara,Balanced,Offspeed,20.0%,85.5,1800,Ezequiel Tovar,Balanced,0.272,25.1%
+Colorado Rockies vs Sandy Alcantara,loanDepot park,Sandy Alcantara,Balanced,Fastball,35.0%,94.5,2300,Hunter Goodman,Slugger,0.34,26.3%
+Colorado Rockies vs Sandy Alcantara,loanDepot park,Sandy Alcantara,Balanced,Breaking,40.0%,84.0,2500,Hunter Goodman,Slugger,0.275,26.3%
+Colorado Rockies vs Sandy Alcantara,loanDepot park,Sandy Alcantara,Balanced,Offspeed,25.0%,85.5,1800,Hunter Goodman,Slugger,0.275,26.3%
+Colorado Rockies vs Sandy Alcantara,loanDepot park,Sandy Alcantara,Balanced,Fastball,60.0%,94.5,2300,Jake McCarthy,Contact,0.3,18.0%
+Colorado Rockies vs Sandy Alcantara,loanDepot park,Sandy Alcantara,Balanced,Breaking,25.0%,84.0,2500,Jake McCarthy,Contact,0.243,18.0%
+Colorado Rockies vs Sandy Alcantara,loanDepot park,Sandy Alcantara,Balanced,Offspeed,15.0%,85.5,1800,Jake McCarthy,Contact,0.243,18.0%
+Colorado Rockies vs Sandy Alcantara,loanDepot park,Sandy Alcantara,Balanced,Fastball,50.0%,94.5,2300,Jordan Beck,Balanced,0.317,29.6%
+Colorado Rockies vs Sandy Alcantara,loanDepot park,Sandy Alcantara,Balanced,Breaking,30.0%,84.0,2500,Jordan Beck,Balanced,0.257,29.6%
+Colorado Rockies vs Sandy Alcantara,loanDepot park,Sandy Alcantara,Balanced,Offspeed,20.0%,85.5,1800,Jordan Beck,Balanced,0.257,29.6%
+Colorado Rockies vs Sandy Alcantara,loanDepot park,Sandy Alcantara,Balanced,Fastball,50.0%,94.5,2300,Kyle Karros,Balanced,0.274,26.3%
+Colorado Rockies vs Sandy Alcantara,loanDepot park,Sandy Alcantara,Balanced,Breaking,30.0%,84.0,2500,Kyle Karros,Balanced,0.222,26.3%
+Colorado Rockies vs Sandy Alcantara,loanDepot park,Sandy Alcantara,Balanced,Offspeed,20.0%,85.5,1800,Kyle Karros,Balanced,0.222,26.3%
+Miami Marlins vs Kyle Freeland,loanDepot park,Kyle Freeland,Power,Fastball,65.0%,96.5,2400,Agustín Ramírez,Balanced,0.349,19.3%
+Miami Marlins vs Kyle Freeland,loanDepot park,Kyle Freeland,Power,Breaking,25.0%,85.0,2400,Agustín Ramírez,Balanced,0.282,19.3%
+Miami Marlins vs Kyle Freeland,loanDepot park,Kyle Freeland,Power,Offspeed,10.0%,88.0,1700,Agustín Ramírez,Balanced,0.282,19.3%
+Miami Marlins vs Kyle Freeland,loanDepot park,Kyle Freeland,Power,Fastball,65.0%,96.5,2400,Austin Slater,Balanced,0.349,31.9%
+Miami Marlins vs Kyle Freeland,loanDepot park,Kyle Freeland,Power,Breaking,25.0%,85.0,2400,Austin Slater,Balanced,0.282,31.9%
+Miami Marlins vs Kyle Freeland,loanDepot park,Kyle Freeland,Power,Offspeed,10.0%,88.0,1700,Austin Slater,Balanced,0.282,31.9%
+Miami Marlins vs Kyle Freeland,loanDepot park,Kyle Freeland,Power,Fastball,50.0%,96.5,2400,Christopher Morel,Slugger,0.319,35.7%
+Miami Marlins vs Kyle Freeland,loanDepot park,Kyle Freeland,Power,Breaking,35.0%,85.0,2400,Christopher Morel,Slugger,0.258,35.7%
+Miami Marlins vs Kyle Freeland,loanDepot park,Kyle Freeland,Power,Offspeed,15.0%,88.0,1700,Christopher Morel,Slugger,0.258,35.7%
+Miami Marlins vs Kyle Freeland,loanDepot park,Kyle Freeland,Power,Fastball,65.0%,96.5,2400,Connor Norby,Balanced,0.322,26.7%
+Miami Marlins vs Kyle Freeland,loanDepot park,Kyle Freeland,Power,Breaking,25.0%,85.0,2400,Connor Norby,Balanced,0.261,26.7%
+Miami Marlins vs Kyle Freeland,loanDepot park,Kyle Freeland,Power,Offspeed,10.0%,88.0,1700,Connor Norby,Balanced,0.261,26.7%
+Miami Marlins vs Kyle Freeland,loanDepot park,Kyle Freeland,Power,Fastball,65.0%,96.5,2400,Graham Pauley,Balanced,0.314,19.6%
+Miami Marlins vs Kyle Freeland,loanDepot park,Kyle Freeland,Power,Breaking,25.0%,85.0,2400,Graham Pauley,Balanced,0.254,19.6%
+Miami Marlins vs Kyle Freeland,loanDepot park,Kyle Freeland,Power,Offspeed,10.0%,88.0,1700,Graham Pauley,Balanced,0.254,19.6%
+Miami Marlins vs Kyle Freeland,loanDepot park,Kyle Freeland,Power,Fastball,65.0%,96.5,2400,Griffin Conine,Balanced,0.314,29.1%
+Miami Marlins vs Kyle Freeland,loanDepot park,Kyle Freeland,Power,Breaking,25.0%,85.0,2400,Griffin Conine,Balanced,0.254,29.1%
+Miami Marlins vs Kyle Freeland,loanDepot park,Kyle Freeland,Power,Offspeed,10.0%,88.0,1700,Griffin Conine,Balanced,0.254,29.1%
+Miami Marlins vs Kyle Freeland,loanDepot park,Kyle Freeland,Power,Fastball,65.0%,96.5,2400,Heriberto Hernández,Balanced,0.351,26.2%
+Miami Marlins vs Kyle Freeland,loanDepot park,Kyle Freeland,Power,Breaking,25.0%,85.0,2400,Heriberto Hernández,Balanced,0.284,26.2%
+Miami Marlins vs Kyle Freeland,loanDepot park,Kyle Freeland,Power,Offspeed,10.0%,88.0,1700,Heriberto Hernández,Balanced,0.284,26.2%
+Miami Marlins vs Kyle Freeland,loanDepot park,Kyle Freeland,Power,Fastball,65.0%,96.5,2400,Jakob Marsee,Balanced,0.364,20.5%
+Miami Marlins vs Kyle Freeland,loanDepot park,Kyle Freeland,Power,Breaking,25.0%,85.0,2400,Jakob Marsee,Balanced,0.295,20.5%
+Miami Marlins vs Kyle Freeland,loanDepot park,Kyle Freeland,Power,Offspeed,10.0%,88.0,1700,Jakob Marsee,Balanced,0.295,20.5%
+Miami Marlins vs Kyle Freeland,loanDepot park,Kyle Freeland,Power,Fastball,71.4%,96.5,2400,Javier Sanoja,Contact,0.296,12.0%
+Miami Marlins vs Kyle Freeland,loanDepot park,Kyle Freeland,Power,Breaking,19.0%,85.0,2400,Javier Sanoja,Contact,0.24,12.0%
+Miami Marlins vs Kyle Freeland,loanDepot park,Kyle Freeland,Power,Offspeed,9.5%,88.0,1700,Javier Sanoja,Contact,0.24,12.0%
+Kansas City Royals vs Chris Sale,Truist Park,Chris Sale,Spin,Fastball,50.0%,93.5,2200,Bobby Witt Jr.,Contact,0.383,18.2%
+Kansas City Royals vs Chris Sale,Truist Park,Chris Sale,Spin,Breaking,40.0%,84.0,2700,Bobby Witt Jr.,Contact,0.31,18.2%
+Kansas City Royals vs Chris Sale,Truist Park,Chris Sale,Spin,Offspeed,10.0%,86.0,1800,Bobby Witt Jr.,Contact,0.31,18.2%
+Kansas City Royals vs Chris Sale,Truist Park,Chris Sale,Spin,Fastball,40.0%,93.5,2200,Carter Jensen,Balanced,0.469,17.4%
+Kansas City Royals vs Chris Sale,Truist Park,Chris Sale,Spin,Breaking,45.0%,84.0,2700,Carter Jensen,Balanced,0.38,17.4%
+Kansas City Royals vs Chris Sale,Truist Park,Chris Sale,Spin,Offspeed,15.0%,86.0,1800,Carter Jensen,Balanced,0.38,17.4%
+Kansas City Royals vs Chris Sale,Truist Park,Chris Sale,Spin,Fastball,40.0%,93.5,2200,Isaac Collins,Balanced,0.338,21.1%
+Kansas City Royals vs Chris Sale,Truist Park,Chris Sale,Spin,Breaking,45.0%,84.0,2700,Isaac Collins,Balanced,0.274,21.1%
+Kansas City Royals vs Chris Sale,Truist Park,Chris Sale,Spin,Offspeed,15.0%,86.0,1800,Isaac Collins,Balanced,0.274,21.1%
+Kansas City Royals vs Chris Sale,Truist Park,Chris Sale,Spin,Fastball,40.0%,93.5,2200,Jac Caglianone,Balanced,0.337,22.4%
+Kansas City Royals vs Chris Sale,Truist Park,Chris Sale,Spin,Breaking,45.0%,84.0,2700,Jac Caglianone,Balanced,0.273,22.4%
+Kansas City Royals vs Chris Sale,Truist Park,Chris Sale,Spin,Offspeed,15.0%,86.0,1800,Jac Caglianone,Balanced,0.273,22.4%
+Kansas City Royals vs Chris Sale,Truist Park,Chris Sale,Spin,Fastball,50.0%,93.5,2200,Jonathan India,Contact,0.33,18.7%
+Kansas City Royals vs Chris Sale,Truist Park,Chris Sale,Spin,Breaking,40.0%,84.0,2700,Jonathan India,Contact,0.267,18.7%
+Kansas City Royals vs Chris Sale,Truist Park,Chris Sale,Spin,Offspeed,10.0%,86.0,1800,Jonathan India,Contact,0.267,18.7%
+Kansas City Royals vs Chris Sale,Truist Park,Chris Sale,Spin,Fastball,50.0%,93.5,2200,Kyle Isbel,Contact,0.264,18.1%
+Kansas City Royals vs Chris Sale,Truist Park,Chris Sale,Spin,Breaking,40.0%,84.0,2700,Kyle Isbel,Contact,0.213,18.1%
+Kansas City Royals vs Chris Sale,Truist Park,Chris Sale,Spin,Offspeed,10.0%,86.0,1800,Kyle Isbel,Contact,0.213,18.1%
+Kansas City Royals vs Chris Sale,Truist Park,Chris Sale,Spin,Fastball,40.0%,93.5,2200,Lane Thomas,Balanced,0.255,31.0%
+Kansas City Royals vs Chris Sale,Truist Park,Chris Sale,Spin,Breaking,45.0%,84.0,2700,Lane Thomas,Balanced,0.207,31.0%
+Kansas City Royals vs Chris Sale,Truist Park,Chris Sale,Spin,Offspeed,15.0%,86.0,1800,Lane Thomas,Balanced,0.207,31.0%
+Kansas City Royals vs Chris Sale,Truist Park,Chris Sale,Spin,Fastball,50.0%,93.5,2200,Maikel Garcia,Contact,0.351,12.6%
+Kansas City Royals vs Chris Sale,Truist Park,Chris Sale,Spin,Breaking,40.0%,84.0,2700,Maikel Garcia,Contact,0.284,12.6%
+Kansas City Royals vs Chris Sale,Truist Park,Chris Sale,Spin,Offspeed,10.0%,86.0,1800,Maikel Garcia,Contact,0.284,12.6%
+Kansas City Royals vs Chris Sale,Truist Park,Chris Sale,Spin,Fastball,50.0%,93.5,2200,Nick Loftin,Contact,0.309,14.4%
+Kansas City Royals vs Chris Sale,Truist Park,Chris Sale,Spin,Breaking,40.0%,84.0,2700,Nick Loftin,Contact,0.25,14.4%
+Kansas City Royals vs Chris Sale,Truist Park,Chris Sale,Spin,Offspeed,10.0%,86.0,1800,Nick Loftin,Contact,0.25,14.4%
+Atlanta Braves vs Cole Ragans,Truist Park,Cole Ragans,Spin,Fastball,25.0%,93.5,2200,Austin Riley,Slugger,0.347,28.6%
+Atlanta Braves vs Cole Ragans,Truist Park,Cole Ragans,Spin,Breaking,55.0%,84.0,2700,Austin Riley,Slugger,0.281,28.6%
+Atlanta Braves vs Cole Ragans,Truist Park,Cole Ragans,Spin,Offspeed,20.0%,86.0,1800,Austin Riley,Slugger,0.281,28.6%
+Atlanta Braves vs Cole Ragans,Truist Park,Cole Ragans,Spin,Fastball,50.0%,93.5,2200,Dominic Smith,Contact,0.321,18.7%
+Atlanta Braves vs Cole Ragans,Truist Park,Cole Ragans,Spin,Breaking,40.0%,84.0,2700,Dominic Smith,Contact,0.26,18.7%
+Atlanta Braves vs Cole Ragans,Truist Park,Cole Ragans,Spin,Offspeed,10.0%,86.0,1800,Dominic Smith,Contact,0.26,18.7%
+Atlanta Braves vs Cole Ragans,Truist Park,Cole Ragans,Spin,Fastball,40.0%,93.5,2200,Drake Baldwin,Balanced,0.371,15.2%
+Atlanta Braves vs Cole Ragans,Truist Park,Cole Ragans,Spin,Breaking,45.0%,84.0,2700,Drake Baldwin,Balanced,0.3,15.2%
+Atlanta Braves vs Cole Ragans,Truist Park,Cole Ragans,Spin,Offspeed,15.0%,86.0,1800,Drake Baldwin,Balanced,0.3,15.2%
+Atlanta Braves vs Cole Ragans,Truist Park,Cole Ragans,Spin,Fastball,25.0%,93.5,2200,Eli White,Slugger,0.326,25.8%
+Atlanta Braves vs Cole Ragans,Truist Park,Cole Ragans,Spin,Breaking,55.0%,84.0,2700,Eli White,Slugger,0.264,25.8%
+Atlanta Braves vs Cole Ragans,Truist Park,Cole Ragans,Spin,Offspeed,20.0%,86.0,1800,Eli White,Slugger,0.264,25.8%
+Atlanta Braves vs Cole Ragans,Truist Park,Cole Ragans,Spin,Fastball,40.0%,93.5,2200,Jonah Heim,Balanced,0.29,20.3%
+Atlanta Braves vs Cole Ragans,Truist Park,Cole Ragans,Spin,Breaking,45.0%,84.0,2700,Jonah Heim,Balanced,0.235,20.3%
+Atlanta Braves vs Cole Ragans,Truist Park,Cole Ragans,Spin,Offspeed,15.0%,86.0,1800,Jonah Heim,Balanced,0.235,20.3%
+Atlanta Braves vs Cole Ragans,Truist Park,Cole Ragans,Spin,Fastball,40.0%,93.5,2200,Jorge Mateo,Balanced,0.216,36.1%
+Atlanta Braves vs Cole Ragans,Truist Park,Cole Ragans,Spin,Breaking,45.0%,84.0,2700,Jorge Mateo,Balanced,0.175,36.1%
+Atlanta Braves vs Cole Ragans,Truist Park,Cole Ragans,Spin,Offspeed,15.0%,86.0,1800,Jorge Mateo,Balanced,0.175,36.1%
+Atlanta Braves vs Cole Ragans,Truist Park,Cole Ragans,Spin,Fastball,40.0%,93.5,2200,Kyle Farmer,Balanced,0.299,22.0%
+Atlanta Braves vs Cole Ragans,Truist Park,Cole Ragans,Spin,Breaking,45.0%,84.0,2700,Kyle Farmer,Balanced,0.242,22.0%
+Atlanta Braves vs Cole Ragans,Truist Park,Cole Ragans,Spin,Offspeed,15.0%,86.0,1800,Kyle Farmer,Balanced,0.242,22.0%
+Atlanta Braves vs Cole Ragans,Truist Park,Cole Ragans,Spin,Fastball,25.0%,93.5,2200,Matt Olson,Slugger,0.378,24.3%
+Atlanta Braves vs Cole Ragans,Truist Park,Cole Ragans,Spin,Breaking,55.0%,84.0,2700,Matt Olson,Slugger,0.306,24.3%
+Atlanta Braves vs Cole Ragans,Truist Park,Cole Ragans,Spin,Offspeed,20.0%,86.0,1800,Matt Olson,Slugger,0.306,24.3%
+Atlanta Braves vs Cole Ragans,Truist Park,Cole Ragans,Spin,Fastball,50.0%,93.5,2200,Mauricio Dubón,Contact,0.292,10.6%
+Atlanta Braves vs Cole Ragans,Truist Park,Cole Ragans,Spin,Breaking,40.0%,84.0,2700,Mauricio Dubón,Contact,0.236,10.6%
+Atlanta Braves vs Cole Ragans,Truist Park,Cole Ragans,Spin,Offspeed,10.0%,86.0,1800,Mauricio Dubón,Contact,0.236,10.6%
+Los Angeles Angels vs Mike Burrows,Daikin Park,Mike Burrows,Power,Fastball,71.4%,96.5,2400,Adam Frazier,Contact,0.293,17.6%
+Los Angeles Angels vs Mike Burrows,Daikin Park,Mike Burrows,Power,Breaking,19.0%,85.0,2400,Adam Frazier,Contact,0.237,17.6%
+Los Angeles Angels vs Mike Burrows,Daikin Park,Mike Burrows,Power,Offspeed,9.5%,88.0,1700,Adam Frazier,Contact,0.237,17.6%
+Los Angeles Angels vs Mike Burrows,Daikin Park,Mike Burrows,Power,Fastball,65.0%,96.5,2400,Bryce Teodosio,Balanced,0.233,31.3%
+Los Angeles Angels vs Mike Burrows,Daikin Park,Mike Burrows,Power,Breaking,25.0%,85.0,2400,Bryce Teodosio,Balanced,0.189,31.3%
+Los Angeles Angels vs Mike Burrows,Daikin Park,Mike Burrows,Power,Offspeed,10.0%,88.0,1700,Bryce Teodosio,Balanced,0.189,31.3%
+Los Angeles Angels vs Mike Burrows,Daikin Park,Mike Burrows,Power,Fastball,65.0%,96.5,2400,Jeimer Candelario,Balanced,0.224,31.9%
+Los Angeles Angels vs Mike Burrows,Daikin Park,Mike Burrows,Power,Breaking,25.0%,85.0,2400,Jeimer Candelario,Balanced,0.181,31.9%
+Los Angeles Angels vs Mike Burrows,Daikin Park,Mike Burrows,Power,Offspeed,10.0%,88.0,1700,Jeimer Candelario,Balanced,0.181,31.9%
+Los Angeles Angels vs Mike Burrows,Daikin Park,Mike Burrows,Power,Fastball,50.0%,96.5,2400,Jo Adell,Slugger,0.383,26.4%
+Los Angeles Angels vs Mike Burrows,Daikin Park,Mike Burrows,Power,Breaking,35.0%,85.0,2400,Jo Adell,Slugger,0.31,26.4%
+Los Angeles Angels vs Mike Burrows,Daikin Park,Mike Burrows,Power,Offspeed,15.0%,88.0,1700,Jo Adell,Slugger,0.31,26.4%
+Los Angeles Angels vs Mike Burrows,Daikin Park,Mike Burrows,Power,Fastball,50.0%,96.5,2400,Jorge Soler,Slugger,0.309,29.8%
+Los Angeles Angels vs Mike Burrows,Daikin Park,Mike Burrows,Power,Breaking,35.0%,85.0,2400,Jorge Soler,Slugger,0.25,29.8%
+Los Angeles Angels vs Mike Burrows,Daikin Park,Mike Burrows,Power,Offspeed,15.0%,88.0,1700,Jorge Soler,Slugger,0.25,29.8%
+Los Angeles Angels vs Mike Burrows,Daikin Park,Mike Burrows,Power,Fastball,65.0%,96.5,2400,Josh Lowe,Balanced,0.313,25.1%
+Los Angeles Angels vs Mike Burrows,Daikin Park,Mike Burrows,Power,Breaking,25.0%,85.0,2400,Josh Lowe,Balanced,0.253,25.1%
+Los Angeles Angels vs Mike Burrows,Daikin Park,Mike Burrows,Power,Offspeed,10.0%,88.0,1700,Josh Lowe,Balanced,0.253,25.1%
+Los Angeles Angels vs Mike Burrows,Daikin Park,Mike Burrows,Power,Fastball,50.0%,96.5,2400,Logan O'Hoppe,Slugger,0.316,30.8%
+Los Angeles Angels vs Mike Burrows,Daikin Park,Mike Burrows,Power,Breaking,35.0%,85.0,2400,Logan O'Hoppe,Slugger,0.256,30.8%
+Los Angeles Angels vs Mike Burrows,Daikin Park,Mike Burrows,Power,Offspeed,15.0%,88.0,1700,Logan O'Hoppe,Slugger,0.256,30.8%
+Los Angeles Angels vs Mike Burrows,Daikin Park,Mike Burrows,Power,Fastball,50.0%,96.5,2400,Mike Trout,Slugger,0.376,32.0%
+Los Angeles Angels vs Mike Burrows,Daikin Park,Mike Burrows,Power,Breaking,35.0%,85.0,2400,Mike Trout,Slugger,0.304,32.0%
+Los Angeles Angels vs Mike Burrows,Daikin Park,Mike Burrows,Power,Offspeed,15.0%,88.0,1700,Mike Trout,Slugger,0.304,32.0%
+Los Angeles Angels vs Mike Burrows,Daikin Park,Mike Burrows,Power,Fastball,71.4%,96.5,2400,Nolan Schanuel,Contact,0.344,12.6%
+Los Angeles Angels vs Mike Burrows,Daikin Park,Mike Burrows,Power,Breaking,19.0%,85.0,2400,Nolan Schanuel,Contact,0.279,12.6%
+Los Angeles Angels vs Mike Burrows,Daikin Park,Mike Burrows,Power,Offspeed,9.5%,88.0,1700,Nolan Schanuel,Contact,0.279,12.6%
+Houston Astros vs Yusei Kikuchi,Daikin Park,Yusei Kikuchi,Power,Fastball,50.0%,96.5,2400,Brice Matthews,Slugger,0.309,42.6%
+Houston Astros vs Yusei Kikuchi,Daikin Park,Yusei Kikuchi,Power,Breaking,35.0%,85.0,2400,Brice Matthews,Slugger,0.25,42.6%
+Houston Astros vs Yusei Kikuchi,Daikin Park,Yusei Kikuchi,Power,Offspeed,15.0%,88.0,1700,Brice Matthews,Slugger,0.25,42.6%
+Houston Astros vs Yusei Kikuchi,Daikin Park,Yusei Kikuchi,Power,Fastball,65.0%,96.5,2400,Cam Smith,Balanced,0.319,27.8%
+Houston Astros vs Yusei Kikuchi,Daikin Park,Yusei Kikuchi,Power,Breaking,25.0%,85.0,2400,Cam Smith,Balanced,0.258,27.8%
+Houston Astros vs Yusei Kikuchi,Daikin Park,Yusei Kikuchi,Power,Offspeed,10.0%,88.0,1700,Cam Smith,Balanced,0.258,27.8%
+Houston Astros vs Yusei Kikuchi,Daikin Park,Yusei Kikuchi,Power,Fastball,65.0%,96.5,2400,Carlos Correa,Balanced,0.355,19.3%
+Houston Astros vs Yusei Kikuchi,Daikin Park,Yusei Kikuchi,Power,Breaking,25.0%,85.0,2400,Carlos Correa,Balanced,0.287,19.3%
+Houston Astros vs Yusei Kikuchi,Daikin Park,Yusei Kikuchi,Power,Offspeed,10.0%,88.0,1700,Carlos Correa,Balanced,0.287,19.3%
+Houston Astros vs Yusei Kikuchi,Daikin Park,Yusei Kikuchi,Power,Fastball,71.4%,96.5,2400,Christian Vázquez,Contact,0.285,16.4%
+Houston Astros vs Yusei Kikuchi,Daikin Park,Yusei Kikuchi,Power,Breaking,19.0%,85.0,2400,Christian Vázquez,Contact,0.23,16.4%
+Houston Astros vs Yusei Kikuchi,Daikin Park,Yusei Kikuchi,Power,Offspeed,9.5%,88.0,1700,Christian Vázquez,Contact,0.23,16.4%
+Houston Astros vs Yusei Kikuchi,Daikin Park,Yusei Kikuchi,Power,Fastball,50.0%,96.5,2400,Christian Walker,Slugger,0.33,27.7%
+Houston Astros vs Yusei Kikuchi,Daikin Park,Yusei Kikuchi,Power,Breaking,35.0%,85.0,2400,Christian Walker,Slugger,0.267,27.7%
+Houston Astros vs Yusei Kikuchi,Daikin Park,Yusei Kikuchi,Power,Offspeed,15.0%,88.0,1700,Christian Walker,Slugger,0.267,27.7%
+Houston Astros vs Yusei Kikuchi,Daikin Park,Yusei Kikuchi,Power,Fastball,65.0%,96.5,2400,Isaac Paredes,Balanced,0.336,17.4%
+Houston Astros vs Yusei Kikuchi,Daikin Park,Yusei Kikuchi,Power,Breaking,25.0%,85.0,2400,Isaac Paredes,Balanced,0.272,17.4%
+Houston Astros vs Yusei Kikuchi,Daikin Park,Yusei Kikuchi,Power,Offspeed,10.0%,88.0,1700,Isaac Paredes,Balanced,0.272,17.4%
+Houston Astros vs Yusei Kikuchi,Daikin Park,Yusei Kikuchi,Power,Fastball,71.4%,96.5,2400,Jake Meyers,Contact,0.341,17.6%
+Houston Astros vs Yusei Kikuchi,Daikin Park,Yusei Kikuchi,Power,Breaking,19.0%,85.0,2400,Jake Meyers,Contact,0.276,17.6%
+Houston Astros vs Yusei Kikuchi,Daikin Park,Yusei Kikuchi,Power,Offspeed,9.5%,88.0,1700,Jake Meyers,Contact,0.276,17.6%
+Houston Astros vs Yusei Kikuchi,Daikin Park,Yusei Kikuchi,Power,Fastball,71.4%,96.5,2400,Jeremy Peña,Contact,0.351,17.1%
+Houston Astros vs Yusei Kikuchi,Daikin Park,Yusei Kikuchi,Power,Breaking,19.0%,85.0,2400,Jeremy Peña,Contact,0.284,17.1%
+Houston Astros vs Yusei Kikuchi,Daikin Park,Yusei Kikuchi,Power,Offspeed,9.5%,88.0,1700,Jeremy Peña,Contact,0.284,17.1%
+Houston Astros vs Yusei Kikuchi,Daikin Park,Yusei Kikuchi,Power,Fastball,50.0%,96.5,2400,Joey Loperfido,Slugger,0.332,26.0%
+Houston Astros vs Yusei Kikuchi,Daikin Park,Yusei Kikuchi,Power,Breaking,35.0%,85.0,2400,Joey Loperfido,Slugger,0.269,26.0%
+Houston Astros vs Yusei Kikuchi,Daikin Park,Yusei Kikuchi,Power,Offspeed,15.0%,88.0,1700,Joey Loperfido,Slugger,0.269,26.0%
+Detroit Tigers vs Michael King,Petco Park,Michael King,Power,Fastball,65.0%,96.5,2400,Colt Keith,Balanced,0.358,21.8%
+Detroit Tigers vs Michael King,Petco Park,Michael King,Power,Breaking,25.0%,85.0,2400,Colt Keith,Balanced,0.29,21.8%
+Detroit Tigers vs Michael King,Petco Park,Michael King,Power,Offspeed,10.0%,88.0,1700,Colt Keith,Balanced,0.29,21.8%
+Detroit Tigers vs Michael King,Petco Park,Michael King,Power,Fastball,65.0%,96.5,2400,Dillon Dingler,Balanced,0.369,23.5%
+Detroit Tigers vs Michael King,Petco Park,Michael King,Power,Breaking,25.0%,85.0,2400,Dillon Dingler,Balanced,0.298,23.5%
+Detroit Tigers vs Michael King,Petco Park,Michael King,Power,Offspeed,10.0%,88.0,1700,Dillon Dingler,Balanced,0.298,23.5%
+Detroit Tigers vs Michael King,Petco Park,Michael King,Power,Fastball,71.4%,96.5,2400,Gleyber Torres,Contact,0.381,16.1%
+Detroit Tigers vs Michael King,Petco Park,Michael King,Power,Breaking,19.0%,85.0,2400,Gleyber Torres,Contact,0.309,16.1%
+Detroit Tigers vs Michael King,Petco Park,Michael King,Power,Offspeed,9.5%,88.0,1700,Gleyber Torres,Contact,0.309,16.1%
+Detroit Tigers vs Michael King,Petco Park,Michael King,Power,Fastball,50.0%,96.5,2400,Jahmai Jones,Slugger,0.419,21.3%
+Detroit Tigers vs Michael King,Petco Park,Michael King,Power,Breaking,35.0%,85.0,2400,Jahmai Jones,Slugger,0.339,21.3%
+Detroit Tigers vs Michael King,Petco Park,Michael King,Power,Offspeed,15.0%,88.0,1700,Jahmai Jones,Slugger,0.339,21.3%
+Detroit Tigers vs Michael King,Petco Park,Michael King,Power,Fastball,65.0%,96.5,2400,Jake Rogers,Balanced,0.288,27.5%
+Detroit Tigers vs Michael King,Petco Park,Michael King,Power,Breaking,25.0%,85.0,2400,Jake Rogers,Balanced,0.233,27.5%
+Detroit Tigers vs Michael King,Petco Park,Michael King,Power,Offspeed,10.0%,88.0,1700,Jake Rogers,Balanced,0.233,27.5%
+Detroit Tigers vs Michael King,Petco Park,Michael King,Power,Fastball,65.0%,96.5,2400,Javier Báez,Balanced,0.285,24.9%
+Detroit Tigers vs Michael King,Petco Park,Michael King,Power,Breaking,25.0%,85.0,2400,Javier Báez,Balanced,0.23,24.9%
+Detroit Tigers vs Michael King,Petco Park,Michael King,Power,Offspeed,10.0%,88.0,1700,Javier Báez,Balanced,0.23,24.9%
+Detroit Tigers vs Michael King,Petco Park,Michael King,Power,Fastball,50.0%,96.5,2400,Kerry Carpenter,Slugger,0.352,22.8%
+Detroit Tigers vs Michael King,Petco Park,Michael King,Power,Breaking,35.0%,85.0,2400,Kerry Carpenter,Slugger,0.285,22.8%
+Detroit Tigers vs Michael King,Petco Park,Michael King,Power,Offspeed,15.0%,88.0,1700,Kerry Carpenter,Slugger,0.285,22.8%
+Detroit Tigers vs Michael King,Petco Park,Michael King,Power,Fastball,65.0%,96.5,2400,Kevin McGonigle *,Balanced,0.336,22.0%
+Detroit Tigers vs Michael King,Petco Park,Michael King,Power,Breaking,25.0%,85.0,2400,Kevin McGonigle *,Balanced,0.272,22.0%
+Detroit Tigers vs Michael King,Petco Park,Michael King,Power,Offspeed,10.0%,88.0,1700,Kevin McGonigle *,Balanced,0.272,22.0%
+Detroit Tigers vs Michael King,Petco Park,Michael King,Power,Fastball,65.0%,96.5,2400,Matt Vierling,Balanced,0.355,24.0%
+Detroit Tigers vs Michael King,Petco Park,Michael King,Power,Breaking,25.0%,85.0,2400,Matt Vierling,Balanced,0.287,24.0%
+Detroit Tigers vs Michael King,Petco Park,Michael King,Power,Offspeed,10.0%,88.0,1700,Matt Vierling,Balanced,0.287,24.0%
+San Diego Padres vs Framber Valdez,Petco Park,Framber Valdez,Spin,Fastball,40.0%,93.5,2200,Bryce Johnson,Balanced,0.344,22.6%
+San Diego Padres vs Framber Valdez,Petco Park,Framber Valdez,Spin,Breaking,45.0%,84.0,2700,Bryce Johnson,Balanced,0.279,22.6%
+San Diego Padres vs Framber Valdez,Petco Park,Framber Valdez,Spin,Offspeed,15.0%,86.0,1800,Bryce Johnson,Balanced,0.279,22.6%
+San Diego Padres vs Framber Valdez,Petco Park,Framber Valdez,Spin,Fastball,40.0%,93.5,2200,Fernando Tatis Jr.,Balanced,0.389,18.7%
+San Diego Padres vs Framber Valdez,Petco Park,Framber Valdez,Spin,Breaking,45.0%,84.0,2700,Fernando Tatis Jr.,Balanced,0.315,18.7%
+San Diego Padres vs Framber Valdez,Petco Park,Framber Valdez,Spin,Offspeed,15.0%,86.0,1800,Fernando Tatis Jr.,Balanced,0.315,18.7%
+San Diego Padres vs Framber Valdez,Petco Park,Framber Valdez,Spin,Fastball,50.0%,93.5,2200,Freddy Fermin,Contact,0.284,18.7%
+San Diego Padres vs Framber Valdez,Petco Park,Framber Valdez,Spin,Breaking,40.0%,84.0,2700,Freddy Fermin,Contact,0.23,18.7%
+San Diego Padres vs Framber Valdez,Petco Park,Framber Valdez,Spin,Offspeed,10.0%,86.0,1800,Freddy Fermin,Contact,0.23,18.7%
+San Diego Padres vs Framber Valdez,Petco Park,Framber Valdez,Spin,Fastball,40.0%,93.5,2200,Gavin Sheets,Balanced,0.357,19.6%
+San Diego Padres vs Framber Valdez,Petco Park,Framber Valdez,Spin,Breaking,45.0%,84.0,2700,Gavin Sheets,Balanced,0.289,19.6%
+San Diego Padres vs Framber Valdez,Petco Park,Framber Valdez,Spin,Offspeed,15.0%,86.0,1800,Gavin Sheets,Balanced,0.289,19.6%
+San Diego Padres vs Framber Valdez,Petco Park,Framber Valdez,Spin,Fastball,40.0%,93.5,2200,Jackson Merrill,Balanced,0.364,22.4%
+San Diego Padres vs Framber Valdez,Petco Park,Framber Valdez,Spin,Breaking,45.0%,84.0,2700,Jackson Merrill,Balanced,0.295,22.4%
+San Diego Padres vs Framber Valdez,Petco Park,Framber Valdez,Spin,Offspeed,15.0%,86.0,1800,Jackson Merrill,Balanced,0.295,22.4%
+San Diego Padres vs Framber Valdez,Petco Park,Framber Valdez,Spin,Fastball,40.0%,93.5,2200,Jake Cronenworth,Balanced,0.335,20.8%
+San Diego Padres vs Framber Valdez,Petco Park,Framber Valdez,Spin,Breaking,45.0%,84.0,2700,Jake Cronenworth,Balanced,0.271,20.8%
+San Diego Padres vs Framber Valdez,Petco Park,Framber Valdez,Spin,Offspeed,15.0%,86.0,1800,Jake Cronenworth,Balanced,0.271,20.8%
+San Diego Padres vs Framber Valdez,Petco Park,Framber Valdez,Spin,Fastball,40.0%,93.5,2200,Luis Campusano *,Balanced,0.336,22.0%
+San Diego Padres vs Framber Valdez,Petco Park,Framber Valdez,Spin,Breaking,45.0%,84.0,2700,Luis Campusano *,Balanced,0.272,22.0%
+San Diego Padres vs Framber Valdez,Petco Park,Framber Valdez,Spin,Offspeed,15.0%,86.0,1800,Luis Campusano *,Balanced,0.272,22.0%
+San Diego Padres vs Framber Valdez,Petco Park,Framber Valdez,Spin,Fastball,40.0%,93.5,2200,Manny Machado,Balanced,0.372,19.3%
+San Diego Padres vs Framber Valdez,Petco Park,Framber Valdez,Spin,Breaking,45.0%,84.0,2700,Manny Machado,Balanced,0.301,19.3%
+San Diego Padres vs Framber Valdez,Petco Park,Framber Valdez,Spin,Offspeed,15.0%,86.0,1800,Manny Machado,Balanced,0.301,19.3%
+San Diego Padres vs Framber Valdez,Petco Park,Framber Valdez,Spin,Fastball,50.0%,93.5,2200,Miguel Andujar,Contact,0.313,14.4%
+San Diego Padres vs Framber Valdez,Petco Park,Framber Valdez,Spin,Breaking,40.0%,84.0,2700,Miguel Andujar,Contact,0.253,14.4%
+San Diego Padres vs Framber Valdez,Petco Park,Framber Valdez,Spin,Offspeed,10.0%,86.0,1800,Miguel Andujar,Contact,0.253,14.4%
+Cleveland Guardians vs George Kirby,T-Mobile Park,George Kirby,Balanced,Fastball,50.0%,94.5,2300,Angel Martínez,Balanced,0.268,22.7%
+Cleveland Guardians vs George Kirby,T-Mobile Park,George Kirby,Balanced,Breaking,30.0%,84.0,2500,Angel Martínez,Balanced,0.217,22.7%
+Cleveland Guardians vs George Kirby,T-Mobile Park,George Kirby,Balanced,Offspeed,20.0%,85.5,1800,Angel Martínez,Balanced,0.217,22.7%
+Cleveland Guardians vs George Kirby,T-Mobile Park,George Kirby,Balanced,Fastball,50.0%,94.5,2300,Austin Hedges,Balanced,0.261,23.9%
+Cleveland Guardians vs George Kirby,T-Mobile Park,George Kirby,Balanced,Breaking,30.0%,84.0,2500,Austin Hedges,Balanced,0.212,23.9%
+Cleveland Guardians vs George Kirby,T-Mobile Park,George Kirby,Balanced,Offspeed,20.0%,85.5,1800,Austin Hedges,Balanced,0.212,23.9%
+Cleveland Guardians vs George Kirby,T-Mobile Park,George Kirby,Balanced,Fastball,50.0%,94.5,2300,Bo Naylor,Balanced,0.307,23.9%
+Cleveland Guardians vs George Kirby,T-Mobile Park,George Kirby,Balanced,Breaking,30.0%,84.0,2500,Bo Naylor,Balanced,0.248,23.9%
+Cleveland Guardians vs George Kirby,T-Mobile Park,George Kirby,Balanced,Offspeed,20.0%,85.5,1800,Bo Naylor,Balanced,0.248,23.9%
+Cleveland Guardians vs George Kirby,T-Mobile Park,George Kirby,Balanced,Fastball,50.0%,94.5,2300,Brayan Rocchio,Balanced,0.31,20.1%
+Cleveland Guardians vs George Kirby,T-Mobile Park,George Kirby,Balanced,Breaking,30.0%,84.0,2500,Brayan Rocchio,Balanced,0.251,20.1%
+Cleveland Guardians vs George Kirby,T-Mobile Park,George Kirby,Balanced,Offspeed,20.0%,85.5,1800,Brayan Rocchio,Balanced,0.251,20.1%
+Cleveland Guardians vs George Kirby,T-Mobile Park,George Kirby,Balanced,Fastball,50.0%,94.5,2300,CJ Kayfus,Balanced,0.338,27.5%
+Cleveland Guardians vs George Kirby,T-Mobile Park,George Kirby,Balanced,Breaking,30.0%,84.0,2500,CJ Kayfus,Balanced,0.274,27.5%
+Cleveland Guardians vs George Kirby,T-Mobile Park,George Kirby,Balanced,Offspeed,20.0%,85.5,1800,CJ Kayfus,Balanced,0.274,27.5%
+Cleveland Guardians vs George Kirby,T-Mobile Park,George Kirby,Balanced,Fastball,50.0%,94.5,2300,Chase DeLauter *,Balanced,0.336,22.0%
+Cleveland Guardians vs George Kirby,T-Mobile Park,George Kirby,Balanced,Breaking,30.0%,84.0,2500,Chase DeLauter *,Balanced,0.272,22.0%
+Cleveland Guardians vs George Kirby,T-Mobile Park,George Kirby,Balanced,Offspeed,20.0%,85.5,1800,Chase DeLauter *,Balanced,0.272,22.0%
+Cleveland Guardians vs George Kirby,T-Mobile Park,George Kirby,Balanced,Fastball,50.0%,94.5,2300,Daniel Schneemann,Balanced,0.312,27.7%
+Cleveland Guardians vs George Kirby,T-Mobile Park,George Kirby,Balanced,Breaking,30.0%,84.0,2500,Daniel Schneemann,Balanced,0.252,27.7%
+Cleveland Guardians vs George Kirby,T-Mobile Park,George Kirby,Balanced,Offspeed,20.0%,85.5,1800,Daniel Schneemann,Balanced,0.252,27.7%
+Cleveland Guardians vs George Kirby,T-Mobile Park,George Kirby,Balanced,Fastball,35.0%,94.5,2300,David Fry,Slugger,0.215,36.9%
+Cleveland Guardians vs George Kirby,T-Mobile Park,George Kirby,Balanced,Breaking,40.0%,84.0,2500,David Fry,Slugger,0.174,36.9%
+Cleveland Guardians vs George Kirby,T-Mobile Park,George Kirby,Balanced,Offspeed,25.0%,85.5,1800,David Fry,Slugger,0.174,36.9%
+Cleveland Guardians vs George Kirby,T-Mobile Park,George Kirby,Balanced,Fastball,50.0%,94.5,2300,Gabriel Arias,Balanced,0.3,34.4%
+Cleveland Guardians vs George Kirby,T-Mobile Park,George Kirby,Balanced,Breaking,30.0%,84.0,2500,Gabriel Arias,Balanced,0.243,34.4%
+Cleveland Guardians vs George Kirby,T-Mobile Park,George Kirby,Balanced,Offspeed,20.0%,85.5,1800,Gabriel Arias,Balanced,0.243,34.4%
+Seattle Mariners vs Gavin Williams,T-Mobile Park,Gavin Williams,Power,Fastball,71.4%,96.5,2400,Brendan Donovan,Contact,0.363,13.0%
+Seattle Mariners vs Gavin Williams,T-Mobile Park,Gavin Williams,Power,Breaking,19.0%,85.0,2400,Brendan Donovan,Contact,0.294,13.0%
+Seattle Mariners vs Gavin Williams,T-Mobile Park,Gavin Williams,Power,Offspeed,9.5%,88.0,1700,Brendan Donovan,Contact,0.294,13.0%
+Seattle Mariners vs Gavin Williams,T-Mobile Park,Gavin Williams,Power,Fastball,50.0%,96.5,2400,Cal Raleigh,Slugger,0.39,26.7%
+Seattle Mariners vs Gavin Williams,T-Mobile Park,Gavin Williams,Power,Breaking,35.0%,85.0,2400,Cal Raleigh,Slugger,0.315,26.7%
+Seattle Mariners vs Gavin Williams,T-Mobile Park,Gavin Williams,Power,Offspeed,15.0%,88.0,1700,Cal Raleigh,Slugger,0.315,26.7%
+Seattle Mariners vs Gavin Williams,T-Mobile Park,Gavin Williams,Power,Fastball,71.4%,96.5,2400,Cole Young,Contact,0.312,18.3%
+Seattle Mariners vs Gavin Williams,T-Mobile Park,Gavin Williams,Power,Breaking,19.0%,85.0,2400,Cole Young,Contact,0.252,18.3%
+Seattle Mariners vs Gavin Williams,T-Mobile Park,Gavin Williams,Power,Offspeed,9.5%,88.0,1700,Cole Young,Contact,0.252,18.3%
+Seattle Mariners vs Gavin Williams,T-Mobile Park,Gavin Williams,Power,Fastball,50.0%,96.5,2400,Dominic Canzone,Slugger,0.395,22.0%
+Seattle Mariners vs Gavin Williams,T-Mobile Park,Gavin Williams,Power,Breaking,35.0%,85.0,2400,Dominic Canzone,Slugger,0.32,22.0%
+Seattle Mariners vs Gavin Williams,T-Mobile Park,Gavin Williams,Power,Offspeed,15.0%,88.0,1700,Dominic Canzone,Slugger,0.32,22.0%
+Seattle Mariners vs Gavin Williams,T-Mobile Park,Gavin Williams,Power,Fastball,71.4%,96.5,2400,Josh Naylor,Contact,0.352,13.7%
+Seattle Mariners vs Gavin Williams,T-Mobile Park,Gavin Williams,Power,Breaking,19.0%,85.0,2400,Josh Naylor,Contact,0.285,13.7%
+Seattle Mariners vs Gavin Williams,T-Mobile Park,Gavin Williams,Power,Offspeed,9.5%,88.0,1700,Josh Naylor,Contact,0.285,13.7%
+Seattle Mariners vs Gavin Williams,T-Mobile Park,Gavin Williams,Power,Fastball,50.0%,96.5,2400,Julio Rodríguez,Slugger,0.365,21.4%
+Seattle Mariners vs Gavin Williams,T-Mobile Park,Gavin Williams,Power,Breaking,35.0%,85.0,2400,Julio Rodríguez,Slugger,0.296,21.4%
+Seattle Mariners vs Gavin Williams,T-Mobile Park,Gavin Williams,Power,Offspeed,15.0%,88.0,1700,Julio Rodríguez,Slugger,0.296,21.4%
+Seattle Mariners vs Gavin Williams,T-Mobile Park,Gavin Williams,Power,Fastball,65.0%,96.5,2400,Leo Rivas,Balanced,0.302,21.6%
+Seattle Mariners vs Gavin Williams,T-Mobile Park,Gavin Williams,Power,Breaking,25.0%,85.0,2400,Leo Rivas,Balanced,0.245,21.6%
+Seattle Mariners vs Gavin Williams,T-Mobile Park,Gavin Williams,Power,Offspeed,10.0%,88.0,1700,Leo Rivas,Balanced,0.245,21.6%
+Seattle Mariners vs Gavin Williams,T-Mobile Park,Gavin Williams,Power,Fastball,65.0%,96.5,2400,Luke Raley,Balanced,0.328,29.2%
+Seattle Mariners vs Gavin Williams,T-Mobile Park,Gavin Williams,Power,Breaking,25.0%,85.0,2400,Luke Raley,Balanced,0.265,29.2%
+Seattle Mariners vs Gavin Williams,T-Mobile Park,Gavin Williams,Power,Offspeed,10.0%,88.0,1700,Luke Raley,Balanced,0.265,29.2%
+Seattle Mariners vs Gavin Williams,T-Mobile Park,Gavin Williams,Power,Fastball,65.0%,96.5,2400,Mitch Garver,Balanced,0.313,27.6%
+Seattle Mariners vs Gavin Williams,T-Mobile Park,Gavin Williams,Power,Breaking,25.0%,85.0,2400,Mitch Garver,Balanced,0.253,27.6%
+Seattle Mariners vs Gavin Williams,T-Mobile Park,Gavin Williams,Power,Offspeed,10.0%,88.0,1700,Mitch Garver,Balanced,0.253,27.6%
+Arizona Diamondbacks vs Emmet Sheehan,UNIQLO Field at Dodger Stadium,Emmet Sheehan,Spin,Fastball,40.0%,93.5,2200,Alek Thomas,Balanced,0.303,26.0%
+Arizona Diamondbacks vs Emmet Sheehan,UNIQLO Field at Dodger Stadium,Emmet Sheehan,Spin,Breaking,45.0%,84.0,2700,Alek Thomas,Balanced,0.246,26.0%
+Arizona Diamondbacks vs Emmet Sheehan,UNIQLO Field at Dodger Stadium,Emmet Sheehan,Spin,Offspeed,15.0%,86.0,1800,Alek Thomas,Balanced,0.246,26.0%
+Arizona Diamondbacks vs Emmet Sheehan,UNIQLO Field at Dodger Stadium,Emmet Sheehan,Spin,Fastball,40.0%,93.5,2200,Carlos Santana,Balanced,0.304,19.2%
+Arizona Diamondbacks vs Emmet Sheehan,UNIQLO Field at Dodger Stadium,Emmet Sheehan,Spin,Breaking,45.0%,84.0,2700,Carlos Santana,Balanced,0.246,19.2%
+Arizona Diamondbacks vs Emmet Sheehan,UNIQLO Field at Dodger Stadium,Emmet Sheehan,Spin,Offspeed,15.0%,86.0,1800,Carlos Santana,Balanced,0.246,19.2%
+Arizona Diamondbacks vs Emmet Sheehan,UNIQLO Field at Dodger Stadium,Emmet Sheehan,Spin,Fastball,25.0%,93.5,2200,Corbin Carroll,Slugger,0.391,23.8%
+Arizona Diamondbacks vs Emmet Sheehan,UNIQLO Field at Dodger Stadium,Emmet Sheehan,Spin,Breaking,55.0%,84.0,2700,Corbin Carroll,Slugger,0.316,23.8%
+Arizona Diamondbacks vs Emmet Sheehan,UNIQLO Field at Dodger Stadium,Emmet Sheehan,Spin,Offspeed,20.0%,86.0,1800,Corbin Carroll,Slugger,0.316,23.8%
+Arizona Diamondbacks vs Emmet Sheehan,UNIQLO Field at Dodger Stadium,Emmet Sheehan,Spin,Fastball,50.0%,93.5,2200,Gabriel Moreno,Contact,0.363,17.2%
+Arizona Diamondbacks vs Emmet Sheehan,UNIQLO Field at Dodger Stadium,Emmet Sheehan,Spin,Breaking,40.0%,84.0,2700,Gabriel Moreno,Contact,0.294,17.2%
+Arizona Diamondbacks vs Emmet Sheehan,UNIQLO Field at Dodger Stadium,Emmet Sheehan,Spin,Offspeed,10.0%,86.0,1800,Gabriel Moreno,Contact,0.294,17.2%
+Arizona Diamondbacks vs Emmet Sheehan,UNIQLO Field at Dodger Stadium,Emmet Sheehan,Spin,Fastball,50.0%,93.5,2200,Geraldo Perdomo,Contact,0.374,11.5%
+Arizona Diamondbacks vs Emmet Sheehan,UNIQLO Field at Dodger Stadium,Emmet Sheehan,Spin,Breaking,40.0%,84.0,2700,Geraldo Perdomo,Contact,0.303,11.5%
+Arizona Diamondbacks vs Emmet Sheehan,UNIQLO Field at Dodger Stadium,Emmet Sheehan,Spin,Offspeed,10.0%,86.0,1800,Geraldo Perdomo,Contact,0.303,11.5%
+Arizona Diamondbacks vs Emmet Sheehan,UNIQLO Field at Dodger Stadium,Emmet Sheehan,Spin,Fastball,50.0%,93.5,2200,Ildemaro Vargas,Contact,0.301,12.4%
+Arizona Diamondbacks vs Emmet Sheehan,UNIQLO Field at Dodger Stadium,Emmet Sheehan,Spin,Breaking,40.0%,84.0,2700,Ildemaro Vargas,Contact,0.244,12.4%
+Arizona Diamondbacks vs Emmet Sheehan,UNIQLO Field at Dodger Stadium,Emmet Sheehan,Spin,Offspeed,10.0%,86.0,1800,Ildemaro Vargas,Contact,0.244,12.4%
+Arizona Diamondbacks vs Emmet Sheehan,UNIQLO Field at Dodger Stadium,Emmet Sheehan,Spin,Fastball,25.0%,93.5,2200,James McCann,Slugger,0.329,24.1%
+Arizona Diamondbacks vs Emmet Sheehan,UNIQLO Field at Dodger Stadium,Emmet Sheehan,Spin,Breaking,55.0%,84.0,2700,James McCann,Slugger,0.266,24.1%
+Arizona Diamondbacks vs Emmet Sheehan,UNIQLO Field at Dodger Stadium,Emmet Sheehan,Spin,Offspeed,20.0%,86.0,1800,James McCann,Slugger,0.266,24.1%
+Arizona Diamondbacks vs Emmet Sheehan,UNIQLO Field at Dodger Stadium,Emmet Sheehan,Spin,Fastball,40.0%,93.5,2200,Jordan Lawlar,Balanced,0.266,35.1%
+Arizona Diamondbacks vs Emmet Sheehan,UNIQLO Field at Dodger Stadium,Emmet Sheehan,Spin,Breaking,45.0%,84.0,2700,Jordan Lawlar,Balanced,0.215,35.1%
+Arizona Diamondbacks vs Emmet Sheehan,UNIQLO Field at Dodger Stadium,Emmet Sheehan,Spin,Offspeed,15.0%,86.0,1800,Jordan Lawlar,Balanced,0.215,35.1%
+Arizona Diamondbacks vs Emmet Sheehan,UNIQLO Field at Dodger Stadium,Emmet Sheehan,Spin,Fastball,40.0%,93.5,2200,Jorge Barrosa,Balanced,0.203,28.6%
+Arizona Diamondbacks vs Emmet Sheehan,UNIQLO Field at Dodger Stadium,Emmet Sheehan,Spin,Breaking,45.0%,84.0,2700,Jorge Barrosa,Balanced,0.164,28.6%
+Arizona Diamondbacks vs Emmet Sheehan,UNIQLO Field at Dodger Stadium,Emmet Sheehan,Spin,Offspeed,15.0%,86.0,1800,Jorge Barrosa,Balanced,0.164,28.6%
+Los Angeles Dodgers vs Ryne Nelson,UNIQLO Field at Dodger Stadium,Ryne Nelson,Spin,Fastball,50.0%,93.5,2200,Alex Call,Contact,0.337,17.1%
+Los Angeles Dodgers vs Ryne Nelson,UNIQLO Field at Dodger Stadium,Ryne Nelson,Spin,Breaking,40.0%,84.0,2700,Alex Call,Contact,0.273,17.1%
+Los Angeles Dodgers vs Ryne Nelson,UNIQLO Field at Dodger Stadium,Ryne Nelson,Spin,Offspeed,10.0%,86.0,1800,Alex Call,Contact,0.273,17.1%
+Los Angeles Dodgers vs Ryne Nelson,UNIQLO Field at Dodger Stadium,Ryne Nelson,Spin,Fastball,40.0%,93.5,2200,Alex Freeland,Balanced,0.271,36.1%
+Los Angeles Dodgers vs Ryne Nelson,UNIQLO Field at Dodger Stadium,Ryne Nelson,Spin,Breaking,45.0%,84.0,2700,Alex Freeland,Balanced,0.219,36.1%
+Los Angeles Dodgers vs Ryne Nelson,UNIQLO Field at Dodger Stadium,Ryne Nelson,Spin,Offspeed,15.0%,86.0,1800,Alex Freeland,Balanced,0.219,36.1%
+Los Angeles Dodgers vs Ryne Nelson,UNIQLO Field at Dodger Stadium,Ryne Nelson,Spin,Fastball,25.0%,93.5,2200,Andy Pages,Slugger,0.332,21.6%
+Los Angeles Dodgers vs Ryne Nelson,UNIQLO Field at Dodger Stadium,Ryne Nelson,Spin,Breaking,55.0%,84.0,2700,Andy Pages,Slugger,0.269,21.6%
+Los Angeles Dodgers vs Ryne Nelson,UNIQLO Field at Dodger Stadium,Ryne Nelson,Spin,Offspeed,20.0%,86.0,1800,Andy Pages,Slugger,0.269,21.6%
+Los Angeles Dodgers vs Ryne Nelson,UNIQLO Field at Dodger Stadium,Ryne Nelson,Spin,Fastball,40.0%,93.5,2200,Dalton Rushing,Balanced,0.297,37.4%
+Los Angeles Dodgers vs Ryne Nelson,UNIQLO Field at Dodger Stadium,Ryne Nelson,Spin,Breaking,45.0%,84.0,2700,Dalton Rushing,Balanced,0.241,37.4%
+Los Angeles Dodgers vs Ryne Nelson,UNIQLO Field at Dodger Stadium,Ryne Nelson,Spin,Offspeed,15.0%,86.0,1800,Dalton Rushing,Balanced,0.241,37.4%
+Los Angeles Dodgers vs Ryne Nelson,UNIQLO Field at Dodger Stadium,Ryne Nelson,Spin,Fastball,40.0%,93.5,2200,Freddie Freeman,Balanced,0.367,20.4%
+Los Angeles Dodgers vs Ryne Nelson,UNIQLO Field at Dodger Stadium,Ryne Nelson,Spin,Breaking,45.0%,84.0,2700,Freddie Freeman,Balanced,0.297,20.4%
+Los Angeles Dodgers vs Ryne Nelson,UNIQLO Field at Dodger Stadium,Ryne Nelson,Spin,Offspeed,15.0%,86.0,1800,Freddie Freeman,Balanced,0.297,20.4%
+Los Angeles Dodgers vs Ryne Nelson,UNIQLO Field at Dodger Stadium,Ryne Nelson,Spin,Fastball,40.0%,93.5,2200,Kyle Tucker,Balanced,0.391,14.7%
+Los Angeles Dodgers vs Ryne Nelson,UNIQLO Field at Dodger Stadium,Ryne Nelson,Spin,Breaking,45.0%,84.0,2700,Kyle Tucker,Balanced,0.316,14.7%
+Los Angeles Dodgers vs Ryne Nelson,UNIQLO Field at Dodger Stadium,Ryne Nelson,Spin,Offspeed,15.0%,86.0,1800,Kyle Tucker,Balanced,0.316,14.7%
+Los Angeles Dodgers vs Ryne Nelson,UNIQLO Field at Dodger Stadium,Ryne Nelson,Spin,Fastball,25.0%,93.5,2200,Max Muncy,Slugger,0.393,21.4%
+Los Angeles Dodgers vs Ryne Nelson,UNIQLO Field at Dodger Stadium,Ryne Nelson,Spin,Breaking,55.0%,84.0,2700,Max Muncy,Slugger,0.318,21.4%
+Los Angeles Dodgers vs Ryne Nelson,UNIQLO Field at Dodger Stadium,Ryne Nelson,Spin,Offspeed,20.0%,86.0,1800,Max Muncy,Slugger,0.318,21.4%
+Los Angeles Dodgers vs Ryne Nelson,UNIQLO Field at Dodger Stadium,Ryne Nelson,Spin,Fastball,50.0%,93.5,2200,Miguel Rojas,Contact,0.307,14.5%
+Los Angeles Dodgers vs Ryne Nelson,UNIQLO Field at Dodger Stadium,Ryne Nelson,Spin,Breaking,40.0%,84.0,2700,Miguel Rojas,Contact,0.248,14.5%
+Los Angeles Dodgers vs Ryne Nelson,UNIQLO Field at Dodger Stadium,Ryne Nelson,Spin,Offspeed,10.0%,86.0,1800,Miguel Rojas,Contact,0.248,14.5%
+Los Angeles Dodgers vs Ryne Nelson,UNIQLO Field at Dodger Stadium,Ryne Nelson,Spin,Fastball,50.0%,93.5,2200,Mookie Betts,Contact,0.347,10.3%
+Los Angeles Dodgers vs Ryne Nelson,UNIQLO Field at Dodger Stadium,Ryne Nelson,Spin,Breaking,40.0%,84.0,2700,Mookie Betts,Contact,0.281,10.3%
+Los Angeles Dodgers vs Ryne Nelson,UNIQLO Field at Dodger Stadium,Ryne Nelson,Spin,Offspeed,10.0%,86.0,1800,Mookie Betts,Contact,0.281,10.3%
