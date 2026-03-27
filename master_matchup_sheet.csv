@@ -1,0 +1,25 @@
+Matchup,Stadium,Pitcher,Pitcher Archetype,Pitch Type,Contextual Usage % (vs Batter),Velocity (mph),Spin Rate (rpm),Batter,Batter Archetype,Batter xwOBA vs Pitch,Batter K%
+Athletics vs Kevin Gausman,Toronto Blue Jays,Kevin Gausman,Spin,Fastball,25.0%,93.5,2200,Shohei Ohtani,Slugger,0.446,25.7%
+Athletics vs Kevin Gausman,Toronto Blue Jays,Kevin Gausman,Spin,Breaking,55.0%,84.0,2700,Shohei Ohtani,Slugger,0.361,25.7%
+Athletics vs Kevin Gausman,Toronto Blue Jays,Kevin Gausman,Spin,Offspeed,20.0%,86.0,1800,Shohei Ohtani,Slugger,0.361,25.7%
+Athletics vs Kevin Gausman,Toronto Blue Jays,Kevin Gausman,Spin,Fastball,25.0%,93.5,2200,Aaron Judge,Slugger,0.482,23.6%
+Athletics vs Kevin Gausman,Toronto Blue Jays,Kevin Gausman,Spin,Breaking,55.0%,84.0,2700,Aaron Judge,Slugger,0.39,23.6%
+Athletics vs Kevin Gausman,Toronto Blue Jays,Kevin Gausman,Spin,Offspeed,20.0%,86.0,1800,Aaron Judge,Slugger,0.39,23.6%
+Athletics vs Kevin Gausman,Toronto Blue Jays,Kevin Gausman,Spin,Fastball,50.0%,93.5,2200,Bobby Witt Jr,Contact,0.383,18.2%
+Athletics vs Kevin Gausman,Toronto Blue Jays,Kevin Gausman,Spin,Breaking,40.0%,84.0,2700,Bobby Witt Jr,Contact,0.31,18.2%
+Athletics vs Kevin Gausman,Toronto Blue Jays,Kevin Gausman,Spin,Offspeed,10.0%,86.0,1800,Bobby Witt Jr,Contact,0.31,18.2%
+Athletics vs Kevin Gausman,Toronto Blue Jays,Kevin Gausman,Spin,Fastball,40.0%,93.5,2200,Juan Soto,Balanced,0.45,19.2%
+Athletics vs Kevin Gausman,Toronto Blue Jays,Kevin Gausman,Spin,Breaking,45.0%,84.0,2700,Juan Soto,Balanced,0.365,19.2%
+Athletics vs Kevin Gausman,Toronto Blue Jays,Kevin Gausman,Spin,Offspeed,15.0%,86.0,1800,Juan Soto,Balanced,0.365,19.2%
+Toronto Blue Jays vs Luis Severino,Toronto Blue Jays,Luis Severino,Spin,Fastball,40.0%,93.5,2200,Francisco Lindor,Balanced,0.362,17.9%
+Toronto Blue Jays vs Luis Severino,Toronto Blue Jays,Luis Severino,Spin,Breaking,45.0%,84.0,2700,Francisco Lindor,Balanced,0.293,17.9%
+Toronto Blue Jays vs Luis Severino,Toronto Blue Jays,Luis Severino,Spin,Offspeed,15.0%,86.0,1800,Francisco Lindor,Balanced,0.293,17.9%
+Toronto Blue Jays vs Luis Severino,Toronto Blue Jays,Luis Severino,Spin,Fastball,40.0%,93.5,2200,Bryce Harper,Balanced,0.386,20.9%
+Toronto Blue Jays vs Luis Severino,Toronto Blue Jays,Luis Severino,Spin,Breaking,45.0%,84.0,2700,Bryce Harper,Balanced,0.313,20.9%
+Toronto Blue Jays vs Luis Severino,Toronto Blue Jays,Luis Severino,Spin,Offspeed,15.0%,86.0,1800,Bryce Harper,Balanced,0.313,20.9%
+Toronto Blue Jays vs Luis Severino,Toronto Blue Jays,Luis Severino,Spin,Fastball,40.0%,93.5,2200,Gunnar Henderson,Balanced,0.358,21.0%
+Toronto Blue Jays vs Luis Severino,Toronto Blue Jays,Luis Severino,Spin,Breaking,45.0%,84.0,2700,Gunnar Henderson,Balanced,0.29,21.0%
+Toronto Blue Jays vs Luis Severino,Toronto Blue Jays,Luis Severino,Spin,Offspeed,15.0%,86.0,1800,Gunnar Henderson,Balanced,0.29,21.0%
+Toronto Blue Jays vs Luis Severino,Toronto Blue Jays,Luis Severino,Spin,Fastball,50.0%,93.5,2200,Mookie Betts,Contact,0.347,10.3%
+Toronto Blue Jays vs Luis Severino,Toronto Blue Jays,Luis Severino,Spin,Breaking,40.0%,84.0,2700,Mookie Betts,Contact,0.281,10.3%
+Toronto Blue Jays vs Luis Severino,Toronto Blue Jays,Luis Severino,Spin,Offspeed,10.0%,86.0,1800,Mookie Betts,Contact,0.281,10.3%

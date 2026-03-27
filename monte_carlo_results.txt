@@ -1,0 +1,25 @@
+=== MONTE CARLO MLB SIMULATION (10,000 Iterations/Matchup) ===
+Date: 2026-03-25 | Data Source: Statcast / pybaseball
+
+==========================================================================
+MATCHUP: New York Yankees vs Logan Webb (0.61 HR/9)
+ENVIRONMENT: San Francisco Giants | 72F | Wind: 5 none
+--------------------------------------------------------------------------
+PLAYER               | AT BATS | HITS   | Ks    | BA    | HRs   | ACTUAL HR%
+--------------------------------------------------------------------------
+Jorbit Vivas         | 10000   | 2370   | 2061  | .237  | 40    | 0.40%
+Amed Rosario         | 10000   | 2734   | 1775  | .273  | 68    | 0.68%
+Aaron Judge          | 10000   | 3368   | 2487  | .336  | 371   | 3.71%
+Ryan McMahon         | 10000   | 2047   | 3452  | .204  | 99    | 0.99%
+
+
+==========================================================================
+MATCHUP: San Francisco Giants vs Max Fried (0.65 HR/9)
+ENVIRONMENT: San Francisco Giants | 72F | Wind: 5 none
+--------------------------------------------------------------------------
+PLAYER               | AT BATS | HITS   | Ks    | BA    | HRs   | ACTUAL HR%
+--------------------------------------------------------------------------
+Casey Schmitt        | 10000   | 2417   | 2521  | .241  | 92    | 0.92%
+Jerar Encarnacion    | 10000   | 2074   | 2710  | .207  | 45    | 0.45%
+Heliot Ramos         | 10000   | 2355   | 2385  | .235  | 111   | 1.11%
+

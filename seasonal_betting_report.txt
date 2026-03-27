@@ -1,0 +1,18 @@
+--- MLB SEASONAL PREDICTOR: 2026-03-25 12:46 ---
+======================================================================
+
+New York Yankees vs Logan Webb (0.61 HR/9)
+STADIUM: San Francisco Giants | TEMP: 57F | WIND: 4mph out
+PLAYER                 | MATCHUP %  | FAIR ODDS
+-------------------------------------------------------
+Amed Rosario           |      2.9% | +3398
+Aaron Judge            |      8.6% | +1062
+Ryan McMahon           |      3.6% | +2708
+
+San Francisco Giants vs Max Fried (0.65 HR/9)
+STADIUM: San Francisco Giants | TEMP: 57F | WIND: 4mph out
+PLAYER                 | MATCHUP %  | FAIR ODDS
+-------------------------------------------------------
+Casey Schmitt          |      3.8% | +2527
+Jerar Encarnacion      |      3.5% | +2772
+Heliot Ramos           |      4.0% | +2397

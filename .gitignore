@@ -1,0 +1,17 @@
+# .gitignore
+
+# Virtual Environments (The Heavy Stuff)
+.venv/
+venv/
+env/
+
+# PyCharm / IDE Settings
+.idea/
+__pycache__/
+*.pyc
+
+# Mac System Files
+.DS_Store
+
+# Temporarily block data caches if they exist
+pybaseball_cache/

@@ -1,0 +1,40 @@
+# .github/workflows/mlb_engine.yml
+name: MLB Betting Engine Auto-Pilot
+
+on:
+  schedule:
+    # Runs every 15 minutes, 24/7
+    - cron: '*/15 * * * *'
+  workflow_dispatch: # Allows you to click a button on GitHub to test it manually
+
+permissions:
+  contents: write # Needed so the bot can push the text file back to your repo
+
+jobs:
+  simulate-games:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+
+      - name: Setup Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.13'
+
+      - name: Install Dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install pandas numpy xgboost pybaseball requests pytz scikit-learn
+
+      - name: Run Cloud Controller
+        run: python cloud_controller.py
+
+      - name: Commit and Push Dashboard
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add betting_dashboard_report.txt master_matchup_sheet.csv
+          
+          # Only commit if there are actual changes (prevents errors on empty "sleep" runs)
+          git diff --quiet && git diff --staged --quiet || (git commit -m "Auto-Update: Confirmed Lineups & Dashboard" && git push)
