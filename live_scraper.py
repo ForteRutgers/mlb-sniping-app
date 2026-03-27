@@ -1,104 +1,114 @@
-# Complete live_scraper.py content
+# live_scraper.py
 import requests
 from datetime import datetime
+import pytz
 
-# MLB Stadiums with Roofs/Domes (Weather = 72F, 0mph wind)
-DOMES = [
-    'Tampa Bay Rays', 'Miami Marlins', 'Milwaukee Brewers', 'Toronto Blue Jays',
-    'Arizona Diamondbacks', 'Texas Rangers', 'Seattle Mariners', 'Houston Astros'
-]
+
+def get_team_roster_fallback(team_id):
+    """
+    Failsafe: If official lineups aren't posted yet, grab 9 position players
+    from the actual team's active roster so the simulation doesn't use fake data.
+    """
+    try:
+        url = f"https://statsapi.mlb.com/api/v1/teams/{team_id}/roster"
+        data = requests.get(url).json()
+        roster = data.get('roster', [])
+        batters = []
+        for player in roster:
+            # Filter out Pitchers (P) and Two-Way Players (TWP) if they are pitching
+            if player['position']['abbreviation'] not in ['P', 'TWP']:
+                batters.append(player['person']['fullName'])
+            if len(batters) >= 9:
+                break
+        return batters
+    except Exception as e:
+        print(f"Roster fallback failed for team {team_id}: {e}")
+        return []
 
 
 def get_todays_matchups():
-    today = datetime.now().strftime('%Y-%m-%d')
+    """
+    Pings the official MLB API for today's schedule, probable pitchers, and official lineups.
+    """
+    # Force US/Eastern time so it doesn't break based on your server's local clock
+    eastern = pytz.timezone('US/Eastern')
+    today = datetime.now(eastern).strftime('%Y-%m-%d')
 
-    # Using the Official MLB Stats API (No API Key Required, Impossible to misalign)
+    # The hydrate parameter forces the API to include pitchers and lineups in one massive JSON
     url = f"https://statsapi.mlb.com/api/v1/schedule?sportId=1&date={today}&hydrate=probablePitcher,lineups"
 
-    headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64)'}
+    print("      -> Pinging Official MLB Stats API...")
+    try:
+        response = requests.get(url)
+        data = response.json()
+    except Exception as e:
+        print(f"\n[!] Error fetching MLB schedule: {e}")
+        return []
 
     matchups = []
 
-    try:
-        response = requests.get(url, headers=headers, timeout=10)
-        data = response.json()
-    except Exception as e:
-        print(f"[!] API Connection Failed: {e}")
+    # If there are no games today (off-season or rainouts)
+    if 'dates' not in data or not data['dates']:
         return matchups
 
-    if 'dates' not in data or len(data['dates']) == 0:
-        return matchups
-
-    games = data['dates'][0]['games']
+    games = data['dates'][0].get('games', [])
 
     for game in games:
-        # Skip games that are postponed or already over
-        status = game['status']['abstractGameState']
-        if status not in ['Preview', 'Live']:
+        # Skip games that are Postponed (P) or Cancelled (C)
+        if game['status']['statusCode'] in ['P', 'C']:
             continue
 
-        try:
-            # 1. Structurally Locked Team Data
-            away_team = game['teams']['away']['team']['name']
-            home_team = game['teams']['home']['team']['name']
+        home_team = game['teams']['home']['team']['name']
+        home_id = game['teams']['home']['team']['id']
+        away_team = game['teams']['away']['team']['name']
+        away_id = game['teams']['away']['team']['id']
 
-            # 2. Structurally Locked Pitcher Data (Defaults to TBD if unannounced)
-            away_pitcher = game['teams']['away'].get('probablePitcher', {}).get('fullName', 'TBD')
-            home_pitcher = game['teams']['home'].get('probablePitcher', {}).get('fullName', 'TBD')
+        # Get the actual stadium the game is being played in
+        stadium = game.get('venue', {}).get('name', home_team)
 
-            # 3. Dynamic Weather Logic
-            if home_team in DOMES:
-                weather = {'temp': 72, 'wind_speed': 0, 'wind_dir': 'none'}
-            else:
-                # Placeholder for outdoor weather (can be hooked to a real weather API later)
-                weather = {'temp': 65, 'wind_speed': 8, 'wind_dir': 'out'}
+        # Extract Probable Pitchers
+        home_pitcher = game['teams']['home'].get('probablePitcher', {}).get('fullName', 'TBD')
+        away_pitcher = game['teams']['away'].get('probablePitcher', {}).get('fullName', 'TBD')
 
-            # 4. Lineup Extraction (Opening Day lineups are often posted late)
-            # We provide 4 generic stars as a fallback so the Monte Carlo engine can still run and map data
-            away_lineup = ['Shohei Ohtani', 'Aaron Judge', 'Bobby Witt Jr', 'Juan Soto']
-            home_lineup = ['Francisco Lindor', 'Bryce Harper', 'Gunnar Henderson', 'Mookie Betts']
+        # Extract Official Lineups (if the manager has submitted them)
+        home_lineup_data = game['teams']['home'].get('lineups', [])
+        away_lineup_data = game['teams']['away'].get('lineups', [])
 
-            # Create Away Team Profile (Batting against Home Pitcher in Home Stadium)
+        home_lineup = [player['fullName'] for player in home_lineup_data]
+        away_lineup = [player['fullName'] for player in away_lineup_data]
+
+        # If the manager hasn't submitted the lineup, grab the real roster
+        if not home_lineup:
+            home_lineup = get_team_roster_fallback(home_id)
+        if not away_lineup:
+            away_lineup = get_team_roster_fallback(away_id)
+
+        # Default weather placeholder (can be linked to a Weather API later)
+        weather = {'temp': 72, 'wind_speed': 0, 'wind_dir': 'none'}
+
+        # Construct Away Batters vs Home Pitcher
+        if away_lineup and home_pitcher != 'TBD':
             matchups.append({
                 'team': away_team,
-                'home_stadium': home_team,
+                'home_stadium': stadium,
                 'opposing_pitcher': home_pitcher,
                 'lineup': away_lineup,
                 'weather': weather
             })
 
-            # Create Home Team Profile (Batting against Away Pitcher in Home Stadium)
+        # Construct Home Batters vs Away Pitcher
+        if home_lineup and away_pitcher != 'TBD':
             matchups.append({
                 'team': home_team,
-                'home_stadium': home_team,
+                'home_stadium': stadium,
                 'opposing_pitcher': away_pitcher,
                 'lineup': home_lineup,
                 'weather': weather
             })
 
-        except Exception as e:
-            print(f"[!] Error parsing game: {e}")
-            continue
-
     return matchups
 
 
-# --- DIAGNOSTIC TEST RUNNER ---
 if __name__ == "__main__":
-    print(f"Scouting Official MLB API for {datetime.now().strftime('%Y-%m-%d')}...\n")
-    games = get_todays_matchups()
-
-    if not games:
-        print("No games found or API is down.")
-    else:
-        print(f"Successfully locked {len(games)} team matchups.\n")
-        print("--- FRANKENSTEIN BUG DIAGNOSTIC ---")
-        for i in range(0, len(games), 2):
-            away = games[i]
-            home = games[i + 1] if i + 1 < len(games) else None
-
-            print(f"GAME: {away['team']} @ {away['home_stadium']}")
-            print(f"  -> Away Batter faces: {away['opposing_pitcher']} (Expected: Home Pitcher)")
-            if home:
-                print(f"  -> Home Batter faces: {home['opposing_pitcher']} (Expected: Away Pitcher)")
-            print("-" * 40)
+    # Quick test if you run this file directly
+    print(get_todays_matchups())

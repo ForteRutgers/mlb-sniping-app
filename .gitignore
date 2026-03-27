@@ -15,3 +15,4 @@ __pycache__/
 
 # Temporarily block data caches if they exist
 pybaseball_cache/
+mlb_data_*.csv
