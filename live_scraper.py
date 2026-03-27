@@ -11,11 +11,9 @@ def get_team_roster_fallback(team_id):
         # Prevent MLB API Rate Limiting by pausing for a fraction of a second
         time.sleep(0.1)
 
-        # Try to get the active roster first
         url = f"https://statsapi.mlb.com/api/v1/teams/{team_id}/roster?rosterType=active"
         response = requests.get(url, timeout=5)
 
-        # If the active roster is empty (common right before Opening Day), try the 40-Man
         if response.status_code != 200 or not response.json().get('roster'):
             url = f"https://statsapi.mlb.com/api/v1/teams/{team_id}/roster?rosterType=40Man"
             response = requests.get(url, timeout=5)
@@ -25,34 +23,24 @@ def get_team_roster_fallback(team_id):
 
         batters = []
         for player in roster:
-            # Filter out Pitchers (P) and Two-Way Players (TWP) if they are pitching
             if player['position']['abbreviation'] not in ['P', 'TWP']:
                 batters.append(player['person']['fullName'])
-            # Stop once we have 9 position players
             if len(batters) >= 9:
                 break
 
-        # If we successfully found 9 players, return them
         if len(batters) == 9:
             return batters
         else:
-            # Failsafe: Return generic names so the game stays on the menu
             return [f"TBD Batter {i}" for i in range(1, 10)]
 
     except Exception as e:
-        print(f"    [!] Roster fallback failed for team {team_id}: {e}")
         return [f"TBD Batter {i}" for i in range(1, 10)]
 
 
 def get_todays_matchups():
-    """
-    Pings the official MLB API for today's schedule, probable pitchers, and official lineups.
-    """
-    # Force US/Eastern time so it doesn't break based on your server's local clock
     eastern = pytz.timezone('US/Eastern')
     today = datetime.now(eastern).strftime('%Y-%m-%d')
 
-    # Hydrate pulls everything in one single, safe request
     url = f"https://statsapi.mlb.com/api/v1/schedule?sportId=1&date={today}&hydrate=probablePitcher,lineups"
 
     print("      -> Pinging Official MLB Stats API...")
@@ -65,15 +53,18 @@ def get_todays_matchups():
 
     matchups = []
 
-    # If there are no games today
     if 'dates' not in data or not data['dates']:
         return matchups
 
-    games = data['dates'][0].get('games', [])
+    # Grab all games across all possible date arrays the MLB API might return
+    games = []
+    for date_obj in data.get('dates', []):
+        games.extend(date_obj.get('games', []))
 
     for game in games:
-        # Skip games that are Postponed (P) or Cancelled (C)
-        if game['status']['statusCode'] in ['P', 'C']:
+        # CRITICAL FIX: Look at detailedState instead of abbreviations to prevent skipping "Pre-Game" matches
+        detailed_state = game.get('status', {}).get('detailedState', '')
+        if detailed_state in ['Cancelled', 'Postponed']:
             continue
 
         home_team = game['teams']['home']['team']['name']
@@ -86,14 +77,12 @@ def get_todays_matchups():
         home_pitcher = game['teams']['home'].get('probablePitcher', {}).get('fullName', 'TBD')
         away_pitcher = game['teams']['away'].get('probablePitcher', {}).get('fullName', 'TBD')
 
-        # Extract Official Lineups natively from the schedule hydrate
         home_lineup_data = game['teams']['home'].get('lineups', [])
         away_lineup_data = game['teams']['away'].get('lineups', [])
 
         home_lineup = [player['fullName'] for player in home_lineup_data]
         away_lineup = [player['fullName'] for player in away_lineup_data]
 
-        # If the manager hasn't submitted yet, use the robust API-friendly fallback
         if not home_lineup:
             home_lineup = get_team_roster_fallback(home_id)
         if not away_lineup:
@@ -101,27 +90,26 @@ def get_todays_matchups():
 
         weather = {'temp': 72, 'wind_speed': 0, 'wind_dir': 'none'}
 
-        # Append Away Batters vs Home Pitcher
-        matchups.append({
-            'team': away_team,
-            'home_stadium': stadium,
-            'opposing_pitcher': home_pitcher,
-            'lineup': away_lineup,
-            'weather': weather
-        })
+        if away_lineup:
+            matchups.append({
+                'team': away_team,
+                'home_stadium': stadium,
+                'opposing_pitcher': home_pitcher,
+                'lineup': away_lineup,
+                'weather': weather
+            })
 
-        # Append Home Batters vs Away Pitcher
-        matchups.append({
-            'team': home_team,
-            'home_stadium': stadium,
-            'opposing_pitcher': away_pitcher,
-            'lineup': home_lineup,
-            'weather': weather
-        })
+        if home_lineup:
+            matchups.append({
+                'team': home_team,
+                'home_stadium': stadium,
+                'opposing_pitcher': away_pitcher,
+                'lineup': home_lineup,
+                'weather': weather
+            })
 
     return matchups
 
 
 if __name__ == "__main__":
-    # Quick test if you run this file directly
     print(get_todays_matchups())
