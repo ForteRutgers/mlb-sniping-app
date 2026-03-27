@@ -4,15 +4,39 @@ from datetime import datetime
 import pytz
 
 
+def get_official_lineup(game_pk, team_type):
+    """Hits the live boxscore endpoint to get the locked-in 1-9 batting order."""
+    try:
+        url = f"https://statsapi.mlb.com/api/v1/game/{game_pk}/boxscore"
+        data = requests.get(url).json()
+        team_data = data['teams'][team_type]
+
+        # battingOrder contains the official 1-9 player IDs submitted by the manager
+        batting_order = team_data.get('battingOrder', [])
+        players_dict = team_data.get('players', {})
+
+        lineup = []
+        for player_id in batting_order:
+            player_key = f"ID{player_id}"
+            if player_key in players_dict:
+                lineup.append(players_dict[player_key]['person']['fullName'])
+
+        return lineup
+    except Exception as e:
+        return []
+
+
 def get_team_roster_fallback(team_id):
     """
     Failsafe: If official lineups aren't posted yet, grab 9 position players
     from the actual team's active roster so the simulation doesn't use fake data.
     """
     try:
-        url = f"https://statsapi.mlb.com/api/v1/teams/{team_id}/roster"
+        # CRITICAL FIX: Added ?rosterType=active. Without this, the MLB API returns empty data!
+        url = f"https://statsapi.mlb.com/api/v1/teams/{team_id}/roster?rosterType=active"
         data = requests.get(url).json()
         roster = data.get('roster', [])
+
         batters = []
         for player in roster:
             # Filter out Pitchers (P) and Two-Way Players (TWP) if they are pitching
@@ -22,7 +46,7 @@ def get_team_roster_fallback(team_id):
                 break
         return batters
     except Exception as e:
-        print(f"Roster fallback failed for team {team_id}: {e}")
+        print(f"    [!] Roster fallback failed for team {team_id}: {e}")
         return []
 
 
@@ -34,8 +58,7 @@ def get_todays_matchups():
     eastern = pytz.timezone('US/Eastern')
     today = datetime.now(eastern).strftime('%Y-%m-%d')
 
-    # The hydrate parameter forces the API to include pitchers and lineups in one massive JSON
-    url = f"https://statsapi.mlb.com/api/v1/schedule?sportId=1&date={today}&hydrate=probablePitcher,lineups"
+    url = f"https://statsapi.mlb.com/api/v1/schedule?sportId=1&date={today}&hydrate=probablePitcher"
 
     print("      -> Pinging Official MLB Stats API...")
     try:
@@ -58,6 +81,7 @@ def get_todays_matchups():
         if game['status']['statusCode'] in ['P', 'C']:
             continue
 
+        game_pk = game['gamePk']
         home_team = game['teams']['home']['team']['name']
         home_id = game['teams']['home']['team']['id']
         away_team = game['teams']['away']['team']['name']
@@ -70,14 +94,11 @@ def get_todays_matchups():
         home_pitcher = game['teams']['home'].get('probablePitcher', {}).get('fullName', 'TBD')
         away_pitcher = game['teams']['away'].get('probablePitcher', {}).get('fullName', 'TBD')
 
-        # Extract Official Lineups (if the manager has submitted them)
-        home_lineup_data = game['teams']['home'].get('lineups', [])
-        away_lineup_data = game['teams']['away'].get('lineups', [])
+        # 1. Try to get the official manager-submitted lineups from the Boxscore
+        home_lineup = get_official_lineup(game_pk, 'home')
+        away_lineup = get_official_lineup(game_pk, 'away')
 
-        home_lineup = [player['fullName'] for player in home_lineup_data]
-        away_lineup = [player['fullName'] for player in away_lineup_data]
-
-        # If the manager hasn't submitted the lineup, grab the real roster
+        # 2. If the manager hasn't submitted yet (empty list), use the active roster fallback
         if not home_lineup:
             home_lineup = get_team_roster_fallback(home_id)
         if not away_lineup:
@@ -87,7 +108,7 @@ def get_todays_matchups():
         weather = {'temp': 72, 'wind_speed': 0, 'wind_dir': 'none'}
 
         # Construct Away Batters vs Home Pitcher
-        if away_lineup and home_pitcher != 'TBD':
+        if away_lineup:
             matchups.append({
                 'team': away_team,
                 'home_stadium': stadium,
@@ -97,7 +118,7 @@ def get_todays_matchups():
             })
 
         # Construct Home Batters vs Away Pitcher
-        if home_lineup and away_pitcher != 'TBD':
+        if home_lineup:
             matchups.append({
                 'team': home_team,
                 'home_stadium': stadium,
