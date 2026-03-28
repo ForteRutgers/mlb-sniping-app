@@ -299,7 +299,7 @@ def simulate_pitcher_game(p_stats, p_hand, lineup_b_stats):
 
 def simulate_full_game_with_archetypes(b_stats, p_hr9, p_hand, w_boost, park_hr_val, park_avg_val, order_index):
     game_hits, game_tb, game_hr, game_r, game_rbi, game_bb, game_sb = 0, 0, 0, 0, 0, 0, 0
-    runs_by_pa = [0] * 8  # Track runs scored in each specific plate appearance
+    runs_by_pa = [0] * 8
 
     pa_averages = [4.65, 4.53, 4.44, 4.35, 4.25, 4.15, 4.03, 3.93, 3.83]
     safe_index = min(order_index, 8)
@@ -413,6 +413,19 @@ def format_odds(probability):
         return f"+{int((100 / probability) - 100)}"
 
 
+def calculate_sharp_ou_line(sim_array):
+    """Calculates the closest .5 betting line and returns exact Over/Under probabilities."""
+    mean_val = np.mean(sim_array)
+    # Snap to the closest .5 hook
+    line = round(mean_val * 2) / 2
+    if line % 1 == 0:
+        line += 0.5 if mean_val >= line else -0.5
+
+    over_prob = sum(1 for x in sim_array if x > line) / len(sim_array)
+    under_prob = sum(1 for x in sim_array if x < line) / len(sim_array)
+    return line, over_prob, under_prob
+
+
 def run_prop_market_simulation():
     batters_db, pitchers_db = get_prop_matrices()
     batter_keys = list(batters_db.keys())
@@ -474,7 +487,6 @@ def run_prop_market_simulation():
     ledger_rows = []
 
     for game_teams in selected_matchups:
-        # Check if we have both halves of the game to run H2H predictions
         if len(game_teams) == 2:
             away_m = game_teams[0]
             home_m = game_teams[1]
@@ -584,6 +596,12 @@ def run_prop_market_simulation():
                 dog_cov = 1 - fav_cov
                 fav_ml, dog_ml = away_ml_prob, home_ml_prob
 
+            # The New Over/Under Probability Calcs
+            gt_line, gt_over, gt_under = calculate_sharp_ou_line(tracker['totals'])
+            away_line, away_over, away_under = calculate_sharp_ou_line(tracker['away_tt'])
+            home_line, home_over, home_under = calculate_sharp_ou_line(tracker['home_tt'])
+            f5_line, f5_over, f5_under = calculate_sharp_ou_line(tracker['f5_totals'])
+
             report.append(f"==========================================================================")
             report.append(f"[GAME OUTCOMES] {away_team_name.upper()} @ {home_team_name.upper()}")
             report.append(f"==========================================================================")
@@ -592,14 +610,18 @@ def run_prop_market_simulation():
                 f"  Moneyline : {fav} {fav_ml * 100:.1f}% ({format_odds(fav_ml)}) | {dog} {dog_ml * 100:.1f}% ({format_odds(dog_ml)})")
             report.append(
                 f"  Run Line  : {fav} -1.5 {fav_cov * 100:.1f}% ({format_odds(fav_cov)}) | {dog} +1.5 {dog_cov * 100:.1f}% ({format_odds(dog_cov)})")
-            report.append(f"  Game Total: Median {np.median(tracker['totals']):.1f} Runs")
             report.append(
-                f"  Team Total: {away_team_name} ({np.median(tracker['away_tt']):.1f}) | {home_team_name} ({np.median(tracker['home_tt']):.1f})")
+                f"  Game Total ({gt_line}): Over {gt_over * 100:.1f}% ({format_odds(gt_over)}) | Under {gt_under * 100:.1f}% ({format_odds(gt_under)})")
+            report.append(
+                f"  Team Total ({away_team_name} {away_line}): Over {away_over * 100:.1f}% ({format_odds(away_over)}) | Under {away_under * 100:.1f}% ({format_odds(away_under)})")
+            report.append(
+                f"  Team Total ({home_team_name} {home_line}): Over {home_over * 100:.1f}% ({format_odds(home_over)}) | Under {home_under * 100:.1f}% ({format_odds(home_under)})")
 
             report.append(f"\n> FIRST 5 INNINGS (F5)")
             report.append(
                 f"  Moneyline : {away_team_name} {(tracker['f5_away'] / SIM_GAMES) * 100:.1f}% | {home_team_name} {(tracker['f5_home'] / SIM_GAMES) * 100:.1f}% | Tie {(tracker['f5_tie'] / SIM_GAMES) * 100:.1f}%")
-            report.append(f"  F5 Total  : Median {np.median(tracker['f5_totals']):.1f} Runs")
+            report.append(
+                f"  F5 Total ({f5_line})  : Over {f5_over * 100:.1f}% ({format_odds(f5_over)}) | Under {f5_under * 100:.1f}% ({format_odds(f5_under)})")
 
             nrfi_prob = tracker['nrfi'] / SIM_GAMES
             yrfi_prob = tracker['yrfi'] / SIM_GAMES
@@ -607,7 +629,6 @@ def run_prop_market_simulation():
             report.append(f"  NRFI (No Run)  : {nrfi_prob * 100:.1f}% ({format_odds(nrfi_prob)})")
             report.append(f"  YRFI (Yes Run) : {yrfi_prob * 100:.1f}% ({format_odds(yrfi_prob)})\n")
 
-        # --- INDIVIDUAL PLAYER PROPS (Runs as before) ---
         for m in game_teams:
             park_factors = PARK_FACTORS.get(m['home_stadium'], [1.0, 1.0])
             park_hr_val, park_avg_val = park_factors[0], park_factors[1]

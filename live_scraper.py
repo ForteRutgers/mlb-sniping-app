@@ -57,11 +57,12 @@ def get_team_roster_data(team_id):
     """
     try:
         time.sleep(0.1)
-        url = f"https://statsapi.mlb.com/api/v1/teams/{team_id}/roster?rosterType=active"
+        # CRITICAL FIX: Added &hydrate=person so the MLB API doesn't hide the handedness data
+        url = f"https://statsapi.mlb.com/api/v1/teams/{team_id}/roster?rosterType=active&hydrate=person"
         response = requests.get(url, timeout=5)
 
         if response.status_code != 200 or not response.json().get('roster'):
-            url = f"https://statsapi.mlb.com/api/v1/teams/{team_id}/roster?rosterType=40Man"
+            url = f"https://statsapi.mlb.com/api/v1/teams/{team_id}/roster?rosterType=40Man&hydrate=person"
             response = requests.get(url, timeout=5)
 
         roster = response.json().get('roster', [])
@@ -80,7 +81,6 @@ def get_team_roster_data(team_id):
             if player['position']['abbreviation'] not in ['P', 'TWP'] and len(fallback_batters) < 9:
                 fallback_batters.append({'name': name, 'hand': hand})
 
-        # Failsafe if the roster is completely broken
         if len(fallback_batters) < 9:
             fallback_batters = [{'name': f"TBD Batter {i}", 'hand': 'R'} for i in range(1, 10)]
 
@@ -134,19 +134,17 @@ def get_todays_matchups():
         away_pitcher_hand = away_pitcher_data.get('pitchHand', {}).get('code',
                                                                        'R') if 'pitchHand' in away_pitcher_data else 'R'
 
-        # --- THE FIX: Pre-fetch the master roster to get the actual handedness ---
         home_hand_dict, home_fallback = get_team_roster_data(home_id)
         away_hand_dict, away_fallback = get_team_roster_data(away_id)
 
         home_lineup_data = game['teams']['home'].get('lineups', [])
         away_lineup_data = game['teams']['away'].get('lineups', [])
 
-        # Extract Official Lineup and map the correct handedness from the dictionary
         home_lineup = []
         if home_lineup_data:
             for p in home_lineup_data:
                 name = p['fullName']
-                hand = home_hand_dict.get(name, 'R')  # Look up true handedness
+                hand = home_hand_dict.get(name, 'R')
                 home_lineup.append({'name': name, 'hand': hand})
         else:
             home_lineup = home_fallback
@@ -155,7 +153,7 @@ def get_todays_matchups():
         if away_lineup_data:
             for p in away_lineup_data:
                 name = p['fullName']
-                hand = away_hand_dict.get(name, 'R')  # Look up true handedness
+                hand = away_hand_dict.get(name, 'R')
                 away_lineup.append({'name': name, 'hand': hand})
         else:
             away_lineup = away_fallback
