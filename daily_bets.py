@@ -703,7 +703,7 @@ def run_prop_market_simulation():
                 report.append(
                     f"  To Record 1+ RBI| {p_rbi1 * 100:>8.1f}% | {format_odds(p_rbi1):>9} | {get_target_odds_range(p_rbi1):>16}")
                 report.append(
-                    f"  To Record 2+ HRR| {p_hrr2 * 100:>8.1f}% | {format_odds(p_hrr2):>9} | {get_target_range(p_hrr2):>16}")
+                    f"  To Record 2+ HRR| {p_hrr2 * 100:>8.1f}% | {format_odds(p_hrr2):>9} | {get_target_odds_range(p_hrr2):>16}")
 
     final_text = "\n".join(report)
     print(final_text)
