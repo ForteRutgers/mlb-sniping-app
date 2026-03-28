@@ -27,6 +27,18 @@ jobs:
           python -m pip install --upgrade pip
           pip install pandas numpy xgboost pybaseball requests pytz scikit-learn
 
+      - name: Get Current Date for Cache Key
+        id: date
+        # This stamps the current date so the cache resets fresh every single midnight
+        run: echo "DATE=$(date +'%Y-%m-%d')" >> $GITHUB_ENV
+
+      - name: Cache FanGraphs & Statcast Data (100% Free)
+        uses: actions/cache@v3
+        with:
+          # This is the hidden folder where the pybaseball library saves its data
+          path: ~/.pybaseball
+          key: pybaseball-cache-${{ env.DATE }}
+
       - name: Run Cloud Controller
         run: python cloud_controller.py
 
