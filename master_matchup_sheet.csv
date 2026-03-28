@@ -1,55 +1,811 @@
-Matchup,Stadium,Pitcher,Pitcher Archetype,Pitch Type,Contextual Usage % (vs Batter),Velocity (mph),Batter,Batter Archetype,Platoon Adv,Batter xwOBA vs Pitch
-Tampa Bay Rays vs Michael McGreevy (RHP),Busch Stadium,Michael McGreevy,Balanced,Fastball,50.0%,94.5,Ben Williamson (R),Balanced,No,0.282
-Tampa Bay Rays vs Michael McGreevy (RHP),Busch Stadium,Michael McGreevy,Balanced,Breaking,30.0%,84.0,Ben Williamson (R),Balanced,No,0.229
-Tampa Bay Rays vs Michael McGreevy (RHP),Busch Stadium,Michael McGreevy,Balanced,Offspeed,20.0%,85.5,Ben Williamson (R),Balanced,No,0.229
-Tampa Bay Rays vs Michael McGreevy (RHP),Busch Stadium,Michael McGreevy,Balanced,Fastball,35.0%,94.5,Carson Williams (R),Slugger,No,0.247
-Tampa Bay Rays vs Michael McGreevy (RHP),Busch Stadium,Michael McGreevy,Balanced,Breaking,40.0%,84.0,Carson Williams (R),Slugger,No,0.2
-Tampa Bay Rays vs Michael McGreevy (RHP),Busch Stadium,Michael McGreevy,Balanced,Offspeed,25.0%,85.5,Carson Williams (R),Slugger,No,0.2
-Tampa Bay Rays vs Michael McGreevy (RHP),Busch Stadium,Michael McGreevy,Balanced,Fastball,50.0%,94.5,Cedric Mullins (R),Balanced,No,0.298
-Tampa Bay Rays vs Michael McGreevy (RHP),Busch Stadium,Michael McGreevy,Balanced,Breaking,30.0%,84.0,Cedric Mullins (R),Balanced,No,0.241
-Tampa Bay Rays vs Michael McGreevy (RHP),Busch Stadium,Michael McGreevy,Balanced,Offspeed,20.0%,85.5,Cedric Mullins (R),Balanced,No,0.241
-Tampa Bay Rays vs Michael McGreevy (RHP),Busch Stadium,Michael McGreevy,Balanced,Fastball,60.0%,94.5,Chandler Simpson (R),Contact,No,0.312
-Tampa Bay Rays vs Michael McGreevy (RHP),Busch Stadium,Michael McGreevy,Balanced,Breaking,25.0%,84.0,Chandler Simpson (R),Contact,No,0.252
-Tampa Bay Rays vs Michael McGreevy (RHP),Busch Stadium,Michael McGreevy,Balanced,Offspeed,15.0%,85.5,Chandler Simpson (R),Contact,No,0.252
-Tampa Bay Rays vs Michael McGreevy (RHP),Busch Stadium,Michael McGreevy,Balanced,Fastball,50.0%,94.5,Hunter Feduccia (R),Balanced,No,0.289
-Tampa Bay Rays vs Michael McGreevy (RHP),Busch Stadium,Michael McGreevy,Balanced,Breaking,30.0%,84.0,Hunter Feduccia (R),Balanced,No,0.234
-Tampa Bay Rays vs Michael McGreevy (RHP),Busch Stadium,Michael McGreevy,Balanced,Offspeed,20.0%,85.5,Hunter Feduccia (R),Balanced,No,0.234
-Tampa Bay Rays vs Michael McGreevy (RHP),Busch Stadium,Michael McGreevy,Balanced,Fastball,50.0%,94.5,Jake Fraley (R),Balanced,No,0.331
-Tampa Bay Rays vs Michael McGreevy (RHP),Busch Stadium,Michael McGreevy,Balanced,Breaking,30.0%,84.0,Jake Fraley (R),Balanced,No,0.268
-Tampa Bay Rays vs Michael McGreevy (RHP),Busch Stadium,Michael McGreevy,Balanced,Offspeed,20.0%,85.5,Jake Fraley (R),Balanced,No,0.268
-Tampa Bay Rays vs Michael McGreevy (RHP),Busch Stadium,Michael McGreevy,Balanced,Fastball,50.0%,94.5,Jonathan Aranda (R),Balanced,No,0.401
-Tampa Bay Rays vs Michael McGreevy (RHP),Busch Stadium,Michael McGreevy,Balanced,Breaking,30.0%,84.0,Jonathan Aranda (R),Balanced,No,0.325
-Tampa Bay Rays vs Michael McGreevy (RHP),Busch Stadium,Michael McGreevy,Balanced,Offspeed,20.0%,85.5,Jonathan Aranda (R),Balanced,No,0.325
-Tampa Bay Rays vs Michael McGreevy (RHP),Busch Stadium,Michael McGreevy,Balanced,Fastball,50.0%,94.5,Jonny DeLuca (R),Balanced,No,0.28
-Tampa Bay Rays vs Michael McGreevy (RHP),Busch Stadium,Michael McGreevy,Balanced,Breaking,30.0%,84.0,Jonny DeLuca (R),Balanced,No,0.227
-Tampa Bay Rays vs Michael McGreevy (RHP),Busch Stadium,Michael McGreevy,Balanced,Offspeed,20.0%,85.5,Jonny DeLuca (R),Balanced,No,0.227
-Tampa Bay Rays vs Michael McGreevy (RHP),Busch Stadium,Michael McGreevy,Balanced,Fastball,50.0%,94.5,Junior Caminero (R),Balanced,No,0.363
-Tampa Bay Rays vs Michael McGreevy (RHP),Busch Stadium,Michael McGreevy,Balanced,Breaking,30.0%,84.0,Junior Caminero (R),Balanced,No,0.294
-Tampa Bay Rays vs Michael McGreevy (RHP),Busch Stadium,Michael McGreevy,Balanced,Offspeed,20.0%,85.5,Junior Caminero (R),Balanced,No,0.294
-St. Louis Cardinals vs Joe Boyle (RHP),Busch Stadium,Joe Boyle,Spin,Fastball,50.0%,93.5,Alec Burleson (R),Contact,No,0.362
-St. Louis Cardinals vs Joe Boyle (RHP),Busch Stadium,Joe Boyle,Spin,Breaking,40.0%,84.0,Alec Burleson (R),Contact,No,0.293
-St. Louis Cardinals vs Joe Boyle (RHP),Busch Stadium,Joe Boyle,Spin,Offspeed,10.0%,86.0,Alec Burleson (R),Contact,No,0.293
-St. Louis Cardinals vs Joe Boyle (RHP),Busch Stadium,Joe Boyle,Spin,Fastball,40.0%,93.5,Iván Herrera (R),Balanced,No,0.39
-St. Louis Cardinals vs Joe Boyle (RHP),Busch Stadium,Joe Boyle,Spin,Breaking,45.0%,84.0,Iván Herrera (R),Balanced,No,0.315
-St. Louis Cardinals vs Joe Boyle (RHP),Busch Stadium,Joe Boyle,Spin,Offspeed,15.0%,86.0,Iván Herrera (R),Balanced,No,0.315
-St. Louis Cardinals vs Joe Boyle (RHP),Busch Stadium,Joe Boyle,Spin,Fastball,40.0%,93.5,JJ Wetherholt * (R),Balanced,No,0.336
-St. Louis Cardinals vs Joe Boyle (RHP),Busch Stadium,Joe Boyle,Spin,Breaking,45.0%,84.0,JJ Wetherholt * (R),Balanced,No,0.272
-St. Louis Cardinals vs Joe Boyle (RHP),Busch Stadium,Joe Boyle,Spin,Offspeed,15.0%,86.0,JJ Wetherholt * (R),Balanced,No,0.272
-St. Louis Cardinals vs Joe Boyle (RHP),Busch Stadium,Joe Boyle,Spin,Fastball,40.0%,93.5,Jordan Walker (R),Balanced,No,0.292
-St. Louis Cardinals vs Joe Boyle (RHP),Busch Stadium,Joe Boyle,Spin,Breaking,45.0%,84.0,Jordan Walker (R),Balanced,No,0.236
-St. Louis Cardinals vs Joe Boyle (RHP),Busch Stadium,Joe Boyle,Spin,Offspeed,15.0%,86.0,Jordan Walker (R),Balanced,No,0.236
-St. Louis Cardinals vs Joe Boyle (RHP),Busch Stadium,Joe Boyle,Spin,Fastball,50.0%,93.5,José Fermín (R),Contact,No,0.349
-St. Louis Cardinals vs Joe Boyle (RHP),Busch Stadium,Joe Boyle,Spin,Breaking,40.0%,84.0,José Fermín (R),Contact,No,0.282
-St. Louis Cardinals vs Joe Boyle (RHP),Busch Stadium,Joe Boyle,Spin,Offspeed,10.0%,86.0,José Fermín (R),Contact,No,0.282
-St. Louis Cardinals vs Joe Boyle (RHP),Busch Stadium,Joe Boyle,Spin,Fastball,50.0%,93.5,Masyn Winn (R),Contact,No,0.3
-St. Louis Cardinals vs Joe Boyle (RHP),Busch Stadium,Joe Boyle,Spin,Breaking,40.0%,84.0,Masyn Winn (R),Contact,No,0.243
-St. Louis Cardinals vs Joe Boyle (RHP),Busch Stadium,Joe Boyle,Spin,Offspeed,10.0%,86.0,Masyn Winn (R),Contact,No,0.243
-St. Louis Cardinals vs Joe Boyle (RHP),Busch Stadium,Joe Boyle,Spin,Fastball,40.0%,93.5,Nathan Church (R),Balanced,No,0.259
-St. Louis Cardinals vs Joe Boyle (RHP),Busch Stadium,Joe Boyle,Spin,Breaking,45.0%,84.0,Nathan Church (R),Balanced,No,0.21
-St. Louis Cardinals vs Joe Boyle (RHP),Busch Stadium,Joe Boyle,Spin,Offspeed,15.0%,86.0,Nathan Church (R),Balanced,No,0.21
-St. Louis Cardinals vs Joe Boyle (RHP),Busch Stadium,Joe Boyle,Spin,Fastball,40.0%,93.5,Nolan Gorman (R),Balanced,No,0.311
-St. Louis Cardinals vs Joe Boyle (RHP),Busch Stadium,Joe Boyle,Spin,Breaking,45.0%,84.0,Nolan Gorman (R),Balanced,No,0.252
-St. Louis Cardinals vs Joe Boyle (RHP),Busch Stadium,Joe Boyle,Spin,Offspeed,15.0%,86.0,Nolan Gorman (R),Balanced,No,0.252
-St. Louis Cardinals vs Joe Boyle (RHP),Busch Stadium,Joe Boyle,Spin,Fastball,40.0%,93.5,Pedro Pagés (R),Balanced,No,0.272
-St. Louis Cardinals vs Joe Boyle (RHP),Busch Stadium,Joe Boyle,Spin,Breaking,45.0%,84.0,Pedro Pagés (R),Balanced,No,0.22
-St. Louis Cardinals vs Joe Boyle (RHP),Busch Stadium,Joe Boyle,Spin,Offspeed,15.0%,86.0,Pedro Pagés (R),Balanced,No,0.22
+Matchup,Pitcher Archetype,Pitch Type,Batter,Batter Archetype,Platoon Adv
+Tampa Bay Rays vs Michael McGreevy,Balanced,Fastball,Ben Williamson,Balanced,No
+Tampa Bay Rays vs Michael McGreevy,Balanced,Breaking,Ben Williamson,Balanced,No
+Tampa Bay Rays vs Michael McGreevy,Balanced,Offspeed,Ben Williamson,Balanced,No
+Tampa Bay Rays vs Michael McGreevy,Balanced,Fastball,Carson Williams,Slugger,No
+Tampa Bay Rays vs Michael McGreevy,Balanced,Breaking,Carson Williams,Slugger,No
+Tampa Bay Rays vs Michael McGreevy,Balanced,Offspeed,Carson Williams,Slugger,No
+Tampa Bay Rays vs Michael McGreevy,Balanced,Fastball,Cedric Mullins,Balanced,No
+Tampa Bay Rays vs Michael McGreevy,Balanced,Breaking,Cedric Mullins,Balanced,No
+Tampa Bay Rays vs Michael McGreevy,Balanced,Offspeed,Cedric Mullins,Balanced,No
+Tampa Bay Rays vs Michael McGreevy,Balanced,Fastball,Chandler Simpson,Contact,No
+Tampa Bay Rays vs Michael McGreevy,Balanced,Breaking,Chandler Simpson,Contact,No
+Tampa Bay Rays vs Michael McGreevy,Balanced,Offspeed,Chandler Simpson,Contact,No
+Tampa Bay Rays vs Michael McGreevy,Balanced,Fastball,Hunter Feduccia,Balanced,No
+Tampa Bay Rays vs Michael McGreevy,Balanced,Breaking,Hunter Feduccia,Balanced,No
+Tampa Bay Rays vs Michael McGreevy,Balanced,Offspeed,Hunter Feduccia,Balanced,No
+Tampa Bay Rays vs Michael McGreevy,Balanced,Fastball,Jake Fraley,Balanced,No
+Tampa Bay Rays vs Michael McGreevy,Balanced,Breaking,Jake Fraley,Balanced,No
+Tampa Bay Rays vs Michael McGreevy,Balanced,Offspeed,Jake Fraley,Balanced,No
+Tampa Bay Rays vs Michael McGreevy,Balanced,Fastball,Jonathan Aranda,Balanced,No
+Tampa Bay Rays vs Michael McGreevy,Balanced,Breaking,Jonathan Aranda,Balanced,No
+Tampa Bay Rays vs Michael McGreevy,Balanced,Offspeed,Jonathan Aranda,Balanced,No
+Tampa Bay Rays vs Michael McGreevy,Balanced,Fastball,Jonny DeLuca,Balanced,No
+Tampa Bay Rays vs Michael McGreevy,Balanced,Breaking,Jonny DeLuca,Balanced,No
+Tampa Bay Rays vs Michael McGreevy,Balanced,Offspeed,Jonny DeLuca,Balanced,No
+Tampa Bay Rays vs Michael McGreevy,Balanced,Fastball,Junior Caminero,Balanced,No
+Tampa Bay Rays vs Michael McGreevy,Balanced,Breaking,Junior Caminero,Balanced,No
+Tampa Bay Rays vs Michael McGreevy,Balanced,Offspeed,Junior Caminero,Balanced,No
+St. Louis Cardinals vs Joe Boyle,Spin,Fastball,Alec Burleson,Contact,No
+St. Louis Cardinals vs Joe Boyle,Spin,Breaking,Alec Burleson,Contact,No
+St. Louis Cardinals vs Joe Boyle,Spin,Offspeed,Alec Burleson,Contact,No
+St. Louis Cardinals vs Joe Boyle,Spin,Fastball,Iván Herrera,Balanced,No
+St. Louis Cardinals vs Joe Boyle,Spin,Breaking,Iván Herrera,Balanced,No
+St. Louis Cardinals vs Joe Boyle,Spin,Offspeed,Iván Herrera,Balanced,No
+St. Louis Cardinals vs Joe Boyle,Spin,Fastball,JJ Wetherholt,Balanced,No
+St. Louis Cardinals vs Joe Boyle,Spin,Breaking,JJ Wetherholt,Balanced,No
+St. Louis Cardinals vs Joe Boyle,Spin,Offspeed,JJ Wetherholt,Balanced,No
+St. Louis Cardinals vs Joe Boyle,Spin,Fastball,Jordan Walker,Balanced,No
+St. Louis Cardinals vs Joe Boyle,Spin,Breaking,Jordan Walker,Balanced,No
+St. Louis Cardinals vs Joe Boyle,Spin,Offspeed,Jordan Walker,Balanced,No
+St. Louis Cardinals vs Joe Boyle,Spin,Fastball,José Fermín,Contact,No
+St. Louis Cardinals vs Joe Boyle,Spin,Breaking,José Fermín,Contact,No
+St. Louis Cardinals vs Joe Boyle,Spin,Offspeed,José Fermín,Contact,No
+St. Louis Cardinals vs Joe Boyle,Spin,Fastball,Masyn Winn,Contact,No
+St. Louis Cardinals vs Joe Boyle,Spin,Breaking,Masyn Winn,Contact,No
+St. Louis Cardinals vs Joe Boyle,Spin,Offspeed,Masyn Winn,Contact,No
+St. Louis Cardinals vs Joe Boyle,Spin,Fastball,Nathan Church,Balanced,No
+St. Louis Cardinals vs Joe Boyle,Spin,Breaking,Nathan Church,Balanced,No
+St. Louis Cardinals vs Joe Boyle,Spin,Offspeed,Nathan Church,Balanced,No
+St. Louis Cardinals vs Joe Boyle,Spin,Fastball,Nolan Gorman,Balanced,No
+St. Louis Cardinals vs Joe Boyle,Spin,Breaking,Nolan Gorman,Balanced,No
+St. Louis Cardinals vs Joe Boyle,Spin,Offspeed,Nolan Gorman,Balanced,No
+St. Louis Cardinals vs Joe Boyle,Spin,Fastball,Pedro Pagés,Balanced,No
+St. Louis Cardinals vs Joe Boyle,Spin,Breaking,Pedro Pagés,Balanced,No
+St. Louis Cardinals vs Joe Boyle,Spin,Offspeed,Pedro Pagés,Balanced,No
+Washington Nationals vs Cade Horton,Spin,Fastball,Andrés Chaparro,Balanced,No
+Washington Nationals vs Cade Horton,Spin,Breaking,Andrés Chaparro,Balanced,No
+Washington Nationals vs Cade Horton,Spin,Offspeed,Andrés Chaparro,Balanced,No
+Washington Nationals vs Cade Horton,Spin,Fastball,Brady House,Balanced,No
+Washington Nationals vs Cade Horton,Spin,Breaking,Brady House,Balanced,No
+Washington Nationals vs Cade Horton,Spin,Offspeed,Brady House,Balanced,No
+Washington Nationals vs Cade Horton,Spin,Fastball,CJ Abrams,Balanced,No
+Washington Nationals vs Cade Horton,Spin,Breaking,CJ Abrams,Balanced,No
+Washington Nationals vs Cade Horton,Spin,Offspeed,CJ Abrams,Balanced,No
+Washington Nationals vs Cade Horton,Spin,Fastball,Daylen Lile,Contact,No
+Washington Nationals vs Cade Horton,Spin,Breaking,Daylen Lile,Contact,No
+Washington Nationals vs Cade Horton,Spin,Offspeed,Daylen Lile,Contact,No
+Washington Nationals vs Cade Horton,Spin,Fastball,Drew Millas,Contact,No
+Washington Nationals vs Cade Horton,Spin,Breaking,Drew Millas,Contact,No
+Washington Nationals vs Cade Horton,Spin,Offspeed,Drew Millas,Contact,No
+Washington Nationals vs Cade Horton,Spin,Fastball,Jacob Young,Contact,No
+Washington Nationals vs Cade Horton,Spin,Breaking,Jacob Young,Contact,No
+Washington Nationals vs Cade Horton,Spin,Offspeed,Jacob Young,Contact,No
+Washington Nationals vs Cade Horton,Spin,Fastball,James Wood,Slugger,No
+Washington Nationals vs Cade Horton,Spin,Breaking,James Wood,Slugger,No
+Washington Nationals vs Cade Horton,Spin,Offspeed,James Wood,Slugger,No
+Washington Nationals vs Cade Horton,Spin,Fastball,Joey Wiemer,Slugger,No
+Washington Nationals vs Cade Horton,Spin,Breaking,Joey Wiemer,Slugger,No
+Washington Nationals vs Cade Horton,Spin,Offspeed,Joey Wiemer,Slugger,No
+Washington Nationals vs Cade Horton,Spin,Fastball,Jorbit Vivas,Balanced,No
+Washington Nationals vs Cade Horton,Spin,Breaking,Jorbit Vivas,Balanced,No
+Washington Nationals vs Cade Horton,Spin,Offspeed,Jorbit Vivas,Balanced,No
+Chicago Cubs vs Miles Mikolas,Power,Fastball,Alex Bregman,Balanced,No
+Chicago Cubs vs Miles Mikolas,Power,Breaking,Alex Bregman,Balanced,No
+Chicago Cubs vs Miles Mikolas,Power,Offspeed,Alex Bregman,Balanced,No
+Chicago Cubs vs Miles Mikolas,Power,Fastball,Carson Kelly,Balanced,No
+Chicago Cubs vs Miles Mikolas,Power,Breaking,Carson Kelly,Balanced,No
+Chicago Cubs vs Miles Mikolas,Power,Offspeed,Carson Kelly,Balanced,No
+Chicago Cubs vs Miles Mikolas,Power,Fastball,Dansby Swanson,Slugger,No
+Chicago Cubs vs Miles Mikolas,Power,Breaking,Dansby Swanson,Slugger,No
+Chicago Cubs vs Miles Mikolas,Power,Offspeed,Dansby Swanson,Slugger,No
+Chicago Cubs vs Miles Mikolas,Power,Fastball,Dylan Carlson,Balanced,No
+Chicago Cubs vs Miles Mikolas,Power,Breaking,Dylan Carlson,Balanced,No
+Chicago Cubs vs Miles Mikolas,Power,Offspeed,Dylan Carlson,Balanced,No
+Chicago Cubs vs Miles Mikolas,Power,Fastball,Ian Happ,Balanced,No
+Chicago Cubs vs Miles Mikolas,Power,Breaking,Ian Happ,Balanced,No
+Chicago Cubs vs Miles Mikolas,Power,Offspeed,Ian Happ,Balanced,No
+Chicago Cubs vs Miles Mikolas,Power,Fastball,Matt Shaw,Balanced,No
+Chicago Cubs vs Miles Mikolas,Power,Breaking,Matt Shaw,Balanced,No
+Chicago Cubs vs Miles Mikolas,Power,Offspeed,Matt Shaw,Balanced,No
+Chicago Cubs vs Miles Mikolas,Power,Fastball,Michael Busch,Slugger,No
+Chicago Cubs vs Miles Mikolas,Power,Breaking,Michael Busch,Slugger,No
+Chicago Cubs vs Miles Mikolas,Power,Offspeed,Michael Busch,Slugger,No
+Chicago Cubs vs Miles Mikolas,Power,Fastball,Michael Conforto,Balanced,No
+Chicago Cubs vs Miles Mikolas,Power,Breaking,Michael Conforto,Balanced,No
+Chicago Cubs vs Miles Mikolas,Power,Offspeed,Michael Conforto,Balanced,No
+Chicago Cubs vs Miles Mikolas,Power,Fastball,Miguel Amaya,Slugger,No
+Chicago Cubs vs Miles Mikolas,Power,Breaking,Miguel Amaya,Slugger,No
+Chicago Cubs vs Miles Mikolas,Power,Offspeed,Miguel Amaya,Slugger,No
+Athletics vs Dylan Cease,Balanced,Fastball,Andy Ibáñez,Contact,No
+Athletics vs Dylan Cease,Balanced,Breaking,Andy Ibáñez,Contact,No
+Athletics vs Dylan Cease,Balanced,Offspeed,Andy Ibáñez,Contact,No
+Athletics vs Dylan Cease,Balanced,Fastball,Austin Wynns,Slugger,No
+Athletics vs Dylan Cease,Balanced,Breaking,Austin Wynns,Slugger,No
+Athletics vs Dylan Cease,Balanced,Offspeed,Austin Wynns,Slugger,No
+Athletics vs Dylan Cease,Balanced,Fastball,Brent Rooker,Slugger,No
+Athletics vs Dylan Cease,Balanced,Breaking,Brent Rooker,Slugger,No
+Athletics vs Dylan Cease,Balanced,Offspeed,Brent Rooker,Slugger,No
+Athletics vs Dylan Cease,Balanced,Fastball,Carlos Cortes,Balanced,No
+Athletics vs Dylan Cease,Balanced,Breaking,Carlos Cortes,Balanced,No
+Athletics vs Dylan Cease,Balanced,Offspeed,Carlos Cortes,Balanced,No
+Athletics vs Dylan Cease,Balanced,Fastball,Darell Hernaiz,Contact,No
+Athletics vs Dylan Cease,Balanced,Breaking,Darell Hernaiz,Contact,No
+Athletics vs Dylan Cease,Balanced,Offspeed,Darell Hernaiz,Contact,No
+Athletics vs Dylan Cease,Balanced,Fastball,Denzel Clarke,Balanced,No
+Athletics vs Dylan Cease,Balanced,Breaking,Denzel Clarke,Balanced,No
+Athletics vs Dylan Cease,Balanced,Offspeed,Denzel Clarke,Balanced,No
+Athletics vs Dylan Cease,Balanced,Fastball,Jacob Wilson,Contact,No
+Athletics vs Dylan Cease,Balanced,Breaking,Jacob Wilson,Contact,No
+Athletics vs Dylan Cease,Balanced,Offspeed,Jacob Wilson,Contact,No
+Athletics vs Dylan Cease,Balanced,Fastball,Jeff McNeil,Contact,No
+Athletics vs Dylan Cease,Balanced,Breaking,Jeff McNeil,Contact,No
+Athletics vs Dylan Cease,Balanced,Offspeed,Jeff McNeil,Contact,No
+Athletics vs Dylan Cease,Balanced,Fastball,Lawrence Butler,Balanced,No
+Athletics vs Dylan Cease,Balanced,Breaking,Lawrence Butler,Balanced,No
+Athletics vs Dylan Cease,Balanced,Offspeed,Lawrence Butler,Balanced,No
+Toronto Blue Jays vs Jeffrey Springs,Power,Fastball,Addison Barger,Slugger,No
+Toronto Blue Jays vs Jeffrey Springs,Power,Breaking,Addison Barger,Slugger,No
+Toronto Blue Jays vs Jeffrey Springs,Power,Offspeed,Addison Barger,Slugger,No
+Toronto Blue Jays vs Jeffrey Springs,Power,Fastball,Alejandro Kirk,Contact,No
+Toronto Blue Jays vs Jeffrey Springs,Power,Breaking,Alejandro Kirk,Contact,No
+Toronto Blue Jays vs Jeffrey Springs,Power,Offspeed,Alejandro Kirk,Contact,No
+Toronto Blue Jays vs Jeffrey Springs,Power,Fastball,Andrés Giménez,Contact,No
+Toronto Blue Jays vs Jeffrey Springs,Power,Breaking,Andrés Giménez,Contact,No
+Toronto Blue Jays vs Jeffrey Springs,Power,Offspeed,Andrés Giménez,Contact,No
+Toronto Blue Jays vs Jeffrey Springs,Power,Fastball,Daulton Varsho,Slugger,No
+Toronto Blue Jays vs Jeffrey Springs,Power,Breaking,Daulton Varsho,Slugger,No
+Toronto Blue Jays vs Jeffrey Springs,Power,Offspeed,Daulton Varsho,Slugger,No
+Toronto Blue Jays vs Jeffrey Springs,Power,Fastball,Davis Schneider,Slugger,No
+Toronto Blue Jays vs Jeffrey Springs,Power,Breaking,Davis Schneider,Slugger,No
+Toronto Blue Jays vs Jeffrey Springs,Power,Offspeed,Davis Schneider,Slugger,No
+Toronto Blue Jays vs Jeffrey Springs,Power,Fastball,Ernie Clement,Contact,No
+Toronto Blue Jays vs Jeffrey Springs,Power,Breaking,Ernie Clement,Contact,No
+Toronto Blue Jays vs Jeffrey Springs,Power,Offspeed,Ernie Clement,Contact,No
+Toronto Blue Jays vs Jeffrey Springs,Power,Fastball,George Springer,Balanced,No
+Toronto Blue Jays vs Jeffrey Springs,Power,Breaking,George Springer,Balanced,No
+Toronto Blue Jays vs Jeffrey Springs,Power,Offspeed,George Springer,Balanced,No
+Toronto Blue Jays vs Jeffrey Springs,Power,Fastball,Jesús Sánchez,Balanced,No
+Toronto Blue Jays vs Jeffrey Springs,Power,Breaking,Jesús Sánchez,Balanced,No
+Toronto Blue Jays vs Jeffrey Springs,Power,Offspeed,Jesús Sánchez,Balanced,No
+Toronto Blue Jays vs Jeffrey Springs,Power,Fastball,Kazuma Okamoto,Balanced,No
+Toronto Blue Jays vs Jeffrey Springs,Power,Breaking,Kazuma Okamoto,Balanced,No
+Toronto Blue Jays vs Jeffrey Springs,Power,Offspeed,Kazuma Okamoto,Balanced,No
+Minnesota Twins vs Kyle Bradish,Power,Fastball,Austin Martin,Contact,No
+Minnesota Twins vs Kyle Bradish,Power,Breaking,Austin Martin,Contact,No
+Minnesota Twins vs Kyle Bradish,Power,Offspeed,Austin Martin,Contact,No
+Minnesota Twins vs Kyle Bradish,Power,Fastball,Brooks Lee,Contact,No
+Minnesota Twins vs Kyle Bradish,Power,Breaking,Brooks Lee,Contact,No
+Minnesota Twins vs Kyle Bradish,Power,Offspeed,Brooks Lee,Contact,No
+Minnesota Twins vs Kyle Bradish,Power,Fastball,Byron Buxton,Slugger,No
+Minnesota Twins vs Kyle Bradish,Power,Breaking,Byron Buxton,Slugger,No
+Minnesota Twins vs Kyle Bradish,Power,Offspeed,Byron Buxton,Slugger,No
+Minnesota Twins vs Kyle Bradish,Power,Fastball,James Outman,Slugger,No
+Minnesota Twins vs Kyle Bradish,Power,Breaking,James Outman,Slugger,No
+Minnesota Twins vs Kyle Bradish,Power,Offspeed,James Outman,Slugger,No
+Minnesota Twins vs Kyle Bradish,Power,Fastball,Josh Bell,Balanced,No
+Minnesota Twins vs Kyle Bradish,Power,Breaking,Josh Bell,Balanced,No
+Minnesota Twins vs Kyle Bradish,Power,Offspeed,Josh Bell,Balanced,No
+Minnesota Twins vs Kyle Bradish,Power,Fastball,Kody Clemens,Slugger,No
+Minnesota Twins vs Kyle Bradish,Power,Breaking,Kody Clemens,Slugger,No
+Minnesota Twins vs Kyle Bradish,Power,Offspeed,Kody Clemens,Slugger,No
+Minnesota Twins vs Kyle Bradish,Power,Fastball,Luke Keaschall,Contact,No
+Minnesota Twins vs Kyle Bradish,Power,Breaking,Luke Keaschall,Contact,No
+Minnesota Twins vs Kyle Bradish,Power,Offspeed,Luke Keaschall,Contact,No
+Minnesota Twins vs Kyle Bradish,Power,Fastball,Matt Wallner,Slugger,No
+Minnesota Twins vs Kyle Bradish,Power,Breaking,Matt Wallner,Slugger,No
+Minnesota Twins vs Kyle Bradish,Power,Offspeed,Matt Wallner,Slugger,No
+Minnesota Twins vs Kyle Bradish,Power,Fastball,Royce Lewis,Balanced,No
+Minnesota Twins vs Kyle Bradish,Power,Breaking,Royce Lewis,Balanced,No
+Minnesota Twins vs Kyle Bradish,Power,Offspeed,Royce Lewis,Balanced,No
+Baltimore Orioles vs Taj Bradley,Power,Fastball,Adley Rutschman,Contact,No
+Baltimore Orioles vs Taj Bradley,Power,Breaking,Adley Rutschman,Contact,No
+Baltimore Orioles vs Taj Bradley,Power,Offspeed,Adley Rutschman,Contact,No
+Baltimore Orioles vs Taj Bradley,Power,Fastball,Blaze Alexander,Balanced,No
+Baltimore Orioles vs Taj Bradley,Power,Breaking,Blaze Alexander,Balanced,No
+Baltimore Orioles vs Taj Bradley,Power,Offspeed,Blaze Alexander,Balanced,No
+Baltimore Orioles vs Taj Bradley,Power,Fastball,Coby Mayo,Slugger,No
+Baltimore Orioles vs Taj Bradley,Power,Breaking,Coby Mayo,Slugger,No
+Baltimore Orioles vs Taj Bradley,Power,Offspeed,Coby Mayo,Slugger,No
+Baltimore Orioles vs Taj Bradley,Power,Fastball,Colton Cowser,Slugger,No
+Baltimore Orioles vs Taj Bradley,Power,Breaking,Colton Cowser,Slugger,No
+Baltimore Orioles vs Taj Bradley,Power,Offspeed,Colton Cowser,Slugger,No
+Baltimore Orioles vs Taj Bradley,Power,Fastball,Dylan Beavers,Balanced,No
+Baltimore Orioles vs Taj Bradley,Power,Breaking,Dylan Beavers,Balanced,No
+Baltimore Orioles vs Taj Bradley,Power,Offspeed,Dylan Beavers,Balanced,No
+Baltimore Orioles vs Taj Bradley,Power,Fastball,Gunnar Henderson,Balanced,No
+Baltimore Orioles vs Taj Bradley,Power,Breaking,Gunnar Henderson,Balanced,No
+Baltimore Orioles vs Taj Bradley,Power,Offspeed,Gunnar Henderson,Balanced,No
+Baltimore Orioles vs Taj Bradley,Power,Fastball,Jeremiah Jackson,Balanced,No
+Baltimore Orioles vs Taj Bradley,Power,Breaking,Jeremiah Jackson,Balanced,No
+Baltimore Orioles vs Taj Bradley,Power,Offspeed,Jeremiah Jackson,Balanced,No
+Baltimore Orioles vs Taj Bradley,Power,Fastball,Leody Taveras,Balanced,No
+Baltimore Orioles vs Taj Bradley,Power,Breaking,Leody Taveras,Balanced,No
+Baltimore Orioles vs Taj Bradley,Power,Offspeed,Leody Taveras,Balanced,No
+Baltimore Orioles vs Taj Bradley,Power,Fastball,Pete Alonso,Slugger,No
+Baltimore Orioles vs Taj Bradley,Power,Breaking,Pete Alonso,Slugger,No
+Baltimore Orioles vs Taj Bradley,Power,Offspeed,Pete Alonso,Slugger,No
+Texas Rangers vs Aaron Nola,Power,Fastball,Andrew McCutchen,Balanced,No
+Texas Rangers vs Aaron Nola,Power,Breaking,Andrew McCutchen,Balanced,No
+Texas Rangers vs Aaron Nola,Power,Offspeed,Andrew McCutchen,Balanced,No
+Texas Rangers vs Aaron Nola,Power,Fastball,Brandon Nimmo,Slugger,No
+Texas Rangers vs Aaron Nola,Power,Breaking,Brandon Nimmo,Slugger,No
+Texas Rangers vs Aaron Nola,Power,Offspeed,Brandon Nimmo,Slugger,No
+Texas Rangers vs Aaron Nola,Power,Fastball,Corey Seager,Balanced,No
+Texas Rangers vs Aaron Nola,Power,Breaking,Corey Seager,Balanced,No
+Texas Rangers vs Aaron Nola,Power,Offspeed,Corey Seager,Balanced,No
+Texas Rangers vs Aaron Nola,Power,Fastball,Danny Jansen,Slugger,No
+Texas Rangers vs Aaron Nola,Power,Breaking,Danny Jansen,Slugger,No
+Texas Rangers vs Aaron Nola,Power,Offspeed,Danny Jansen,Slugger,No
+Texas Rangers vs Aaron Nola,Power,Fastball,Evan Carter,Contact,No
+Texas Rangers vs Aaron Nola,Power,Breaking,Evan Carter,Contact,No
+Texas Rangers vs Aaron Nola,Power,Offspeed,Evan Carter,Contact,No
+Texas Rangers vs Aaron Nola,Power,Fastball,Ezequiel Duran,Balanced,No
+Texas Rangers vs Aaron Nola,Power,Breaking,Ezequiel Duran,Balanced,No
+Texas Rangers vs Aaron Nola,Power,Offspeed,Ezequiel Duran,Balanced,No
+Texas Rangers vs Aaron Nola,Power,Fastball,Jake Burger,Slugger,No
+Texas Rangers vs Aaron Nola,Power,Breaking,Jake Burger,Slugger,No
+Texas Rangers vs Aaron Nola,Power,Offspeed,Jake Burger,Slugger,No
+Texas Rangers vs Aaron Nola,Power,Fastball,Joc Pederson,Balanced,No
+Texas Rangers vs Aaron Nola,Power,Breaking,Joc Pederson,Balanced,No
+Texas Rangers vs Aaron Nola,Power,Offspeed,Joc Pederson,Balanced,No
+Texas Rangers vs Aaron Nola,Power,Fastball,Josh Jung,Balanced,No
+Texas Rangers vs Aaron Nola,Power,Breaking,Josh Jung,Balanced,No
+Texas Rangers vs Aaron Nola,Power,Offspeed,Josh Jung,Balanced,No
+Philadelphia Phillies vs Jacob Latz,Spin,Fastball,Adolis García,Balanced,No
+Philadelphia Phillies vs Jacob Latz,Spin,Breaking,Adolis García,Balanced,No
+Philadelphia Phillies vs Jacob Latz,Spin,Offspeed,Adolis García,Balanced,No
+Philadelphia Phillies vs Jacob Latz,Spin,Fastball,Alec Bohm,Contact,No
+Philadelphia Phillies vs Jacob Latz,Spin,Breaking,Alec Bohm,Contact,No
+Philadelphia Phillies vs Jacob Latz,Spin,Offspeed,Alec Bohm,Contact,No
+Philadelphia Phillies vs Jacob Latz,Spin,Fastball,Brandon Marsh,Balanced,No
+Philadelphia Phillies vs Jacob Latz,Spin,Breaking,Brandon Marsh,Balanced,No
+Philadelphia Phillies vs Jacob Latz,Spin,Offspeed,Brandon Marsh,Balanced,No
+Philadelphia Phillies vs Jacob Latz,Spin,Fastball,Bryce Harper,Balanced,No
+Philadelphia Phillies vs Jacob Latz,Spin,Breaking,Bryce Harper,Balanced,No
+Philadelphia Phillies vs Jacob Latz,Spin,Offspeed,Bryce Harper,Balanced,No
+Philadelphia Phillies vs Jacob Latz,Spin,Fastball,Bryson Stott,Contact,No
+Philadelphia Phillies vs Jacob Latz,Spin,Breaking,Bryson Stott,Contact,No
+Philadelphia Phillies vs Jacob Latz,Spin,Offspeed,Bryson Stott,Contact,No
+Philadelphia Phillies vs Jacob Latz,Spin,Fastball,Dylan Moore,Slugger,No
+Philadelphia Phillies vs Jacob Latz,Spin,Breaking,Dylan Moore,Slugger,No
+Philadelphia Phillies vs Jacob Latz,Spin,Offspeed,Dylan Moore,Slugger,No
+Philadelphia Phillies vs Jacob Latz,Spin,Fastball,Edmundo Sosa,Slugger,No
+Philadelphia Phillies vs Jacob Latz,Spin,Breaking,Edmundo Sosa,Slugger,No
+Philadelphia Phillies vs Jacob Latz,Spin,Offspeed,Edmundo Sosa,Slugger,No
+Philadelphia Phillies vs Jacob Latz,Spin,Fastball,J.T. Realmuto,Balanced,No
+Philadelphia Phillies vs Jacob Latz,Spin,Breaking,J.T. Realmuto,Balanced,No
+Philadelphia Phillies vs Jacob Latz,Spin,Offspeed,J.T. Realmuto,Balanced,No
+Philadelphia Phillies vs Jacob Latz,Spin,Fastball,Justin Crawford,Contact,No
+Philadelphia Phillies vs Jacob Latz,Spin,Breaking,Justin Crawford,Contact,No
+Philadelphia Phillies vs Jacob Latz,Spin,Offspeed,Justin Crawford,Contact,No
+Boston Red Sox vs Brady Singer,Spin,Fastball,Andruw Monasterio,Balanced,No
+Boston Red Sox vs Brady Singer,Spin,Breaking,Andruw Monasterio,Balanced,No
+Boston Red Sox vs Brady Singer,Spin,Offspeed,Andruw Monasterio,Balanced,No
+Boston Red Sox vs Brady Singer,Spin,Fastball,Caleb Durbin,Contact,No
+Boston Red Sox vs Brady Singer,Spin,Breaking,Caleb Durbin,Contact,No
+Boston Red Sox vs Brady Singer,Spin,Offspeed,Caleb Durbin,Contact,No
+Boston Red Sox vs Brady Singer,Spin,Fastball,Carlos Narváez,Balanced,No
+Boston Red Sox vs Brady Singer,Spin,Breaking,Carlos Narváez,Balanced,No
+Boston Red Sox vs Brady Singer,Spin,Offspeed,Carlos Narváez,Balanced,No
+Boston Red Sox vs Brady Singer,Spin,Fastball,Ceddanne Rafaela,Balanced,No
+Boston Red Sox vs Brady Singer,Spin,Breaking,Ceddanne Rafaela,Balanced,No
+Boston Red Sox vs Brady Singer,Spin,Offspeed,Ceddanne Rafaela,Balanced,No
+Boston Red Sox vs Brady Singer,Spin,Fastball,Connor Wong,Balanced,No
+Boston Red Sox vs Brady Singer,Spin,Breaking,Connor Wong,Balanced,No
+Boston Red Sox vs Brady Singer,Spin,Offspeed,Connor Wong,Balanced,No
+Boston Red Sox vs Brady Singer,Spin,Fastball,Isiah Kiner-Falefa,Contact,No
+Boston Red Sox vs Brady Singer,Spin,Breaking,Isiah Kiner-Falefa,Contact,No
+Boston Red Sox vs Brady Singer,Spin,Offspeed,Isiah Kiner-Falefa,Contact,No
+Boston Red Sox vs Brady Singer,Spin,Fastball,Jarren Duran,Balanced,No
+Boston Red Sox vs Brady Singer,Spin,Breaking,Jarren Duran,Balanced,No
+Boston Red Sox vs Brady Singer,Spin,Offspeed,Jarren Duran,Balanced,No
+Boston Red Sox vs Brady Singer,Spin,Fastball,Marcelo Mayer,Balanced,No
+Boston Red Sox vs Brady Singer,Spin,Breaking,Marcelo Mayer,Balanced,No
+Boston Red Sox vs Brady Singer,Spin,Offspeed,Marcelo Mayer,Balanced,No
+Boston Red Sox vs Brady Singer,Spin,Fastball,Masataka Yoshida,Contact,No
+Boston Red Sox vs Brady Singer,Spin,Breaking,Masataka Yoshida,Contact,No
+Boston Red Sox vs Brady Singer,Spin,Offspeed,Masataka Yoshida,Contact,No
+Cincinnati Reds vs Sonny Gray,Power,Fastball,Dane Myers,Balanced,No
+Cincinnati Reds vs Sonny Gray,Power,Breaking,Dane Myers,Balanced,No
+Cincinnati Reds vs Sonny Gray,Power,Offspeed,Dane Myers,Balanced,No
+Cincinnati Reds vs Sonny Gray,Power,Fastball,Elly De La Cruz,Balanced,No
+Cincinnati Reds vs Sonny Gray,Power,Breaking,Elly De La Cruz,Balanced,No
+Cincinnati Reds vs Sonny Gray,Power,Offspeed,Elly De La Cruz,Balanced,No
+Cincinnati Reds vs Sonny Gray,Power,Fastball,Eugenio Suárez,Slugger,No
+Cincinnati Reds vs Sonny Gray,Power,Breaking,Eugenio Suárez,Slugger,No
+Cincinnati Reds vs Sonny Gray,Power,Offspeed,Eugenio Suárez,Slugger,No
+Cincinnati Reds vs Sonny Gray,Power,Fastball,Jose Trevino,Contact,No
+Cincinnati Reds vs Sonny Gray,Power,Breaking,Jose Trevino,Contact,No
+Cincinnati Reds vs Sonny Gray,Power,Offspeed,Jose Trevino,Contact,No
+Cincinnati Reds vs Sonny Gray,Power,Fastball,Ke'Bryan Hayes,Balanced,No
+Cincinnati Reds vs Sonny Gray,Power,Breaking,Ke'Bryan Hayes,Balanced,No
+Cincinnati Reds vs Sonny Gray,Power,Offspeed,Ke'Bryan Hayes,Balanced,No
+Cincinnati Reds vs Sonny Gray,Power,Fastball,Matt McLain,Balanced,No
+Cincinnati Reds vs Sonny Gray,Power,Breaking,Matt McLain,Balanced,No
+Cincinnati Reds vs Sonny Gray,Power,Offspeed,Matt McLain,Balanced,No
+Cincinnati Reds vs Sonny Gray,Power,Fastball,Nathaniel Lowe,Balanced,No
+Cincinnati Reds vs Sonny Gray,Power,Breaking,Nathaniel Lowe,Balanced,No
+Cincinnati Reds vs Sonny Gray,Power,Offspeed,Nathaniel Lowe,Balanced,No
+Cincinnati Reds vs Sonny Gray,Power,Fastball,Noelvi Marte,Slugger,No
+Cincinnati Reds vs Sonny Gray,Power,Breaking,Noelvi Marte,Slugger,No
+Cincinnati Reds vs Sonny Gray,Power,Offspeed,Noelvi Marte,Slugger,No
+Cincinnati Reds vs Sonny Gray,Power,Fastball,Sal Stewart,Slugger,No
+Cincinnati Reds vs Sonny Gray,Power,Breaking,Sal Stewart,Slugger,No
+Cincinnati Reds vs Sonny Gray,Power,Offspeed,Sal Stewart,Slugger,No
+Pittsburgh Pirates vs David Peterson,Spin,Fastball,Billy Cook,Balanced,No
+Pittsburgh Pirates vs David Peterson,Spin,Breaking,Billy Cook,Balanced,No
+Pittsburgh Pirates vs David Peterson,Spin,Offspeed,Billy Cook,Balanced,No
+Pittsburgh Pirates vs David Peterson,Spin,Fastball,Brandon Lowe,Slugger,No
+Pittsburgh Pirates vs David Peterson,Spin,Breaking,Brandon Lowe,Slugger,No
+Pittsburgh Pirates vs David Peterson,Spin,Offspeed,Brandon Lowe,Slugger,No
+Pittsburgh Pirates vs David Peterson,Spin,Fastball,Bryan Reynolds,Balanced,No
+Pittsburgh Pirates vs David Peterson,Spin,Breaking,Bryan Reynolds,Balanced,No
+Pittsburgh Pirates vs David Peterson,Spin,Offspeed,Bryan Reynolds,Balanced,No
+Pittsburgh Pirates vs David Peterson,Spin,Fastball,Henry Davis,Balanced,No
+Pittsburgh Pirates vs David Peterson,Spin,Breaking,Henry Davis,Balanced,No
+Pittsburgh Pirates vs David Peterson,Spin,Offspeed,Henry Davis,Balanced,No
+Pittsburgh Pirates vs David Peterson,Spin,Fastball,Jake Mangum,Contact,No
+Pittsburgh Pirates vs David Peterson,Spin,Breaking,Jake Mangum,Contact,No
+Pittsburgh Pirates vs David Peterson,Spin,Offspeed,Jake Mangum,Contact,No
+Pittsburgh Pirates vs David Peterson,Spin,Fastball,Jared Triolo,Balanced,No
+Pittsburgh Pirates vs David Peterson,Spin,Breaking,Jared Triolo,Balanced,No
+Pittsburgh Pirates vs David Peterson,Spin,Offspeed,Jared Triolo,Balanced,No
+Pittsburgh Pirates vs David Peterson,Spin,Fastball,Joey Bart,Balanced,No
+Pittsburgh Pirates vs David Peterson,Spin,Breaking,Joey Bart,Balanced,No
+Pittsburgh Pirates vs David Peterson,Spin,Offspeed,Joey Bart,Balanced,No
+Pittsburgh Pirates vs David Peterson,Spin,Fastball,Marcell Ozuna,Slugger,No
+Pittsburgh Pirates vs David Peterson,Spin,Breaking,Marcell Ozuna,Slugger,No
+Pittsburgh Pirates vs David Peterson,Spin,Offspeed,Marcell Ozuna,Slugger,No
+Pittsburgh Pirates vs David Peterson,Spin,Fastball,Nick Gonzales,Contact,No
+Pittsburgh Pirates vs David Peterson,Spin,Breaking,Nick Gonzales,Contact,No
+Pittsburgh Pirates vs David Peterson,Spin,Offspeed,Nick Gonzales,Contact,No
+New York Mets vs Mitch Keller,Balanced,Fastball,Bo Bichette,Contact,No
+New York Mets vs Mitch Keller,Balanced,Breaking,Bo Bichette,Contact,No
+New York Mets vs Mitch Keller,Balanced,Offspeed,Bo Bichette,Contact,No
+New York Mets vs Mitch Keller,Balanced,Fastball,Brett Baty,Slugger,No
+New York Mets vs Mitch Keller,Balanced,Breaking,Brett Baty,Slugger,No
+New York Mets vs Mitch Keller,Balanced,Offspeed,Brett Baty,Slugger,No
+New York Mets vs Mitch Keller,Balanced,Fastball,Carson Benge,Balanced,No
+New York Mets vs Mitch Keller,Balanced,Breaking,Carson Benge,Balanced,No
+New York Mets vs Mitch Keller,Balanced,Offspeed,Carson Benge,Balanced,No
+New York Mets vs Mitch Keller,Balanced,Fastball,Francisco Alvarez,Slugger,No
+New York Mets vs Mitch Keller,Balanced,Breaking,Francisco Alvarez,Slugger,No
+New York Mets vs Mitch Keller,Balanced,Offspeed,Francisco Alvarez,Slugger,No
+New York Mets vs Mitch Keller,Balanced,Fastball,Francisco Lindor,Balanced,No
+New York Mets vs Mitch Keller,Balanced,Breaking,Francisco Lindor,Balanced,No
+New York Mets vs Mitch Keller,Balanced,Offspeed,Francisco Lindor,Balanced,No
+New York Mets vs Mitch Keller,Balanced,Fastball,Jared Young,Slugger,No
+New York Mets vs Mitch Keller,Balanced,Breaking,Jared Young,Slugger,No
+New York Mets vs Mitch Keller,Balanced,Offspeed,Jared Young,Slugger,No
+New York Mets vs Mitch Keller,Balanced,Fastball,Jorge Polanco,Balanced,No
+New York Mets vs Mitch Keller,Balanced,Breaking,Jorge Polanco,Balanced,No
+New York Mets vs Mitch Keller,Balanced,Offspeed,Jorge Polanco,Balanced,No
+New York Mets vs Mitch Keller,Balanced,Fastball,Juan Soto,Balanced,No
+New York Mets vs Mitch Keller,Balanced,Breaking,Juan Soto,Balanced,No
+New York Mets vs Mitch Keller,Balanced,Offspeed,Juan Soto,Balanced,No
+New York Mets vs Mitch Keller,Balanced,Fastball,Luis Robert Jr.,Balanced,No
+New York Mets vs Mitch Keller,Balanced,Breaking,Luis Robert Jr.,Balanced,No
+New York Mets vs Mitch Keller,Balanced,Offspeed,Luis Robert Jr.,Balanced,No
+Colorado Rockies vs Eury Pérez,Balanced,Fastball,Braxton Fulford,Balanced,No
+Colorado Rockies vs Eury Pérez,Balanced,Breaking,Braxton Fulford,Balanced,No
+Colorado Rockies vs Eury Pérez,Balanced,Offspeed,Braxton Fulford,Balanced,No
+Colorado Rockies vs Eury Pérez,Balanced,Fastball,Brenton Doyle,Balanced,No
+Colorado Rockies vs Eury Pérez,Balanced,Breaking,Brenton Doyle,Balanced,No
+Colorado Rockies vs Eury Pérez,Balanced,Offspeed,Brenton Doyle,Balanced,No
+Colorado Rockies vs Eury Pérez,Balanced,Fastball,Brett Sullivan,Balanced,No
+Colorado Rockies vs Eury Pérez,Balanced,Breaking,Brett Sullivan,Balanced,No
+Colorado Rockies vs Eury Pérez,Balanced,Offspeed,Brett Sullivan,Balanced,No
+Colorado Rockies vs Eury Pérez,Balanced,Fastball,Edouard Julien,Balanced,No
+Colorado Rockies vs Eury Pérez,Balanced,Breaking,Edouard Julien,Balanced,No
+Colorado Rockies vs Eury Pérez,Balanced,Offspeed,Edouard Julien,Balanced,No
+Colorado Rockies vs Eury Pérez,Balanced,Fastball,Ezequiel Tovar,Balanced,No
+Colorado Rockies vs Eury Pérez,Balanced,Breaking,Ezequiel Tovar,Balanced,No
+Colorado Rockies vs Eury Pérez,Balanced,Offspeed,Ezequiel Tovar,Balanced,No
+Colorado Rockies vs Eury Pérez,Balanced,Fastball,Hunter Goodman,Slugger,No
+Colorado Rockies vs Eury Pérez,Balanced,Breaking,Hunter Goodman,Slugger,No
+Colorado Rockies vs Eury Pérez,Balanced,Offspeed,Hunter Goodman,Slugger,No
+Colorado Rockies vs Eury Pérez,Balanced,Fastball,Jake McCarthy,Contact,No
+Colorado Rockies vs Eury Pérez,Balanced,Breaking,Jake McCarthy,Contact,No
+Colorado Rockies vs Eury Pérez,Balanced,Offspeed,Jake McCarthy,Contact,No
+Colorado Rockies vs Eury Pérez,Balanced,Fastball,Jordan Beck,Balanced,No
+Colorado Rockies vs Eury Pérez,Balanced,Breaking,Jordan Beck,Balanced,No
+Colorado Rockies vs Eury Pérez,Balanced,Offspeed,Jordan Beck,Balanced,No
+Colorado Rockies vs Eury Pérez,Balanced,Fastball,Kyle Karros,Balanced,No
+Colorado Rockies vs Eury Pérez,Balanced,Breaking,Kyle Karros,Balanced,No
+Colorado Rockies vs Eury Pérez,Balanced,Offspeed,Kyle Karros,Balanced,No
+Miami Marlins vs Michael Lorenzen,Power,Fastball,Agustín Ramírez,Balanced,No
+Miami Marlins vs Michael Lorenzen,Power,Breaking,Agustín Ramírez,Balanced,No
+Miami Marlins vs Michael Lorenzen,Power,Offspeed,Agustín Ramírez,Balanced,No
+Miami Marlins vs Michael Lorenzen,Power,Fastball,Austin Slater,Balanced,No
+Miami Marlins vs Michael Lorenzen,Power,Breaking,Austin Slater,Balanced,No
+Miami Marlins vs Michael Lorenzen,Power,Offspeed,Austin Slater,Balanced,No
+Miami Marlins vs Michael Lorenzen,Power,Fastball,Connor Norby,Balanced,No
+Miami Marlins vs Michael Lorenzen,Power,Breaking,Connor Norby,Balanced,No
+Miami Marlins vs Michael Lorenzen,Power,Offspeed,Connor Norby,Balanced,No
+Miami Marlins vs Michael Lorenzen,Power,Fastball,Deyvison De Los Santos,Balanced,No
+Miami Marlins vs Michael Lorenzen,Power,Breaking,Deyvison De Los Santos,Balanced,No
+Miami Marlins vs Michael Lorenzen,Power,Offspeed,Deyvison De Los Santos,Balanced,No
+Miami Marlins vs Michael Lorenzen,Power,Fastball,Graham Pauley,Balanced,No
+Miami Marlins vs Michael Lorenzen,Power,Breaking,Graham Pauley,Balanced,No
+Miami Marlins vs Michael Lorenzen,Power,Offspeed,Graham Pauley,Balanced,No
+Miami Marlins vs Michael Lorenzen,Power,Fastball,Griffin Conine,Balanced,No
+Miami Marlins vs Michael Lorenzen,Power,Breaking,Griffin Conine,Balanced,No
+Miami Marlins vs Michael Lorenzen,Power,Offspeed,Griffin Conine,Balanced,No
+Miami Marlins vs Michael Lorenzen,Power,Fastball,Heriberto Hernández,Balanced,No
+Miami Marlins vs Michael Lorenzen,Power,Breaking,Heriberto Hernández,Balanced,No
+Miami Marlins vs Michael Lorenzen,Power,Offspeed,Heriberto Hernández,Balanced,No
+Miami Marlins vs Michael Lorenzen,Power,Fastball,Jakob Marsee,Balanced,No
+Miami Marlins vs Michael Lorenzen,Power,Breaking,Jakob Marsee,Balanced,No
+Miami Marlins vs Michael Lorenzen,Power,Offspeed,Jakob Marsee,Balanced,No
+Miami Marlins vs Michael Lorenzen,Power,Fastball,Javier Sanoja,Contact,No
+Miami Marlins vs Michael Lorenzen,Power,Breaking,Javier Sanoja,Contact,No
+Miami Marlins vs Michael Lorenzen,Power,Offspeed,Javier Sanoja,Contact,No
+Los Angeles Angels vs Cristian Javier,Power,Fastball,Adam Frazier,Contact,No
+Los Angeles Angels vs Cristian Javier,Power,Breaking,Adam Frazier,Contact,No
+Los Angeles Angels vs Cristian Javier,Power,Offspeed,Adam Frazier,Contact,No
+Los Angeles Angels vs Cristian Javier,Power,Fastball,Bryce Teodosio,Balanced,No
+Los Angeles Angels vs Cristian Javier,Power,Breaking,Bryce Teodosio,Balanced,No
+Los Angeles Angels vs Cristian Javier,Power,Offspeed,Bryce Teodosio,Balanced,No
+Los Angeles Angels vs Cristian Javier,Power,Fastball,Jeimer Candelario,Balanced,No
+Los Angeles Angels vs Cristian Javier,Power,Breaking,Jeimer Candelario,Balanced,No
+Los Angeles Angels vs Cristian Javier,Power,Offspeed,Jeimer Candelario,Balanced,No
+Los Angeles Angels vs Cristian Javier,Power,Fastball,Jo Adell,Slugger,No
+Los Angeles Angels vs Cristian Javier,Power,Breaking,Jo Adell,Slugger,No
+Los Angeles Angels vs Cristian Javier,Power,Offspeed,Jo Adell,Slugger,No
+Los Angeles Angels vs Cristian Javier,Power,Fastball,Jorge Soler,Slugger,No
+Los Angeles Angels vs Cristian Javier,Power,Breaking,Jorge Soler,Slugger,No
+Los Angeles Angels vs Cristian Javier,Power,Offspeed,Jorge Soler,Slugger,No
+Los Angeles Angels vs Cristian Javier,Power,Fastball,Josh Lowe,Balanced,No
+Los Angeles Angels vs Cristian Javier,Power,Breaking,Josh Lowe,Balanced,No
+Los Angeles Angels vs Cristian Javier,Power,Offspeed,Josh Lowe,Balanced,No
+Los Angeles Angels vs Cristian Javier,Power,Fastball,Logan O'Hoppe,Slugger,No
+Los Angeles Angels vs Cristian Javier,Power,Breaking,Logan O'Hoppe,Slugger,No
+Los Angeles Angels vs Cristian Javier,Power,Offspeed,Logan O'Hoppe,Slugger,No
+Los Angeles Angels vs Cristian Javier,Power,Fastball,Mike Trout,Slugger,No
+Los Angeles Angels vs Cristian Javier,Power,Breaking,Mike Trout,Slugger,No
+Los Angeles Angels vs Cristian Javier,Power,Offspeed,Mike Trout,Slugger,No
+Los Angeles Angels vs Cristian Javier,Power,Fastball,Nolan Schanuel,Contact,No
+Los Angeles Angels vs Cristian Javier,Power,Breaking,Nolan Schanuel,Contact,No
+Los Angeles Angels vs Cristian Javier,Power,Offspeed,Nolan Schanuel,Contact,No
+Houston Astros vs Reid Detmers,Spin,Fastball,Brice Matthews,Slugger,No
+Houston Astros vs Reid Detmers,Spin,Breaking,Brice Matthews,Slugger,No
+Houston Astros vs Reid Detmers,Spin,Offspeed,Brice Matthews,Slugger,No
+Houston Astros vs Reid Detmers,Spin,Fastball,Cam Smith,Balanced,No
+Houston Astros vs Reid Detmers,Spin,Breaking,Cam Smith,Balanced,No
+Houston Astros vs Reid Detmers,Spin,Offspeed,Cam Smith,Balanced,No
+Houston Astros vs Reid Detmers,Spin,Fastball,Carlos Correa,Balanced,No
+Houston Astros vs Reid Detmers,Spin,Breaking,Carlos Correa,Balanced,No
+Houston Astros vs Reid Detmers,Spin,Offspeed,Carlos Correa,Balanced,No
+Houston Astros vs Reid Detmers,Spin,Fastball,Christian Vázquez,Contact,No
+Houston Astros vs Reid Detmers,Spin,Breaking,Christian Vázquez,Contact,No
+Houston Astros vs Reid Detmers,Spin,Offspeed,Christian Vázquez,Contact,No
+Houston Astros vs Reid Detmers,Spin,Fastball,Christian Walker,Slugger,No
+Houston Astros vs Reid Detmers,Spin,Breaking,Christian Walker,Slugger,No
+Houston Astros vs Reid Detmers,Spin,Offspeed,Christian Walker,Slugger,No
+Houston Astros vs Reid Detmers,Spin,Fastball,Isaac Paredes,Balanced,No
+Houston Astros vs Reid Detmers,Spin,Breaking,Isaac Paredes,Balanced,No
+Houston Astros vs Reid Detmers,Spin,Offspeed,Isaac Paredes,Balanced,No
+Houston Astros vs Reid Detmers,Spin,Fastball,Jake Meyers,Contact,No
+Houston Astros vs Reid Detmers,Spin,Breaking,Jake Meyers,Contact,No
+Houston Astros vs Reid Detmers,Spin,Offspeed,Jake Meyers,Contact,No
+Houston Astros vs Reid Detmers,Spin,Fastball,Jeremy Peña,Contact,No
+Houston Astros vs Reid Detmers,Spin,Breaking,Jeremy Peña,Contact,No
+Houston Astros vs Reid Detmers,Spin,Offspeed,Jeremy Peña,Contact,No
+Houston Astros vs Reid Detmers,Spin,Fastball,Joey Loperfido,Slugger,No
+Houston Astros vs Reid Detmers,Spin,Breaking,Joey Loperfido,Slugger,No
+Houston Astros vs Reid Detmers,Spin,Offspeed,Joey Loperfido,Slugger,No
+Chicago White Sox vs Chad Patrick,Spin,Fastball,Andrew Benintendi,Balanced,No
+Chicago White Sox vs Chad Patrick,Spin,Breaking,Andrew Benintendi,Balanced,No
+Chicago White Sox vs Chad Patrick,Spin,Offspeed,Andrew Benintendi,Balanced,No
+Chicago White Sox vs Chad Patrick,Spin,Fastball,Austin Hays,Slugger,No
+Chicago White Sox vs Chad Patrick,Spin,Breaking,Austin Hays,Slugger,No
+Chicago White Sox vs Chad Patrick,Spin,Offspeed,Austin Hays,Slugger,No
+Chicago White Sox vs Chad Patrick,Spin,Fastball,Chase Meidroth,Contact,No
+Chicago White Sox vs Chad Patrick,Spin,Breaking,Chase Meidroth,Contact,No
+Chicago White Sox vs Chad Patrick,Spin,Offspeed,Chase Meidroth,Contact,No
+Chicago White Sox vs Chad Patrick,Spin,Fastball,Colson Montgomery,Slugger,No
+Chicago White Sox vs Chad Patrick,Spin,Breaking,Colson Montgomery,Slugger,No
+Chicago White Sox vs Chad Patrick,Spin,Offspeed,Colson Montgomery,Slugger,No
+Chicago White Sox vs Chad Patrick,Spin,Fastball,Derek Hill,Balanced,No
+Chicago White Sox vs Chad Patrick,Spin,Breaking,Derek Hill,Balanced,No
+Chicago White Sox vs Chad Patrick,Spin,Offspeed,Derek Hill,Balanced,No
+Chicago White Sox vs Chad Patrick,Spin,Fastball,Edgar Quero,Contact,No
+Chicago White Sox vs Chad Patrick,Spin,Breaking,Edgar Quero,Contact,No
+Chicago White Sox vs Chad Patrick,Spin,Offspeed,Edgar Quero,Contact,No
+Chicago White Sox vs Chad Patrick,Spin,Fastball,Everson Pereira,Balanced,No
+Chicago White Sox vs Chad Patrick,Spin,Breaking,Everson Pereira,Balanced,No
+Chicago White Sox vs Chad Patrick,Spin,Offspeed,Everson Pereira,Balanced,No
+Chicago White Sox vs Chad Patrick,Spin,Fastball,Lenyn Sosa,Slugger,No
+Chicago White Sox vs Chad Patrick,Spin,Breaking,Lenyn Sosa,Slugger,No
+Chicago White Sox vs Chad Patrick,Spin,Offspeed,Lenyn Sosa,Slugger,No
+Chicago White Sox vs Chad Patrick,Spin,Fastball,Luisangel Acuña,Balanced,No
+Chicago White Sox vs Chad Patrick,Spin,Breaking,Luisangel Acuña,Balanced,No
+Chicago White Sox vs Chad Patrick,Spin,Offspeed,Luisangel Acuña,Balanced,No
+Milwaukee Brewers vs Sean Burke,Power,Fastball,Andrew Vaughn,Contact,No
+Milwaukee Brewers vs Sean Burke,Power,Breaking,Andrew Vaughn,Contact,No
+Milwaukee Brewers vs Sean Burke,Power,Offspeed,Andrew Vaughn,Contact,No
+Milwaukee Brewers vs Sean Burke,Power,Fastball,Blake Perkins,Balanced,No
+Milwaukee Brewers vs Sean Burke,Power,Breaking,Blake Perkins,Balanced,No
+Milwaukee Brewers vs Sean Burke,Power,Offspeed,Blake Perkins,Balanced,No
+Milwaukee Brewers vs Sean Burke,Power,Fastball,Brandon Lockridge,Balanced,No
+Milwaukee Brewers vs Sean Burke,Power,Breaking,Brandon Lockridge,Balanced,No
+Milwaukee Brewers vs Sean Burke,Power,Offspeed,Brandon Lockridge,Balanced,No
+Milwaukee Brewers vs Sean Burke,Power,Fastball,Brice Turang,Balanced,No
+Milwaukee Brewers vs Sean Burke,Power,Breaking,Brice Turang,Balanced,No
+Milwaukee Brewers vs Sean Burke,Power,Offspeed,Brice Turang,Balanced,No
+Milwaukee Brewers vs Sean Burke,Power,Fastball,Christian Yelich,Slugger,No
+Milwaukee Brewers vs Sean Burke,Power,Breaking,Christian Yelich,Slugger,No
+Milwaukee Brewers vs Sean Burke,Power,Offspeed,Christian Yelich,Slugger,No
+Milwaukee Brewers vs Sean Burke,Power,Fastball,David Hamilton,Balanced,No
+Milwaukee Brewers vs Sean Burke,Power,Breaking,David Hamilton,Balanced,No
+Milwaukee Brewers vs Sean Burke,Power,Offspeed,David Hamilton,Balanced,No
+Milwaukee Brewers vs Sean Burke,Power,Fastball,Garrett Mitchell,Balanced,No
+Milwaukee Brewers vs Sean Burke,Power,Breaking,Garrett Mitchell,Balanced,No
+Milwaukee Brewers vs Sean Burke,Power,Offspeed,Garrett Mitchell,Balanced,No
+Milwaukee Brewers vs Sean Burke,Power,Fastball,Gary Sánchez,Slugger,No
+Milwaukee Brewers vs Sean Burke,Power,Breaking,Gary Sánchez,Slugger,No
+Milwaukee Brewers vs Sean Burke,Power,Offspeed,Gary Sánchez,Slugger,No
+Milwaukee Brewers vs Sean Burke,Power,Fastball,Jake Bauers,Balanced,No
+Milwaukee Brewers vs Sean Burke,Power,Breaking,Jake Bauers,Balanced,No
+Milwaukee Brewers vs Sean Burke,Power,Offspeed,Jake Bauers,Balanced,No
+Kansas City Royals vs Reynaldo López,Spin,Fastball,Bobby Witt Jr.,Contact,No
+Kansas City Royals vs Reynaldo López,Spin,Breaking,Bobby Witt Jr.,Contact,No
+Kansas City Royals vs Reynaldo López,Spin,Offspeed,Bobby Witt Jr.,Contact,No
+Kansas City Royals vs Reynaldo López,Spin,Fastball,Carter Jensen,Balanced,No
+Kansas City Royals vs Reynaldo López,Spin,Breaking,Carter Jensen,Balanced,No
+Kansas City Royals vs Reynaldo López,Spin,Offspeed,Carter Jensen,Balanced,No
+Kansas City Royals vs Reynaldo López,Spin,Fastball,Isaac Collins,Balanced,No
+Kansas City Royals vs Reynaldo López,Spin,Breaking,Isaac Collins,Balanced,No
+Kansas City Royals vs Reynaldo López,Spin,Offspeed,Isaac Collins,Balanced,No
+Kansas City Royals vs Reynaldo López,Spin,Fastball,Jac Caglianone,Balanced,No
+Kansas City Royals vs Reynaldo López,Spin,Breaking,Jac Caglianone,Balanced,No
+Kansas City Royals vs Reynaldo López,Spin,Offspeed,Jac Caglianone,Balanced,No
+Kansas City Royals vs Reynaldo López,Spin,Fastball,Jonathan India,Contact,No
+Kansas City Royals vs Reynaldo López,Spin,Breaking,Jonathan India,Contact,No
+Kansas City Royals vs Reynaldo López,Spin,Offspeed,Jonathan India,Contact,No
+Kansas City Royals vs Reynaldo López,Spin,Fastball,Kyle Isbel,Contact,No
+Kansas City Royals vs Reynaldo López,Spin,Breaking,Kyle Isbel,Contact,No
+Kansas City Royals vs Reynaldo López,Spin,Offspeed,Kyle Isbel,Contact,No
+Kansas City Royals vs Reynaldo López,Spin,Fastball,Lane Thomas,Balanced,No
+Kansas City Royals vs Reynaldo López,Spin,Breaking,Lane Thomas,Balanced,No
+Kansas City Royals vs Reynaldo López,Spin,Offspeed,Lane Thomas,Balanced,No
+Kansas City Royals vs Reynaldo López,Spin,Fastball,Maikel Garcia,Contact,No
+Kansas City Royals vs Reynaldo López,Spin,Breaking,Maikel Garcia,Contact,No
+Kansas City Royals vs Reynaldo López,Spin,Offspeed,Maikel Garcia,Contact,No
+Kansas City Royals vs Reynaldo López,Spin,Fastball,Nick Loftin,Contact,No
+Kansas City Royals vs Reynaldo López,Spin,Breaking,Nick Loftin,Contact,No
+Kansas City Royals vs Reynaldo López,Spin,Offspeed,Nick Loftin,Contact,No
+Atlanta Braves vs Michael Wacha,Spin,Fastball,Austin Riley,Slugger,No
+Atlanta Braves vs Michael Wacha,Spin,Breaking,Austin Riley,Slugger,No
+Atlanta Braves vs Michael Wacha,Spin,Offspeed,Austin Riley,Slugger,No
+Atlanta Braves vs Michael Wacha,Spin,Fastball,Dominic Smith,Contact,No
+Atlanta Braves vs Michael Wacha,Spin,Breaking,Dominic Smith,Contact,No
+Atlanta Braves vs Michael Wacha,Spin,Offspeed,Dominic Smith,Contact,No
+Atlanta Braves vs Michael Wacha,Spin,Fastball,Drake Baldwin,Balanced,No
+Atlanta Braves vs Michael Wacha,Spin,Breaking,Drake Baldwin,Balanced,No
+Atlanta Braves vs Michael Wacha,Spin,Offspeed,Drake Baldwin,Balanced,No
+Atlanta Braves vs Michael Wacha,Spin,Fastball,Eli White,Slugger,No
+Atlanta Braves vs Michael Wacha,Spin,Breaking,Eli White,Slugger,No
+Atlanta Braves vs Michael Wacha,Spin,Offspeed,Eli White,Slugger,No
+Atlanta Braves vs Michael Wacha,Spin,Fastball,Jonah Heim,Balanced,No
+Atlanta Braves vs Michael Wacha,Spin,Breaking,Jonah Heim,Balanced,No
+Atlanta Braves vs Michael Wacha,Spin,Offspeed,Jonah Heim,Balanced,No
+Atlanta Braves vs Michael Wacha,Spin,Fastball,Jorge Mateo,Balanced,No
+Atlanta Braves vs Michael Wacha,Spin,Breaking,Jorge Mateo,Balanced,No
+Atlanta Braves vs Michael Wacha,Spin,Offspeed,Jorge Mateo,Balanced,No
+Atlanta Braves vs Michael Wacha,Spin,Fastball,Kyle Farmer,Balanced,No
+Atlanta Braves vs Michael Wacha,Spin,Breaking,Kyle Farmer,Balanced,No
+Atlanta Braves vs Michael Wacha,Spin,Offspeed,Kyle Farmer,Balanced,No
+Atlanta Braves vs Michael Wacha,Spin,Fastball,Matt Olson,Slugger,No
+Atlanta Braves vs Michael Wacha,Spin,Breaking,Matt Olson,Slugger,No
+Atlanta Braves vs Michael Wacha,Spin,Offspeed,Matt Olson,Slugger,No
+Atlanta Braves vs Michael Wacha,Spin,Fastball,Mauricio Dubón,Contact,No
+Atlanta Braves vs Michael Wacha,Spin,Breaking,Mauricio Dubón,Contact,No
+Atlanta Braves vs Michael Wacha,Spin,Offspeed,Mauricio Dubón,Contact,No
+New York Yankees vs Tyler Mahle,Spin,Fastball,Aaron Judge,Slugger,No
+New York Yankees vs Tyler Mahle,Spin,Breaking,Aaron Judge,Slugger,No
+New York Yankees vs Tyler Mahle,Spin,Offspeed,Aaron Judge,Slugger,No
+New York Yankees vs Tyler Mahle,Spin,Fastball,Amed Rosario,Contact,No
+New York Yankees vs Tyler Mahle,Spin,Breaking,Amed Rosario,Contact,No
+New York Yankees vs Tyler Mahle,Spin,Offspeed,Amed Rosario,Contact,No
+New York Yankees vs Tyler Mahle,Spin,Fastball,Austin Wells,Slugger,No
+New York Yankees vs Tyler Mahle,Spin,Breaking,Austin Wells,Slugger,No
+New York Yankees vs Tyler Mahle,Spin,Offspeed,Austin Wells,Slugger,No
+New York Yankees vs Tyler Mahle,Spin,Fastball,Ben Rice,Balanced,No
+New York Yankees vs Tyler Mahle,Spin,Breaking,Ben Rice,Balanced,No
+New York Yankees vs Tyler Mahle,Spin,Offspeed,Ben Rice,Balanced,No
+New York Yankees vs Tyler Mahle,Spin,Fastball,Cody Bellinger,Balanced,No
+New York Yankees vs Tyler Mahle,Spin,Breaking,Cody Bellinger,Balanced,No
+New York Yankees vs Tyler Mahle,Spin,Offspeed,Cody Bellinger,Balanced,No
+New York Yankees vs Tyler Mahle,Spin,Fastball,Giancarlo Stanton,Slugger,No
+New York Yankees vs Tyler Mahle,Spin,Breaking,Giancarlo Stanton,Slugger,No
+New York Yankees vs Tyler Mahle,Spin,Offspeed,Giancarlo Stanton,Slugger,No
+New York Yankees vs Tyler Mahle,Spin,Fastball,J.C. Escarra,Contact,No
+New York Yankees vs Tyler Mahle,Spin,Breaking,J.C. Escarra,Contact,No
+New York Yankees vs Tyler Mahle,Spin,Offspeed,J.C. Escarra,Contact,No
+New York Yankees vs Tyler Mahle,Spin,Fastball,Jazz Chisholm Jr.,Slugger,No
+New York Yankees vs Tyler Mahle,Spin,Breaking,Jazz Chisholm Jr.,Slugger,No
+New York Yankees vs Tyler Mahle,Spin,Offspeed,Jazz Chisholm Jr.,Slugger,No
+New York Yankees vs Tyler Mahle,Spin,Fastball,José Caballero,Balanced,No
+New York Yankees vs Tyler Mahle,Spin,Breaking,José Caballero,Balanced,No
+New York Yankees vs Tyler Mahle,Spin,Offspeed,José Caballero,Balanced,No
+San Francisco Giants vs Will Warren,Power,Fastball,Casey Schmitt,Balanced,No
+San Francisco Giants vs Will Warren,Power,Breaking,Casey Schmitt,Balanced,No
+San Francisco Giants vs Will Warren,Power,Offspeed,Casey Schmitt,Balanced,No
+San Francisco Giants vs Will Warren,Power,Fastball,Christian Koss,Balanced,No
+San Francisco Giants vs Will Warren,Power,Breaking,Christian Koss,Balanced,No
+San Francisco Giants vs Will Warren,Power,Offspeed,Christian Koss,Balanced,No
+San Francisco Giants vs Will Warren,Power,Fastball,Daniel Susac,Balanced,No
+San Francisco Giants vs Will Warren,Power,Breaking,Daniel Susac,Balanced,No
+San Francisco Giants vs Will Warren,Power,Offspeed,Daniel Susac,Balanced,No
+San Francisco Giants vs Will Warren,Power,Fastball,Harrison Bader,Balanced,No
+San Francisco Giants vs Will Warren,Power,Breaking,Harrison Bader,Balanced,No
+San Francisco Giants vs Will Warren,Power,Offspeed,Harrison Bader,Balanced,No
+San Francisco Giants vs Will Warren,Power,Fastball,Heliot Ramos,Balanced,No
+San Francisco Giants vs Will Warren,Power,Breaking,Heliot Ramos,Balanced,No
+San Francisco Giants vs Will Warren,Power,Offspeed,Heliot Ramos,Balanced,No
+San Francisco Giants vs Will Warren,Power,Fastball,Jared Oliva,Balanced,No
+San Francisco Giants vs Will Warren,Power,Breaking,Jared Oliva,Balanced,No
+San Francisco Giants vs Will Warren,Power,Offspeed,Jared Oliva,Balanced,No
+San Francisco Giants vs Will Warren,Power,Fastball,Jerar Encarnacion,Slugger,No
+San Francisco Giants vs Will Warren,Power,Breaking,Jerar Encarnacion,Slugger,No
+San Francisco Giants vs Will Warren,Power,Offspeed,Jerar Encarnacion,Slugger,No
+San Francisco Giants vs Will Warren,Power,Fastball,Jung Hoo Lee,Contact,No
+San Francisco Giants vs Will Warren,Power,Breaking,Jung Hoo Lee,Contact,No
+San Francisco Giants vs Will Warren,Power,Offspeed,Jung Hoo Lee,Contact,No
+San Francisco Giants vs Will Warren,Power,Fastball,Luis Arraez,Contact,No
+San Francisco Giants vs Will Warren,Power,Breaking,Luis Arraez,Contact,No
+San Francisco Giants vs Will Warren,Power,Offspeed,Luis Arraez,Contact,No
+Detroit Tigers vs Randy Vásquez,Balanced,Fastball,Colt Keith,Balanced,No
+Detroit Tigers vs Randy Vásquez,Balanced,Breaking,Colt Keith,Balanced,No
+Detroit Tigers vs Randy Vásquez,Balanced,Offspeed,Colt Keith,Balanced,No
+Detroit Tigers vs Randy Vásquez,Balanced,Fastball,Dillon Dingler,Balanced,No
+Detroit Tigers vs Randy Vásquez,Balanced,Breaking,Dillon Dingler,Balanced,No
+Detroit Tigers vs Randy Vásquez,Balanced,Offspeed,Dillon Dingler,Balanced,No
+Detroit Tigers vs Randy Vásquez,Balanced,Fastball,Gleyber Torres,Contact,No
+Detroit Tigers vs Randy Vásquez,Balanced,Breaking,Gleyber Torres,Contact,No
+Detroit Tigers vs Randy Vásquez,Balanced,Offspeed,Gleyber Torres,Contact,No
+Detroit Tigers vs Randy Vásquez,Balanced,Fastball,Jahmai Jones,Slugger,No
+Detroit Tigers vs Randy Vásquez,Balanced,Breaking,Jahmai Jones,Slugger,No
+Detroit Tigers vs Randy Vásquez,Balanced,Offspeed,Jahmai Jones,Slugger,No
+Detroit Tigers vs Randy Vásquez,Balanced,Fastball,Jake Rogers,Balanced,No
+Detroit Tigers vs Randy Vásquez,Balanced,Breaking,Jake Rogers,Balanced,No
+Detroit Tigers vs Randy Vásquez,Balanced,Offspeed,Jake Rogers,Balanced,No
+Detroit Tigers vs Randy Vásquez,Balanced,Fastball,Javier Báez,Balanced,No
+Detroit Tigers vs Randy Vásquez,Balanced,Breaking,Javier Báez,Balanced,No
+Detroit Tigers vs Randy Vásquez,Balanced,Offspeed,Javier Báez,Balanced,No
+Detroit Tigers vs Randy Vásquez,Balanced,Fastball,Kerry Carpenter,Slugger,No
+Detroit Tigers vs Randy Vásquez,Balanced,Breaking,Kerry Carpenter,Slugger,No
+Detroit Tigers vs Randy Vásquez,Balanced,Offspeed,Kerry Carpenter,Slugger,No
+Detroit Tigers vs Randy Vásquez,Balanced,Fastball,Kevin McGonigle,Balanced,No
+Detroit Tigers vs Randy Vásquez,Balanced,Breaking,Kevin McGonigle,Balanced,No
+Detroit Tigers vs Randy Vásquez,Balanced,Offspeed,Kevin McGonigle,Balanced,No
+Detroit Tigers vs Randy Vásquez,Balanced,Fastball,Matt Vierling,Balanced,No
+Detroit Tigers vs Randy Vásquez,Balanced,Breaking,Matt Vierling,Balanced,No
+Detroit Tigers vs Randy Vásquez,Balanced,Offspeed,Matt Vierling,Balanced,No
+San Diego Padres vs Jack Flaherty,Power,Fastball,Bryce Johnson,Balanced,No
+San Diego Padres vs Jack Flaherty,Power,Breaking,Bryce Johnson,Balanced,No
+San Diego Padres vs Jack Flaherty,Power,Offspeed,Bryce Johnson,Balanced,No
+San Diego Padres vs Jack Flaherty,Power,Fastball,Fernando Tatis Jr.,Balanced,No
+San Diego Padres vs Jack Flaherty,Power,Breaking,Fernando Tatis Jr.,Balanced,No
+San Diego Padres vs Jack Flaherty,Power,Offspeed,Fernando Tatis Jr.,Balanced,No
+San Diego Padres vs Jack Flaherty,Power,Fastball,Freddy Fermin,Contact,No
+San Diego Padres vs Jack Flaherty,Power,Breaking,Freddy Fermin,Contact,No
+San Diego Padres vs Jack Flaherty,Power,Offspeed,Freddy Fermin,Contact,No
+San Diego Padres vs Jack Flaherty,Power,Fastball,Gavin Sheets,Balanced,No
+San Diego Padres vs Jack Flaherty,Power,Breaking,Gavin Sheets,Balanced,No
+San Diego Padres vs Jack Flaherty,Power,Offspeed,Gavin Sheets,Balanced,No
+San Diego Padres vs Jack Flaherty,Power,Fastball,Jackson Merrill,Balanced,No
+San Diego Padres vs Jack Flaherty,Power,Breaking,Jackson Merrill,Balanced,No
+San Diego Padres vs Jack Flaherty,Power,Offspeed,Jackson Merrill,Balanced,No
+San Diego Padres vs Jack Flaherty,Power,Fastball,Jake Cronenworth,Balanced,No
+San Diego Padres vs Jack Flaherty,Power,Breaking,Jake Cronenworth,Balanced,No
+San Diego Padres vs Jack Flaherty,Power,Offspeed,Jake Cronenworth,Balanced,No
+San Diego Padres vs Jack Flaherty,Power,Fastball,Luis Campusano,Balanced,No
+San Diego Padres vs Jack Flaherty,Power,Breaking,Luis Campusano,Balanced,No
+San Diego Padres vs Jack Flaherty,Power,Offspeed,Luis Campusano,Balanced,No
+San Diego Padres vs Jack Flaherty,Power,Fastball,Manny Machado,Balanced,No
+San Diego Padres vs Jack Flaherty,Power,Breaking,Manny Machado,Balanced,No
+San Diego Padres vs Jack Flaherty,Power,Offspeed,Manny Machado,Balanced,No
+San Diego Padres vs Jack Flaherty,Power,Fastball,Miguel Andujar,Contact,No
+San Diego Padres vs Jack Flaherty,Power,Breaking,Miguel Andujar,Contact,No
+San Diego Padres vs Jack Flaherty,Power,Offspeed,Miguel Andujar,Contact,No
+Arizona Diamondbacks vs Tyler Glasnow,Spin,Fastball,Alek Thomas,Balanced,No
+Arizona Diamondbacks vs Tyler Glasnow,Spin,Breaking,Alek Thomas,Balanced,No
+Arizona Diamondbacks vs Tyler Glasnow,Spin,Offspeed,Alek Thomas,Balanced,No
+Arizona Diamondbacks vs Tyler Glasnow,Spin,Fastball,Carlos Santana,Balanced,No
+Arizona Diamondbacks vs Tyler Glasnow,Spin,Breaking,Carlos Santana,Balanced,No
+Arizona Diamondbacks vs Tyler Glasnow,Spin,Offspeed,Carlos Santana,Balanced,No
+Arizona Diamondbacks vs Tyler Glasnow,Spin,Fastball,Corbin Carroll,Slugger,No
+Arizona Diamondbacks vs Tyler Glasnow,Spin,Breaking,Corbin Carroll,Slugger,No
+Arizona Diamondbacks vs Tyler Glasnow,Spin,Offspeed,Corbin Carroll,Slugger,No
+Arizona Diamondbacks vs Tyler Glasnow,Spin,Fastball,Gabriel Moreno,Contact,No
+Arizona Diamondbacks vs Tyler Glasnow,Spin,Breaking,Gabriel Moreno,Contact,No
+Arizona Diamondbacks vs Tyler Glasnow,Spin,Offspeed,Gabriel Moreno,Contact,No
+Arizona Diamondbacks vs Tyler Glasnow,Spin,Fastball,Geraldo Perdomo,Contact,No
+Arizona Diamondbacks vs Tyler Glasnow,Spin,Breaking,Geraldo Perdomo,Contact,No
+Arizona Diamondbacks vs Tyler Glasnow,Spin,Offspeed,Geraldo Perdomo,Contact,No
+Arizona Diamondbacks vs Tyler Glasnow,Spin,Fastball,Ildemaro Vargas,Contact,No
+Arizona Diamondbacks vs Tyler Glasnow,Spin,Breaking,Ildemaro Vargas,Contact,No
+Arizona Diamondbacks vs Tyler Glasnow,Spin,Offspeed,Ildemaro Vargas,Contact,No
+Arizona Diamondbacks vs Tyler Glasnow,Spin,Fastball,James McCann,Slugger,No
+Arizona Diamondbacks vs Tyler Glasnow,Spin,Breaking,James McCann,Slugger,No
+Arizona Diamondbacks vs Tyler Glasnow,Spin,Offspeed,James McCann,Slugger,No
+Arizona Diamondbacks vs Tyler Glasnow,Spin,Fastball,Jordan Lawlar,Balanced,No
+Arizona Diamondbacks vs Tyler Glasnow,Spin,Breaking,Jordan Lawlar,Balanced,No
+Arizona Diamondbacks vs Tyler Glasnow,Spin,Offspeed,Jordan Lawlar,Balanced,No
+Arizona Diamondbacks vs Tyler Glasnow,Spin,Fastball,Jorge Barrosa,Balanced,No
+Arizona Diamondbacks vs Tyler Glasnow,Spin,Breaking,Jorge Barrosa,Balanced,No
+Arizona Diamondbacks vs Tyler Glasnow,Spin,Offspeed,Jorge Barrosa,Balanced,No
+Los Angeles Dodgers vs Eduardo Rodriguez,Power,Fastball,Alex Call,Contact,No
+Los Angeles Dodgers vs Eduardo Rodriguez,Power,Breaking,Alex Call,Contact,No
+Los Angeles Dodgers vs Eduardo Rodriguez,Power,Offspeed,Alex Call,Contact,No
+Los Angeles Dodgers vs Eduardo Rodriguez,Power,Fastball,Alex Freeland,Balanced,No
+Los Angeles Dodgers vs Eduardo Rodriguez,Power,Breaking,Alex Freeland,Balanced,No
+Los Angeles Dodgers vs Eduardo Rodriguez,Power,Offspeed,Alex Freeland,Balanced,No
+Los Angeles Dodgers vs Eduardo Rodriguez,Power,Fastball,Andy Pages,Slugger,No
+Los Angeles Dodgers vs Eduardo Rodriguez,Power,Breaking,Andy Pages,Slugger,No
+Los Angeles Dodgers vs Eduardo Rodriguez,Power,Offspeed,Andy Pages,Slugger,No
+Los Angeles Dodgers vs Eduardo Rodriguez,Power,Fastball,Dalton Rushing,Balanced,No
+Los Angeles Dodgers vs Eduardo Rodriguez,Power,Breaking,Dalton Rushing,Balanced,No
+Los Angeles Dodgers vs Eduardo Rodriguez,Power,Offspeed,Dalton Rushing,Balanced,No
+Los Angeles Dodgers vs Eduardo Rodriguez,Power,Fastball,Freddie Freeman,Balanced,No
+Los Angeles Dodgers vs Eduardo Rodriguez,Power,Breaking,Freddie Freeman,Balanced,No
+Los Angeles Dodgers vs Eduardo Rodriguez,Power,Offspeed,Freddie Freeman,Balanced,No
+Los Angeles Dodgers vs Eduardo Rodriguez,Power,Fastball,Kyle Tucker,Balanced,No
+Los Angeles Dodgers vs Eduardo Rodriguez,Power,Breaking,Kyle Tucker,Balanced,No
+Los Angeles Dodgers vs Eduardo Rodriguez,Power,Offspeed,Kyle Tucker,Balanced,No
+Los Angeles Dodgers vs Eduardo Rodriguez,Power,Fastball,Max Muncy,Slugger,No
+Los Angeles Dodgers vs Eduardo Rodriguez,Power,Breaking,Max Muncy,Slugger,No
+Los Angeles Dodgers vs Eduardo Rodriguez,Power,Offspeed,Max Muncy,Slugger,No
+Los Angeles Dodgers vs Eduardo Rodriguez,Power,Fastball,Miguel Rojas,Contact,No
+Los Angeles Dodgers vs Eduardo Rodriguez,Power,Breaking,Miguel Rojas,Contact,No
+Los Angeles Dodgers vs Eduardo Rodriguez,Power,Offspeed,Miguel Rojas,Contact,No
+Los Angeles Dodgers vs Eduardo Rodriguez,Power,Fastball,Mookie Betts,Contact,No
+Los Angeles Dodgers vs Eduardo Rodriguez,Power,Breaking,Mookie Betts,Contact,No
+Los Angeles Dodgers vs Eduardo Rodriguez,Power,Offspeed,Mookie Betts,Contact,No
+Cleveland Guardians vs Bryan Woo,Power,Fastball,Angel Martínez,Balanced,No
+Cleveland Guardians vs Bryan Woo,Power,Breaking,Angel Martínez,Balanced,No
+Cleveland Guardians vs Bryan Woo,Power,Offspeed,Angel Martínez,Balanced,No
+Cleveland Guardians vs Bryan Woo,Power,Fastball,Austin Hedges,Balanced,No
+Cleveland Guardians vs Bryan Woo,Power,Breaking,Austin Hedges,Balanced,No
+Cleveland Guardians vs Bryan Woo,Power,Offspeed,Austin Hedges,Balanced,No
+Cleveland Guardians vs Bryan Woo,Power,Fastball,Bo Naylor,Balanced,No
+Cleveland Guardians vs Bryan Woo,Power,Breaking,Bo Naylor,Balanced,No
+Cleveland Guardians vs Bryan Woo,Power,Offspeed,Bo Naylor,Balanced,No
+Cleveland Guardians vs Bryan Woo,Power,Fastball,Brayan Rocchio,Balanced,No
+Cleveland Guardians vs Bryan Woo,Power,Breaking,Brayan Rocchio,Balanced,No
+Cleveland Guardians vs Bryan Woo,Power,Offspeed,Brayan Rocchio,Balanced,No
+Cleveland Guardians vs Bryan Woo,Power,Fastball,CJ Kayfus,Balanced,No
+Cleveland Guardians vs Bryan Woo,Power,Breaking,CJ Kayfus,Balanced,No
+Cleveland Guardians vs Bryan Woo,Power,Offspeed,CJ Kayfus,Balanced,No
+Cleveland Guardians vs Bryan Woo,Power,Fastball,Chase DeLauter,Balanced,No
+Cleveland Guardians vs Bryan Woo,Power,Breaking,Chase DeLauter,Balanced,No
+Cleveland Guardians vs Bryan Woo,Power,Offspeed,Chase DeLauter,Balanced,No
+Cleveland Guardians vs Bryan Woo,Power,Fastball,Daniel Schneemann,Balanced,No
+Cleveland Guardians vs Bryan Woo,Power,Breaking,Daniel Schneemann,Balanced,No
+Cleveland Guardians vs Bryan Woo,Power,Offspeed,Daniel Schneemann,Balanced,No
+Cleveland Guardians vs Bryan Woo,Power,Fastball,David Fry,Slugger,No
+Cleveland Guardians vs Bryan Woo,Power,Breaking,David Fry,Slugger,No
+Cleveland Guardians vs Bryan Woo,Power,Offspeed,David Fry,Slugger,No
+Cleveland Guardians vs Bryan Woo,Power,Fastball,Gabriel Arias,Balanced,No
+Cleveland Guardians vs Bryan Woo,Power,Breaking,Gabriel Arias,Balanced,No
+Cleveland Guardians vs Bryan Woo,Power,Offspeed,Gabriel Arias,Balanced,No
+Seattle Mariners vs Joey Cantillo,Spin,Fastball,Brendan Donovan,Contact,No
+Seattle Mariners vs Joey Cantillo,Spin,Breaking,Brendan Donovan,Contact,No
+Seattle Mariners vs Joey Cantillo,Spin,Offspeed,Brendan Donovan,Contact,No
+Seattle Mariners vs Joey Cantillo,Spin,Fastball,Cal Raleigh,Slugger,No
+Seattle Mariners vs Joey Cantillo,Spin,Breaking,Cal Raleigh,Slugger,No
+Seattle Mariners vs Joey Cantillo,Spin,Offspeed,Cal Raleigh,Slugger,No
+Seattle Mariners vs Joey Cantillo,Spin,Fastball,Cole Young,Contact,No
+Seattle Mariners vs Joey Cantillo,Spin,Breaking,Cole Young,Contact,No
+Seattle Mariners vs Joey Cantillo,Spin,Offspeed,Cole Young,Contact,No
+Seattle Mariners vs Joey Cantillo,Spin,Fastball,Dominic Canzone,Slugger,No
+Seattle Mariners vs Joey Cantillo,Spin,Breaking,Dominic Canzone,Slugger,No
+Seattle Mariners vs Joey Cantillo,Spin,Offspeed,Dominic Canzone,Slugger,No
+Seattle Mariners vs Joey Cantillo,Spin,Fastball,Josh Naylor,Contact,No
+Seattle Mariners vs Joey Cantillo,Spin,Breaking,Josh Naylor,Contact,No
+Seattle Mariners vs Joey Cantillo,Spin,Offspeed,Josh Naylor,Contact,No
+Seattle Mariners vs Joey Cantillo,Spin,Fastball,Julio Rodríguez,Slugger,No
+Seattle Mariners vs Joey Cantillo,Spin,Breaking,Julio Rodríguez,Slugger,No
+Seattle Mariners vs Joey Cantillo,Spin,Offspeed,Julio Rodríguez,Slugger,No
+Seattle Mariners vs Joey Cantillo,Spin,Fastball,Leo Rivas,Balanced,No
+Seattle Mariners vs Joey Cantillo,Spin,Breaking,Leo Rivas,Balanced,No
+Seattle Mariners vs Joey Cantillo,Spin,Offspeed,Leo Rivas,Balanced,No
+Seattle Mariners vs Joey Cantillo,Spin,Fastball,Luke Raley,Balanced,No
+Seattle Mariners vs Joey Cantillo,Spin,Breaking,Luke Raley,Balanced,No
+Seattle Mariners vs Joey Cantillo,Spin,Offspeed,Luke Raley,Balanced,No
+Seattle Mariners vs Joey Cantillo,Spin,Fastball,Mitch Garver,Balanced,No
+Seattle Mariners vs Joey Cantillo,Spin,Breaking,Mitch Garver,Balanced,No
+Seattle Mariners vs Joey Cantillo,Spin,Offspeed,Mitch Garver,Balanced,No
