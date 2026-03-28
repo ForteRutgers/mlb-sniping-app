@@ -15,10 +15,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout Repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
       - name: Setup Python
-        uses: actions/setup-python@v4
+        uses: actions/setup-python@v5
         with:
           python-version: '3.13'
 
@@ -33,7 +33,7 @@ jobs:
         run: echo "DATE=$(date +'%Y-%m-%d')" >> $GITHUB_ENV
 
       - name: Cache FanGraphs & Statcast Data (100% Free)
-        uses: actions/cache@v3
+        uses: actions/cache@v4
         with:
           # This is the hidden folder where the pybaseball library saves its data
           path: ~/.pybaseball
@@ -60,12 +60,12 @@ jobs:
     steps:
       - name: Checkout Repository
         # We fetch the latest commit so it has the freshly updated prediction_ledger.csv
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
         with:
           ref: main
 
       - name: Setup Python
-        uses: actions/setup-python@v4
+        uses: actions/setup-python@v5
         with:
           python-version: '3.13'
 
