@@ -5,6 +5,7 @@ import random
 import difflib
 import unicodedata
 import sys
+import os
 from live_scraper import get_todays_matchups
 from datetime import datetime
 
@@ -24,7 +25,6 @@ SIM_GAMES = 10000
 
 
 def normalize_name(name):
-    """Aggressively sanitizes names: removes accents, periods, and hidden characters."""
     if not isinstance(name, str): return ""
     name = ''.join(c for c in unicodedata.normalize('NFD', name) if unicodedata.category(c) != 'Mn')
     name = name.lower().replace(".", "").replace("*", "").replace("#", "").strip()
@@ -35,14 +35,11 @@ def match_player_name(raw_name, db_keys):
     norm_raw = normalize_name(raw_name)
     if raw_name in NAME_ALIASES:
         norm_raw = normalize_name(NAME_ALIASES[raw_name])
-
     if norm_raw in db_keys:
         return norm_raw
-
     matches = difflib.get_close_matches(norm_raw, db_keys, n=1, cutoff=0.70)
     if matches:
         return matches[0]
-
     return norm_raw
 
 
@@ -63,7 +60,6 @@ def get_col_safe(df, col_name, default_val=0):
 
 
 def fetch_best_available_data():
-    """Cascading Tank Fetcher: Survives 403s and CAPTCHAs by rotating providers."""
     try:
         print("      -> Attempting FanGraphs for 2025...")
         from pybaseball import batting_stats, pitching_stats
@@ -137,9 +133,7 @@ def get_prop_matrices():
     print("\n[1/3] Running Cascading Tank Fetcher for 2025 True DNA...")
     try:
         b_df, p_df, source = fetch_best_available_data()
-
-        if b_df is None:
-            raise Exception("Rate Limit Jail: All providers blocked.")
+        if b_df is None: raise Exception("Rate Limit Jail: All providers blocked.")
 
         print(f"      -> CONNECTION ESTABLISHED via {source}!")
 
@@ -187,7 +181,6 @@ def get_prop_matrices():
                   'Barrel_Rate', 'xwOBA', 'Archetype']
         batters = b_df.set_index('NAME_NORM')[b_cols].to_dict('index')
 
-        # --- Universal Batters Faced Extractor ---
         p_ip = get_col_safe(p_df, 'IP', 1).replace(0, 1)
         p_so = get_col_safe(p_df, 'SO', 0)
         p_bb = get_col_safe(p_df, 'BB', 0)
@@ -210,7 +203,6 @@ def get_prop_matrices():
         p_df['K_Rate'] = p_so / p_bf
         p_df['BB_Rate'] = p_bb / p_bf
         p_df['H_Rate'] = p_h / p_bf
-
         p_df['BF_per_Start'] = np.where((p_bf / p_gs) < 15, 22, p_bf / p_gs)
 
         p_cols = ['CALC_HR9', 'K_Rate', 'BB_Rate', 'H_Rate', 'BF_per_Start']
@@ -276,18 +268,23 @@ def adjust_pitch_mix(arsenal, pitcher_type, batter_type):
     return [fb / total, br / total, os / total]
 
 
-def simulate_pitcher_game(p_stats, lineup_b_stats):
-    """Simulates a pitcher throwing against the 9-man lineup to predict Ks, Hits, and BBs."""
+def simulate_pitcher_game(p_stats, p_hand, lineup_b_stats):
     ks, bbs, hits = 0, 0, 0
     bf_target = max(9, int(random.gauss(p_stats['BF_per_Start'], 3.0)))
 
     for i in range(bf_target):
         b_stats = lineup_b_stats[i % len(lineup_b_stats)]
 
-        prob_k = (p_stats['K_Rate'] + b_stats['K_Rate']) / 2.0
+        has_platoon_adv = (b_stats['Hand'] == 'S') or (p_hand != b_stats['Hand'])
+        platoon_k_mod = 0.94 if has_platoon_adv else 1.06
+        platoon_h_mod = 1.05 if has_platoon_adv else 0.96
+
+        adj_b_k = b_stats['K_Rate'] * platoon_k_mod
+        adj_b_h = (b_stats['1B_Rate'] + b_stats['2B_Rate'] + b_stats['3B_Rate'] + b_stats['HR_Rate']) * platoon_h_mod
+
+        prob_k = (p_stats['K_Rate'] + adj_b_k) / 2.0
         prob_bb = (p_stats['BB_Rate'] + b_stats['BB_Rate']) / 2.0
-        b_h_rate = b_stats['1B_Rate'] + b_stats['2B_Rate'] + b_stats['3B_Rate'] + b_stats['HR_Rate']
-        prob_h = (p_stats['H_Rate'] + b_h_rate) / 2.0
+        prob_h = (p_stats['H_Rate'] + adj_b_h) / 2.0
 
         roll = random.random()
         if roll < prob_k:
@@ -300,22 +297,36 @@ def simulate_pitcher_game(p_stats, lineup_b_stats):
     return ks, bbs, hits
 
 
-def simulate_full_game_with_archetypes(b_stats, p_hr9, w_boost, park_hr_val, park_avg_val):
+def simulate_full_game_with_archetypes(b_stats, p_hr9, p_hand, w_boost, park_hr_val, park_avg_val, order_index):
     game_hits, game_tb, game_hr, game_r, game_rbi, game_bb, game_sb = 0, 0, 0, 0, 0, 0, 0
-    plate_appearances = 4
+
+    pa_averages = [4.65, 4.53, 4.44, 4.35, 4.25, 4.15, 4.03, 3.93, 3.83]
+    safe_index = min(order_index, 8)
+    avg_pa = pa_averages[safe_index]
+
+    plate_appearances = 3
+    if random.random() < min(1.0, avg_pa - 3):
+        plate_appearances += 1
+        if random.random() < max(0.0, avg_pa - 4):
+            plate_appearances += 1
 
     p_archetype, arsenal = generate_pitcher_profile(p_hr9)
     pitch_types = list(arsenal.keys())
     contextual_usages = adjust_pitch_mix(arsenal, p_archetype, b_stats['Archetype'])
 
+    has_platoon_adv = (b_stats['Hand'] == 'S') or (p_hand != b_stats['Hand'])
+    platoon_hit_mod = 1.05 if has_platoon_adv else 0.96
+    platoon_power_mod = 1.10 if has_platoon_adv else 0.92
+    platoon_k_mod = 0.94 if has_platoon_adv else 1.06
+
     for _ in range(plate_appearances):
         pitch = random.choices(pitch_types, weights=contextual_usages)[0]
         p_data = arsenal[pitch]
 
-        mod_1B = b_stats['1B_Rate'] * p_data['hit_mod'] * park_avg_val
-        mod_2B = b_stats['2B_Rate'] * p_data['hit_mod'] * park_avg_val
-        mod_3B = b_stats['3B_Rate'] * p_data['hit_mod'] * park_avg_val
-        mod_HR = b_stats['HR_Rate'] * p_data['hr_mod'] * w_boost * park_hr_val
+        mod_1B = b_stats['1B_Rate'] * p_data['hit_mod'] * park_avg_val * platoon_hit_mod
+        mod_2B = b_stats['2B_Rate'] * p_data['hit_mod'] * park_avg_val * platoon_power_mod
+        mod_3B = b_stats['3B_Rate'] * p_data['hit_mod'] * park_avg_val * platoon_power_mod
+        mod_HR = b_stats['HR_Rate'] * p_data['hr_mod'] * w_boost * park_hr_val * platoon_power_mod
 
         roll = random.random()
 
@@ -326,7 +337,7 @@ def simulate_full_game_with_archetypes(b_stats, p_hr9, w_boost, park_hr_val, par
             if random.random() < b_stats['R_Conv']: game_r += 1
             continue
 
-        threshold += b_stats['K_Rate'] * (1.25 if pitch == 'Breaking' else 0.85)
+        threshold += b_stats['K_Rate'] * platoon_k_mod * (1.25 if pitch == 'Breaking' else 0.85)
         if roll < threshold:
             continue
 
@@ -400,43 +411,33 @@ def export_master_grid(matchups, batters_db, pitchers_db, batter_keys):
     for m in matchups:
         stadium = m['home_stadium']
         park_hr, park_avg = PARK_FACTORS.get(stadium, [1.0, 1.0])
-
         raw_p_name = m['opposing_pitcher']
+        p_hand = m.get('opposing_pitcher_hand', 'R')
         p_name_key = match_player_name(raw_p_name, list(pitchers_db.keys()))
         p_stats = pitchers_db.get(p_name_key, league_avg_pitcher)
         p_hr9 = p_stats['CALC_HR9']
         p_archetype, arsenal = generate_pitcher_profile(p_hr9)
 
-        for raw_name in m['lineup']:
+        for b_dict in m['lineup']:
+            raw_name = b_dict['name']
+            b_hand = b_dict['hand']
             matched_key = match_player_name(raw_name, batter_keys)
             b = batters_db.get(matched_key, league_avg_batter)
-
-            display_name = raw_name if matched_key in batters_db else f"{raw_name} *"
-
+            has_platoon = (b_hand == 'S') or (p_hand != b_hand)
             contextual_usages = adjust_pitch_mix(arsenal, p_archetype, b['Archetype'])
 
             for i, (pitch_type, p_data) in enumerate(arsenal.items()):
-                batter_xwoba_split = b['xwOBA'] * (1.05 if pitch_type == 'Fastball' else 0.85)
-                batter_barrel_split = b['Barrel_Rate'] * (1.10 if pitch_type == 'Fastball' else 0.80)
-
                 row = {
                     'Matchup': f"{m['team']} vs {raw_p_name}",
-                    'Stadium': stadium,
-                    'Pitcher': raw_p_name,
                     'Pitcher Archetype': p_archetype,
                     'Pitch Type': pitch_type,
-                    'Contextual Usage % (vs Batter)': f"{contextual_usages[i] * 100:.1f}%",
-                    'Velocity (mph)': p_data['velo'],
-                    'Spin Rate (rpm)': p_data['spin'],
-                    'Batter': display_name,
+                    'Batter': f"{raw_name}",
                     'Batter Archetype': b['Archetype'],
-                    'Batter xwOBA vs Pitch': round(batter_xwoba_split, 3),
-                    'Batter K%': f"{b['K_Rate'] * 100:.1f}%"
+                    'Platoon Adv': 'Yes' if has_platoon else 'No',
                 }
                 grid_data.append(row)
 
-    df = pd.DataFrame(grid_data)
-    df.to_csv("master_matchup_sheet.csv", index=False)
+    pd.DataFrame(grid_data).to_csv("master_matchup_sheet.csv", index=False)
 
 
 def run_prop_market_simulation():
@@ -453,13 +454,11 @@ def run_prop_market_simulation():
     games_dict = {}
     for m in all_matchups:
         stadium = m['home_stadium']
-        if stadium not in games_dict:
-            games_dict[stadium] = []
+        if stadium not in games_dict: games_dict[stadium] = []
         games_dict[stadium].append(m)
 
     game_list = list(games_dict.values())
 
-    # --- AUTO-PILOT LOGIC INTERCEPT ---
     if "--auto" in sys.argv:
         print("\n[AUTO-PILOT ENGAGED] Simulating ALL Available Games...")
         selected_matchups = all_matchups
@@ -477,17 +476,13 @@ def run_prop_market_simulation():
         print("=============================================")
 
         choice = input(f"\nSelect a game to simulate (1-{len(game_list) + 1}): ")
-
         try:
             choice_idx = int(choice) - 1
             if choice_idx == len(game_list):
                 selected_matchups = all_matchups
-                print(f"\n[3/3] Simulating ALL Games...")
             else:
                 selected_matchups = game_list[choice_idx]
-                print(f"\n[3/3] Simulating Game {choice}...")
         except:
-            print(f"\n[!] Invalid input. Defaulting to simulating ALL Games...")
             selected_matchups = all_matchups
 
     export_master_grid(selected_matchups, batters_db, pitchers_db, batter_keys)
@@ -502,18 +497,18 @@ def run_prop_market_simulation():
     }
 
     report = [f"=== MLB ARCHETYPE DASHBOARD ({SIM_GAMES} Games Simulated) ==="]
-    report.append(f"Date: {datetime.now().strftime('%Y-%m-%d')}\n")
+    today_str = datetime.now().strftime('%Y-%m-%d')
+    report.append(f"Date: {today_str}\n")
 
-    if len(batters_db) == 0:
-        report.append("!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!")
-        report.append("WARNING: DATABASE FAILED TO LOAD. ALL PLAYERS ARE USING LEAGUE AVERAGE.")
-        report.append("!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!\n")
+    # This list will secretly hold all the raw probabilities for the backtester
+    ledger_rows = []
 
     for m in selected_matchups:
         park_factors = PARK_FACTORS.get(m['home_stadium'], [1.0, 1.0])
         park_hr_val, park_avg_val = park_factors[0], park_factors[1]
 
         raw_p_name = m['opposing_pitcher']
+        p_hand = m.get('opposing_pitcher_hand', 'R')
         p_name_key = match_player_name(raw_p_name, list(pitchers_db.keys()))
         p_stats = pitchers_db.get(p_name_key, league_avg_pitcher)
         p_hr9 = p_stats['CALC_HR9']
@@ -523,18 +518,22 @@ def run_prop_market_simulation():
         w_boost = 1 + ((w['temp'] - 70) * 0.01) + ((w['wind_speed'] / 5) * 0.05 if w['wind_dir'] == 'out' else 0)
 
         report.append(f"==========================================================================")
-        report.append(f"MATCHUP: {m['team']} vs {raw_p_name} ({p_archetype} Pitcher)")
+        report.append(f"MATCHUP: {m['team']} vs {raw_p_name} ({p_hand}HP - {p_archetype} Pitcher)")
         report.append(f"ENV: {m['home_stadium']} | {w['temp']}F | Wind: {w['wind_speed']}mph {w['wind_dir']}")
         report.append(f"==========================================================================")
 
         lineup_b_stats = []
-        for raw_player_name in m['lineup']:
-            matched_key = match_player_name(raw_player_name, batter_keys)
-            lineup_b_stats.append(batters_db.get(matched_key, league_avg_batter))
+        for b_dict in m['lineup']:
+            matched_key = match_player_name(b_dict['name'], batter_keys)
+            b = batters_db.get(matched_key, league_avg_batter).copy()
+            b['Name'] = b_dict['name']
+            b['Hand'] = b_dict['hand']
+            b['Matched'] = matched_key in batters_db
+            lineup_b_stats.append(b)
 
         p_tracker = {'K_5': 0, 'K_6': 0, 'K_7': 0, 'H_4': 0, 'H_5': 0, 'BB_2': 0}
         for _ in range(SIM_GAMES):
-            ks, bbs, hits = simulate_pitcher_game(p_stats, lineup_b_stats)
+            ks, bbs, hits = simulate_pitcher_game(p_stats, p_hand, lineup_b_stats)
             if ks >= 5: p_tracker['K_5'] += 1
             if ks >= 6: p_tracker['K_6'] += 1
             if ks >= 7: p_tracker['K_7'] += 1
@@ -546,31 +545,22 @@ def run_prop_market_simulation():
         report.append(f"  MARKET          | TRUE PROB | FAIR ODDS | TARGET RANGE (2% to 10% Edge)")
         report.append(f"  -------------------------------------------------------------------------")
         report.append(
-            f"  To Record 5+ Ks | {p_tracker['K_5'] / SIM_GAMES * 100:>8.1f}% | {format_odds(p_tracker['K_5'] / SIM_GAMES):>9} | {get_target_odds_range(p_tracker['K_5'] / SIM_GAMES):>16} (or better)")
+            f"  To Record 5+ Ks | {p_tracker['K_5'] / SIM_GAMES * 100:>8.1f}% | {format_odds(p_tracker['K_5'] / SIM_GAMES):>9} | {get_target_odds_range(p_tracker['K_5'] / SIM_GAMES):>16}")
         report.append(
-            f"  To Record 6+ Ks | {p_tracker['K_6'] / SIM_GAMES * 100:>8.1f}% | {format_odds(p_tracker['K_6'] / SIM_GAMES):>9} | {get_target_odds_range(p_tracker['K_6'] / SIM_GAMES):>16} (or better)")
-        report.append(
-            f"  To Record 7+ Ks | {p_tracker['K_7'] / SIM_GAMES * 100:>8.1f}% | {format_odds(p_tracker['K_7'] / SIM_GAMES):>9} | {get_target_odds_range(p_tracker['K_7'] / SIM_GAMES):>16} (or better)")
-        report.append(
-            f"  To Allow 4+ Hits| {p_tracker['H_4'] / SIM_GAMES * 100:>8.1f}% | {format_odds(p_tracker['H_4'] / SIM_GAMES):>9} | {get_target_odds_range(p_tracker['H_4'] / SIM_GAMES):>16} (or better)")
-        report.append(
-            f"  To Allow 5+ Hits| {p_tracker['H_5'] / SIM_GAMES * 100:>8.1f}% | {format_odds(p_tracker['H_5'] / SIM_GAMES):>9} | {get_target_odds_range(p_tracker['H_5'] / SIM_GAMES):>16} (or better)")
-        report.append(
-            f"  To Allow 2+ BBs | {p_tracker['BB_2'] / SIM_GAMES * 100:>8.1f}% | {format_odds(p_tracker['BB_2'] / SIM_GAMES):>9} | {get_target_odds_range(p_tracker['BB_2'] / SIM_GAMES):>16} (or better)")
+            f"  To Record 6+ Ks | {p_tracker['K_6'] / SIM_GAMES * 100:>8.1f}% | {format_odds(p_tracker['K_6'] / SIM_GAMES):>9} | {get_target_odds_range(p_tracker['K_6'] / SIM_GAMES):>16}")
 
-        for idx, raw_player_name in enumerate(m['lineup']):
-            matched_key = match_player_name(raw_player_name, batter_keys)
-            b = lineup_b_stats[idx]
-
-            display_name = raw_player_name if matched_key in batters_db else f"{raw_player_name} *"
+        for order_index, b in enumerate(lineup_b_stats):
+            display_name = b['Name']
+            has_platoon = (b['Hand'] == 'S') or (p_hand != b['Hand'])
+            platoon_str = "🔥 PLATOON ADV" if has_platoon else "❄️ NO ADV"
 
             tracker = {'HR_1': 0, 'H_1': 0, 'H_2': 0, 'TB_2': 0, 'R_1': 0, 'RBI_1': 0, 'HRR_2': 0, 'HBSB_1': 0,
                        'HBSB_2': 0}
 
             for _ in range(SIM_GAMES):
-                hr, hits, tb, runs, rbis, hrr, bb, sb = simulate_full_game_with_archetypes(b, p_hr9, w_boost,
-                                                                                           park_hr_val, park_avg_val)
-
+                hr, hits, tb, runs, rbis, hrr, bb, sb = simulate_full_game_with_archetypes(b, p_hr9, p_hand, w_boost,
+                                                                                           park_hr_val, park_avg_val,
+                                                                                           order_index)
                 if hr >= 1: tracker['HR_1'] += 1
                 if hits >= 1: tracker['H_1'] += 1
                 if hits >= 2: tracker['H_2'] += 1
@@ -578,45 +568,57 @@ def run_prop_market_simulation():
                 if runs >= 1: tracker['R_1'] += 1
                 if rbis >= 1: tracker['RBI_1'] += 1
                 if hrr >= 2: tracker['HRR_2'] += 1
-
                 if (hits + bb + sb) >= 1: tracker['HBSB_1'] += 1
-                if (hits + bb + sb) >= 2: tracker['HBSB_2'] += 1
 
-            p_hr = tracker['HR_1'] / SIM_GAMES
-            p_h1 = tracker['H_1'] / SIM_GAMES
-            p_tb2 = tracker['TB_2'] / SIM_GAMES
-            p_r1 = tracker['R_1'] / SIM_GAMES
-            p_rbi1 = tracker['RBI_1'] / SIM_GAMES
-            p_hrr2 = tracker['HRR_2'] / SIM_GAMES
-            p_hbsb1 = tracker['HBSB_1'] / SIM_GAMES
-            p_hbsb2 = tracker['HBSB_2'] / SIM_GAMES
+            p_hr, p_h1, p_tb2, p_r1, p_rbi1 = tracker['HR_1'] / SIM_GAMES, tracker['H_1'] / SIM_GAMES, tracker[
+                'TB_2'] / SIM_GAMES, tracker['R_1'] / SIM_GAMES, tracker['RBI_1'] / SIM_GAMES
+            p_hrr2, p_hbsb1 = tracker['HRR_2'] / SIM_GAMES, tracker['HBSB_1'] / SIM_GAMES
 
-            report.append(f"\n> {display_name.upper()} ({b['Archetype']})")
+            # THE NEW LEDGER EXPORT LOGIC
+            ledger_rows.extend([
+                {'Date': today_str, 'Player': display_name, 'Market': 'HR', 'Prob': p_hr},
+                {'Date': today_str, 'Player': display_name, 'Market': 'Hit', 'Prob': p_h1},
+                {'Date': today_str, 'Player': display_name, 'Market': 'TB', 'Prob': p_tb2},
+                {'Date': today_str, 'Player': display_name, 'Market': 'Run', 'Prob': p_r1},
+                {'Date': today_str, 'Player': display_name, 'Market': 'RBI', 'Prob': p_rbi1}
+            ])
+
+            report.append(
+                f"\n> {order_index + 1}. {display_name.upper()} ({b['Hand']} | {b['Archetype']} | {platoon_str})")
             report.append(f"  MARKET          | TRUE PROB | FAIR ODDS | TARGET RANGE (2% to 10% Edge)")
             report.append(f"  -------------------------------------------------------------------------")
             report.append(
-                f"  To Hit a HR     | {p_hr * 100:>8.1f}% | {format_odds(p_hr):>9} | {get_target_odds_range(p_hr):>16} (or better)")
+                f"  To Hit a HR     | {p_hr * 100:>8.1f}% | {format_odds(p_hr):>9} | {get_target_odds_range(p_hr):>16}")
             report.append(
-                f"  To Record 1+ Hit| {p_h1 * 100:>8.1f}% | {format_odds(p_h1):>9} | {get_target_odds_range(p_h1):>16} (or better)")
+                f"  To Record 1+ Hit| {p_h1 * 100:>8.1f}% | {format_odds(p_h1):>9} | {get_target_odds_range(p_h1):>16}")
             report.append(
-                f"  To Record 2+ TB | {p_tb2 * 100:>8.1f}% | {format_odds(p_tb2):>9} | {get_target_odds_range(p_tb2):>16} (or better)")
+                f"  To Record 2+ TB | {p_tb2 * 100:>8.1f}% | {format_odds(p_tb2):>9} | {get_target_odds_range(p_tb2):>16}")
             report.append(
-                f"  To Record 1+ R  | {p_r1 * 100:>8.1f}% | {format_odds(p_r1):>9} | {get_target_odds_range(p_r1):>16} (or better)")
+                f"  To Record 1+ R  | {p_r1 * 100:>8.1f}% | {format_odds(p_r1):>9} | {get_target_odds_range(p_r1):>16}")
             report.append(
-                f"  To Record 1+ RBI| {p_rbi1 * 100:>8.1f}% | {format_odds(p_rbi1):>9} | {get_target_odds_range(p_rbi1):>16} (or better)")
+                f"  To Record 1+ RBI| {p_rbi1 * 100:>8.1f}% | {format_odds(p_rbi1):>9} | {get_target_odds_range(p_rbi1):>16}")
             report.append(
-                f"  To Record 2+ HRR| {p_hrr2 * 100:>8.1f}% | {format_odds(p_hrr2):>9} | {get_target_odds_range(p_hrr2):>16} (or better)")
+                f"  To Record 2+ HRR| {p_hrr2 * 100:>8.1f}% | {format_odds(p_hrr2):>9} | {get_target_odds_range(p_hrr2):>16}")
             report.append(
-                f"  To Rec 1+ H+BB+SB| {p_hbsb1 * 100:>7.1f}% | {format_odds(p_hbsb1):>9} | {get_target_odds_range(p_hbsb1):>16} (or better)")
-            report.append(
-                f"  To Rec 2+ H+BB+SB| {p_hbsb2 * 100:>7.1f}% | {format_odds(p_hbsb2):>9} | {get_target_odds_range(p_hbsb2):>16} (or better)")
+                f"  To Rec 1+ H+BB+SB| {p_hbsb1 * 100:>7.1f}% | {format_odds(p_hbsb1):>9} | {get_target_odds_range(p_hbsb1):>16}")
 
+    # Save the Dashboard Text
     final_text = "\n".join(report)
     print(final_text)
-
     with open("betting_dashboard_report.txt", "w") as f:
         f.write(final_text)
-    print("\n[SUCCESS] Quick-Betting Dashboard exported to: betting_dashboard_report.txt")
+
+    # Save the Ledger CSV
+    if ledger_rows:
+        df_ledger = pd.DataFrame(ledger_rows)
+        ledger_path = "prediction_ledger.csv"
+        if os.path.exists(ledger_path):
+            df_ledger.to_csv(ledger_path, mode='a', header=False, index=False)
+        else:
+            df_ledger.to_csv(ledger_path, index=False)
+
+    print("\n[SUCCESS] Dashboard exported to: betting_dashboard_report.txt")
+    print("[SUCCESS] Probabilities backed up to: prediction_ledger.csv")
 
 
 if __name__ == "__main__":
