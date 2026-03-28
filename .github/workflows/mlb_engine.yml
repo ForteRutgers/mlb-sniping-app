@@ -8,7 +8,7 @@ on:
   workflow_dispatch: # Allows you to click a button on GitHub to test it manually
 
 permissions:
-  contents: write # Needed so the bot can push the text file back to your repo
+  contents: write # Needed so the bot can push the text files back to your repo
 
 jobs:
   simulate-games:
@@ -42,11 +42,48 @@ jobs:
       - name: Run Cloud Controller
         run: python cloud_controller.py
 
-      - name: Commit and Push Dashboard
+      - name: Commit and Push Dashboard & Ledger
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git add betting_dashboard_report.txt master_matchup_sheet.csv
+          
+          # CRITICAL: We added prediction_ledger.csv here so the backtester has data to read tomorrow!
+          git add betting_dashboard_report.txt master_matchup_sheet.csv prediction_ledger.csv
           
           # Only commit if there are actual changes (prevents errors on empty "sleep" runs)
-          git diff --quiet && git diff --staged --quiet || (git commit -m "Auto-Update: Confirmed Lineups & Dashboard" && git push)
+          git diff --quiet && git diff --staged --quiet || (git commit -m "Auto-Update: Confirmed Lineups, Dashboard & Ledger" && git push)
+
+  grade-yesterday:
+    # Waits for the simulate-games job to finish first
+    needs: simulate-games
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        # We fetch the latest commit so it has the freshly updated prediction_ledger.csv
+        uses: actions/checkout@v3
+        with:
+          ref: main
+
+      - name: Setup Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.13'
+
+      - name: Install Dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install pandas requests pytz
+
+      - name: Run Backtester (Only at 9 AM EST)
+        run: |
+          # Grabs current UTC hour and minute
+          current_hour=$(date -u +"%H")
+          current_minute=$(date -u +"%M")
+          
+          # 13:00 UTC is 9:00 AM EST. This ensures it only runs once per day.
+          if [ "$current_hour" == "13" ] && [ "$current_minute" -lt "15" ]; then
+            echo "It is 9:00 AM EST. Firing up the Results Tracker..."
+            python results_tracker.py
+          else
+            echo "Not 9:00 AM EST. Skipping backtester to prevent Discord spam."
+          fi
