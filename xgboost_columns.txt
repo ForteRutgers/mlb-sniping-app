@@ -1,0 +1,1 @@
+Temp,Wind_Speed,Lineup_Spot,Batter_xwOBA,Pitcher_HR9,Platoon_Adv,Prob,Batter_Archetype_Balanced,Batter_Archetype_Contact,Batter_Archetype_Slugger,Pitcher_Archetype_Balanced,Pitcher_Archetype_Power,Pitcher_Archetype_Spin,Market_HR,Market_Hit,Market_RBI,Market_Run,Market_TB

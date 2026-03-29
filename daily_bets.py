@@ -424,7 +424,14 @@ def run_prop_market_simulation():
                 tracker['home_tt'].append(home_r)
 
             away_ml_prob, home_ml_prob = tracker['away_wins'] / SIM_GAMES, tracker['home_wins'] / SIM_GAMES
+            away_rl_prob, home_rl_prob = tracker['away_minus_15'] / SIM_GAMES, tracker['home_minus_15'] / SIM_GAMES
+            f5_away_prob, f5_home_prob, f5_tie_prob = tracker['f5_away'] / SIM_GAMES, tracker['f5_home'] / SIM_GAMES, \
+                                                      tracker['f5_tie'] / SIM_GAMES
+
             gt_line, gt_over, gt_under = calculate_sharp_ou_line(tracker['totals'])
+            f5_line, f5_over, f5_under = calculate_sharp_ou_line(tracker['f5_totals'])
+            away_tt_line, away_tt_over, away_tt_under = calculate_sharp_ou_line(tracker['away_tt'])
+            home_tt_line, home_tt_over, home_tt_under = calculate_sharp_ou_line(tracker['home_tt'])
 
             game_ml_features = {
                 'Date': today_str, 'Stadium': stadium, 'Temp': w['temp'], 'Wind_Speed': w['wind_speed'],
@@ -441,12 +448,24 @@ def run_prop_market_simulation():
             report.append(f"==========================================================================")
             report.append(f"> FULL GAME MARKETS")
             report.append(
-                f"  Moneyline : Away {away_ml_prob * 100:.1f}% ({format_odds(away_ml_prob)}) | Home {home_ml_prob * 100:.1f}% ({format_odds(home_ml_prob)})")
+                f"  Moneyline       : Away {away_ml_prob * 100:>5.1f}% ({format_odds(away_ml_prob):>5}) | Home {home_ml_prob * 100:>5.1f}% ({format_odds(home_ml_prob):>5})")
             report.append(
-                f"  Game Total ({gt_line}): Over {gt_over * 100:.1f}% ({format_odds(gt_over)}) | Under {gt_under * 100:.1f}% ({format_odds(gt_under)})")
-            report.append(f"\n> 1ST INNING (NRFI / YRFI)")
+                f"  Run Line (-1.5) : Away {away_rl_prob * 100:>5.1f}% ({format_odds(away_rl_prob):>5}) | Home {home_rl_prob * 100:>5.1f}% ({format_odds(home_rl_prob):>5})")
             report.append(
-                f"  NRFI (No Run)  : {(tracker['nrfi'] / SIM_GAMES) * 100:.1f}% ({format_odds(tracker['nrfi'] / SIM_GAMES)})\n")
+                f"  Game Total ({gt_line:<4}) : Over {gt_over * 100:>5.1f}% ({format_odds(gt_over):>5}) | Under {gt_under * 100:>5.1f}% ({format_odds(gt_under):>5})")
+            report.append(
+                f"  Away TT ({away_tt_line:<4})    : Over {away_tt_over * 100:>5.1f}% ({format_odds(away_tt_over):>5}) | Under {away_tt_under * 100:>5.1f}% ({format_odds(away_tt_under):>5})")
+            report.append(
+                f"  Home TT ({home_tt_line:<4})    : Over {home_tt_over * 100:>5.1f}% ({format_odds(home_tt_over):>5}) | Under {home_tt_under * 100:>5.1f}% ({format_odds(home_tt_under):>5})")
+            report.append(f"\n> FIRST 5 INNINGS (F5) & 1ST INNING")
+            report.append(
+                f"  F5 Moneyline    : Away {f5_away_prob * 100:>5.1f}% ({format_odds(f5_away_prob):>5}) | Home {f5_home_prob * 100:>5.1f}% ({format_odds(f5_home_prob):>5}) | Tie {f5_tie_prob * 100:>5.1f}% ({format_odds(f5_tie_prob):>5})")
+            report.append(
+                f"  F5 Total ({f5_line:<4})   : Over {f5_over * 100:>5.1f}% ({format_odds(f5_over):>5}) | Under {f5_under * 100:>5.1f}% ({format_odds(f5_under):>5})")
+            report.append(
+                f"  NRFI (No Run)   : {(tracker['nrfi'] / SIM_GAMES) * 100:>5.1f}% ({format_odds(tracker['nrfi'] / SIM_GAMES):>5})")
+            report.append(
+                f"  YRFI (Yes Run)  : {(tracker['yrfi'] / SIM_GAMES) * 100:>5.1f}% ({format_odds(tracker['yrfi'] / SIM_GAMES):>5})\n")
 
         for m in game_teams:
             park_hr_val, park_avg_val = PARK_FACTORS.get(m['home_stadium'], [1.0, 1.0])
@@ -522,6 +541,10 @@ def run_prop_market_simulation():
                     f"  To Record 1+ Hit| {p_h1 * 100:>8.1f}% | {format_odds(p_h1):>9} | {get_target_odds_range(p_h1):>16}")
                 report.append(
                     f"  To Record 2+ TB | {p_tb2 * 100:>8.1f}% | {format_odds(p_tb2):>9} | {get_target_odds_range(p_tb2):>16}")
+                report.append(
+                    f"  To Record 1+ Run| {p_r1 * 100:>8.1f}% | {format_odds(p_r1):>9} | {get_target_odds_range(p_r1):>16}")
+                report.append(
+                    f"  To Record 1+ RBI| {p_rbi1 * 100:>8.1f}% | {format_odds(p_rbi1):>9} | {get_target_odds_range(p_rbi1):>16}")
 
     final_text = "\n".join(report)
     print(final_text)
