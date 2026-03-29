@@ -5,12 +5,13 @@ from datetime import datetime, timedelta
 import pytz
 import os
 
+# 🚨 Paste your webhook URL below! 🚨
 DISCORD_WEBHOOK_URL = "https://discord.com/api/webhooks/1487199773256585239/Ci6G7sxUSvvlNPVdT2ng4CpbtTn69t0u7bVn9AupakQa5YYMoZkk7t3GuhnyM4BCWZov"
 
 
 def fetch_yesterdays_boxscores(yesterday_str):
-    """Pings the MLB API for yesterday's locked-in box scores."""
-    url = f"https://statsapi.mlb.com/api/v1/schedule?sportId=1&date={yesterday_str}&hydrate=boxscore"
+    """Pings the MLB API for yesterday's games and loops individual boxscores to prevent truncation."""
+    url = f"https://statsapi.mlb.com/api/v1/schedule?sportId=1&date={yesterday_str}"
     print(f"Fetching official MLB Box Scores for {yesterday_str}...")
 
     try:
@@ -24,27 +25,34 @@ def fetch_yesterdays_boxscores(yesterday_str):
         return actuals
 
     for game in data['dates'][0].get('games', []):
-        # We only want to grade completed games
         if game['status']['statusCode'] not in ['F', 'O']:
             continue
 
-        boxscore = game.get('boxscore', {}).get('teams', {})
+        game_pk = game['gamePk']
+        # Hit the specific boxscore endpoint for each game to get the un-truncated player stats!
+        box_url = f"https://statsapi.mlb.com/api/v1/game/{game_pk}/boxscore"
+        try:
+            box_data = requests.get(box_url, timeout=5).json()
+        except:
+            continue
+
+        boxscore = box_data.get('teams', {})
         for team_side in ['away', 'home']:
             players = boxscore.get(team_side, {}).get('players', {})
             for pid, pdata in players.items():
                 name = pdata['person']['fullName']
-                # Clean name to match the ledger
                 clean_name = name.replace('*', '').strip()
 
                 stats = pdata.get('stats', {}).get('batting', {})
                 if stats:
-                    actuals[clean_name] = {
-                        'HR': stats.get('homeRuns', 0),
-                        'Hit': stats.get('hits', 0),
-                        'TB': stats.get('totalBases', 0),
-                        'Run': stats.get('runs', 0),
-                        'RBI': stats.get('rbi', 0)
-                    }
+                    if clean_name not in actuals:
+                        actuals[clean_name] = {'HR': 0, 'Hit': 0, 'TB': 0, 'Run': 0, 'RBI': 0}
+
+                    actuals[clean_name]['HR'] += stats.get('homeRuns', 0)
+                    actuals[clean_name]['Hit'] += stats.get('hits', 0)
+                    actuals[clean_name]['TB'] += stats.get('totalBases', 0)
+                    actuals[clean_name]['Run'] += stats.get('runs', 0)
+                    actuals[clean_name]['RBI'] += stats.get('rbi', 0)
     return actuals
 
 
@@ -58,7 +66,6 @@ def grade_ledger():
     eastern = pytz.timezone('US/Eastern')
     yesterday_str = (datetime.now(eastern) - timedelta(days=1)).strftime('%Y-%m-%d')
 
-    # Filter the ledger for only yesterday's bets
     yesterday_bets = df[df['Date'] == yesterday_str]
     if yesterday_bets.empty:
         print(f"[!] No predictions found in ledger for {yesterday_str}.")
@@ -76,15 +83,18 @@ def grade_ledger():
     for index, row in yesterday_bets.iterrows():
         player = str(row['Player']).replace('*', '').strip()
         market = str(row['Market'])
+
+        # Skip the Game Totals for the player prop grader
+        if player == 'GAME_TOTAL':
+            continue
+
         prob = float(row['Prob'])
 
-        # If the player wasn't in the box score (late scratch), ignore the bet
         if player not in actuals:
             continue
 
         p_stats = actuals[player]
 
-        # Determine actual binary outcome (1 = Hit the prop, 0 = Missed the prop)
         actual_outcome = 0
         if market == 'HR' and p_stats.get('HR', 0) >= 1:
             actual_outcome = 1
@@ -97,7 +107,6 @@ def grade_ledger():
         elif market == 'RBI' and p_stats.get('RBI', 0) >= 1:
             actual_outcome = 1
 
-        # Track raw Win/Loss for fun (Assuming we theoretically bet everything > 50%)
         if actual_outcome == 1 and prob >= 0.50:
             wins += 1
         elif actual_outcome == 0 and prob < 0.50:
@@ -105,7 +114,6 @@ def grade_ledger():
         else:
             losses += 1
 
-        # The ultimate math: Calculate the Brier Score for this prop
         brier = (prob - actual_outcome) ** 2
         brier_scores.append(brier)
 
@@ -123,9 +131,12 @@ def grade_ledger():
 
     print(report)
 
-    if DISCORD_WEBHOOK_URL != "https://discord.com/api/webhooks/1487199773256585239/Ci6G7sxUSvvlNPVdT2ng4CpbtTn69t0u7bVn9AupakQa5YYMoZkk7t3GuhnyM4BCWZov":
-        requests.post(DISCORD_WEBHOOK_URL, json={"content": report})
-        print("Report sent to Discord!")
+    if DISCORD_WEBHOOK_URL != "YOUR_WEBHOOK_URL_HERE":
+        try:
+            requests.post(DISCORD_WEBHOOK_URL, json={"content": report})
+            print("Report sent to Discord!")
+        except Exception as e:
+            print(f"Failed to send to Discord: {e}")
 
 
 if __name__ == "__main__":
