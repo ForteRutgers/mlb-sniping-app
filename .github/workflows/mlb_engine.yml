@@ -2,12 +2,11 @@ name: MLB Daily Sniper Auto-Pilot
 
 on:
   schedule:
-    # This runs at 13:00 UTC every day, which is 9:00 AM Eastern Time
     - cron: '0 13 * * *'
-  workflow_dispatch: # This adds a "Run Now" button on the GitHub website so you can test it
+  workflow_dispatch:
 
 permissions:
-  contents: write # Allows the bot to save your updated prediction_ledger.csv
+  contents: write
 
 jobs:
   run-mlb-engine:
@@ -20,7 +19,7 @@ jobs:
     - name: Set up Python
       uses: actions/setup-python@v5
       with:
-        python-version: '3.11' # The most stable version for machine learning libraries
+        python-version: '3.11'
 
     - name: Install Dependencies
       run: |
@@ -30,6 +29,10 @@ jobs:
     - name: Run Daily Bets Engine
       run: |
         python daily_bets.py --auto
+
+    - name: Send Dashboard to Discord
+      run: |
+        curl -F "file1=@betting_dashboard_report.txt" "https://discord.com/api/webhooks/1487199773256585239/Ci6G7sxUSvvlNPVdT2ng4CpbtTn69t0u7bVn9AupakQa5YYMoZkk7t3GuhnyM4BCWZov"
 
     - name: Save Updated Ledger to Cloud
       run: |
