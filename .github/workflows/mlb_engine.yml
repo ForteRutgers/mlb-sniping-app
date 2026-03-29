@@ -1,89 +1,40 @@
-# .github/workflows/mlb_engine.yml
-name: MLB Betting Engine Auto-Pilot
+name: MLB Daily Sniper Auto-Pilot
 
 on:
   schedule:
-    # Runs every 15 minutes, 24/7
-    - cron: '*/15 * * * *'
-  workflow_dispatch: # Allows you to click a button on GitHub to test it manually
+    # This runs at 13:00 UTC every day, which is 9:00 AM Eastern Time
+    - cron: '0 13 * * *'
+  workflow_dispatch: # This adds a "Run Now" button on the GitHub website so you can test it
 
 permissions:
-  contents: write # Needed so the bot can push the text files back to your repo
+  contents: write # Allows the bot to save your updated prediction_ledger.csv
 
 jobs:
-  simulate-games:
+  run-mlb-engine:
     runs-on: ubuntu-latest
+
     steps:
-      - name: Checkout Repository
-        uses: actions/checkout@v4
+    - name: Checkout Repository
+      uses: actions/checkout@v4
 
-      - name: Setup Python
-        uses: actions/setup-python@v5
-        with:
-          python-version: '3.13'
+    - name: Set up Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.11' # The most stable version for machine learning libraries
 
-      - name: Install Dependencies
-        run: |
-          python -m pip install --upgrade pip
-          pip install pandas numpy xgboost pybaseball requests pytz scikit-learn
+    - name: Install Dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install pandas numpy xgboost scikit-learn requests pybaseball
 
-      - name: Get Current Date for Cache Key
-        id: date
-        # This stamps the current date so the cache resets fresh every single midnight
-        run: echo "DATE=$(date +'%Y-%m-%d')" >> $GITHUB_ENV
+    - name: Run Daily Bets Engine
+      run: |
+        python daily_bets.py --auto
 
-      - name: Cache FanGraphs & Statcast Data (100% Free)
-        uses: actions/cache@v4
-        with:
-          # This is the hidden folder where the pybaseball library saves its data
-          path: ~/.pybaseball
-          key: pybaseball-cache-${{ env.DATE }}
-
-      - name: Run Cloud Controller
-        run: python cloud_controller.py
-
-      - name: Commit and Push Dashboard & Ledger
-        run: |
-          git config --global user.name "github-actions[bot]"
-          git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          
-          # CRITICAL: We added prediction_ledger.csv here so the backtester has data to read tomorrow!
-          git add betting_dashboard_report.txt master_matchup_sheet.csv prediction_ledger.csv
-          
-          # Only commit if there are actual changes (prevents errors on empty "sleep" runs)
-          git diff --quiet && git diff --staged --quiet || (git commit -m "Auto-Update: Confirmed Lineups, Dashboard & Ledger" && git push)
-
-  grade-yesterday:
-    # Waits for the simulate-games job to finish first
-    needs: simulate-games
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout Repository
-        # We fetch the latest commit so it has the freshly updated prediction_ledger.csv
-        uses: actions/checkout@v4
-        with:
-          ref: main
-
-      - name: Setup Python
-        uses: actions/setup-python@v5
-        with:
-          python-version: '3.13'
-
-      - name: Install Dependencies
-        run: |
-          python -m pip install --upgrade pip
-          pip install pandas requests pytz
-
-      - name: Run Backtester (Only at 9 AM EST)
-        run: |
-          # Grabs current UTC hour and minute
-          current_hour=$(date -u +"%H")
-          current_minute=$(date -u +"%M")
-          
-          # 13:00 UTC is 9:00 AM EST. This ensures it only runs once per day.
-          if [ "$current_hour" == "13" ] && [ "$current_minute" -lt "15" ]; then
-            echo "It is 9:00 AM EST. Firing up the Results Tracker..."
-            python results_tracker.py
-          else
-            echo "Not 9:00 AM EST. Skipping backtester to prevent Discord spam."
-          fi
+    - name: Save Updated Ledger to Cloud
+      run: |
+        git config --global user.name "github-actions[bot]"
+        git config --global user.email "github-actions[bot]@users.noreply.github.com"
+        git add prediction_ledger.csv betting_dashboard_report.txt
+        git commit -m "Automated ledger update [skip ci]" || echo "No changes to commit"
+        git push
