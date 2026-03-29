@@ -32,7 +32,7 @@ jobs:
 
     - name: Send Dashboard to Discord
       run: |
-        curl -F "file1=@betting_dashboard_report.txt" "https://discord.com/api/webhooks/1487199773256585239/Ci6G7sxUSvvlNPVdT2ng4CpbtTn69t0u7bVn9AupakQa5YYMoZkk7t3GuhnyM4BCWZov"
+        curl -v -X POST -F "payload_json={\"content\": \"🤖 **XGBoost AI Dashboard is Live!**\"}" -F "file=@betting_dashboard_report.txt" "https://discord.com/api/webhooks/1487199773256585239/Ci6G7sxUSvvlNPVdT2ng4CpbtTn69t0u7bVn9AupakQa5YYMoZkk7t3GuhnyM4BCWZov"
 
     - name: Save Updated Ledger to Cloud
       run: |
