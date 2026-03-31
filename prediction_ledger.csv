@@ -9359,3 +9359,1291 @@ Date,Player,Market,Prob
 2026-03-30,UNIQLO Field at Dodger Stadium,76,7,,,,Mookie Betts,TB,0.27413272857666016,9.0,Mookie Betts,R,Contact,0.33,Parker Messick,R,Power,1.25,0.0
 2026-03-30,UNIQLO Field at Dodger Stadium,76,7,,,,Mookie Betts,Run,0.37822437286376953,9.0,Mookie Betts,R,Contact,0.33,Parker Messick,R,Power,1.25,0.0
 2026-03-30,UNIQLO Field at Dodger Stadium,76,7,,,,Mookie Betts,RBI,0.2971303462982178,9.0,Mookie Betts,R,Contact,0.33,Parker Messick,R,Power,1.25,0.0
+2026-03-31,Oriole Park at Camden Yards,79,13,out,Texas Rangers,Baltimore Orioles,GAME_TOTAL,Over_14.5,0.5498,,,,,,,,,,
+2026-03-31,Oriole Park at Camden Yards,79,13,out,Texas Rangers,Baltimore Orioles,GAME_TOTAL,NRFI,0.1591,,,,,,,,,,
+2026-03-31,Oriole Park at Camden Yards,79,13,,,,Andrew McCutchen,HR,0.1557077318429947,1.0,Andrew McCutchen,R,Balanced,0.333,Zach Eflin,R,Power,2.278481012658228,0.0
+2026-03-31,Oriole Park at Camden Yards,79,13,,,,Andrew McCutchen,Hit,0.6867020130157471,1.0,Andrew McCutchen,R,Balanced,0.333,Zach Eflin,R,Power,2.278481012658228,0.0
+2026-03-31,Oriole Park at Camden Yards,79,13,,,,Andrew McCutchen,TB,0.45851418375968933,1.0,Andrew McCutchen,R,Balanced,0.333,Zach Eflin,R,Power,2.278481012658228,0.0
+2026-03-31,Oriole Park at Camden Yards,79,13,,,,Andrew McCutchen,Run,0.3788292407989502,1.0,Andrew McCutchen,R,Balanced,0.333,Zach Eflin,R,Power,2.278481012658228,0.0
+2026-03-31,Oriole Park at Camden Yards,79,13,,,,Andrew McCutchen,RBI,0.3611661493778229,1.0,Andrew McCutchen,R,Balanced,0.333,Zach Eflin,R,Power,2.278481012658228,0.0
+2026-03-31,Oriole Park at Camden Yards,79,13,,,,Brandon Nimmo,HR,0.23353804647922516,2.0,Brandon Nimmo,L,Slugger,0.321,Zach Eflin,R,Power,2.278481012658228,1.0
+2026-03-31,Oriole Park at Camden Yards,79,13,,,,Brandon Nimmo,Hit,0.7025576233863831,2.0,Brandon Nimmo,L,Slugger,0.321,Zach Eflin,R,Power,2.278481012658228,1.0
+2026-03-31,Oriole Park at Camden Yards,79,13,,,,Brandon Nimmo,TB,0.5115533471107483,2.0,Brandon Nimmo,L,Slugger,0.321,Zach Eflin,R,Power,2.278481012658228,1.0
+2026-03-31,Oriole Park at Camden Yards,79,13,,,,Brandon Nimmo,Run,0.4879647493362427,2.0,Brandon Nimmo,L,Slugger,0.321,Zach Eflin,R,Power,2.278481012658228,1.0
+2026-03-31,Oriole Park at Camden Yards,79,13,,,,Brandon Nimmo,RBI,0.44229230284690857,2.0,Brandon Nimmo,L,Slugger,0.321,Zach Eflin,R,Power,2.278481012658228,1.0
+2026-03-31,Oriole Park at Camden Yards,79,13,,,,Corey Seager,HR,0.29450535774230957,3.0,Corey Seager,L,Balanced,0.4,Zach Eflin,R,Power,2.278481012658228,1.0
+2026-03-31,Oriole Park at Camden Yards,79,13,,,,Corey Seager,Hit,0.6830936074256897,3.0,Corey Seager,L,Balanced,0.4,Zach Eflin,R,Power,2.278481012658228,1.0
+2026-03-31,Oriole Park at Camden Yards,79,13,,,,Corey Seager,TB,0.5102795958518982,3.0,Corey Seager,L,Balanced,0.4,Zach Eflin,R,Power,2.278481012658228,1.0
+2026-03-31,Oriole Park at Camden Yards,79,13,,,,Corey Seager,Run,0.507179319858551,3.0,Corey Seager,L,Balanced,0.4,Zach Eflin,R,Power,2.278481012658228,1.0
+2026-03-31,Oriole Park at Camden Yards,79,13,,,,Corey Seager,RBI,0.42442581057548523,3.0,Corey Seager,L,Balanced,0.4,Zach Eflin,R,Power,2.278481012658228,1.0
+2026-03-31,Oriole Park at Camden Yards,79,13,,,,Danny Jansen,HR,0.22190886735916138,4.0,Danny Jansen,R,Slugger,0.3,Zach Eflin,R,Power,2.278481012658228,0.0
+2026-03-31,Oriole Park at Camden Yards,79,13,,,,Danny Jansen,Hit,0.6314672231674194,4.0,Danny Jansen,R,Slugger,0.3,Zach Eflin,R,Power,2.278481012658228,0.0
+2026-03-31,Oriole Park at Camden Yards,79,13,,,,Danny Jansen,TB,0.38830703496932983,4.0,Danny Jansen,R,Slugger,0.3,Zach Eflin,R,Power,2.278481012658228,0.0
+2026-03-31,Oriole Park at Camden Yards,79,13,,,,Danny Jansen,Run,0.4164365530014038,4.0,Danny Jansen,R,Slugger,0.3,Zach Eflin,R,Power,2.278481012658228,0.0
+2026-03-31,Oriole Park at Camden Yards,79,13,,,,Danny Jansen,RBI,0.3620419502258301,4.0,Danny Jansen,R,Slugger,0.3,Zach Eflin,R,Power,2.278481012658228,0.0
+2026-03-31,Oriole Park at Camden Yards,79,13,,,,Evan Carter,HR,0.18514151871204376,5.0,Evan Carter,L,Contact,0.312,Zach Eflin,R,Power,2.278481012658228,1.0
+2026-03-31,Oriole Park at Camden Yards,79,13,,,,Evan Carter,Hit,0.6836963295936584,5.0,Evan Carter,L,Contact,0.312,Zach Eflin,R,Power,2.278481012658228,1.0
+2026-03-31,Oriole Park at Camden Yards,79,13,,,,Evan Carter,TB,0.4817197620868683,5.0,Evan Carter,L,Contact,0.312,Zach Eflin,R,Power,2.278481012658228,1.0
+2026-03-31,Oriole Park at Camden Yards,79,13,,,,Evan Carter,Run,0.48399704694747925,5.0,Evan Carter,L,Contact,0.312,Zach Eflin,R,Power,2.278481012658228,1.0
+2026-03-31,Oriole Park at Camden Yards,79,13,,,,Evan Carter,RBI,0.4143884479999542,5.0,Evan Carter,L,Contact,0.312,Zach Eflin,R,Power,2.278481012658228,1.0
+2026-03-31,Oriole Park at Camden Yards,79,13,,,,Ezequiel Duran,HR,0.003411418292671442,6.0,Ezequiel Duran,R,Balanced,0.247,Zach Eflin,R,Power,2.278481012658228,0.0
+2026-03-31,Oriole Park at Camden Yards,79,13,,,,Ezequiel Duran,Hit,0.49017512798309326,6.0,Ezequiel Duran,R,Balanced,0.247,Zach Eflin,R,Power,2.278481012658228,0.0
+2026-03-31,Oriole Park at Camden Yards,79,13,,,,Ezequiel Duran,TB,0.3357899785041809,6.0,Ezequiel Duran,R,Balanced,0.247,Zach Eflin,R,Power,2.278481012658228,0.0
+2026-03-31,Oriole Park at Camden Yards,79,13,,,,Ezequiel Duran,Run,0.17919693887233734,6.0,Ezequiel Duran,R,Balanced,0.247,Zach Eflin,R,Power,2.278481012658228,0.0
+2026-03-31,Oriole Park at Camden Yards,79,13,,,,Ezequiel Duran,RBI,0.1599419116973877,6.0,Ezequiel Duran,R,Balanced,0.247,Zach Eflin,R,Power,2.278481012658228,0.0
+2026-03-31,Oriole Park at Camden Yards,79,13,,,,Jake Burger,HR,0.20447060465812683,7.0,Jake Burger,R,Slugger,0.324,Zach Eflin,R,Power,2.278481012658228,0.0
+2026-03-31,Oriole Park at Camden Yards,79,13,,,,Jake Burger,Hit,0.6642818450927734,7.0,Jake Burger,R,Slugger,0.324,Zach Eflin,R,Power,2.278481012658228,0.0
+2026-03-31,Oriole Park at Camden Yards,79,13,,,,Jake Burger,TB,0.4369624853134155,7.0,Jake Burger,R,Slugger,0.324,Zach Eflin,R,Power,2.278481012658228,0.0
+2026-03-31,Oriole Park at Camden Yards,79,13,,,,Jake Burger,Run,0.43221697211265564,7.0,Jake Burger,R,Slugger,0.324,Zach Eflin,R,Power,2.278481012658228,0.0
+2026-03-31,Oriole Park at Camden Yards,79,13,,,,Jake Burger,RBI,0.4069685637950897,7.0,Jake Burger,R,Slugger,0.324,Zach Eflin,R,Power,2.278481012658228,0.0
+2026-03-31,Oriole Park at Camden Yards,79,13,,,,Joc Pederson,HR,0.19996120035648346,8.0,Joc Pederson,L,Balanced,0.315,Zach Eflin,R,Power,2.278481012658228,1.0
+2026-03-31,Oriole Park at Camden Yards,79,13,,,,Joc Pederson,Hit,0.5732806324958801,8.0,Joc Pederson,L,Balanced,0.315,Zach Eflin,R,Power,2.278481012658228,1.0
+2026-03-31,Oriole Park at Camden Yards,79,13,,,,Joc Pederson,TB,0.3519529402256012,8.0,Joc Pederson,L,Balanced,0.315,Zach Eflin,R,Power,2.278481012658228,1.0
+2026-03-31,Oriole Park at Camden Yards,79,13,,,,Joc Pederson,Run,0.34509482979774475,8.0,Joc Pederson,L,Balanced,0.315,Zach Eflin,R,Power,2.278481012658228,1.0
+2026-03-31,Oriole Park at Camden Yards,79,13,,,,Joc Pederson,RBI,0.30629095435142517,8.0,Joc Pederson,L,Balanced,0.315,Zach Eflin,R,Power,2.278481012658228,1.0
+2026-03-31,Oriole Park at Camden Yards,79,13,,,,Josh Jung,HR,0.16821639239788055,9.0,Josh Jung,R,Balanced,0.304,Zach Eflin,R,Power,2.278481012658228,0.0
+2026-03-31,Oriole Park at Camden Yards,79,13,,,,Josh Jung,Hit,0.5999925136566162,9.0,Josh Jung,R,Balanced,0.304,Zach Eflin,R,Power,2.278481012658228,0.0
+2026-03-31,Oriole Park at Camden Yards,79,13,,,,Josh Jung,TB,0.43692997097969055,9.0,Josh Jung,R,Balanced,0.304,Zach Eflin,R,Power,2.278481012658228,0.0
+2026-03-31,Oriole Park at Camden Yards,79,13,,,,Josh Jung,Run,0.3693615198135376,9.0,Josh Jung,R,Balanced,0.304,Zach Eflin,R,Power,2.278481012658228,0.0
+2026-03-31,Oriole Park at Camden Yards,79,13,,,,Josh Jung,RBI,0.35925978422164917,9.0,Josh Jung,R,Balanced,0.304,Zach Eflin,R,Power,2.278481012658228,0.0
+2026-03-31,Oriole Park at Camden Yards,79,13,,,,Adley Rutschman,HR,0.1378476768732071,1.0,Adley Rutschman,S,Contact,0.325,Jacob deGrom,R,Power,1.3588850174216027,1.0
+2026-03-31,Oriole Park at Camden Yards,79,13,,,,Adley Rutschman,Hit,0.6986992359161377,1.0,Adley Rutschman,S,Contact,0.325,Jacob deGrom,R,Power,1.3588850174216027,1.0
+2026-03-31,Oriole Park at Camden Yards,79,13,,,,Adley Rutschman,TB,0.4077785611152649,1.0,Adley Rutschman,S,Contact,0.325,Jacob deGrom,R,Power,1.3588850174216027,1.0
+2026-03-31,Oriole Park at Camden Yards,79,13,,,,Adley Rutschman,Run,0.41175511479377747,1.0,Adley Rutschman,S,Contact,0.325,Jacob deGrom,R,Power,1.3588850174216027,1.0
+2026-03-31,Oriole Park at Camden Yards,79,13,,,,Adley Rutschman,RBI,0.30378660559654236,1.0,Adley Rutschman,S,Contact,0.325,Jacob deGrom,R,Power,1.3588850174216027,1.0
+2026-03-31,Oriole Park at Camden Yards,79,13,,,,Blaze Alexander,HR,0.1177222952246666,2.0,Blaze Alexander,R,Balanced,0.303,Jacob deGrom,R,Power,1.3588850174216027,0.0
+2026-03-31,Oriole Park at Camden Yards,79,13,,,,Blaze Alexander,Hit,0.5681700110435486,2.0,Blaze Alexander,R,Balanced,0.303,Jacob deGrom,R,Power,1.3588850174216027,0.0
+2026-03-31,Oriole Park at Camden Yards,79,13,,,,Blaze Alexander,TB,0.32761719822883606,2.0,Blaze Alexander,R,Balanced,0.303,Jacob deGrom,R,Power,1.3588850174216027,0.0
+2026-03-31,Oriole Park at Camden Yards,79,13,,,,Blaze Alexander,Run,0.3684421479701996,2.0,Blaze Alexander,R,Balanced,0.303,Jacob deGrom,R,Power,1.3588850174216027,0.0
+2026-03-31,Oriole Park at Camden Yards,79,13,,,,Blaze Alexander,RBI,0.29586923122406006,2.0,Blaze Alexander,R,Balanced,0.303,Jacob deGrom,R,Power,1.3588850174216027,0.0
+2026-03-31,Oriole Park at Camden Yards,79,13,,,,Coby Mayo,HR,0.15981851518154144,3.0,Coby Mayo,R,Slugger,0.287,Jacob deGrom,R,Power,1.3588850174216027,0.0
+2026-03-31,Oriole Park at Camden Yards,79,13,,,,Coby Mayo,Hit,0.5151963233947754,3.0,Coby Mayo,R,Slugger,0.287,Jacob deGrom,R,Power,1.3588850174216027,0.0
+2026-03-31,Oriole Park at Camden Yards,79,13,,,,Coby Mayo,TB,0.28942790627479553,3.0,Coby Mayo,R,Slugger,0.287,Jacob deGrom,R,Power,1.3588850174216027,0.0
+2026-03-31,Oriole Park at Camden Yards,79,13,,,,Coby Mayo,Run,0.3471299409866333,3.0,Coby Mayo,R,Slugger,0.287,Jacob deGrom,R,Power,1.3588850174216027,0.0
+2026-03-31,Oriole Park at Camden Yards,79,13,,,,Coby Mayo,RBI,0.26955321431159973,3.0,Coby Mayo,R,Slugger,0.287,Jacob deGrom,R,Power,1.3588850174216027,0.0
+2026-03-31,Oriole Park at Camden Yards,79,13,,,,Colton Cowser,HR,0.2024659514427185,4.0,Colton Cowser,L,Slugger,0.293,Jacob deGrom,R,Power,1.3588850174216027,1.0
+2026-03-31,Oriole Park at Camden Yards,79,13,,,,Colton Cowser,Hit,0.5262088775634766,4.0,Colton Cowser,L,Slugger,0.293,Jacob deGrom,R,Power,1.3588850174216027,1.0
+2026-03-31,Oriole Park at Camden Yards,79,13,,,,Colton Cowser,TB,0.32674440741539,4.0,Colton Cowser,L,Slugger,0.293,Jacob deGrom,R,Power,1.3588850174216027,1.0
+2026-03-31,Oriole Park at Camden Yards,79,13,,,,Colton Cowser,Run,0.3589089512825012,4.0,Colton Cowser,L,Slugger,0.293,Jacob deGrom,R,Power,1.3588850174216027,1.0
+2026-03-31,Oriole Park at Camden Yards,79,13,,,,Colton Cowser,RBI,0.34047558903694153,4.0,Colton Cowser,L,Slugger,0.293,Jacob deGrom,R,Power,1.3588850174216027,1.0
+2026-03-31,Oriole Park at Camden Yards,79,13,,,,Dylan Beavers,HR,0.17495563626289368,5.0,Dylan Beavers,L,Balanced,0.344,Jacob deGrom,R,Power,1.3588850174216027,1.0
+2026-03-31,Oriole Park at Camden Yards,79,13,,,,Dylan Beavers,Hit,0.6179699301719666,5.0,Dylan Beavers,L,Balanced,0.344,Jacob deGrom,R,Power,1.3588850174216027,1.0
+2026-03-31,Oriole Park at Camden Yards,79,13,,,,Dylan Beavers,TB,0.3880995810031891,5.0,Dylan Beavers,L,Balanced,0.344,Jacob deGrom,R,Power,1.3588850174216027,1.0
+2026-03-31,Oriole Park at Camden Yards,79,13,,,,Dylan Beavers,Run,0.4280027747154236,5.0,Dylan Beavers,L,Balanced,0.344,Jacob deGrom,R,Power,1.3588850174216027,1.0
+2026-03-31,Oriole Park at Camden Yards,79,13,,,,Dylan Beavers,RBI,0.33598679304122925,5.0,Dylan Beavers,L,Balanced,0.344,Jacob deGrom,R,Power,1.3588850174216027,1.0
+2026-03-31,Oriole Park at Camden Yards,79,13,,,,Gunnar Henderson,HR,0.12871253490447998,6.0,Gunnar Henderson,L,Balanced,0.341,Jacob deGrom,R,Power,1.3588850174216027,1.0
+2026-03-31,Oriole Park at Camden Yards,79,13,,,,Gunnar Henderson,Hit,0.6407702565193176,6.0,Gunnar Henderson,L,Balanced,0.341,Jacob deGrom,R,Power,1.3588850174216027,1.0
+2026-03-31,Oriole Park at Camden Yards,79,13,,,,Gunnar Henderson,TB,0.43036431074142456,6.0,Gunnar Henderson,L,Balanced,0.341,Jacob deGrom,R,Power,1.3588850174216027,1.0
+2026-03-31,Oriole Park at Camden Yards,79,13,,,,Gunnar Henderson,Run,0.432705283164978,6.0,Gunnar Henderson,L,Balanced,0.341,Jacob deGrom,R,Power,1.3588850174216027,1.0
+2026-03-31,Oriole Park at Camden Yards,79,13,,,,Gunnar Henderson,RBI,0.3183988332748413,6.0,Gunnar Henderson,L,Balanced,0.341,Jacob deGrom,R,Power,1.3588850174216027,1.0
+2026-03-31,Oriole Park at Camden Yards,79,13,,,,Jeremiah Jackson,HR,0.11941639333963394,7.0,Jeremiah Jackson,R,Balanced,0.295,Jacob deGrom,R,Power,1.3588850174216027,0.0
+2026-03-31,Oriole Park at Camden Yards,79,13,,,,Jeremiah Jackson,Hit,0.5778024196624756,7.0,Jeremiah Jackson,R,Balanced,0.295,Jacob deGrom,R,Power,1.3588850174216027,0.0
+2026-03-31,Oriole Park at Camden Yards,79,13,,,,Jeremiah Jackson,TB,0.3338337540626526,7.0,Jeremiah Jackson,R,Balanced,0.295,Jacob deGrom,R,Power,1.3588850174216027,0.0
+2026-03-31,Oriole Park at Camden Yards,79,13,,,,Jeremiah Jackson,Run,0.32344090938568115,7.0,Jeremiah Jackson,R,Balanced,0.295,Jacob deGrom,R,Power,1.3588850174216027,0.0
+2026-03-31,Oriole Park at Camden Yards,79,13,,,,Jeremiah Jackson,RBI,0.2846611440181732,7.0,Jeremiah Jackson,R,Balanced,0.295,Jacob deGrom,R,Power,1.3588850174216027,0.0
+2026-03-31,Oriole Park at Camden Yards,79,13,,,,Leody Taveras,HR,0.07231008261442184,8.0,Leody Taveras,S,Balanced,0.234,Jacob deGrom,R,Power,1.3588850174216027,1.0
+2026-03-31,Oriole Park at Camden Yards,79,13,,,,Leody Taveras,Hit,0.4773251712322235,8.0,Leody Taveras,S,Balanced,0.234,Jacob deGrom,R,Power,1.3588850174216027,1.0
+2026-03-31,Oriole Park at Camden Yards,79,13,,,,Leody Taveras,TB,0.30692651867866516,8.0,Leody Taveras,S,Balanced,0.234,Jacob deGrom,R,Power,1.3588850174216027,1.0
+2026-03-31,Oriole Park at Camden Yards,79,13,,,,Leody Taveras,Run,0.27454471588134766,8.0,Leody Taveras,S,Balanced,0.234,Jacob deGrom,R,Power,1.3588850174216027,1.0
+2026-03-31,Oriole Park at Camden Yards,79,13,,,,Leody Taveras,RBI,0.26524266600608826,8.0,Leody Taveras,S,Balanced,0.234,Jacob deGrom,R,Power,1.3588850174216027,1.0
+2026-03-31,Oriole Park at Camden Yards,79,13,,,,Pete Alonso,HR,0.19421064853668213,9.0,Pete Alonso,R,Slugger,0.386,Jacob deGrom,R,Power,1.3588850174216027,0.0
+2026-03-31,Oriole Park at Camden Yards,79,13,,,,Pete Alonso,Hit,0.4598047435283661,9.0,Pete Alonso,R,Slugger,0.386,Jacob deGrom,R,Power,1.3588850174216027,0.0
+2026-03-31,Oriole Park at Camden Yards,79,13,,,,Pete Alonso,TB,0.2929331660270691,9.0,Pete Alonso,R,Slugger,0.386,Jacob deGrom,R,Power,1.3588850174216027,0.0
+2026-03-31,Oriole Park at Camden Yards,79,13,,,,Pete Alonso,Run,0.346594899892807,9.0,Pete Alonso,R,Slugger,0.386,Jacob deGrom,R,Power,1.3588850174216027,0.0
+2026-03-31,Oriole Park at Camden Yards,79,13,,,,Pete Alonso,RBI,0.34193718433380127,9.0,Pete Alonso,R,Slugger,0.386,Jacob deGrom,R,Power,1.3588850174216027,0.0
+2026-03-31,Great American Ball Park,77,15,out,Pittsburgh Pirates,Cincinnati Reds,GAME_TOTAL,Over_10.5,0.5403,,,,,,,,,,
+2026-03-31,Great American Ball Park,77,15,out,Pittsburgh Pirates,Cincinnati Reds,GAME_TOTAL,NRFI,0.2706,,,,,,,,,,
+2026-03-31,Great American Ball Park,77,15,,,,Billy Cook,HR,0.13342860341072083,1.0,Billy Cook,R,Balanced,0.32,Brandon Williamson,R,Power,1.25,0.0
+2026-03-31,Great American Ball Park,77,15,,,,Billy Cook,Hit,0.594594419002533,1.0,Billy Cook,R,Balanced,0.32,Brandon Williamson,R,Power,1.25,0.0
+2026-03-31,Great American Ball Park,77,15,,,,Billy Cook,TB,0.3830172121524811,1.0,Billy Cook,R,Balanced,0.32,Brandon Williamson,R,Power,1.25,0.0
+2026-03-31,Great American Ball Park,77,15,,,,Billy Cook,Run,0.3787602484226227,1.0,Billy Cook,R,Balanced,0.32,Brandon Williamson,R,Power,1.25,0.0
+2026-03-31,Great American Ball Park,77,15,,,,Billy Cook,RBI,0.19857816398143768,1.0,Billy Cook,R,Balanced,0.32,Brandon Williamson,R,Power,1.25,0.0
+2026-03-31,Great American Ball Park,77,15,,,,Brandon Lowe,HR,0.2751356065273285,2.0,Brandon Lowe,L,Slugger,0.335,Brandon Williamson,R,Power,1.25,1.0
+2026-03-31,Great American Ball Park,77,15,,,,Brandon Lowe,Hit,0.7350168228149414,2.0,Brandon Lowe,L,Slugger,0.335,Brandon Williamson,R,Power,1.25,1.0
+2026-03-31,Great American Ball Park,77,15,,,,Brandon Lowe,TB,0.46255260705947876,2.0,Brandon Lowe,L,Slugger,0.335,Brandon Williamson,R,Power,1.25,1.0
+2026-03-31,Great American Ball Park,77,15,,,,Brandon Lowe,Run,0.5099879503250122,2.0,Brandon Lowe,L,Slugger,0.335,Brandon Williamson,R,Power,1.25,1.0
+2026-03-31,Great American Ball Park,77,15,,,,Brandon Lowe,RBI,0.3973153829574585,2.0,Brandon Lowe,L,Slugger,0.335,Brandon Williamson,R,Power,1.25,1.0
+2026-03-31,Great American Ball Park,77,15,,,,Bryan Reynolds,HR,0.13337905704975128,3.0,Bryan Reynolds,S,Balanced,0.338,Brandon Williamson,R,Power,1.25,1.0
+2026-03-31,Great American Ball Park,77,15,,,,Bryan Reynolds,Hit,0.6823596954345703,3.0,Bryan Reynolds,S,Balanced,0.338,Brandon Williamson,R,Power,1.25,1.0
+2026-03-31,Great American Ball Park,77,15,,,,Bryan Reynolds,TB,0.4533063471317291,3.0,Bryan Reynolds,S,Balanced,0.338,Brandon Williamson,R,Power,1.25,1.0
+2026-03-31,Great American Ball Park,77,15,,,,Bryan Reynolds,Run,0.4283042550086975,3.0,Bryan Reynolds,S,Balanced,0.338,Brandon Williamson,R,Power,1.25,1.0
+2026-03-31,Great American Ball Park,77,15,,,,Bryan Reynolds,RBI,0.3376016914844513,3.0,Bryan Reynolds,S,Balanced,0.338,Brandon Williamson,R,Power,1.25,1.0
+2026-03-31,Great American Ball Park,77,15,,,,Henry Davis,HR,0.11982085555791855,4.0,Henry Davis,R,Balanced,0.293,Brandon Williamson,R,Power,1.25,0.0
+2026-03-31,Great American Ball Park,77,15,,,,Henry Davis,Hit,0.4503093659877777,4.0,Henry Davis,R,Balanced,0.293,Brandon Williamson,R,Power,1.25,0.0
+2026-03-31,Great American Ball Park,77,15,,,,Henry Davis,TB,0.21109075844287872,4.0,Henry Davis,R,Balanced,0.293,Brandon Williamson,R,Power,1.25,0.0
+2026-03-31,Great American Ball Park,77,15,,,,Henry Davis,Run,0.302786648273468,4.0,Henry Davis,R,Balanced,0.293,Brandon Williamson,R,Power,1.25,0.0
+2026-03-31,Great American Ball Park,77,15,,,,Henry Davis,RBI,0.22826173901557922,4.0,Henry Davis,R,Balanced,0.293,Brandon Williamson,R,Power,1.25,0.0
+2026-03-31,Great American Ball Park,77,15,,,,Jake Mangum,HR,0.04783787205815315,5.0,Jake Mangum,S,Contact,0.276,Brandon Williamson,R,Power,1.25,1.0
+2026-03-31,Great American Ball Park,77,15,,,,Jake Mangum,Hit,0.6299762725830078,5.0,Jake Mangum,S,Contact,0.276,Brandon Williamson,R,Power,1.25,1.0
+2026-03-31,Great American Ball Park,77,15,,,,Jake Mangum,TB,0.3439761996269226,5.0,Jake Mangum,S,Contact,0.276,Brandon Williamson,R,Power,1.25,1.0
+2026-03-31,Great American Ball Park,77,15,,,,Jake Mangum,Run,0.2817741930484772,5.0,Jake Mangum,S,Contact,0.276,Brandon Williamson,R,Power,1.25,1.0
+2026-03-31,Great American Ball Park,77,15,,,,Jake Mangum,RBI,0.2542073130607605,5.0,Jake Mangum,S,Contact,0.276,Brandon Williamson,R,Power,1.25,1.0
+2026-03-31,Great American Ball Park,77,15,,,,Jared Triolo,HR,0.07980823516845703,6.0,Jared Triolo,R,Balanced,0.31,Brandon Williamson,R,Power,1.25,0.0
+2026-03-31,Great American Ball Park,77,15,,,,Jared Triolo,Hit,0.5231021642684937,6.0,Jared Triolo,R,Balanced,0.31,Brandon Williamson,R,Power,1.25,0.0
+2026-03-31,Great American Ball Park,77,15,,,,Jared Triolo,TB,0.30042144656181335,6.0,Jared Triolo,R,Balanced,0.31,Brandon Williamson,R,Power,1.25,0.0
+2026-03-31,Great American Ball Park,77,15,,,,Jared Triolo,Run,0.3369811773300171,6.0,Jared Triolo,R,Balanced,0.31,Brandon Williamson,R,Power,1.25,0.0
+2026-03-31,Great American Ball Park,77,15,,,,Jared Triolo,RBI,0.20257382094860077,6.0,Jared Triolo,R,Balanced,0.31,Brandon Williamson,R,Power,1.25,0.0
+2026-03-31,Great American Ball Park,77,15,,,,Joey Bart,HR,0.051696401089429855,7.0,Joey Bart,R,Balanced,0.318,Brandon Williamson,R,Power,1.25,0.0
+2026-03-31,Great American Ball Park,77,15,,,,Joey Bart,Hit,0.5407359600067139,7.0,Joey Bart,R,Balanced,0.318,Brandon Williamson,R,Power,1.25,0.0
+2026-03-31,Great American Ball Park,77,15,,,,Joey Bart,TB,0.2750040292739868,7.0,Joey Bart,R,Balanced,0.318,Brandon Williamson,R,Power,1.25,0.0
+2026-03-31,Great American Ball Park,77,15,,,,Joey Bart,Run,0.22135992348194122,7.0,Joey Bart,R,Balanced,0.318,Brandon Williamson,R,Power,1.25,0.0
+2026-03-31,Great American Ball Park,77,15,,,,Joey Bart,RBI,0.2487306445837021,7.0,Joey Bart,R,Balanced,0.318,Brandon Williamson,R,Power,1.25,0.0
+2026-03-31,Great American Ball Park,77,15,,,,Marcell Ozuna,HR,0.17084631323814392,8.0,Marcell Ozuna,R,Slugger,0.354,Brandon Williamson,R,Power,1.25,0.0
+2026-03-31,Great American Ball Park,77,15,,,,Marcell Ozuna,Hit,0.49573490023612976,8.0,Marcell Ozuna,R,Slugger,0.354,Brandon Williamson,R,Power,1.25,0.0
+2026-03-31,Great American Ball Park,77,15,,,,Marcell Ozuna,TB,0.3041142225265503,8.0,Marcell Ozuna,R,Slugger,0.354,Brandon Williamson,R,Power,1.25,0.0
+2026-03-31,Great American Ball Park,77,15,,,,Marcell Ozuna,Run,0.3534163534641266,8.0,Marcell Ozuna,R,Slugger,0.354,Brandon Williamson,R,Power,1.25,0.0
+2026-03-31,Great American Ball Park,77,15,,,,Marcell Ozuna,RBI,0.3059447109699249,8.0,Marcell Ozuna,R,Slugger,0.354,Brandon Williamson,R,Power,1.25,0.0
+2026-03-31,Great American Ball Park,77,15,,,,Nick Gonzales,HR,0.05692640691995621,9.0,Nick Gonzales,R,Contact,0.291,Brandon Williamson,R,Power,1.25,0.0
+2026-03-31,Great American Ball Park,77,15,,,,Nick Gonzales,Hit,0.5693644285202026,9.0,Nick Gonzales,R,Contact,0.291,Brandon Williamson,R,Power,1.25,0.0
+2026-03-31,Great American Ball Park,77,15,,,,Nick Gonzales,TB,0.28386062383651733,9.0,Nick Gonzales,R,Contact,0.291,Brandon Williamson,R,Power,1.25,0.0
+2026-03-31,Great American Ball Park,77,15,,,,Nick Gonzales,Run,0.29036664962768555,9.0,Nick Gonzales,R,Contact,0.291,Brandon Williamson,R,Power,1.25,0.0
+2026-03-31,Great American Ball Park,77,15,,,,Nick Gonzales,RBI,0.1988186240196228,9.0,Nick Gonzales,R,Contact,0.291,Brandon Williamson,R,Power,1.25,0.0
+2026-03-31,Great American Ball Park,77,15,,,,Dane Myers,HR,0.08333232998847961,1.0,Dane Myers,R,Balanced,0.309,Bubba Chandler,R,Power,1.25,0.0
+2026-03-31,Great American Ball Park,77,15,,,,Dane Myers,Hit,0.600212574005127,1.0,Dane Myers,R,Balanced,0.309,Bubba Chandler,R,Power,1.25,0.0
+2026-03-31,Great American Ball Park,77,15,,,,Dane Myers,TB,0.34585195779800415,1.0,Dane Myers,R,Balanced,0.309,Bubba Chandler,R,Power,1.25,0.0
+2026-03-31,Great American Ball Park,77,15,,,,Dane Myers,Run,0.3527708053588867,1.0,Dane Myers,R,Balanced,0.309,Bubba Chandler,R,Power,1.25,0.0
+2026-03-31,Great American Ball Park,77,15,,,,Dane Myers,RBI,0.29088065028190613,1.0,Dane Myers,R,Balanced,0.309,Bubba Chandler,R,Power,1.25,0.0
+2026-03-31,Great American Ball Park,77,15,,,,Elly De La Cruz,HR,0.16831205785274506,2.0,Elly De La Cruz,S,Balanced,0.322,Bubba Chandler,R,Power,1.25,1.0
+2026-03-31,Great American Ball Park,77,15,,,,Elly De La Cruz,Hit,0.701793372631073,2.0,Elly De La Cruz,S,Balanced,0.322,Bubba Chandler,R,Power,1.25,1.0
+2026-03-31,Great American Ball Park,77,15,,,,Elly De La Cruz,TB,0.4048665463924408,2.0,Elly De La Cruz,S,Balanced,0.322,Bubba Chandler,R,Power,1.25,1.0
+2026-03-31,Great American Ball Park,77,15,,,,Elly De La Cruz,Run,0.4410361051559448,2.0,Elly De La Cruz,S,Balanced,0.322,Bubba Chandler,R,Power,1.25,1.0
+2026-03-31,Great American Ball Park,77,15,,,,Elly De La Cruz,RBI,0.36760610342025757,2.0,Elly De La Cruz,S,Balanced,0.322,Bubba Chandler,R,Power,1.25,1.0
+2026-03-31,Great American Ball Park,77,15,,,,Eugenio Suárez,HR,0.2758004665374756,3.0,Eugenio Suárez,R,Slugger,0.32,Bubba Chandler,R,Power,1.25,0.0
+2026-03-31,Great American Ball Park,77,15,,,,Eugenio Suárez,Hit,0.5941315293312073,3.0,Eugenio Suárez,R,Slugger,0.32,Bubba Chandler,R,Power,1.25,0.0
+2026-03-31,Great American Ball Park,77,15,,,,Eugenio Suárez,TB,0.3956606090068817,3.0,Eugenio Suárez,R,Slugger,0.32,Bubba Chandler,R,Power,1.25,0.0
+2026-03-31,Great American Ball Park,77,15,,,,Eugenio Suárez,Run,0.4205266237258911,3.0,Eugenio Suárez,R,Slugger,0.32,Bubba Chandler,R,Power,1.25,0.0
+2026-03-31,Great American Ball Park,77,15,,,,Eugenio Suárez,RBI,0.4010193943977356,3.0,Eugenio Suárez,R,Slugger,0.32,Bubba Chandler,R,Power,1.25,0.0
+2026-03-31,Great American Ball Park,77,15,,,,Jose Trevino,HR,0.060013387352228165,4.0,Jose Trevino,R,Contact,0.278,Bubba Chandler,R,Power,1.25,0.0
+2026-03-31,Great American Ball Park,77,15,,,,Jose Trevino,Hit,0.5209751129150391,4.0,Jose Trevino,R,Contact,0.278,Bubba Chandler,R,Power,1.25,0.0
+2026-03-31,Great American Ball Park,77,15,,,,Jose Trevino,TB,0.2976709008216858,4.0,Jose Trevino,R,Contact,0.278,Bubba Chandler,R,Power,1.25,0.0
+2026-03-31,Great American Ball Park,77,15,,,,Jose Trevino,Run,0.2904592454433441,4.0,Jose Trevino,R,Contact,0.278,Bubba Chandler,R,Power,1.25,0.0
+2026-03-31,Great American Ball Park,77,15,,,,Jose Trevino,RBI,0.21217069029808044,4.0,Jose Trevino,R,Contact,0.278,Bubba Chandler,R,Power,1.25,0.0
+2026-03-31,Great American Ball Park,77,15,,,,Ke'Bryan Hayes,HR,0.047946445643901825,5.0,Ke'Bryan Hayes,R,Balanced,0.282,Bubba Chandler,R,Power,1.25,0.0
+2026-03-31,Great American Ball Park,77,15,,,,Ke'Bryan Hayes,Hit,0.5291054844856262,5.0,Ke'Bryan Hayes,R,Balanced,0.282,Bubba Chandler,R,Power,1.25,0.0
+2026-03-31,Great American Ball Park,77,15,,,,Ke'Bryan Hayes,TB,0.24899272620677948,5.0,Ke'Bryan Hayes,R,Balanced,0.282,Bubba Chandler,R,Power,1.25,0.0
+2026-03-31,Great American Ball Park,77,15,,,,Ke'Bryan Hayes,Run,0.2565179765224457,5.0,Ke'Bryan Hayes,R,Balanced,0.282,Bubba Chandler,R,Power,1.25,0.0
+2026-03-31,Great American Ball Park,77,15,,,,Ke'Bryan Hayes,RBI,0.2265295833349228,5.0,Ke'Bryan Hayes,R,Balanced,0.282,Bubba Chandler,R,Power,1.25,0.0
+2026-03-31,Great American Ball Park,77,15,,,,Matt McLain,HR,0.12163244187831879,6.0,Matt McLain,R,Balanced,0.291,Bubba Chandler,R,Power,1.25,0.0
+2026-03-31,Great American Ball Park,77,15,,,,Matt McLain,Hit,0.4971138834953308,6.0,Matt McLain,R,Balanced,0.291,Bubba Chandler,R,Power,1.25,0.0
+2026-03-31,Great American Ball Park,77,15,,,,Matt McLain,TB,0.26019999384880066,6.0,Matt McLain,R,Balanced,0.291,Bubba Chandler,R,Power,1.25,0.0
+2026-03-31,Great American Ball Park,77,15,,,,Matt McLain,Run,0.3675667643547058,6.0,Matt McLain,R,Balanced,0.291,Bubba Chandler,R,Power,1.25,0.0
+2026-03-31,Great American Ball Park,77,15,,,,Matt McLain,RBI,0.23574715852737427,6.0,Matt McLain,R,Balanced,0.291,Bubba Chandler,R,Power,1.25,0.0
+2026-03-31,Great American Ball Park,77,15,,,,Nathaniel Lowe,HR,0.13602668046951294,7.0,Nathaniel Lowe,L,Balanced,0.303,Bubba Chandler,R,Power,1.25,1.0
+2026-03-31,Great American Ball Park,77,15,,,,Nathaniel Lowe,Hit,0.5744633674621582,7.0,Nathaniel Lowe,L,Balanced,0.303,Bubba Chandler,R,Power,1.25,1.0
+2026-03-31,Great American Ball Park,77,15,,,,Nathaniel Lowe,TB,0.35032325983047485,7.0,Nathaniel Lowe,L,Balanced,0.303,Bubba Chandler,R,Power,1.25,1.0
+2026-03-31,Great American Ball Park,77,15,,,,Nathaniel Lowe,Run,0.3586326241493225,7.0,Nathaniel Lowe,L,Balanced,0.303,Bubba Chandler,R,Power,1.25,1.0
+2026-03-31,Great American Ball Park,77,15,,,,Nathaniel Lowe,RBI,0.36794355511665344,7.0,Nathaniel Lowe,L,Balanced,0.303,Bubba Chandler,R,Power,1.25,1.0
+2026-03-31,Great American Ball Park,77,15,,,,Noelvi Marte,HR,0.1536516547203064,8.0,Noelvi Marte,R,Slugger,0.304,Bubba Chandler,R,Power,1.25,0.0
+2026-03-31,Great American Ball Park,77,15,,,,Noelvi Marte,Hit,0.5794408917427063,8.0,Noelvi Marte,R,Slugger,0.304,Bubba Chandler,R,Power,1.25,0.0
+2026-03-31,Great American Ball Park,77,15,,,,Noelvi Marte,TB,0.348783016204834,8.0,Noelvi Marte,R,Slugger,0.304,Bubba Chandler,R,Power,1.25,0.0
+2026-03-31,Great American Ball Park,77,15,,,,Noelvi Marte,Run,0.3626636564731598,8.0,Noelvi Marte,R,Slugger,0.304,Bubba Chandler,R,Power,1.25,0.0
+2026-03-31,Great American Ball Park,77,15,,,,Noelvi Marte,RBI,0.3273005485534668,8.0,Noelvi Marte,R,Slugger,0.304,Bubba Chandler,R,Power,1.25,0.0
+2026-03-31,Great American Ball Park,77,15,,,,Sal Stewart,HR,0.22163911163806915,9.0,Sal Stewart,R,Slugger,0.398,Bubba Chandler,R,Power,1.25,0.0
+2026-03-31,Great American Ball Park,77,15,,,,Sal Stewart,Hit,0.4479716122150421,9.0,Sal Stewart,R,Slugger,0.398,Bubba Chandler,R,Power,1.25,0.0
+2026-03-31,Great American Ball Park,77,15,,,,Sal Stewart,TB,0.27726444602012634,9.0,Sal Stewart,R,Slugger,0.398,Bubba Chandler,R,Power,1.25,0.0
+2026-03-31,Great American Ball Park,77,15,,,,Sal Stewart,Run,0.3832952678203583,9.0,Sal Stewart,R,Slugger,0.398,Bubba Chandler,R,Power,1.25,0.0
+2026-03-31,Great American Ball Park,77,15,,,,Sal Stewart,RBI,0.28824150562286377,9.0,Sal Stewart,R,Slugger,0.398,Bubba Chandler,R,Power,1.25,0.0
+2026-03-31,Citizens Bank Park,77,14,out,Washington Nationals,Philadelphia Phillies,GAME_TOTAL,Over_10.5,0.502,,,,,,,,,,
+2026-03-31,Citizens Bank Park,77,14,out,Washington Nationals,Philadelphia Phillies,GAME_TOTAL,NRFI,0.2978,,,,,,,,,,
+2026-03-31,Citizens Bank Park,77,14,,,,Brady House,HR,0.05113821476697922,1.0,Brady House,R,Balanced,0.284,Andrew Painter,R,Balanced,1.1652281134401974,0.0
+2026-03-31,Citizens Bank Park,77,14,,,,Brady House,Hit,0.5496246218681335,1.0,Brady House,R,Balanced,0.284,Andrew Painter,R,Balanced,1.1652281134401974,0.0
+2026-03-31,Citizens Bank Park,77,14,,,,Brady House,TB,0.2616134583950043,1.0,Brady House,R,Balanced,0.284,Andrew Painter,R,Balanced,1.1652281134401974,0.0
+2026-03-31,Citizens Bank Park,77,14,,,,Brady House,Run,0.269845187664032,1.0,Brady House,R,Balanced,0.284,Andrew Painter,R,Balanced,1.1652281134401974,0.0
+2026-03-31,Citizens Bank Park,77,14,,,,Brady House,RBI,0.2315647155046463,1.0,Brady House,R,Balanced,0.284,Andrew Painter,R,Balanced,1.1652281134401974,0.0
+2026-03-31,Citizens Bank Park,77,14,,,,CJ Abrams,HR,0.13247931003570557,2.0,CJ Abrams,L,Balanced,0.309,Andrew Painter,R,Balanced,1.1652281134401974,1.0
+2026-03-31,Citizens Bank Park,77,14,,,,CJ Abrams,Hit,0.6587579250335693,2.0,CJ Abrams,L,Balanced,0.309,Andrew Painter,R,Balanced,1.1652281134401974,1.0
+2026-03-31,Citizens Bank Park,77,14,,,,CJ Abrams,TB,0.40866953134536743,2.0,CJ Abrams,L,Balanced,0.309,Andrew Painter,R,Balanced,1.1652281134401974,1.0
+2026-03-31,Citizens Bank Park,77,14,,,,CJ Abrams,Run,0.4363096356391907,2.0,CJ Abrams,L,Balanced,0.309,Andrew Painter,R,Balanced,1.1652281134401974,1.0
+2026-03-31,Citizens Bank Park,77,14,,,,CJ Abrams,RBI,0.2931780219078064,2.0,CJ Abrams,L,Balanced,0.309,Andrew Painter,R,Balanced,1.1652281134401974,1.0
+2026-03-31,Citizens Bank Park,77,14,,,,Curtis Mead,HR,0.058955516666173935,3.0,Curtis Mead,R,Balanced,0.291,Andrew Painter,R,Balanced,1.1652281134401974,0.0
+2026-03-31,Citizens Bank Park,77,14,,,,Curtis Mead,Hit,0.5266283750534058,3.0,Curtis Mead,R,Balanced,0.291,Andrew Painter,R,Balanced,1.1652281134401974,0.0
+2026-03-31,Citizens Bank Park,77,14,,,,Curtis Mead,TB,0.2802625000476837,3.0,Curtis Mead,R,Balanced,0.291,Andrew Painter,R,Balanced,1.1652281134401974,0.0
+2026-03-31,Citizens Bank Park,77,14,,,,Curtis Mead,Run,0.3037182092666626,3.0,Curtis Mead,R,Balanced,0.291,Andrew Painter,R,Balanced,1.1652281134401974,0.0
+2026-03-31,Citizens Bank Park,77,14,,,,Curtis Mead,RBI,0.21173083782196045,3.0,Curtis Mead,R,Balanced,0.291,Andrew Painter,R,Balanced,1.1652281134401974,0.0
+2026-03-31,Citizens Bank Park,77,14,,,,Daylen Lile,HR,0.13408616185188293,4.0,Daylen Lile,L,Contact,0.348,Andrew Painter,R,Balanced,1.1652281134401974,1.0
+2026-03-31,Citizens Bank Park,77,14,,,,Daylen Lile,Hit,0.7156026363372803,4.0,Daylen Lile,L,Contact,0.348,Andrew Painter,R,Balanced,1.1652281134401974,1.0
+2026-03-31,Citizens Bank Park,77,14,,,,Daylen Lile,TB,0.48154398798942566,4.0,Daylen Lile,L,Contact,0.348,Andrew Painter,R,Balanced,1.1652281134401974,1.0
+2026-03-31,Citizens Bank Park,77,14,,,,Daylen Lile,Run,0.47774434089660645,4.0,Daylen Lile,L,Contact,0.348,Andrew Painter,R,Balanced,1.1652281134401974,1.0
+2026-03-31,Citizens Bank Park,77,14,,,,Daylen Lile,RBI,0.36561739444732666,4.0,Daylen Lile,L,Contact,0.348,Andrew Painter,R,Balanced,1.1652281134401974,1.0
+2026-03-31,Citizens Bank Park,77,14,,,,Drew Millas,HR,0.0053701251745224,5.0,Drew Millas,S,Contact,0.305,Andrew Painter,R,Balanced,1.1652281134401974,1.0
+2026-03-31,Citizens Bank Park,77,14,,,,Drew Millas,Hit,0.7045721411705017,5.0,Drew Millas,S,Contact,0.305,Andrew Painter,R,Balanced,1.1652281134401974,1.0
+2026-03-31,Citizens Bank Park,77,14,,,,Drew Millas,TB,0.4389527440071106,5.0,Drew Millas,S,Contact,0.305,Andrew Painter,R,Balanced,1.1652281134401974,1.0
+2026-03-31,Citizens Bank Park,77,14,,,,Drew Millas,Run,0.35018250346183777,5.0,Drew Millas,S,Contact,0.305,Andrew Painter,R,Balanced,1.1652281134401974,1.0
+2026-03-31,Citizens Bank Park,77,14,,,,Drew Millas,RBI,0.3464866578578949,5.0,Drew Millas,S,Contact,0.305,Andrew Painter,R,Balanced,1.1652281134401974,1.0
+2026-03-31,Citizens Bank Park,77,14,,,,Jacob Young,HR,0.01724579930305481,6.0,Jacob Young,R,Contact,0.297,Andrew Painter,R,Balanced,1.1652281134401974,0.0
+2026-03-31,Citizens Bank Park,77,14,,,,Jacob Young,Hit,0.5420914888381958,6.0,Jacob Young,R,Contact,0.297,Andrew Painter,R,Balanced,1.1652281134401974,0.0
+2026-03-31,Citizens Bank Park,77,14,,,,Jacob Young,TB,0.22103162109851837,6.0,Jacob Young,R,Contact,0.297,Andrew Painter,R,Balanced,1.1652281134401974,0.0
+2026-03-31,Citizens Bank Park,77,14,,,,Jacob Young,Run,0.2825036942958832,6.0,Jacob Young,R,Contact,0.297,Andrew Painter,R,Balanced,1.1652281134401974,0.0
+2026-03-31,Citizens Bank Park,77,14,,,,Jacob Young,RBI,0.2424924671649933,6.0,Jacob Young,R,Contact,0.297,Andrew Painter,R,Balanced,1.1652281134401974,0.0
+2026-03-31,Citizens Bank Park,77,14,,,,James Wood,HR,0.2355566918849945,7.0,James Wood,L,Slugger,0.361,Andrew Painter,R,Balanced,1.1652281134401974,1.0
+2026-03-31,Citizens Bank Park,77,14,,,,James Wood,Hit,0.6385157704353333,7.0,James Wood,L,Slugger,0.361,Andrew Painter,R,Balanced,1.1652281134401974,1.0
+2026-03-31,Citizens Bank Park,77,14,,,,James Wood,TB,0.41969841718673706,7.0,James Wood,L,Slugger,0.361,Andrew Painter,R,Balanced,1.1652281134401974,1.0
+2026-03-31,Citizens Bank Park,77,14,,,,James Wood,Run,0.4596961438655853,7.0,James Wood,L,Slugger,0.361,Andrew Painter,R,Balanced,1.1652281134401974,1.0
+2026-03-31,Citizens Bank Park,77,14,,,,James Wood,RBI,0.3628593981266022,7.0,James Wood,L,Slugger,0.361,Andrew Painter,R,Balanced,1.1652281134401974,1.0
+2026-03-31,Citizens Bank Park,77,14,,,,Joey Wiemer,HR,0.17186672985553741,8.0,Joey Wiemer,R,Slugger,0.305,Andrew Painter,R,Balanced,1.1652281134401974,0.0
+2026-03-31,Citizens Bank Park,77,14,,,,Joey Wiemer,Hit,0.5313551425933838,8.0,Joey Wiemer,R,Slugger,0.305,Andrew Painter,R,Balanced,1.1652281134401974,0.0
+2026-03-31,Citizens Bank Park,77,14,,,,Joey Wiemer,TB,0.31079044938087463,8.0,Joey Wiemer,R,Slugger,0.305,Andrew Painter,R,Balanced,1.1652281134401974,0.0
+2026-03-31,Citizens Bank Park,77,14,,,,Joey Wiemer,Run,0.36719363927841187,8.0,Joey Wiemer,R,Slugger,0.305,Andrew Painter,R,Balanced,1.1652281134401974,0.0
+2026-03-31,Citizens Bank Park,77,14,,,,Joey Wiemer,RBI,0.3929174244403839,8.0,Joey Wiemer,R,Slugger,0.305,Andrew Painter,R,Balanced,1.1652281134401974,0.0
+2026-03-31,Citizens Bank Park,77,14,,,,Jorbit Vivas,HR,0.055091146379709244,9.0,Jorbit Vivas,L,Balanced,0.304,Andrew Painter,R,Balanced,1.1652281134401974,1.0
+2026-03-31,Citizens Bank Park,77,14,,,,Jorbit Vivas,Hit,0.45848697423934937,9.0,Jorbit Vivas,L,Balanced,0.304,Andrew Painter,R,Balanced,1.1652281134401974,1.0
+2026-03-31,Citizens Bank Park,77,14,,,,Jorbit Vivas,TB,0.2075459361076355,9.0,Jorbit Vivas,L,Balanced,0.304,Andrew Painter,R,Balanced,1.1652281134401974,1.0
+2026-03-31,Citizens Bank Park,77,14,,,,Jorbit Vivas,Run,0.2969161868095398,9.0,Jorbit Vivas,L,Balanced,0.304,Andrew Painter,R,Balanced,1.1652281134401974,1.0
+2026-03-31,Citizens Bank Park,77,14,,,,Jorbit Vivas,RBI,0.22291241586208344,9.0,Jorbit Vivas,L,Balanced,0.304,Andrew Painter,R,Balanced,1.1652281134401974,1.0
+2026-03-31,Citizens Bank Park,77,14,,,,Adolis García,HR,0.1666249930858612,1.0,Adolis García,R,Balanced,0.304,PJ Poulin,R,Power,1.25,0.0
+2026-03-31,Citizens Bank Park,77,14,,,,Adolis García,Hit,0.600212574005127,1.0,Adolis García,R,Balanced,0.304,PJ Poulin,R,Power,1.25,0.0
+2026-03-31,Citizens Bank Park,77,14,,,,Adolis García,TB,0.3836730420589447,1.0,Adolis García,R,Balanced,0.304,PJ Poulin,R,Power,1.25,0.0
+2026-03-31,Citizens Bank Park,77,14,,,,Adolis García,Run,0.3947203755378723,1.0,Adolis García,R,Balanced,0.304,PJ Poulin,R,Power,1.25,0.0
+2026-03-31,Citizens Bank Park,77,14,,,,Adolis García,RBI,0.36982476711273193,1.0,Adolis García,R,Balanced,0.304,PJ Poulin,R,Power,1.25,0.0
+2026-03-31,Citizens Bank Park,77,14,,,,Alec Bohm,HR,0.11593000590801239,2.0,Alec Bohm,R,Contact,0.324,PJ Poulin,R,Power,1.25,0.0
+2026-03-31,Citizens Bank Park,77,14,,,,Alec Bohm,Hit,0.7359673976898193,2.0,Alec Bohm,R,Contact,0.324,PJ Poulin,R,Power,1.25,0.0
+2026-03-31,Citizens Bank Park,77,14,,,,Alec Bohm,TB,0.40020835399627686,2.0,Alec Bohm,R,Contact,0.324,PJ Poulin,R,Power,1.25,0.0
+2026-03-31,Citizens Bank Park,77,14,,,,Alec Bohm,Run,0.38220587372779846,2.0,Alec Bohm,R,Contact,0.324,PJ Poulin,R,Power,1.25,0.0
+2026-03-31,Citizens Bank Park,77,14,,,,Alec Bohm,RBI,0.3370700478553772,2.0,Alec Bohm,R,Contact,0.324,PJ Poulin,R,Power,1.25,0.0
+2026-03-31,Citizens Bank Park,77,14,,,,Brandon Marsh,HR,0.13192173838615417,3.0,Brandon Marsh,L,Balanced,0.33,PJ Poulin,R,Power,1.25,1.0
+2026-03-31,Citizens Bank Park,77,14,,,,Brandon Marsh,Hit,0.7186566591262817,3.0,Brandon Marsh,L,Balanced,0.33,PJ Poulin,R,Power,1.25,1.0
+2026-03-31,Citizens Bank Park,77,14,,,,Brandon Marsh,TB,0.42876070737838745,3.0,Brandon Marsh,L,Balanced,0.33,PJ Poulin,R,Power,1.25,1.0
+2026-03-31,Citizens Bank Park,77,14,,,,Brandon Marsh,Run,0.42979004979133606,3.0,Brandon Marsh,L,Balanced,0.33,PJ Poulin,R,Power,1.25,1.0
+2026-03-31,Citizens Bank Park,77,14,,,,Brandon Marsh,RBI,0.31947430968284607,3.0,Brandon Marsh,L,Balanced,0.33,PJ Poulin,R,Power,1.25,1.0
+2026-03-31,Citizens Bank Park,77,14,,,,Bryce Harper,HR,0.2323259562253952,4.0,Bryce Harper,L,Balanced,0.368,PJ Poulin,R,Power,1.25,1.0
+2026-03-31,Citizens Bank Park,77,14,,,,Bryce Harper,Hit,0.7052401900291443,4.0,Bryce Harper,L,Balanced,0.368,PJ Poulin,R,Power,1.25,1.0
+2026-03-31,Citizens Bank Park,77,14,,,,Bryce Harper,TB,0.45799973607063293,4.0,Bryce Harper,L,Balanced,0.368,PJ Poulin,R,Power,1.25,1.0
+2026-03-31,Citizens Bank Park,77,14,,,,Bryce Harper,Run,0.45904290676116943,4.0,Bryce Harper,L,Balanced,0.368,PJ Poulin,R,Power,1.25,1.0
+2026-03-31,Citizens Bank Park,77,14,,,,Bryce Harper,RBI,0.3863827586174011,4.0,Bryce Harper,L,Balanced,0.368,PJ Poulin,R,Power,1.25,1.0
+2026-03-31,Citizens Bank Park,77,14,,,,Bryson Stott,HR,0.1315612643957138,5.0,Bryson Stott,L,Contact,0.313,PJ Poulin,R,Power,1.25,1.0
+2026-03-31,Citizens Bank Park,77,14,,,,Bryson Stott,Hit,0.6455796360969543,5.0,Bryson Stott,L,Contact,0.313,PJ Poulin,R,Power,1.25,1.0
+2026-03-31,Citizens Bank Park,77,14,,,,Bryson Stott,TB,0.38782668113708496,5.0,Bryson Stott,L,Contact,0.313,PJ Poulin,R,Power,1.25,1.0
+2026-03-31,Citizens Bank Park,77,14,,,,Bryson Stott,Run,0.40737369656562805,5.0,Bryson Stott,L,Contact,0.313,PJ Poulin,R,Power,1.25,1.0
+2026-03-31,Citizens Bank Park,77,14,,,,Bryson Stott,RBI,0.3523571193218231,5.0,Bryson Stott,L,Contact,0.313,PJ Poulin,R,Power,1.25,1.0
+2026-03-31,Citizens Bank Park,77,14,,,,Dylan Moore,HR,0.16783612966537476,6.0,Dylan Moore,R,Slugger,0.262,PJ Poulin,R,Power,1.25,0.0
+2026-03-31,Citizens Bank Park,77,14,,,,Dylan Moore,Hit,0.46103695034980774,6.0,Dylan Moore,R,Slugger,0.262,PJ Poulin,R,Power,1.25,0.0
+2026-03-31,Citizens Bank Park,77,14,,,,Dylan Moore,TB,0.2812368869781494,6.0,Dylan Moore,R,Slugger,0.262,PJ Poulin,R,Power,1.25,0.0
+2026-03-31,Citizens Bank Park,77,14,,,,Dylan Moore,Run,0.3433530330657959,6.0,Dylan Moore,R,Slugger,0.262,PJ Poulin,R,Power,1.25,0.0
+2026-03-31,Citizens Bank Park,77,14,,,,Dylan Moore,RBI,0.2610242962837219,6.0,Dylan Moore,R,Slugger,0.262,PJ Poulin,R,Power,1.25,0.0
+2026-03-31,Citizens Bank Park,77,14,,,,Edmundo Sosa,HR,0.1727990061044693,7.0,Edmundo Sosa,R,Slugger,0.29,PJ Poulin,R,Power,1.25,0.0
+2026-03-31,Citizens Bank Park,77,14,,,,Edmundo Sosa,Hit,0.5701055526733398,7.0,Edmundo Sosa,R,Slugger,0.29,PJ Poulin,R,Power,1.25,0.0
+2026-03-31,Citizens Bank Park,77,14,,,,Edmundo Sosa,TB,0.3410017490386963,7.0,Edmundo Sosa,R,Slugger,0.29,PJ Poulin,R,Power,1.25,0.0
+2026-03-31,Citizens Bank Park,77,14,,,,Edmundo Sosa,Run,0.36051008105278015,7.0,Edmundo Sosa,R,Slugger,0.29,PJ Poulin,R,Power,1.25,0.0
+2026-03-31,Citizens Bank Park,77,14,,,,Edmundo Sosa,RBI,0.3328220844268799,7.0,Edmundo Sosa,R,Slugger,0.29,PJ Poulin,R,Power,1.25,0.0
+2026-03-31,Citizens Bank Park,77,14,,,,J.T. Realmuto,HR,0.084406279027462,8.0,J.T. Realmuto,R,Balanced,0.316,PJ Poulin,R,Power,1.25,0.0
+2026-03-31,Citizens Bank Park,77,14,,,,J.T. Realmuto,Hit,0.5654165148735046,8.0,J.T. Realmuto,R,Balanced,0.316,PJ Poulin,R,Power,1.25,0.0
+2026-03-31,Citizens Bank Park,77,14,,,,J.T. Realmuto,TB,0.33085116744041443,8.0,J.T. Realmuto,R,Balanced,0.316,PJ Poulin,R,Power,1.25,0.0
+2026-03-31,Citizens Bank Park,77,14,,,,J.T. Realmuto,Run,0.3369811773300171,8.0,J.T. Realmuto,R,Balanced,0.316,PJ Poulin,R,Power,1.25,0.0
+2026-03-31,Citizens Bank Park,77,14,,,,J.T. Realmuto,RBI,0.2518431842327118,8.0,J.T. Realmuto,R,Balanced,0.316,PJ Poulin,R,Power,1.25,0.0
+2026-03-31,Citizens Bank Park,77,14,,,,Justin Crawford,HR,0.08479248732328415,9.0,Justin Crawford,L,Contact,0.328,PJ Poulin,R,Power,1.25,1.0
+2026-03-31,Citizens Bank Park,77,14,,,,Justin Crawford,Hit,0.5506482720375061,9.0,Justin Crawford,L,Contact,0.328,PJ Poulin,R,Power,1.25,1.0
+2026-03-31,Citizens Bank Park,77,14,,,,Justin Crawford,TB,0.3142111301422119,9.0,Justin Crawford,L,Contact,0.328,PJ Poulin,R,Power,1.25,1.0
+2026-03-31,Citizens Bank Park,77,14,,,,Justin Crawford,Run,0.32990267872810364,9.0,Justin Crawford,L,Contact,0.328,PJ Poulin,R,Power,1.25,1.0
+2026-03-31,Citizens Bank Park,77,14,,,,Justin Crawford,RBI,0.24662458896636963,9.0,Justin Crawford,L,Contact,0.328,PJ Poulin,R,Power,1.25,1.0
+2026-03-31,loanDepot park,72,0,none,Chicago White Sox,Miami Marlins,GAME_TOTAL,Over_8.5,0.4953,,,,,,,,,,
+2026-03-31,loanDepot park,72,0,none,Chicago White Sox,Miami Marlins,GAME_TOTAL,NRFI,0.3816,,,,,,,,,,
+2026-03-31,loanDepot park,72,0,,,,Andrew Benintendi,HR,0.1356465071439743,1.0,Andrew Benintendi,L,Balanced,0.32,Janson Junk,R,Spin,0.6545454545454545,1.0
+2026-03-31,loanDepot park,72,0,,,,Andrew Benintendi,Hit,0.5870723128318787,1.0,Andrew Benintendi,L,Balanced,0.32,Janson Junk,R,Spin,0.6545454545454545,1.0
+2026-03-31,loanDepot park,72,0,,,,Andrew Benintendi,TB,0.3245241045951843,1.0,Andrew Benintendi,L,Balanced,0.32,Janson Junk,R,Spin,0.6545454545454545,1.0
+2026-03-31,loanDepot park,72,0,,,,Andrew Benintendi,Run,0.3707728385925293,1.0,Andrew Benintendi,L,Balanced,0.32,Janson Junk,R,Spin,0.6545454545454545,1.0
+2026-03-31,loanDepot park,72,0,,,,Andrew Benintendi,RBI,0.28709566593170166,1.0,Andrew Benintendi,L,Balanced,0.32,Janson Junk,R,Spin,0.6545454545454545,1.0
+2026-03-31,loanDepot park,72,0,,,,Austin Hays,HR,0.07334524393081665,2.0,Austin Hays,R,Slugger,0.3,Janson Junk,R,Spin,0.6545454545454545,0.0
+2026-03-31,loanDepot park,72,0,,,,Austin Hays,Hit,0.5535258650779724,2.0,Austin Hays,R,Slugger,0.3,Janson Junk,R,Spin,0.6545454545454545,0.0
+2026-03-31,loanDepot park,72,0,,,,Austin Hays,TB,0.3155866265296936,2.0,Austin Hays,R,Slugger,0.3,Janson Junk,R,Spin,0.6545454545454545,0.0
+2026-03-31,loanDepot park,72,0,,,,Austin Hays,Run,0.3572670817375183,2.0,Austin Hays,R,Slugger,0.3,Janson Junk,R,Spin,0.6545454545454545,0.0
+2026-03-31,loanDepot park,72,0,,,,Austin Hays,RBI,0.28582650423049927,2.0,Austin Hays,R,Slugger,0.3,Janson Junk,R,Spin,0.6545454545454545,0.0
+2026-03-31,loanDepot park,72,0,,,,Chase Meidroth,HR,0.03580784052610397,3.0,Chase Meidroth,R,Contact,0.3,Janson Junk,R,Spin,0.6545454545454545,0.0
+2026-03-31,loanDepot park,72,0,,,,Chase Meidroth,Hit,0.5614739656448364,3.0,Chase Meidroth,R,Contact,0.3,Janson Junk,R,Spin,0.6545454545454545,0.0
+2026-03-31,loanDepot park,72,0,,,,Chase Meidroth,TB,0.2692398428916931,3.0,Chase Meidroth,R,Contact,0.3,Janson Junk,R,Spin,0.6545454545454545,0.0
+2026-03-31,loanDepot park,72,0,,,,Chase Meidroth,Run,0.30393239855766296,3.0,Chase Meidroth,R,Contact,0.3,Janson Junk,R,Spin,0.6545454545454545,0.0
+2026-03-31,loanDepot park,72,0,,,,Chase Meidroth,RBI,0.1222643256187439,3.0,Chase Meidroth,R,Contact,0.3,Janson Junk,R,Spin,0.6545454545454545,0.0
+2026-03-31,loanDepot park,72,0,,,,Colson Montgomery,HR,0.2300785779953003,4.0,Colson Montgomery,L,Slugger,0.341,Janson Junk,R,Spin,0.6545454545454545,1.0
+2026-03-31,loanDepot park,72,0,,,,Colson Montgomery,Hit,0.5708678364753723,4.0,Colson Montgomery,L,Slugger,0.341,Janson Junk,R,Spin,0.6545454545454545,1.0
+2026-03-31,loanDepot park,72,0,,,,Colson Montgomery,TB,0.35286277532577515,4.0,Colson Montgomery,L,Slugger,0.341,Janson Junk,R,Spin,0.6545454545454545,1.0
+2026-03-31,loanDepot park,72,0,,,,Colson Montgomery,Run,0.42551085352897644,4.0,Colson Montgomery,L,Slugger,0.341,Janson Junk,R,Spin,0.6545454545454545,1.0
+2026-03-31,loanDepot park,72,0,,,,Colson Montgomery,RBI,0.3505256474018097,4.0,Colson Montgomery,L,Slugger,0.341,Janson Junk,R,Spin,0.6545454545454545,1.0
+2026-03-31,loanDepot park,72,0,,,,Derek Hill,HR,0.0423196442425251,5.0,Derek Hill,R,Balanced,0.309,Janson Junk,R,Spin,0.6545454545454545,0.0
+2026-03-31,loanDepot park,72,0,,,,Derek Hill,Hit,0.5083892345428467,5.0,Derek Hill,R,Balanced,0.309,Janson Junk,R,Spin,0.6545454545454545,0.0
+2026-03-31,loanDepot park,72,0,,,,Derek Hill,TB,0.28512856364250183,5.0,Derek Hill,R,Balanced,0.309,Janson Junk,R,Spin,0.6545454545454545,0.0
+2026-03-31,loanDepot park,72,0,,,,Derek Hill,Run,0.2994057536125183,5.0,Derek Hill,R,Balanced,0.309,Janson Junk,R,Spin,0.6545454545454545,0.0
+2026-03-31,loanDepot park,72,0,,,,Derek Hill,RBI,0.2033110111951828,5.0,Derek Hill,R,Balanced,0.309,Janson Junk,R,Spin,0.6545454545454545,0.0
+2026-03-31,loanDepot park,72,0,,,,Edgar Quero,HR,0.04812086746096611,6.0,Edgar Quero,S,Contact,0.29,Janson Junk,R,Spin,0.6545454545454545,1.0
+2026-03-31,loanDepot park,72,0,,,,Edgar Quero,Hit,0.535365104675293,6.0,Edgar Quero,S,Contact,0.29,Janson Junk,R,Spin,0.6545454545454545,1.0
+2026-03-31,loanDepot park,72,0,,,,Edgar Quero,TB,0.2596619427204132,6.0,Edgar Quero,S,Contact,0.29,Janson Junk,R,Spin,0.6545454545454545,1.0
+2026-03-31,loanDepot park,72,0,,,,Edgar Quero,Run,0.22962310910224915,6.0,Edgar Quero,S,Contact,0.29,Janson Junk,R,Spin,0.6545454545454545,1.0
+2026-03-31,loanDepot park,72,0,,,,Edgar Quero,RBI,0.2099100798368454,6.0,Edgar Quero,S,Contact,0.29,Janson Junk,R,Spin,0.6545454545454545,1.0
+2026-03-31,loanDepot park,72,0,,,,Everson Pereira,HR,0.060537416487932205,7.0,Everson Pereira,R,Balanced,0.242,Janson Junk,R,Spin,0.6545454545454545,0.0
+2026-03-31,loanDepot park,72,0,,,,Everson Pereira,Hit,0.3175356686115265,7.0,Everson Pereira,R,Balanced,0.242,Janson Junk,R,Spin,0.6545454545454545,0.0
+2026-03-31,loanDepot park,72,0,,,,Everson Pereira,TB,0.14515726268291473,7.0,Everson Pereira,R,Balanced,0.242,Janson Junk,R,Spin,0.6545454545454545,0.0
+2026-03-31,loanDepot park,72,0,,,,Everson Pereira,Run,0.25573015213012695,7.0,Everson Pereira,R,Balanced,0.242,Janson Junk,R,Spin,0.6545454545454545,0.0
+2026-03-31,loanDepot park,72,0,,,,Everson Pereira,RBI,0.21228645741939545,7.0,Everson Pereira,R,Balanced,0.242,Janson Junk,R,Spin,0.6545454545454545,0.0
+2026-03-31,loanDepot park,72,0,,,,Lenyn Sosa,HR,0.07346178591251373,8.0,Lenyn Sosa,R,Slugger,0.326,Janson Junk,R,Spin,0.6545454545454545,0.0
+2026-03-31,loanDepot park,72,0,,,,Lenyn Sosa,Hit,0.496499240398407,8.0,Lenyn Sosa,R,Slugger,0.326,Janson Junk,R,Spin,0.6545454545454545,0.0
+2026-03-31,loanDepot park,72,0,,,,Lenyn Sosa,TB,0.32676878571510315,8.0,Lenyn Sosa,R,Slugger,0.326,Janson Junk,R,Spin,0.6545454545454545,0.0
+2026-03-31,loanDepot park,72,0,,,,Lenyn Sosa,Run,0.2520417869091034,8.0,Lenyn Sosa,R,Slugger,0.326,Janson Junk,R,Spin,0.6545454545454545,0.0
+2026-03-31,loanDepot park,72,0,,,,Lenyn Sosa,RBI,0.2560461461544037,8.0,Lenyn Sosa,R,Slugger,0.326,Janson Junk,R,Spin,0.6545454545454545,0.0
+2026-03-31,loanDepot park,72,0,,,,Luisangel Acuña,HR,0.014129267074167728,9.0,Luisangel Acuña,R,Balanced,0.271,Janson Junk,R,Spin,0.6545454545454545,0.0
+2026-03-31,loanDepot park,72,0,,,,Luisangel Acuña,Hit,0.4210318326950073,9.0,Luisangel Acuña,R,Balanced,0.271,Janson Junk,R,Spin,0.6545454545454545,0.0
+2026-03-31,loanDepot park,72,0,,,,Luisangel Acuña,TB,0.15360108017921448,9.0,Luisangel Acuña,R,Balanced,0.271,Janson Junk,R,Spin,0.6545454545454545,0.0
+2026-03-31,loanDepot park,72,0,,,,Luisangel Acuña,Run,0.27297013998031616,9.0,Luisangel Acuña,R,Balanced,0.271,Janson Junk,R,Spin,0.6545454545454545,0.0
+2026-03-31,loanDepot park,72,0,,,,Luisangel Acuña,RBI,0.09276904910802841,9.0,Luisangel Acuña,R,Balanced,0.271,Janson Junk,R,Spin,0.6545454545454545,0.0
+2026-03-31,loanDepot park,72,0,,,,Agustín Ramírez,HR,0.14033333957195282,1.0,Agustín Ramírez,R,Balanced,0.332,Erick Fedde,R,Power,1.2127659574468086,0.0
+2026-03-31,loanDepot park,72,0,,,,Agustín Ramírez,Hit,0.7022902965545654,1.0,Agustín Ramírez,R,Balanced,0.332,Erick Fedde,R,Power,1.2127659574468086,0.0
+2026-03-31,loanDepot park,72,0,,,,Agustín Ramírez,TB,0.4382295608520508,1.0,Agustín Ramírez,R,Balanced,0.332,Erick Fedde,R,Power,1.2127659574468086,0.0
+2026-03-31,loanDepot park,72,0,,,,Agustín Ramírez,Run,0.4897942841053009,1.0,Agustín Ramírez,R,Balanced,0.332,Erick Fedde,R,Power,1.2127659574468086,0.0
+2026-03-31,loanDepot park,72,0,,,,Agustín Ramírez,RBI,0.3505389094352722,1.0,Agustín Ramírez,R,Balanced,0.332,Erick Fedde,R,Power,1.2127659574468086,0.0
+2026-03-31,loanDepot park,72,0,,,,Austin Slater,HR,0.12255959212779999,2.0,Austin Slater,R,Balanced,0.332,Erick Fedde,R,Power,1.2127659574468086,0.0
+2026-03-31,loanDepot park,72,0,,,,Austin Slater,Hit,0.6396045684814453,2.0,Austin Slater,R,Balanced,0.332,Erick Fedde,R,Power,1.2127659574468086,0.0
+2026-03-31,loanDepot park,72,0,,,,Austin Slater,TB,0.3860597014427185,2.0,Austin Slater,R,Balanced,0.332,Erick Fedde,R,Power,1.2127659574468086,0.0
+2026-03-31,loanDepot park,72,0,,,,Austin Slater,Run,0.4583117961883545,2.0,Austin Slater,R,Balanced,0.332,Erick Fedde,R,Power,1.2127659574468086,0.0
+2026-03-31,loanDepot park,72,0,,,,Austin Slater,RBI,0.28509074449539185,2.0,Austin Slater,R,Balanced,0.332,Erick Fedde,R,Power,1.2127659574468086,0.0
+2026-03-31,loanDepot park,72,0,,,,Connor Norby,HR,0.0860387310385704,3.0,Connor Norby,R,Balanced,0.307,Erick Fedde,R,Power,1.2127659574468086,0.0
+2026-03-31,loanDepot park,72,0,,,,Connor Norby,Hit,0.6634281873703003,3.0,Connor Norby,R,Balanced,0.307,Erick Fedde,R,Power,1.2127659574468086,0.0
+2026-03-31,loanDepot park,72,0,,,,Connor Norby,TB,0.3787262737751007,3.0,Connor Norby,R,Balanced,0.307,Erick Fedde,R,Power,1.2127659574468086,0.0
+2026-03-31,loanDepot park,72,0,,,,Connor Norby,Run,0.4296099543571472,3.0,Connor Norby,R,Balanced,0.307,Erick Fedde,R,Power,1.2127659574468086,0.0
+2026-03-31,loanDepot park,72,0,,,,Connor Norby,RBI,0.2939227521419525,3.0,Connor Norby,R,Balanced,0.307,Erick Fedde,R,Power,1.2127659574468086,0.0
+2026-03-31,loanDepot park,72,0,,,,Graham Pauley,HR,0.0860387310385704,4.0,Graham Pauley,L,Balanced,0.299,Erick Fedde,R,Power,1.2127659574468086,1.0
+2026-03-31,loanDepot park,72,0,,,,Graham Pauley,Hit,0.660260021686554,4.0,Graham Pauley,L,Balanced,0.299,Erick Fedde,R,Power,1.2127659574468086,1.0
+2026-03-31,loanDepot park,72,0,,,,Graham Pauley,TB,0.3807890713214874,4.0,Graham Pauley,L,Balanced,0.299,Erick Fedde,R,Power,1.2127659574468086,1.0
+2026-03-31,loanDepot park,72,0,,,,Graham Pauley,Run,0.3903810977935791,4.0,Graham Pauley,L,Balanced,0.299,Erick Fedde,R,Power,1.2127659574468086,1.0
+2026-03-31,loanDepot park,72,0,,,,Graham Pauley,RBI,0.22946655750274658,4.0,Graham Pauley,L,Balanced,0.299,Erick Fedde,R,Power,1.2127659574468086,1.0
+2026-03-31,loanDepot park,72,0,,,,Griffin Conine,HR,0.11253126710653305,5.0,Griffin Conine,L,Balanced,0.299,Erick Fedde,R,Power,1.2127659574468086,1.0
+2026-03-31,loanDepot park,72,0,,,,Griffin Conine,Hit,0.663295328617096,5.0,Griffin Conine,L,Balanced,0.299,Erick Fedde,R,Power,1.2127659574468086,1.0
+2026-03-31,loanDepot park,72,0,,,,Griffin Conine,TB,0.43686825037002563,5.0,Griffin Conine,L,Balanced,0.299,Erick Fedde,R,Power,1.2127659574468086,1.0
+2026-03-31,loanDepot park,72,0,,,,Griffin Conine,Run,0.4553307592868805,5.0,Griffin Conine,L,Balanced,0.299,Erick Fedde,R,Power,1.2127659574468086,1.0
+2026-03-31,loanDepot park,72,0,,,,Griffin Conine,RBI,0.2964341640472412,5.0,Griffin Conine,L,Balanced,0.299,Erick Fedde,R,Power,1.2127659574468086,1.0
+2026-03-31,loanDepot park,72,0,,,,Heriberto Hernández,HR,0.12103667110204697,6.0,Heriberto Hernández,R,Balanced,0.334,Erick Fedde,R,Power,1.2127659574468086,0.0
+2026-03-31,loanDepot park,72,0,,,,Heriberto Hernández,Hit,0.6590298414230347,6.0,Heriberto Hernández,R,Balanced,0.334,Erick Fedde,R,Power,1.2127659574468086,0.0
+2026-03-31,loanDepot park,72,0,,,,Heriberto Hernández,TB,0.40047287940979004,6.0,Heriberto Hernández,R,Balanced,0.334,Erick Fedde,R,Power,1.2127659574468086,0.0
+2026-03-31,loanDepot park,72,0,,,,Heriberto Hernández,Run,0.4701586365699768,6.0,Heriberto Hernández,R,Balanced,0.334,Erick Fedde,R,Power,1.2127659574468086,0.0
+2026-03-31,loanDepot park,72,0,,,,Heriberto Hernández,RBI,0.39739716053009033,6.0,Heriberto Hernández,R,Balanced,0.334,Erick Fedde,R,Power,1.2127659574468086,0.0
+2026-03-31,loanDepot park,72,0,,,,Jakob Marsee,HR,0.09577587246894836,7.0,Jakob Marsee,L,Balanced,0.347,Erick Fedde,R,Power,1.2127659574468086,1.0
+2026-03-31,loanDepot park,72,0,,,,Jakob Marsee,Hit,0.6759510636329651,7.0,Jakob Marsee,L,Balanced,0.347,Erick Fedde,R,Power,1.2127659574468086,1.0
+2026-03-31,loanDepot park,72,0,,,,Jakob Marsee,TB,0.48449552059173584,7.0,Jakob Marsee,L,Balanced,0.347,Erick Fedde,R,Power,1.2127659574468086,1.0
+2026-03-31,loanDepot park,72,0,,,,Jakob Marsee,Run,0.42983517050743103,7.0,Jakob Marsee,L,Balanced,0.347,Erick Fedde,R,Power,1.2127659574468086,1.0
+2026-03-31,loanDepot park,72,0,,,,Jakob Marsee,RBI,0.4134913682937622,7.0,Jakob Marsee,L,Balanced,0.347,Erick Fedde,R,Power,1.2127659574468086,1.0
+2026-03-31,loanDepot park,72,0,,,,Javier Sanoja,HR,0.06431739777326584,8.0,Javier Sanoja,R,Contact,0.282,Erick Fedde,R,Power,1.2127659574468086,0.0
+2026-03-31,loanDepot park,72,0,,,,Javier Sanoja,Hit,0.5751458406448364,8.0,Javier Sanoja,R,Contact,0.282,Erick Fedde,R,Power,1.2127659574468086,0.0
+2026-03-31,loanDepot park,72,0,,,,Javier Sanoja,TB,0.3465447723865509,8.0,Javier Sanoja,R,Contact,0.282,Erick Fedde,R,Power,1.2127659574468086,0.0
+2026-03-31,loanDepot park,72,0,,,,Javier Sanoja,Run,0.3383544385433197,8.0,Javier Sanoja,R,Contact,0.282,Erick Fedde,R,Power,1.2127659574468086,0.0
+2026-03-31,loanDepot park,72,0,,,,Javier Sanoja,RBI,0.2648969888687134,8.0,Javier Sanoja,R,Contact,0.282,Erick Fedde,R,Power,1.2127659574468086,0.0
+2026-03-31,loanDepot park,72,0,,,,Leo Jiménez,HR,0.1103757917881012,9.0,Leo Jiménez,R,Balanced,0.248,Erick Fedde,R,Power,1.2127659574468086,0.0
+2026-03-31,loanDepot park,72,0,,,,Leo Jiménez,Hit,0.23864762485027313,9.0,Leo Jiménez,R,Balanced,0.248,Erick Fedde,R,Power,1.2127659574468086,0.0
+2026-03-31,loanDepot park,72,0,,,,Leo Jiménez,TB,0.11581842601299286,9.0,Leo Jiménez,R,Balanced,0.248,Erick Fedde,R,Power,1.2127659574468086,0.0
+2026-03-31,loanDepot park,72,0,,,,Leo Jiménez,Run,0.2567072808742523,9.0,Leo Jiménez,R,Balanced,0.248,Erick Fedde,R,Power,1.2127659574468086,0.0
+2026-03-31,loanDepot park,72,0,,,,Leo Jiménez,RBI,0.10627114772796631,9.0,Leo Jiménez,R,Balanced,0.248,Erick Fedde,R,Power,1.2127659574468086,0.0
+2026-03-31,Rogers Centre,72,0,none,Colorado Rockies,Toronto Blue Jays,GAME_TOTAL,Over_13.5,0.4212,,,,,,,,,,
+2026-03-31,Rogers Centre,72,0,none,Colorado Rockies,Toronto Blue Jays,GAME_TOTAL,NRFI,0.239,,,,,,,,,,
+2026-03-31,Rogers Centre,72,0,,,,Braxton Fulford,HR,0.034472715109586716,1.0,Braxton Fulford,R,Balanced,0.262,Max Scherzer,R,Power,2.011764705882353,0.0
+2026-03-31,Rogers Centre,72,0,,,,Braxton Fulford,Hit,0.3530181646347046,1.0,Braxton Fulford,R,Balanced,0.262,Max Scherzer,R,Power,2.011764705882353,0.0
+2026-03-31,Rogers Centre,72,0,,,,Braxton Fulford,TB,0.21234534680843353,1.0,Braxton Fulford,R,Balanced,0.262,Max Scherzer,R,Power,2.011764705882353,0.0
+2026-03-31,Rogers Centre,72,0,,,,Braxton Fulford,Run,0.2029285430908203,1.0,Braxton Fulford,R,Balanced,0.262,Max Scherzer,R,Power,2.011764705882353,0.0
+2026-03-31,Rogers Centre,72,0,,,,Braxton Fulford,RBI,0.25884851813316345,1.0,Braxton Fulford,R,Balanced,0.262,Max Scherzer,R,Power,2.011764705882353,0.0
+2026-03-31,Rogers Centre,72,0,,,,Brenton Doyle,HR,0.13812042772769928,2.0,Brenton Doyle,R,Balanced,0.3,Max Scherzer,R,Power,2.011764705882353,0.0
+2026-03-31,Rogers Centre,72,0,,,,Brenton Doyle,Hit,0.5890491008758545,2.0,Brenton Doyle,R,Balanced,0.3,Max Scherzer,R,Power,2.011764705882353,0.0
+2026-03-31,Rogers Centre,72,0,,,,Brenton Doyle,TB,0.3638014495372772,2.0,Brenton Doyle,R,Balanced,0.3,Max Scherzer,R,Power,2.011764705882353,0.0
+2026-03-31,Rogers Centre,72,0,,,,Brenton Doyle,Run,0.33867231011390686,2.0,Brenton Doyle,R,Balanced,0.3,Max Scherzer,R,Power,2.011764705882353,0.0
+2026-03-31,Rogers Centre,72,0,,,,Brenton Doyle,RBI,0.309334397315979,2.0,Brenton Doyle,R,Balanced,0.3,Max Scherzer,R,Power,2.011764705882353,0.0
+2026-03-31,Rogers Centre,72,0,,,,Brett Sullivan,HR,0.15270525217056274,3.0,Brett Sullivan,L,Balanced,0.32,Max Scherzer,R,Power,2.011764705882353,1.0
+2026-03-31,Rogers Centre,72,0,,,,Brett Sullivan,Hit,0.6227219104766846,3.0,Brett Sullivan,L,Balanced,0.32,Max Scherzer,R,Power,2.011764705882353,1.0
+2026-03-31,Rogers Centre,72,0,,,,Brett Sullivan,TB,0.40798789262771606,3.0,Brett Sullivan,L,Balanced,0.32,Max Scherzer,R,Power,2.011764705882353,1.0
+2026-03-31,Rogers Centre,72,0,,,,Brett Sullivan,Run,0.3702183663845062,3.0,Brett Sullivan,L,Balanced,0.32,Max Scherzer,R,Power,2.011764705882353,1.0
+2026-03-31,Rogers Centre,72,0,,,,Brett Sullivan,RBI,0.22623436152935028,3.0,Brett Sullivan,L,Balanced,0.32,Max Scherzer,R,Power,2.011764705882353,1.0
+2026-03-31,Rogers Centre,72,0,,,,Edouard Julien,HR,0.09535795450210571,4.0,Edouard Julien,L,Balanced,0.329,Max Scherzer,R,Power,2.011764705882353,1.0
+2026-03-31,Rogers Centre,72,0,,,,Edouard Julien,Hit,0.6285852193832397,4.0,Edouard Julien,L,Balanced,0.329,Max Scherzer,R,Power,2.011764705882353,1.0
+2026-03-31,Rogers Centre,72,0,,,,Edouard Julien,TB,0.37828919291496277,4.0,Edouard Julien,L,Balanced,0.329,Max Scherzer,R,Power,2.011764705882353,1.0
+2026-03-31,Rogers Centre,72,0,,,,Edouard Julien,Run,0.3055606186389923,4.0,Edouard Julien,L,Balanced,0.329,Max Scherzer,R,Power,2.011764705882353,1.0
+2026-03-31,Rogers Centre,72,0,,,,Edouard Julien,RBI,0.24605755507946014,4.0,Edouard Julien,L,Balanced,0.329,Max Scherzer,R,Power,2.011764705882353,1.0
+2026-03-31,Rogers Centre,72,0,,,,Ezequiel Tovar,HR,0.10179030895233154,5.0,Ezequiel Tovar,R,Balanced,0.32,Max Scherzer,R,Power,2.011764705882353,0.0
+2026-03-31,Rogers Centre,72,0,,,,Ezequiel Tovar,Hit,0.5636634826660156,5.0,Ezequiel Tovar,R,Balanced,0.32,Max Scherzer,R,Power,2.011764705882353,0.0
+2026-03-31,Rogers Centre,72,0,,,,Ezequiel Tovar,TB,0.36494752764701843,5.0,Ezequiel Tovar,R,Balanced,0.32,Max Scherzer,R,Power,2.011764705882353,0.0
+2026-03-31,Rogers Centre,72,0,,,,Ezequiel Tovar,Run,0.33306145668029785,5.0,Ezequiel Tovar,R,Balanced,0.32,Max Scherzer,R,Power,2.011764705882353,0.0
+2026-03-31,Rogers Centre,72,0,,,,Ezequiel Tovar,RBI,0.25419971346855164,5.0,Ezequiel Tovar,R,Balanced,0.32,Max Scherzer,R,Power,2.011764705882353,0.0
+2026-03-31,Rogers Centre,72,0,,,,Hunter Goodman,HR,0.22515347599983215,6.0,Hunter Goodman,R,Slugger,0.324,Max Scherzer,R,Power,2.011764705882353,0.0
+2026-03-31,Rogers Centre,72,0,,,,Hunter Goodman,Hit,0.6589050889015198,6.0,Hunter Goodman,R,Slugger,0.324,Max Scherzer,R,Power,2.011764705882353,0.0
+2026-03-31,Rogers Centre,72,0,,,,Hunter Goodman,TB,0.4239504039287567,6.0,Hunter Goodman,R,Slugger,0.324,Max Scherzer,R,Power,2.011764705882353,0.0
+2026-03-31,Rogers Centre,72,0,,,,Hunter Goodman,Run,0.41761481761932373,6.0,Hunter Goodman,R,Slugger,0.324,Max Scherzer,R,Power,2.011764705882353,0.0
+2026-03-31,Rogers Centre,72,0,,,,Hunter Goodman,RBI,0.382853627204895,6.0,Hunter Goodman,R,Slugger,0.324,Max Scherzer,R,Power,2.011764705882353,0.0
+2026-03-31,Rogers Centre,72,0,,,,Jake McCarthy,HR,0.09692289680242538,7.0,Jake McCarthy,L,Contact,0.286,Max Scherzer,R,Power,2.011764705882353,1.0
+2026-03-31,Rogers Centre,72,0,,,,Jake McCarthy,Hit,0.5912811756134033,7.0,Jake McCarthy,L,Contact,0.286,Max Scherzer,R,Power,2.011764705882353,1.0
+2026-03-31,Rogers Centre,72,0,,,,Jake McCarthy,TB,0.3434017300605774,7.0,Jake McCarthy,L,Contact,0.286,Max Scherzer,R,Power,2.011764705882353,1.0
+2026-03-31,Rogers Centre,72,0,,,,Jake McCarthy,Run,0.29512396454811096,7.0,Jake McCarthy,L,Contact,0.286,Max Scherzer,R,Power,2.011764705882353,1.0
+2026-03-31,Rogers Centre,72,0,,,,Jake McCarthy,RBI,0.28550028800964355,7.0,Jake McCarthy,L,Contact,0.286,Max Scherzer,R,Power,2.011764705882353,1.0
+2026-03-31,Rogers Centre,72,0,,,,Jordan Beck,HR,0.11135746538639069,8.0,Jordan Beck,R,Balanced,0.302,Max Scherzer,R,Power,2.011764705882353,0.0
+2026-03-31,Rogers Centre,72,0,,,,Jordan Beck,Hit,0.5598803162574768,8.0,Jordan Beck,R,Balanced,0.302,Max Scherzer,R,Power,2.011764705882353,0.0
+2026-03-31,Rogers Centre,72,0,,,,Jordan Beck,TB,0.35580313205718994,8.0,Jordan Beck,R,Balanced,0.302,Max Scherzer,R,Power,2.011764705882353,0.0
+2026-03-31,Rogers Centre,72,0,,,,Jordan Beck,Run,0.3367442190647125,8.0,Jordan Beck,R,Balanced,0.302,Max Scherzer,R,Power,2.011764705882353,0.0
+2026-03-31,Rogers Centre,72,0,,,,Jordan Beck,RBI,0.2691400647163391,8.0,Jordan Beck,R,Balanced,0.302,Max Scherzer,R,Power,2.011764705882353,0.0
+2026-03-31,Rogers Centre,72,0,,,,Kyle Karros,HR,0.03328007459640503,9.0,Kyle Karros,R,Balanced,0.261,Max Scherzer,R,Power,2.011764705882353,0.0
+2026-03-31,Rogers Centre,72,0,,,,Kyle Karros,Hit,0.5193430185317993,9.0,Kyle Karros,R,Balanced,0.261,Max Scherzer,R,Power,2.011764705882353,0.0
+2026-03-31,Rogers Centre,72,0,,,,Kyle Karros,TB,0.27075353264808655,9.0,Kyle Karros,R,Balanced,0.261,Max Scherzer,R,Power,2.011764705882353,0.0
+2026-03-31,Rogers Centre,72,0,,,,Kyle Karros,Run,0.29313358664512634,9.0,Kyle Karros,R,Balanced,0.261,Max Scherzer,R,Power,2.011764705882353,0.0
+2026-03-31,Rogers Centre,72,0,,,,Kyle Karros,RBI,0.18842822313308716,9.0,Kyle Karros,R,Balanced,0.261,Max Scherzer,R,Power,2.011764705882353,0.0
+2026-03-31,Rogers Centre,72,0,,,,Addison Barger,HR,0.19220207631587982,1.0,Addison Barger,L,Slugger,0.331,Ryan Feltner,R,Power,1.25,1.0
+2026-03-31,Rogers Centre,72,0,,,,Addison Barger,Hit,0.7117528915405273,1.0,Addison Barger,L,Slugger,0.331,Ryan Feltner,R,Power,1.25,1.0
+2026-03-31,Rogers Centre,72,0,,,,Addison Barger,TB,0.45386624336242676,1.0,Addison Barger,L,Slugger,0.331,Ryan Feltner,R,Power,1.25,1.0
+2026-03-31,Rogers Centre,72,0,,,,Addison Barger,Run,0.45508939027786255,1.0,Addison Barger,L,Slugger,0.331,Ryan Feltner,R,Power,1.25,1.0
+2026-03-31,Rogers Centre,72,0,,,,Addison Barger,RBI,0.40090322494506836,1.0,Addison Barger,L,Slugger,0.331,Ryan Feltner,R,Power,1.25,1.0
+2026-03-31,Rogers Centre,72,0,,,,Alejandro Kirk,HR,0.13051630556583405,2.0,Alejandro Kirk,R,Contact,0.359,Ryan Feltner,R,Power,1.25,0.0
+2026-03-31,Rogers Centre,72,0,,,,Alejandro Kirk,Hit,0.6824081540107727,2.0,Alejandro Kirk,R,Contact,0.359,Ryan Feltner,R,Power,1.25,0.0
+2026-03-31,Rogers Centre,72,0,,,,Alejandro Kirk,TB,0.3994947373867035,2.0,Alejandro Kirk,R,Contact,0.359,Ryan Feltner,R,Power,1.25,0.0
+2026-03-31,Rogers Centre,72,0,,,,Alejandro Kirk,Run,0.3639388084411621,2.0,Alejandro Kirk,R,Contact,0.359,Ryan Feltner,R,Power,1.25,0.0
+2026-03-31,Rogers Centre,72,0,,,,Alejandro Kirk,RBI,0.38144823908805847,2.0,Alejandro Kirk,R,Contact,0.359,Ryan Feltner,R,Power,1.25,0.0
+2026-03-31,Rogers Centre,72,0,,,,Andrés Giménez,HR,0.08307337015867233,3.0,Andrés Giménez,L,Contact,0.308,Ryan Feltner,R,Power,1.25,1.0
+2026-03-31,Rogers Centre,72,0,,,,Andrés Giménez,Hit,0.5928842425346375,3.0,Andrés Giménez,L,Contact,0.308,Ryan Feltner,R,Power,1.25,1.0
+2026-03-31,Rogers Centre,72,0,,,,Andrés Giménez,TB,0.3149828314781189,3.0,Andrés Giménez,L,Contact,0.308,Ryan Feltner,R,Power,1.25,1.0
+2026-03-31,Rogers Centre,72,0,,,,Andrés Giménez,Run,0.36985504627227783,3.0,Andrés Giménez,L,Contact,0.308,Ryan Feltner,R,Power,1.25,1.0
+2026-03-31,Rogers Centre,72,0,,,,Andrés Giménez,RBI,0.3080240786075592,3.0,Andrés Giménez,L,Contact,0.308,Ryan Feltner,R,Power,1.25,1.0
+2026-03-31,Rogers Centre,72,0,,,,Daulton Varsho,HR,0.28065139055252075,4.0,Daulton Varsho,L,Slugger,0.327,Ryan Feltner,R,Power,1.25,1.0
+2026-03-31,Rogers Centre,72,0,,,,Daulton Varsho,Hit,0.6584829092025757,4.0,Daulton Varsho,L,Slugger,0.327,Ryan Feltner,R,Power,1.25,1.0
+2026-03-31,Rogers Centre,72,0,,,,Daulton Varsho,TB,0.43010446429252625,4.0,Daulton Varsho,L,Slugger,0.327,Ryan Feltner,R,Power,1.25,1.0
+2026-03-31,Rogers Centre,72,0,,,,Daulton Varsho,Run,0.4713559150695801,4.0,Daulton Varsho,L,Slugger,0.327,Ryan Feltner,R,Power,1.25,1.0
+2026-03-31,Rogers Centre,72,0,,,,Daulton Varsho,RBI,0.45527175068855286,4.0,Daulton Varsho,L,Slugger,0.327,Ryan Feltner,R,Power,1.25,1.0
+2026-03-31,Rogers Centre,72,0,,,,Davis Schneider,HR,0.17463865876197815,5.0,Davis Schneider,R,Slugger,0.323,Ryan Feltner,R,Power,1.25,0.0
+2026-03-31,Rogers Centre,72,0,,,,Davis Schneider,Hit,0.5415958166122437,5.0,Davis Schneider,R,Slugger,0.323,Ryan Feltner,R,Power,1.25,0.0
+2026-03-31,Rogers Centre,72,0,,,,Davis Schneider,TB,0.3022640347480774,5.0,Davis Schneider,R,Slugger,0.323,Ryan Feltner,R,Power,1.25,0.0
+2026-03-31,Rogers Centre,72,0,,,,Davis Schneider,Run,0.4080614745616913,5.0,Davis Schneider,R,Slugger,0.323,Ryan Feltner,R,Power,1.25,0.0
+2026-03-31,Rogers Centre,72,0,,,,Davis Schneider,RBI,0.33677664399147034,5.0,Davis Schneider,R,Slugger,0.323,Ryan Feltner,R,Power,1.25,0.0
+2026-03-31,Rogers Centre,72,0,,,,Ernie Clement,HR,0.06478215754032135,6.0,Ernie Clement,R,Contact,0.292,Ryan Feltner,R,Power,1.25,0.0
+2026-03-31,Rogers Centre,72,0,,,,Ernie Clement,Hit,0.5872799158096313,6.0,Ernie Clement,R,Contact,0.292,Ryan Feltner,R,Power,1.25,0.0
+2026-03-31,Rogers Centre,72,0,,,,Ernie Clement,TB,0.3210587799549103,6.0,Ernie Clement,R,Contact,0.292,Ryan Feltner,R,Power,1.25,0.0
+2026-03-31,Rogers Centre,72,0,,,,Ernie Clement,Run,0.36304590106010437,6.0,Ernie Clement,R,Contact,0.292,Ryan Feltner,R,Power,1.25,0.0
+2026-03-31,Rogers Centre,72,0,,,,Ernie Clement,RBI,0.22092799842357635,6.0,Ernie Clement,R,Contact,0.292,Ryan Feltner,R,Power,1.25,0.0
+2026-03-31,Rogers Centre,72,0,,,,George Springer,HR,0.196271151304245,7.0,George Springer,R,Balanced,0.404,Ryan Feltner,R,Power,1.25,0.0
+2026-03-31,Rogers Centre,72,0,,,,George Springer,Hit,0.5412365794181824,7.0,George Springer,R,Balanced,0.404,Ryan Feltner,R,Power,1.25,0.0
+2026-03-31,Rogers Centre,72,0,,,,George Springer,TB,0.34419870376586914,7.0,George Springer,R,Balanced,0.404,Ryan Feltner,R,Power,1.25,0.0
+2026-03-31,Rogers Centre,72,0,,,,George Springer,Run,0.39138880372047424,7.0,George Springer,R,Balanced,0.404,Ryan Feltner,R,Power,1.25,0.0
+2026-03-31,Rogers Centre,72,0,,,,George Springer,RBI,0.3098094165325165,7.0,George Springer,R,Balanced,0.404,Ryan Feltner,R,Power,1.25,0.0
+2026-03-31,Rogers Centre,72,0,,,,Jesús Sánchez,HR,0.11588278412818909,8.0,Jesús Sánchez,L,Balanced,0.323,Ryan Feltner,R,Power,1.25,1.0
+2026-03-31,Rogers Centre,72,0,,,,Jesús Sánchez,Hit,0.5200525522232056,8.0,Jesús Sánchez,L,Balanced,0.323,Ryan Feltner,R,Power,1.25,1.0
+2026-03-31,Rogers Centre,72,0,,,,Jesús Sánchez,TB,0.33369654417037964,8.0,Jesús Sánchez,L,Balanced,0.323,Ryan Feltner,R,Power,1.25,1.0
+2026-03-31,Rogers Centre,72,0,,,,Jesús Sánchez,Run,0.372942179441452,8.0,Jesús Sánchez,L,Balanced,0.323,Ryan Feltner,R,Power,1.25,1.0
+2026-03-31,Rogers Centre,72,0,,,,Jesús Sánchez,RBI,0.2627700865268707,8.0,Jesús Sánchez,L,Balanced,0.323,Ryan Feltner,R,Power,1.25,1.0
+2026-03-31,Rogers Centre,72,0,,,,Kazuma Okamoto,HR,0.09209655225276947,9.0,Kazuma Okamoto,R,Balanced,0.32,Ryan Feltner,R,Power,1.25,0.0
+2026-03-31,Rogers Centre,72,0,,,,Kazuma Okamoto,Hit,0.42195263504981995,9.0,Kazuma Okamoto,R,Balanced,0.32,Ryan Feltner,R,Power,1.25,0.0
+2026-03-31,Rogers Centre,72,0,,,,Kazuma Okamoto,TB,0.22937384247779846,9.0,Kazuma Okamoto,R,Balanced,0.32,Ryan Feltner,R,Power,1.25,0.0
+2026-03-31,Rogers Centre,72,0,,,,Kazuma Okamoto,Run,0.25139036774635315,9.0,Kazuma Okamoto,R,Balanced,0.32,Ryan Feltner,R,Power,1.25,0.0
+2026-03-31,Rogers Centre,72,0,,,,Kazuma Okamoto,RBI,0.14645373821258545,9.0,Kazuma Okamoto,R,Balanced,0.32,Ryan Feltner,R,Power,1.25,0.0
+2026-03-31,Truist Park,76,7,none,Athletics,Atlanta Braves,GAME_TOTAL,Over_11.5,0.4973,,,,,,,,,,
+2026-03-31,Truist Park,76,7,none,Athletics,Atlanta Braves,GAME_TOTAL,NRFI,0.2271,,,,,,,,,,
+2026-03-31,Truist Park,76,7,,,,Andy Ibáñez,HR,0.0782594159245491,1.0,Andy Ibáñez,R,Contact,0.304,José Suarez,R,Power,1.309090909090909,0.0
+2026-03-31,Truist Park,76,7,,,,Andy Ibáñez,Hit,0.6291823387145996,1.0,Andy Ibáñez,R,Contact,0.304,José Suarez,R,Power,1.309090909090909,0.0
+2026-03-31,Truist Park,76,7,,,,Andy Ibáñez,TB,0.37470442056655884,1.0,Andy Ibáñez,R,Contact,0.304,José Suarez,R,Power,1.309090909090909,0.0
+2026-03-31,Truist Park,76,7,,,,Andy Ibáñez,Run,0.4019431471824646,1.0,Andy Ibáñez,R,Contact,0.304,José Suarez,R,Power,1.309090909090909,0.0
+2026-03-31,Truist Park,76,7,,,,Andy Ibáñez,RBI,0.32655230164527893,1.0,Andy Ibáñez,R,Contact,0.304,José Suarez,R,Power,1.309090909090909,0.0
+2026-03-31,Truist Park,76,7,,,,Austin Wynns,HR,0.1822684407234192,2.0,Austin Wynns,R,Slugger,0.295,José Suarez,R,Power,1.309090909090909,0.0
+2026-03-31,Truist Park,76,7,,,,Austin Wynns,Hit,0.6140463948249817,2.0,Austin Wynns,R,Slugger,0.295,José Suarez,R,Power,1.309090909090909,0.0
+2026-03-31,Truist Park,76,7,,,,Austin Wynns,TB,0.3654821217060089,2.0,Austin Wynns,R,Slugger,0.295,José Suarez,R,Power,1.309090909090909,0.0
+2026-03-31,Truist Park,76,7,,,,Austin Wynns,Run,0.36516302824020386,2.0,Austin Wynns,R,Slugger,0.295,José Suarez,R,Power,1.309090909090909,0.0
+2026-03-31,Truist Park,76,7,,,,Austin Wynns,RBI,0.37709641456604004,2.0,Austin Wynns,R,Slugger,0.295,José Suarez,R,Power,1.309090909090909,0.0
+2026-03-31,Truist Park,76,7,,,,Brent Rooker,HR,0.18831764161586761,3.0,Brent Rooker,R,Slugger,0.351,José Suarez,R,Power,1.309090909090909,0.0
+2026-03-31,Truist Park,76,7,,,,Brent Rooker,Hit,0.6641865968704224,3.0,Brent Rooker,R,Slugger,0.351,José Suarez,R,Power,1.309090909090909,0.0
+2026-03-31,Truist Park,76,7,,,,Brent Rooker,TB,0.4388185441493988,3.0,Brent Rooker,R,Slugger,0.351,José Suarez,R,Power,1.309090909090909,0.0
+2026-03-31,Truist Park,76,7,,,,Brent Rooker,Run,0.44579631090164185,3.0,Brent Rooker,R,Slugger,0.351,José Suarez,R,Power,1.309090909090909,0.0
+2026-03-31,Truist Park,76,7,,,,Brent Rooker,RBI,0.34466084837913513,3.0,Brent Rooker,R,Slugger,0.351,José Suarez,R,Power,1.309090909090909,0.0
+2026-03-31,Truist Park,76,7,,,,Carlos Cortes,HR,0.16253726184368134,4.0,Carlos Cortes,L,Balanced,0.316,José Suarez,R,Power,1.309090909090909,1.0
+2026-03-31,Truist Park,76,7,,,,Carlos Cortes,Hit,0.6703895926475525,4.0,Carlos Cortes,L,Balanced,0.316,José Suarez,R,Power,1.309090909090909,1.0
+2026-03-31,Truist Park,76,7,,,,Carlos Cortes,TB,0.45047807693481445,4.0,Carlos Cortes,L,Balanced,0.316,José Suarez,R,Power,1.309090909090909,1.0
+2026-03-31,Truist Park,76,7,,,,Carlos Cortes,Run,0.396048367023468,4.0,Carlos Cortes,L,Balanced,0.316,José Suarez,R,Power,1.309090909090909,1.0
+2026-03-31,Truist Park,76,7,,,,Carlos Cortes,RBI,0.37254905700683594,4.0,Carlos Cortes,L,Balanced,0.316,José Suarez,R,Power,1.309090909090909,1.0
+2026-03-31,Truist Park,76,7,,,,Darell Hernaiz,HR,0.05247166380286217,5.0,Darell Hernaiz,R,Contact,0.305,José Suarez,R,Power,1.309090909090909,0.0
+2026-03-31,Truist Park,76,7,,,,Darell Hernaiz,Hit,0.5933143496513367,5.0,Darell Hernaiz,R,Contact,0.305,José Suarez,R,Power,1.309090909090909,0.0
+2026-03-31,Truist Park,76,7,,,,Darell Hernaiz,TB,0.2586571276187897,5.0,Darell Hernaiz,R,Contact,0.305,José Suarez,R,Power,1.309090909090909,0.0
+2026-03-31,Truist Park,76,7,,,,Darell Hernaiz,Run,0.275683730840683,5.0,Darell Hernaiz,R,Contact,0.305,José Suarez,R,Power,1.309090909090909,0.0
+2026-03-31,Truist Park,76,7,,,,Darell Hernaiz,RBI,0.24013535678386688,5.0,Darell Hernaiz,R,Contact,0.305,José Suarez,R,Power,1.309090909090909,0.0
+2026-03-31,Truist Park,76,7,,,,Denzel Clarke,HR,0.06957481056451797,6.0,Denzel Clarke,R,Balanced,0.254,José Suarez,R,Power,1.309090909090909,0.0
+2026-03-31,Truist Park,76,7,,,,Denzel Clarke,Hit,0.518999457359314,6.0,Denzel Clarke,R,Balanced,0.254,José Suarez,R,Power,1.309090909090909,0.0
+2026-03-31,Truist Park,76,7,,,,Denzel Clarke,TB,0.3019047975540161,6.0,Denzel Clarke,R,Balanced,0.254,José Suarez,R,Power,1.309090909090909,0.0
+2026-03-31,Truist Park,76,7,,,,Denzel Clarke,Run,0.2954265773296356,6.0,Denzel Clarke,R,Balanced,0.254,José Suarez,R,Power,1.309090909090909,0.0
+2026-03-31,Truist Park,76,7,,,,Denzel Clarke,RBI,0.15152424573898315,6.0,Denzel Clarke,R,Balanced,0.254,José Suarez,R,Power,1.309090909090909,0.0
+2026-03-31,Truist Park,76,7,,,,Jacob Wilson,HR,0.07879188656806946,7.0,Jacob Wilson,R,Contact,0.304,José Suarez,R,Power,1.309090909090909,0.0
+2026-03-31,Truist Park,76,7,,,,Jacob Wilson,Hit,0.6680601835250854,7.0,Jacob Wilson,R,Contact,0.304,José Suarez,R,Power,1.309090909090909,0.0
+2026-03-31,Truist Park,76,7,,,,Jacob Wilson,TB,0.3643782436847687,7.0,Jacob Wilson,R,Contact,0.304,José Suarez,R,Power,1.309090909090909,0.0
+2026-03-31,Truist Park,76,7,,,,Jacob Wilson,Run,0.352028489112854,7.0,Jacob Wilson,R,Contact,0.304,José Suarez,R,Power,1.309090909090909,0.0
+2026-03-31,Truist Park,76,7,,,,Jacob Wilson,RBI,0.3139720857143402,7.0,Jacob Wilson,R,Contact,0.304,José Suarez,R,Power,1.309090909090909,0.0
+2026-03-31,Truist Park,76,7,,,,Jeff McNeil,HR,0.11195128411054611,8.0,Jeff McNeil,L,Contact,0.33,José Suarez,R,Power,1.309090909090909,1.0
+2026-03-31,Truist Park,76,7,,,,Jeff McNeil,Hit,0.5944606065750122,8.0,Jeff McNeil,L,Contact,0.33,José Suarez,R,Power,1.309090909090909,1.0
+2026-03-31,Truist Park,76,7,,,,Jeff McNeil,TB,0.36811017990112305,8.0,Jeff McNeil,L,Contact,0.33,José Suarez,R,Power,1.309090909090909,1.0
+2026-03-31,Truist Park,76,7,,,,Jeff McNeil,Run,0.33302536606788635,8.0,Jeff McNeil,L,Contact,0.33,José Suarez,R,Power,1.309090909090909,1.0
+2026-03-31,Truist Park,76,7,,,,Jeff McNeil,RBI,0.3292948007583618,8.0,Jeff McNeil,L,Contact,0.33,José Suarez,R,Power,1.309090909090909,1.0
+2026-03-31,Truist Park,76,7,,,,Lawrence Butler,HR,0.1307980865240097,9.0,Lawrence Butler,L,Balanced,0.305,José Suarez,R,Power,1.309090909090909,1.0
+2026-03-31,Truist Park,76,7,,,,Lawrence Butler,Hit,0.5452556610107422,9.0,Lawrence Butler,L,Balanced,0.305,José Suarez,R,Power,1.309090909090909,1.0
+2026-03-31,Truist Park,76,7,,,,Lawrence Butler,TB,0.3431372344493866,9.0,Lawrence Butler,L,Balanced,0.305,José Suarez,R,Power,1.309090909090909,1.0
+2026-03-31,Truist Park,76,7,,,,Lawrence Butler,Run,0.3808078169822693,9.0,Lawrence Butler,L,Balanced,0.305,José Suarez,R,Power,1.309090909090909,1.0
+2026-03-31,Truist Park,76,7,,,,Lawrence Butler,RBI,0.28534427285194397,9.0,Lawrence Butler,L,Balanced,0.305,José Suarez,R,Power,1.309090909090909,1.0
+2026-03-31,Truist Park,76,7,,,,Austin Riley,HR,0.1715633124113083,1.0,Austin Riley,R,Slugger,0.33,Aaron Civale,R,Power,1.4117647058823528,0.0
+2026-03-31,Truist Park,76,7,,,,Austin Riley,Hit,0.7004231214523315,1.0,Austin Riley,R,Slugger,0.33,Aaron Civale,R,Power,1.4117647058823528,0.0
+2026-03-31,Truist Park,76,7,,,,Austin Riley,TB,0.4271029531955719,1.0,Austin Riley,R,Slugger,0.33,Aaron Civale,R,Power,1.4117647058823528,0.0
+2026-03-31,Truist Park,76,7,,,,Austin Riley,Run,0.4258897006511688,1.0,Austin Riley,R,Slugger,0.33,Aaron Civale,R,Power,1.4117647058823528,0.0
+2026-03-31,Truist Park,76,7,,,,Austin Riley,RBI,0.3580016791820526,1.0,Austin Riley,R,Slugger,0.33,Aaron Civale,R,Power,1.4117647058823528,0.0
+2026-03-31,Truist Park,76,7,,,,Dominic Smith,HR,0.10236404091119766,2.0,Dominic Smith,L,Contact,0.306,Aaron Civale,R,Power,1.4117647058823528,1.0
+2026-03-31,Truist Park,76,7,,,,Dominic Smith,Hit,0.7005466818809509,2.0,Dominic Smith,L,Contact,0.306,Aaron Civale,R,Power,1.4117647058823528,1.0
+2026-03-31,Truist Park,76,7,,,,Dominic Smith,TB,0.41083410382270813,2.0,Dominic Smith,L,Contact,0.306,Aaron Civale,R,Power,1.4117647058823528,1.0
+2026-03-31,Truist Park,76,7,,,,Dominic Smith,Run,0.39744532108306885,2.0,Dominic Smith,L,Contact,0.306,Aaron Civale,R,Power,1.4117647058823528,1.0
+2026-03-31,Truist Park,76,7,,,,Dominic Smith,RBI,0.38677164912223816,2.0,Dominic Smith,L,Contact,0.306,Aaron Civale,R,Power,1.4117647058823528,1.0
+2026-03-31,Truist Park,76,7,,,,Drake Baldwin,HR,0.20338848233222961,3.0,Drake Baldwin,L,Balanced,0.353,Aaron Civale,R,Power,1.4117647058823528,1.0
+2026-03-31,Truist Park,76,7,,,,Drake Baldwin,Hit,0.7092772722244263,3.0,Drake Baldwin,L,Balanced,0.353,Aaron Civale,R,Power,1.4117647058823528,1.0
+2026-03-31,Truist Park,76,7,,,,Drake Baldwin,TB,0.47861066460609436,3.0,Drake Baldwin,L,Balanced,0.353,Aaron Civale,R,Power,1.4117647058823528,1.0
+2026-03-31,Truist Park,76,7,,,,Drake Baldwin,Run,0.46848875284194946,3.0,Drake Baldwin,L,Balanced,0.353,Aaron Civale,R,Power,1.4117647058823528,1.0
+2026-03-31,Truist Park,76,7,,,,Drake Baldwin,RBI,0.4368132948875427,3.0,Drake Baldwin,L,Balanced,0.353,Aaron Civale,R,Power,1.4117647058823528,1.0
+2026-03-31,Truist Park,76,7,,,,Eli White,HR,0.14862723648548126,4.0,Eli White,R,Slugger,0.31,Aaron Civale,R,Power,1.4117647058823528,0.0
+2026-03-31,Truist Park,76,7,,,,Eli White,Hit,0.5801374912261963,4.0,Eli White,R,Slugger,0.31,Aaron Civale,R,Power,1.4117647058823528,0.0
+2026-03-31,Truist Park,76,7,,,,Eli White,TB,0.34023207426071167,4.0,Eli White,R,Slugger,0.31,Aaron Civale,R,Power,1.4117647058823528,0.0
+2026-03-31,Truist Park,76,7,,,,Eli White,Run,0.4166446626186371,4.0,Eli White,R,Slugger,0.31,Aaron Civale,R,Power,1.4117647058823528,0.0
+2026-03-31,Truist Park,76,7,,,,Eli White,RBI,0.3388133645057678,4.0,Eli White,R,Slugger,0.31,Aaron Civale,R,Power,1.4117647058823528,0.0
+2026-03-31,Truist Park,76,7,,,,Jonah Heim,HR,0.1096208319067955,5.0,Jonah Heim,S,Balanced,0.276,Aaron Civale,R,Power,1.4117647058823528,1.0
+2026-03-31,Truist Park,76,7,,,,Jonah Heim,Hit,0.48018404841423035,5.0,Jonah Heim,S,Balanced,0.276,Aaron Civale,R,Power,1.4117647058823528,1.0
+2026-03-31,Truist Park,76,7,,,,Jonah Heim,TB,0.2506030201911926,5.0,Jonah Heim,S,Balanced,0.276,Aaron Civale,R,Power,1.4117647058823528,1.0
+2026-03-31,Truist Park,76,7,,,,Jonah Heim,Run,0.28277549147605896,5.0,Jonah Heim,S,Balanced,0.276,Aaron Civale,R,Power,1.4117647058823528,1.0
+2026-03-31,Truist Park,76,7,,,,Jonah Heim,RBI,0.25139346718788147,5.0,Jonah Heim,S,Balanced,0.276,Aaron Civale,R,Power,1.4117647058823528,1.0
+2026-03-31,Truist Park,76,7,,,,Jorge Mateo,HR,0.03151828423142433,6.0,Jorge Mateo,R,Balanced,0.206,Aaron Civale,R,Power,1.4117647058823528,0.0
+2026-03-31,Truist Park,76,7,,,,Jorge Mateo,Hit,0.3322477340698242,6.0,Jorge Mateo,R,Balanced,0.206,Aaron Civale,R,Power,1.4117647058823528,0.0
+2026-03-31,Truist Park,76,7,,,,Jorge Mateo,TB,0.183274045586586,6.0,Jorge Mateo,R,Balanced,0.206,Aaron Civale,R,Power,1.4117647058823528,0.0
+2026-03-31,Truist Park,76,7,,,,Jorge Mateo,Run,0.245589941740036,6.0,Jorge Mateo,R,Balanced,0.206,Aaron Civale,R,Power,1.4117647058823528,0.0
+2026-03-31,Truist Park,76,7,,,,Jorge Mateo,RBI,0.09779088944196701,6.0,Jorge Mateo,R,Balanced,0.206,Aaron Civale,R,Power,1.4117647058823528,0.0
+2026-03-31,Truist Park,76,7,,,,Kyle Farmer,HR,0.10129755735397339,7.0,Kyle Farmer,R,Balanced,0.285,Aaron Civale,R,Power,1.4117647058823528,0.0
+2026-03-31,Truist Park,76,7,,,,Kyle Farmer,Hit,0.5274204015731812,7.0,Kyle Farmer,R,Balanced,0.285,Aaron Civale,R,Power,1.4117647058823528,0.0
+2026-03-31,Truist Park,76,7,,,,Kyle Farmer,TB,0.29900091886520386,7.0,Kyle Farmer,R,Balanced,0.285,Aaron Civale,R,Power,1.4117647058823528,0.0
+2026-03-31,Truist Park,76,7,,,,Kyle Farmer,Run,0.2938828468322754,7.0,Kyle Farmer,R,Balanced,0.285,Aaron Civale,R,Power,1.4117647058823528,0.0
+2026-03-31,Truist Park,76,7,,,,Kyle Farmer,RBI,0.26012665033340454,7.0,Kyle Farmer,R,Balanced,0.285,Aaron Civale,R,Power,1.4117647058823528,0.0
+2026-03-31,Truist Park,76,7,,,,Matt Olson,HR,0.17844638228416443,8.0,Matt Olson,L,Slugger,0.36,Aaron Civale,R,Power,1.4117647058823528,1.0
+2026-03-31,Truist Park,76,7,,,,Matt Olson,Hit,0.5984878540039062,8.0,Matt Olson,L,Slugger,0.36,Aaron Civale,R,Power,1.4117647058823528,1.0
+2026-03-31,Truist Park,76,7,,,,Matt Olson,TB,0.3664346933364868,8.0,Matt Olson,L,Slugger,0.36,Aaron Civale,R,Power,1.4117647058823528,1.0
+2026-03-31,Truist Park,76,7,,,,Matt Olson,Run,0.4176355004310608,8.0,Matt Olson,L,Slugger,0.36,Aaron Civale,R,Power,1.4117647058823528,1.0
+2026-03-31,Truist Park,76,7,,,,Matt Olson,RBI,0.34562820196151733,8.0,Matt Olson,L,Slugger,0.36,Aaron Civale,R,Power,1.4117647058823528,1.0
+2026-03-31,Truist Park,76,7,,,,Mauricio Dubón,HR,0.07106953114271164,9.0,Mauricio Dubón,R,Contact,0.278,Aaron Civale,R,Power,1.4117647058823528,0.0
+2026-03-31,Truist Park,76,7,,,,Mauricio Dubón,Hit,0.5549652576446533,9.0,Mauricio Dubón,R,Contact,0.278,Aaron Civale,R,Power,1.4117647058823528,0.0
+2026-03-31,Truist Park,76,7,,,,Mauricio Dubón,TB,0.3002317249774933,9.0,Mauricio Dubón,R,Contact,0.278,Aaron Civale,R,Power,1.4117647058823528,0.0
+2026-03-31,Truist Park,76,7,,,,Mauricio Dubón,Run,0.30892497301101685,9.0,Mauricio Dubón,R,Contact,0.278,Aaron Civale,R,Power,1.4117647058823528,0.0
+2026-03-31,Truist Park,76,7,,,,Mauricio Dubón,RBI,0.20870834589004517,9.0,Mauricio Dubón,R,Contact,0.278,Aaron Civale,R,Power,1.4117647058823528,0.0
+2026-03-31,Wrigley Field,66,13,out,Los Angeles Angels,Chicago Cubs,GAME_TOTAL,Over_9.5,0.4452,,,,,,,,,,
+2026-03-31,Wrigley Field,66,13,out,Los Angeles Angels,Chicago Cubs,GAME_TOTAL,NRFI,0.4053,,,,,,,,,,
+2026-03-31,Wrigley Field,66,13,,,,Adam Frazier,HR,0.08590468019247055,1.0,Adam Frazier,L,Contact,0.279,Jameson Taillon,R,Power,1.6718266253869971,1.0
+2026-03-31,Wrigley Field,66,13,,,,Adam Frazier,Hit,0.5841566324234009,1.0,Adam Frazier,L,Contact,0.279,Jameson Taillon,R,Power,1.6718266253869971,1.0
+2026-03-31,Wrigley Field,66,13,,,,Adam Frazier,TB,0.3057071268558502,1.0,Adam Frazier,L,Contact,0.279,Jameson Taillon,R,Power,1.6718266253869971,1.0
+2026-03-31,Wrigley Field,66,13,,,,Adam Frazier,Run,0.2684500813484192,1.0,Adam Frazier,L,Contact,0.279,Jameson Taillon,R,Power,1.6718266253869971,1.0
+2026-03-31,Wrigley Field,66,13,,,,Adam Frazier,RBI,0.2309659868478775,1.0,Adam Frazier,L,Contact,0.279,Jameson Taillon,R,Power,1.6718266253869971,1.0
+2026-03-31,Wrigley Field,66,13,,,,Bryce Teodosio,HR,0.022144915536046028,2.0,Bryce Teodosio,R,Balanced,0.222,Jameson Taillon,R,Power,1.6718266253869971,0.0
+2026-03-31,Wrigley Field,66,13,,,,Bryce Teodosio,Hit,0.27432456612586975,2.0,Bryce Teodosio,R,Balanced,0.222,Jameson Taillon,R,Power,1.6718266253869971,0.0
+2026-03-31,Wrigley Field,66,13,,,,Bryce Teodosio,TB,0.19957542419433594,2.0,Bryce Teodosio,R,Balanced,0.222,Jameson Taillon,R,Power,1.6718266253869971,0.0
+2026-03-31,Wrigley Field,66,13,,,,Bryce Teodosio,Run,0.2013506442308426,2.0,Bryce Teodosio,R,Balanced,0.222,Jameson Taillon,R,Power,1.6718266253869971,0.0
+2026-03-31,Wrigley Field,66,13,,,,Bryce Teodosio,RBI,0.11747977882623672,2.0,Bryce Teodosio,R,Balanced,0.222,Jameson Taillon,R,Power,1.6718266253869971,0.0
+2026-03-31,Wrigley Field,66,13,,,,Jeimer Candelario,HR,0.08416134119033813,3.0,Jeimer Candelario,S,Balanced,0.213,Jameson Taillon,R,Power,1.6718266253869971,1.0
+2026-03-31,Wrigley Field,66,13,,,,Jeimer Candelario,Hit,0.1806357502937317,3.0,Jeimer Candelario,S,Balanced,0.213,Jameson Taillon,R,Power,1.6718266253869971,1.0
+2026-03-31,Wrigley Field,66,13,,,,Jeimer Candelario,TB,0.13232003152370453,3.0,Jeimer Candelario,S,Balanced,0.213,Jameson Taillon,R,Power,1.6718266253869971,1.0
+2026-03-31,Wrigley Field,66,13,,,,Jeimer Candelario,Run,0.14887383580207825,3.0,Jeimer Candelario,S,Balanced,0.213,Jameson Taillon,R,Power,1.6718266253869971,1.0
+2026-03-31,Wrigley Field,66,13,,,,Jeimer Candelario,RBI,0.20503586530685425,3.0,Jeimer Candelario,S,Balanced,0.213,Jameson Taillon,R,Power,1.6718266253869971,1.0
+2026-03-31,Wrigley Field,66,13,,,,Jo Adell,HR,0.26328861713409424,4.0,Jo Adell,R,Slugger,0.365,Jameson Taillon,R,Power,1.6718266253869971,0.0
+2026-03-31,Wrigley Field,66,13,,,,Jo Adell,Hit,0.6915842890739441,4.0,Jo Adell,R,Slugger,0.365,Jameson Taillon,R,Power,1.6718266253869971,0.0
+2026-03-31,Wrigley Field,66,13,,,,Jo Adell,TB,0.4572627544403076,4.0,Jo Adell,R,Slugger,0.365,Jameson Taillon,R,Power,1.6718266253869971,0.0
+2026-03-31,Wrigley Field,66,13,,,,Jo Adell,Run,0.4607686400413513,4.0,Jo Adell,R,Slugger,0.365,Jameson Taillon,R,Power,1.6718266253869971,0.0
+2026-03-31,Wrigley Field,66,13,,,,Jo Adell,RBI,0.4545881152153015,4.0,Jo Adell,R,Slugger,0.365,Jameson Taillon,R,Power,1.6718266253869971,0.0
+2026-03-31,Wrigley Field,66,13,,,,Jorge Soler,HR,0.1607402265071869,5.0,Jorge Soler,R,Slugger,0.294,Jameson Taillon,R,Power,1.6718266253869971,0.0
+2026-03-31,Wrigley Field,66,13,,,,Jorge Soler,Hit,0.5385836362838745,5.0,Jorge Soler,R,Slugger,0.294,Jameson Taillon,R,Power,1.6718266253869971,0.0
+2026-03-31,Wrigley Field,66,13,,,,Jorge Soler,TB,0.2889883816242218,5.0,Jorge Soler,R,Slugger,0.294,Jameson Taillon,R,Power,1.6718266253869971,0.0
+2026-03-31,Wrigley Field,66,13,,,,Jorge Soler,Run,0.331170916557312,5.0,Jorge Soler,R,Slugger,0.294,Jameson Taillon,R,Power,1.6718266253869971,0.0
+2026-03-31,Wrigley Field,66,13,,,,Jorge Soler,RBI,0.29691991209983826,5.0,Jorge Soler,R,Slugger,0.294,Jameson Taillon,R,Power,1.6718266253869971,0.0
+2026-03-31,Wrigley Field,66,13,,,,Josh Lowe,HR,0.12713074684143066,6.0,Josh Lowe,L,Balanced,0.298,Jameson Taillon,R,Power,1.6718266253869971,1.0
+2026-03-31,Wrigley Field,66,13,,,,Josh Lowe,Hit,0.5863144397735596,6.0,Josh Lowe,L,Balanced,0.298,Jameson Taillon,R,Power,1.6718266253869971,1.0
+2026-03-31,Wrigley Field,66,13,,,,Josh Lowe,TB,0.35563814640045166,6.0,Josh Lowe,L,Balanced,0.298,Jameson Taillon,R,Power,1.6718266253869971,1.0
+2026-03-31,Wrigley Field,66,13,,,,Josh Lowe,Run,0.37970593571662903,6.0,Josh Lowe,L,Balanced,0.298,Jameson Taillon,R,Power,1.6718266253869971,1.0
+2026-03-31,Wrigley Field,66,13,,,,Josh Lowe,RBI,0.28311070799827576,6.0,Josh Lowe,L,Balanced,0.298,Jameson Taillon,R,Power,1.6718266253869971,1.0
+2026-03-31,Wrigley Field,66,13,,,,Logan O'Hoppe,HR,0.1632416546344757,7.0,Logan O'Hoppe,R,Slugger,0.301,Jameson Taillon,R,Power,1.6718266253869971,0.0
+2026-03-31,Wrigley Field,66,13,,,,Logan O'Hoppe,Hit,0.5721018314361572,7.0,Logan O'Hoppe,R,Slugger,0.301,Jameson Taillon,R,Power,1.6718266253869971,0.0
+2026-03-31,Wrigley Field,66,13,,,,Logan O'Hoppe,TB,0.3122529089450836,7.0,Logan O'Hoppe,R,Slugger,0.301,Jameson Taillon,R,Power,1.6718266253869971,0.0
+2026-03-31,Wrigley Field,66,13,,,,Logan O'Hoppe,Run,0.3149416446685791,7.0,Logan O'Hoppe,R,Slugger,0.301,Jameson Taillon,R,Power,1.6718266253869971,0.0
+2026-03-31,Wrigley Field,66,13,,,,Logan O'Hoppe,RBI,0.2836836874485016,7.0,Logan O'Hoppe,R,Slugger,0.301,Jameson Taillon,R,Power,1.6718266253869971,0.0
+2026-03-31,Wrigley Field,66,13,,,,Mike Trout,HR,0.1987796574831009,8.0,Mike Trout,R,Slugger,0.358,Jameson Taillon,R,Power,1.6718266253869971,0.0
+2026-03-31,Wrigley Field,66,13,,,,Mike Trout,Hit,0.5491166710853577,8.0,Mike Trout,R,Slugger,0.358,Jameson Taillon,R,Power,1.6718266253869971,0.0
+2026-03-31,Wrigley Field,66,13,,,,Mike Trout,TB,0.3084860146045685,8.0,Mike Trout,R,Slugger,0.358,Jameson Taillon,R,Power,1.6718266253869971,0.0
+2026-03-31,Wrigley Field,66,13,,,,Mike Trout,Run,0.4277762174606323,8.0,Mike Trout,R,Slugger,0.358,Jameson Taillon,R,Power,1.6718266253869971,0.0
+2026-03-31,Wrigley Field,66,13,,,,Mike Trout,RBI,0.3127889335155487,8.0,Mike Trout,R,Slugger,0.358,Jameson Taillon,R,Power,1.6718266253869971,0.0
+2026-03-31,Wrigley Field,66,13,,,,Nolan Schanuel,HR,0.09545619785785675,9.0,Nolan Schanuel,L,Contact,0.328,Jameson Taillon,R,Power,1.6718266253869971,1.0
+2026-03-31,Wrigley Field,66,13,,,,Nolan Schanuel,Hit,0.5781319737434387,9.0,Nolan Schanuel,L,Contact,0.328,Jameson Taillon,R,Power,1.6718266253869971,1.0
+2026-03-31,Wrigley Field,66,13,,,,Nolan Schanuel,TB,0.3274480104446411,9.0,Nolan Schanuel,L,Contact,0.328,Jameson Taillon,R,Power,1.6718266253869971,1.0
+2026-03-31,Wrigley Field,66,13,,,,Nolan Schanuel,Run,0.35069960355758667,9.0,Nolan Schanuel,L,Contact,0.328,Jameson Taillon,R,Power,1.6718266253869971,1.0
+2026-03-31,Wrigley Field,66,13,,,,Nolan Schanuel,RBI,0.2871832251548767,9.0,Nolan Schanuel,L,Contact,0.328,Jameson Taillon,R,Power,1.6718266253869971,1.0
+2026-03-31,Wrigley Field,66,13,,,,Alex Bregman,HR,0.14001412689685822,1.0,Alex Bregman,R,Balanced,0.337,José Soriano,R,Spin,0.6390532544378698,0.0
+2026-03-31,Wrigley Field,66,13,,,,Alex Bregman,Hit,0.6524249911308289,1.0,Alex Bregman,R,Balanced,0.337,José Soriano,R,Spin,0.6390532544378698,0.0
+2026-03-31,Wrigley Field,66,13,,,,Alex Bregman,TB,0.38604411482810974,1.0,Alex Bregman,R,Balanced,0.337,José Soriano,R,Spin,0.6390532544378698,0.0
+2026-03-31,Wrigley Field,66,13,,,,Alex Bregman,Run,0.4157824218273163,1.0,Alex Bregman,R,Balanced,0.337,José Soriano,R,Spin,0.6390532544378698,0.0
+2026-03-31,Wrigley Field,66,13,,,,Alex Bregman,RBI,0.3305884897708893,1.0,Alex Bregman,R,Balanced,0.337,José Soriano,R,Spin,0.6390532544378698,0.0
+2026-03-31,Wrigley Field,66,13,,,,Carson Kelly,HR,0.12666405737400055,2.0,Carson Kelly,R,Balanced,0.321,José Soriano,R,Spin,0.6390532544378698,0.0
+2026-03-31,Wrigley Field,66,13,,,,Carson Kelly,Hit,0.616125762462616,2.0,Carson Kelly,R,Balanced,0.321,José Soriano,R,Spin,0.6390532544378698,0.0
+2026-03-31,Wrigley Field,66,13,,,,Carson Kelly,TB,0.3440776765346527,2.0,Carson Kelly,R,Balanced,0.321,José Soriano,R,Spin,0.6390532544378698,0.0
+2026-03-31,Wrigley Field,66,13,,,,Carson Kelly,Run,0.38191211223602295,2.0,Carson Kelly,R,Balanced,0.321,José Soriano,R,Spin,0.6390532544378698,0.0
+2026-03-31,Wrigley Field,66,13,,,,Carson Kelly,RBI,0.2951626181602478,2.0,Carson Kelly,R,Balanced,0.321,José Soriano,R,Spin,0.6390532544378698,0.0
+2026-03-31,Wrigley Field,66,13,,,,Dansby Swanson,HR,0.1370169073343277,3.0,Dansby Swanson,R,Slugger,0.345,José Soriano,R,Spin,0.6390532544378698,0.0
+2026-03-31,Wrigley Field,66,13,,,,Dansby Swanson,Hit,0.6453413963317871,3.0,Dansby Swanson,R,Slugger,0.345,José Soriano,R,Spin,0.6390532544378698,0.0
+2026-03-31,Wrigley Field,66,13,,,,Dansby Swanson,TB,0.41322800517082214,3.0,Dansby Swanson,R,Slugger,0.345,José Soriano,R,Spin,0.6390532544378698,0.0
+2026-03-31,Wrigley Field,66,13,,,,Dansby Swanson,Run,0.4163907468318939,3.0,Dansby Swanson,R,Slugger,0.345,José Soriano,R,Spin,0.6390532544378698,0.0
+2026-03-31,Wrigley Field,66,13,,,,Dansby Swanson,RBI,0.35801073908805847,3.0,Dansby Swanson,R,Slugger,0.345,José Soriano,R,Spin,0.6390532544378698,0.0
+2026-03-31,Wrigley Field,66,13,,,,Dylan Carlson,HR,0.07373994588851929,4.0,Dylan Carlson,S,Balanced,0.285,José Soriano,R,Spin,0.6390532544378698,1.0
+2026-03-31,Wrigley Field,66,13,,,,Dylan Carlson,Hit,0.534195065498352,4.0,Dylan Carlson,S,Balanced,0.285,José Soriano,R,Spin,0.6390532544378698,1.0
+2026-03-31,Wrigley Field,66,13,,,,Dylan Carlson,TB,0.27279791235923767,4.0,Dylan Carlson,S,Balanced,0.285,José Soriano,R,Spin,0.6390532544378698,1.0
+2026-03-31,Wrigley Field,66,13,,,,Dylan Carlson,Run,0.27940723299980164,4.0,Dylan Carlson,S,Balanced,0.285,José Soriano,R,Spin,0.6390532544378698,1.0
+2026-03-31,Wrigley Field,66,13,,,,Dylan Carlson,RBI,0.24368351697921753,4.0,Dylan Carlson,S,Balanced,0.285,José Soriano,R,Spin,0.6390532544378698,1.0
+2026-03-31,Wrigley Field,66,13,,,,Ian Happ,HR,0.14316189289093018,5.0,Ian Happ,S,Balanced,0.354,José Soriano,R,Spin,0.6390532544378698,1.0
+2026-03-31,Wrigley Field,66,13,,,,Ian Happ,Hit,0.6276901364326477,5.0,Ian Happ,S,Balanced,0.354,José Soriano,R,Spin,0.6390532544378698,1.0
+2026-03-31,Wrigley Field,66,13,,,,Ian Happ,TB,0.4103052616119385,5.0,Ian Happ,S,Balanced,0.354,José Soriano,R,Spin,0.6390532544378698,1.0
+2026-03-31,Wrigley Field,66,13,,,,Ian Happ,Run,0.4343244135379791,5.0,Ian Happ,S,Balanced,0.354,José Soriano,R,Spin,0.6390532544378698,1.0
+2026-03-31,Wrigley Field,66,13,,,,Ian Happ,RBI,0.3586454391479492,5.0,Ian Happ,S,Balanced,0.354,José Soriano,R,Spin,0.6390532544378698,1.0
+2026-03-31,Wrigley Field,66,13,,,,Matt Shaw,HR,0.07867112010717392,6.0,Matt Shaw,R,Balanced,0.302,José Soriano,R,Spin,0.6390532544378698,0.0
+2026-03-31,Wrigley Field,66,13,,,,Matt Shaw,Hit,0.5664701461791992,6.0,Matt Shaw,R,Balanced,0.302,José Soriano,R,Spin,0.6390532544378698,0.0
+2026-03-31,Wrigley Field,66,13,,,,Matt Shaw,TB,0.333452045917511,6.0,Matt Shaw,R,Balanced,0.302,José Soriano,R,Spin,0.6390532544378698,0.0
+2026-03-31,Wrigley Field,66,13,,,,Matt Shaw,Run,0.37473517656326294,6.0,Matt Shaw,R,Balanced,0.302,José Soriano,R,Spin,0.6390532544378698,0.0
+2026-03-31,Wrigley Field,66,13,,,,Matt Shaw,RBI,0.2749559283256531,6.0,Matt Shaw,R,Balanced,0.302,José Soriano,R,Spin,0.6390532544378698,0.0
+2026-03-31,Wrigley Field,66,13,,,,Michael Busch,HR,0.15350310504436493,7.0,Michael Busch,L,Slugger,0.378,José Soriano,R,Spin,0.6390532544378698,1.0
+2026-03-31,Wrigley Field,66,13,,,,Michael Busch,Hit,0.5000749230384827,7.0,Michael Busch,L,Slugger,0.378,José Soriano,R,Spin,0.6390532544378698,1.0
+2026-03-31,Wrigley Field,66,13,,,,Michael Busch,TB,0.39487889409065247,7.0,Michael Busch,L,Slugger,0.378,José Soriano,R,Spin,0.6390532544378698,1.0
+2026-03-31,Wrigley Field,66,13,,,,Michael Busch,Run,0.34148359298706055,7.0,Michael Busch,L,Slugger,0.378,José Soriano,R,Spin,0.6390532544378698,1.0
+2026-03-31,Wrigley Field,66,13,,,,Michael Busch,RBI,0.3219185471534729,7.0,Michael Busch,L,Slugger,0.378,José Soriano,R,Spin,0.6390532544378698,1.0
+2026-03-31,Wrigley Field,66,13,,,,Michael Conforto,HR,0.07813992351293564,8.0,Michael Conforto,L,Balanced,0.33,José Soriano,R,Spin,0.6390532544378698,1.0
+2026-03-31,Wrigley Field,66,13,,,,Michael Conforto,Hit,0.5245568156242371,8.0,Michael Conforto,L,Balanced,0.33,José Soriano,R,Spin,0.6390532544378698,1.0
+2026-03-31,Wrigley Field,66,13,,,,Michael Conforto,TB,0.3171902000904083,8.0,Michael Conforto,L,Balanced,0.33,José Soriano,R,Spin,0.6390532544378698,1.0
+2026-03-31,Wrigley Field,66,13,,,,Michael Conforto,Run,0.3431137204170227,8.0,Michael Conforto,L,Balanced,0.33,José Soriano,R,Spin,0.6390532544378698,1.0
+2026-03-31,Wrigley Field,66,13,,,,Michael Conforto,RBI,0.2289412021636963,8.0,Michael Conforto,L,Balanced,0.33,José Soriano,R,Spin,0.6390532544378698,1.0
+2026-03-31,Wrigley Field,66,13,,,,Miguel Amaya,HR,0.08744137734174728,9.0,Miguel Amaya,R,Slugger,0.295,José Soriano,R,Spin,0.6390532544378698,0.0
+2026-03-31,Wrigley Field,66,13,,,,Miguel Amaya,Hit,0.5515919327735901,9.0,Miguel Amaya,R,Slugger,0.295,José Soriano,R,Spin,0.6390532544378698,0.0
+2026-03-31,Wrigley Field,66,13,,,,Miguel Amaya,TB,0.3084721863269806,9.0,Miguel Amaya,R,Slugger,0.295,José Soriano,R,Spin,0.6390532544378698,0.0
+2026-03-31,Wrigley Field,66,13,,,,Miguel Amaya,Run,0.31872233748435974,9.0,Miguel Amaya,R,Slugger,0.295,José Soriano,R,Spin,0.6390532544378698,0.0
+2026-03-31,Wrigley Field,66,13,,,,Miguel Amaya,RBI,0.3385310769081116,9.0,Miguel Amaya,R,Slugger,0.295,José Soriano,R,Spin,0.6390532544378698,0.0
+2026-03-31,American Family Field,72,0,none,Tampa Bay Rays,Milwaukee Brewers,GAME_TOTAL,Over_11.5,0.4156,,,,,,,,,,
+2026-03-31,American Family Field,72,0,none,Tampa Bay Rays,Milwaukee Brewers,GAME_TOTAL,NRFI,0.2805,,,,,,,,,,
+2026-03-31,American Family Field,72,0,,,,Ben Williamson,HR,0.004489514045417309,1.0,Ben Williamson,R,Balanced,0.269,Brandon Woodruff,R,Power,1.2616822429906542,0.0
+2026-03-31,American Family Field,72,0,,,,Ben Williamson,Hit,0.35588350892066956,1.0,Ben Williamson,R,Balanced,0.269,Brandon Woodruff,R,Power,1.2616822429906542,0.0
+2026-03-31,American Family Field,72,0,,,,Ben Williamson,TB,0.21067802608013153,1.0,Ben Williamson,R,Balanced,0.269,Brandon Woodruff,R,Power,1.2616822429906542,0.0
+2026-03-31,American Family Field,72,0,,,,Ben Williamson,Run,0.22563360631465912,1.0,Ben Williamson,R,Balanced,0.269,Brandon Woodruff,R,Power,1.2616822429906542,0.0
+2026-03-31,American Family Field,72,0,,,,Ben Williamson,RBI,0.14898858964443207,1.0,Ben Williamson,R,Balanced,0.269,Brandon Woodruff,R,Power,1.2616822429906542,0.0
+2026-03-31,American Family Field,72,0,,,,Carson Williams,HR,0.12031455338001251,2.0,Carson Williams,R,Slugger,0.235,Brandon Woodruff,R,Power,1.2616822429906542,0.0
+2026-03-31,American Family Field,72,0,,,,Carson Williams,Hit,0.25805243849754333,2.0,Carson Williams,R,Slugger,0.235,Brandon Woodruff,R,Power,1.2616822429906542,0.0
+2026-03-31,American Family Field,72,0,,,,Carson Williams,TB,0.20302735269069672,2.0,Carson Williams,R,Slugger,0.235,Brandon Woodruff,R,Power,1.2616822429906542,0.0
+2026-03-31,American Family Field,72,0,,,,Carson Williams,Run,0.25013697147369385,2.0,Carson Williams,R,Slugger,0.235,Brandon Woodruff,R,Power,1.2616822429906542,0.0
+2026-03-31,American Family Field,72,0,,,,Carson Williams,RBI,0.21132008731365204,2.0,Carson Williams,R,Slugger,0.235,Brandon Woodruff,R,Power,1.2616822429906542,0.0
+2026-03-31,American Family Field,72,0,,,,Cedric Mullins,HR,0.1310396045446396,3.0,Cedric Mullins,L,Balanced,0.284,Brandon Woodruff,R,Power,1.2616822429906542,1.0
+2026-03-31,American Family Field,72,0,,,,Cedric Mullins,Hit,0.4857463240623474,3.0,Cedric Mullins,L,Balanced,0.284,Brandon Woodruff,R,Power,1.2616822429906542,1.0
+2026-03-31,American Family Field,72,0,,,,Cedric Mullins,TB,0.30542054772377014,3.0,Cedric Mullins,L,Balanced,0.284,Brandon Woodruff,R,Power,1.2616822429906542,1.0
+2026-03-31,American Family Field,72,0,,,,Cedric Mullins,Run,0.32690608501434326,3.0,Cedric Mullins,L,Balanced,0.284,Brandon Woodruff,R,Power,1.2616822429906542,1.0
+2026-03-31,American Family Field,72,0,,,,Cedric Mullins,RBI,0.26539748907089233,3.0,Cedric Mullins,L,Balanced,0.284,Brandon Woodruff,R,Power,1.2616822429906542,1.0
+2026-03-31,American Family Field,72,0,,,,Chandler Simpson,HR,0.005119741894304752,4.0,Chandler Simpson,L,Contact,0.297,Brandon Woodruff,R,Power,1.2616822429906542,1.0
+2026-03-31,American Family Field,72,0,,,,Chandler Simpson,Hit,0.6107093691825867,4.0,Chandler Simpson,L,Contact,0.297,Brandon Woodruff,R,Power,1.2616822429906542,1.0
+2026-03-31,American Family Field,72,0,,,,Chandler Simpson,TB,0.3511119484901428,4.0,Chandler Simpson,L,Contact,0.297,Brandon Woodruff,R,Power,1.2616822429906542,1.0
+2026-03-31,American Family Field,72,0,,,,Chandler Simpson,Run,0.3386322259902954,4.0,Chandler Simpson,L,Contact,0.297,Brandon Woodruff,R,Power,1.2616822429906542,1.0
+2026-03-31,American Family Field,72,0,,,,Chandler Simpson,RBI,0.18963837623596191,4.0,Chandler Simpson,L,Contact,0.297,Brandon Woodruff,R,Power,1.2616822429906542,1.0
+2026-03-31,American Family Field,72,0,,,,Hunter Feduccia,HR,0.004790992941707373,5.0,Hunter Feduccia,L,Balanced,0.275,Brandon Woodruff,R,Power,1.2616822429906542,1.0
+2026-03-31,American Family Field,72,0,,,,Hunter Feduccia,Hit,0.37531304359436035,5.0,Hunter Feduccia,L,Balanced,0.275,Brandon Woodruff,R,Power,1.2616822429906542,1.0
+2026-03-31,American Family Field,72,0,,,,Hunter Feduccia,TB,0.15871892869472504,5.0,Hunter Feduccia,L,Balanced,0.275,Brandon Woodruff,R,Power,1.2616822429906542,1.0
+2026-03-31,American Family Field,72,0,,,,Hunter Feduccia,Run,0.13500232994556427,5.0,Hunter Feduccia,L,Balanced,0.275,Brandon Woodruff,R,Power,1.2616822429906542,1.0
+2026-03-31,American Family Field,72,0,,,,Hunter Feduccia,RBI,0.196135014295578,5.0,Hunter Feduccia,L,Balanced,0.275,Brandon Woodruff,R,Power,1.2616822429906542,1.0
+2026-03-31,American Family Field,72,0,,,,Jake Fraley,HR,0.12346630543470383,6.0,Jake Fraley,L,Balanced,0.315,Brandon Woodruff,R,Power,1.2616822429906542,1.0
+2026-03-31,American Family Field,72,0,,,,Jake Fraley,Hit,0.5479199290275574,6.0,Jake Fraley,L,Balanced,0.315,Brandon Woodruff,R,Power,1.2616822429906542,1.0
+2026-03-31,American Family Field,72,0,,,,Jake Fraley,TB,0.3314027786254883,6.0,Jake Fraley,L,Balanced,0.315,Brandon Woodruff,R,Power,1.2616822429906542,1.0
+2026-03-31,American Family Field,72,0,,,,Jake Fraley,Run,0.381103515625,6.0,Jake Fraley,L,Balanced,0.315,Brandon Woodruff,R,Power,1.2616822429906542,1.0
+2026-03-31,American Family Field,72,0,,,,Jake Fraley,RBI,0.30921512842178345,6.0,Jake Fraley,L,Balanced,0.315,Brandon Woodruff,R,Power,1.2616822429906542,1.0
+2026-03-31,American Family Field,72,0,,,,Jonathan Aranda,HR,0.1418747752904892,7.0,Jonathan Aranda,L,Balanced,0.382,Brandon Woodruff,R,Power,1.2616822429906542,1.0
+2026-03-31,American Family Field,72,0,,,,Jonathan Aranda,Hit,0.631126344203949,7.0,Jonathan Aranda,L,Balanced,0.382,Brandon Woodruff,R,Power,1.2616822429906542,1.0
+2026-03-31,American Family Field,72,0,,,,Jonathan Aranda,TB,0.3897838294506073,7.0,Jonathan Aranda,L,Balanced,0.382,Brandon Woodruff,R,Power,1.2616822429906542,1.0
+2026-03-31,American Family Field,72,0,,,,Jonathan Aranda,Run,0.38765135407447815,7.0,Jonathan Aranda,L,Balanced,0.382,Brandon Woodruff,R,Power,1.2616822429906542,1.0
+2026-03-31,American Family Field,72,0,,,,Jonathan Aranda,RBI,0.34965214133262634,7.0,Jonathan Aranda,L,Balanced,0.382,Brandon Woodruff,R,Power,1.2616822429906542,1.0
+2026-03-31,American Family Field,72,0,,,,Jonny DeLuca,HR,0.004627053625881672,8.0,Jonny DeLuca,R,Balanced,0.267,Brandon Woodruff,R,Power,1.2616822429906542,0.0
+2026-03-31,American Family Field,72,0,,,,Jonny DeLuca,Hit,0.5586821436882019,8.0,Jonny DeLuca,R,Balanced,0.267,Brandon Woodruff,R,Power,1.2616822429906542,0.0
+2026-03-31,American Family Field,72,0,,,,Jonny DeLuca,TB,0.32111385464668274,8.0,Jonny DeLuca,R,Balanced,0.267,Brandon Woodruff,R,Power,1.2616822429906542,0.0
+2026-03-31,American Family Field,72,0,,,,Jonny DeLuca,Run,0.22545550763607025,8.0,Jonny DeLuca,R,Balanced,0.267,Brandon Woodruff,R,Power,1.2616822429906542,0.0
+2026-03-31,American Family Field,72,0,,,,Jonny DeLuca,RBI,0.16635367274284363,8.0,Jonny DeLuca,R,Balanced,0.267,Brandon Woodruff,R,Power,1.2616822429906542,0.0
+2026-03-31,American Family Field,72,0,,,,Junior Caminero,HR,0.17079418897628784,9.0,Junior Caminero,R,Balanced,0.346,Brandon Woodruff,R,Power,1.2616822429906542,0.0
+2026-03-31,American Family Field,72,0,,,,Junior Caminero,Hit,0.43945735692977905,9.0,Junior Caminero,R,Balanced,0.346,Brandon Woodruff,R,Power,1.2616822429906542,0.0
+2026-03-31,American Family Field,72,0,,,,Junior Caminero,TB,0.31048741936683655,9.0,Junior Caminero,R,Balanced,0.346,Brandon Woodruff,R,Power,1.2616822429906542,0.0
+2026-03-31,American Family Field,72,0,,,,Junior Caminero,Run,0.3583936393260956,9.0,Junior Caminero,R,Balanced,0.346,Brandon Woodruff,R,Power,1.2616822429906542,0.0
+2026-03-31,American Family Field,72,0,,,,Junior Caminero,RBI,0.31694096326828003,9.0,Junior Caminero,R,Balanced,0.346,Brandon Woodruff,R,Power,1.2616822429906542,0.0
+2026-03-31,American Family Field,72,0,,,,Blake Perkins,HR,0.07653674483299255,1.0,Blake Perkins,S,Balanced,0.279,Shane McClanahan,R,Power,1.25,1.0
+2026-03-31,American Family Field,72,0,,,,Blake Perkins,Hit,0.4467308819293976,1.0,Blake Perkins,S,Balanced,0.279,Shane McClanahan,R,Power,1.25,1.0
+2026-03-31,American Family Field,72,0,,,,Blake Perkins,TB,0.2699020206928253,1.0,Blake Perkins,S,Balanced,0.279,Shane McClanahan,R,Power,1.25,1.0
+2026-03-31,American Family Field,72,0,,,,Blake Perkins,Run,0.31136831641197205,1.0,Blake Perkins,S,Balanced,0.279,Shane McClanahan,R,Power,1.25,1.0
+2026-03-31,American Family Field,72,0,,,,Blake Perkins,RBI,0.23912297189235687,1.0,Blake Perkins,S,Balanced,0.279,Shane McClanahan,R,Power,1.25,1.0
+2026-03-31,American Family Field,72,0,,,,Brandon Lockridge,HR,0.003751751035451889,2.0,Brandon Lockridge,R,Balanced,0.267,Shane McClanahan,R,Power,1.25,0.0
+2026-03-31,American Family Field,72,0,,,,Brandon Lockridge,Hit,0.37554416060447693,2.0,Brandon Lockridge,R,Balanced,0.267,Shane McClanahan,R,Power,1.25,0.0
+2026-03-31,American Family Field,72,0,,,,Brandon Lockridge,TB,0.2003258913755417,2.0,Brandon Lockridge,R,Balanced,0.267,Shane McClanahan,R,Power,1.25,0.0
+2026-03-31,American Family Field,72,0,,,,Brandon Lockridge,Run,0.24930115044116974,2.0,Brandon Lockridge,R,Balanced,0.267,Shane McClanahan,R,Power,1.25,0.0
+2026-03-31,American Family Field,72,0,,,,Brandon Lockridge,RBI,0.1558235138654709,2.0,Brandon Lockridge,R,Balanced,0.267,Shane McClanahan,R,Power,1.25,0.0
+2026-03-31,American Family Field,72,0,,,,Brice Turang,HR,0.13090550899505615,3.0,Brice Turang,L,Balanced,0.335,Shane McClanahan,R,Power,1.25,1.0
+2026-03-31,American Family Field,72,0,,,,Brice Turang,Hit,0.7159696221351624,3.0,Brice Turang,L,Balanced,0.335,Shane McClanahan,R,Power,1.25,1.0
+2026-03-31,American Family Field,72,0,,,,Brice Turang,TB,0.4461648166179657,3.0,Brice Turang,L,Balanced,0.335,Shane McClanahan,R,Power,1.25,1.0
+2026-03-31,American Family Field,72,0,,,,Brice Turang,Run,0.4507732093334198,3.0,Brice Turang,L,Balanced,0.335,Shane McClanahan,R,Power,1.25,1.0
+2026-03-31,American Family Field,72,0,,,,Brice Turang,RBI,0.35140252113342285,3.0,Brice Turang,L,Balanced,0.335,Shane McClanahan,R,Power,1.25,1.0
+2026-03-31,American Family Field,72,0,,,,Christian Yelich,HR,0.18604527413845062,4.0,Christian Yelich,L,Slugger,0.33,Shane McClanahan,R,Power,1.25,1.0
+2026-03-31,American Family Field,72,0,,,,Christian Yelich,Hit,0.6859397292137146,4.0,Christian Yelich,L,Slugger,0.33,Shane McClanahan,R,Power,1.25,1.0
+2026-03-31,American Family Field,72,0,,,,Christian Yelich,TB,0.3933351933956146,4.0,Christian Yelich,L,Slugger,0.33,Shane McClanahan,R,Power,1.25,1.0
+2026-03-31,American Family Field,72,0,,,,Christian Yelich,Run,0.4303450584411621,4.0,Christian Yelich,L,Slugger,0.33,Shane McClanahan,R,Power,1.25,1.0
+2026-03-31,American Family Field,72,0,,,,Christian Yelich,RBI,0.40017685294151306,4.0,Christian Yelich,L,Slugger,0.33,Shane McClanahan,R,Power,1.25,1.0
+2026-03-31,American Family Field,72,0,,,,David Hamilton,HR,0.10102561861276627,5.0,David Hamilton,L,Balanced,0.26,Shane McClanahan,R,Power,1.25,1.0
+2026-03-31,American Family Field,72,0,,,,David Hamilton,Hit,0.374874472618103,5.0,David Hamilton,L,Balanced,0.26,Shane McClanahan,R,Power,1.25,1.0
+2026-03-31,American Family Field,72,0,,,,David Hamilton,TB,0.21613585948944092,5.0,David Hamilton,L,Balanced,0.26,Shane McClanahan,R,Power,1.25,1.0
+2026-03-31,American Family Field,72,0,,,,David Hamilton,Run,0.2957516014575958,5.0,David Hamilton,L,Balanced,0.26,Shane McClanahan,R,Power,1.25,1.0
+2026-03-31,American Family Field,72,0,,,,David Hamilton,RBI,0.23463962972164154,5.0,David Hamilton,L,Balanced,0.26,Shane McClanahan,R,Power,1.25,1.0
+2026-03-31,American Family Field,72,0,,,,Garrett Mitchell,HR,0.0049573457799851894,6.0,Garrett Mitchell,L,Balanced,0.288,Shane McClanahan,R,Power,1.25,1.0
+2026-03-31,American Family Field,72,0,,,,Garrett Mitchell,Hit,0.507964551448822,6.0,Garrett Mitchell,L,Balanced,0.288,Shane McClanahan,R,Power,1.25,1.0
+2026-03-31,American Family Field,72,0,,,,Garrett Mitchell,TB,0.2735998034477234,6.0,Garrett Mitchell,L,Balanced,0.288,Shane McClanahan,R,Power,1.25,1.0
+2026-03-31,American Family Field,72,0,,,,Garrett Mitchell,Run,0.3140292167663574,6.0,Garrett Mitchell,L,Balanced,0.288,Shane McClanahan,R,Power,1.25,1.0
+2026-03-31,American Family Field,72,0,,,,Garrett Mitchell,RBI,0.12843367457389832,6.0,Garrett Mitchell,L,Balanced,0.288,Shane McClanahan,R,Power,1.25,1.0
+2026-03-31,American Family Field,72,0,,,,Gary Sánchez,HR,0.15954485535621643,7.0,Gary Sánchez,R,Slugger,0.315,Shane McClanahan,R,Power,1.25,0.0
+2026-03-31,American Family Field,72,0,,,,Gary Sánchez,Hit,0.5076977014541626,7.0,Gary Sánchez,R,Slugger,0.315,Shane McClanahan,R,Power,1.25,0.0
+2026-03-31,American Family Field,72,0,,,,Gary Sánchez,TB,0.2762985825538635,7.0,Gary Sánchez,R,Slugger,0.315,Shane McClanahan,R,Power,1.25,0.0
+2026-03-31,American Family Field,72,0,,,,Gary Sánchez,Run,0.3793179988861084,7.0,Gary Sánchez,R,Slugger,0.315,Shane McClanahan,R,Power,1.25,0.0
+2026-03-31,American Family Field,72,0,,,,Gary Sánchez,RBI,0.3847391605377197,7.0,Gary Sánchez,R,Slugger,0.315,Shane McClanahan,R,Power,1.25,0.0
+2026-03-31,American Family Field,72,0,,,,Jake Bauers,HR,0.13194717466831207,8.0,Jake Bauers,L,Balanced,0.356,Shane McClanahan,R,Power,1.25,1.0
+2026-03-31,American Family Field,72,0,,,,Jake Bauers,Hit,0.515205442905426,8.0,Jake Bauers,L,Balanced,0.356,Shane McClanahan,R,Power,1.25,1.0
+2026-03-31,American Family Field,72,0,,,,Jake Bauers,TB,0.3547466993331909,8.0,Jake Bauers,L,Balanced,0.356,Shane McClanahan,R,Power,1.25,1.0
+2026-03-31,American Family Field,72,0,,,,Jake Bauers,Run,0.40913596749305725,8.0,Jake Bauers,L,Balanced,0.356,Shane McClanahan,R,Power,1.25,1.0
+2026-03-31,American Family Field,72,0,,,,Jake Bauers,RBI,0.32875487208366394,8.0,Jake Bauers,L,Balanced,0.356,Shane McClanahan,R,Power,1.25,1.0
+2026-03-31,American Family Field,72,0,,,,Jeferson Quero,HR,0.09779507666826248,9.0,Jeferson Quero,R,Balanced,0.32,Shane McClanahan,R,Power,1.25,0.0
+2026-03-31,American Family Field,72,0,,,,Jeferson Quero,Hit,0.42750537395477295,9.0,Jeferson Quero,R,Balanced,0.32,Shane McClanahan,R,Power,1.25,0.0
+2026-03-31,American Family Field,72,0,,,,Jeferson Quero,TB,0.24925597012043,9.0,Jeferson Quero,R,Balanced,0.32,Shane McClanahan,R,Power,1.25,0.0
+2026-03-31,American Family Field,72,0,,,,Jeferson Quero,Run,0.2633557915687561,9.0,Jeferson Quero,R,Balanced,0.32,Shane McClanahan,R,Power,1.25,0.0
+2026-03-31,American Family Field,72,0,,,,Jeferson Quero,RBI,0.14585253596305847,9.0,Jeferson Quero,R,Balanced,0.32,Shane McClanahan,R,Power,1.25,0.0
+2026-03-31,Busch Stadium,77,13,out,New York Mets,St. Louis Cardinals,GAME_TOTAL,Over_9.5,0.4799,,,,,,,,,,
+2026-03-31,Busch Stadium,77,13,out,New York Mets,St. Louis Cardinals,GAME_TOTAL,NRFI,0.3706,,,,,,,,,,
+2026-03-31,Busch Stadium,77,13,,,,Bo Bichette,HR,0.12793754041194916,1.0,Bo Bichette,R,Contact,0.353,Andre Pallante,R,Balanced,1.1652281134401974,0.0
+2026-03-31,Busch Stadium,77,13,,,,Bo Bichette,Hit,0.7307783365249634,1.0,Bo Bichette,R,Contact,0.353,Andre Pallante,R,Balanced,1.1652281134401974,0.0
+2026-03-31,Busch Stadium,77,13,,,,Bo Bichette,TB,0.48351728916168213,1.0,Bo Bichette,R,Contact,0.353,Andre Pallante,R,Balanced,1.1652281134401974,0.0
+2026-03-31,Busch Stadium,77,13,,,,Bo Bichette,Run,0.46070247888565063,1.0,Bo Bichette,R,Contact,0.353,Andre Pallante,R,Balanced,1.1652281134401974,0.0
+2026-03-31,Busch Stadium,77,13,,,,Bo Bichette,RBI,0.40502724051475525,1.0,Bo Bichette,R,Contact,0.353,Andre Pallante,R,Balanced,1.1652281134401974,0.0
+2026-03-31,Busch Stadium,77,13,,,,Brett Baty,HR,0.2295411229133606,2.0,Brett Baty,L,Slugger,0.334,Andre Pallante,R,Balanced,1.1652281134401974,1.0
+2026-03-31,Busch Stadium,77,13,,,,Brett Baty,Hit,0.702890157699585,2.0,Brett Baty,L,Slugger,0.334,Andre Pallante,R,Balanced,1.1652281134401974,1.0
+2026-03-31,Busch Stadium,77,13,,,,Brett Baty,TB,0.4294431209564209,2.0,Brett Baty,L,Slugger,0.334,Andre Pallante,R,Balanced,1.1652281134401974,1.0
+2026-03-31,Busch Stadium,77,13,,,,Brett Baty,Run,0.48003414273262024,2.0,Brett Baty,L,Slugger,0.334,Andre Pallante,R,Balanced,1.1652281134401974,1.0
+2026-03-31,Busch Stadium,77,13,,,,Brett Baty,RBI,0.3492203950881958,2.0,Brett Baty,L,Slugger,0.334,Andre Pallante,R,Balanced,1.1652281134401974,1.0
+2026-03-31,Busch Stadium,77,13,,,,Carson Benge,HR,0.12230921536684036,3.0,Carson Benge,L,Balanced,0.32,Andre Pallante,R,Balanced,1.1652281134401974,1.0
+2026-03-31,Busch Stadium,77,13,,,,Carson Benge,Hit,0.6549863219261169,3.0,Carson Benge,L,Balanced,0.32,Andre Pallante,R,Balanced,1.1652281134401974,1.0
+2026-03-31,Busch Stadium,77,13,,,,Carson Benge,TB,0.3817906379699707,3.0,Carson Benge,L,Balanced,0.32,Andre Pallante,R,Balanced,1.1652281134401974,1.0
+2026-03-31,Busch Stadium,77,13,,,,Carson Benge,Run,0.36148837208747864,3.0,Carson Benge,L,Balanced,0.32,Andre Pallante,R,Balanced,1.1652281134401974,1.0
+2026-03-31,Busch Stadium,77,13,,,,Carson Benge,RBI,0.20455525815486908,3.0,Carson Benge,L,Balanced,0.32,Andre Pallante,R,Balanced,1.1652281134401974,1.0
+2026-03-31,Busch Stadium,77,13,,,,Francisco Alvarez,HR,0.16792671382427216,4.0,Francisco Alvarez,R,Slugger,0.326,Andre Pallante,R,Balanced,1.1652281134401974,0.0
+2026-03-31,Busch Stadium,77,13,,,,Francisco Alvarez,Hit,0.6219889521598816,4.0,Francisco Alvarez,R,Slugger,0.326,Andre Pallante,R,Balanced,1.1652281134401974,0.0
+2026-03-31,Busch Stadium,77,13,,,,Francisco Alvarez,TB,0.404989629983902,4.0,Francisco Alvarez,R,Slugger,0.326,Andre Pallante,R,Balanced,1.1652281134401974,0.0
+2026-03-31,Busch Stadium,77,13,,,,Francisco Alvarez,Run,0.40560463070869446,4.0,Francisco Alvarez,R,Slugger,0.326,Andre Pallante,R,Balanced,1.1652281134401974,0.0
+2026-03-31,Busch Stadium,77,13,,,,Francisco Alvarez,RBI,0.3274366557598114,4.0,Francisco Alvarez,R,Slugger,0.326,Andre Pallante,R,Balanced,1.1652281134401974,0.0
+2026-03-31,Busch Stadium,77,13,,,,Francisco Lindor,HR,0.22888116538524628,5.0,Francisco Lindor,S,Balanced,0.345,Andre Pallante,R,Balanced,1.1652281134401974,1.0
+2026-03-31,Busch Stadium,77,13,,,,Francisco Lindor,Hit,0.6935129761695862,5.0,Francisco Lindor,S,Balanced,0.345,Andre Pallante,R,Balanced,1.1652281134401974,1.0
+2026-03-31,Busch Stadium,77,13,,,,Francisco Lindor,TB,0.44743451476097107,5.0,Francisco Lindor,S,Balanced,0.345,Andre Pallante,R,Balanced,1.1652281134401974,1.0
+2026-03-31,Busch Stadium,77,13,,,,Francisco Lindor,Run,0.5074620842933655,5.0,Francisco Lindor,S,Balanced,0.345,Andre Pallante,R,Balanced,1.1652281134401974,1.0
+2026-03-31,Busch Stadium,77,13,,,,Francisco Lindor,RBI,0.35985639691352844,5.0,Francisco Lindor,S,Balanced,0.345,Andre Pallante,R,Balanced,1.1652281134401974,1.0
+2026-03-31,Busch Stadium,77,13,,,,Jared Young,HR,0.29838645458221436,6.0,Jared Young,L,Slugger,0.296,Andre Pallante,R,Balanced,1.1652281134401974,1.0
+2026-03-31,Busch Stadium,77,13,,,,Jared Young,Hit,0.5444132089614868,6.0,Jared Young,L,Slugger,0.296,Andre Pallante,R,Balanced,1.1652281134401974,1.0
+2026-03-31,Busch Stadium,77,13,,,,Jared Young,TB,0.3582359552383423,6.0,Jared Young,L,Slugger,0.296,Andre Pallante,R,Balanced,1.1652281134401974,1.0
+2026-03-31,Busch Stadium,77,13,,,,Jared Young,Run,0.4049187898635864,6.0,Jared Young,L,Slugger,0.296,Andre Pallante,R,Balanced,1.1652281134401974,1.0
+2026-03-31,Busch Stadium,77,13,,,,Jared Young,RBI,0.3373214900493622,6.0,Jared Young,L,Slugger,0.296,Andre Pallante,R,Balanced,1.1652281134401974,1.0
+2026-03-31,Busch Stadium,77,13,,,,Jorge Polanco,HR,0.21757636964321136,7.0,Jorge Polanco,S,Balanced,0.343,Andre Pallante,R,Balanced,1.1652281134401974,1.0
+2026-03-31,Busch Stadium,77,13,,,,Jorge Polanco,Hit,0.6497164368629456,7.0,Jorge Polanco,S,Balanced,0.343,Andre Pallante,R,Balanced,1.1652281134401974,1.0
+2026-03-31,Busch Stadium,77,13,,,,Jorge Polanco,TB,0.42624276876449585,7.0,Jorge Polanco,S,Balanced,0.343,Andre Pallante,R,Balanced,1.1652281134401974,1.0
+2026-03-31,Busch Stadium,77,13,,,,Jorge Polanco,Run,0.45560112595558167,7.0,Jorge Polanco,S,Balanced,0.343,Andre Pallante,R,Balanced,1.1652281134401974,1.0
+2026-03-31,Busch Stadium,77,13,,,,Jorge Polanco,RBI,0.38499391078948975,7.0,Jorge Polanco,S,Balanced,0.343,Andre Pallante,R,Balanced,1.1652281134401974,1.0
+2026-03-31,Busch Stadium,77,13,,,,Juan Soto,HR,0.2863542139530182,8.0,Juan Soto,L,Balanced,0.429,Andre Pallante,R,Balanced,1.1652281134401974,1.0
+2026-03-31,Busch Stadium,77,13,,,,Juan Soto,Hit,0.556793749332428,8.0,Juan Soto,L,Balanced,0.429,Andre Pallante,R,Balanced,1.1652281134401974,1.0
+2026-03-31,Busch Stadium,77,13,,,,Juan Soto,TB,0.36664509773254395,8.0,Juan Soto,L,Balanced,0.429,Andre Pallante,R,Balanced,1.1652281134401974,1.0
+2026-03-31,Busch Stadium,77,13,,,,Juan Soto,Run,0.49595028162002563,8.0,Juan Soto,L,Balanced,0.429,Andre Pallante,R,Balanced,1.1652281134401974,1.0
+2026-03-31,Busch Stadium,77,13,,,,Juan Soto,RBI,0.400014728307724,8.0,Juan Soto,L,Balanced,0.429,Andre Pallante,R,Balanced,1.1652281134401974,1.0
+2026-03-31,Busch Stadium,77,13,,,,Luis Robert Jr.,HR,0.10048318654298782,9.0,Luis Robert Jr.,R,Balanced,0.321,Andre Pallante,R,Balanced,1.1652281134401974,0.0
+2026-03-31,Busch Stadium,77,13,,,,Luis Robert Jr.,Hit,0.4334179162979126,9.0,Luis Robert Jr.,R,Balanced,0.321,Andre Pallante,R,Balanced,1.1652281134401974,0.0
+2026-03-31,Busch Stadium,77,13,,,,Luis Robert Jr.,TB,0.22270770370960236,9.0,Luis Robert Jr.,R,Balanced,0.321,Andre Pallante,R,Balanced,1.1652281134401974,0.0
+2026-03-31,Busch Stadium,77,13,,,,Luis Robert Jr.,Run,0.3122647702693939,9.0,Luis Robert Jr.,R,Balanced,0.321,Andre Pallante,R,Balanced,1.1652281134401974,0.0
+2026-03-31,Busch Stadium,77,13,,,,Luis Robert Jr.,RBI,0.261766642332077,9.0,Luis Robert Jr.,R,Balanced,0.321,Andre Pallante,R,Balanced,1.1652281134401974,0.0
+2026-03-31,Busch Stadium,77,13,,,,Alec Burleson,HR,0.1608472317457199,1.0,Alec Burleson,L,Contact,0.345,Kodai Senga,R,Spin,0.9549071618037136,1.0
+2026-03-31,Busch Stadium,77,13,,,,Alec Burleson,Hit,0.7242968678474426,1.0,Alec Burleson,L,Contact,0.345,Kodai Senga,R,Spin,0.9549071618037136,1.0
+2026-03-31,Busch Stadium,77,13,,,,Alec Burleson,TB,0.45426955819129944,1.0,Alec Burleson,L,Contact,0.345,Kodai Senga,R,Spin,0.9549071618037136,1.0
+2026-03-31,Busch Stadium,77,13,,,,Alec Burleson,Run,0.40946564078330994,1.0,Alec Burleson,L,Contact,0.345,Kodai Senga,R,Spin,0.9549071618037136,1.0
+2026-03-31,Busch Stadium,77,13,,,,Alec Burleson,RBI,0.33567193150520325,1.0,Alec Burleson,L,Contact,0.345,Kodai Senga,R,Spin,0.9549071618037136,1.0
+2026-03-31,Busch Stadium,77,13,,,,Iván Herrera,HR,0.17318576574325562,2.0,Iván Herrera,R,Balanced,0.371,Kodai Senga,R,Spin,0.9549071618037136,0.0
+2026-03-31,Busch Stadium,77,13,,,,Iván Herrera,Hit,0.6667644381523132,2.0,Iván Herrera,R,Balanced,0.371,Kodai Senga,R,Spin,0.9549071618037136,0.0
+2026-03-31,Busch Stadium,77,13,,,,Iván Herrera,TB,0.3813130557537079,2.0,Iván Herrera,R,Balanced,0.371,Kodai Senga,R,Spin,0.9549071618037136,0.0
+2026-03-31,Busch Stadium,77,13,,,,Iván Herrera,Run,0.4277474880218506,2.0,Iván Herrera,R,Balanced,0.371,Kodai Senga,R,Spin,0.9549071618037136,0.0
+2026-03-31,Busch Stadium,77,13,,,,Iván Herrera,RBI,0.34935060143470764,2.0,Iván Herrera,R,Balanced,0.371,Kodai Senga,R,Spin,0.9549071618037136,0.0
+2026-03-31,Busch Stadium,77,13,,,,JJ Wetherholt,HR,0.10106117278337479,3.0,JJ Wetherholt,L,Balanced,0.32,Kodai Senga,R,Spin,0.9549071618037136,1.0
+2026-03-31,Busch Stadium,77,13,,,,JJ Wetherholt,Hit,0.5959815382957458,3.0,JJ Wetherholt,L,Balanced,0.32,Kodai Senga,R,Spin,0.9549071618037136,1.0
+2026-03-31,Busch Stadium,77,13,,,,JJ Wetherholt,TB,0.32981637120246887,3.0,JJ Wetherholt,L,Balanced,0.32,Kodai Senga,R,Spin,0.9549071618037136,1.0
+2026-03-31,Busch Stadium,77,13,,,,JJ Wetherholt,Run,0.33453407883644104,3.0,JJ Wetherholt,L,Balanced,0.32,Kodai Senga,R,Spin,0.9549071618037136,1.0
+2026-03-31,Busch Stadium,77,13,,,,JJ Wetherholt,RBI,0.21547047793865204,3.0,JJ Wetherholt,L,Balanced,0.32,Kodai Senga,R,Spin,0.9549071618037136,1.0
+2026-03-31,Busch Stadium,77,13,,,,Jordan Walker,HR,0.051853567361831665,4.0,Jordan Walker,R,Balanced,0.278,Kodai Senga,R,Spin,0.9549071618037136,0.0
+2026-03-31,Busch Stadium,77,13,,,,Jordan Walker,Hit,0.4539537727832794,4.0,Jordan Walker,R,Balanced,0.278,Kodai Senga,R,Spin,0.9549071618037136,0.0
+2026-03-31,Busch Stadium,77,13,,,,Jordan Walker,TB,0.2195202261209488,4.0,Jordan Walker,R,Balanced,0.278,Kodai Senga,R,Spin,0.9549071618037136,0.0
+2026-03-31,Busch Stadium,77,13,,,,Jordan Walker,Run,0.27745574712753296,4.0,Jordan Walker,R,Balanced,0.278,Kodai Senga,R,Spin,0.9549071618037136,0.0
+2026-03-31,Busch Stadium,77,13,,,,Jordan Walker,RBI,0.2229517549276352,4.0,Jordan Walker,R,Balanced,0.278,Kodai Senga,R,Spin,0.9549071618037136,0.0
+2026-03-31,Busch Stadium,77,13,,,,José Fermín,HR,0.048583485186100006,5.0,José Fermín,R,Contact,0.332,Kodai Senga,R,Spin,0.9549071618037136,0.0
+2026-03-31,Busch Stadium,77,13,,,,José Fermín,Hit,0.6009209752082825,5.0,José Fermín,R,Contact,0.332,Kodai Senga,R,Spin,0.9549071618037136,0.0
+2026-03-31,Busch Stadium,77,13,,,,José Fermín,TB,0.3338264524936676,5.0,José Fermín,R,Contact,0.332,Kodai Senga,R,Spin,0.9549071618037136,0.0
+2026-03-31,Busch Stadium,77,13,,,,José Fermín,Run,0.2638051509857178,5.0,José Fermín,R,Contact,0.332,Kodai Senga,R,Spin,0.9549071618037136,0.0
+2026-03-31,Busch Stadium,77,13,,,,José Fermín,RBI,0.3094158470630646,5.0,José Fermín,R,Contact,0.332,Kodai Senga,R,Spin,0.9549071618037136,0.0
+2026-03-31,Busch Stadium,77,13,,,,Masyn Winn,HR,0.05689745023846626,6.0,Masyn Winn,R,Contact,0.286,Kodai Senga,R,Spin,0.9549071618037136,0.0
+2026-03-31,Busch Stadium,77,13,,,,Masyn Winn,Hit,0.5589327216148376,6.0,Masyn Winn,R,Contact,0.286,Kodai Senga,R,Spin,0.9549071618037136,0.0
+2026-03-31,Busch Stadium,77,13,,,,Masyn Winn,TB,0.2777804732322693,6.0,Masyn Winn,R,Contact,0.286,Kodai Senga,R,Spin,0.9549071618037136,0.0
+2026-03-31,Busch Stadium,77,13,,,,Masyn Winn,Run,0.32309219241142273,6.0,Masyn Winn,R,Contact,0.286,Kodai Senga,R,Spin,0.9549071618037136,0.0
+2026-03-31,Busch Stadium,77,13,,,,Masyn Winn,RBI,0.231089249253273,6.0,Masyn Winn,R,Contact,0.286,Kodai Senga,R,Spin,0.9549071618037136,0.0
+2026-03-31,Busch Stadium,77,13,,,,Nathan Church,HR,0.04940749704837799,7.0,Nathan Church,L,Balanced,0.247,Kodai Senga,R,Spin,0.9549071618037136,1.0
+2026-03-31,Busch Stadium,77,13,,,,Nathan Church,Hit,0.4035266041755676,7.0,Nathan Church,L,Balanced,0.247,Kodai Senga,R,Spin,0.9549071618037136,1.0
+2026-03-31,Busch Stadium,77,13,,,,Nathan Church,TB,0.17195351421833038,7.0,Nathan Church,L,Balanced,0.247,Kodai Senga,R,Spin,0.9549071618037136,1.0
+2026-03-31,Busch Stadium,77,13,,,,Nathan Church,Run,0.31759679317474365,7.0,Nathan Church,L,Balanced,0.247,Kodai Senga,R,Spin,0.9549071618037136,1.0
+2026-03-31,Busch Stadium,77,13,,,,Nathan Church,RBI,0.26768118143081665,7.0,Nathan Church,L,Balanced,0.247,Kodai Senga,R,Spin,0.9549071618037136,1.0
+2026-03-31,Busch Stadium,77,13,,,,Nolan Gorman,HR,0.13111382722854614,8.0,Nolan Gorman,L,Balanced,0.296,Kodai Senga,R,Spin,0.9549071618037136,1.0
+2026-03-31,Busch Stadium,77,13,,,,Nolan Gorman,Hit,0.5145391225814819,8.0,Nolan Gorman,L,Balanced,0.296,Kodai Senga,R,Spin,0.9549071618037136,1.0
+2026-03-31,Busch Stadium,77,13,,,,Nolan Gorman,TB,0.279718816280365,8.0,Nolan Gorman,L,Balanced,0.296,Kodai Senga,R,Spin,0.9549071618037136,1.0
+2026-03-31,Busch Stadium,77,13,,,,Nolan Gorman,Run,0.3373205363750458,8.0,Nolan Gorman,L,Balanced,0.296,Kodai Senga,R,Spin,0.9549071618037136,1.0
+2026-03-31,Busch Stadium,77,13,,,,Nolan Gorman,RBI,0.26383620500564575,8.0,Nolan Gorman,L,Balanced,0.296,Kodai Senga,R,Spin,0.9549071618037136,1.0
+2026-03-31,Busch Stadium,77,13,,,,Pedro Pagés,HR,0.08838221430778503,9.0,Pedro Pagés,R,Balanced,0.259,Kodai Senga,R,Spin,0.9549071618037136,0.0
+2026-03-31,Busch Stadium,77,13,,,,Pedro Pagés,Hit,0.5003947615623474,9.0,Pedro Pagés,R,Balanced,0.259,Kodai Senga,R,Spin,0.9549071618037136,0.0
+2026-03-31,Busch Stadium,77,13,,,,Pedro Pagés,TB,0.24017438292503357,9.0,Pedro Pagés,R,Balanced,0.259,Kodai Senga,R,Spin,0.9549071618037136,0.0
+2026-03-31,Busch Stadium,77,13,,,,Pedro Pagés,Run,0.27435731887817383,9.0,Pedro Pagés,R,Balanced,0.259,Kodai Senga,R,Spin,0.9549071618037136,0.0
+2026-03-31,Busch Stadium,77,13,,,,Pedro Pagés,RBI,0.24011701345443726,9.0,Pedro Pagés,R,Balanced,0.259,Kodai Senga,R,Spin,0.9549071618037136,0.0
+2026-03-31,Daikin Park,72,0,none,Boston Red Sox,Houston Astros,GAME_TOTAL,Over_6.5,0.5746,,,,,,,,,,
+2026-03-31,Daikin Park,72,0,none,Boston Red Sox,Houston Astros,GAME_TOTAL,NRFI,0.482,,,,,,,,,,
+2026-03-31,Daikin Park,72,0,,,,Andruw Monasterio,HR,0.08382213860750198,1.0,Andruw Monasterio,R,Balanced,0.28,Hunter Brown,R,Spin,0.826580226904376,0.0
+2026-03-31,Daikin Park,72,0,,,,Andruw Monasterio,Hit,0.4393500089645386,1.0,Andruw Monasterio,R,Balanced,0.28,Hunter Brown,R,Spin,0.826580226904376,0.0
+2026-03-31,Daikin Park,72,0,,,,Andruw Monasterio,TB,0.23246517777442932,1.0,Andruw Monasterio,R,Balanced,0.28,Hunter Brown,R,Spin,0.826580226904376,0.0
+2026-03-31,Daikin Park,72,0,,,,Andruw Monasterio,Run,0.26441118121147156,1.0,Andruw Monasterio,R,Balanced,0.28,Hunter Brown,R,Spin,0.826580226904376,0.0
+2026-03-31,Daikin Park,72,0,,,,Andruw Monasterio,RBI,0.19027258455753326,1.0,Andruw Monasterio,R,Balanced,0.28,Hunter Brown,R,Spin,0.826580226904376,0.0
+2026-03-31,Daikin Park,72,0,,,,Caleb Durbin,HR,0.059699222445487976,2.0,Caleb Durbin,R,Contact,0.312,Hunter Brown,R,Spin,0.826580226904376,0.0
+2026-03-31,Daikin Park,72,0,,,,Caleb Durbin,Hit,0.5570471286773682,2.0,Caleb Durbin,R,Contact,0.312,Hunter Brown,R,Spin,0.826580226904376,0.0
+2026-03-31,Daikin Park,72,0,,,,Caleb Durbin,TB,0.2884138226509094,2.0,Caleb Durbin,R,Contact,0.312,Hunter Brown,R,Spin,0.826580226904376,0.0
+2026-03-31,Daikin Park,72,0,,,,Caleb Durbin,Run,0.32122260332107544,2.0,Caleb Durbin,R,Contact,0.312,Hunter Brown,R,Spin,0.826580226904376,0.0
+2026-03-31,Daikin Park,72,0,,,,Caleb Durbin,RBI,0.239206925034523,2.0,Caleb Durbin,R,Contact,0.312,Hunter Brown,R,Spin,0.826580226904376,0.0
+2026-03-31,Daikin Park,72,0,,,,Carlos Narváez,HR,0.09772919118404388,3.0,Carlos Narváez,R,Balanced,0.293,Hunter Brown,R,Spin,0.826580226904376,0.0
+2026-03-31,Daikin Park,72,0,,,,Carlos Narváez,Hit,0.47726911306381226,3.0,Carlos Narváez,R,Balanced,0.293,Hunter Brown,R,Spin,0.826580226904376,0.0
+2026-03-31,Daikin Park,72,0,,,,Carlos Narváez,TB,0.2602999806404114,3.0,Carlos Narváez,R,Balanced,0.293,Hunter Brown,R,Spin,0.826580226904376,0.0
+2026-03-31,Daikin Park,72,0,,,,Carlos Narváez,Run,0.2931816279888153,3.0,Carlos Narváez,R,Balanced,0.293,Hunter Brown,R,Spin,0.826580226904376,0.0
+2026-03-31,Daikin Park,72,0,,,,Carlos Narváez,RBI,0.23290126025676727,3.0,Carlos Narváez,R,Balanced,0.293,Hunter Brown,R,Spin,0.826580226904376,0.0
+2026-03-31,Daikin Park,72,0,,,,Ceddanne Rafaela,HR,0.057054679840803146,4.0,Ceddanne Rafaela,R,Balanced,0.305,Hunter Brown,R,Spin,0.826580226904376,0.0
+2026-03-31,Daikin Park,72,0,,,,Ceddanne Rafaela,Hit,0.5180606245994568,4.0,Ceddanne Rafaela,R,Balanced,0.305,Hunter Brown,R,Spin,0.826580226904376,0.0
+2026-03-31,Daikin Park,72,0,,,,Ceddanne Rafaela,TB,0.295927494764328,4.0,Ceddanne Rafaela,R,Balanced,0.305,Hunter Brown,R,Spin,0.826580226904376,0.0
+2026-03-31,Daikin Park,72,0,,,,Ceddanne Rafaela,Run,0.316804438829422,4.0,Ceddanne Rafaela,R,Balanced,0.305,Hunter Brown,R,Spin,0.826580226904376,0.0
+2026-03-31,Daikin Park,72,0,,,,Ceddanne Rafaela,RBI,0.23681510984897614,4.0,Ceddanne Rafaela,R,Balanced,0.305,Hunter Brown,R,Spin,0.826580226904376,0.0
+2026-03-31,Daikin Park,72,0,,,,Connor Wong,HR,0.02242206409573555,5.0,Connor Wong,R,Balanced,0.266,Hunter Brown,R,Spin,0.826580226904376,0.0
+2026-03-31,Daikin Park,72,0,,,,Connor Wong,Hit,0.312127947807312,5.0,Connor Wong,R,Balanced,0.266,Hunter Brown,R,Spin,0.826580226904376,0.0
+2026-03-31,Daikin Park,72,0,,,,Connor Wong,TB,0.15277989208698273,5.0,Connor Wong,R,Balanced,0.266,Hunter Brown,R,Spin,0.826580226904376,0.0
+2026-03-31,Daikin Park,72,0,,,,Connor Wong,Run,0.17646799981594086,5.0,Connor Wong,R,Balanced,0.266,Hunter Brown,R,Spin,0.826580226904376,0.0
+2026-03-31,Daikin Park,72,0,,,,Connor Wong,RBI,0.08021192997694016,5.0,Connor Wong,R,Balanced,0.266,Hunter Brown,R,Spin,0.826580226904376,0.0
+2026-03-31,Daikin Park,72,0,,,,Isiah Kiner-Falefa,HR,0.02440989762544632,6.0,Isiah Kiner-Falefa,R,Contact,0.262,Hunter Brown,R,Spin,0.826580226904376,0.0
+2026-03-31,Daikin Park,72,0,,,,Isiah Kiner-Falefa,Hit,0.4957556426525116,6.0,Isiah Kiner-Falefa,R,Contact,0.262,Hunter Brown,R,Spin,0.826580226904376,0.0
+2026-03-31,Daikin Park,72,0,,,,Isiah Kiner-Falefa,TB,0.2219647467136383,6.0,Isiah Kiner-Falefa,R,Contact,0.262,Hunter Brown,R,Spin,0.826580226904376,0.0
+2026-03-31,Daikin Park,72,0,,,,Isiah Kiner-Falefa,Run,0.21061496436595917,6.0,Isiah Kiner-Falefa,R,Contact,0.262,Hunter Brown,R,Spin,0.826580226904376,0.0
+2026-03-31,Daikin Park,72,0,,,,Isiah Kiner-Falefa,RBI,0.1948409080505371,6.0,Isiah Kiner-Falefa,R,Contact,0.262,Hunter Brown,R,Spin,0.826580226904376,0.0
+2026-03-31,Daikin Park,72,0,,,,Jarren Duran,HR,0.05816759914159775,7.0,Jarren Duran,L,Balanced,0.326,Hunter Brown,R,Spin,0.826580226904376,1.0
+2026-03-31,Daikin Park,72,0,,,,Jarren Duran,Hit,0.5102661848068237,7.0,Jarren Duran,L,Balanced,0.326,Hunter Brown,R,Spin,0.826580226904376,1.0
+2026-03-31,Daikin Park,72,0,,,,Jarren Duran,TB,0.3041549026966095,7.0,Jarren Duran,L,Balanced,0.326,Hunter Brown,R,Spin,0.826580226904376,1.0
+2026-03-31,Daikin Park,72,0,,,,Jarren Duran,Run,0.30776187777519226,7.0,Jarren Duran,L,Balanced,0.326,Hunter Brown,R,Spin,0.826580226904376,1.0
+2026-03-31,Daikin Park,72,0,,,,Jarren Duran,RBI,0.2584202289581299,7.0,Jarren Duran,L,Balanced,0.326,Hunter Brown,R,Spin,0.826580226904376,1.0
+2026-03-31,Daikin Park,72,0,,,,Marcelo Mayer,HR,0.08508642762899399,8.0,Marcelo Mayer,L,Balanced,0.263,Hunter Brown,R,Spin,0.826580226904376,1.0
+2026-03-31,Daikin Park,72,0,,,,Marcelo Mayer,Hit,0.4989883601665497,8.0,Marcelo Mayer,L,Balanced,0.263,Hunter Brown,R,Spin,0.826580226904376,1.0
+2026-03-31,Daikin Park,72,0,,,,Marcelo Mayer,TB,0.2519368827342987,8.0,Marcelo Mayer,L,Balanced,0.263,Hunter Brown,R,Spin,0.826580226904376,1.0
+2026-03-31,Daikin Park,72,0,,,,Marcelo Mayer,Run,0.3149760663509369,8.0,Marcelo Mayer,L,Balanced,0.263,Hunter Brown,R,Spin,0.826580226904376,1.0
+2026-03-31,Daikin Park,72,0,,,,Marcelo Mayer,RBI,0.17453303933143616,8.0,Marcelo Mayer,L,Balanced,0.263,Hunter Brown,R,Spin,0.826580226904376,1.0
+2026-03-31,Daikin Park,72,0,,,,Masataka Yoshida,HR,0.06018165498971939,9.0,Masataka Yoshida,L,Contact,0.314,Hunter Brown,R,Spin,0.826580226904376,1.0
+2026-03-31,Daikin Park,72,0,,,,Masataka Yoshida,Hit,0.48997223377227783,9.0,Masataka Yoshida,L,Contact,0.314,Hunter Brown,R,Spin,0.826580226904376,1.0
+2026-03-31,Daikin Park,72,0,,,,Masataka Yoshida,TB,0.28172823786735535,9.0,Masataka Yoshida,L,Contact,0.314,Hunter Brown,R,Spin,0.826580226904376,1.0
+2026-03-31,Daikin Park,72,0,,,,Masataka Yoshida,Run,0.21676939725875854,9.0,Masataka Yoshida,L,Contact,0.314,Hunter Brown,R,Spin,0.826580226904376,1.0
+2026-03-31,Daikin Park,72,0,,,,Masataka Yoshida,RBI,0.24940107762813568,9.0,Masataka Yoshida,L,Contact,0.314,Hunter Brown,R,Spin,0.826580226904376,1.0
+2026-03-31,Daikin Park,72,0,,,,Brice Matthews,HR,0.23815208673477173,1.0,Brice Matthews,R,Slugger,0.294,Brayan Bello,R,Spin,0.8664259927797835,0.0
+2026-03-31,Daikin Park,72,0,,,,Brice Matthews,Hit,0.4927334785461426,1.0,Brice Matthews,R,Slugger,0.294,Brayan Bello,R,Spin,0.8664259927797835,0.0
+2026-03-31,Daikin Park,72,0,,,,Brice Matthews,TB,0.2700842320919037,1.0,Brice Matthews,R,Slugger,0.294,Brayan Bello,R,Spin,0.8664259927797835,0.0
+2026-03-31,Daikin Park,72,0,,,,Brice Matthews,Run,0.3671603202819824,1.0,Brice Matthews,R,Slugger,0.294,Brayan Bello,R,Spin,0.8664259927797835,0.0
+2026-03-31,Daikin Park,72,0,,,,Brice Matthews,RBI,0.296222984790802,1.0,Brice Matthews,R,Slugger,0.294,Brayan Bello,R,Spin,0.8664259927797835,0.0
+2026-03-31,Daikin Park,72,0,,,,Cam Smith,HR,0.0555526539683342,2.0,Cam Smith,R,Balanced,0.304,Brayan Bello,R,Spin,0.8664259927797835,0.0
+2026-03-31,Daikin Park,72,0,,,,Cam Smith,Hit,0.5588557720184326,2.0,Cam Smith,R,Balanced,0.304,Brayan Bello,R,Spin,0.8664259927797835,0.0
+2026-03-31,Daikin Park,72,0,,,,Cam Smith,TB,0.27900367975234985,2.0,Cam Smith,R,Balanced,0.304,Brayan Bello,R,Spin,0.8664259927797835,0.0
+2026-03-31,Daikin Park,72,0,,,,Cam Smith,Run,0.332153856754303,2.0,Cam Smith,R,Balanced,0.304,Brayan Bello,R,Spin,0.8664259927797835,0.0
+2026-03-31,Daikin Park,72,0,,,,Cam Smith,RBI,0.25174370408058167,2.0,Cam Smith,R,Balanced,0.304,Brayan Bello,R,Spin,0.8664259927797835,0.0
+2026-03-31,Daikin Park,72,0,,,,Carlos Correa,HR,0.06196577847003937,3.0,Carlos Correa,R,Balanced,0.338,Brayan Bello,R,Spin,0.8664259927797835,0.0
+2026-03-31,Daikin Park,72,0,,,,Carlos Correa,Hit,0.6375650763511658,3.0,Carlos Correa,R,Balanced,0.338,Brayan Bello,R,Spin,0.8664259927797835,0.0
+2026-03-31,Daikin Park,72,0,,,,Carlos Correa,TB,0.35224205255508423,3.0,Carlos Correa,R,Balanced,0.338,Brayan Bello,R,Spin,0.8664259927797835,0.0
+2026-03-31,Daikin Park,72,0,,,,Carlos Correa,Run,0.32121986150741577,3.0,Carlos Correa,R,Balanced,0.338,Brayan Bello,R,Spin,0.8664259927797835,0.0
+2026-03-31,Daikin Park,72,0,,,,Carlos Correa,RBI,0.25365200638771057,3.0,Carlos Correa,R,Balanced,0.338,Brayan Bello,R,Spin,0.8664259927797835,0.0
+2026-03-31,Daikin Park,72,0,,,,Christian Vázquez,HR,0.03233937919139862,4.0,Christian Vázquez,R,Contact,0.271,Brayan Bello,R,Spin,0.8664259927797835,0.0
+2026-03-31,Daikin Park,72,0,,,,Christian Vázquez,Hit,0.33715635538101196,4.0,Christian Vázquez,R,Contact,0.271,Brayan Bello,R,Spin,0.8664259927797835,0.0
+2026-03-31,Daikin Park,72,0,,,,Christian Vázquez,TB,0.16207577288150787,4.0,Christian Vázquez,R,Contact,0.271,Brayan Bello,R,Spin,0.8664259927797835,0.0
+2026-03-31,Daikin Park,72,0,,,,Christian Vázquez,Run,0.17037171125411987,4.0,Christian Vázquez,R,Contact,0.271,Brayan Bello,R,Spin,0.8664259927797835,0.0
+2026-03-31,Daikin Park,72,0,,,,Christian Vázquez,RBI,0.1417948305606842,4.0,Christian Vázquez,R,Contact,0.271,Brayan Bello,R,Spin,0.8664259927797835,0.0
+2026-03-31,Daikin Park,72,0,,,,Christian Walker,HR,0.10424663126468658,5.0,Christian Walker,R,Slugger,0.314,Brayan Bello,R,Spin,0.8664259927797835,0.0
+2026-03-31,Daikin Park,72,0,,,,Christian Walker,Hit,0.5491707921028137,5.0,Christian Walker,R,Slugger,0.314,Brayan Bello,R,Spin,0.8664259927797835,0.0
+2026-03-31,Daikin Park,72,0,,,,Christian Walker,TB,0.3093842566013336,5.0,Christian Walker,R,Slugger,0.314,Brayan Bello,R,Spin,0.8664259927797835,0.0
+2026-03-31,Daikin Park,72,0,,,,Christian Walker,Run,0.3416161835193634,5.0,Christian Walker,R,Slugger,0.314,Brayan Bello,R,Spin,0.8664259927797835,0.0
+2026-03-31,Daikin Park,72,0,,,,Christian Walker,RBI,0.29743432998657227,5.0,Christian Walker,R,Slugger,0.314,Brayan Bello,R,Spin,0.8664259927797835,0.0
+2026-03-31,Daikin Park,72,0,,,,Isaac Paredes,HR,0.10464134812355042,6.0,Isaac Paredes,R,Balanced,0.32,Brayan Bello,R,Spin,0.8664259927797835,0.0
+2026-03-31,Daikin Park,72,0,,,,Isaac Paredes,Hit,0.5233373045921326,6.0,Isaac Paredes,R,Balanced,0.32,Brayan Bello,R,Spin,0.8664259927797835,0.0
+2026-03-31,Daikin Park,72,0,,,,Isaac Paredes,TB,0.2785983979701996,6.0,Isaac Paredes,R,Balanced,0.32,Brayan Bello,R,Spin,0.8664259927797835,0.0
+2026-03-31,Daikin Park,72,0,,,,Isaac Paredes,Run,0.3395933210849762,6.0,Isaac Paredes,R,Balanced,0.32,Brayan Bello,R,Spin,0.8664259927797835,0.0
+2026-03-31,Daikin Park,72,0,,,,Isaac Paredes,RBI,0.2643211781978607,6.0,Isaac Paredes,R,Balanced,0.32,Brayan Bello,R,Spin,0.8664259927797835,0.0
+2026-03-31,Daikin Park,72,0,,,,Jake Meyers,HR,0.03016408532857895,7.0,Jake Meyers,R,Contact,0.325,Brayan Bello,R,Spin,0.8664259927797835,0.0
+2026-03-31,Daikin Park,72,0,,,,Jake Meyers,Hit,0.5829395055770874,7.0,Jake Meyers,R,Contact,0.325,Brayan Bello,R,Spin,0.8664259927797835,0.0
+2026-03-31,Daikin Park,72,0,,,,Jake Meyers,TB,0.31565171480178833,7.0,Jake Meyers,R,Contact,0.325,Brayan Bello,R,Spin,0.8664259927797835,0.0
+2026-03-31,Daikin Park,72,0,,,,Jake Meyers,Run,0.3585994839668274,7.0,Jake Meyers,R,Contact,0.325,Brayan Bello,R,Spin,0.8664259927797835,0.0
+2026-03-31,Daikin Park,72,0,,,,Jake Meyers,RBI,0.18463487923145294,7.0,Jake Meyers,R,Contact,0.325,Brayan Bello,R,Spin,0.8664259927797835,0.0
+2026-03-31,Daikin Park,72,0,,,,Jeremy Peña,HR,0.09575605392456055,8.0,Jeremy Peña,R,Contact,0.334,Brayan Bello,R,Spin,0.8664259927797835,0.0
+2026-03-31,Daikin Park,72,0,,,,Jeremy Peña,Hit,0.5638109445571899,8.0,Jeremy Peña,R,Contact,0.334,Brayan Bello,R,Spin,0.8664259927797835,0.0
+2026-03-31,Daikin Park,72,0,,,,Jeremy Peña,TB,0.34120050072669983,8.0,Jeremy Peña,R,Contact,0.334,Brayan Bello,R,Spin,0.8664259927797835,0.0
+2026-03-31,Daikin Park,72,0,,,,Jeremy Peña,Run,0.3535161316394806,8.0,Jeremy Peña,R,Contact,0.334,Brayan Bello,R,Spin,0.8664259927797835,0.0
+2026-03-31,Daikin Park,72,0,,,,Jeremy Peña,RBI,0.27209919691085815,8.0,Jeremy Peña,R,Contact,0.334,Brayan Bello,R,Spin,0.8664259927797835,0.0
+2026-03-31,Daikin Park,72,0,,,,Joey Loperfido,HR,0.10155966132879257,9.0,Joey Loperfido,L,Slugger,0.316,Brayan Bello,R,Spin,0.8664259927797835,1.0
+2026-03-31,Daikin Park,72,0,,,,Joey Loperfido,Hit,0.5344511270523071,9.0,Joey Loperfido,L,Slugger,0.316,Brayan Bello,R,Spin,0.8664259927797835,1.0
+2026-03-31,Daikin Park,72,0,,,,Joey Loperfido,TB,0.31097447872161865,9.0,Joey Loperfido,L,Slugger,0.316,Brayan Bello,R,Spin,0.8664259927797835,1.0
+2026-03-31,Daikin Park,72,0,,,,Joey Loperfido,Run,0.2853960394859314,9.0,Joey Loperfido,L,Slugger,0.316,Brayan Bello,R,Spin,0.8664259927797835,1.0
+2026-03-31,Daikin Park,72,0,,,,Joey Loperfido,RBI,0.2791193723678589,9.0,Joey Loperfido,L,Slugger,0.316,Brayan Bello,R,Spin,0.8664259927797835,1.0
+2026-03-31,Chase Field,72,0,none,Detroit Tigers,Arizona Diamondbacks,GAME_TOTAL,Over_11.5,0.4733,,,,,,,,,,
+2026-03-31,Chase Field,72,0,none,Detroit Tigers,Arizona Diamondbacks,GAME_TOTAL,NRFI,0.2481,,,,,,,,,,
+2026-03-31,Chase Field,72,0,,,,Colt Keith,HR,0.1393694430589676,1.0,Colt Keith,L,Balanced,0.341,Brandon Pfaadt,R,Power,1.3280363223609537,1.0
+2026-03-31,Chase Field,72,0,,,,Colt Keith,Hit,0.7111231684684753,1.0,Colt Keith,L,Balanced,0.341,Brandon Pfaadt,R,Power,1.3280363223609537,1.0
+2026-03-31,Chase Field,72,0,,,,Colt Keith,TB,0.4590056836605072,1.0,Colt Keith,L,Balanced,0.341,Brandon Pfaadt,R,Power,1.3280363223609537,1.0
+2026-03-31,Chase Field,72,0,,,,Colt Keith,Run,0.47908732295036316,1.0,Colt Keith,L,Balanced,0.341,Brandon Pfaadt,R,Power,1.3280363223609537,1.0
+2026-03-31,Chase Field,72,0,,,,Colt Keith,RBI,0.33021658658981323,1.0,Colt Keith,L,Balanced,0.341,Brandon Pfaadt,R,Power,1.3280363223609537,1.0
+2026-03-31,Chase Field,72,0,,,,Dillon Dingler,HR,0.11309923231601715,2.0,Dillon Dingler,R,Balanced,0.351,Brandon Pfaadt,R,Power,1.3280363223609537,0.0
+2026-03-31,Chase Field,72,0,,,,Dillon Dingler,Hit,0.7072474360466003,2.0,Dillon Dingler,R,Balanced,0.351,Brandon Pfaadt,R,Power,1.3280363223609537,0.0
+2026-03-31,Chase Field,72,0,,,,Dillon Dingler,TB,0.4320944845676422,2.0,Dillon Dingler,R,Balanced,0.351,Brandon Pfaadt,R,Power,1.3280363223609537,0.0
+2026-03-31,Chase Field,72,0,,,,Dillon Dingler,Run,0.4227166771888733,2.0,Dillon Dingler,R,Balanced,0.351,Brandon Pfaadt,R,Power,1.3280363223609537,0.0
+2026-03-31,Chase Field,72,0,,,,Dillon Dingler,RBI,0.34000834822654724,2.0,Dillon Dingler,R,Balanced,0.351,Brandon Pfaadt,R,Power,1.3280363223609537,0.0
+2026-03-31,Chase Field,72,0,,,,Gleyber Torres,HR,0.1176670491695404,3.0,Gleyber Torres,R,Contact,0.363,Brandon Pfaadt,R,Power,1.3280363223609537,0.0
+2026-03-31,Chase Field,72,0,,,,Gleyber Torres,Hit,0.6398457288742065,3.0,Gleyber Torres,R,Contact,0.363,Brandon Pfaadt,R,Power,1.3280363223609537,0.0
+2026-03-31,Chase Field,72,0,,,,Gleyber Torres,TB,0.3783353865146637,3.0,Gleyber Torres,R,Contact,0.363,Brandon Pfaadt,R,Power,1.3280363223609537,0.0
+2026-03-31,Chase Field,72,0,,,,Gleyber Torres,Run,0.4314463436603546,3.0,Gleyber Torres,R,Contact,0.363,Brandon Pfaadt,R,Power,1.3280363223609537,0.0
+2026-03-31,Chase Field,72,0,,,,Gleyber Torres,RBI,0.3406508266925812,3.0,Gleyber Torres,R,Contact,0.363,Brandon Pfaadt,R,Power,1.3280363223609537,0.0
+2026-03-31,Chase Field,72,0,,,,Jahmai Jones,HR,0.20241044461727142,4.0,Jahmai Jones,R,Slugger,0.399,Brandon Pfaadt,R,Power,1.3280363223609537,0.0
+2026-03-31,Chase Field,72,0,,,,Jahmai Jones,Hit,0.5798637270927429,4.0,Jahmai Jones,R,Slugger,0.399,Brandon Pfaadt,R,Power,1.3280363223609537,0.0
+2026-03-31,Chase Field,72,0,,,,Jahmai Jones,TB,0.3734697699546814,4.0,Jahmai Jones,R,Slugger,0.399,Brandon Pfaadt,R,Power,1.3280363223609537,0.0
+2026-03-31,Chase Field,72,0,,,,Jahmai Jones,Run,0.37169149518013,4.0,Jahmai Jones,R,Slugger,0.399,Brandon Pfaadt,R,Power,1.3280363223609537,0.0
+2026-03-31,Chase Field,72,0,,,,Jahmai Jones,RBI,0.31147104501724243,4.0,Jahmai Jones,R,Slugger,0.399,Brandon Pfaadt,R,Power,1.3280363223609537,0.0
+2026-03-31,Chase Field,72,0,,,,Jake Rogers,HR,0.06717261672019958,5.0,Jake Rogers,R,Balanced,0.274,Brandon Pfaadt,R,Power,1.3280363223609537,0.0
+2026-03-31,Chase Field,72,0,,,,Jake Rogers,Hit,0.39966532588005066,5.0,Jake Rogers,R,Balanced,0.274,Brandon Pfaadt,R,Power,1.3280363223609537,0.0
+2026-03-31,Chase Field,72,0,,,,Jake Rogers,TB,0.2152799665927887,5.0,Jake Rogers,R,Balanced,0.274,Brandon Pfaadt,R,Power,1.3280363223609537,0.0
+2026-03-31,Chase Field,72,0,,,,Jake Rogers,Run,0.2803855836391449,5.0,Jake Rogers,R,Balanced,0.274,Brandon Pfaadt,R,Power,1.3280363223609537,0.0
+2026-03-31,Chase Field,72,0,,,,Jake Rogers,RBI,0.2753676474094391,5.0,Jake Rogers,R,Balanced,0.274,Brandon Pfaadt,R,Power,1.3280363223609537,0.0
+2026-03-31,Chase Field,72,0,,,,Javier Báez,HR,0.09260299801826477,6.0,Javier Báez,R,Balanced,0.271,Brandon Pfaadt,R,Power,1.3280363223609537,0.0
+2026-03-31,Chase Field,72,0,,,,Javier Báez,Hit,0.5148476362228394,6.0,Javier Báez,R,Balanced,0.271,Brandon Pfaadt,R,Power,1.3280363223609537,0.0
+2026-03-31,Chase Field,72,0,,,,Javier Báez,TB,0.2971669137477875,6.0,Javier Báez,R,Balanced,0.271,Brandon Pfaadt,R,Power,1.3280363223609537,0.0
+2026-03-31,Chase Field,72,0,,,,Javier Báez,Run,0.3170705735683441,6.0,Javier Báez,R,Balanced,0.271,Brandon Pfaadt,R,Power,1.3280363223609537,0.0
+2026-03-31,Chase Field,72,0,,,,Javier Báez,RBI,0.2826598882675171,6.0,Javier Báez,R,Balanced,0.271,Brandon Pfaadt,R,Power,1.3280363223609537,0.0
+2026-03-31,Chase Field,72,0,,,,Kerry Carpenter,HR,0.21209610998630524,7.0,Kerry Carpenter,L,Slugger,0.335,Brandon Pfaadt,R,Power,1.3280363223609537,1.0
+2026-03-31,Chase Field,72,0,,,,Kerry Carpenter,Hit,0.6424828171730042,7.0,Kerry Carpenter,L,Slugger,0.335,Brandon Pfaadt,R,Power,1.3280363223609537,1.0
+2026-03-31,Chase Field,72,0,,,,Kerry Carpenter,TB,0.4244317412376404,7.0,Kerry Carpenter,L,Slugger,0.335,Brandon Pfaadt,R,Power,1.3280363223609537,1.0
+2026-03-31,Chase Field,72,0,,,,Kerry Carpenter,Run,0.44525226950645447,7.0,Kerry Carpenter,L,Slugger,0.335,Brandon Pfaadt,R,Power,1.3280363223609537,1.0
+2026-03-31,Chase Field,72,0,,,,Kerry Carpenter,RBI,0.3600437641143799,7.0,Kerry Carpenter,L,Slugger,0.335,Brandon Pfaadt,R,Power,1.3280363223609537,1.0
+2026-03-31,Chase Field,72,0,,,,Kevin McGonigle,HR,0.11419261991977692,8.0,Kevin McGonigle,L,Balanced,0.32,Brandon Pfaadt,R,Power,1.3280363223609537,1.0
+2026-03-31,Chase Field,72,0,,,,Kevin McGonigle,Hit,0.5236741900444031,8.0,Kevin McGonigle,L,Balanced,0.32,Brandon Pfaadt,R,Power,1.3280363223609537,1.0
+2026-03-31,Chase Field,72,0,,,,Kevin McGonigle,TB,0.30714496970176697,8.0,Kevin McGonigle,L,Balanced,0.32,Brandon Pfaadt,R,Power,1.3280363223609537,1.0
+2026-03-31,Chase Field,72,0,,,,Kevin McGonigle,Run,0.3114522099494934,8.0,Kevin McGonigle,L,Balanced,0.32,Brandon Pfaadt,R,Power,1.3280363223609537,1.0
+2026-03-31,Chase Field,72,0,,,,Kevin McGonigle,RBI,0.17008043825626373,8.0,Kevin McGonigle,L,Balanced,0.32,Brandon Pfaadt,R,Power,1.3280363223609537,1.0
+2026-03-31,Chase Field,72,0,,,,Matt Vierling,HR,0.037124961614608765,9.0,Matt Vierling,R,Balanced,0.338,Brandon Pfaadt,R,Power,1.3280363223609537,0.0
+2026-03-31,Chase Field,72,0,,,,Matt Vierling,Hit,0.42749539017677307,9.0,Matt Vierling,R,Balanced,0.338,Brandon Pfaadt,R,Power,1.3280363223609537,0.0
+2026-03-31,Chase Field,72,0,,,,Matt Vierling,TB,0.1839943528175354,9.0,Matt Vierling,R,Balanced,0.338,Brandon Pfaadt,R,Power,1.3280363223609537,0.0
+2026-03-31,Chase Field,72,0,,,,Matt Vierling,Run,0.16747444868087769,9.0,Matt Vierling,R,Balanced,0.338,Brandon Pfaadt,R,Power,1.3280363223609537,0.0
+2026-03-31,Chase Field,72,0,,,,Matt Vierling,RBI,0.25025123357772827,9.0,Matt Vierling,R,Balanced,0.338,Brandon Pfaadt,R,Power,1.3280363223609537,0.0
+2026-03-31,Chase Field,72,0,,,,Alek Thomas,HR,0.07623139023780823,1.0,Alek Thomas,L,Balanced,0.289,Casey Mize,R,Power,1.268456375838926,1.0
+2026-03-31,Chase Field,72,0,,,,Alek Thomas,Hit,0.5349982380867004,1.0,Alek Thomas,L,Balanced,0.289,Casey Mize,R,Power,1.268456375838926,1.0
+2026-03-31,Chase Field,72,0,,,,Alek Thomas,TB,0.29844069480895996,1.0,Alek Thomas,L,Balanced,0.289,Casey Mize,R,Power,1.268456375838926,1.0
+2026-03-31,Chase Field,72,0,,,,Alek Thomas,Run,0.30969542264938354,1.0,Alek Thomas,L,Balanced,0.289,Casey Mize,R,Power,1.268456375838926,1.0
+2026-03-31,Chase Field,72,0,,,,Alek Thomas,RBI,0.2538270056247711,1.0,Alek Thomas,L,Balanced,0.289,Casey Mize,R,Power,1.268456375838926,1.0
+2026-03-31,Chase Field,72,0,,,,Carlos Santana,HR,0.1104840412735939,2.0,Carlos Santana,S,Balanced,0.29,Casey Mize,R,Power,1.268456375838926,1.0
+2026-03-31,Chase Field,72,0,,,,Carlos Santana,Hit,0.5090289115905762,2.0,Carlos Santana,S,Balanced,0.29,Casey Mize,R,Power,1.268456375838926,1.0
+2026-03-31,Chase Field,72,0,,,,Carlos Santana,TB,0.276630163192749,2.0,Carlos Santana,S,Balanced,0.29,Casey Mize,R,Power,1.268456375838926,1.0
+2026-03-31,Chase Field,72,0,,,,Carlos Santana,Run,0.3345383405685425,2.0,Carlos Santana,S,Balanced,0.29,Casey Mize,R,Power,1.268456375838926,1.0
+2026-03-31,Chase Field,72,0,,,,Carlos Santana,RBI,0.2937667667865753,2.0,Carlos Santana,S,Balanced,0.29,Casey Mize,R,Power,1.268456375838926,1.0
+2026-03-31,Chase Field,72,0,,,,Corbin Carroll,HR,0.20666120946407318,3.0,Corbin Carroll,L,Slugger,0.372,Casey Mize,R,Power,1.268456375838926,1.0
+2026-03-31,Chase Field,72,0,,,,Corbin Carroll,Hit,0.6999779939651489,3.0,Corbin Carroll,L,Slugger,0.372,Casey Mize,R,Power,1.268456375838926,1.0
+2026-03-31,Chase Field,72,0,,,,Corbin Carroll,TB,0.45538249611854553,3.0,Corbin Carroll,L,Slugger,0.372,Casey Mize,R,Power,1.268456375838926,1.0
+2026-03-31,Chase Field,72,0,,,,Corbin Carroll,Run,0.4808352291584015,3.0,Corbin Carroll,L,Slugger,0.372,Casey Mize,R,Power,1.268456375838926,1.0
+2026-03-31,Chase Field,72,0,,,,Corbin Carroll,RBI,0.3707304894924164,3.0,Corbin Carroll,L,Slugger,0.372,Casey Mize,R,Power,1.268456375838926,1.0
+2026-03-31,Chase Field,72,0,,,,Gabriel Moreno,HR,0.12135227769613266,4.0,Gabriel Moreno,R,Contact,0.346,Casey Mize,R,Power,1.268456375838926,0.0
+2026-03-31,Chase Field,72,0,,,,Gabriel Moreno,Hit,0.6873638033866882,4.0,Gabriel Moreno,R,Contact,0.346,Casey Mize,R,Power,1.268456375838926,0.0
+2026-03-31,Chase Field,72,0,,,,Gabriel Moreno,TB,0.39397555589675903,4.0,Gabriel Moreno,R,Contact,0.346,Casey Mize,R,Power,1.268456375838926,0.0
+2026-03-31,Chase Field,72,0,,,,Gabriel Moreno,Run,0.4371519684791565,4.0,Gabriel Moreno,R,Contact,0.346,Casey Mize,R,Power,1.268456375838926,0.0
+2026-03-31,Chase Field,72,0,,,,Gabriel Moreno,RBI,0.34714365005493164,4.0,Gabriel Moreno,R,Contact,0.346,Casey Mize,R,Power,1.268456375838926,0.0
+2026-03-31,Chase Field,72,0,,,,Geraldo Perdomo,HR,0.12339840829372406,5.0,Geraldo Perdomo,S,Contact,0.356,Casey Mize,R,Power,1.268456375838926,1.0
+2026-03-31,Chase Field,72,0,,,,Geraldo Perdomo,Hit,0.6855185031890869,5.0,Geraldo Perdomo,S,Contact,0.356,Casey Mize,R,Power,1.268456375838926,1.0
+2026-03-31,Chase Field,72,0,,,,Geraldo Perdomo,TB,0.4274095296859741,5.0,Geraldo Perdomo,S,Contact,0.356,Casey Mize,R,Power,1.268456375838926,1.0
+2026-03-31,Chase Field,72,0,,,,Geraldo Perdomo,Run,0.4362681806087494,5.0,Geraldo Perdomo,S,Contact,0.356,Casey Mize,R,Power,1.268456375838926,1.0
+2026-03-31,Chase Field,72,0,,,,Geraldo Perdomo,RBI,0.37359851598739624,5.0,Geraldo Perdomo,S,Contact,0.356,Casey Mize,R,Power,1.268456375838926,1.0
+2026-03-31,Chase Field,72,0,,,,Ildemaro Vargas,HR,0.1071816086769104,6.0,Ildemaro Vargas,S,Contact,0.287,Casey Mize,R,Power,1.268456375838926,1.0
+2026-03-31,Chase Field,72,0,,,,Ildemaro Vargas,Hit,0.6209076046943665,6.0,Ildemaro Vargas,S,Contact,0.287,Casey Mize,R,Power,1.268456375838926,1.0
+2026-03-31,Chase Field,72,0,,,,Ildemaro Vargas,TB,0.32655686140060425,6.0,Ildemaro Vargas,S,Contact,0.287,Casey Mize,R,Power,1.268456375838926,1.0
+2026-03-31,Chase Field,72,0,,,,Ildemaro Vargas,Run,0.3178941607475281,6.0,Ildemaro Vargas,S,Contact,0.287,Casey Mize,R,Power,1.268456375838926,1.0
+2026-03-31,Chase Field,72,0,,,,Ildemaro Vargas,RBI,0.3437661826610565,6.0,Ildemaro Vargas,S,Contact,0.287,Casey Mize,R,Power,1.268456375838926,1.0
+2026-03-31,Chase Field,72,0,,,,James McCann,HR,0.13065311312675476,7.0,James McCann,R,Slugger,0.313,Casey Mize,R,Power,1.268456375838926,0.0
+2026-03-31,Chase Field,72,0,,,,James McCann,Hit,0.5406428575515747,7.0,James McCann,R,Slugger,0.313,Casey Mize,R,Power,1.268456375838926,0.0
+2026-03-31,Chase Field,72,0,,,,James McCann,TB,0.3234946131706238,7.0,James McCann,R,Slugger,0.313,Casey Mize,R,Power,1.268456375838926,0.0
+2026-03-31,Chase Field,72,0,,,,James McCann,Run,0.3633037805557251,7.0,James McCann,R,Slugger,0.313,Casey Mize,R,Power,1.268456375838926,0.0
+2026-03-31,Chase Field,72,0,,,,James McCann,RBI,0.2943408489227295,7.0,James McCann,R,Slugger,0.313,Casey Mize,R,Power,1.268456375838926,0.0
+2026-03-31,Chase Field,72,0,,,,Jordan Lawlar,HR,0.004246745724231005,8.0,Jordan Lawlar,R,Balanced,0.253,Casey Mize,R,Power,1.268456375838926,0.0
+2026-03-31,Chase Field,72,0,,,,Jordan Lawlar,Hit,0.446216881275177,8.0,Jordan Lawlar,R,Balanced,0.253,Casey Mize,R,Power,1.268456375838926,0.0
+2026-03-31,Chase Field,72,0,,,,Jordan Lawlar,TB,0.256491094827652,8.0,Jordan Lawlar,R,Balanced,0.253,Casey Mize,R,Power,1.268456375838926,0.0
+2026-03-31,Chase Field,72,0,,,,Jordan Lawlar,Run,0.30477339029312134,8.0,Jordan Lawlar,R,Balanced,0.253,Casey Mize,R,Power,1.268456375838926,0.0
+2026-03-31,Chase Field,72,0,,,,Jordan Lawlar,RBI,0.1728295534849167,8.0,Jordan Lawlar,R,Balanced,0.253,Casey Mize,R,Power,1.268456375838926,0.0
+2026-03-31,Chase Field,72,0,,,,Jorge Barrosa,HR,0.03539583832025528,9.0,Jorge Barrosa,S,Balanced,0.193,Casey Mize,R,Power,1.268456375838926,1.0
+2026-03-31,Chase Field,72,0,,,,Jorge Barrosa,Hit,0.33782362937927246,9.0,Jorge Barrosa,S,Balanced,0.193,Casey Mize,R,Power,1.268456375838926,1.0
+2026-03-31,Chase Field,72,0,,,,Jorge Barrosa,TB,0.15390822291374207,9.0,Jorge Barrosa,S,Balanced,0.193,Casey Mize,R,Power,1.268456375838926,1.0
+2026-03-31,Chase Field,72,0,,,,Jorge Barrosa,Run,0.28660887479782104,9.0,Jorge Barrosa,S,Balanced,0.193,Casey Mize,R,Power,1.268456375838926,1.0
+2026-03-31,Chase Field,72,0,,,,Jorge Barrosa,RBI,0.21106159687042236,9.0,Jorge Barrosa,S,Balanced,0.193,Casey Mize,R,Power,1.268456375838926,1.0
+2026-03-31,Petco Park,68,8,none,San Francisco Giants,San Diego Padres,GAME_TOTAL,Over_9.5,0.4099,,,,,,,,,,
+2026-03-31,Petco Park,68,8,none,San Francisco Giants,San Diego Padres,GAME_TOTAL,NRFI,0.3657,,,,,,,,,,
+2026-03-31,Petco Park,68,8,,,,Casey Schmitt,HR,0.18136362731456757,1.0,Casey Schmitt,R,Balanced,0.328,Germán Márquez,R,Power,1.641554321966693,0.0
+2026-03-31,Petco Park,68,8,,,,Casey Schmitt,Hit,0.6880606412887573,1.0,Casey Schmitt,R,Balanced,0.328,Germán Márquez,R,Power,1.641554321966693,0.0
+2026-03-31,Petco Park,68,8,,,,Casey Schmitt,TB,0.4132812023162842,1.0,Casey Schmitt,R,Balanced,0.328,Germán Márquez,R,Power,1.641554321966693,0.0
+2026-03-31,Petco Park,68,8,,,,Casey Schmitt,Run,0.405018150806427,1.0,Casey Schmitt,R,Balanced,0.328,Germán Márquez,R,Power,1.641554321966693,0.0
+2026-03-31,Petco Park,68,8,,,,Casey Schmitt,RBI,0.3528303802013397,1.0,Casey Schmitt,R,Balanced,0.328,Germán Márquez,R,Power,1.641554321966693,0.0
+2026-03-31,Petco Park,68,8,,,,Christian Koss,HR,0.06092529371380806,2.0,Christian Koss,R,Balanced,0.311,Germán Márquez,R,Power,1.641554321966693,0.0
+2026-03-31,Petco Park,68,8,,,,Christian Koss,Hit,0.64915531873703,2.0,Christian Koss,R,Balanced,0.311,Germán Márquez,R,Power,1.641554321966693,0.0
+2026-03-31,Petco Park,68,8,,,,Christian Koss,TB,0.3811992108821869,2.0,Christian Koss,R,Balanced,0.311,Germán Márquez,R,Power,1.641554321966693,0.0
+2026-03-31,Petco Park,68,8,,,,Christian Koss,Run,0.4016849994659424,2.0,Christian Koss,R,Balanced,0.311,Germán Márquez,R,Power,1.641554321966693,0.0
+2026-03-31,Petco Park,68,8,,,,Christian Koss,RBI,0.3569665551185608,2.0,Christian Koss,R,Balanced,0.311,Germán Márquez,R,Power,1.641554321966693,0.0
+2026-03-31,Petco Park,68,8,,,,Daniel Susac,HR,0.11768215149641037,3.0,Daniel Susac,R,Balanced,0.32,Germán Márquez,R,Power,1.641554321966693,0.0
+2026-03-31,Petco Park,68,8,,,,Daniel Susac,Hit,0.6164953112602234,3.0,Daniel Susac,R,Balanced,0.32,Germán Márquez,R,Power,1.641554321966693,0.0
+2026-03-31,Petco Park,68,8,,,,Daniel Susac,TB,0.3574962913990021,3.0,Daniel Susac,R,Balanced,0.32,Germán Márquez,R,Power,1.641554321966693,0.0
+2026-03-31,Petco Park,68,8,,,,Daniel Susac,Run,0.3606574833393097,3.0,Daniel Susac,R,Balanced,0.32,Germán Márquez,R,Power,1.641554321966693,0.0
+2026-03-31,Petco Park,68,8,,,,Daniel Susac,RBI,0.20370447635650635,3.0,Daniel Susac,R,Balanced,0.32,Germán Márquez,R,Power,1.641554321966693,0.0
+2026-03-31,Petco Park,68,8,,,,Harrison Bader,HR,0.12919501960277557,4.0,Harrison Bader,R,Balanced,0.297,Germán Márquez,R,Power,1.641554321966693,0.0
+2026-03-31,Petco Park,68,8,,,,Harrison Bader,Hit,0.5775011777877808,4.0,Harrison Bader,R,Balanced,0.297,Germán Márquez,R,Power,1.641554321966693,0.0
+2026-03-31,Petco Park,68,8,,,,Harrison Bader,TB,0.35647377371788025,4.0,Harrison Bader,R,Balanced,0.297,Germán Márquez,R,Power,1.641554321966693,0.0
+2026-03-31,Petco Park,68,8,,,,Harrison Bader,Run,0.37158265709877014,4.0,Harrison Bader,R,Balanced,0.297,Germán Márquez,R,Power,1.641554321966693,0.0
+2026-03-31,Petco Park,68,8,,,,Harrison Bader,RBI,0.3068828284740448,4.0,Harrison Bader,R,Balanced,0.297,Germán Márquez,R,Power,1.641554321966693,0.0
+2026-03-31,Petco Park,68,8,,,,Heliot Ramos,HR,0.11420644819736481,5.0,Heliot Ramos,R,Balanced,0.32,Germán Márquez,R,Power,1.641554321966693,0.0
+2026-03-31,Petco Park,68,8,,,,Heliot Ramos,Hit,0.5972610712051392,5.0,Heliot Ramos,R,Balanced,0.32,Germán Márquez,R,Power,1.641554321966693,0.0
+2026-03-31,Petco Park,68,8,,,,Heliot Ramos,TB,0.35366013646125793,5.0,Heliot Ramos,R,Balanced,0.32,Germán Márquez,R,Power,1.641554321966693,0.0
+2026-03-31,Petco Park,68,8,,,,Heliot Ramos,Run,0.3859645128250122,5.0,Heliot Ramos,R,Balanced,0.32,Germán Márquez,R,Power,1.641554321966693,0.0
+2026-03-31,Petco Park,68,8,,,,Heliot Ramos,RBI,0.2839505076408386,5.0,Heliot Ramos,R,Balanced,0.32,Germán Márquez,R,Power,1.641554321966693,0.0
+2026-03-31,Petco Park,68,8,,,,Jared Oliva,HR,0.11341802775859833,6.0,Jared Oliva,R,Balanced,0.32,Germán Márquez,R,Power,1.641554321966693,0.0
+2026-03-31,Petco Park,68,8,,,,Jared Oliva,Hit,0.5763627290725708,6.0,Jared Oliva,R,Balanced,0.32,Germán Márquez,R,Power,1.641554321966693,0.0
+2026-03-31,Petco Park,68,8,,,,Jared Oliva,TB,0.3278016746044159,6.0,Jared Oliva,R,Balanced,0.32,Germán Márquez,R,Power,1.641554321966693,0.0
+2026-03-31,Petco Park,68,8,,,,Jared Oliva,Run,0.32566237449645996,6.0,Jared Oliva,R,Balanced,0.32,Germán Márquez,R,Power,1.641554321966693,0.0
+2026-03-31,Petco Park,68,8,,,,Jared Oliva,RBI,0.19811269640922546,6.0,Jared Oliva,R,Balanced,0.32,Germán Márquez,R,Power,1.641554321966693,0.0
+2026-03-31,Petco Park,68,8,,,,Jerar Encarnacion,HR,0.1517966389656067,7.0,Jerar Encarnacion,R,Slugger,0.297,Germán Márquez,R,Power,1.641554321966693,0.0
+2026-03-31,Petco Park,68,8,,,,Jerar Encarnacion,Hit,0.5438603758811951,7.0,Jerar Encarnacion,R,Slugger,0.297,Germán Márquez,R,Power,1.641554321966693,0.0
+2026-03-31,Petco Park,68,8,,,,Jerar Encarnacion,TB,0.3236112594604492,7.0,Jerar Encarnacion,R,Slugger,0.297,Germán Márquez,R,Power,1.641554321966693,0.0
+2026-03-31,Petco Park,68,8,,,,Jerar Encarnacion,Run,0.3178054094314575,7.0,Jerar Encarnacion,R,Slugger,0.297,Germán Márquez,R,Power,1.641554321966693,0.0
+2026-03-31,Petco Park,68,8,,,,Jerar Encarnacion,RBI,0.334968239068985,7.0,Jerar Encarnacion,R,Slugger,0.297,Germán Márquez,R,Power,1.641554321966693,0.0
+2026-03-31,Petco Park,68,8,,,,Jung Hoo Lee,HR,0.06417623907327652,8.0,Jung Hoo Lee,L,Contact,0.32,Germán Márquez,R,Power,1.641554321966693,1.0
+2026-03-31,Petco Park,68,8,,,,Jung Hoo Lee,Hit,0.673758327960968,8.0,Jung Hoo Lee,L,Contact,0.32,Germán Márquez,R,Power,1.641554321966693,1.0
+2026-03-31,Petco Park,68,8,,,,Jung Hoo Lee,TB,0.38980478048324585,8.0,Jung Hoo Lee,L,Contact,0.32,Germán Márquez,R,Power,1.641554321966693,1.0
+2026-03-31,Petco Park,68,8,,,,Jung Hoo Lee,Run,0.3696909546852112,8.0,Jung Hoo Lee,L,Contact,0.32,Germán Márquez,R,Power,1.641554321966693,1.0
+2026-03-31,Petco Park,68,8,,,,Jung Hoo Lee,RBI,0.27346888184547424,8.0,Jung Hoo Lee,L,Contact,0.32,Germán Márquez,R,Power,1.641554321966693,1.0
+2026-03-31,Petco Park,68,8,,,,Luis Arraez,HR,0.06941602379083633,9.0,Luis Arraez,L,Contact,0.303,Germán Márquez,R,Power,1.641554321966693,1.0
+2026-03-31,Petco Park,68,8,,,,Luis Arraez,Hit,0.6511284708976746,9.0,Luis Arraez,L,Contact,0.303,Germán Márquez,R,Power,1.641554321966693,1.0
+2026-03-31,Petco Park,68,8,,,,Luis Arraez,TB,0.4108416736125946,9.0,Luis Arraez,L,Contact,0.303,Germán Márquez,R,Power,1.641554321966693,1.0
+2026-03-31,Petco Park,68,8,,,,Luis Arraez,Run,0.32912585139274597,9.0,Luis Arraez,L,Contact,0.303,Germán Márquez,R,Power,1.641554321966693,1.0
+2026-03-31,Petco Park,68,8,,,,Luis Arraez,RBI,0.2771182358264923,9.0,Luis Arraez,L,Contact,0.303,Germán Márquez,R,Power,1.641554321966693,1.0
+2026-03-31,Petco Park,68,8,,,,Bryce Johnson,HR,0.04925641044974327,1.0,Bryce Johnson,S,Balanced,0.328,Logan Webb,R,Spin,0.6086956521739131,1.0
+2026-03-31,Petco Park,68,8,,,,Bryce Johnson,Hit,0.6490326523780823,1.0,Bryce Johnson,S,Balanced,0.328,Logan Webb,R,Spin,0.6086956521739131,1.0
+2026-03-31,Petco Park,68,8,,,,Bryce Johnson,TB,0.3572417199611664,1.0,Bryce Johnson,S,Balanced,0.328,Logan Webb,R,Spin,0.6086956521739131,1.0
+2026-03-31,Petco Park,68,8,,,,Bryce Johnson,Run,0.3345012664794922,1.0,Bryce Johnson,S,Balanced,0.328,Logan Webb,R,Spin,0.6086956521739131,1.0
+2026-03-31,Petco Park,68,8,,,,Bryce Johnson,RBI,0.2959708869457245,1.0,Bryce Johnson,S,Balanced,0.328,Logan Webb,R,Spin,0.6086956521739131,1.0
+2026-03-31,Petco Park,68,8,,,,Fernando Tatis Jr.,HR,0.08647099882364273,2.0,Fernando Tatis Jr.,R,Balanced,0.37,Logan Webb,R,Spin,0.6086956521739131,0.0
+2026-03-31,Petco Park,68,8,,,,Fernando Tatis Jr.,Hit,0.5863918662071228,2.0,Fernando Tatis Jr.,R,Balanced,0.37,Logan Webb,R,Spin,0.6086956521739131,0.0
+2026-03-31,Petco Park,68,8,,,,Fernando Tatis Jr.,TB,0.41038185358047485,2.0,Fernando Tatis Jr.,R,Balanced,0.37,Logan Webb,R,Spin,0.6086956521739131,0.0
+2026-03-31,Petco Park,68,8,,,,Fernando Tatis Jr.,Run,0.4482751488685608,2.0,Fernando Tatis Jr.,R,Balanced,0.37,Logan Webb,R,Spin,0.6086956521739131,0.0
+2026-03-31,Petco Park,68,8,,,,Fernando Tatis Jr.,RBI,0.28920942544937134,2.0,Fernando Tatis Jr.,R,Balanced,0.37,Logan Webb,R,Spin,0.6086956521739131,0.0
+2026-03-31,Petco Park,68,8,,,,Freddy Fermin,HR,0.04019201174378395,3.0,Freddy Fermin,R,Contact,0.27,Logan Webb,R,Spin,0.6086956521739131,0.0
+2026-03-31,Petco Park,68,8,,,,Freddy Fermin,Hit,0.40604379773139954,3.0,Freddy Fermin,R,Contact,0.27,Logan Webb,R,Spin,0.6086956521739131,0.0
+2026-03-31,Petco Park,68,8,,,,Freddy Fermin,TB,0.18247416615486145,3.0,Freddy Fermin,R,Contact,0.27,Logan Webb,R,Spin,0.6086956521739131,0.0
+2026-03-31,Petco Park,68,8,,,,Freddy Fermin,Run,0.21514838933944702,3.0,Freddy Fermin,R,Contact,0.27,Logan Webb,R,Spin,0.6086956521739131,0.0
+2026-03-31,Petco Park,68,8,,,,Freddy Fermin,RBI,0.16497154533863068,3.0,Freddy Fermin,R,Contact,0.27,Logan Webb,R,Spin,0.6086956521739131,0.0
+2026-03-31,Petco Park,68,8,,,,Gavin Sheets,HR,0.12847095727920532,4.0,Gavin Sheets,L,Balanced,0.34,Logan Webb,R,Spin,0.6086956521739131,1.0
+2026-03-31,Petco Park,68,8,,,,Gavin Sheets,Hit,0.621663510799408,4.0,Gavin Sheets,L,Balanced,0.34,Logan Webb,R,Spin,0.6086956521739131,1.0
+2026-03-31,Petco Park,68,8,,,,Gavin Sheets,TB,0.38488712906837463,4.0,Gavin Sheets,L,Balanced,0.34,Logan Webb,R,Spin,0.6086956521739131,1.0
+2026-03-31,Petco Park,68,8,,,,Gavin Sheets,Run,0.3543581962585449,4.0,Gavin Sheets,L,Balanced,0.34,Logan Webb,R,Spin,0.6086956521739131,1.0
+2026-03-31,Petco Park,68,8,,,,Gavin Sheets,RBI,0.3290393054485321,4.0,Gavin Sheets,L,Balanced,0.34,Logan Webb,R,Spin,0.6086956521739131,1.0
+2026-03-31,Petco Park,68,8,,,,Jackson Merrill,HR,0.0873461440205574,5.0,Jackson Merrill,L,Balanced,0.347,Logan Webb,R,Spin,0.6086956521739131,1.0
+2026-03-31,Petco Park,68,8,,,,Jackson Merrill,Hit,0.6169559359550476,5.0,Jackson Merrill,L,Balanced,0.347,Logan Webb,R,Spin,0.6086956521739131,1.0
+2026-03-31,Petco Park,68,8,,,,Jackson Merrill,TB,0.4038013517856598,5.0,Jackson Merrill,L,Balanced,0.347,Logan Webb,R,Spin,0.6086956521739131,1.0
+2026-03-31,Petco Park,68,8,,,,Jackson Merrill,Run,0.37810516357421875,5.0,Jackson Merrill,L,Balanced,0.347,Logan Webb,R,Spin,0.6086956521739131,1.0
+2026-03-31,Petco Park,68,8,,,,Jackson Merrill,RBI,0.35259565711021423,5.0,Jackson Merrill,L,Balanced,0.347,Logan Webb,R,Spin,0.6086956521739131,1.0
+2026-03-31,Petco Park,68,8,,,,Jake Cronenworth,HR,0.048413362354040146,6.0,Jake Cronenworth,L,Balanced,0.319,Logan Webb,R,Spin,0.6086956521739131,1.0
+2026-03-31,Petco Park,68,8,,,,Jake Cronenworth,Hit,0.5707196593284607,6.0,Jake Cronenworth,L,Balanced,0.319,Logan Webb,R,Spin,0.6086956521739131,1.0
+2026-03-31,Petco Park,68,8,,,,Jake Cronenworth,TB,0.31819066405296326,6.0,Jake Cronenworth,L,Balanced,0.319,Logan Webb,R,Spin,0.6086956521739131,1.0
+2026-03-31,Petco Park,68,8,,,,Jake Cronenworth,Run,0.3705986440181732,6.0,Jake Cronenworth,L,Balanced,0.319,Logan Webb,R,Spin,0.6086956521739131,1.0
+2026-03-31,Petco Park,68,8,,,,Jake Cronenworth,RBI,0.2947589159011841,6.0,Jake Cronenworth,L,Balanced,0.319,Logan Webb,R,Spin,0.6086956521739131,1.0
+2026-03-31,Petco Park,68,8,,,,Luis Campusano,HR,0.06695155054330826,7.0,Luis Campusano,R,Balanced,0.32,Logan Webb,R,Spin,0.6086956521739131,0.0
+2026-03-31,Petco Park,68,8,,,,Luis Campusano,Hit,0.5430265069007874,7.0,Luis Campusano,R,Balanced,0.32,Logan Webb,R,Spin,0.6086956521739131,0.0
+2026-03-31,Petco Park,68,8,,,,Luis Campusano,TB,0.28923675417900085,7.0,Luis Campusano,R,Balanced,0.32,Logan Webb,R,Spin,0.6086956521739131,0.0
+2026-03-31,Petco Park,68,8,,,,Luis Campusano,Run,0.2728937864303589,7.0,Luis Campusano,R,Balanced,0.32,Logan Webb,R,Spin,0.6086956521739131,0.0
+2026-03-31,Petco Park,68,8,,,,Luis Campusano,RBI,0.1291443407535553,7.0,Luis Campusano,R,Balanced,0.32,Logan Webb,R,Spin,0.6086956521739131,0.0
+2026-03-31,Petco Park,68,8,,,,Manny Machado,HR,0.08905025571584702,8.0,Manny Machado,R,Balanced,0.354,Logan Webb,R,Spin,0.6086956521739131,0.0
+2026-03-31,Petco Park,68,8,,,,Manny Machado,Hit,0.5524207353591919,8.0,Manny Machado,R,Balanced,0.354,Logan Webb,R,Spin,0.6086956521739131,0.0
+2026-03-31,Petco Park,68,8,,,,Manny Machado,TB,0.39990609884262085,8.0,Manny Machado,R,Balanced,0.354,Logan Webb,R,Spin,0.6086956521739131,0.0
+2026-03-31,Petco Park,68,8,,,,Manny Machado,Run,0.3652905523777008,8.0,Manny Machado,R,Balanced,0.354,Logan Webb,R,Spin,0.6086956521739131,0.0
+2026-03-31,Petco Park,68,8,,,,Manny Machado,RBI,0.344917356967926,8.0,Manny Machado,R,Balanced,0.354,Logan Webb,R,Spin,0.6086956521739131,0.0
+2026-03-31,Petco Park,68,8,,,,Miguel Andujar,HR,0.08610324561595917,9.0,Miguel Andujar,R,Contact,0.298,Logan Webb,R,Spin,0.6086956521739131,0.0
+2026-03-31,Petco Park,68,8,,,,Miguel Andujar,Hit,0.550069272518158,9.0,Miguel Andujar,R,Contact,0.298,Logan Webb,R,Spin,0.6086956521739131,0.0
+2026-03-31,Petco Park,68,8,,,,Miguel Andujar,TB,0.32087889313697815,9.0,Miguel Andujar,R,Contact,0.298,Logan Webb,R,Spin,0.6086956521739131,0.0
+2026-03-31,Petco Park,68,8,,,,Miguel Andujar,Run,0.288910448551178,9.0,Miguel Andujar,R,Contact,0.298,Logan Webb,R,Spin,0.6086956521739131,0.0
+2026-03-31,Petco Park,68,8,,,,Miguel Andujar,RBI,0.2855699956417084,9.0,Miguel Andujar,R,Contact,0.298,Logan Webb,R,Spin,0.6086956521739131,0.0
+2026-03-31,T-Mobile Park,72,0,none,New York Yankees,Seattle Mariners,GAME_TOTAL,Over_10.5,0.5056,,,,,,,,,,
+2026-03-31,T-Mobile Park,72,0,none,New York Yankees,Seattle Mariners,GAME_TOTAL,NRFI,0.2841,,,,,,,,,,
+2026-03-31,T-Mobile Park,72,0,,,,Aaron Judge,HR,0.2899571359157562,1.0,Aaron Judge,R,Slugger,0.459,Logan Gilbert,R,Power,1.3740458015267176,0.0
+2026-03-31,T-Mobile Park,72,0,,,,Aaron Judge,Hit,0.7426145672798157,1.0,Aaron Judge,R,Slugger,0.459,Logan Gilbert,R,Power,1.3740458015267176,0.0
+2026-03-31,T-Mobile Park,72,0,,,,Aaron Judge,TB,0.4922807514667511,1.0,Aaron Judge,R,Slugger,0.459,Logan Gilbert,R,Power,1.3740458015267176,0.0
+2026-03-31,T-Mobile Park,72,0,,,,Aaron Judge,Run,0.6124597787857056,1.0,Aaron Judge,R,Slugger,0.459,Logan Gilbert,R,Power,1.3740458015267176,0.0
+2026-03-31,T-Mobile Park,72,0,,,,Aaron Judge,RBI,0.43897294998168945,1.0,Aaron Judge,R,Slugger,0.459,Logan Gilbert,R,Power,1.3740458015267176,0.0
+2026-03-31,T-Mobile Park,72,0,,,,Amed Rosario,HR,0.12483514100313187,2.0,Amed Rosario,R,Contact,0.331,Logan Gilbert,R,Power,1.3740458015267176,0.0
+2026-03-31,T-Mobile Park,72,0,,,,Amed Rosario,Hit,0.6927704215049744,2.0,Amed Rosario,R,Contact,0.331,Logan Gilbert,R,Power,1.3740458015267176,0.0
+2026-03-31,T-Mobile Park,72,0,,,,Amed Rosario,TB,0.4103612005710602,2.0,Amed Rosario,R,Contact,0.331,Logan Gilbert,R,Power,1.3740458015267176,0.0
+2026-03-31,T-Mobile Park,72,0,,,,Amed Rosario,Run,0.383513867855072,2.0,Amed Rosario,R,Contact,0.331,Logan Gilbert,R,Power,1.3740458015267176,0.0
+2026-03-31,T-Mobile Park,72,0,,,,Amed Rosario,RBI,0.3352762758731842,2.0,Amed Rosario,R,Contact,0.331,Logan Gilbert,R,Power,1.3740458015267176,0.0
+2026-03-31,T-Mobile Park,72,0,,,,Austin Wells,HR,0.18026651442050934,3.0,Austin Wells,L,Slugger,0.293,Logan Gilbert,R,Power,1.3740458015267176,1.0
+2026-03-31,T-Mobile Park,72,0,,,,Austin Wells,Hit,0.5101984143257141,3.0,Austin Wells,L,Slugger,0.293,Logan Gilbert,R,Power,1.3740458015267176,1.0
+2026-03-31,T-Mobile Park,72,0,,,,Austin Wells,TB,0.32613396644592285,3.0,Austin Wells,L,Slugger,0.293,Logan Gilbert,R,Power,1.3740458015267176,1.0
+2026-03-31,T-Mobile Park,72,0,,,,Austin Wells,Run,0.35973402857780457,3.0,Austin Wells,L,Slugger,0.293,Logan Gilbert,R,Power,1.3740458015267176,1.0
+2026-03-31,T-Mobile Park,72,0,,,,Austin Wells,RBI,0.3648470938205719,3.0,Austin Wells,L,Slugger,0.293,Logan Gilbert,R,Power,1.3740458015267176,1.0
+2026-03-31,T-Mobile Park,72,0,,,,Ben Rice,HR,0.2078428864479065,4.0,Ben Rice,L,Balanced,0.394,Logan Gilbert,R,Power,1.3740458015267176,1.0
+2026-03-31,T-Mobile Park,72,0,,,,Ben Rice,Hit,0.6803504228591919,4.0,Ben Rice,L,Balanced,0.394,Logan Gilbert,R,Power,1.3740458015267176,1.0
+2026-03-31,T-Mobile Park,72,0,,,,Ben Rice,TB,0.45005685091018677,4.0,Ben Rice,L,Balanced,0.394,Logan Gilbert,R,Power,1.3740458015267176,1.0
+2026-03-31,T-Mobile Park,72,0,,,,Ben Rice,Run,0.4741804003715515,4.0,Ben Rice,L,Balanced,0.394,Logan Gilbert,R,Power,1.3740458015267176,1.0
+2026-03-31,T-Mobile Park,72,0,,,,Ben Rice,RBI,0.36910364031791687,4.0,Ben Rice,L,Balanced,0.394,Logan Gilbert,R,Power,1.3740458015267176,1.0
+2026-03-31,T-Mobile Park,72,0,,,,Cody Bellinger,HR,0.18086040019989014,5.0,Cody Bellinger,L,Balanced,0.327,Logan Gilbert,R,Power,1.3740458015267176,1.0
+2026-03-31,T-Mobile Park,72,0,,,,Cody Bellinger,Hit,0.6467657089233398,5.0,Cody Bellinger,L,Balanced,0.327,Logan Gilbert,R,Power,1.3740458015267176,1.0
+2026-03-31,T-Mobile Park,72,0,,,,Cody Bellinger,TB,0.40279990434646606,5.0,Cody Bellinger,L,Balanced,0.327,Logan Gilbert,R,Power,1.3740458015267176,1.0
+2026-03-31,T-Mobile Park,72,0,,,,Cody Bellinger,Run,0.4165254533290863,5.0,Cody Bellinger,L,Balanced,0.327,Logan Gilbert,R,Power,1.3740458015267176,1.0
+2026-03-31,T-Mobile Park,72,0,,,,Cody Bellinger,RBI,0.37200313806533813,5.0,Cody Bellinger,L,Balanced,0.327,Logan Gilbert,R,Power,1.3740458015267176,1.0
+2026-03-31,T-Mobile Park,72,0,,,,Giancarlo Stanton,HR,0.25738146901130676,6.0,Giancarlo Stanton,R,Slugger,0.354,Logan Gilbert,R,Power,1.3740458015267176,0.0
+2026-03-31,T-Mobile Park,72,0,,,,Giancarlo Stanton,Hit,0.619779646396637,6.0,Giancarlo Stanton,R,Slugger,0.354,Logan Gilbert,R,Power,1.3740458015267176,0.0
+2026-03-31,T-Mobile Park,72,0,,,,Giancarlo Stanton,TB,0.4220249652862549,6.0,Giancarlo Stanton,R,Slugger,0.354,Logan Gilbert,R,Power,1.3740458015267176,0.0
+2026-03-31,T-Mobile Park,72,0,,,,Giancarlo Stanton,Run,0.4443765878677368,6.0,Giancarlo Stanton,R,Slugger,0.354,Logan Gilbert,R,Power,1.3740458015267176,0.0
+2026-03-31,T-Mobile Park,72,0,,,,Giancarlo Stanton,RBI,0.4347778856754303,6.0,Giancarlo Stanton,R,Slugger,0.354,Logan Gilbert,R,Power,1.3740458015267176,0.0
+2026-03-31,T-Mobile Park,72,0,,,,J.C. Escarra,HR,0.07334274798631668,7.0,J.C. Escarra,L,Contact,0.3,Logan Gilbert,R,Power,1.3740458015267176,1.0
+2026-03-31,T-Mobile Park,72,0,,,,J.C. Escarra,Hit,0.5346778035163879,7.0,J.C. Escarra,L,Contact,0.3,Logan Gilbert,R,Power,1.3740458015267176,1.0
+2026-03-31,T-Mobile Park,72,0,,,,J.C. Escarra,TB,0.3145117163658142,7.0,J.C. Escarra,L,Contact,0.3,Logan Gilbert,R,Power,1.3740458015267176,1.0
+2026-03-31,T-Mobile Park,72,0,,,,J.C. Escarra,Run,0.22199216485023499,7.0,J.C. Escarra,L,Contact,0.3,Logan Gilbert,R,Power,1.3740458015267176,1.0
+2026-03-31,T-Mobile Park,72,0,,,,J.C. Escarra,RBI,0.3070027530193329,7.0,J.C. Escarra,L,Contact,0.3,Logan Gilbert,R,Power,1.3740458015267176,1.0
+2026-03-31,T-Mobile Park,72,0,,,,Jazz Chisholm Jr.,HR,0.21018241345882416,8.0,Jazz Chisholm Jr.,L,Slugger,0.345,Logan Gilbert,R,Power,1.3740458015267176,1.0
+2026-03-31,T-Mobile Park,72,0,,,,Jazz Chisholm Jr.,Hit,0.5440297722816467,8.0,Jazz Chisholm Jr.,L,Slugger,0.345,Logan Gilbert,R,Power,1.3740458015267176,1.0
+2026-03-31,T-Mobile Park,72,0,,,,Jazz Chisholm Jr.,TB,0.37960147857666016,8.0,Jazz Chisholm Jr.,L,Slugger,0.345,Logan Gilbert,R,Power,1.3740458015267176,1.0
+2026-03-31,T-Mobile Park,72,0,,,,Jazz Chisholm Jr.,Run,0.42548030614852905,8.0,Jazz Chisholm Jr.,L,Slugger,0.345,Logan Gilbert,R,Power,1.3740458015267176,1.0
+2026-03-31,T-Mobile Park,72,0,,,,Jazz Chisholm Jr.,RBI,0.35886144638061523,8.0,Jazz Chisholm Jr.,L,Slugger,0.345,Logan Gilbert,R,Power,1.3740458015267176,1.0
+2026-03-31,T-Mobile Park,72,0,,,,José Caballero,HR,0.05118497461080551,9.0,José Caballero,R,Balanced,0.296,Logan Gilbert,R,Power,1.3740458015267176,0.0
+2026-03-31,T-Mobile Park,72,0,,,,José Caballero,Hit,0.467596173286438,9.0,José Caballero,R,Balanced,0.296,Logan Gilbert,R,Power,1.3740458015267176,0.0
+2026-03-31,T-Mobile Park,72,0,,,,José Caballero,TB,0.23583655059337616,9.0,José Caballero,R,Balanced,0.296,Logan Gilbert,R,Power,1.3740458015267176,0.0
+2026-03-31,T-Mobile Park,72,0,,,,José Caballero,Run,0.33416512608528137,9.0,José Caballero,R,Balanced,0.296,Logan Gilbert,R,Power,1.3740458015267176,0.0
+2026-03-31,T-Mobile Park,72,0,,,,José Caballero,RBI,0.2096506655216217,9.0,José Caballero,R,Balanced,0.296,Logan Gilbert,R,Power,1.3740458015267176,0.0
+2026-03-31,T-Mobile Park,72,0,,,,Brendan Donovan,HR,0.07995891571044922,1.0,Brendan Donovan,L,Contact,0.346,Max Fried,R,Spin,0.645822655048693,1.0
+2026-03-31,T-Mobile Park,72,0,,,,Brendan Donovan,Hit,0.6512874364852905,1.0,Brendan Donovan,L,Contact,0.346,Max Fried,R,Spin,0.645822655048693,1.0
+2026-03-31,T-Mobile Park,72,0,,,,Brendan Donovan,TB,0.39498165249824524,1.0,Brendan Donovan,L,Contact,0.346,Max Fried,R,Spin,0.645822655048693,1.0
+2026-03-31,T-Mobile Park,72,0,,,,Brendan Donovan,Run,0.3926245868206024,1.0,Brendan Donovan,L,Contact,0.346,Max Fried,R,Spin,0.645822655048693,1.0
+2026-03-31,T-Mobile Park,72,0,,,,Brendan Donovan,RBI,0.30199819803237915,1.0,Brendan Donovan,L,Contact,0.346,Max Fried,R,Spin,0.645822655048693,1.0
+2026-03-31,T-Mobile Park,72,0,,,,Cal Raleigh,HR,0.25105124711990356,2.0,Cal Raleigh,S,Slugger,0.371,Max Fried,R,Spin,0.645822655048693,1.0
+2026-03-31,T-Mobile Park,72,0,,,,Cal Raleigh,Hit,0.5855979323387146,2.0,Cal Raleigh,S,Slugger,0.371,Max Fried,R,Spin,0.645822655048693,1.0
+2026-03-31,T-Mobile Park,72,0,,,,Cal Raleigh,TB,0.3828756511211395,2.0,Cal Raleigh,S,Slugger,0.371,Max Fried,R,Spin,0.645822655048693,1.0
+2026-03-31,T-Mobile Park,72,0,,,,Cal Raleigh,Run,0.46999800205230713,2.0,Cal Raleigh,S,Slugger,0.371,Max Fried,R,Spin,0.645822655048693,1.0
+2026-03-31,T-Mobile Park,72,0,,,,Cal Raleigh,RBI,0.3498819172382355,2.0,Cal Raleigh,S,Slugger,0.371,Max Fried,R,Spin,0.645822655048693,1.0
+2026-03-31,T-Mobile Park,72,0,,,,Cole Young,HR,0.052554547786712646,3.0,Cole Young,L,Contact,0.297,Max Fried,R,Spin,0.645822655048693,1.0
+2026-03-31,T-Mobile Park,72,0,,,,Cole Young,Hit,0.49876898527145386,3.0,Cole Young,L,Contact,0.297,Max Fried,R,Spin,0.645822655048693,1.0
+2026-03-31,T-Mobile Park,72,0,,,,Cole Young,TB,0.22438153624534607,3.0,Cole Young,L,Contact,0.297,Max Fried,R,Spin,0.645822655048693,1.0
+2026-03-31,T-Mobile Park,72,0,,,,Cole Young,Run,0.28911158442497253,3.0,Cole Young,L,Contact,0.297,Max Fried,R,Spin,0.645822655048693,1.0
+2026-03-31,T-Mobile Park,72,0,,,,Cole Young,RBI,0.23297002911567688,3.0,Cole Young,L,Contact,0.297,Max Fried,R,Spin,0.645822655048693,1.0
+2026-03-31,T-Mobile Park,72,0,,,,Dominic Canzone,HR,0.1288563758134842,4.0,Dominic Canzone,L,Slugger,0.376,Max Fried,R,Spin,0.645822655048693,1.0
+2026-03-31,T-Mobile Park,72,0,,,,Dominic Canzone,Hit,0.5998510122299194,4.0,Dominic Canzone,L,Slugger,0.376,Max Fried,R,Spin,0.645822655048693,1.0
+2026-03-31,T-Mobile Park,72,0,,,,Dominic Canzone,TB,0.3798814117908478,4.0,Dominic Canzone,L,Slugger,0.376,Max Fried,R,Spin,0.645822655048693,1.0
+2026-03-31,T-Mobile Park,72,0,,,,Dominic Canzone,Run,0.3333388864994049,4.0,Dominic Canzone,L,Slugger,0.376,Max Fried,R,Spin,0.645822655048693,1.0
+2026-03-31,T-Mobile Park,72,0,,,,Dominic Canzone,RBI,0.31520235538482666,4.0,Dominic Canzone,L,Slugger,0.376,Max Fried,R,Spin,0.645822655048693,1.0
+2026-03-31,T-Mobile Park,72,0,,,,Josh Naylor,HR,0.12242331355810165,5.0,Josh Naylor,L,Contact,0.335,Max Fried,R,Spin,0.645822655048693,1.0
+2026-03-31,T-Mobile Park,72,0,,,,Josh Naylor,Hit,0.5938231945037842,5.0,Josh Naylor,L,Contact,0.335,Max Fried,R,Spin,0.645822655048693,1.0
+2026-03-31,T-Mobile Park,72,0,,,,Josh Naylor,TB,0.34444013237953186,5.0,Josh Naylor,L,Contact,0.335,Max Fried,R,Spin,0.645822655048693,1.0
+2026-03-31,T-Mobile Park,72,0,,,,Josh Naylor,Run,0.3580195903778076,5.0,Josh Naylor,L,Contact,0.335,Max Fried,R,Spin,0.645822655048693,1.0
+2026-03-31,T-Mobile Park,72,0,,,,Josh Naylor,RBI,0.296962171792984,5.0,Josh Naylor,L,Contact,0.335,Max Fried,R,Spin,0.645822655048693,1.0
+2026-03-31,T-Mobile Park,72,0,,,,Julio Rodríguez,HR,0.11694978922605515,6.0,Julio Rodríguez,R,Slugger,0.348,Max Fried,R,Spin,0.645822655048693,0.0
+2026-03-31,T-Mobile Park,72,0,,,,Julio Rodríguez,Hit,0.5372288227081299,6.0,Julio Rodríguez,R,Slugger,0.348,Max Fried,R,Spin,0.645822655048693,0.0
+2026-03-31,T-Mobile Park,72,0,,,,Julio Rodríguez,TB,0.37776023149490356,6.0,Julio Rodríguez,R,Slugger,0.348,Max Fried,R,Spin,0.645822655048693,0.0
+2026-03-31,T-Mobile Park,72,0,,,,Julio Rodríguez,Run,0.3547733426094055,6.0,Julio Rodríguez,R,Slugger,0.348,Max Fried,R,Spin,0.645822655048693,0.0
+2026-03-31,T-Mobile Park,72,0,,,,Julio Rodríguez,RBI,0.29440444707870483,6.0,Julio Rodríguez,R,Slugger,0.348,Max Fried,R,Spin,0.645822655048693,0.0
+2026-03-31,T-Mobile Park,72,0,,,,Leo Rivas,HR,0.05851646885275841,7.0,Leo Rivas,S,Balanced,0.288,Max Fried,R,Spin,0.645822655048693,1.0
+2026-03-31,T-Mobile Park,72,0,,,,Leo Rivas,Hit,0.4901699721813202,7.0,Leo Rivas,S,Balanced,0.288,Max Fried,R,Spin,0.645822655048693,1.0
+2026-03-31,T-Mobile Park,72,0,,,,Leo Rivas,TB,0.16644208133220673,7.0,Leo Rivas,S,Balanced,0.288,Max Fried,R,Spin,0.645822655048693,1.0
+2026-03-31,T-Mobile Park,72,0,,,,Leo Rivas,Run,0.39297398924827576,7.0,Leo Rivas,S,Balanced,0.288,Max Fried,R,Spin,0.645822655048693,1.0
+2026-03-31,T-Mobile Park,72,0,,,,Leo Rivas,RBI,0.19058845937252045,7.0,Leo Rivas,S,Balanced,0.288,Max Fried,R,Spin,0.645822655048693,1.0
+2026-03-31,T-Mobile Park,72,0,,,,Luke Raley,HR,0.04814403876662254,8.0,Luke Raley,L,Balanced,0.312,Max Fried,R,Spin,0.645822655048693,1.0
+2026-03-31,T-Mobile Park,72,0,,,,Luke Raley,Hit,0.4497491717338562,8.0,Luke Raley,L,Balanced,0.312,Max Fried,R,Spin,0.645822655048693,1.0
+2026-03-31,T-Mobile Park,72,0,,,,Luke Raley,TB,0.27596038579940796,8.0,Luke Raley,L,Balanced,0.312,Max Fried,R,Spin,0.645822655048693,1.0
+2026-03-31,T-Mobile Park,72,0,,,,Luke Raley,Run,0.27516332268714905,8.0,Luke Raley,L,Balanced,0.312,Max Fried,R,Spin,0.645822655048693,1.0
+2026-03-31,T-Mobile Park,72,0,,,,Luke Raley,RBI,0.22198918461799622,8.0,Luke Raley,L,Balanced,0.312,Max Fried,R,Spin,0.645822655048693,1.0
+2026-03-31,T-Mobile Park,72,0,,,,Mitch Garver,HR,0.07199990004301071,9.0,Mitch Garver,R,Balanced,0.298,Max Fried,R,Spin,0.645822655048693,0.0
+2026-03-31,T-Mobile Park,72,0,,,,Mitch Garver,Hit,0.4355478882789612,9.0,Mitch Garver,R,Balanced,0.298,Max Fried,R,Spin,0.645822655048693,0.0
+2026-03-31,T-Mobile Park,72,0,,,,Mitch Garver,TB,0.19045159220695496,9.0,Mitch Garver,R,Balanced,0.298,Max Fried,R,Spin,0.645822655048693,0.0
+2026-03-31,T-Mobile Park,72,0,,,,Mitch Garver,Run,0.2573445737361908,9.0,Mitch Garver,R,Balanced,0.298,Max Fried,R,Spin,0.645822655048693,0.0
+2026-03-31,T-Mobile Park,72,0,,,,Mitch Garver,RBI,0.21846748888492584,9.0,Mitch Garver,R,Balanced,0.298,Max Fried,R,Spin,0.645822655048693,0.0
+2026-03-31,UNIQLO Field at Dodger Stadium,67,3,none,Cleveland Guardians,Los Angeles Dodgers,GAME_TOTAL,Over_10.5,0.5655,,,,,,,,,,
+2026-03-31,UNIQLO Field at Dodger Stadium,67,3,none,Cleveland Guardians,Los Angeles Dodgers,GAME_TOTAL,NRFI,0.326,,,,,,,,,,
+2026-03-31,UNIQLO Field at Dodger Stadium,67,3,,,,Angel Martínez,HR,0.09513302892446518,1.0,Angel Martínez,S,Balanced,0.255,Shohei Ohtani,R,Power,1.25,1.0
+2026-03-31,UNIQLO Field at Dodger Stadium,67,3,,,,Angel Martínez,Hit,0.3732074201107025,1.0,Angel Martínez,S,Balanced,0.255,Shohei Ohtani,R,Power,1.25,1.0
+2026-03-31,UNIQLO Field at Dodger Stadium,67,3,,,,Angel Martínez,TB,0.2302045077085495,1.0,Angel Martínez,S,Balanced,0.255,Shohei Ohtani,R,Power,1.25,1.0
+2026-03-31,UNIQLO Field at Dodger Stadium,67,3,,,,Angel Martínez,Run,0.26372405886650085,1.0,Angel Martínez,S,Balanced,0.255,Shohei Ohtani,R,Power,1.25,1.0
+2026-03-31,UNIQLO Field at Dodger Stadium,67,3,,,,Angel Martínez,RBI,0.2222408801317215,1.0,Angel Martínez,S,Balanced,0.255,Shohei Ohtani,R,Power,1.25,1.0
+2026-03-31,UNIQLO Field at Dodger Stadium,67,3,,,,Austin Hedges,HR,0.10487646609544754,2.0,Austin Hedges,R,Balanced,0.249,Shohei Ohtani,R,Power,1.25,0.0
+2026-03-31,UNIQLO Field at Dodger Stadium,67,3,,,,Austin Hedges,Hit,0.2636491656303406,2.0,Austin Hedges,R,Balanced,0.249,Shohei Ohtani,R,Power,1.25,0.0
+2026-03-31,UNIQLO Field at Dodger Stadium,67,3,,,,Austin Hedges,TB,0.14669319987297058,2.0,Austin Hedges,R,Balanced,0.249,Shohei Ohtani,R,Power,1.25,0.0
+2026-03-31,UNIQLO Field at Dodger Stadium,67,3,,,,Austin Hedges,Run,0.20225661993026733,2.0,Austin Hedges,R,Balanced,0.249,Shohei Ohtani,R,Power,1.25,0.0
+2026-03-31,UNIQLO Field at Dodger Stadium,67,3,,,,Austin Hedges,RBI,0.13638807833194733,2.0,Austin Hedges,R,Balanced,0.249,Shohei Ohtani,R,Power,1.25,0.0
+2026-03-31,UNIQLO Field at Dodger Stadium,67,3,,,,Bo Naylor,HR,0.13561661541461945,3.0,Bo Naylor,L,Balanced,0.292,Shohei Ohtani,R,Power,1.25,1.0
+2026-03-31,UNIQLO Field at Dodger Stadium,67,3,,,,Bo Naylor,Hit,0.48291608691215515,3.0,Bo Naylor,L,Balanced,0.292,Shohei Ohtani,R,Power,1.25,1.0
+2026-03-31,UNIQLO Field at Dodger Stadium,67,3,,,,Bo Naylor,TB,0.3127998113632202,3.0,Bo Naylor,L,Balanced,0.292,Shohei Ohtani,R,Power,1.25,1.0
+2026-03-31,UNIQLO Field at Dodger Stadium,67,3,,,,Bo Naylor,Run,0.37000414729118347,3.0,Bo Naylor,L,Balanced,0.292,Shohei Ohtani,R,Power,1.25,1.0
+2026-03-31,UNIQLO Field at Dodger Stadium,67,3,,,,Bo Naylor,RBI,0.309709370136261,3.0,Bo Naylor,L,Balanced,0.292,Shohei Ohtani,R,Power,1.25,1.0
+2026-03-31,UNIQLO Field at Dodger Stadium,67,3,,,,Brayan Rocchio,HR,0.04775168374180794,4.0,Brayan Rocchio,S,Balanced,0.295,Shohei Ohtani,R,Power,1.25,1.0
+2026-03-31,UNIQLO Field at Dodger Stadium,67,3,,,,Brayan Rocchio,Hit,0.5365501046180725,4.0,Brayan Rocchio,S,Balanced,0.295,Shohei Ohtani,R,Power,1.25,1.0
+2026-03-31,UNIQLO Field at Dodger Stadium,67,3,,,,Brayan Rocchio,TB,0.3171325623989105,4.0,Brayan Rocchio,S,Balanced,0.295,Shohei Ohtani,R,Power,1.25,1.0
+2026-03-31,UNIQLO Field at Dodger Stadium,67,3,,,,Brayan Rocchio,Run,0.2856253981590271,4.0,Brayan Rocchio,S,Balanced,0.295,Shohei Ohtani,R,Power,1.25,1.0
+2026-03-31,UNIQLO Field at Dodger Stadium,67,3,,,,Brayan Rocchio,RBI,0.30970898270606995,4.0,Brayan Rocchio,S,Balanced,0.295,Shohei Ohtani,R,Power,1.25,1.0
+2026-03-31,UNIQLO Field at Dodger Stadium,67,3,,,,CJ Kayfus,HR,0.12454162538051605,5.0,CJ Kayfus,L,Balanced,0.322,Shohei Ohtani,R,Power,1.25,1.0
+2026-03-31,UNIQLO Field at Dodger Stadium,67,3,,,,CJ Kayfus,Hit,0.5875124931335449,5.0,CJ Kayfus,L,Balanced,0.322,Shohei Ohtani,R,Power,1.25,1.0
+2026-03-31,UNIQLO Field at Dodger Stadium,67,3,,,,CJ Kayfus,TB,0.3875918984413147,5.0,CJ Kayfus,L,Balanced,0.322,Shohei Ohtani,R,Power,1.25,1.0
+2026-03-31,UNIQLO Field at Dodger Stadium,67,3,,,,CJ Kayfus,Run,0.3956131041049957,5.0,CJ Kayfus,L,Balanced,0.322,Shohei Ohtani,R,Power,1.25,1.0
+2026-03-31,UNIQLO Field at Dodger Stadium,67,3,,,,CJ Kayfus,RBI,0.3711243271827698,5.0,CJ Kayfus,L,Balanced,0.322,Shohei Ohtani,R,Power,1.25,1.0
+2026-03-31,UNIQLO Field at Dodger Stadium,67,3,,,,Chase DeLauter,HR,0.11820363998413086,6.0,Chase DeLauter,L,Balanced,0.32,Shohei Ohtani,R,Power,1.25,1.0
+2026-03-31,UNIQLO Field at Dodger Stadium,67,3,,,,Chase DeLauter,Hit,0.5644070506095886,6.0,Chase DeLauter,L,Balanced,0.32,Shohei Ohtani,R,Power,1.25,1.0
+2026-03-31,UNIQLO Field at Dodger Stadium,67,3,,,,Chase DeLauter,TB,0.32144424319267273,6.0,Chase DeLauter,L,Balanced,0.32,Shohei Ohtani,R,Power,1.25,1.0
+2026-03-31,UNIQLO Field at Dodger Stadium,67,3,,,,Chase DeLauter,Run,0.3247649669647217,6.0,Chase DeLauter,L,Balanced,0.32,Shohei Ohtani,R,Power,1.25,1.0
+2026-03-31,UNIQLO Field at Dodger Stadium,67,3,,,,Chase DeLauter,RBI,0.18335460126399994,6.0,Chase DeLauter,L,Balanced,0.32,Shohei Ohtani,R,Power,1.25,1.0
+2026-03-31,UNIQLO Field at Dodger Stadium,67,3,,,,Daniel Schneemann,HR,0.12334063649177551,7.0,Daniel Schneemann,L,Balanced,0.297,Shohei Ohtani,R,Power,1.25,1.0
+2026-03-31,UNIQLO Field at Dodger Stadium,67,3,,,,Daniel Schneemann,Hit,0.5065121054649353,7.0,Daniel Schneemann,L,Balanced,0.297,Shohei Ohtani,R,Power,1.25,1.0
+2026-03-31,UNIQLO Field at Dodger Stadium,67,3,,,,Daniel Schneemann,TB,0.3114347457885742,7.0,Daniel Schneemann,L,Balanced,0.297,Shohei Ohtani,R,Power,1.25,1.0
+2026-03-31,UNIQLO Field at Dodger Stadium,67,3,,,,Daniel Schneemann,Run,0.3507061004638672,7.0,Daniel Schneemann,L,Balanced,0.297,Shohei Ohtani,R,Power,1.25,1.0
+2026-03-31,UNIQLO Field at Dodger Stadium,67,3,,,,Daniel Schneemann,RBI,0.2718006372451782,7.0,Daniel Schneemann,L,Balanced,0.297,Shohei Ohtani,R,Power,1.25,1.0
+2026-03-31,UNIQLO Field at Dodger Stadium,67,3,,,,David Fry,HR,0.14218299090862274,8.0,David Fry,R,Slugger,0.205,Shohei Ohtani,R,Power,1.25,0.0
+2026-03-31,UNIQLO Field at Dodger Stadium,67,3,,,,David Fry,Hit,0.3672458827495575,8.0,David Fry,R,Slugger,0.205,Shohei Ohtani,R,Power,1.25,0.0
+2026-03-31,UNIQLO Field at Dodger Stadium,67,3,,,,David Fry,TB,0.2033751755952835,8.0,David Fry,R,Slugger,0.205,Shohei Ohtani,R,Power,1.25,0.0
+2026-03-31,UNIQLO Field at Dodger Stadium,67,3,,,,David Fry,Run,0.2889968752861023,8.0,David Fry,R,Slugger,0.205,Shohei Ohtani,R,Power,1.25,0.0
+2026-03-31,UNIQLO Field at Dodger Stadium,67,3,,,,David Fry,RBI,0.2713986039161682,8.0,David Fry,R,Slugger,0.205,Shohei Ohtani,R,Power,1.25,0.0
+2026-03-31,UNIQLO Field at Dodger Stadium,67,3,,,,Gabriel Arias,HR,0.08255486935377121,9.0,Gabriel Arias,R,Balanced,0.286,Shohei Ohtani,R,Power,1.25,0.0
+2026-03-31,UNIQLO Field at Dodger Stadium,67,3,,,,Gabriel Arias,Hit,0.4893319606781006,9.0,Gabriel Arias,R,Balanced,0.286,Shohei Ohtani,R,Power,1.25,0.0
+2026-03-31,UNIQLO Field at Dodger Stadium,67,3,,,,Gabriel Arias,TB,0.2917933464050293,9.0,Gabriel Arias,R,Balanced,0.286,Shohei Ohtani,R,Power,1.25,0.0
+2026-03-31,UNIQLO Field at Dodger Stadium,67,3,,,,Gabriel Arias,Run,0.2578640580177307,9.0,Gabriel Arias,R,Balanced,0.286,Shohei Ohtani,R,Power,1.25,0.0
+2026-03-31,UNIQLO Field at Dodger Stadium,67,3,,,,Gabriel Arias,RBI,0.26378148794174194,9.0,Gabriel Arias,R,Balanced,0.286,Shohei Ohtani,R,Power,1.25,0.0
+2026-03-31,UNIQLO Field at Dodger Stadium,67,3,,,,Alex Call,HR,0.07640621811151505,1.0,Alex Call,R,Contact,0.321,Tanner Bibee,R,Power,1.3344316309719932,0.0
+2026-03-31,UNIQLO Field at Dodger Stadium,67,3,,,,Alex Call,Hit,0.6687412261962891,1.0,Alex Call,R,Contact,0.321,Tanner Bibee,R,Power,1.3344316309719932,0.0
+2026-03-31,UNIQLO Field at Dodger Stadium,67,3,,,,Alex Call,TB,0.33802205324172974,1.0,Alex Call,R,Contact,0.321,Tanner Bibee,R,Power,1.3344316309719932,0.0
+2026-03-31,UNIQLO Field at Dodger Stadium,67,3,,,,Alex Call,Run,0.4078792333602905,1.0,Alex Call,R,Contact,0.321,Tanner Bibee,R,Power,1.3344316309719932,0.0
+2026-03-31,UNIQLO Field at Dodger Stadium,67,3,,,,Alex Call,RBI,0.28914135694503784,1.0,Alex Call,R,Contact,0.321,Tanner Bibee,R,Power,1.3344316309719932,0.0
+2026-03-31,UNIQLO Field at Dodger Stadium,67,3,,,,Alex Freeland,HR,0.08739732950925827,2.0,Alex Freeland,S,Balanced,0.258,Tanner Bibee,R,Power,1.3344316309719932,1.0
+2026-03-31,UNIQLO Field at Dodger Stadium,67,3,,,,Alex Freeland,Hit,0.3633439540863037,2.0,Alex Freeland,S,Balanced,0.258,Tanner Bibee,R,Power,1.3344316309719932,1.0
+2026-03-31,UNIQLO Field at Dodger Stadium,67,3,,,,Alex Freeland,TB,0.1886271834373474,2.0,Alex Freeland,S,Balanced,0.258,Tanner Bibee,R,Power,1.3344316309719932,1.0
+2026-03-31,UNIQLO Field at Dodger Stadium,67,3,,,,Alex Freeland,Run,0.2510947287082672,2.0,Alex Freeland,S,Balanced,0.258,Tanner Bibee,R,Power,1.3344316309719932,1.0
+2026-03-31,UNIQLO Field at Dodger Stadium,67,3,,,,Alex Freeland,RBI,0.15812848508358002,2.0,Alex Freeland,S,Balanced,0.258,Tanner Bibee,R,Power,1.3344316309719932,1.0
+2026-03-31,UNIQLO Field at Dodger Stadium,67,3,,,,Andy Pages,HR,0.16345153748989105,3.0,Andy Pages,R,Slugger,0.316,Tanner Bibee,R,Power,1.3344316309719932,0.0
+2026-03-31,UNIQLO Field at Dodger Stadium,67,3,,,,Andy Pages,Hit,0.6432833671569824,3.0,Andy Pages,R,Slugger,0.316,Tanner Bibee,R,Power,1.3344316309719932,0.0
+2026-03-31,UNIQLO Field at Dodger Stadium,67,3,,,,Andy Pages,TB,0.35614609718322754,3.0,Andy Pages,R,Slugger,0.316,Tanner Bibee,R,Power,1.3344316309719932,0.0
+2026-03-31,UNIQLO Field at Dodger Stadium,67,3,,,,Andy Pages,Run,0.39001667499542236,3.0,Andy Pages,R,Slugger,0.316,Tanner Bibee,R,Power,1.3344316309719932,0.0
+2026-03-31,UNIQLO Field at Dodger Stadium,67,3,,,,Andy Pages,RBI,0.3552824556827545,3.0,Andy Pages,R,Slugger,0.316,Tanner Bibee,R,Power,1.3344316309719932,0.0
+2026-03-31,UNIQLO Field at Dodger Stadium,67,3,,,,Dalton Rushing,HR,0.10396682471036911,4.0,Dalton Rushing,L,Balanced,0.283,Tanner Bibee,R,Power,1.3344316309719932,1.0
+2026-03-31,UNIQLO Field at Dodger Stadium,67,3,,,,Dalton Rushing,Hit,0.4930362105369568,4.0,Dalton Rushing,L,Balanced,0.283,Tanner Bibee,R,Power,1.3344316309719932,1.0
+2026-03-31,UNIQLO Field at Dodger Stadium,67,3,,,,Dalton Rushing,TB,0.28432056307792664,4.0,Dalton Rushing,L,Balanced,0.283,Tanner Bibee,R,Power,1.3344316309719932,1.0
+2026-03-31,UNIQLO Field at Dodger Stadium,67,3,,,,Dalton Rushing,Run,0.31269222497940063,4.0,Dalton Rushing,L,Balanced,0.283,Tanner Bibee,R,Power,1.3344316309719932,1.0
+2026-03-31,UNIQLO Field at Dodger Stadium,67,3,,,,Dalton Rushing,RBI,0.32435768842697144,4.0,Dalton Rushing,L,Balanced,0.283,Tanner Bibee,R,Power,1.3344316309719932,1.0
+2026-03-31,UNIQLO Field at Dodger Stadium,67,3,,,,Freddie Freeman,HR,0.1812078207731247,5.0,Freddie Freeman,L,Balanced,0.35,Tanner Bibee,R,Power,1.3344316309719932,1.0
+2026-03-31,UNIQLO Field at Dodger Stadium,67,3,,,,Freddie Freeman,Hit,0.6800479888916016,5.0,Freddie Freeman,L,Balanced,0.35,Tanner Bibee,R,Power,1.3344316309719932,1.0
+2026-03-31,UNIQLO Field at Dodger Stadium,67,3,,,,Freddie Freeman,TB,0.4618370532989502,5.0,Freddie Freeman,L,Balanced,0.35,Tanner Bibee,R,Power,1.3344316309719932,1.0
+2026-03-31,UNIQLO Field at Dodger Stadium,67,3,,,,Freddie Freeman,Run,0.4533533751964569,5.0,Freddie Freeman,L,Balanced,0.35,Tanner Bibee,R,Power,1.3344316309719932,1.0
+2026-03-31,UNIQLO Field at Dodger Stadium,67,3,,,,Freddie Freeman,RBI,0.39167776703834534,5.0,Freddie Freeman,L,Balanced,0.35,Tanner Bibee,R,Power,1.3344316309719932,1.0
+2026-03-31,UNIQLO Field at Dodger Stadium,67,3,,,,Kyle Tucker,HR,0.1657668948173523,6.0,Kyle Tucker,L,Balanced,0.372,Tanner Bibee,R,Power,1.3344316309719932,1.0
+2026-03-31,UNIQLO Field at Dodger Stadium,67,3,,,,Kyle Tucker,Hit,0.6365739703178406,6.0,Kyle Tucker,L,Balanced,0.372,Tanner Bibee,R,Power,1.3344316309719932,1.0
+2026-03-31,UNIQLO Field at Dodger Stadium,67,3,,,,Kyle Tucker,TB,0.43380483984947205,6.0,Kyle Tucker,L,Balanced,0.372,Tanner Bibee,R,Power,1.3344316309719932,1.0
+2026-03-31,UNIQLO Field at Dodger Stadium,67,3,,,,Kyle Tucker,Run,0.4576350450515747,6.0,Kyle Tucker,L,Balanced,0.372,Tanner Bibee,R,Power,1.3344316309719932,1.0
+2026-03-31,UNIQLO Field at Dodger Stadium,67,3,,,,Kyle Tucker,RBI,0.3530263304710388,6.0,Kyle Tucker,L,Balanced,0.372,Tanner Bibee,R,Power,1.3344316309719932,1.0
+2026-03-31,UNIQLO Field at Dodger Stadium,67,3,,,,Max Muncy,HR,0.1869988739490509,7.0,Max Muncy,L,Slugger,0.374,Tanner Bibee,R,Power,1.3344316309719932,1.0
+2026-03-31,UNIQLO Field at Dodger Stadium,67,3,,,,Max Muncy,Hit,0.5612173080444336,7.0,Max Muncy,L,Slugger,0.374,Tanner Bibee,R,Power,1.3344316309719932,1.0
+2026-03-31,UNIQLO Field at Dodger Stadium,67,3,,,,Max Muncy,TB,0.35418301820755005,7.0,Max Muncy,L,Slugger,0.374,Tanner Bibee,R,Power,1.3344316309719932,1.0
+2026-03-31,UNIQLO Field at Dodger Stadium,67,3,,,,Max Muncy,Run,0.4207938015460968,7.0,Max Muncy,L,Slugger,0.374,Tanner Bibee,R,Power,1.3344316309719932,1.0
+2026-03-31,UNIQLO Field at Dodger Stadium,67,3,,,,Max Muncy,RBI,0.39197680354118347,7.0,Max Muncy,L,Slugger,0.374,Tanner Bibee,R,Power,1.3344316309719932,1.0
+2026-03-31,UNIQLO Field at Dodger Stadium,67,3,,,,Miguel Rojas,HR,0.07906202971935272,8.0,Miguel Rojas,R,Contact,0.292,Tanner Bibee,R,Power,1.3344316309719932,0.0
+2026-03-31,UNIQLO Field at Dodger Stadium,67,3,,,,Miguel Rojas,Hit,0.5538662075996399,8.0,Miguel Rojas,R,Contact,0.292,Tanner Bibee,R,Power,1.3344316309719932,0.0
+2026-03-31,UNIQLO Field at Dodger Stadium,67,3,,,,Miguel Rojas,TB,0.3123023808002472,8.0,Miguel Rojas,R,Contact,0.292,Tanner Bibee,R,Power,1.3344316309719932,0.0
+2026-03-31,UNIQLO Field at Dodger Stadium,67,3,,,,Miguel Rojas,Run,0.318792462348938,8.0,Miguel Rojas,R,Contact,0.292,Tanner Bibee,R,Power,1.3344316309719932,0.0
+2026-03-31,UNIQLO Field at Dodger Stadium,67,3,,,,Miguel Rojas,RBI,0.21677105128765106,8.0,Miguel Rojas,R,Contact,0.292,Tanner Bibee,R,Power,1.3344316309719932,0.0
+2026-03-31,UNIQLO Field at Dodger Stadium,67,3,,,,Mookie Betts,HR,0.10440230369567871,9.0,Mookie Betts,R,Contact,0.33,Tanner Bibee,R,Power,1.3344316309719932,0.0
+2026-03-31,UNIQLO Field at Dodger Stadium,67,3,,,,Mookie Betts,Hit,0.4894087016582489,9.0,Mookie Betts,R,Contact,0.33,Tanner Bibee,R,Power,1.3344316309719932,0.0
+2026-03-31,UNIQLO Field at Dodger Stadium,67,3,,,,Mookie Betts,TB,0.2606654763221741,9.0,Mookie Betts,R,Contact,0.33,Tanner Bibee,R,Power,1.3344316309719932,0.0
+2026-03-31,UNIQLO Field at Dodger Stadium,67,3,,,,Mookie Betts,Run,0.3632294833660126,9.0,Mookie Betts,R,Contact,0.33,Tanner Bibee,R,Power,1.3344316309719932,0.0
+2026-03-31,UNIQLO Field at Dodger Stadium,67,3,,,,Mookie Betts,RBI,0.28168177604675293,9.0,Mookie Betts,R,Contact,0.33,Tanner Bibee,R,Power,1.3344316309719932,0.0
