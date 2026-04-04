@@ -168,7 +168,8 @@ class GameMarketsPredictor:
         elif FeatureEngineer is not None:
             try:
                 self.fe = FeatureEngineer()
-            except Exception:
+            except Exception as exc:
+                print(f"[GameMarketsPredictor] FeatureEngineer init failed: {exc}.  Using league-average defaults.")
                 self.fe = None
         else:
             self.fe = None

@@ -163,7 +163,7 @@ class FeatureEngineer:
         key = _fuzzy_match(player_name, self._batter_keys)
         if key:
             adv = self._batter_adv[key]
-            features.update({k: v for k, v in adv.items() if not pd.isna(v) if isinstance(v, (int, float, str))})
+            features.update({k: v for k, v in adv.items() if not pd.isna(v) and isinstance(v, (int, float, str))})
 
         # Merge recent form (overrides season averages for volatile metrics)
         rf_key = _fuzzy_match(player_name, set(self._recent_form.keys()))
@@ -205,7 +205,7 @@ class FeatureEngineer:
         key = _fuzzy_match(player_name, self._pitcher_keys)
         if key:
             adv = self._pitcher_adv[key]
-            features.update({k: v for k, v in adv.items() if not pd.isna(v) if isinstance(v, (int, float, str))})
+            features.update({k: v for k, v in adv.items() if not pd.isna(v) and isinstance(v, (int, float, str))})
 
         exp_key = _fuzzy_match(player_name, set(self._pitcher_exp.keys()))
         if exp_key:

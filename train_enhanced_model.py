@@ -176,12 +176,7 @@ def run_training():
     results = []
     for market in MARKETS:
         print(f"   -> {market}…", end="  ", flush=True)
-        out = train_market_model(enhanced_df, market, feature_cols)
-        if len(out) == 3:
-            model, bs, raw_bs = out
-        else:
-            model, bs = out
-            raw_bs = None
+        model, bs, raw_bs = train_market_model(enhanced_df, market, feature_cols)
 
         if model is None:
             continue

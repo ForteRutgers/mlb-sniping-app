@@ -22,10 +22,19 @@ from live_scraper import get_todays_matchups
 from game_markets_predictor import GameMarketsPredictor, format_odds, get_edge_rating
 
 try:
-    from feature_engineering import FeatureEngineer
+    from feature_engineering import FeatureEngineer, LEAGUE_AVG_BATTER, LEAGUE_AVG_PITCHER
     _FE_AVAILABLE = True
 except ImportError:
     _FE_AVAILABLE = False
+    LEAGUE_AVG_BATTER = {
+        "1B_Rate": 0.145, "2B_Rate": 0.045, "3B_Rate": 0.004, "HR_Rate": 0.030,
+        "BB_Rate": 0.085, "K_Rate": 0.225, "R_Conv": 0.310, "RBI_Conv": 0.150,
+        "SB_Conv": 0.050, "Barrel_Rate": 0.080, "xwOBA": 0.320,
+        "Archetype": "Balanced", "Hand": "R",
+    }
+    LEAGUE_AVG_PITCHER = {
+        "CALC_HR9": 1.25, "K_Rate": 0.22, "BB_Rate": 0.08, "H_Rate": 0.24, "BF_per_Start": 22
+    }
 
 # ---------------------------------------------------------------------------
 # Load enhanced XGBoost models (market-specific)
@@ -142,16 +151,6 @@ def _predict_player_props(matchups: list, gmp: GameMarketsPredictor) -> list:
         return []
 
     SIM_GAMES = 10_000
-    league_avg_batter = {
-        "1B_Rate": 0.145, "2B_Rate": 0.045, "3B_Rate": 0.004, "HR_Rate": 0.030,
-        "BB_Rate": 0.085, "K_Rate": 0.225, "R_Conv": 0.310, "RBI_Conv": 0.150,
-        "SB_Conv": 0.050, "Barrel_Rate": 0.08, "xwOBA": 0.320,
-        "Archetype": "Balanced", "Hand": "R",
-    }
-    league_avg_pitcher = {
-        "CALC_HR9": 1.25, "K_Rate": 0.22, "BB_Rate": 0.08, "H_Rate": 0.24, "BF_per_Start": 22
-    }
-
     import random, numpy as np
     results = []
     batter_keys = list(batters_db.keys())
@@ -161,7 +160,7 @@ def _predict_player_props(matchups: list, gmp: GameMarketsPredictor) -> list:
         park_hr, park_avg = LEGACY_PARK.get(stadium, [1.0, 1.0])
         p_name = m.get("opposing_pitcher", "TBD")
         p_hand = m.get("opposing_pitcher_hand", "R")
-        p_stats = pitchers_db.get(match_player_name(p_name, list(pitchers_db.keys())), league_avg_pitcher)
+        p_stats = pitchers_db.get(match_player_name(p_name, list(pitchers_db.keys())), LEAGUE_AVG_PITCHER)
         p_hr9 = p_stats["CALC_HR9"]
         p_archetype, _ = generate_pitcher_profile(p_hr9)
         w = m.get("weather", {"temp": 72, "wind_speed": 0, "wind_dir": "none"})
@@ -170,7 +169,7 @@ def _predict_player_props(matchups: list, gmp: GameMarketsPredictor) -> list:
         )
 
         lineup_stats = [
-            {**batters_db.get(match_player_name(b["name"], batter_keys), league_avg_batter).copy(),
+            {**batters_db.get(match_player_name(b["name"], batter_keys), LEAGUE_AVG_BATTER).copy(),
              "Hand": b["hand"], "Name": b["name"]}
             for b in m["lineup"]
         ]

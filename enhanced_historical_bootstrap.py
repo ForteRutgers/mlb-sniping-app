@@ -424,10 +424,7 @@ def calculate_expected_stats(df: pd.DataFrame) -> tuple:
         hh.columns = ["batter_full_name", "hard_hit_rate"]
         hh["xwoba"] = 0.250 + hh["hard_hit_rate"] * 0.40
         hh["xba"] = 0.200 + hh["hard_hit_rate"] * 0.20
-        b_exp = hh.rename(columns={"batter_full_name": "batter_full_name"})[
-            ["batter_full_name", "xwoba", "xba"]
-        ].rename(columns={"batter_full_name": "batter_full_name"})
-        b_exp = b_exp.rename(columns={"batter_full_name": "batter_full_name"})
+        b_exp = hh[["batter_full_name", "xwoba", "xba"]]
 
     # Add xSLG approximation
     batted2 = df[df["launch_speed"].notna()].copy()
