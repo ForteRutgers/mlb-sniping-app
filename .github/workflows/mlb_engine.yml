@@ -2,8 +2,19 @@ name: MLB Daily Sniper Auto-Pilot
 
 on:
   schedule:
-    - cron: '0 13 * * *'
+    - cron: '0 13 * * *'  # Runs daily at 1 PM UTC (9 AM EST)
   workflow_dispatch:
+    inputs:
+      run_bootstrap:
+        description: 'Run full data bootstrap (takes 30+ min)'
+        required: false
+        default: 'false'
+        type: boolean
+      run_training:
+        description: 'Run model training'
+        required: false
+        default: 'false'
+        type: boolean
 
 permissions:
   contents: write
@@ -11,6 +22,7 @@ permissions:
 jobs:
   run-mlb-engine:
     runs-on: ubuntu-latest
+    timeout-minutes: 120  # 2 hour timeout for bootstrap runs
 
     steps:
     - name: Checkout Repository
@@ -21,23 +33,98 @@ jobs:
       with:
         python-version: '3.11'
 
+    - name: Cache pip dependencies
+      uses: actions/cache@v4
+      with:
+        path: ~/.cache/pip
+        key: ${{ runner.os }}-pip-${{ hashFiles('requirements.txt') }}
+        restore-keys: |
+          ${{ runner.os }}-pip-
+
+    - name: Cache Statcast data
+      uses: actions/cache@v4
+      with:
+        path: |
+          statcast_raw_2024_2025.csv
+          batter_advanced_metrics_2024_2025.csv
+          pitcher_advanced_metrics_2024_2025.csv
+          batter_expected_stats.csv
+          pitcher_expected_stats.csv
+          recent_form_data.csv
+        key: statcast-data-v1-${{ github.run_id }}
+        restore-keys: |
+          statcast-data-v1-
+
+    - name: Cache trained models
+      uses: actions/cache@v4
+      with:
+        path: |
+          enhanced_model_*.json
+          nrfi_model.json
+          enhanced_model_features.txt
+        key: trained-models-v1-${{ github.run_id }}
+        restore-keys: |
+          trained-models-v1-
+
     - name: Install Dependencies
       run: |
         python -m pip install --upgrade pip
-        pip install pandas numpy xgboost scikit-learn requests pybaseball pytz
+        pip install -r requirements.txt
 
+    # ===== OPTIONAL: Run Bootstrap (Manual Trigger Only) =====
+    - name: Run Data Bootstrap (if requested)
+      if: ${{ github.event.inputs.run_bootstrap == 'true' }}
+      run: |
+        echo "🚀 Running enhanced data bootstrap..."
+        python enhanced_historical_bootstrap.py
+      timeout-minutes: 90
+
+    # ===== OPTIONAL: Run Training (Manual Trigger Only) =====
+    - name: Run Model Training (if requested)
+      if: ${{ github.event.inputs.run_training == 'true' }}
+      run: |
+        echo "🧠 Training enhanced models..."
+        python train_enhanced_model.py
+      timeout-minutes: 30
+
+    # ===== DAILY: Run Predictions =====
     - name: Run Daily Bets Engine
       run: |
         python daily_bets.py --auto
 
-    - name: Send Dashboard to Discord
+    - name: Run Enhanced Game Markets Predictions
       run: |
-        curl -v -X POST -F "payload_json={\"content\": \"🤖 **XGBoost AI Dashboard is Live!**\"}" -F "file=@betting_dashboard_report.txt" "https://discord.com/api/webhooks/1487199773256585239/Ci6G7sxUSvvlNPVdT2ng4CpbtTn69t0u7bVn9AupakQa5YYMoZkk7t3GuhnyM4BCWZov"
+        python run_daily_predictions.py || echo "Enhanced predictions not available yet - run bootstrap first"
+      continue-on-error: true
 
-    - name: Save Updated Ledger to Cloud
+    - name: Send Dashboard to Discord
+      env:
+        DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
+      run: |
+        if [ -n "$DISCORD_WEBHOOK" ]; then
+          curl -X POST -F "payload_json={\"content\": \"🤖 **XGBoost AI Dashboard is Live!**\"}" -F "file=@betting_dashboard_report.txt" "$DISCORD_WEBHOOK"
+        else
+          echo "Discord webhook not configured - skipping"
+        fi
+      continue-on-error: true
+
+    - name: Send Enhanced Report to Discord (if exists)
+      env:
+        DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
+      run: |
+        if [ -f "daily_predictions_report.txt" ] && [ -n "$DISCORD_WEBHOOK" ]; then
+          curl -X POST -F "payload_json={\"content\": \"📊 **Enhanced Predictions (NRFI/F5/Game Markets) Ready!**\"}" -F "file=@daily_predictions_report.txt" "$DISCORD_WEBHOOK"
+        fi
+      continue-on-error: true
+
+    - name: Save Updated Files to Repo
       run: |
         git config --global user.name "github-actions[bot]"
         git config --global user.email "github-actions[bot]@users.noreply.github.com"
-        git add prediction_ledger.csv betting_dashboard_report.txt
-        git commit -m "Automated ledger update [skip ci]" || echo "No changes to commit"
-        git push
+        git add prediction_ledger.csv betting_dashboard_report.txt 2>/dev/null || true
+        git add daily_predictions_report.txt 2>/dev/null || true
+        git add enhanced_model_*.json nrfi_model.json enhanced_model_features.txt 2>/dev/null || true
+        git add batter_advanced_metrics_2024_2025.csv pitcher_advanced_metrics_2024_2025.csv 2>/dev/null || true
+        git add enhanced_model_results.csv 2>/dev/null || true
+        git diff --staged --quiet || git commit -m "Automated ledger update [skip ci]"
+        git push || echo "Nothing to push"
