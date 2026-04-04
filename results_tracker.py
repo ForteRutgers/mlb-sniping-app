@@ -9,6 +9,115 @@ import os
 DISCORD_WEBHOOK_URL = "https://discord.com/api/webhooks/1487199773256585239/Ci6G7sxUSvvlNPVdT2ng4CpbtTn69t0u7bVn9AupakQa5YYMoZkk7t3GuhnyM4BCWZov"
 
 
+def _fetch_linescore(game_pk: int) -> dict:
+    """Fetch the linescore (inning-by-inning runs) for a single game."""
+    url = f"https://statsapi.mlb.com/api/v1/game/{game_pk}/linescore"
+    try:
+        return requests.get(url, timeout=5).json()
+    except Exception:
+        return {}
+
+
+def fetch_game_outcomes(yesterday_str: str) -> dict:
+    """
+    Returns a dict of game-level results keyed by game_pk.
+    Each entry has: away_runs, home_runs, away_runs_1st, home_runs_1st,
+    away_team, home_team.
+    """
+    url = f"https://statsapi.mlb.com/api/v1/schedule?sportId=1&date={yesterday_str}"
+    print(f"Fetching official MLB game outcomes for {yesterday_str}...")
+    try:
+        data = requests.get(url, timeout=10).json()
+    except Exception as e:
+        print(f"[!] API Error: {e}")
+        return {}
+
+    outcomes = {}
+    if 'dates' not in data or not data['dates']:
+        return outcomes
+
+    for game in data['dates'][0].get('games', []):
+        if game['status']['statusCode'] not in ['F', 'O']:
+            continue
+        game_pk = game['gamePk']
+        away_team = game['teams']['away']['team']['name']
+        home_team = game['teams']['home']['team']['name']
+        linescore = _fetch_linescore(game_pk)
+        innings = linescore.get('innings', [])
+        away_total = linescore.get('teams', {}).get('away', {}).get('runs', 0) or 0
+        home_total = linescore.get('teams', {}).get('home', {}).get('runs', 0) or 0
+        away_1st = home_1st = 0
+        if innings:
+            away_1st = innings[0].get('away', {}).get('runs', 0) or 0
+            home_1st = innings[0].get('home', {}).get('runs', 0) or 0
+        outcomes[game_pk] = {
+            'away_team': away_team,
+            'home_team': home_team,
+            'away_runs': int(away_total),
+            'home_runs': int(home_total),
+            'away_runs_1st': int(away_1st),
+            'home_runs_1st': int(home_1st),
+        }
+    return outcomes
+
+
+def grade_game_markets(yesterday_bets: pd.DataFrame, game_outcomes: dict) -> dict:
+    """
+    Grade NRFI/YRFI, Moneyline, and Game Total predictions.
+    Returns a summary dict with brier scores and win/loss counts per market type.
+    """
+    nrfi_brier = []
+    ml_brier = []
+    gt_brier = []
+
+    for _, row in yesterday_bets.iterrows():
+        player = str(row.get('Player', '')).strip()
+        market = str(row.get('Market', ''))
+        prob = float(row.get('Prob', 0.5))
+
+        if player != 'GAME_TOTAL':
+            continue
+
+        # Match game by team names recorded in ledger
+        away_t = str(row.get('Away_Team', ''))
+        home_t = str(row.get('Home_Team', ''))
+        matched = None
+        for gk, go in game_outcomes.items():
+            if (go['away_team'] == away_t and go['home_team'] == home_t) or \
+               (go['away_team'] in away_t or go['home_team'] in home_t):
+                matched = go
+                break
+
+        if matched is None:
+            continue
+
+        if market == 'NRFI':
+            actual = int(matched['away_runs_1st'] == 0 and matched['home_runs_1st'] == 0)
+            nrfi_brier.append((prob - actual) ** 2)
+        elif market.startswith('ML_Away'):
+            actual = int(matched['away_runs'] > matched['home_runs'])
+            ml_brier.append((prob - actual) ** 2)
+        elif market.startswith('ML_Home'):
+            actual = int(matched['home_runs'] > matched['away_runs'])
+            ml_brier.append((prob - actual) ** 2)
+        elif market.startswith('Over_'):
+            try:
+                line = float(market.split('_')[1])
+                actual = int(matched['away_runs'] + matched['home_runs'] > line)
+                gt_brier.append((prob - actual) ** 2)
+            except (IndexError, ValueError):
+                pass
+
+    return {
+        'nrfi_brier': sum(nrfi_brier) / len(nrfi_brier) if nrfi_brier else None,
+        'nrfi_count': len(nrfi_brier),
+        'ml_brier': sum(ml_brier) / len(ml_brier) if ml_brier else None,
+        'ml_count': len(ml_brier),
+        'gt_brier': sum(gt_brier) / len(gt_brier) if gt_brier else None,
+        'gt_count': len(gt_brier),
+    }
+
+
 def fetch_yesterdays_boxscores(yesterday_str):
     """Pings the MLB API for yesterday's games and loops individual boxscores to prevent truncation."""
     url = f"https://statsapi.mlb.com/api/v1/schedule?sportId=1&date={yesterday_str}"
@@ -84,7 +193,7 @@ def grade_ledger():
         player = str(row['Player']).replace('*', '').strip()
         market = str(row['Market'])
 
-        # Skip the Game Totals for the player prop grader
+        # Skip the Game Totals for the player prop grader (handled separately)
         if player == 'GAME_TOTAL':
             continue
 
@@ -125,9 +234,22 @@ def grade_ledger():
     accuracy = (wins / (wins + losses)) * 100
 
     report = f"📊 **MLB Model Backtest Report ({yesterday_str})** 📊\n"
-    report += f"**Brier Score:** {avg_brier:.4f} *(Lower is better, <0.20 is elite)*\n"
+    report += f"**Brier Score (Props):** {avg_brier:.4f} *(Lower is better, <0.20 is elite)*\n"
     report += f"**Binary Accuracy:** {accuracy:.1f}%\n"
     report += f"**Total Props Graded:** {len(brier_scores)}"
+
+    # ---- Grade game-level markets ----
+    try:
+        game_outcomes = fetch_game_outcomes(yesterday_str)
+        game_grades = grade_game_markets(yesterday_bets, game_outcomes)
+        if game_grades['nrfi_count']:
+            report += f"\n**NRFI Brier Score:** {game_grades['nrfi_brier']:.4f} ({game_grades['nrfi_count']} predictions)"
+        if game_grades['ml_count']:
+            report += f"\n**Moneyline Brier Score:** {game_grades['ml_brier']:.4f} ({game_grades['ml_count']} predictions)"
+        if game_grades['gt_count']:
+            report += f"\n**Game Total Brier Score:** {game_grades['gt_brier']:.4f} ({game_grades['gt_count']} predictions)"
+    except Exception as e:
+        print(f"[!] Could not grade game markets: {e}")
 
     print(report)
 

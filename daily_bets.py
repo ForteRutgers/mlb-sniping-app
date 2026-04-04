@@ -21,6 +21,15 @@ try:
 except Exception:
     AI_ACTIVE = False
 
+# Load FeatureEngineer for enhanced Statcast metrics
+try:
+    from feature_engineering import FeatureEngineer as _FE
+    FEATURE_ENGINEER = _FE()
+    FE_ACTIVE = True
+except Exception:
+    FEATURE_ENGINEER = None
+    FE_ACTIVE = False
+
 NAME_ALIASES = {
     'Jazz Chisholm': 'Jazz Chisholm Jr', 'Luis Robert': 'Luis Robert Jr', 'Shohei Ohtani': 'Shohei Ohtani',
 }
@@ -294,7 +303,11 @@ def calculate_sharp_ou_line(sim_array):
 
 
 def apply_xgboost_filter(raw_prob, market, features):
-    """Feeds the raw simulation through the XGBoost Brain to get the Smart Probability."""
+    """Feeds the raw simulation through the XGBoost Brain to get the Smart Probability.
+
+    When the FeatureEngineer is available the feature vector is enriched with
+    advanced Statcast metrics before being passed to the model.
+    """
     if not AI_ACTIVE: return raw_prob
     row_data = {col: 0 for col in AI_COLS}
 
@@ -310,6 +323,29 @@ def apply_xgboost_filter(raw_prob, market, features):
 
     market_col = f"Market_{market}"
     if market_col in row_data: row_data[market_col] = 1
+
+    # Enrich with advanced Statcast features when FeatureEngineer is active
+    if FE_ACTIVE and FEATURE_ENGINEER is not None:
+        try:
+            batter_name = features.get('Batter', '')
+            pitcher_name = features.get('Pitcher', '')
+            if batter_name:
+                bf = FEATURE_ENGINEER.get_batter_features(batter_name)
+                for stat in ['barrel_rate', 'hard_hit_rate', 'sweet_spot_rate',
+                             'avg_exit_velo', 'whiff_rate', 'chase_rate', 'zone_contact_rate',
+                             'woba_vs_fastball', 'woba_vs_breaking', 'woba_vs_offspeed']:
+                    if stat in row_data:
+                        row_data[stat] = float(bf.get(stat, 0.0))
+            if pitcher_name:
+                pf = FEATURE_ENGINEER.get_pitcher_features(pitcher_name)
+                for stat in ['p_whiff_rate', 'p_csw_rate', 'p_k_rate', 'p_bb_rate',
+                             'p_hard_hit_against', 'p_barrel_against',
+                             'p_fastball_pct', 'p_breaking_pct', 'p_offspeed_pct']:
+                    if stat in row_data:
+                        key = stat[2:]  # strip 'p_' prefix
+                        row_data[stat] = float(pf.get(key, 0.0))
+        except Exception:
+            pass  # Fall back to basic features silently
 
     df_pred = pd.DataFrame([row_data])[AI_COLS]
     return AI_BRAIN.predict_proba(df_pred)[0][1]
@@ -440,7 +476,9 @@ def run_prop_market_simulation():
             }
             ledger_rows.extend([
                 {**game_ml_features, 'Player': 'GAME_TOTAL', 'Market': f'Over_{gt_line}', 'Prob': gt_over},
-                {**game_ml_features, 'Player': 'GAME_TOTAL', 'Market': 'NRFI', 'Prob': tracker['nrfi'] / SIM_GAMES}
+                {**game_ml_features, 'Player': 'GAME_TOTAL', 'Market': 'NRFI', 'Prob': tracker['nrfi'] / SIM_GAMES},
+                {**game_ml_features, 'Player': 'GAME_TOTAL', 'Market': 'ML_Away', 'Prob': away_ml_prob},
+                {**game_ml_features, 'Player': 'GAME_TOTAL', 'Market': 'ML_Home', 'Prob': home_ml_prob},
             ])
 
             report.append(f"==========================================================================")
