@@ -150,7 +150,7 @@ def _predict_player_props(matchups: list, gmp: GameMarketsPredictor) -> list:
         print(f"[!] Could not load prop matrices: {exc}")
         return []
 
-    SIM_GAMES = 10_000
+    SIM_GAMES = 1_000  # Reduced from 10,000 to prevent timeout
     import random, numpy as np
     results = []
     batter_keys = list(batters_db.keys())
@@ -430,7 +430,7 @@ def run_daily_predictions():
             away_pitcher_hand=away_ph,
             home_pitcher_hand=home_ph,
             weather=weather,
-            n_simulations=5_000,
+            n_simulations=1_500,  # Reduced from 5,000 to prevent timeout
         )
 
         # Full game prediction
@@ -441,7 +441,7 @@ def run_daily_predictions():
             away_pitcher_hand=away_ph,
             home_pitcher_hand=home_ph,
             weather=weather,
-            n_simulations=5_000,
+            n_simulations=1_500,  # Reduced from 5,000 to prevent timeout
         )
 
         game_section = _format_game_report(

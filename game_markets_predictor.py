@@ -160,7 +160,7 @@ class GameMarketsPredictor:
     predictions for game-level betting markets.
     """
 
-    SIM_GAMES = 10_000
+    SIM_GAMES = 2_000  # Reduced from 10,000 for faster execution
 
     def __init__(self, feature_engineer: Optional[Any] = None):
         if feature_engineer is not None:
