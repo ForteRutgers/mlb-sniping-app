@@ -30,6 +30,17 @@ def _build_name(row):
     return str(row.get("player_name", "Unknown"))
 
 
+def _build_name_vectorized(series: pd.Series) -> pd.Series:
+    """Vectorized version of _build_name: converts 'Last, First' → 'First Last'."""
+    s = series.fillna("Unknown").astype(str)
+    split = s.str.split(",", n=1, expand=True)
+    if split.shape[1] >= 2:
+        has_comma = split.iloc[:, 1].notna()
+        result = split.iloc[:, 1].str.strip() + " " + split.iloc[:, 0].str.strip()
+        return pd.Series(np.where(has_comma, result, s), index=series.index)
+    return s
+
+
 # ---------------------------------------------------------------------------
 # Data Fetching
 # ---------------------------------------------------------------------------
@@ -41,8 +52,16 @@ def fetch_statcast_data(start_year: int = 2024, end_year: int = 2025) -> pd.Data
     is unavailable or the API is rate-limited.
     """
     print(f"[1/6] Fetching Statcast data for {start_year}-{end_year}...")
+
+    raw_csv = "statcast_raw_2024_2025.csv"
+    if os.path.exists(raw_csv):
+        print(f"      -> Loading existing {raw_csv} (skipping download)")
+        return pd.read_csv(raw_csv, low_memory=False)
+
     frames = []
     try:
+        import pybaseball as _pyb  # type: ignore
+        _pyb.cache.enable()
         from pybaseball import statcast  # type: ignore
         for year in range(start_year, end_year + 1):
             start_dt = f"{year}-03-01"
@@ -80,6 +99,16 @@ def calculate_batter_metrics(df: pd.DataFrame) -> pd.DataFrame:
     if df.empty:
         return _empty_batter_df()
 
+    # Group by player name (Statcast uses "player_name" for batter)
+    if "player_name" not in df.columns:
+        print("[!] player_name column not found – skipping batter metrics.")
+        return _empty_batter_df()
+
+    # Build full name from Statcast "Last, First" format – computed ONCE using
+    # vectorized string ops BEFORE any filtering so all subsets inherit the column.
+    df = df.copy()
+    df["batter_full_name"] = _build_name_vectorized(df["player_name"])
+
     batted = df[df["launch_speed"].notna() & df["launch_angle"].notna()].copy()
 
     batted["is_barrel"] = (
@@ -98,22 +127,22 @@ def calculate_batter_metrics(df: pd.DataFrame) -> pd.DataFrame:
     ).astype(int)
     batted["is_fb"] = (batted["launch_angle"] > 25).astype(int)
 
-    # Swings and whiffs
+    # Swings and whiffs – all inherit batter_full_name from df
     swings = df[df["description"].isin(
         ["hit_into_play", "swinging_strike", "foul", "swinging_strike_blocked", "foul_tip"]
-    )].copy()
+    )]
     whiffs = swings[swings["description"].isin(
         ["swinging_strike", "swinging_strike_blocked", "foul_tip"]
     )]
 
     # Chase rate: swings at pitches outside zone (zone 11-14 are ball zones in Statcast)
-    out_zone = df[df["zone"].isin([11, 12, 13, 14])].copy()
+    out_zone = df[df["zone"].isin([11, 12, 13, 14])]
     out_zone_swings = out_zone[out_zone["description"].isin(
         ["hit_into_play", "swinging_strike", "foul", "swinging_strike_blocked", "foul_tip"]
     )]
 
     # Zone contact (zone 1-9 are strike zones)
-    in_zone = df[df["zone"].between(1, 9)].copy()
+    in_zone = df[df["zone"].between(1, 9)]
     in_zone_contact = in_zone[in_zone["description"].isin(
         ["hit_into_play", "foul", "foul_tip"]
     )]
@@ -124,35 +153,7 @@ def calculate_batter_metrics(df: pd.DataFrame) -> pd.DataFrame:
     # wOBA vs pitch type  (use estimated_woba_using_speedangle where available)
     woba_col = "estimated_woba_using_speedangle" if "estimated_woba_using_speedangle" in df.columns else None
 
-    records = []
-    batter_id_col = "batter" if "batter" in df.columns else None
-
-    # Group by player name (Statcast uses "player_name" for batter)
-    name_col = "player_name" if "player_name" in df.columns else None
-    if name_col is None:
-        print("[!] player_name column not found – skipping batter metrics.")
-        return _empty_batter_df()
-
-    # Build full name from Statcast "Last, First" format
-    df = df.copy()
-    df["batter_full_name"] = df.apply(_build_name, axis=1)
-    batted["batter_full_name"] = batted.apply(_build_name, axis=1)
-    swings_named = swings.copy()
-    swings_named["batter_full_name"] = swings_named.apply(_build_name, axis=1)
-    whiffs_named = whiffs.copy()
-    whiffs_named["batter_full_name"] = whiffs_named.apply(_build_name, axis=1)
-    out_zone_named = out_zone.copy()
-    out_zone_named["batter_full_name"] = out_zone_named.apply(_build_name, axis=1)
-    out_zone_swings_named = out_zone_swings.copy()
-    out_zone_swings_named["batter_full_name"] = out_zone_swings_named.apply(_build_name, axis=1)
-    in_zone_named = in_zone.copy()
-    in_zone_named["batter_full_name"] = in_zone_named.apply(_build_name, axis=1)
-    in_zone_contact_named = in_zone_contact.copy()
-    in_zone_contact_named["batter_full_name"] = in_zone_contact_named.apply(_build_name, axis=1)
-    in_zone_swings_named = in_zone_swings.copy()
-    in_zone_swings_named["batter_full_name"] = in_zone_swings_named.apply(_build_name, axis=1)
-
-    # Aggregate counts per batter
+    # Aggregate counts per batter – groupby directly; no redundant apply() calls
     bb_agg = batted.groupby("batter_full_name").agg(
         total_batted=("is_barrel", "count"),
         barrels=("is_barrel", "sum"),
@@ -165,12 +166,12 @@ def calculate_batter_metrics(df: pd.DataFrame) -> pd.DataFrame:
         fb=("is_fb", "sum"),
     )
 
-    sw_agg = swings_named.groupby("batter_full_name").size().rename("total_swings")
-    wh_agg = whiffs_named.groupby("batter_full_name").size().rename("total_whiffs")
-    oz_agg = out_zone_named.groupby("batter_full_name").size().rename("oz_pitches")
-    ozs_agg = out_zone_swings_named.groupby("batter_full_name").size().rename("oz_swings")
-    iz_s_agg = in_zone_swings_named.groupby("batter_full_name").size().rename("iz_swings")
-    iz_c_agg = in_zone_contact_named.groupby("batter_full_name").size().rename("iz_contacts")
+    sw_agg = swings.groupby("batter_full_name").size().rename("total_swings")
+    wh_agg = whiffs.groupby("batter_full_name").size().rename("total_whiffs")
+    oz_agg = out_zone.groupby("batter_full_name").size().rename("oz_pitches")
+    ozs_agg = out_zone_swings.groupby("batter_full_name").size().rename("oz_swings")
+    iz_s_agg = in_zone_swings.groupby("batter_full_name").size().rename("iz_swings")
+    iz_c_agg = in_zone_contact.groupby("batter_full_name").size().rename("iz_contacts")
 
     combined = bb_agg.join(sw_agg, how="left").join(wh_agg, how="left") \
                      .join(oz_agg, how="left").join(ozs_agg, how="left") \
@@ -189,13 +190,12 @@ def calculate_batter_metrics(df: pd.DataFrame) -> pd.DataFrame:
     combined["chase_rate"] = _safe_divide(combined["oz_swings"], combined["oz_pitches"])
     combined["zone_contact_rate"] = _safe_divide(combined["iz_contacts"], combined["iz_swings"])
 
-    # wOBA vs pitch type
+    # wOBA vs pitch type – df already has batter_full_name, inherited by df_pt
     if woba_col and "pitch_type" in df.columns:
         pt_map = {"FF": "fastball", "SI": "fastball", "FC": "fastball",
                   "SL": "breaking", "CU": "breaking", "KC": "breaking", "CS": "breaking",
                   "CH": "offspeed", "FS": "offspeed", "FO": "offspeed"}
         df_pt = df[df[woba_col].notna()].copy()
-        df_pt["batter_full_name"] = df_pt.apply(_build_name, axis=1)
         df_pt["pitch_cat"] = df_pt["pitch_type"].map(pt_map)
         for cat in ["fastball", "breaking", "offspeed"]:
             subset = df_pt[df_pt["pitch_cat"] == cat]
@@ -237,7 +237,7 @@ def calculate_pitcher_metrics(df: pd.DataFrame) -> pd.DataFrame:
         df["pitcher_full_name"] = df["pitcher_name"]
     else:
         # player_name in statcast() is the pitcher's name
-        df["pitcher_full_name"] = df.apply(_build_name, axis=1)
+        df["pitcher_full_name"] = _build_name_vectorized(df["player_name"])
 
     batted = df[df["launch_speed"].notna() & df["launch_angle"].notna()].copy()
     batted["is_barrel"] = (
@@ -350,7 +350,7 @@ def calculate_recent_form(df: pd.DataFrame) -> pd.DataFrame:
 
     df = df.copy()
     df["game_date"] = pd.to_datetime(df["game_date"], errors="coerce")
-    df["batter_full_name"] = df.apply(_build_name, axis=1)
+    df["batter_full_name"] = _build_name_vectorized(df["player_name"])
 
     cutoff = df["game_date"].max() - pd.Timedelta(days=14)
     recent = df[df["game_date"] >= cutoff].copy()
@@ -401,11 +401,11 @@ def calculate_expected_stats(df: pd.DataFrame) -> tuple:
         return _empty_expected_batter_df(), _empty_expected_pitcher_df()
 
     df = df.copy()
-    df["batter_full_name"] = df.apply(_build_name, axis=1)
+    df["batter_full_name"] = _build_name_vectorized(df["player_name"])
     if "pitcher_name" in df.columns:
         df["pitcher_full_name"] = df["pitcher_name"]
     else:
-        df["pitcher_full_name"] = df.apply(_build_name, axis=1)
+        df["pitcher_full_name"] = _build_name_vectorized(df["player_name"])
 
     xwoba_col = "estimated_woba_using_speedangle" if "estimated_woba_using_speedangle" in df.columns else None
     xba_col = "estimated_ba_using_speedangle" if "estimated_ba_using_speedangle" in df.columns else None
@@ -428,7 +428,6 @@ def calculate_expected_stats(df: pd.DataFrame) -> tuple:
 
     # Add xSLG approximation
     batted2 = df[df["launch_speed"].notna()].copy()
-    batted2["batter_full_name"] = batted2.apply(_build_name, axis=1)
     batted2["tb_estimate"] = np.where(
         batted2["events"] == "home_run", 4,
         np.where(batted2["events"] == "triple", 3,
