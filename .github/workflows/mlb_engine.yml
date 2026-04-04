@@ -112,8 +112,8 @@ jobs:
       env:
         DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
       run: |
-        if [ -f "daily_predictions_report.txt" ] && [ -n "$DISCORD_WEBHOOK" ]; then
-          curl -X POST -F "payload_json={\"content\": \"📊 **Enhanced Predictions (NRFI/F5/Game Markets) Ready!**\"}" -F "file=@daily_predictions_report.txt" "$DISCORD_WEBHOOK"
+        if [ -f "enhanced_predictions_report.txt" ] && [ -n "$DISCORD_WEBHOOK" ]; then
+          curl -X POST -F "payload_json={\"content\": \"📊 **Enhanced Predictions (NRFI/F5/Game Markets) Ready!**\"}" -F "file=@enhanced_predictions_report.txt" "$DISCORD_WEBHOOK"
         fi
       continue-on-error: true
 
@@ -122,7 +122,7 @@ jobs:
         git config --global user.name "github-actions[bot]"
         git config --global user.email "github-actions[bot]@users.noreply.github.com"
         git add prediction_ledger.csv betting_dashboard_report.txt 2>/dev/null || true
-        git add daily_predictions_report.txt 2>/dev/null || true
+        git add enhanced_predictions_report.txt 2>/dev/null || true
         git add enhanced_model_*.json nrfi_model.json enhanced_model_features.txt 2>/dev/null || true
         git add batter_advanced_metrics_2024_2025.csv pitcher_advanced_metrics_2024_2025.csv 2>/dev/null || true
         git add enhanced_model_results.csv 2>/dev/null || true
