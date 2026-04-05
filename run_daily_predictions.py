@@ -448,7 +448,8 @@ def run_daily_predictions():
             n_simulations=1_500,  # Reduced from 5,000 to prevent timeout
         )
 
-        # Get game_time from one of the matchups
+        # Get game_time from one of the matchups (both teams share the same game time
+        # since they are grouped by stadium)
         game_time = teams[0].get('game_time', 'TBD')
 
         game_section = _format_game_report(

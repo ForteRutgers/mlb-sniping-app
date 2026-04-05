@@ -173,7 +173,7 @@ def get_todays_matchups():
         # Convert game_time to Eastern for display
         eastern = pytz.timezone('America/New_York')
         game_time_eastern = game_time.astimezone(eastern)
-        game_time_str = game_time_eastern.strftime('%I:%M %p ET')  # e.g., "7:05 PM ET"
+        game_time_str = game_time_eastern.strftime('%-I:%M %p ET')  # e.g., "7:05 PM ET"
 
         if away_lineup:
             matchups.append({
