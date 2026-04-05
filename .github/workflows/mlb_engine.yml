@@ -2,10 +2,10 @@ name: MLB Daily Sniper Auto-Pilot
 
 on:
   schedule:
-    - cron: '0 16 * * *'   # 12 PM EST - catches early games (1 PM starts)
-    - cron: '0 19 * * *'   # 3 PM EST - catches afternoon games
-    - cron: '0 22 * * *'   # 6 PM EST - catches most night games
-    - cron: '30 23 * * *'  # 7:30 PM EST - catches West Coast games
+    - cron: '0 16 * * *'   # 12 PM EDT / 11 AM EST - catches early games (1 PM starts)
+    - cron: '0 19 * * *'   # 3 PM EDT / 2 PM EST - catches afternoon games
+    - cron: '0 22 * * *'   # 6 PM EDT / 5 PM EST - catches most night games
+    - cron: '30 23 * * *'  # 7:30 PM EDT / 6:30 PM EST - catches West Coast games
   workflow_dispatch:
     inputs:
       run_bootstrap:
