@@ -1,0 +1,17 @@
+services:
+  - type: worker
+    name: mlb-discord-bot
+    env: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: python bot.py
+    envVars:
+      - key: DISCORD_BOT_TOKEN
+        sync: false
+      - key: GITHUB_TOKEN
+        sync: false
+      - key: REPO_OWNER
+        value: ForteRutgers
+      - key: REPO_NAME
+        value: mlb-sniping-app
+      - key: WORKFLOW_FILE
+        value: mlb_engine.yml
