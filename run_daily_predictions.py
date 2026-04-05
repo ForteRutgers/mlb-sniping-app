@@ -227,6 +227,7 @@ def _predict_player_props(matchups: list, gmp: GameMarketsPredictor) -> list:
                 "archetype": b.get("Archetype", "Balanced"),
                 "platoon": has_platoon,
                 "props": props,
+                "game_time": m.get("game_time", "TBD"),
             })
 
     return results
@@ -241,6 +242,7 @@ def _format_game_report(
     weather: dict, away_pitcher: str, home_pitcher: str,
     away_pitcher_hand: str, home_pitcher_hand: str,
     nrfi_result: dict, game_result: dict,
+    game_time: str = "",
 ) -> str:
     lines = []
     W = 70
@@ -251,7 +253,8 @@ def _format_game_report(
 
     lines.append("=" * W)
     lines.append(f"🏟️  {away_team.upper()} @ {home_team.upper()}")
-    lines.append(f"📍 {stadium} | 🌡️ {temp}°F | 💨 {wind}mph {wind_dir}")
+    lines.append(f"⏰ {game_time} | 📍 {stadium}")
+    lines.append(f"🌡️ {temp}°F | 💨 {wind}mph {wind_dir}")
     lines.append(f"⚾ Pitchers: {away_pitcher} ({away_pitcher_hand}) vs {home_pitcher} ({home_pitcher_hand})")
     lines.append("=" * W)
 
@@ -326,8 +329,9 @@ def _format_props_section(props_list: list) -> str:
         return ""
     lines = []
     m0 = props_list[0]
+    game_time = m0.get('game_time', 'TBD')
     lines.append(f"{'=' * 70}")
-    lines.append(f"PLAYER PROPS: {m0['team']} vs {m0['pitcher']} ({m0['pitcher_hand']}HP - {m0['pitcher_archetype']} Pitcher)")
+    lines.append(f"⏰ {game_time} | PLAYER PROPS: {m0['team']} vs {m0['pitcher']} ({m0['pitcher_hand']}HP - {m0['pitcher_archetype']} Pitcher)")
     lines.append(f"ENV: {m0['stadium']} | {m0['weather']['temp']}°F | Wind: {m0['weather']['wind_speed']}mph {m0['weather']['wind_dir']}")
     lines.append(f"{'=' * 70}")
 
@@ -444,10 +448,14 @@ def run_daily_predictions():
             n_simulations=1_500,  # Reduced from 5,000 to prevent timeout
         )
 
+        # Get game_time from one of the matchups
+        game_time = teams[0].get('game_time', 'TBD')
+
         game_section = _format_game_report(
             away_team, home_team, stadium, weather,
             away_pitcher, home_pitcher, away_ph, home_ph,
             nrfi_result, game_result,
+            game_time=game_time,
         )
         report_parts.append(game_section)
 

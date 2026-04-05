@@ -170,6 +170,11 @@ def get_todays_matchups():
 
         weather = get_live_weather(home_team)
 
+        # Convert game_time to Eastern for display
+        eastern = pytz.timezone('America/New_York')
+        game_time_eastern = game_time.astimezone(eastern)
+        game_time_str = game_time_eastern.strftime('%I:%M %p ET')  # e.g., "7:05 PM ET"
+
         if away_lineup:
             matchups.append({
                 'team': away_team,
@@ -177,7 +182,8 @@ def get_todays_matchups():
                 'opposing_pitcher': home_pitcher,
                 'opposing_pitcher_hand': home_pitcher_hand,
                 'lineup': away_lineup,
-                'weather': weather
+                'weather': weather,
+                'game_time': game_time_str
             })
 
         if home_lineup:
@@ -187,7 +193,8 @@ def get_todays_matchups():
                 'opposing_pitcher': away_pitcher,
                 'opposing_pitcher_hand': away_pitcher_hand,
                 'lineup': home_lineup,
-                'weather': weather
+                'weather': weather,
+                'game_time': game_time_str
             })
 
     return matchups
