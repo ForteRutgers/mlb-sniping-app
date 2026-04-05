@@ -1,13 +1,15 @@
 # live_scraper.py
+import os
 import requests
-from datetime import datetime
+from datetime import datetime, timezone
 import pytz
 import time
 
 # =====================================================================
-# 🚨 PASTE YOUR FREE OPENWEATHER API KEY BELOW (Inside the quotes) 🚨
+# Set OPENWEATHER_API_KEY as an environment variable or paste your key
+# below inside the quotes.
 # =====================================================================
-OPENWEATHER_API_KEY = "3a27fd56ba9af5f8747dac6b3f880509"
+OPENWEATHER_API_KEY = os.environ.get("OPENWEATHER_API_KEY", "YOUR_API_KEY_HERE")
 
 TEAM_CITIES = {
     'San Francisco Giants': 'San Francisco', 'Los Angeles Dodgers': 'Los Angeles',
@@ -121,6 +123,14 @@ def get_todays_matchups():
         home_id = game['teams']['home']['team']['id']
         away_team = game['teams']['away']['team']['name']
         away_id = game['teams']['away']['team']['id']
+
+        game_time = datetime.fromisoformat(game['gameDate'].replace('Z', '+00:00'))
+        now = datetime.now(timezone.utc)
+        minutes_until_game = (game_time - now).total_seconds() / 60
+
+        if minutes_until_game > 90:
+            print(f"      -> Skipping {away_team} @ {home_team} - starts in {minutes_until_game:.0f} min, lineups likely not confirmed")
+            continue
 
         stadium = game.get('venue', {}).get('name', home_team)
 
