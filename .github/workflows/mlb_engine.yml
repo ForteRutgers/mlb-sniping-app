@@ -120,6 +120,31 @@ jobs:
         fi
       continue-on-error: true
 
+    # ===== DAILY: Grade Yesterday's Predictions =====
+    - name: Grade Yesterday's Predictions
+      run: |
+        python results_tracker.py || echo "No predictions to grade yet"
+      continue-on-error: true
+
+    # ===== DAILY: Retrain Models with New Data =====
+    - name: Retrain Models Daily
+      run: |
+        echo "🧠 Retraining models with latest data..."
+        python train_enhanced_model.py || echo "Training skipped - insufficient data"
+      continue-on-error: true
+      timeout-minutes: 30
+
+    - name: Send Brier Score Report to Discord
+      env:
+        DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
+      run: |
+        if [ -f "enhanced_model_results.csv" ] && [ -n "$DISCORD_WEBHOOK" ]; then
+          python send_brier_report.py
+        else
+          echo "Brier report not available or Discord webhook not configured"
+        fi
+      continue-on-error: true
+
     - name: Save Updated Files to Repo
       run: |
         git config --global user.name "github-actions[bot]"
@@ -129,5 +154,6 @@ jobs:
         git add enhanced_model_*.json nrfi_model.json enhanced_model_features.txt 2>/dev/null || true
         git add batter_advanced_metrics_2024_2025.csv pitcher_advanced_metrics_2024_2025.csv 2>/dev/null || true
         git add enhanced_model_results.csv 2>/dev/null || true
+        git add brier_score_history.csv 2>/dev/null || true
         git diff --staged --quiet || git commit -m "Automated ledger update [skip ci]"
         git push || echo "Nothing to push"
