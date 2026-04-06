@@ -5,6 +5,7 @@ import pytz
 import subprocess
 import sys
 import os
+import time
 
 # =====================================================================
 # 🚨 PASTE YOUR DISCORD WEBHOOK URL BELOW (Inside the quotes) 🚨
@@ -117,4 +118,11 @@ def check_schedule():
 
 
 if __name__ == "__main__":
-    check_schedule()
+    print("[CLOUD CONTROLLER] Starting polling loop...")
+    try:
+        while True:
+            check_schedule()
+            print("[CLOUD CONTROLLER] Sleeping for 5 minutes...")
+            time.sleep(300)  # Check every 5 minutes
+    except KeyboardInterrupt:
+        print("[CLOUD CONTROLLER] Shutdown signal received. Exiting.")
