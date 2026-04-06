@@ -11,11 +11,11 @@ MLB ENHANCED PREDICTIONS - 2026-04-06
 ┌────────────────────────────────────────────────────────────────────┐
 │                        🥇 FIRST INNING MARKETS                      │
 ├────────────────────────────────────────────────────────────────────┤
-│  NRFI (No Run 1st)  :  54.7%  (  -120)                             │
-│  YRFI (Yes Run 1st) :  45.3%  (  +120)                             │
+│  NRFI (No Run 1st)  :  53.6%  (  -115)                             │
+│  YRFI (Yes Run 1st) :  46.4%  (  +115)                             │
 │  Recommendation     : 🔥 SLIGHT NRFI                                │
 ├────────────────────────────────────────────────────────────────────┤
-│  Away scores 1st:  25.0%  |  Home scores 1st:  27.5%               │
+│  Away scores 1st:  26.1%  |  Home scores 1st:  26.6%               │
 │  Pitcher Scores: Away 0.51 | Home 0.51                             │
 └────────────────────────────────────────────────────────────────────┘
 
@@ -23,27 +23,27 @@ MLB ENHANCED PREDICTIONS - 2026-04-06
 │                          📊 FULL GAME MARKETS                       │
 ├────────────────────────────────────────────────────────────────────┤
 │  MONEYLINE                                                         │
-│    Away: 46.2% (+116) | Home: 53.8% (-116)                         │
+│    Away: 46.6% (+114) | Home: 53.4% (-114)                         │
 ├────────────────────────────────────────────────────────────────────┤
 │  RUN LINE (-1.5)                                                   │
-│    Away: 35.3% (+183) | Home: 41.5% (+141)                         │
+│    Away: 33.2% (+201) | Home: 39.3% (+154)                         │
 ├────────────────────────────────────────────────────────────────────┤
 │  GAME TOTAL (8.5)                                                  │
-│    Over: 50.2% | Under: 49.8% | Mean: 8.9 runs                     │
+│    Over: 48.9% | Under: 51.1% | Mean: 8.9 runs                     │
 ├────────────────────────────────────────────────────────────────────┤
 │  TEAM TOTALS                                                       │
-│    Away O/U 4.5: Over 40.8% | Under 59.2%                          │
-│    Home O/U 4.5: Over 46.1% | Under 53.9%                          │
+│    Away O/U 4.5: Over 40.9% | Under 59.1%                          │
+│    Home O/U 4.5: Over 46.5% | Under 53.5%                          │
 └────────────────────────────────────────────────────────────────────┘
 
 ┌────────────────────────────────────────────────────────────────────┐
 │                       ⏱️  FIRST 5 INNINGS (F5)                     │
 ├────────────────────────────────────────────────────────────────────┤
 │  F5 MONEYLINE                                                      │
-│    Away: 40.4% | Home: 42.8% | Tie: 16.8%                          │
+│    Away: 39.5% | Home: 45.0% | Tie: 15.5%                          │
 ├────────────────────────────────────────────────────────────────────┤
 │  F5 TOTAL (4.5)                                                    │
-│    Over: 44.5% | Under: 55.5%                                      │
+│    Over: 45.2% | Under: 54.8%                                      │
 └────────────────────────────────────────────────────────────────────┘
 
 ======================================================================
@@ -54,83 +54,83 @@ ENV: Tropicana Field | 72°F | Wind: 0mph none
 > 1. ALEX BREGMAN (R | Balanced | ❄️ NO ADV)
   MARKET          | TRUE PROB | FAIR ODDS
   ------------------------------------------------
-  To Hit a HR     |     15.2% |      +559
-  To Record 1+ Hit|     60.2% |      -151
-  To Record 2+ TB |     37.6% |      +166
-  To Record 1+ Run|     41.5% |      +140
-  To Record 1+ RBI|     30.7% |      +226
+  To Hit a HR     |     14.5% |      +591
+  To Record 1+ Hit|     60.4% |      -152
+  To Record 2+ TB |     37.2% |      +168
+  To Record 1+ Run|     40.7% |      +145
+  To Record 1+ RBI|     31.4% |      +218
 
 > 2. CARSON KELLY (R | Balanced | ❄️ NO ADV)
   MARKET          | TRUE PROB | FAIR ODDS
   ------------------------------------------------
   To Hit a HR     |     15.8% |      +534
-  To Record 1+ Hit|     55.4% |      -124
-  To Record 2+ TB |     32.1% |      +211
-  To Record 1+ Run|     38.8% |      +157
-  To Record 1+ RBI|     30.1% |      +231
+  To Record 1+ Hit|     56.8% |      -131
+  To Record 2+ TB |     33.1% |      +201
+  To Record 1+ Run|     38.2% |      +161
+  To Record 1+ RBI|     27.6% |      +262
 
 > 3. DANSBY SWANSON (R | Slugger | ❄️ NO ADV)
   MARKET          | TRUE PROB | FAIR ODDS
   ------------------------------------------------
-  To Hit a HR     |     18.4% |      +443
-  To Record 1+ Hit|     60.7% |      -154
-  To Record 2+ TB |     35.0% |      +185
-  To Record 1+ Run|     38.5% |      +159
-  To Record 1+ RBI|     31.9% |      +213
+  To Hit a HR     |     14.3% |      +597
+  To Record 1+ Hit|     62.3% |      -165
+  To Record 2+ TB |     36.0% |      +177
+  To Record 1+ Run|     37.8% |      +164
+  To Record 1+ RBI|     31.2% |      +220
 
 > 4. DYLAN CARLSON (S | Balanced | 🔥 PLATOON ADV)
   MARKET          | TRUE PROB | FAIR ODDS
   ------------------------------------------------
   To Hit a HR     |     12.2% |      +721
-  To Record 1+ Hit|     53.0% |      -112
-  To Record 2+ TB |     34.3% |      +191
-  To Record 1+ Run|     28.6% |      +249
-  To Record 1+ RBI|     27.6% |      +262
+  To Record 1+ Hit|     51.7% |      -107
+  To Record 2+ TB |     28.7% |      +248
+  To Record 1+ Run|     28.3% |      +253
+  To Record 1+ RBI|     29.0% |      +244
 
 > 5. IAN HAPP (S | Balanced | 🔥 PLATOON ADV)
   MARKET          | TRUE PROB | FAIR ODDS
   ------------------------------------------------
-  To Hit a HR     |     14.2% |      +603
-  To Record 1+ Hit|     54.5% |      -119
-  To Record 2+ TB |     34.2% |      +192
-  To Record 1+ Run|     35.8% |      +179
-  To Record 1+ RBI|     29.9% |      +234
+  To Hit a HR     |     11.9% |      +743
+  To Record 1+ Hit|     54.9% |      -121
+  To Record 2+ TB |     32.0% |      +212
+  To Record 1+ Run|     34.0% |      +194
+  To Record 1+ RBI|     27.4% |      +265
 
 > 6. MATT SHAW (R | Balanced | ❄️ NO ADV)
   MARKET          | TRUE PROB | FAIR ODDS
   ------------------------------------------------
-  To Hit a HR     |      9.9% |      +909
-  To Record 1+ Hit|     50.5% |      -101
-  To Record 2+ TB |     30.0% |      +232
-  To Record 1+ Run|     35.4% |      +182
-  To Record 1+ RBI|     27.3% |      +266
+  To Hit a HR     |     11.5% |      +772
+  To Record 1+ Hit|     52.1% |      -108
+  To Record 2+ TB |     30.9% |      +223
+  To Record 1+ Run|     34.3% |      +191
+  To Record 1+ RBI|     25.7% |      +288
 
 > 7. MICHAEL BUSCH (L | Slugger | 🔥 PLATOON ADV)
   MARKET          | TRUE PROB | FAIR ODDS
   ------------------------------------------------
   To Hit a HR     |     19.9% |      +402
-  To Record 1+ Hit|     57.1% |      -132
-  To Record 2+ TB |     34.6% |      +188
-  To Record 1+ Run|     37.3% |      +168
-  To Record 1+ RBI|     33.5% |      +198
+  To Record 1+ Hit|     57.3% |      -134
+  To Record 2+ TB |     38.6% |      +158
+  To Record 1+ Run|     35.9% |      +178
+  To Record 1+ RBI|     33.0% |      +203
 
 > 8. MICHAEL CONFORTO (L | Balanced | 🔥 PLATOON ADV)
   MARKET          | TRUE PROB | FAIR ODDS
   ------------------------------------------------
-  To Hit a HR     |     11.2% |      +796
-  To Record 1+ Hit|     49.1% |      +103
-  To Record 2+ TB |     24.3% |      +311
-  To Record 1+ Run|     32.7% |      +205
-  To Record 1+ RBI|     22.8% |      +339
+  To Hit a HR     |      8.6% |     +1060
+  To Record 1+ Hit|     48.6% |      +105
+  To Record 2+ TB |     23.3% |      +329
+  To Record 1+ Run|     32.6% |      +206
+  To Record 1+ RBI|     23.0% |      +335
 
 > 9. MIGUEL AMAYA (R | Slugger | ❄️ NO ADV)
   MARKET          | TRUE PROB | FAIR ODDS
   ------------------------------------------------
-  To Hit a HR     |     12.0% |      +736
-  To Record 1+ Hit|     48.2% |      +107
-  To Record 2+ TB |     29.9% |      +234
-  To Record 1+ Run|     31.2% |      +220
-  To Record 1+ RBI|     30.4% |      +229
+  To Hit a HR     |     13.3% |      +652
+  To Record 1+ Hit|     49.0% |      +104
+  To Record 2+ TB |     30.1% |      +232
+  To Record 1+ Run|     30.5% |      +227
+  To Record 1+ RBI|     30.6% |      +226
 
 ======================================================================
 ⏰ 04:10 PM ET | PLAYER PROPS: Tampa Bay Rays vs Jameson Taillon (RHP - Power Pitcher)
@@ -140,19 +140,19 @@ ENV: Tropicana Field | 72°F | Wind: 0mph none
 > 1. BEN WILLIAMSON (R | Balanced | ❄️ NO ADV)
   MARKET          | TRUE PROB | FAIR ODDS
   ------------------------------------------------
-  To Hit a HR     |      4.4% |     +2154
+  To Hit a HR     |      4.7% |     +2031
   To Record 1+ Hit|     67.3% |      -205
-  To Record 2+ TB |     41.6% |      +140
-  To Record 1+ Run|     41.9% |      +138
-  To Record 1+ RBI|     27.9% |      +258
+  To Record 2+ TB |     41.8% |      +139
+  To Record 1+ Run|     40.9% |      +144
+  To Record 1+ RBI|     27.7% |      +260
 
 > 2. CEDRIC MULLINS (L | Balanced | 🔥 PLATOON ADV)
   MARKET          | TRUE PROB | FAIR ODDS
   ------------------------------------------------
-  To Hit a HR     |     17.0% |      +488
-  To Record 1+ Hit|     62.1% |      -163
-  To Record 2+ TB |     39.6% |      +152
-  To Record 1+ Run|     42.4% |      +135
+  To Hit a HR     |     19.9% |      +401
+  To Record 1+ Hit|     62.4% |      -166
+  To Record 2+ TB |     38.1% |      +162
+  To Record 1+ Run|     43.1% |      +131
   To Record 1+ RBI|     36.9% |      +171
 
 > 3. CHANDLER SIMPSON (L | Contact | 🔥 PLATOON ADV)
@@ -160,63 +160,63 @@ ENV: Tropicana Field | 72°F | Wind: 0mph none
   ------------------------------------------------
   To Hit a HR     |      1.3% |     +7762
   To Record 1+ Hit|     68.6% |      -218
-  To Record 2+ TB |     39.9% |      +150
-  To Record 1+ Run|     40.8% |      +144
-  To Record 1+ RBI|     30.8% |      +225
+  To Record 2+ TB |     42.3% |      +136
+  To Record 1+ Run|     43.3% |      +130
+  To Record 1+ RBI|     28.9% |      +246
 
 > 4. HUNTER FEDUCCIA (L | Balanced | 🔥 PLATOON ADV)
   MARKET          | TRUE PROB | FAIR ODDS
   ------------------------------------------------
   To Hit a HR     |      1.2% |     +8118
-  To Record 1+ Hit|     51.7% |      -107
-  To Record 2+ TB |     30.8% |      +224
-  To Record 1+ Run|     23.1% |      +333
-  To Record 1+ RBI|     28.7% |      +249
+  To Record 1+ Hit|     50.0% |      +100
+  To Record 2+ TB |     32.3% |      +209
+  To Record 1+ Run|     23.3% |      +329
+  To Record 1+ RBI|     28.0% |      +256
 
 > 5. JAKE FRALEY (L | Balanced | 🔥 PLATOON ADV)
   MARKET          | TRUE PROB | FAIR ODDS
   ------------------------------------------------
-  To Hit a HR     |     15.7% |      +537
-  To Record 1+ Hit|     56.4% |      -129
-  To Record 2+ TB |     37.7% |      +164
-  To Record 1+ Run|     42.0% |      +137
-  To Record 1+ RBI|     33.1% |      +201
+  To Hit a HR     |     11.9% |      +743
+  To Record 1+ Hit|     56.9% |      -131
+  To Record 2+ TB |     36.0% |      +177
+  To Record 1+ Run|     43.9% |      +127
+  To Record 1+ RBI|     34.5% |      +189
 
 > 6. JONATHAN ARANDA (L | Balanced | 🔥 PLATOON ADV)
   MARKET          | TRUE PROB | FAIR ODDS
   ------------------------------------------------
-  To Hit a HR     |     15.9% |      +529
+  To Hit a HR     |     19.5% |      +413
   To Record 1+ Hit|     65.5% |      -189
   To Record 2+ TB |     38.9% |      +156
-  To Record 1+ Run|     40.4% |      +147
-  To Record 1+ RBI|     38.3% |      +160
+  To Record 1+ Run|     43.8% |      +128
+  To Record 1+ RBI|     38.4% |      +160
 
 > 7. JONNY DELUCA (R | Balanced | ❄️ NO ADV)
   MARKET          | TRUE PROB | FAIR ODDS
   ------------------------------------------------
   To Hit a HR     |      1.1% |     +9395
   To Record 1+ Hit|     65.1% |      -186
-  To Record 2+ TB |     36.2% |      +176
-  To Record 1+ Run|     27.4% |      +265
-  To Record 1+ RBI|     23.6% |      +323
+  To Record 2+ TB |     37.8% |      +164
+  To Record 1+ Run|     29.0% |      +244
+  To Record 1+ RBI|     24.0% |      +316
 
 > 8. JUNIOR CAMINERO (R | Balanced | ❄️ NO ADV)
   MARKET          | TRUE PROB | FAIR ODDS
   ------------------------------------------------
-  To Hit a HR     |     20.5% |      +387
-  To Record 1+ Hit|     56.9% |      -131
-  To Record 2+ TB |     40.4% |      +147
-  To Record 1+ Run|     33.4% |      +199
-  To Record 1+ RBI|     31.2% |      +220
+  To Hit a HR     |     17.4% |      +475
+  To Record 1+ Hit|     54.4% |      -119
+  To Record 2+ TB |     38.7% |      +158
+  To Record 1+ Run|     40.0% |      +149
+  To Record 1+ RBI|     31.8% |      +214
 
 > 9. NICK FORTES (R | Balanced | ❄️ NO ADV)
   MARKET          | TRUE PROB | FAIR ODDS
   ------------------------------------------------
-  To Hit a HR     |      9.6% |      +942
-  To Record 1+ Hit|     52.7% |      -111
-  To Record 2+ TB |     28.2% |      +255
-  To Record 1+ Run|     26.4% |      +278
-  To Record 1+ RBI|     20.6% |      +385
+  To Hit a HR     |      8.6% |     +1058
+  To Record 1+ Hit|     54.9% |      -121
+  To Record 2+ TB |     29.1% |      +244
+  To Record 1+ Run|     30.0% |      +233
+  To Record 1+ RBI|     22.8% |      +338
 
 ======================================================================
 🏟️  KANSAS CITY ROYALS @ CLEVELAND GUARDIANS
@@ -227,11 +227,11 @@ ENV: Tropicana Field | 72°F | Wind: 0mph none
 ┌────────────────────────────────────────────────────────────────────┐
 │                        🥇 FIRST INNING MARKETS                      │
 ├────────────────────────────────────────────────────────────────────┤
-│  NRFI (No Run 1st)  :  54.3%  (  -118)                             │
-│  YRFI (Yes Run 1st) :  45.7%  (  +118)                             │
+│  NRFI (No Run 1st)  :  52.6%  (  -110)                             │
+│  YRFI (Yes Run 1st) :  47.4%  (  +110)                             │
 │  Recommendation     : 🔥 SLIGHT NRFI                                │
 ├────────────────────────────────────────────────────────────────────┤
-│  Away scores 1st:  27.1%  |  Home scores 1st:  26.0%               │
+│  Away scores 1st:  29.6%  |  Home scores 1st:  25.5%               │
 │  Pitcher Scores: Away 0.51 | Home 0.51                             │
 └────────────────────────────────────────────────────────────────────┘
 
@@ -239,27 +239,27 @@ ENV: Tropicana Field | 72°F | Wind: 0mph none
 │                          📊 FULL GAME MARKETS                       │
 ├────────────────────────────────────────────────────────────────────┤
 │  MONEYLINE                                                         │
-│    Away: 51.2% (-104) | Home: 48.8% (+104)                         │
+│    Away: 49.1% (+103) | Home: 50.9% (-103)                         │
 ├────────────────────────────────────────────────────────────────────┤
 │  RUN LINE (-1.5)                                                   │
-│    Away: 38.2% (+161) | Home: 37.9% (+163)                         │
+│    Away: 37.5% (+166) | Home: 39.1% (+155)                         │
 ├────────────────────────────────────────────────────────────────────┤
 │  GAME TOTAL (9.5)                                                  │
-│    Over: 42.4% | Under: 57.6% | Mean: 9.2 runs                     │
+│    Over: 39.2% | Under: 60.8% | Mean: 9.0 runs                     │
 ├────────────────────────────────────────────────────────────────────┤
 │  TEAM TOTALS                                                       │
-│    Away O/U 4.5: Over 45.8% | Under 54.2%                          │
-│    Home O/U 4.5: Over 43.9% | Under 56.1%                          │
+│    Away O/U 4.5: Over 43.7% | Under 56.3%                          │
+│    Home O/U 4.5: Over 46.8% | Under 53.2%                          │
 └────────────────────────────────────────────────────────────────────┘
 
 ┌────────────────────────────────────────────────────────────────────┐
 │                       ⏱️  FIRST 5 INNINGS (F5)                     │
 ├────────────────────────────────────────────────────────────────────┤
 │  F5 MONEYLINE                                                      │
-│    Away: 43.7% | Home: 39.7% | Tie: 16.7%                          │
+│    Away: 40.0% | Home: 43.3% | Tie: 16.7%                          │
 ├────────────────────────────────────────────────────────────────────┤
 │  F5 TOTAL (4.5)                                                    │
-│    Over: 44.4% | Under: 55.6%                                      │
+│    Over: 44.7% | Under: 55.3%                                      │
 └────────────────────────────────────────────────────────────────────┘
 
 ======================================================================
@@ -270,83 +270,83 @@ ENV: Progressive Field | 72°F | Wind: 0mph none
 > 1. BOBBY WITT JR. (R | Contact | ❄️ NO ADV)
   MARKET          | TRUE PROB | FAIR ODDS
   ------------------------------------------------
-  To Hit a HR     |     13.1% |      +661
-  To Record 1+ Hit|     66.6% |      -198
-  To Record 2+ TB |     39.6% |      +152
-  To Record 1+ Run|     45.8% |      +118
-  To Record 1+ RBI|     30.3% |      +230
+  To Hit a HR     |     14.2% |      +606
+  To Record 1+ Hit|     66.6% |      -199
+  To Record 2+ TB |     42.3% |      +136
+  To Record 1+ Run|     44.8% |      +123
+  To Record 1+ RBI|     33.2% |      +201
 
 > 2. CARTER JENSEN (L | Balanced | 🔥 PLATOON ADV)
   MARKET          | TRUE PROB | FAIR ODDS
   ------------------------------------------------
-  To Hit a HR     |     17.5% |      +470
-  To Record 1+ Hit|     62.2% |      -164
-  To Record 2+ TB |     41.6% |      +140
-  To Record 1+ Run|     46.0% |      +117
-  To Record 1+ RBI|     34.3% |      +191
+  To Hit a HR     |     19.9% |      +401
+  To Record 1+ Hit|     63.8% |      -176
+  To Record 2+ TB |     41.9% |      +138
+  To Record 1+ Run|     49.2% |      +103
+  To Record 1+ RBI|     34.9% |      +186
 
 > 3. ISAAC COLLINS (S | Balanced | 🔥 PLATOON ADV)
   MARKET          | TRUE PROB | FAIR ODDS
   ------------------------------------------------
-  To Hit a HR     |     12.8% |      +683
-  To Record 1+ Hit|     63.2% |      -171
-  To Record 2+ TB |     38.2% |      +161
-  To Record 1+ Run|     34.6% |      +188
-  To Record 1+ RBI|     31.7% |      +215
+  To Hit a HR     |      9.1% |      +995
+  To Record 1+ Hit|     63.7% |      -175
+  To Record 2+ TB |     39.8% |      +150
+  To Record 1+ Run|     37.3% |      +168
+  To Record 1+ RBI|     33.4% |      +199
 
 > 4. JAC CAGLIANONE (L | Balanced | 🔥 PLATOON ADV)
   MARKET          | TRUE PROB | FAIR ODDS
   ------------------------------------------------
-  To Hit a HR     |     14.0% |      +613
-  To Record 1+ Hit|     50.6% |      -102
-  To Record 2+ TB |     30.2% |      +230
-  To Record 1+ Run|     31.9% |      +213
-  To Record 1+ RBI|     27.4% |      +265
+  To Hit a HR     |     14.0% |      +615
+  To Record 1+ Hit|     50.0% |      +100
+  To Record 2+ TB |     30.0% |      +232
+  To Record 1+ Run|     34.3% |      +191
+  To Record 1+ RBI|     27.6% |      +262
 
 > 5. JONATHAN INDIA (R | Contact | ❄️ NO ADV)
   MARKET          | TRUE PROB | FAIR ODDS
   ------------------------------------------------
-  To Hit a HR     |      8.2% |     +1115
+  To Hit a HR     |      8.6% |     +1057
   To Record 1+ Hit|     57.0% |      -132
-  To Record 2+ TB |     31.7% |      +215
-  To Record 1+ Run|     33.8% |      +195
-  To Record 1+ RBI|     25.7% |      +288
+  To Record 2+ TB |     31.3% |      +219
+  To Record 1+ Run|     34.6% |      +189
+  To Record 1+ RBI|     24.7% |      +304
 
 > 6. KYLE ISBEL (L | Contact | 🔥 PLATOON ADV)
   MARKET          | TRUE PROB | FAIR ODDS
   ------------------------------------------------
-  To Hit a HR     |      6.5% |     +1433
-  To Record 1+ Hit|     62.7% |      -168
-  To Record 2+ TB |     32.9% |      +204
-  To Record 1+ Run|     33.1% |      +202
-  To Record 1+ RBI|     26.1% |      +282
+  To Hit a HR     |      6.2% |     +1503
+  To Record 1+ Hit|     63.4% |      -173
+  To Record 2+ TB |     32.7% |      +205
+  To Record 1+ Run|     32.4% |      +208
+  To Record 1+ RBI|     26.1% |      +283
 
 > 7. LANE THOMAS (R | Balanced | ❄️ NO ADV)
   MARKET          | TRUE PROB | FAIR ODDS
   ------------------------------------------------
   To Hit a HR     |     10.2% |      +883
-  To Record 1+ Hit|     50.4% |      -101
+  To Record 1+ Hit|     50.3% |      -101
   To Record 2+ TB |     26.1% |      +283
-  To Record 1+ Run|     28.2% |      +254
+  To Record 1+ Run|     27.9% |      +258
   To Record 1+ RBI|     23.2% |      +330
 
 > 8. MAIKEL GARCIA (R | Contact | ❄️ NO ADV)
   MARKET          | TRUE PROB | FAIR ODDS
   ------------------------------------------------
-  To Hit a HR     |      8.7% |     +1043
-  To Record 1+ Hit|     59.4% |      -146
-  To Record 2+ TB |     31.9% |      +213
-  To Record 1+ Run|     35.0% |      +185
-  To Record 1+ RBI|     25.1% |      +298
+  To Hit a HR     |      8.7% |     +1044
+  To Record 1+ Hit|     56.7% |      -130
+  To Record 2+ TB |     31.2% |      +220
+  To Record 1+ Run|     33.6% |      +197
+  To Record 1+ RBI|     25.1% |      +297
 
 > 9. MICHAEL MASSEY (L | Contact | 🔥 PLATOON ADV)
   MARKET          | TRUE PROB | FAIR ODDS
   ------------------------------------------------
-  To Hit a HR     |      6.5% |     +1431
-  To Record 1+ Hit|     55.7% |      -125
-  To Record 2+ TB |     29.1% |      +243
+  To Hit a HR     |      7.3% |     +1273
+  To Record 1+ Hit|     55.8% |      -126
+  To Record 2+ TB |     30.1% |      +232
   To Record 1+ Run|     29.1% |      +243
-  To Record 1+ RBI|     23.0% |      +335
+  To Record 1+ RBI|     23.4% |      +326
 
 ======================================================================
 ⏰ 06:10 PM ET | PLAYER PROPS: Cleveland Guardians vs Michael Wacha (RHP - Spin Pitcher)
@@ -356,83 +356,83 @@ ENV: Progressive Field | 72°F | Wind: 0mph none
 > 1. ANGEL MARTÍNEZ (S | Balanced | 🔥 PLATOON ADV)
   MARKET          | TRUE PROB | FAIR ODDS
   ------------------------------------------------
-  To Hit a HR     |     10.7% |      +838
-  To Record 1+ Hit|     58.3% |      -139
-  To Record 2+ TB |     33.3% |      +200
-  To Record 1+ Run|     35.7% |      +180
+  To Hit a HR     |      8.4% |     +1086
+  To Record 1+ Hit|     58.4% |      -140
+  To Record 2+ TB |     34.1% |      +193
+  To Record 1+ Run|     32.0% |      +212
   To Record 1+ RBI|     24.0% |      +316
 
 > 2. AUSTIN HEDGES (R | Balanced | ❄️ NO ADV)
   MARKET          | TRUE PROB | FAIR ODDS
   ------------------------------------------------
-  To Hit a HR     |      7.2% |     +1297
-  To Record 1+ Hit|     48.3% |      +107
-  To Record 2+ TB |     20.1% |      +396
-  To Record 1+ Run|     27.8% |      +259
-  To Record 1+ RBI|     16.7% |      +500
+  To Hit a HR     |      9.6% |      +938
+  To Record 1+ Hit|     49.9% |      +100
+  To Record 2+ TB |     23.3% |      +329
+  To Record 1+ Run|     26.3% |      +279
+  To Record 1+ RBI|     18.6% |      +438
 
 > 3. BO NAYLOR (L | Balanced | 🔥 PLATOON ADV)
   MARKET          | TRUE PROB | FAIR ODDS
   ------------------------------------------------
-  To Hit a HR     |      8.4% |     +1091
-  To Record 1+ Hit|     54.4% |      -119
-  To Record 2+ TB |     31.1% |      +221
-  To Record 1+ Run|     31.4% |      +218
-  To Record 1+ RBI|     28.3% |      +253
+  To Hit a HR     |      7.7% |     +1190
+  To Record 1+ Hit|     54.2% |      -118
+  To Record 2+ TB |     31.2% |      +220
+  To Record 1+ Run|     29.3% |      +241
+  To Record 1+ RBI|     26.2% |      +281
 
 > 4. BRAYAN ROCCHIO (S | Balanced | 🔥 PLATOON ADV)
   MARKET          | TRUE PROB | FAIR ODDS
   ------------------------------------------------
-  To Hit a HR     |      4.2% |     +2299
-  To Record 1+ Hit|     51.8% |      -107
-  To Record 2+ TB |     27.7% |      +261
+  To Hit a HR     |      6.0% |     +1570
+  To Record 1+ Hit|     52.0% |      -108
+  To Record 2+ TB |     27.9% |      +258
   To Record 1+ Run|     24.3% |      +310
   To Record 1+ RBI|     27.2% |      +267
 
 > 5. CJ KAYFUS (L | Balanced | 🔥 PLATOON ADV)
   MARKET          | TRUE PROB | FAIR ODDS
   ------------------------------------------------
-  To Hit a HR     |      8.2% |     +1123
-  To Record 1+ Hit|     52.9% |      -112
-  To Record 2+ TB |     28.6% |      +249
-  To Record 1+ Run|     29.5% |      +238
-  To Record 1+ RBI|     26.6% |      +275
+  To Hit a HR     |      8.0% |     +1157
+  To Record 1+ Hit|     52.3% |      -109
+  To Record 2+ TB |     29.0% |      +245
+  To Record 1+ Run|     28.8% |      +246
+  To Record 1+ RBI|     24.5% |      +308
 
 > 6. CHASE DELAUTER (L | Balanced | 🔥 PLATOON ADV)
   MARKET          | TRUE PROB | FAIR ODDS
   ------------------------------------------------
-  To Hit a HR     |      8.1% |     +1128
-  To Record 1+ Hit|     52.3% |      -109
-  To Record 2+ TB |     27.0% |      +270
-  To Record 1+ Run|     30.4% |      +229
-  To Record 1+ RBI|     19.3% |      +417
+  To Hit a HR     |      7.8% |     +1183
+  To Record 1+ Hit|     53.1% |      -113
+  To Record 2+ TB |     27.2% |      +267
+  To Record 1+ Run|     29.4% |      +239
+  To Record 1+ RBI|     17.1% |      +484
 
 > 7. DANIEL SCHNEEMANN (L | Balanced | 🔥 PLATOON ADV)
   MARKET          | TRUE PROB | FAIR ODDS
   ------------------------------------------------
-  To Hit a HR     |      7.2% |     +1290
-  To Record 1+ Hit|     49.7% |      +101
-  To Record 2+ TB |     23.3% |      +328
-  To Record 1+ Run|     27.4% |      +265
-  To Record 1+ RBI|     21.7% |      +361
+  To Hit a HR     |      8.1% |     +1133
+  To Record 1+ Hit|     48.9% |      +104
+  To Record 2+ TB |     24.4% |      +310
+  To Record 1+ Run|     27.9% |      +258
+  To Record 1+ RBI|     22.1% |      +351
 
 > 8. DAVID FRY (R | Slugger | ❄️ NO ADV)
   MARKET          | TRUE PROB | FAIR ODDS
   ------------------------------------------------
-  To Hit a HR     |     11.5% |      +770
+  To Hit a HR     |      8.6% |     +1067
   To Record 1+ Hit|     50.1% |      -100
-  To Record 2+ TB |     27.7% |      +260
-  To Record 1+ Run|     31.7% |      +215
-  To Record 1+ RBI|     25.2% |      +296
+  To Record 2+ TB |     29.5% |      +238
+  To Record 1+ Run|     27.8% |      +260
+  To Record 1+ RBI|     26.3% |      +279
 
 > 9. GABRIEL ARIAS (R | Balanced | ❄️ NO ADV)
   MARKET          | TRUE PROB | FAIR ODDS
   ------------------------------------------------
-  To Hit a HR     |      5.5% |     +1725
-  To Record 1+ Hit|     46.5% |      +115
-  To Record 2+ TB |     21.8% |      +358
-  To Record 1+ Run|     24.1% |      +314
-  To Record 1+ RBI|     21.0% |      +375
+  To Hit a HR     |      5.4% |     +1768
+  To Record 1+ Hit|     48.3% |      +107
+  To Record 2+ TB |     21.9% |      +356
+  To Record 1+ Run|     23.9% |      +318
+  To Record 1+ RBI|     22.0% |      +355
 
 ======================================================================
 🏟️  SAN DIEGO PADRES @ PITTSBURGH PIRATES
@@ -443,11 +443,11 @@ ENV: Progressive Field | 72°F | Wind: 0mph none
 ┌────────────────────────────────────────────────────────────────────┐
 │                        🥇 FIRST INNING MARKETS                      │
 ├────────────────────────────────────────────────────────────────────┤
-│  NRFI (No Run 1st)  :  57.1%  (  -133)                             │
-│  YRFI (Yes Run 1st) :  42.9%  (  +133)                             │
+│  NRFI (No Run 1st)  :  57.0%  (  -132)                             │
+│  YRFI (Yes Run 1st) :  43.0%  (  +132)                             │
 │  Recommendation     : 🔥 SLIGHT NRFI                                │
 ├────────────────────────────────────────────────────────────────────┤
-│  Away scores 1st:  25.2%  |  Home scores 1st:  24.2%               │
+│  Away scores 1st:  23.4%  |  Home scores 1st:  25.5%               │
 │  Pitcher Scores: Away 0.51 | Home 0.51                             │
 └────────────────────────────────────────────────────────────────────┘
 
@@ -455,27 +455,27 @@ ENV: Progressive Field | 72°F | Wind: 0mph none
 │                          📊 FULL GAME MARKETS                       │
 ├────────────────────────────────────────────────────────────────────┤
 │  MONEYLINE                                                         │
-│    Away: 51.5% (-106) | Home: 48.5% (+106)                         │
+│    Away: 51.2% (-104) | Home: 48.8% (+104)                         │
 ├────────────────────────────────────────────────────────────────────┤
 │  RUN LINE (-1.5)                                                   │
-│    Away: 36.8% (+171) | Home: 34.1% (+192)                         │
+│    Away: 38.0% (+163) | Home: 36.2% (+176)                         │
 ├────────────────────────────────────────────────────────────────────┤
 │  GAME TOTAL (7.5)                                                  │
-│    Over: 48.7% | Under: 51.3% | Mean: 8.0 runs                     │
+│    Over: 48.9% | Under: 51.1% | Mean: 7.9 runs                     │
 ├────────────────────────────────────────────────────────────────────┤
 │  TEAM TOTALS                                                       │
-│    Away O/U 4.5: Over 39.1% | Under 60.9%                          │
-│    Home O/U 3.5: Over 49.5% | Under 50.5%                          │
+│    Away O/U 3.5: Over 52.5% | Under 47.5%                          │
+│    Home O/U 3.5: Over 50.3% | Under 49.7%                          │
 └────────────────────────────────────────────────────────────────────┘
 
 ┌────────────────────────────────────────────────────────────────────┐
 │                       ⏱️  FIRST 5 INNINGS (F5)                     │
 ├────────────────────────────────────────────────────────────────────┤
 │  F5 MONEYLINE                                                      │
-│    Away: 42.1% | Home: 39.7% | Tie: 18.2%                          │
+│    Away: 40.3% | Home: 40.5% | Tie: 19.2%                          │
 ├────────────────────────────────────────────────────────────────────┤
 │  F5 TOTAL (3.5)                                                    │
-│    Over: 49.1% | Under: 50.9%                                      │
+│    Over: 49.6% | Under: 50.4%                                      │
 └────────────────────────────────────────────────────────────────────┘
 
 ======================================================================
@@ -486,83 +486,83 @@ ENV: PNC Park | 72°F | Wind: 0mph none
 > 1. BRYCE JOHNSON (S | Balanced | 🔥 PLATOON ADV)
   MARKET          | TRUE PROB | FAIR ODDS
   ------------------------------------------------
-  To Hit a HR     |      9.3% |      +978
-  To Record 1+ Hit|     64.1% |      -178
-  To Record 2+ TB |     43.5% |      +129
-  To Record 1+ Run|     39.1% |      +156
-  To Record 1+ RBI|     28.7% |      +248
+  To Hit a HR     |      8.7% |     +1048
+  To Record 1+ Hit|     63.7% |      -175
+  To Record 2+ TB |     41.8% |      +139
+  To Record 1+ Run|     40.2% |      +148
+  To Record 1+ RBI|     30.8% |      +225
 
 > 2. FERNANDO TATIS JR. (R | Balanced | ❄️ NO ADV)
   MARKET          | TRUE PROB | FAIR ODDS
   ------------------------------------------------
-  To Hit a HR     |     12.9% |      +674
-  To Record 1+ Hit|     58.8% |      -143
+  To Hit a HR     |     15.8% |      +534
+  To Record 1+ Hit|     59.5% |      -146
   To Record 2+ TB |     34.6% |      +189
-  To Record 1+ Run|     43.8% |      +128
-  To Record 1+ RBI|     27.0% |      +270
+  To Record 1+ Run|     42.9% |      +133
+  To Record 1+ RBI|     28.1% |      +255
 
 > 3. FREDDY FERMIN (R | Contact | ❄️ NO ADV)
   MARKET          | TRUE PROB | FAIR ODDS
   ------------------------------------------------
-  To Hit a HR     |      9.3% |      +977
-  To Record 1+ Hit|     60.5% |      -153
-  To Record 2+ TB |     31.5% |      +217
-  To Record 1+ Run|     36.8% |      +171
-  To Record 1+ RBI|     30.4% |      +228
+  To Hit a HR     |      8.5% |     +1082
+  To Record 1+ Hit|     60.2% |      -150
+  To Record 2+ TB |     31.9% |      +213
+  To Record 1+ Run|     37.9% |      +163
+  To Record 1+ RBI|     30.5% |      +227
 
 > 4. GAVIN SHEETS (L | Balanced | 🔥 PLATOON ADV)
   MARKET          | TRUE PROB | FAIR ODDS
   ------------------------------------------------
-  To Hit a HR     |     16.4% |      +509
-  To Record 1+ Hit|     59.3% |      -145
-  To Record 2+ TB |     36.9% |      +170
-  To Record 1+ Run|     35.7% |      +180
-  To Record 1+ RBI|     32.7% |      +206
+  To Hit a HR     |     14.6% |      +584
+  To Record 1+ Hit|     56.2% |      -128
+  To Record 2+ TB |     34.8% |      +186
+  To Record 1+ Run|     36.2% |      +176
+  To Record 1+ RBI|     32.3% |      +209
 
 > 5. JACKSON MERRILL (L | Balanced | 🔥 PLATOON ADV)
   MARKET          | TRUE PROB | FAIR ODDS
   ------------------------------------------------
-  To Hit a HR     |     14.4% |      +594
-  To Record 1+ Hit|     57.1% |      -132
+  To Hit a HR     |     10.7% |      +830
+  To Record 1+ Hit|     57.0% |      -132
   To Record 2+ TB |     35.4% |      +182
-  To Record 1+ Run|     38.7% |      +158
-  To Record 1+ RBI|     34.9% |      +186
+  To Record 1+ Run|     34.5% |      +189
+  To Record 1+ RBI|     31.4% |      +218
 
 > 6. JAKE CRONENWORTH (L | Balanced | 🔥 PLATOON ADV)
   MARKET          | TRUE PROB | FAIR ODDS
   ------------------------------------------------
-  To Hit a HR     |      9.9% |      +909
-  To Record 1+ Hit|     55.4% |      -124
-  To Record 2+ TB |     28.7% |      +248
-  To Record 1+ Run|     32.2% |      +210
+  To Hit a HR     |     10.2% |      +881
+  To Record 1+ Hit|     55.6% |      -125
+  To Record 2+ TB |     30.9% |      +223
+  To Record 1+ Run|     33.4% |      +199
   To Record 1+ RBI|     30.0% |      +232
 
 > 7. LUIS CAMPUSANO (R | Balanced | ❄️ NO ADV)
   MARKET          | TRUE PROB | FAIR ODDS
   ------------------------------------------------
-  To Hit a HR     |     10.2% |      +883
-  To Record 1+ Hit|     54.5% |      -119
-  To Record 2+ TB |     28.9% |      +246
+  To Hit a HR     |      8.3% |     +1105
+  To Record 1+ Hit|     52.7% |      -111
+  To Record 2+ TB |     29.1% |      +243
   To Record 1+ Run|     31.5% |      +217
   To Record 1+ RBI|     21.9% |      +355
 
 > 8. MANNY MACHADO (R | Balanced | ❄️ NO ADV)
   MARKET          | TRUE PROB | FAIR ODDS
   ------------------------------------------------
-  To Hit a HR     |     14.6% |      +585
-  To Record 1+ Hit|     55.7% |      -125
+  To Hit a HR     |     11.7% |      +752
+  To Record 1+ Hit|     53.4% |      -114
   To Record 2+ TB |     29.6% |      +238
-  To Record 1+ Run|     34.3% |      +191
-  To Record 1+ RBI|     29.4% |      +240
+  To Record 1+ Run|     33.8% |      +196
+  To Record 1+ RBI|     29.0% |      +244
 
 > 9. MIGUEL ANDUJAR (R | Contact | ❄️ NO ADV)
   MARKET          | TRUE PROB | FAIR ODDS
   ------------------------------------------------
-  To Hit a HR     |      9.0% |     +1006
-  To Record 1+ Hit|     57.9% |      -137
-  To Record 2+ TB |     29.9% |      +234
-  To Record 1+ Run|     31.9% |      +213
-  To Record 1+ RBI|     27.2% |      +268
+  To Hit a HR     |     10.5% |      +853
+  To Record 1+ Hit|     61.1% |      -156
+  To Record 2+ TB |     29.6% |      +237
+  To Record 1+ Run|     33.5% |      +198
+  To Record 1+ RBI|     26.1% |      +283
 
 ======================================================================
 ⏰ 06:40 PM ET | PLAYER PROPS: Pittsburgh Pirates vs Germán Márquez (RHP - Power Pitcher)
@@ -572,83 +572,83 @@ ENV: PNC Park | 72°F | Wind: 0mph none
 > 1. BILLY COOK (R | Balanced | ❄️ NO ADV)
   MARKET          | TRUE PROB | FAIR ODDS
   ------------------------------------------------
-  To Hit a HR     |     15.8% |      +533
-  To Record 1+ Hit|     63.8% |      -176
-  To Record 2+ TB |     38.5% |      +159
-  To Record 1+ Run|     42.2% |      +136
-  To Record 1+ RBI|     25.4% |      +294
+  To Hit a HR     |     12.5% |      +697
+  To Record 1+ Hit|     63.1% |      -170
+  To Record 2+ TB |     42.8% |      +133
+  To Record 1+ Run|     40.6% |      +146
+  To Record 1+ RBI|     26.6% |      +275
 
 > 2. BRANDON LOWE (L | Slugger | 🔥 PLATOON ADV)
   MARKET          | TRUE PROB | FAIR ODDS
   ------------------------------------------------
-  To Hit a HR     |     33.0% |      +203
-  To Record 1+ Hit|     67.2% |      -204
-  To Record 2+ TB |     44.5% |      +124
+  To Hit a HR     |     17.9% |      +457
+  To Record 1+ Hit|     67.6% |      -208
+  To Record 2+ TB |     45.6% |      +119
   To Record 1+ Run|     53.5% |      -114
   To Record 1+ RBI|     35.2% |      +184
 
 > 3. BRYAN REYNOLDS (S | Balanced | 🔥 PLATOON ADV)
   MARKET          | TRUE PROB | FAIR ODDS
   ------------------------------------------------
-  To Hit a HR     |     15.7% |      +537
-  To Record 1+ Hit|     67.1% |      -204
-  To Record 2+ TB |     40.3% |      +148
-  To Record 1+ Run|     40.6% |      +146
-  To Record 1+ RBI|     36.2% |      +175
+  To Hit a HR     |     15.5% |      +545
+  To Record 1+ Hit|     67.5% |      -207
+  To Record 2+ TB |     41.4% |      +141
+  To Record 1+ Run|     40.1% |      +149
+  To Record 1+ RBI|     37.8% |      +164
 
 > 4. HENRY DAVIS (R | Balanced | ❄️ NO ADV)
   MARKET          | TRUE PROB | FAIR ODDS
   ------------------------------------------------
-  To Hit a HR     |     11.6% |      +761
-  To Record 1+ Hit|     49.1% |      +103
+  To Hit a HR     |      9.7% |      +927
+  To Record 1+ Hit|     50.4% |      -101
   To Record 2+ TB |     29.7% |      +236
-  To Record 1+ Run|     32.8% |      +204
-  To Record 1+ RBI|     28.0% |      +256
+  To Record 1+ Run|     34.3% |      +191
+  To Record 1+ RBI|     28.7% |      +248
 
 > 5. JAKE MANGUM (S | Contact | 🔥 PLATOON ADV)
   MARKET          | TRUE PROB | FAIR ODDS
   ------------------------------------------------
-  To Hit a HR     |      6.9% |     +1340
-  To Record 1+ Hit|     72.8% |      -267
-  To Record 2+ TB |     38.0% |      +163
+  To Hit a HR     |      5.7% |     +1649
+  To Record 1+ Hit|     68.6% |      -218
+  To Record 2+ TB |     41.1% |      +143
   To Record 1+ Run|     34.6% |      +189
   To Record 1+ RBI|     30.0% |      +233
 
 > 6. JOEY BART (R | Balanced | ❄️ NO ADV)
   MARKET          | TRUE PROB | FAIR ODDS
   ------------------------------------------------
-  To Hit a HR     |      4.4% |     +2160
+  To Hit a HR     |      8.9% |     +1025
   To Record 1+ Hit|     56.4% |      -129
-  To Record 2+ TB |     31.6% |      +216
-  To Record 1+ Run|     27.8% |      +259
-  To Record 1+ RBI|     26.3% |      +279
+  To Record 2+ TB |     31.7% |      +215
+  To Record 1+ Run|     28.1% |      +256
+  To Record 1+ RBI|     29.1% |      +243
 
 > 7. KONNOR GRIFFIN (R | Balanced | ❄️ NO ADV)
   MARKET          | TRUE PROB | FAIR ODDS
   ------------------------------------------------
-  To Hit a HR     |     11.1% |      +797
-  To Record 1+ Hit|     54.4% |      -119
-  To Record 2+ TB |     30.5% |      +228
-  To Record 1+ Run|     31.9% |      +213
-  To Record 1+ RBI|     23.7% |      +321
+  To Hit a HR     |     12.9% |      +674
+  To Record 1+ Hit|     54.7% |      -120
+  To Record 2+ TB |     36.3% |      +175
+  To Record 1+ Run|     34.9% |      +186
+  To Record 1+ RBI|     24.0% |      +316
 
 > 8. MARCELL OZUNA (R | Slugger | ❄️ NO ADV)
   MARKET          | TRUE PROB | FAIR ODDS
   ------------------------------------------------
-  To Hit a HR     |     15.2% |      +556
+  To Hit a HR     |     13.4% |      +647
   To Record 1+ Hit|     55.7% |      -125
-  To Record 2+ TB |     33.9% |      +194
-  To Record 1+ Run|     33.3% |      +199
-  To Record 1+ RBI|     32.7% |      +205
+  To Record 2+ TB |     30.9% |      +223
+  To Record 1+ Run|     32.6% |      +207
+  To Record 1+ RBI|     34.4% |      +190
 
 > 9. NICK GONZALES (R | Contact | ❄️ NO ADV)
   MARKET          | TRUE PROB | FAIR ODDS
   ------------------------------------------------
-  To Hit a HR     |      4.8% |     +1979
-  To Record 1+ Hit|     60.7% |      -154
-  To Record 2+ TB |     30.6% |      +226
+  To Hit a HR     |      7.7% |     +1205
+  To Record 1+ Hit|     60.9% |      -155
+  To Record 2+ TB |     30.7% |      +225
   To Record 1+ Run|     33.2% |      +200
-  To Record 1+ RBI|     23.5% |      +325
+  To Record 1+ RBI|     22.1% |      +353
 
 ======================================================================
 🏟️  CINCINNATI REDS @ MIAMI MARLINS
@@ -659,11 +659,11 @@ ENV: PNC Park | 72°F | Wind: 0mph none
 ┌────────────────────────────────────────────────────────────────────┐
 │                        🥇 FIRST INNING MARKETS                      │
 ├────────────────────────────────────────────────────────────────────┤
-│  NRFI (No Run 1st)  :  55.2%  (  -123)                             │
-│  YRFI (Yes Run 1st) :  44.8%  (  +123)                             │
+│  NRFI (No Run 1st)  :  56.9%  (  -131)                             │
+│  YRFI (Yes Run 1st) :  43.1%  (  +131)                             │
 │  Recommendation     : 🔥 SLIGHT NRFI                                │
 ├────────────────────────────────────────────────────────────────────┤
-│  Away scores 1st:  24.9%  |  Home scores 1st:  26.4%               │
+│  Away scores 1st:  24.7%  |  Home scores 1st:  25.5%               │
 │  Pitcher Scores: Away 0.51 | Home 0.51                             │
 └────────────────────────────────────────────────────────────────────┘
 
@@ -671,27 +671,27 @@ ENV: PNC Park | 72°F | Wind: 0mph none
 │                          📊 FULL GAME MARKETS                       │
 ├────────────────────────────────────────────────────────────────────┤
 │  MONEYLINE                                                         │
-│    Away: 46.3% (+115) | Home: 53.7% (-115)                         │
+│    Away: 45.5% (+119) | Home: 54.5% (-119)                         │
 ├────────────────────────────────────────────────────────────────────┤
 │  RUN LINE (-1.5)                                                   │
-│    Away: 35.1% (+185) | Home: 41.2% (+142)                         │
+│    Away: 33.5% (+198) | Home: 41.1% (+143)                         │
 ├────────────────────────────────────────────────────────────────────┤
 │  GAME TOTAL (8.5)                                                  │
-│    Over: 45.9% | Under: 54.1% | Mean: 8.5 runs                     │
+│    Over: 45.0% | Under: 55.0% | Mean: 8.4 runs                     │
 ├────────────────────────────────────────────────────────────────────┤
 │  TEAM TOTALS                                                       │
-│    Away O/U 4.5: Over 37.2% | Under 62.8%                          │
-│    Home O/U 4.5: Over 43.1% | Under 56.9%                          │
+│    Away O/U 4.5: Over 37.7% | Under 62.3%                          │
+│    Home O/U 4.5: Over 42.5% | Under 57.5%                          │
 └────────────────────────────────────────────────────────────────────┘
 
 ┌────────────────────────────────────────────────────────────────────┐
 │                       ⏱️  FIRST 5 INNINGS (F5)                     │
 ├────────────────────────────────────────────────────────────────────┤
 │  F5 MONEYLINE                                                      │
-│    Away: 39.5% | Home: 44.3% | Tie: 16.1%                          │
+│    Away: 38.6% | Home: 43.5% | Tie: 17.9%                          │
 ├────────────────────────────────────────────────────────────────────┤
 │  F5 TOTAL (4.5)                                                    │
-│    Over: 41.8% | Under: 58.2%                                      │
+│    Over: 40.0% | Under: 60.0%                                      │
 └────────────────────────────────────────────────────────────────────┘
 
 ======================================================================
@@ -702,83 +702,83 @@ ENV: loanDepot park | 72°F | Wind: 0mph none
 > 1. DANE MYERS (R | Balanced | ❄️ NO ADV)
   MARKET          | TRUE PROB | FAIR ODDS
   ------------------------------------------------
-  To Hit a HR     |      4.8% |     +1982
-  To Record 1+ Hit|     56.9% |      -132
-  To Record 2+ TB |     30.2% |      +231
-  To Record 1+ Run|     30.6% |      +226
-  To Record 1+ RBI|     22.7% |      +340
+  To Hit a HR     |      7.3% |     +1277
+  To Record 1+ Hit|     57.7% |      -136
+  To Record 2+ TB |     31.4% |      +218
+  To Record 1+ Run|     30.6% |      +227
+  To Record 1+ RBI|     22.6% |      +342
 
 > 2. ELLY DE LA CRUZ (S | Balanced | 🔥 PLATOON ADV)
   MARKET          | TRUE PROB | FAIR ODDS
   ------------------------------------------------
-  To Hit a HR     |      9.1% |     +1004
+  To Hit a HR     |      8.3% |     +1099
   To Record 1+ Hit|     54.9% |      -121
-  To Record 2+ TB |     29.9% |      +234
-  To Record 1+ Run|     35.0% |      +185
-  To Record 1+ RBI|     26.5% |      +278
+  To Record 2+ TB |     30.8% |      +224
+  To Record 1+ Run|     33.3% |      +199
+  To Record 1+ RBI|     26.6% |      +275
 
 > 3. EUGENIO SUÁREZ (R | Slugger | ❄️ NO ADV)
   MARKET          | TRUE PROB | FAIR ODDS
   ------------------------------------------------
-  To Hit a HR     |     14.5% |      +590
-  To Record 1+ Hit|     59.6% |      -147
-  To Record 2+ TB |     31.9% |      +213
-  To Record 1+ Run|     35.6% |      +181
-  To Record 1+ RBI|     24.7% |      +304
+  To Hit a HR     |     15.5% |      +545
+  To Record 1+ Hit|     58.4% |      -140
+  To Record 2+ TB |     35.9% |      +178
+  To Record 1+ Run|     38.0% |      +162
+  To Record 1+ RBI|     28.9% |      +246
 
 > 4. JOSE TREVINO (R | Contact | ❄️ NO ADV)
   MARKET          | TRUE PROB | FAIR ODDS
   ------------------------------------------------
-  To Hit a HR     |      4.0% |     +2423
+  To Hit a HR     |      4.2% |     +2299
   To Record 1+ Hit|     55.3% |      -123
-  To Record 2+ TB |     32.0% |      +212
-  To Record 1+ Run|     26.4% |      +279
+  To Record 2+ TB |     31.6% |      +216
+  To Record 1+ Run|     22.2% |      +350
   To Record 1+ RBI|     21.9% |      +356
 
 > 5. KE'BRYAN HAYES (R | Balanced | ❄️ NO ADV)
   MARKET          | TRUE PROB | FAIR ODDS
   ------------------------------------------------
   To Hit a HR     |      3.2% |     +3026
-  To Record 1+ Hit|     50.9% |      -103
-  To Record 2+ TB |     22.1% |      +351
-  To Record 1+ Run|     23.3% |      +329
-  To Record 1+ RBI|     18.5% |      +439
+  To Record 1+ Hit|     50.4% |      -101
+  To Record 2+ TB |     22.4% |      +345
+  To Record 1+ Run|     18.3% |      +445
+  To Record 1+ RBI|     18.4% |      +443
 
 > 6. MATT MCLAIN (R | Balanced | ❄️ NO ADV)
   MARKET          | TRUE PROB | FAIR ODDS
   ------------------------------------------------
-  To Hit a HR     |      4.9% |     +1956
+  To Hit a HR     |      4.8% |     +1993
   To Record 1+ Hit|     48.8% |      +104
-  To Record 2+ TB |     23.0% |      +334
-  To Record 1+ Run|     27.6% |      +261
+  To Record 2+ TB |     22.8% |      +339
+  To Record 1+ Run|     29.4% |      +239
   To Record 1+ RBI|     19.3% |      +417
 
 > 7. NATHANIEL LOWE (L | Balanced | 🔥 PLATOON ADV)
   MARKET          | TRUE PROB | FAIR ODDS
   ------------------------------------------------
   To Hit a HR     |      4.6% |     +2097
-  To Record 1+ Hit|     49.2% |      +103
-  To Record 2+ TB |     23.8% |      +320
-  To Record 1+ Run|     26.5% |      +276
+  To Record 1+ Hit|     49.3% |      +102
+  To Record 2+ TB |     23.3% |      +328
+  To Record 1+ Run|     25.3% |      +294
   To Record 1+ RBI|     23.7% |      +321
 
 > 8. NOELVI MARTE (R | Slugger | ❄️ NO ADV)
   MARKET          | TRUE PROB | FAIR ODDS
   ------------------------------------------------
-  To Hit a HR     |      9.5% |      +952
-  To Record 1+ Hit|     47.9% |      +108
-  To Record 2+ TB |     27.1% |      +269
-  To Record 1+ Run|     25.4% |      +293
-  To Record 1+ RBI|     25.8% |      +286
+  To Hit a HR     |     13.1% |      +664
+  To Record 1+ Hit|     49.0% |      +104
+  To Record 2+ TB |     26.8% |      +272
+  To Record 1+ Run|     26.3% |      +280
+  To Record 1+ RBI|     25.5% |      +291
 
 > 9. SAL STEWART (R | Slugger | ❄️ NO ADV)
   MARKET          | TRUE PROB | FAIR ODDS
   ------------------------------------------------
-  To Hit a HR     |     11.8% |      +749
-  To Record 1+ Hit|     45.1% |      +121
-  To Record 2+ TB |     22.3% |      +347
-  To Record 1+ Run|     27.0% |      +269
-  To Record 1+ RBI|     24.1% |      +315
+  To Hit a HR     |     12.5% |      +699
+  To Record 1+ Hit|     44.0% |      +127
+  To Record 2+ TB |     23.1% |      +332
+  To Record 1+ Run|     30.4% |      +229
+  To Record 1+ RBI|     23.9% |      +317
 
 ======================================================================
 ⏰ 06:40 PM ET | PLAYER PROPS: Miami Marlins vs Brandon Williamson (RHP - Power Pitcher)
@@ -788,74 +788,74 @@ ENV: loanDepot park | 72°F | Wind: 0mph none
 > 1. AGUSTÍN RAMÍREZ (R | Balanced | ❄️ NO ADV)
   MARKET          | TRUE PROB | FAIR ODDS
   ------------------------------------------------
-  To Hit a HR     |     15.4% |      +549
-  To Record 1+ Hit|     57.2% |      -133
-  To Record 2+ TB |     38.2% |      +161
+  To Hit a HR     |     15.7% |      +538
+  To Record 1+ Hit|     58.2% |      -139
+  To Record 2+ TB |     37.5% |      +166
   To Record 1+ Run|     40.6% |      +146
-  To Record 1+ RBI|     29.3% |      +241
+  To Record 1+ RBI|     27.8% |      +260
 
 > 2. AUSTIN SLATER (R | Balanced | ❄️ NO ADV)
   MARKET          | TRUE PROB | FAIR ODDS
   ------------------------------------------------
-  To Hit a HR     |     12.9% |      +674
-  To Record 1+ Hit|     48.3% |      +107
-  To Record 2+ TB |     29.2% |      +242
+  To Hit a HR     |     11.4% |      +778
+  To Record 1+ Hit|     52.8% |      -111
+  To Record 2+ TB |     33.3% |      +200
   To Record 1+ Run|     39.0% |      +156
-  To Record 1+ RBI|     24.4% |      +310
+  To Record 1+ RBI|     24.9% |      +301
 
 > 3. CONNOR NORBY (R | Balanced | ❄️ NO ADV)
   MARKET          | TRUE PROB | FAIR ODDS
   ------------------------------------------------
-  To Hit a HR     |     12.8% |      +683
+  To Hit a HR     |     10.2% |      +884
   To Record 1+ Hit|     56.9% |      -132
-  To Record 2+ TB |     35.5% |      +181
-  To Record 1+ Run|     36.8% |      +171
-  To Record 1+ RBI|     30.4% |      +229
+  To Record 2+ TB |     33.4% |      +199
+  To Record 1+ Run|     37.1% |      +169
+  To Record 1+ RBI|     27.5% |      +263
 
 > 4. GRAHAM PAULEY (L | Balanced | 🔥 PLATOON ADV)
   MARKET          | TRUE PROB | FAIR ODDS
   ------------------------------------------------
-  To Hit a HR     |      9.5% |      +947
-  To Record 1+ Hit|     55.1% |      -122
-  To Record 2+ TB |     33.5% |      +198
-  To Record 1+ Run|     33.9% |      +194
-  To Record 1+ RBI|     27.2% |      +267
+  To Hit a HR     |      8.7% |     +1050
+  To Record 1+ Hit|     54.0% |      -117
+  To Record 2+ TB |     33.4% |      +199
+  To Record 1+ Run|     32.8% |      +204
+  To Record 1+ RBI|     26.3% |      +279
 
 > 5. GRIFFIN CONINE (L | Balanced | 🔥 PLATOON ADV)
   MARKET          | TRUE PROB | FAIR ODDS
   ------------------------------------------------
-  To Hit a HR     |     11.3% |      +782
-  To Record 1+ Hit|     56.7% |      -130
-  To Record 2+ TB |     35.5% |      +181
-  To Record 1+ Run|     33.2% |      +201
+  To Hit a HR     |     10.5% |      +855
+  To Record 1+ Hit|     57.1% |      -132
+  To Record 2+ TB |     36.5% |      +173
+  To Record 1+ Run|     35.8% |      +179
   To Record 1+ RBI|     26.6% |      +276
 
 > 6. HERIBERTO HERNÁNDEZ (R | Balanced | ❄️ NO ADV)
   MARKET          | TRUE PROB | FAIR ODDS
   ------------------------------------------------
-  To Hit a HR     |     10.7% |      +834
-  To Record 1+ Hit|     55.2% |      -123
-  To Record 2+ TB |     29.9% |      +234
-  To Record 1+ Run|     33.9% |      +195
-  To Record 1+ RBI|     29.4% |      +240
+  To Hit a HR     |     11.8% |      +746
+  To Record 1+ Hit|     55.5% |      -124
+  To Record 2+ TB |     33.3% |      +200
+  To Record 1+ Run|     35.9% |      +178
+  To Record 1+ RBI|     30.9% |      +223
 
 > 7. JAKOB MARSEE (L | Balanced | 🔥 PLATOON ADV)
   MARKET          | TRUE PROB | FAIR ODDS
   ------------------------------------------------
-  To Hit a HR     |      7.5% |     +1241
-  To Record 1+ Hit|     54.4% |      -119
-  To Record 2+ TB |     36.0% |      +177
-  To Record 1+ Run|     35.2% |      +184
-  To Record 1+ RBI|     26.9% |      +272
+  To Hit a HR     |      7.4% |     +1249
+  To Record 1+ Hit|     54.7% |      -120
+  To Record 2+ TB |     32.7% |      +206
+  To Record 1+ Run|     32.3% |      +209
+  To Record 1+ RBI|     28.1% |      +255
 
 > 8. JAVIER SANOJA (R | Contact | ❄️ NO ADV)
   MARKET          | TRUE PROB | FAIR ODDS
   ------------------------------------------------
-  To Hit a HR     |      3.9% |     +2433
-  To Record 1+ Hit|     53.3% |      -114
-  To Record 2+ TB |     30.1% |      +232
-  To Record 1+ Run|     33.6% |      +197
-  To Record 1+ RBI|     22.9% |      +336
+  To Hit a HR     |      7.6% |     +1219
+  To Record 1+ Hit|     55.3% |      -123
+  To Record 2+ TB |     30.3% |      +230
+  To Record 1+ Run|     30.2% |      +231
+  To Record 1+ RBI|     25.1% |      +297
 
 > 9. LEO JIMÉNEZ (R | Balanced | ❄️ NO ADV)
   MARKET          | TRUE PROB | FAIR ODDS
@@ -863,8 +863,8 @@ ENV: loanDepot park | 72°F | Wind: 0mph none
   To Hit a HR     |     11.0% |      +810
   To Record 1+ Hit|     47.8% |      +109
   To Record 2+ TB |     20.9% |      +378
-  To Record 1+ Run|     29.2% |      +242
-  To Record 1+ RBI|     17.2% |      +481
+  To Record 1+ Run|     25.8% |      +288
+  To Record 1+ RBI|     18.2% |      +448
 
 ======================================================================
 🏟️  ST. LOUIS CARDINALS @ WASHINGTON NATIONALS
@@ -875,11 +875,11 @@ ENV: loanDepot park | 72°F | Wind: 0mph none
 ┌────────────────────────────────────────────────────────────────────┐
 │                        🥇 FIRST INNING MARKETS                      │
 ├────────────────────────────────────────────────────────────────────┤
-│  NRFI (No Run 1st)  :  55.0%  (  -122)                             │
-│  YRFI (Yes Run 1st) :  45.0%  (  +122)                             │
-│  Recommendation     : 🔥 SLIGHT NRFI                                │
+│  NRFI (No Run 1st)  :  51.0%  (  -104)                             │
+│  YRFI (Yes Run 1st) :  49.0%  (  +104)                             │
+│  Recommendation     : ➖ NEUTRAL (No Edge)                          │
 ├────────────────────────────────────────────────────────────────────┤
-│  Away scores 1st:  26.6%  |  Home scores 1st:  26.5%               │
+│  Away scores 1st:  29.0%  |  Home scores 1st:  28.5%               │
 │  Pitcher Scores: Away 0.51 | Home 0.51                             │
 └────────────────────────────────────────────────────────────────────┘
 
@@ -887,27 +887,27 @@ ENV: loanDepot park | 72°F | Wind: 0mph none
 │                          📊 FULL GAME MARKETS                       │
 ├────────────────────────────────────────────────────────────────────┤
 │  MONEYLINE                                                         │
-│    Away: 48.2% (+107) | Home: 51.8% (-107)                         │
+│    Away: 50.3% (-101) | Home: 49.7% (+101)                         │
 ├────────────────────────────────────────────────────────────────────┤
 │  RUN LINE (-1.5)                                                   │
-│    Away: 34.4% (+190) | Home: 39.0% (+156)                         │
+│    Away: 38.8% (+157) | Home: 37.5% (+166)                         │
 ├────────────────────────────────────────────────────────────────────┤
-│  GAME TOTAL (8.5)                                                  │
-│    Over: 51.2% | Under: 48.8% | Mean: 9.0 runs                     │
+│  GAME TOTAL (9.5)                                                  │
+│    Over: 39.7% | Under: 60.3% | Mean: 9.1 runs                     │
 ├────────────────────────────────────────────────────────────────────┤
 │  TEAM TOTALS                                                       │
-│    Away O/U 4.5: Over 43.4% | Under 56.6%                          │
-│    Home O/U 4.5: Over 43.9% | Under 56.1%                          │
+│    Away O/U 4.5: Over 44.5% | Under 55.5%                          │
+│    Home O/U 4.5: Over 44.1% | Under 55.9%                          │
 └────────────────────────────────────────────────────────────────────┘
 
 ┌────────────────────────────────────────────────────────────────────┐
 │                       ⏱️  FIRST 5 INNINGS (F5)                     │
 ├────────────────────────────────────────────────────────────────────┤
 │  F5 MONEYLINE                                                      │
-│    Away: 38.4% | Home: 44.5% | Tie: 17.1%                          │
+│    Away: 43.2% | Home: 41.3% | Tie: 15.5%                          │
 ├────────────────────────────────────────────────────────────────────┤
 │  F5 TOTAL (4.5)                                                    │
-│    Over: 45.3% | Under: 54.7%                                      │
+│    Over: 45.8% | Under: 54.2%                                      │
 └────────────────────────────────────────────────────────────────────┘
 
 ======================================================================
@@ -921,80 +921,80 @@ ENV: Nationals Park | 72°F | Wind: 0mph none
   To Hit a HR     |     19.0% |      +427
   To Record 1+ Hit|     66.4% |      -197
   To Record 2+ TB |     44.6% |      +123
-  To Record 1+ Run|     44.8% |      +123
-  To Record 1+ RBI|     34.9% |      +186
+  To Record 1+ Run|     46.7% |      +114
+  To Record 1+ RBI|     34.0% |      +193
 
 > 2. IVÁN HERRERA (R | Balanced | ❄️ NO ADV)
   MARKET          | TRUE PROB | FAIR ODDS
   ------------------------------------------------
   To Hit a HR     |     19.9% |      +401
-  To Record 1+ Hit|     62.7% |      -168
-  To Record 2+ TB |     39.8% |      +151
-  To Record 1+ Run|     43.1% |      +131
-  To Record 1+ RBI|     34.1% |      +193
+  To Record 1+ Hit|     63.1% |      -171
+  To Record 2+ TB |     39.9% |      +150
+  To Record 1+ Run|     42.5% |      +135
+  To Record 1+ RBI|     37.2% |      +169
 
 > 3. JJ WETHERHOLT (L | Balanced | 🔥 PLATOON ADV)
   MARKET          | TRUE PROB | FAIR ODDS
   ------------------------------------------------
   To Hit a HR     |     17.7% |      +465
-  To Record 1+ Hit|     63.6% |      -174
-  To Record 2+ TB |     42.8% |      +133
-  To Record 1+ Run|     41.8% |      +138
-  To Record 1+ RBI|     26.6% |      +275
+  To Record 1+ Hit|     64.7% |      -183
+  To Record 2+ TB |     42.3% |      +136
+  To Record 1+ Run|     40.0% |      +150
+  To Record 1+ RBI|     27.1% |      +269
 
 > 4. JORDAN WALKER (R | Balanced | ❄️ NO ADV)
   MARKET          | TRUE PROB | FAIR ODDS
   ------------------------------------------------
-  To Hit a HR     |      8.0% |     +1145
+  To Hit a HR     |      8.2% |     +1112
   To Record 1+ Hit|     60.0% |      -149
-  To Record 2+ TB |     35.4% |      +182
-  To Record 1+ Run|     36.2% |      +176
-  To Record 1+ RBI|     32.7% |      +206
+  To Record 2+ TB |     35.0% |      +185
+  To Record 1+ Run|     35.7% |      +180
+  To Record 1+ RBI|     30.0% |      +233
 
 > 5. JOSÉ FERMÍN (R | Contact | ❄️ NO ADV)
   MARKET          | TRUE PROB | FAIR ODDS
   ------------------------------------------------
   To Hit a HR     |      8.2% |     +1123
-  To Record 1+ Hit|     60.2% |      -151
-  To Record 2+ TB |     38.3% |      +161
-  To Record 1+ Run|     36.7% |      +172
-  To Record 1+ RBI|     35.1% |      +184
+  To Record 1+ Hit|     62.9% |      -169
+  To Record 2+ TB |     39.3% |      +154
+  To Record 1+ Run|     37.8% |      +164
+  To Record 1+ RBI|     38.9% |      +157
 
 > 6. MASYN WINN (R | Contact | ❄️ NO ADV)
   MARKET          | TRUE PROB | FAIR ODDS
   ------------------------------------------------
-  To Hit a HR     |     10.2% |      +878
-  To Record 1+ Hit|     61.4% |      -158
-  To Record 2+ TB |     34.2% |      +192
-  To Record 1+ Run|     39.7% |      +151
-  To Record 1+ RBI|     32.3% |      +209
+  To Hit a HR     |      9.7% |      +926
+  To Record 1+ Hit|     62.5% |      -166
+  To Record 2+ TB |     35.0% |      +185
+  To Record 1+ Run|     39.8% |      +151
+  To Record 1+ RBI|     26.4% |      +279
 
 > 7. NATHAN CHURCH (L | Balanced | 🔥 PLATOON ADV)
   MARKET          | TRUE PROB | FAIR ODDS
   ------------------------------------------------
-  To Hit a HR     |      8.1% |     +1128
-  To Record 1+ Hit|     58.0% |      -137
-  To Record 2+ TB |     28.9% |      +246
-  To Record 1+ Run|     37.3% |      +167
-  To Record 1+ RBI|     33.7% |      +197
+  To Hit a HR     |      8.8% |     +1039
+  To Record 1+ Hit|     52.9% |      -112
+  To Record 2+ TB |     25.4% |      +292
+  To Record 1+ Run|     36.4% |      +175
+  To Record 1+ RBI|     30.7% |      +225
 
 > 8. NOLAN GORMAN (L | Balanced | 🔥 PLATOON ADV)
   MARKET          | TRUE PROB | FAIR ODDS
   ------------------------------------------------
-  To Hit a HR     |     13.5% |      +641
-  To Record 1+ Hit|     54.5% |      -119
+  To Hit a HR     |     13.9% |      +620
+  To Record 1+ Hit|     54.4% |      -119
   To Record 2+ TB |     36.3% |      +175
   To Record 1+ Run|     36.0% |      +177
-  To Record 1+ RBI|     29.3% |      +241
+  To Record 1+ RBI|     28.8% |      +246
 
 > 9. PEDRO PAGÉS (R | Balanced | ❄️ NO ADV)
   MARKET          | TRUE PROB | FAIR ODDS
   ------------------------------------------------
-  To Hit a HR     |     11.7% |      +751
-  To Record 1+ Hit|     54.8% |      -121
-  To Record 2+ TB |     33.1% |      +201
-  To Record 1+ Run|     33.3% |      +200
-  To Record 1+ RBI|     28.2% |      +254
+  To Hit a HR     |     10.9% |      +814
+  To Record 1+ Hit|     54.7% |      -120
+  To Record 2+ TB |     33.0% |      +202
+  To Record 1+ Run|     32.9% |      +203
+  To Record 1+ RBI|     28.5% |      +251
 
 ======================================================================
 ⏰ 06:45 PM ET | PLAYER PROPS: Washington Nationals vs Andre Pallante (RHP - Balanced Pitcher)
@@ -1004,83 +1004,83 @@ ENV: Nationals Park | 72°F | Wind: 0mph none
 > 1. BRADY HOUSE (R | Balanced | ❄️ NO ADV)
   MARKET          | TRUE PROB | FAIR ODDS
   ------------------------------------------------
-  To Hit a HR     |      5.9% |     +1594
-  To Record 1+ Hit|     68.4% |      -216
-  To Record 2+ TB |     34.1% |      +193
+  To Hit a HR     |      6.1% |     +1528
+  To Record 1+ Hit|     63.1% |      -171
+  To Record 2+ TB |     34.4% |      +190
   To Record 1+ Run|     29.2% |      +242
-  To Record 1+ RBI|     29.4% |      +239
+  To Record 1+ RBI|     26.8% |      +272
 
 > 2. CJ ABRAMS (L | Balanced | 🔥 PLATOON ADV)
   MARKET          | TRUE PROB | FAIR ODDS
   ------------------------------------------------
-  To Hit a HR     |     11.3% |      +787
-  To Record 1+ Hit|     65.7% |      -191
-  To Record 2+ TB |     47.7% |      +109
-  To Record 1+ Run|     41.8% |      +139
-  To Record 1+ RBI|     24.1% |      +314
+  To Hit a HR     |     11.5% |      +769
+  To Record 1+ Hit|     66.6% |      -199
+  To Record 2+ TB |     42.1% |      +137
+  To Record 1+ Run|     44.1% |      +126
+  To Record 1+ RBI|     26.9% |      +271
 
 > 3. CURTIS MEAD (R | Balanced | ❄️ NO ADV)
   MARKET          | TRUE PROB | FAIR ODDS
   ------------------------------------------------
-  To Hit a HR     |      7.2% |     +1289
-  To Record 1+ Hit|     56.0% |      -127
+  To Hit a HR     |      4.5% |     +2141
+  To Record 1+ Hit|     55.2% |      -123
   To Record 2+ TB |     27.8% |      +260
   To Record 1+ Run|     25.0% |      +300
-  To Record 1+ RBI|     20.2% |      +394
+  To Record 1+ RBI|     21.6% |      +362
 
 > 4. DAYLEN LILE (L | Contact | 🔥 PLATOON ADV)
   MARKET          | TRUE PROB | FAIR ODDS
   ------------------------------------------------
   To Hit a HR     |      9.8% |      +925
-  To Record 1+ Hit|     74.3% |      -289
-  To Record 2+ TB |     38.7% |      +158
-  To Record 1+ Run|     41.0% |      +143
-  To Record 1+ RBI|     31.9% |      +213
+  To Record 1+ Hit|     66.3% |      -197
+  To Record 2+ TB |     37.2% |      +168
+  To Record 1+ Run|     39.1% |      +155
+  To Record 1+ RBI|     36.2% |      +176
 
 > 5. DREW MILLAS (S | Contact | 🔥 PLATOON ADV)
   MARKET          | TRUE PROB | FAIR ODDS
   ------------------------------------------------
   To Hit a HR     |      1.2% |     +8525
-  To Record 1+ Hit|     64.4% |      -180
-  To Record 2+ TB |     39.9% |      +150
-  To Record 1+ Run|     36.1% |      +176
-  To Record 1+ RBI|     33.8% |      +196
+  To Record 1+ Hit|     64.6% |      -182
+  To Record 2+ TB |     41.2% |      +142
+  To Record 1+ Run|     36.8% |      +171
+  To Record 1+ RBI|     28.1% |      +256
 
 > 6. JACOB YOUNG (R | Contact | ❄️ NO ADV)
   MARKET          | TRUE PROB | FAIR ODDS
   ------------------------------------------------
-  To Hit a HR     |      4.1% |     +2337
-  To Record 1+ Hit|     54.7% |      -120
+  To Hit a HR     |      2.9% |     +3347
+  To Record 1+ Hit|     53.9% |      -116
   To Record 2+ TB |     27.0% |      +270
-  To Record 1+ Run|     28.3% |      +252
-  To Record 1+ RBI|     24.8% |      +303
+  To Record 1+ Run|     29.1% |      +243
+  To Record 1+ RBI|     20.6% |      +384
 
 > 7. JAMES WOOD (L | Slugger | 🔥 PLATOON ADV)
   MARKET          | TRUE PROB | FAIR ODDS
   ------------------------------------------------
-  To Hit a HR     |     19.5% |      +413
-  To Record 1+ Hit|     61.6% |      -160
-  To Record 2+ TB |     49.3% |      +102
-  To Record 1+ Run|     36.6% |      +173
-  To Record 1+ RBI|     32.9% |      +203
+  To Hit a HR     |     18.9% |      +429
+  To Record 1+ Hit|     60.2% |      -151
+  To Record 2+ TB |     51.1% |      -104
+  To Record 1+ Run|     36.5% |      +174
+  To Record 1+ RBI|     31.9% |      +213
 
 > 8. JOEY WIEMER (R | Slugger | ❄️ NO ADV)
   MARKET          | TRUE PROB | FAIR ODDS
   ------------------------------------------------
-  To Hit a HR     |     12.5% |      +700
-  To Record 1+ Hit|     52.0% |      -108
-  To Record 2+ TB |     29.7% |      +236
-  To Record 1+ Run|     31.9% |      +213
+  To Hit a HR     |     12.2% |      +720
+  To Record 1+ Hit|     50.6% |      -102
+  To Record 2+ TB |     30.0% |      +233
+  To Record 1+ Run|     31.2% |      +220
   To Record 1+ RBI|     34.9% |      +186
 
 > 9. JORBIT VIVAS (L | Balanced | 🔥 PLATOON ADV)
   MARKET          | TRUE PROB | FAIR ODDS
   ------------------------------------------------
-  To Hit a HR     |      6.9% |     +1342
-  To Record 1+ Hit|     39.7% |      +151
-  To Record 2+ TB |     15.1% |      +560
-  To Record 1+ Run|     23.9% |      +319
-  To Record 1+ RBI|     18.7% |      +434
+  To Hit a HR     |      4.2% |     +2271
+  To Record 1+ Hit|     36.8% |      +171
+  To Record 2+ TB |     19.5% |      +412
+  To Record 1+ Run|     26.5% |      +277
+  To Record 1+ RBI|     19.6% |      +410
 
 ======================================================================
 🏟️  MILWAUKEE BREWERS @ BOSTON RED SOX
@@ -1091,11 +1091,11 @@ ENV: Nationals Park | 72°F | Wind: 0mph none
 ┌────────────────────────────────────────────────────────────────────┐
 │                        🥇 FIRST INNING MARKETS                      │
 ├────────────────────────────────────────────────────────────────────┤
-│  NRFI (No Run 1st)  :  50.6%  (  -102)                             │
-│  YRFI (Yes Run 1st) :  49.4%  (  +102)                             │
-│  Recommendation     : ➖ NEUTRAL (No Edge)                          │
+│  NRFI (No Run 1st)  :  52.9%  (  -112)                             │
+│  YRFI (Yes Run 1st) :  47.1%  (  +112)                             │
+│  Recommendation     : 🔥 SLIGHT NRFI                                │
 ├────────────────────────────────────────────────────────────────────┤
-│  Away scores 1st:  30.9%  |  Home scores 1st:  28.6%               │
+│  Away scores 1st:  28.2%  |  Home scores 1st:  27.2%               │
 │  Pitcher Scores: Away 0.51 | Home 0.51                             │
 └────────────────────────────────────────────────────────────────────┘
 
@@ -1103,27 +1103,27 @@ ENV: Nationals Park | 72°F | Wind: 0mph none
 │                          📊 FULL GAME MARKETS                       │
 ├────────────────────────────────────────────────────────────────────┤
 │  MONEYLINE                                                         │
-│    Away: 53.8% (-116) | Home: 46.2% (+116)                         │
+│    Away: 55.5% (-124) | Home: 44.5% (+124)                         │
 ├────────────────────────────────────────────────────────────────────┤
 │  RUN LINE (-1.5)                                                   │
-│    Away: 42.0% (+138) | Home: 35.8% (+179)                         │
+│    Away: 42.7% (+134) | Home: 33.7% (+196)                         │
 ├────────────────────────────────────────────────────────────────────┤
 │  GAME TOTAL (9.5)                                                  │
-│    Over: 47.6% | Under: 52.4% | Mean: 9.8 runs                     │
+│    Over: 48.0% | Under: 52.0% | Mean: 9.9 runs                     │
 ├────────────────────────────────────────────────────────────────────┤
 │  TEAM TOTALS                                                       │
-│    Away O/U 5.5: Over 39.6% | Under 60.4%                          │
-│    Home O/U 4.5: Over 46.9% | Under 53.1%                          │
+│    Away O/U 5.5: Over 42.1% | Under 57.9%                          │
+│    Home O/U 4.5: Over 45.6% | Under 54.4%                          │
 └────────────────────────────────────────────────────────────────────┘
 
 ┌────────────────────────────────────────────────────────────────────┐
 │                       ⏱️  FIRST 5 INNINGS (F5)                     │
 ├────────────────────────────────────────────────────────────────────┤
 │  F5 MONEYLINE                                                      │
-│    Away: 46.1% | Home: 38.7% | Tie: 15.2%                          │
+│    Away: 45.3% | Home: 38.5% | Tie: 16.2%                          │
 ├────────────────────────────────────────────────────────────────────┤
-│  F5 TOTAL (4.5)                                                    │
-│    Over: 50.7% | Under: 49.3%                                      │
+│  F5 TOTAL (5.5)                                                    │
+│    Over: 39.7% | Under: 60.3%                                      │
 └────────────────────────────────────────────────────────────────────┘
 
 ======================================================================
@@ -1134,83 +1134,83 @@ ENV: Fenway Park | 72°F | Wind: 0mph none
 > 1. BLAKE PERKINS (S | Balanced | 🔥 PLATOON ADV)
   MARKET          | TRUE PROB | FAIR ODDS
   ------------------------------------------------
-  To Hit a HR     |      7.6% |     +1209
+  To Hit a HR     |      7.6% |     +1210
   To Record 1+ Hit|     57.7% |      -136
-  To Record 2+ TB |     34.1% |      +193
-  To Record 1+ Run|     38.0% |      +162
-  To Record 1+ RBI|     24.8% |      +303
+  To Record 2+ TB |     33.0% |      +203
+  To Record 1+ Run|     37.6% |      +165
+  To Record 1+ RBI|     26.8% |      +273
 
 > 2. BRANDON LOCKRIDGE (R | Balanced | ❄️ NO ADV)
   MARKET          | TRUE PROB | FAIR ODDS
   ------------------------------------------------
   To Hit a HR     |      1.3% |     +7594
-  To Record 1+ Hit|     54.8% |      -121
-  To Record 2+ TB |     27.9% |      +258
-  To Record 1+ Run|     31.3% |      +219
-  To Record 1+ RBI|     22.9% |      +337
+  To Record 1+ Hit|     54.5% |      -119
+  To Record 2+ TB |     28.3% |      +253
+  To Record 1+ Run|     26.3% |      +280
+  To Record 1+ RBI|     17.8% |      +460
 
 > 3. BRICE TURANG (L | Balanced | 🔥 PLATOON ADV)
   MARKET          | TRUE PROB | FAIR ODDS
   ------------------------------------------------
-  To Hit a HR     |     10.6% |      +842
-  To Record 1+ Hit|     54.3% |      -118
-  To Record 2+ TB |     31.8% |      +214
-  To Record 1+ Run|     33.7% |      +197
-  To Record 1+ RBI|     26.9% |      +271
+  To Hit a HR     |      8.4% |     +1091
+  To Record 1+ Hit|     53.8% |      -116
+  To Record 2+ TB |     30.9% |      +223
+  To Record 1+ Run|     34.4% |      +190
+  To Record 1+ RBI|     26.5% |      +276
 
 > 4. CHRISTIAN YELICH (L | Slugger | 🔥 PLATOON ADV)
   MARKET          | TRUE PROB | FAIR ODDS
   ------------------------------------------------
-  To Hit a HR     |     14.8% |      +575
-  To Record 1+ Hit|     56.4% |      -129
-  To Record 2+ TB |     33.8% |      +195
-  To Record 1+ Run|     35.3% |      +183
-  To Record 1+ RBI|     34.3% |      +191
+  To Hit a HR     |     14.6% |      +585
+  To Record 1+ Hit|     56.6% |      -130
+  To Record 2+ TB |     34.7% |      +188
+  To Record 1+ Run|     35.0% |      +186
+  To Record 1+ RBI|     33.0% |      +203
 
 > 5. DAVID HAMILTON (L | Balanced | 🔥 PLATOON ADV)
   MARKET          | TRUE PROB | FAIR ODDS
   ------------------------------------------------
-  To Hit a HR     |     10.0% |      +897
-  To Record 1+ Hit|     50.4% |      -101
-  To Record 2+ TB |     27.7% |      +260
-  To Record 1+ Run|     29.1% |      +243
-  To Record 1+ RBI|     23.7% |      +322
+  To Hit a HR     |      8.1% |     +1140
+  To Record 1+ Hit|     52.1% |      -108
+  To Record 2+ TB |     28.5% |      +250
+  To Record 1+ Run|     31.5% |      +217
+  To Record 1+ RBI|     26.1% |      +282
 
 > 6. GARRETT MITCHELL (L | Balanced | 🔥 PLATOON ADV)
   MARKET          | TRUE PROB | FAIR ODDS
   ------------------------------------------------
   To Hit a HR     |      1.2% |     +8464
   To Record 1+ Hit|     50.6% |      -102
-  To Record 2+ TB |     28.0% |      +257
-  To Record 1+ Run|     28.8% |      +246
-  To Record 1+ RBI|     16.9% |      +492
+  To Record 2+ TB |     25.9% |      +286
+  To Record 1+ Run|     28.0% |      +257
+  To Record 1+ RBI|      8.0% |     +1148
 
 > 7. GARY SÁNCHEZ (R | Slugger | ❄️ NO ADV)
   MARKET          | TRUE PROB | FAIR ODDS
   ------------------------------------------------
-  To Hit a HR     |     14.9% |      +571
-  To Record 1+ Hit|     52.7% |      -111
-  To Record 2+ TB |     27.9% |      +257
+  To Hit a HR     |     12.0% |      +734
+  To Record 1+ Hit|     54.8% |      -121
+  To Record 2+ TB |     26.3% |      +280
   To Record 1+ Run|     28.5% |      +250
-  To Record 1+ RBI|     28.6% |      +249
+  To Record 1+ RBI|     31.4% |      +218
 
 > 8. JAKE BAUERS (L | Balanced | 🔥 PLATOON ADV)
   MARKET          | TRUE PROB | FAIR ODDS
   ------------------------------------------------
-  To Hit a HR     |      7.8% |     +1182
-  To Record 1+ Hit|     48.7% |      +105
-  To Record 2+ TB |     23.4% |      +327
-  To Record 1+ Run|     31.2% |      +220
-  To Record 1+ RBI|     22.8% |      +339
+  To Hit a HR     |      9.6% |      +939
+  To Record 1+ Hit|     49.5% |      +102
+  To Record 2+ TB |     23.2% |      +330
+  To Record 1+ Run|     31.0% |      +222
+  To Record 1+ RBI|     22.9% |      +337
 
 > 9. JOEY ORTIZ (R | Contact | ❄️ NO ADV)
   MARKET          | TRUE PROB | FAIR ODDS
   ------------------------------------------------
-  To Hit a HR     |      4.5% |     +2102
-  To Record 1+ Hit|     51.0% |      -104
-  To Record 2+ TB |     25.5% |      +292
-  To Record 1+ Run|     29.2% |      +241
-  To Record 1+ RBI|     21.3% |      +368
+  To Hit a HR     |      4.0% |     +2397
+  To Record 1+ Hit|     53.3% |      -113
+  To Record 2+ TB |     26.4% |      +279
+  To Record 1+ Run|     29.7% |      +236
+  To Record 1+ RBI|     25.1% |      +298
 
 ======================================================================
 ⏰ 06:45 PM ET | PLAYER PROPS: Boston Red Sox vs Brandon Woodruff (RHP - Power Pitcher)
@@ -1220,83 +1220,83 @@ ENV: Fenway Park | 72°F | Wind: 0mph none
 > 1. ANDRUW MONASTERIO (R | Balanced | ❄️ NO ADV)
   MARKET          | TRUE PROB | FAIR ODDS
   ------------------------------------------------
-  To Hit a HR     |     13.6% |      +635
-  To Record 1+ Hit|     59.9% |      -149
-  To Record 2+ TB |     37.1% |      +169
-  To Record 1+ Run|     40.7% |      +145
-  To Record 1+ RBI|     27.5% |      +263
+  To Hit a HR     |     13.1% |      +665
+  To Record 1+ Hit|     63.8% |      -176
+  To Record 2+ TB |     42.7% |      +134
+  To Record 1+ Run|     44.0% |      +127
+  To Record 1+ RBI|     30.8% |      +225
 
 > 2. CALEB DURBIN (R | Contact | ❄️ NO ADV)
   MARKET          | TRUE PROB | FAIR ODDS
   ------------------------------------------------
-  To Hit a HR     |      8.1% |     +1127
-  To Record 1+ Hit|     60.7% |      -154
-  To Record 2+ TB |     36.1% |      +177
-  To Record 1+ Run|     38.1% |      +162
-  To Record 1+ RBI|     27.1% |      +269
+  To Hit a HR     |     10.4% |      +864
+  To Record 1+ Hit|     61.0% |      -156
+  To Record 2+ TB |     34.2% |      +192
+  To Record 1+ Run|     40.2% |      +148
+  To Record 1+ RBI|     27.3% |      +265
 
 > 3. CARLOS NARVÁEZ (R | Balanced | ❄️ NO ADV)
   MARKET          | TRUE PROB | FAIR ODDS
   ------------------------------------------------
-  To Hit a HR     |     11.5% |      +766
-  To Record 1+ Hit|     56.6% |      -130
-  To Record 2+ TB |     36.1% |      +176
+  To Hit a HR     |     11.8% |      +748
+  To Record 1+ Hit|     56.7% |      -131
+  To Record 2+ TB |     35.5% |      +181
   To Record 1+ Run|     36.8% |      +171
-  To Record 1+ RBI|     27.7% |      +261
+  To Record 1+ RBI|     28.7% |      +248
 
 > 4. CEDDANNE RAFAELA (R | Balanced | ❄️ NO ADV)
   MARKET          | TRUE PROB | FAIR ODDS
   ------------------------------------------------
-  To Hit a HR     |      8.7% |     +1050
-  To Record 1+ Hit|     55.1% |      -122
-  To Record 2+ TB |     32.7% |      +205
-  To Record 1+ Run|     34.3% |      +191
-  To Record 1+ RBI|     28.0% |      +256
+  To Hit a HR     |     12.2% |      +721
+  To Record 1+ Hit|     55.7% |      -125
+  To Record 2+ TB |     35.0% |      +185
+  To Record 1+ Run|     38.5% |      +159
+  To Record 1+ RBI|     27.9% |      +258
 
 > 5. CONNOR WONG (R | Balanced | ❄️ NO ADV)
   MARKET          | TRUE PROB | FAIR ODDS
   ------------------------------------------------
   To Hit a HR     |      1.2% |     +8421
-  To Record 1+ Hit|     50.3% |      -101
-  To Record 2+ TB |     28.7% |      +248
-  To Record 1+ Run|     27.9% |      +258
+  To Record 1+ Hit|     52.2% |      -109
+  To Record 2+ TB |     28.8% |      +246
+  To Record 1+ Run|     27.6% |      +262
   To Record 1+ RBI|     18.5% |      +439
 
 > 6. ISIAH KINER-FALEFA (R | Contact | ❄️ NO ADV)
   MARKET          | TRUE PROB | FAIR ODDS
   ------------------------------------------------
-  To Hit a HR     |      4.8% |     +1996
-  To Record 1+ Hit|     57.9% |      -137
-  To Record 2+ TB |     31.1% |      +221
-  To Record 1+ Run|     28.6% |      +249
-  To Record 1+ RBI|     24.7% |      +305
+  To Hit a HR     |      2.7% |     +3543
+  To Record 1+ Hit|     59.8% |      -148
+  To Record 2+ TB |     34.0% |      +194
+  To Record 1+ Run|     29.4% |      +240
+  To Record 1+ RBI|     26.4% |      +278
 
 > 7. JARREN DURAN (L | Balanced | 🔥 PLATOON ADV)
   MARKET          | TRUE PROB | FAIR ODDS
   ------------------------------------------------
-  To Hit a HR     |      8.5% |     +1077
+  To Hit a HR     |      9.7% |      +935
   To Record 1+ Hit|     53.4% |      -114
-  To Record 2+ TB |     32.1% |      +211
-  To Record 1+ Run|     33.5% |      +198
-  To Record 1+ RBI|     26.3% |      +280
+  To Record 2+ TB |     30.8% |      +224
+  To Record 1+ Run|     34.2% |      +192
+  To Record 1+ RBI|     26.0% |      +284
 
 > 8. MARCELO MAYER (L | Balanced | 🔥 PLATOON ADV)
   MARKET          | TRUE PROB | FAIR ODDS
   ------------------------------------------------
   To Hit a HR     |     10.1% |      +892
-  To Record 1+ Hit|     52.9% |      -112
-  To Record 2+ TB |     30.1% |      +232
-  To Record 1+ Run|     33.9% |      +195
-  To Record 1+ RBI|     22.5% |      +343
+  To Record 1+ Hit|     54.9% |      -121
+  To Record 2+ TB |     30.7% |      +225
+  To Record 1+ Run|     37.1% |      +169
+  To Record 1+ RBI|     22.4% |      +345
 
 > 9. MASATAKA YOSHIDA (L | Contact | 🔥 PLATOON ADV)
   MARKET          | TRUE PROB | FAIR ODDS
   ------------------------------------------------
-  To Hit a HR     |      7.8% |     +1177
-  To Record 1+ Hit|     57.5% |      -135
-  To Record 2+ TB |     28.3% |      +253
-  To Record 1+ Run|     28.6% |      +249
-  To Record 1+ RBI|     26.8% |      +272
+  To Hit a HR     |      7.1% |     +1306
+  To Record 1+ Hit|     56.5% |      -129
+  To Record 2+ TB |     28.8% |      +247
+  To Record 1+ Run|     28.3% |      +253
+  To Record 1+ RBI|     27.9% |      +259
 
 ======================================================================
 🏟️  LOS ANGELES DODGERS @ TORONTO BLUE JAYS
@@ -1307,11 +1307,11 @@ ENV: Fenway Park | 72°F | Wind: 0mph none
 ┌────────────────────────────────────────────────────────────────────┐
 │                        🥇 FIRST INNING MARKETS                      │
 ├────────────────────────────────────────────────────────────────────┤
-│  NRFI (No Run 1st)  :  53.7%  (  -115)                             │
-│  YRFI (Yes Run 1st) :  46.3%  (  +115)                             │
+│  NRFI (No Run 1st)  :  52.5%  (  -110)                             │
+│  YRFI (Yes Run 1st) :  47.5%  (  +110)                             │
 │  Recommendation     : 🔥 SLIGHT NRFI                                │
 ├────────────────────────────────────────────────────────────────────┤
-│  Away scores 1st:  25.7%  |  Home scores 1st:  27.9%               │
+│  Away scores 1st:  26.7%  |  Home scores 1st:  27.9%               │
 │  Pitcher Scores: Away 0.51 | Home 0.51                             │
 └────────────────────────────────────────────────────────────────────┘
 
@@ -1319,27 +1319,27 @@ ENV: Fenway Park | 72°F | Wind: 0mph none
 │                          📊 FULL GAME MARKETS                       │
 ├────────────────────────────────────────────────────────────────────┤
 │  MONEYLINE                                                         │
-│    Away: 48.6% (+105) | Home: 51.4% (-105)                         │
+│    Away: 48.9% (+104) | Home: 51.1% (-104)                         │
 ├────────────────────────────────────────────────────────────────────┤
 │  RUN LINE (-1.5)                                                   │
-│    Away: 36.9% (+170) | Home: 38.3% (+161)                         │
+│    Away: 36.7% (+172) | Home: 41.5% (+141)                         │
 ├────────────────────────────────────────────────────────────────────┤
 │  GAME TOTAL (9.5)                                                  │
-│    Over: 42.2% | Under: 57.8% | Mean: 9.2 runs                     │
+│    Over: 42.4% | Under: 57.6% | Mean: 9.1 runs                     │
 ├────────────────────────────────────────────────────────────────────┤
 │  TEAM TOTALS                                                       │
 │    Away O/U 4.5: Over 42.9% | Under 57.1%                          │
-│    Home O/U 4.5: Over 47.7% | Under 52.3%                          │
+│    Home O/U 4.5: Over 46.5% | Under 53.5%                          │
 └────────────────────────────────────────────────────────────────────┘
 
 ┌────────────────────────────────────────────────────────────────────┐
 │                       ⏱️  FIRST 5 INNINGS (F5)                     │
 ├────────────────────────────────────────────────────────────────────┤
 │  F5 MONEYLINE                                                      │
-│    Away: 40.5% | Home: 43.7% | Tie: 15.9%                          │
+│    Away: 40.8% | Home: 44.7% | Tie: 14.5%                          │
 ├────────────────────────────────────────────────────────────────────┤
 │  F5 TOTAL (4.5)                                                    │
-│    Over: 44.9% | Under: 55.1%                                      │
+│    Over: 46.9% | Under: 53.1%                                      │
 └────────────────────────────────────────────────────────────────────┘
 
 ======================================================================
@@ -1350,83 +1350,83 @@ ENV: Rogers Centre | 72°F | Wind: 0mph none
 > 1. ALEX CALL (R | Contact | ❄️ NO ADV)
   MARKET          | TRUE PROB | FAIR ODDS
   ------------------------------------------------
-  To Hit a HR     |      9.1% |     +1002
-  To Record 1+ Hit|     69.0% |      -222
-  To Record 2+ TB |     42.6% |      +134
-  To Record 1+ Run|     49.2% |      +103
-  To Record 1+ RBI|     34.4% |      +190
+  To Hit a HR     |      9.8% |      +919
+  To Record 1+ Hit|     70.2% |      -235
+  To Record 2+ TB |     43.0% |      +132
+  To Record 1+ Run|     52.1% |      -108
+  To Record 1+ RBI|     34.2% |      +192
 
 > 2. ALEX FREELAND (S | Balanced | 🔥 PLATOON ADV)
   MARKET          | TRUE PROB | FAIR ODDS
   ------------------------------------------------
-  To Hit a HR     |     14.7% |      +579
-  To Record 1+ Hit|     62.8% |      -168
-  To Record 2+ TB |     38.6% |      +158
-  To Record 1+ Run|     43.4% |      +130
-  To Record 1+ RBI|     27.0% |      +270
+  To Hit a HR     |     15.8% |      +534
+  To Record 1+ Hit|     59.6% |      -147
+  To Record 2+ TB |     38.1% |      +162
+  To Record 1+ Run|     44.7% |      +123
+  To Record 1+ RBI|     30.7% |      +225
 
 > 3. ANDY PAGES (R | Slugger | ❄️ NO ADV)
   MARKET          | TRUE PROB | FAIR ODDS
   ------------------------------------------------
-  To Hit a HR     |     21.2% |      +372
+  To Hit a HR     |     26.7% |      +274
   To Record 1+ Hit|     67.0% |      -202
-  To Record 2+ TB |     45.3% |      +120
-  To Record 1+ Run|     44.1% |      +126
-  To Record 1+ RBI|     36.5% |      +173
+  To Record 2+ TB |     45.1% |      +121
+  To Record 1+ Run|     51.6% |      -106
+  To Record 1+ RBI|     37.9% |      +164
 
 > 4. DALTON RUSHING (L | Balanced | 🔥 PLATOON ADV)
   MARKET          | TRUE PROB | FAIR ODDS
   ------------------------------------------------
-  To Hit a HR     |     16.1% |      +522
-  To Record 1+ Hit|     62.3% |      -165
-  To Record 2+ TB |     40.7% |      +145
-  To Record 1+ Run|     39.9% |      +150
+  To Hit a HR     |     16.5% |      +507
+  To Record 1+ Hit|     61.6% |      -160
+  To Record 2+ TB |     37.6% |      +165
+  To Record 1+ Run|     41.0% |      +144
   To Record 1+ RBI|     37.6% |      +165
 
 > 5. FREDDIE FREEMAN (L | Balanced | 🔥 PLATOON ADV)
   MARKET          | TRUE PROB | FAIR ODDS
   ------------------------------------------------
-  To Hit a HR     |     25.3% |      +294
+  To Hit a HR     |     28.9% |      +246
   To Record 1+ Hit|     58.7% |      -142
-  To Record 2+ TB |     54.3% |      -118
+  To Record 2+ TB |     45.1% |      +121
   To Record 1+ Run|     47.4% |      +111
   To Record 1+ RBI|     37.6% |      +165
 
 > 6. HYESEONG KIM (L | Balanced | 🔥 PLATOON ADV)
   MARKET          | TRUE PROB | FAIR ODDS
   ------------------------------------------------
-  To Hit a HR     |     10.3% |      +875
+  To Hit a HR     |     12.0% |      +733
   To Record 1+ Hit|     55.3% |      -123
-  To Record 2+ TB |     43.2% |      +131
-  To Record 1+ Run|     40.3% |      +148
-  To Record 1+ RBI|     32.9% |      +204
+  To Record 2+ TB |     40.2% |      +148
+  To Record 1+ Run|     41.0% |      +143
+  To Record 1+ RBI|     35.2% |      +183
 
 > 7. KYLE TUCKER (L | Balanced | 🔥 PLATOON ADV)
   MARKET          | TRUE PROB | FAIR ODDS
   ------------------------------------------------
-  To Hit a HR     |     16.1% |      +520
-  To Record 1+ Hit|     65.1% |      -186
-  To Record 2+ TB |     36.2% |      +176
-  To Record 1+ Run|     40.9% |      +144
-  To Record 1+ RBI|     32.5% |      +207
+  To Hit a HR     |     15.8% |      +534
+  To Record 1+ Hit|     64.1% |      -178
+  To Record 2+ TB |     35.3% |      +183
+  To Record 1+ Run|     40.3% |      +148
+  To Record 1+ RBI|     31.8% |      +214
 
 > 8. MAX MUNCY (L | Slugger | 🔥 PLATOON ADV)
   MARKET          | TRUE PROB | FAIR ODDS
   ------------------------------------------------
   To Hit a HR     |     15.8% |      +534
-  To Record 1+ Hit|     60.4% |      -152
-  To Record 2+ TB |     38.1% |      +162
-  To Record 1+ Run|     35.9% |      +178
+  To Record 1+ Hit|     63.3% |      -172
+  To Record 2+ TB |     38.5% |      +159
+  To Record 1+ Run|     38.0% |      +163
   To Record 1+ RBI|     32.3% |      +209
 
 > 9. MIGUEL ROJAS (R | Contact | ❄️ NO ADV)
   MARKET          | TRUE PROB | FAIR ODDS
   ------------------------------------------------
-  To Hit a HR     |     10.7% |      +837
-  To Record 1+ Hit|     61.6% |      -160
-  To Record 2+ TB |     38.0% |      +163
+  To Hit a HR     |      9.6% |      +939
+  To Record 1+ Hit|     62.4% |      -165
+  To Record 2+ TB |     37.7% |      +165
   To Record 1+ Run|     36.5% |      +174
-  To Record 1+ RBI|     26.8% |      +272
+  To Record 1+ RBI|     27.2% |      +268
 
 ======================================================================
 ⏰ 07:07 PM ET | PLAYER PROPS: Toronto Blue Jays vs Justin Wrobleski (RHP - Spin Pitcher)
@@ -1436,80 +1436,512 @@ ENV: Rogers Centre | 72°F | Wind: 0mph none
 > 1. ADDISON BARGER (L | Slugger | 🔥 PLATOON ADV)
   MARKET          | TRUE PROB | FAIR ODDS
   ------------------------------------------------
-  To Hit a HR     |     16.8% |      +493
+  To Hit a HR     |     17.7% |      +464
   To Record 1+ Hit|     60.1% |      -150
-  To Record 2+ TB |     36.0% |      +177
-  To Record 1+ Run|     38.7% |      +158
-  To Record 1+ RBI|     32.7% |      +205
+  To Record 2+ TB |     36.4% |      +174
+  To Record 1+ Run|     39.0% |      +156
+  To Record 1+ RBI|     30.8% |      +224
 
 > 2. ANDRÉS GIMÉNEZ (L | Contact | 🔥 PLATOON ADV)
   MARKET          | TRUE PROB | FAIR ODDS
   ------------------------------------------------
-  To Hit a HR     |     10.0% |      +902
-  To Record 1+ Hit|     60.5% |      -153
+  To Hit a HR     |      5.9% |     +1602
+  To Record 1+ Hit|     60.9% |      -155
   To Record 2+ TB |     32.6% |      +206
-  To Record 1+ Run|     37.1% |      +169
-  To Record 1+ RBI|     28.3% |      +253
+  To Record 1+ Run|     38.4% |      +160
+  To Record 1+ RBI|     24.8% |      +303
 
 > 3. BRANDON VALENZUELA (S | Balanced | 🔥 PLATOON ADV)
   MARKET          | TRUE PROB | FAIR ODDS
   ------------------------------------------------
-  To Hit a HR     |      9.2% |      +989
-  To Record 1+ Hit|     55.0% |      -122
-  To Record 2+ TB |     31.2% |      +220
-  To Record 1+ Run|     27.5% |      +263
+  To Hit a HR     |     10.6% |      +842
+  To Record 1+ Hit|     54.9% |      -121
+  To Record 2+ TB |     31.0% |      +222
+  To Record 1+ Run|     28.7% |      +247
   To Record 1+ RBI|     18.9% |      +430
 
 > 4. DAULTON VARSHO (L | Slugger | 🔥 PLATOON ADV)
   MARKET          | TRUE PROB | FAIR ODDS
   ------------------------------------------------
-  To Hit a HR     |     15.5% |      +547
-  To Record 1+ Hit|     56.8% |      -131
-  To Record 2+ TB |     36.0% |      +178
-  To Record 1+ Run|     35.9% |      +178
-  To Record 1+ RBI|     32.8% |      +205
+  To Hit a HR     |     20.1% |      +396
+  To Record 1+ Hit|     56.6% |      -130
+  To Record 2+ TB |     36.3% |      +175
+  To Record 1+ Run|     36.9% |      +171
+  To Record 1+ RBI|     34.9% |      +186
 
 > 5. DAVIS SCHNEIDER (R | Slugger | ❄️ NO ADV)
   MARKET          | TRUE PROB | FAIR ODDS
   ------------------------------------------------
-  To Hit a HR     |     13.0% |      +670
-  To Record 1+ Hit|     55.3% |      -123
+  To Hit a HR     |     11.8% |      +744
+  To Record 1+ Hit|     54.5% |      -119
   To Record 2+ TB |     30.8% |      +224
-  To Record 1+ Run|     36.4% |      +174
-  To Record 1+ RBI|     27.7% |      +261
+  To Record 1+ Run|     35.7% |      +180
+  To Record 1+ RBI|     28.7% |      +248
 
 > 6. ERNIE CLEMENT (R | Contact | ❄️ NO ADV)
   MARKET          | TRUE PROB | FAIR ODDS
   ------------------------------------------------
-  To Hit a HR     |      4.2% |     +2286
+  To Hit a HR     |      4.2% |     +2273
   To Record 1+ Hit|     55.9% |      -126
-  To Record 2+ TB |     29.5% |      +238
-  To Record 1+ Run|     29.5% |      +238
-  To Record 1+ RBI|     20.6% |      +385
+  To Record 2+ TB |     30.0% |      +233
+  To Record 1+ Run|     29.4% |      +240
+  To Record 1+ RBI|     27.2% |      +266
 
 > 7. GEORGE SPRINGER (R | Balanced | ❄️ NO ADV)
   MARKET          | TRUE PROB | FAIR ODDS
   ------------------------------------------------
-  To Hit a HR     |      7.7% |     +1195
-  To Record 1+ Hit|     51.3% |      -105
-  To Record 2+ TB |     26.1% |      +283
-  To Record 1+ Run|     33.1% |      +202
-  To Record 1+ RBI|     23.3% |      +328
+  To Hit a HR     |      8.1% |     +1133
+  To Record 1+ Hit|     50.9% |      -103
+  To Record 2+ TB |     24.8% |      +302
+  To Record 1+ Run|     32.5% |      +207
+  To Record 1+ RBI|     22.5% |      +343
 
 > 8. JESÚS SÁNCHEZ (L | Balanced | 🔥 PLATOON ADV)
   MARKET          | TRUE PROB | FAIR ODDS
   ------------------------------------------------
-  To Hit a HR     |      7.6% |     +1221
-  To Record 1+ Hit|     48.7% |      +105
-  To Record 2+ TB |     22.4% |      +346
-  To Record 1+ Run|     27.6% |      +262
-  To Record 1+ RBI|     22.4% |      +347
+  To Hit a HR     |      7.8% |     +1182
+  To Record 1+ Hit|     49.5% |      +102
+  To Record 2+ TB |     24.4% |      +310
+  To Record 1+ Run|     28.4% |      +251
+  To Record 1+ RBI|     21.9% |      +355
 
 > 9. KAZUMA OKAMOTO (R | Balanced | ❄️ NO ADV)
   MARKET          | TRUE PROB | FAIR ODDS
   ------------------------------------------------
-  To Hit a HR     |      8.6% |     +1058
-  To Record 1+ Hit|     45.7% |      +119
+  To Hit a HR     |      7.7% |     +1204
+  To Record 1+ Hit|     45.9% |      +118
   To Record 2+ TB |     22.5% |      +344
-  To Record 1+ Run|     26.2% |      +281
-  To Record 1+ RBI|     18.2% |      +448
+  To Record 1+ Run|     24.4% |      +310
+  To Record 1+ RBI|     17.2% |      +481
+
+======================================================================
+🏟️  DETROIT TIGERS @ MINNESOTA TWINS
+⏰ 07:40 PM ET | 📍 Target Field
+🌡️ 72°F | 💨 0mph none
+⚾ Pitchers: Joe Ryan (R) vs Casey Mize (R)
+======================================================================
+┌────────────────────────────────────────────────────────────────────┐
+│                        🥇 FIRST INNING MARKETS                      │
+├────────────────────────────────────────────────────────────────────┤
+│  NRFI (No Run 1st)  :  52.9%  (  -112)                             │
+│  YRFI (Yes Run 1st) :  47.1%  (  +112)                             │
+│  Recommendation     : 🔥 SLIGHT NRFI                                │
+├────────────────────────────────────────────────────────────────────┤
+│  Away scores 1st:  28.2%  |  Home scores 1st:  26.1%               │
+│  Pitcher Scores: Away 0.51 | Home 0.51                             │
+└────────────────────────────────────────────────────────────────────┘
+
+┌────────────────────────────────────────────────────────────────────┐
+│                          📊 FULL GAME MARKETS                       │
+├────────────────────────────────────────────────────────────────────┤
+│  MONEYLINE                                                         │
+│    Away: 50.6% (-102) | Home: 49.4% (+102)                         │
+├────────────────────────────────────────────────────────────────────┤
+│  RUN LINE (-1.5)                                                   │
+│    Away: 36.6% (+173) | Home: 37.5% (+166)                         │
+├────────────────────────────────────────────────────────────────────┤
+│  GAME TOTAL (8.5)                                                  │
+│    Over: 50.1% | Under: 49.9% | Mean: 8.9 runs                     │
+├────────────────────────────────────────────────────────────────────┤
+│  TEAM TOTALS                                                       │
+│    Away O/U 4.5: Over 43.5% | Under 56.5%                          │
+│    Home O/U 4.5: Over 43.2% | Under 56.8%                          │
+└────────────────────────────────────────────────────────────────────┘
+
+┌────────────────────────────────────────────────────────────────────┐
+│                       ⏱️  FIRST 5 INNINGS (F5)                     │
+├────────────────────────────────────────────────────────────────────┤
+│  F5 MONEYLINE                                                      │
+│    Away: 41.5% | Home: 43.2% | Tie: 15.3%                          │
+├────────────────────────────────────────────────────────────────────┤
+│  F5 TOTAL (4.5)                                                    │
+│    Over: 44.2% | Under: 55.8%                                      │
+└────────────────────────────────────────────────────────────────────┘
+
+======================================================================
+⏰ 07:40 PM ET | PLAYER PROPS: Detroit Tigers vs Joe Ryan (RHP - Power Pitcher)
+ENV: Target Field | 72°F | Wind: 0mph none
+======================================================================
+
+> 1. COLT KEITH (L | Balanced | 🔥 PLATOON ADV)
+  MARKET          | TRUE PROB | FAIR ODDS
+  ------------------------------------------------
+  To Hit a HR     |     14.8% |      +575
+  To Record 1+ Hit|     63.2% |      -172
+  To Record 2+ TB |     39.0% |      +156
+  To Record 1+ Run|     45.3% |      +120
+  To Record 1+ RBI|     30.6% |      +226
+
+> 2. DILLON DINGLER (R | Balanced | ❄️ NO ADV)
+  MARKET          | TRUE PROB | FAIR ODDS
+  ------------------------------------------------
+  To Hit a HR     |     13.9% |      +621
+  To Record 1+ Hit|     62.1% |      -163
+  To Record 2+ TB |     38.5% |      +160
+  To Record 1+ Run|     39.1% |      +155
+  To Record 1+ RBI|     33.5% |      +198
+
+> 3. GLEYBER TORRES (R | Contact | ❄️ NO ADV)
+  MARKET          | TRUE PROB | FAIR ODDS
+  ------------------------------------------------
+  To Hit a HR     |      9.0% |     +1010
+  To Record 1+ Hit|     61.3% |      -158
+  To Record 2+ TB |     36.6% |      +173
+  To Record 1+ Run|     37.4% |      +167
+  To Record 1+ RBI|     31.1% |      +221
+
+> 4. JAHMAI JONES (R | Slugger | ❄️ NO ADV)
+  MARKET          | TRUE PROB | FAIR ODDS
+  ------------------------------------------------
+  To Hit a HR     |     20.7% |      +384
+  To Record 1+ Hit|     61.6% |      -160
+  To Record 2+ TB |     40.4% |      +147
+  To Record 1+ Run|     42.7% |      +134
+  To Record 1+ RBI|     38.2% |      +162
+
+> 5. JAKE ROGERS (R | Balanced | ❄️ NO ADV)
+  MARKET          | TRUE PROB | FAIR ODDS
+  ------------------------------------------------
+  To Hit a HR     |      8.9% |     +1023
+  To Record 1+ Hit|     50.3% |      -101
+  To Record 2+ TB |     29.8% |      +235
+  To Record 1+ Run|     32.6% |      +206
+  To Record 1+ RBI|     34.5% |      +189
+
+> 6. JAVIER BÁEZ (R | Balanced | ❄️ NO ADV)
+  MARKET          | TRUE PROB | FAIR ODDS
+  ------------------------------------------------
+  To Hit a HR     |     10.3% |      +866
+  To Record 1+ Hit|     56.4% |      -129
+  To Record 2+ TB |     31.8% |      +214
+  To Record 1+ Run|     35.4% |      +182
+  To Record 1+ RBI|     30.1% |      +232
+
+> 7. KERRY CARPENTER (L | Slugger | 🔥 PLATOON ADV)
+  MARKET          | TRUE PROB | FAIR ODDS
+  ------------------------------------------------
+  To Hit a HR     |     19.9% |      +402
+  To Record 1+ Hit|     59.5% |      -146
+  To Record 2+ TB |     40.1% |      +149
+  To Record 1+ Run|     38.2% |      +161
+  To Record 1+ RBI|     32.7% |      +205
+
+> 8. KEVIN MCGONIGLE (L | Balanced | 🔥 PLATOON ADV)
+  MARKET          | TRUE PROB | FAIR ODDS
+  ------------------------------------------------
+  To Hit a HR     |     10.8% |      +830
+  To Record 1+ Hit|     54.0% |      -117
+  To Record 2+ TB |     30.0% |      +233
+  To Record 1+ Run|     33.6% |      +197
+  To Record 1+ RBI|     22.5% |      +344
+
+> 9. MATT VIERLING (R | Balanced | ❄️ NO ADV)
+  MARKET          | TRUE PROB | FAIR ODDS
+  ------------------------------------------------
+  To Hit a HR     |      6.3% |     +1476
+  To Record 1+ Hit|     47.1% |      +112
+  To Record 2+ TB |     23.4% |      +326
+  To Record 1+ Run|     24.7% |      +305
+  To Record 1+ RBI|     22.8% |      +338
+
+======================================================================
+⏰ 07:40 PM ET | PLAYER PROPS: Minnesota Twins vs Casey Mize (RHP - Power Pitcher)
+ENV: Target Field | 72°F | Wind: 0mph none
+======================================================================
+
+> 1. AUSTIN MARTIN (R | Contact | ❄️ NO ADV)
+  MARKET          | TRUE PROB | FAIR ODDS
+  ------------------------------------------------
+  To Hit a HR     |      2.8% |     +3533
+  To Record 1+ Hit|     65.4% |      -188
+  To Record 2+ TB |     34.8% |      +187
+  To Record 1+ Run|     40.7% |      +145
+  To Record 1+ RBI|     21.6% |      +362
+
+> 2. BROOKS LEE (S | Contact | 🔥 PLATOON ADV)
+  MARKET          | TRUE PROB | FAIR ODDS
+  ------------------------------------------------
+  To Hit a HR     |     15.2% |      +559
+  To Record 1+ Hit|     67.6% |      -208
+  To Record 2+ TB |     36.5% |      +174
+  To Record 1+ Run|     40.7% |      +145
+  To Record 1+ RBI|     35.8% |      +179
+
+> 3. BYRON BUXTON (R | Slugger | ❄️ NO ADV)
+  MARKET          | TRUE PROB | FAIR ODDS
+  ------------------------------------------------
+  To Hit a HR     |     21.0% |      +376
+  To Record 1+ Hit|     60.5% |      -152
+  To Record 2+ TB |     39.4% |      +153
+  To Record 1+ Run|     43.4% |      +130
+  To Record 1+ RBI|     35.2% |      +183
+
+> 4. JAMES OUTMAN (L | Slugger | 🔥 PLATOON ADV)
+  MARKET          | TRUE PROB | FAIR ODDS
+  ------------------------------------------------
+  To Hit a HR     |     19.6% |      +410
+  To Record 1+ Hit|     56.4% |      -129
+  To Record 2+ TB |     34.8% |      +187
+  To Record 1+ Run|     37.0% |      +170
+  To Record 1+ RBI|     34.4% |      +190
+
+> 5. JOSH BELL (S | Balanced | 🔥 PLATOON ADV)
+  MARKET          | TRUE PROB | FAIR ODDS
+  ------------------------------------------------
+  To Hit a HR     |     16.2% |      +519
+  To Record 1+ Hit|     55.3% |      -123
+  To Record 2+ TB |     31.7% |      +215
+  To Record 1+ Run|     34.9% |      +186
+  To Record 1+ RBI|     29.8% |      +235
+
+> 6. KODY CLEMENS (L | Slugger | 🔥 PLATOON ADV)
+  MARKET          | TRUE PROB | FAIR ODDS
+  ------------------------------------------------
+  To Hit a HR     |     18.9% |      +428
+  To Record 1+ Hit|     58.4% |      -140
+  To Record 2+ TB |     34.1% |      +193
+  To Record 1+ Run|     36.1% |      +177
+  To Record 1+ RBI|     31.7% |      +215
+
+> 7. LUKE KEASCHALL (R | Contact | ❄️ NO ADV)
+  MARKET          | TRUE PROB | FAIR ODDS
+  ------------------------------------------------
+  To Hit a HR     |      8.2% |     +1123
+  To Record 1+ Hit|     58.5% |      -141
+  To Record 2+ TB |     31.3% |      +219
+  To Record 1+ Run|     32.5% |      +207
+  To Record 1+ RBI|     25.3% |      +294
+
+> 8. MATT WALLNER (L | Slugger | 🔥 PLATOON ADV)
+  MARKET          | TRUE PROB | FAIR ODDS
+  ------------------------------------------------
+  To Hit a HR     |     15.2% |      +556
+  To Record 1+ Hit|     50.2% |      -100
+  To Record 2+ TB |     32.5% |      +207
+  To Record 1+ Run|     34.3% |      +191
+  To Record 1+ RBI|     28.0% |      +256
+
+> 9. ROYCE LEWIS (R | Balanced | ❄️ NO ADV)
+  MARKET          | TRUE PROB | FAIR ODDS
+  ------------------------------------------------
+  To Hit a HR     |     10.8% |      +829
+  To Record 1+ Hit|     49.8% |      +100
+  To Record 2+ TB |     27.4% |      +264
+  To Record 1+ Run|     26.4% |      +278
+  To Record 1+ RBI|     24.8% |      +303
+
+======================================================================
+🏟️  BALTIMORE ORIOLES @ CHICAGO WHITE SOX
+⏰ 07:40 PM ET | 📍 Rate Field
+🌡️ 72°F | 💨 0mph none
+⚾ Pitchers: Grant Taylor (R) vs Brandon Young (R)
+======================================================================
+┌────────────────────────────────────────────────────────────────────┐
+│                        🥇 FIRST INNING MARKETS                      │
+├────────────────────────────────────────────────────────────────────┤
+│  NRFI (No Run 1st)  :  53.8%  (  -116)                             │
+│  YRFI (Yes Run 1st) :  46.2%  (  +116)                             │
+│  Recommendation     : 🔥 SLIGHT NRFI                                │
+├────────────────────────────────────────────────────────────────────┤
+│  Away scores 1st:  26.7%  |  Home scores 1st:  27.3%               │
+│  Pitcher Scores: Away 0.51 | Home 0.51                             │
+└────────────────────────────────────────────────────────────────────┘
+
+┌────────────────────────────────────────────────────────────────────┐
+│                          📊 FULL GAME MARKETS                       │
+├────────────────────────────────────────────────────────────────────┤
+│  MONEYLINE                                                         │
+│    Away: 52.1% (-108) | Home: 47.9% (+108)                         │
+├────────────────────────────────────────────────────────────────────┤
+│  RUN LINE (-1.5)                                                   │
+│    Away: 37.8% (+164) | Home: 36.3% (+175)                         │
+├────────────────────────────────────────────────────────────────────┤
+│  GAME TOTAL (9.5)                                                  │
+│    Over: 39.8% | Under: 60.2% | Mean: 9.1 runs                     │
+├────────────────────────────────────────────────────────────────────┤
+│  TEAM TOTALS                                                       │
+│    Away O/U 4.5: Over 46.3% | Under 53.7%                          │
+│    Home O/U 4.5: Over 43.5% | Under 56.5%                          │
+└────────────────────────────────────────────────────────────────────┘
+
+┌────────────────────────────────────────────────────────────────────┐
+│                       ⏱️  FIRST 5 INNINGS (F5)                     │
+├────────────────────────────────────────────────────────────────────┤
+│  F5 MONEYLINE                                                      │
+│    Away: 43.1% | Home: 40.7% | Tie: 16.3%                          │
+├────────────────────────────────────────────────────────────────────┤
+│  F5 TOTAL (4.5)                                                    │
+│    Over: 45.4% | Under: 54.6%                                      │
+└────────────────────────────────────────────────────────────────────┘
+
+======================================================================
+⏰ 07:40 PM ET | PLAYER PROPS: Baltimore Orioles vs Grant Taylor (RHP - Power Pitcher)
+ENV: Rate Field | 72°F | Wind: 0mph none
+======================================================================
+
+> 1. ADLEY RUTSCHMAN (S | Contact | 🔥 PLATOON ADV)
+  MARKET          | TRUE PROB | FAIR ODDS
+  ------------------------------------------------
+  To Hit a HR     |     10.3% |      +871
+  To Record 1+ Hit|     58.2% |      -139
+  To Record 2+ TB |     35.1% |      +184
+  To Record 1+ Run|     38.8% |      +157
+  To Record 1+ RBI|     28.2% |      +254
+
+> 2. BLAZE ALEXANDER (R | Balanced | ❄️ NO ADV)
+  MARKET          | TRUE PROB | FAIR ODDS
+  ------------------------------------------------
+  To Hit a HR     |     11.5% |      +772
+  To Record 1+ Hit|     53.0% |      -112
+  To Record 2+ TB |     33.6% |      +197
+  To Record 1+ Run|     36.7% |      +172
+  To Record 1+ RBI|     26.8% |      +272
+
+> 3. COBY MAYO (R | Slugger | ❄️ NO ADV)
+  MARKET          | TRUE PROB | FAIR ODDS
+  ------------------------------------------------
+  To Hit a HR     |     18.0% |      +457
+  To Record 1+ Hit|     59.2% |      -145
+  To Record 2+ TB |     34.8% |      +187
+  To Record 1+ Run|     38.8% |      +157
+  To Record 1+ RBI|     30.4% |      +229
+
+> 4. COLTON COWSER (L | Slugger | 🔥 PLATOON ADV)
+  MARKET          | TRUE PROB | FAIR ODDS
+  ------------------------------------------------
+  To Hit a HR     |     21.9% |      +357
+  To Record 1+ Hit|     57.3% |      -134
+  To Record 2+ TB |     38.4% |      +160
+  To Record 1+ Run|     38.2% |      +161
+  To Record 1+ RBI|     34.1% |      +193
+
+> 5. DYLAN BEAVERS (L | Balanced | 🔥 PLATOON ADV)
+  MARKET          | TRUE PROB | FAIR ODDS
+  ------------------------------------------------
+  To Hit a HR     |     12.7% |      +685
+  To Record 1+ Hit|     52.0% |      -108
+  To Record 2+ TB |     32.3% |      +209
+  To Record 1+ Run|     35.9% |      +178
+  To Record 1+ RBI|     26.6% |      +276
+
+> 6. GUNNAR HENDERSON (L | Balanced | 🔥 PLATOON ADV)
+  MARKET          | TRUE PROB | FAIR ODDS
+  ------------------------------------------------
+  To Hit a HR     |     10.7% |      +834
+  To Record 1+ Hit|     57.1% |      -132
+  To Record 2+ TB |     32.6% |      +206
+  To Record 1+ Run|     35.6% |      +180
+  To Record 1+ RBI|     28.4% |      +252
+
+> 7. JEREMIAH JACKSON (R | Balanced | ❄️ NO ADV)
+  MARKET          | TRUE PROB | FAIR ODDS
+  ------------------------------------------------
+  To Hit a HR     |      9.2% |      +982
+  To Record 1+ Hit|     53.4% |      -114
+  To Record 2+ TB |     30.7% |      +225
+  To Record 1+ Run|     33.3% |      +200
+  To Record 1+ RBI|     24.8% |      +303
+
+> 8. LEODY TAVERAS (S | Balanced | 🔥 PLATOON ADV)
+  MARKET          | TRUE PROB | FAIR ODDS
+  ------------------------------------------------
+  To Hit a HR     |      9.3% |      +975
+  To Record 1+ Hit|     52.8% |      -111
+  To Record 2+ TB |     28.3% |      +253
+  To Record 1+ Run|     27.2% |      +267
+  To Record 1+ RBI|     24.8% |      +303
+
+> 9. PETE ALONSO (R | Slugger | ❄️ NO ADV)
+  MARKET          | TRUE PROB | FAIR ODDS
+  ------------------------------------------------
+  To Hit a HR     |     16.5% |      +506
+  To Record 1+ Hit|     48.2% |      +107
+  To Record 2+ TB |     28.0% |      +257
+  To Record 1+ Run|     34.0% |      +193
+  To Record 1+ RBI|     30.7% |      +225
+
+======================================================================
+⏰ 07:40 PM ET | PLAYER PROPS: Chicago White Sox vs Brandon Young (RHP - Power Pitcher)
+ENV: Rate Field | 72°F | Wind: 0mph none
+======================================================================
+
+> 1. ANDREW BENINTENDI (L | Balanced | 🔥 PLATOON ADV)
+  MARKET          | TRUE PROB | FAIR ODDS
+  ------------------------------------------------
+  To Hit a HR     |     23.8% |      +319
+  To Record 1+ Hit|     63.3% |      -172
+  To Record 2+ TB |     43.2% |      +131
+  To Record 1+ Run|     54.7% |      -120
+  To Record 1+ RBI|     42.0% |      +137
+
+> 2. AUSTIN HAYS (R | Slugger | ❄️ NO ADV)
+  MARKET          | TRUE PROB | FAIR ODDS
+  ------------------------------------------------
+  To Hit a HR     |     17.7% |      +464
+  To Record 1+ Hit|     67.2% |      -205
+  To Record 2+ TB |     43.9% |      +127
+  To Record 1+ Run|     47.4% |      +110
+  To Record 1+ RBI|     35.2% |      +184
+
+> 3. CHASE MEIDROTH (R | Contact | ❄️ NO ADV)
+  MARKET          | TRUE PROB | FAIR ODDS
+  ------------------------------------------------
+  To Hit a HR     |      9.5% |      +953
+  To Record 1+ Hit|     68.5% |      -217
+  To Record 2+ TB |     40.8% |      +145
+  To Record 1+ Run|     36.8% |      +171
+  To Record 1+ RBI|     28.0% |      +257
+
+> 4. COLSON MONTGOMERY (L | Slugger | 🔥 PLATOON ADV)
+  MARKET          | TRUE PROB | FAIR ODDS
+  ------------------------------------------------
+  To Hit a HR     |     38.9% |      +157
+  To Record 1+ Hit|     65.8% |      -192
+  To Record 2+ TB |     44.3% |      +125
+  To Record 1+ Run|     52.1% |      -108
+  To Record 1+ RBI|     47.0% |      +112
+
+> 5. DEREK HILL (R | Balanced | ❄️ NO ADV)
+  MARKET          | TRUE PROB | FAIR ODDS
+  ------------------------------------------------
+  To Hit a HR     |     10.7% |      +830
+  To Record 1+ Hit|     57.1% |      -132
+  To Record 2+ TB |     34.3% |      +191
+  To Record 1+ Run|     38.1% |      +162
+  To Record 1+ RBI|     28.0% |      +257
+
+> 6. EDGAR QUERO (S | Contact | 🔥 PLATOON ADV)
+  MARKET          | TRUE PROB | FAIR ODDS
+  ------------------------------------------------
+  To Hit a HR     |      8.3% |     +1098
+  To Record 1+ Hit|     70.6% |      -239
+  To Record 2+ TB |     40.4% |      +147
+  To Record 1+ Run|     34.6% |      +188
+  To Record 1+ RBI|     29.9% |      +234
+
+> 7. LENYN SOSA (R | Slugger | ❄️ NO ADV)
+  MARKET          | TRUE PROB | FAIR ODDS
+  ------------------------------------------------
+  To Hit a HR     |     19.8% |      +405
+  To Record 1+ Hit|     62.1% |      -163
+  To Record 2+ TB |     41.2% |      +142
+  To Record 1+ Run|     37.2% |      +168
+  To Record 1+ RBI|     36.0% |      +178
+
+> 8. LUISANGEL ACUÑA (R | Balanced | ❄️ NO ADV)
+  MARKET          | TRUE PROB | FAIR ODDS
+  ------------------------------------------------
+  To Hit a HR     |      1.1% |     +8791
+  To Record 1+ Hit|     57.4% |      -134
+  To Record 2+ TB |     29.8% |      +235
+  To Record 1+ Run|     34.6% |      +189
+  To Record 1+ RBI|     21.8% |      +359
+
+> 9. MIGUEL VARGAS (R | Contact | ❄️ NO ADV)
+  MARKET          | TRUE PROB | FAIR ODDS
+  ------------------------------------------------
+  To Hit a HR     |     13.3% |      +651
+  To Record 1+ Hit|     61.1% |      -156
+  To Record 2+ TB |     33.1% |      +201
+  To Record 1+ Run|     37.0% |      +170
+  To Record 1+ RBI|     29.0% |      +244
