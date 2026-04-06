@@ -36,6 +36,10 @@ def load_history() -> pd.DataFrame:
 def append_today(results: pd.DataFrame, history: pd.DataFrame) -> pd.DataFrame:
     """Append today's results to the history DataFrame."""
     today_str = date.today().isoformat()
+    # Skip if today already logged
+    if not history.empty and today_str in history["date"].values:
+        print(f"[INFO] Brier scores for {today_str} already recorded. Skipping append.")
+        return history
     rows = []
     for _, row in results.iterrows():
         market = row["market"]
