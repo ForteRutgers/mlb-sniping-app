@@ -188,6 +188,7 @@ def grade_ledger():
     brier_scores = []
     wins = 0
     losses = 0
+    graded_rows = []
 
     for index, row in yesterday_bets.iterrows():
         player = str(row['Player']).replace('*', '').strip()
@@ -226,6 +227,14 @@ def grade_ledger():
         brier = (prob - actual_outcome) ** 2
         brier_scores.append(brier)
 
+        graded_rows.append({
+            'Date': row['Date'],
+            'Player': player,
+            'Market': market,
+            'Prob': prob,
+            'Actual_Outcome': actual_outcome,
+        })
+
     if not brier_scores:
         print("[!] Found bets, but none of the players logged an at-bat yesterday.")
         return
@@ -259,6 +268,22 @@ def grade_ledger():
             print("Report sent to Discord!")
         except Exception as e:
             print(f"Failed to send to Discord: {e}")
+
+    # ---- Append graded rows to historical_training_data.csv ----
+    if graded_rows:
+        training_file = "historical_training_data.csv"
+        new_df = pd.DataFrame(graded_rows)
+        if os.path.exists(training_file):
+            existing = pd.read_csv(training_file)
+            if yesterday_str in existing['Date'].values:
+                print(f"[INFO] Training data for {yesterday_str} already exists. Skipping append.")
+            else:
+                updated = pd.concat([existing, new_df], ignore_index=True)
+                updated.to_csv(training_file, index=False)
+                print(f"[+] Appended {len(graded_rows)} graded rows to {training_file}")
+        else:
+            new_df.to_csv(training_file, index=False)
+            print(f"[+] Created {training_file} with {len(graded_rows)} graded rows")
 
 
 if __name__ == "__main__":
