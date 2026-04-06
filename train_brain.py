@@ -90,16 +90,29 @@ def update_brain():
         
     print(f"Training on {len(X_new)} new batted ball events...")
 
-    # 3. Load the existing Brain and update it
-    # XGBoost allows incremental learning by passing the existing model to the 'xgb_model' parameter
-    model = xgb.XGBClassifier()
-    model.load_model(model_path)
-    
-    # Fit the new data, updating the existing weights
-    model.fit(X_new, y_new, xgb_model=model_path)
-    
+    # 3. Load the existing Brain and update it with true incremental boosting
+    booster = xgb.Booster()
+    booster.load_model(model_path)
+
+    dtrain = xgb.DMatrix(X_new, label=y_new)
+    params = {
+        "objective": "binary:logistic",
+        "eval_metric": "logloss",
+        "learning_rate": 0.05,
+        "max_depth": 6,
+        "subsample": 0.8,
+        "colsample_bytree": 0.8,
+    }
+    updated_booster = xgb.train(
+        params,
+        dtrain,
+        num_boost_round=10,
+        xgb_model=booster,
+        verbose_eval=False,
+    )
+
     # 4. Save the smarter brain back to disk
-    model.save_model(model_path)
+    updated_booster.save_model(model_path)
     print(f"[SUCCESS] The Home Run Brain has successfully learned from yesterday's games and updated its weights.")
 
 if __name__ == "__main__":
