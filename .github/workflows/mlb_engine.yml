@@ -91,37 +91,27 @@ jobs:
       timeout-minutes: 30
 
     # ===== DAILY: Run Predictions =====
-    - name: Run Daily Bets Engine
+    - name: Run System 2 Predictions
       run: |
-        python daily_bets.py --auto
+        python run_daily_predictions.py
 
-    - name: Run Enhanced Game Markets Predictions
-      run: |
-        python run_daily_predictions.py || echo "Enhanced predictions not available yet - run bootstrap first"
-      continue-on-error: true
-
-    - name: Send Dashboard to Discord
-      env:
-        DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
-      run: |
-        if [ -n "$DISCORD_WEBHOOK" ]; then
-          curl -X POST -F "payload_json={\"content\": \"🤖 **XGBoost AI Dashboard is Live!**\"}" -F "file=@betting_dashboard_report.txt" "$DISCORD_WEBHOOK"
-        else
-          echo "Discord webhook not configured - skipping"
-        fi
-      continue-on-error: true
-
-    - name: Send Enhanced Report to Discord (if exists)
+    - name: Send Predictions to Discord
       env:
         DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
       run: |
         if [ -f "enhanced_predictions_report.txt" ] && [ -n "$DISCORD_WEBHOOK" ]; then
-          curl -X POST -F "payload_json={\"content\": \"📊 **Enhanced Predictions (NRFI/F5/Game Markets) Ready!**\"}" -F "file=@enhanced_predictions_report.txt" "$DISCORD_WEBHOOK"
+          curl -X POST \
+            -F "payload_json={\"content\": \"⚾ **MLB System 2 Predictions are Live!**\"}" \
+            -F "file=@enhanced_predictions_report.txt" "$DISCORD_WEBHOOK"
+        else
+          echo "No predictions report found or Discord webhook not configured"
         fi
       continue-on-error: true
 
     # ===== DAILY: Grade Yesterday's Predictions =====
     - name: Grade Yesterday's Predictions
+      env:
+        DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
       run: |
         python results_tracker.py || echo "No predictions to grade yet"
       continue-on-error: true
@@ -134,27 +124,16 @@ jobs:
       continue-on-error: true
       timeout-minutes: 30
 
-    - name: Send Brier Score Report to Discord
-      env:
-        DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
-      run: |
-        if [ -f "enhanced_model_results.csv" ] && [ -n "$DISCORD_WEBHOOK" ]; then
-          python send_brier_report.py
-        else
-          echo "Brier report not available or Discord webhook not configured"
-        fi
-      continue-on-error: true
-
     - name: Save Updated Files to Repo
       run: |
         git config --global user.name "github-actions[bot]"
         git config --global user.email "github-actions[bot]@users.noreply.github.com"
-        git add prediction_ledger.csv betting_dashboard_report.txt 2>/dev/null || true
+        git add prediction_ledger.csv 2>/dev/null || true
         git add enhanced_predictions_report.txt 2>/dev/null || true
         git add enhanced_model_*.json nrfi_model.json enhanced_model_features.txt 2>/dev/null || true
         git add batter_advanced_metrics_2024_2025.csv pitcher_advanced_metrics_2024_2025.csv 2>/dev/null || true
         git add enhanced_model_results.csv 2>/dev/null || true
-        git add brier_score_history.csv 2>/dev/null || true
         git add historical_training_data.csv 2>/dev/null || true
+        git add training_feedback.json 2>/dev/null || true
         git diff --staged --quiet || git commit -m "Automated ledger update [skip ci]"
         git push || echo "Nothing to push"

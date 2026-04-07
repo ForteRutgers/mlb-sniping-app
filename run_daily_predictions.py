@@ -221,10 +221,12 @@ def _predict_player_props(matchups: list, gmp: GameMarketsPredictor) -> list:
                 "pitcher": p_name,
                 "pitcher_hand": p_hand,
                 "pitcher_archetype": p_archetype,
+                "pitcher_hr9": p_hr9,
                 "order": order_index + 1,
                 "name": b["Name"],
                 "hand": b["Hand"],
                 "archetype": b.get("Archetype", "Balanced"),
+                "xwoba": b.get("xwOBA", 0.320),
                 "platoon": has_platoon,
                 "props": props,
                 "game_time": m.get("game_time", "TBD"),
@@ -351,6 +353,113 @@ def _format_props_section(props_list: list) -> str:
 
 
 # ---------------------------------------------------------------------------
+# Prediction ledger writer
+# ---------------------------------------------------------------------------
+
+def _write_prediction_ledger(today_str: str, games_by_stadium: dict,
+                              props_results: list, game_ledger_data: list) -> None:
+    """Write player prop and game-level market predictions to prediction_ledger.csv."""
+    ledger_rows = []
+
+    # Build a lookup: team → (away_team, home_team) for context
+    team_to_game: dict = {}
+    for entry in game_ledger_data:
+        team_to_game[entry["away_team"]] = entry
+        team_to_game[entry["home_team"]] = entry
+
+    # ---- Player prop rows ----
+    for prop in props_results:
+        team = prop["team"]
+        game_ctx = team_to_game.get(team, {})
+        away_team = game_ctx.get("away_team", "")
+        home_team = game_ctx.get("home_team", "")
+        w = prop["weather"]
+        for market, prob in prop["props"].items():
+            ledger_rows.append({
+                "Date": today_str,
+                "Stadium": prop["stadium"],
+                "Temp": w.get("temp", 72),
+                "Wind_Speed": w.get("wind_speed", 0),
+                "Wind_Dir": w.get("wind_dir", "none"),
+                "Away_Team": away_team,
+                "Home_Team": home_team,
+                "Player": prop["name"],
+                "Market": market,
+                "Prob": round(float(prob), 6),
+                "Batter_Hand": prop["hand"],
+                "Batter_Archetype": prop["archetype"],
+                "Batter_xwOBA": round(float(prop.get("xwoba", 0.320)), 4),
+                "Pitcher": prop["pitcher"],
+                "Pitcher_Hand": prop["pitcher_hand"],
+                "Pitcher_Archetype": prop["pitcher_archetype"],
+                "Pitcher_HR9": round(float(prop.get("pitcher_hr9", 1.25)), 4),
+                "Lineup_Spot": prop["order"],
+                "Platoon_Adv": 1 if prop["platoon"] else 0,
+                "Source": "system2",
+            })
+
+    # ---- Game-level market rows ----
+    for entry in game_ledger_data:
+        stadium = entry["stadium"]
+        w = entry["weather"]
+        away_team = entry["away_team"]
+        home_team = entry["home_team"]
+        nr = entry["nrfi_result"]
+        gr = entry["game_result"]
+
+        common = {
+            "Date": today_str,
+            "Stadium": stadium,
+            "Temp": w.get("temp", 72),
+            "Wind_Speed": w.get("wind_speed", 0),
+            "Wind_Dir": w.get("wind_dir", "none"),
+            "Away_Team": away_team,
+            "Home_Team": home_team,
+            "Player": "GAME_TOTAL",
+            "Batter_Hand": "",
+            "Batter_Archetype": "",
+            "Batter_xwOBA": "",
+            "Pitcher": "",
+            "Pitcher_Hand": "",
+            "Pitcher_Archetype": "",
+            "Pitcher_HR9": "",
+            "Lineup_Spot": "",
+            "Platoon_Adv": "",
+            "Source": "system2",
+        }
+
+        def _grow(market, prob):
+            return {**common, "Market": market, "Prob": round(float(prob), 6)}
+
+        ledger_rows.append(_grow("NRFI", nr.get("nrfi_prob", 0.5)))
+        ledger_rows.append(_grow("ML_Away", gr.get("away_ml_prob", 0.5)))
+        ledger_rows.append(_grow("ML_Home", gr.get("home_ml_prob", 0.5)))
+        gt_line = gr.get("game_total_line", 8.5)
+        ledger_rows.append(_grow(f"Over_{gt_line}", gr.get("game_total_over", 0.5)))
+        ledger_rows.append(_grow("F5_ML_Away", gr.get("f5_away_prob", 0.5)))
+        ledger_rows.append(_grow("F5_ML_Home", gr.get("f5_home_prob", 0.5)))
+        f5_line = gr.get("f5_total_line", 4.5)
+        ledger_rows.append(_grow(f"F5_Over_{f5_line}", gr.get("f5_total_over", 0.5)))
+        att_line = gr.get("away_tt_line", 4.5)
+        ledger_rows.append(_grow(f"TeamTotal_Away_Over_{att_line}", gr.get("away_tt_over", 0.5)))
+        htt_line = gr.get("home_tt_line", 4.5)
+        ledger_rows.append(_grow(f"TeamTotal_Home_Over_{htt_line}", gr.get("home_tt_over", 0.5)))
+
+    if not ledger_rows:
+        print("[!] No ledger rows to write.")
+        return
+
+    import pandas as pd
+    df_ledger = pd.DataFrame(ledger_rows)
+    ledger_path = "prediction_ledger.csv"
+    if os.path.exists(ledger_path):
+        df_ledger.to_csv(ledger_path, mode="a", header=False, index=False)
+    else:
+        df_ledger.to_csv(ledger_path, index=False)
+    print(f"[+] Wrote {len(ledger_rows)} rows to {ledger_path}")
+
+
+# ---------------------------------------------------------------------------
 # Main
 # ---------------------------------------------------------------------------
 
@@ -399,6 +508,8 @@ def run_daily_predictions():
     for m in matchups:
         stadium = m["home_stadium"]
         games_by_stadium.setdefault(stadium, []).append(m)
+
+    _game_ledger_data = []  # Collect game-level market data for ledger
 
     for stadium, teams in games_by_stadium.items():
         if len(teams) < 2:
@@ -451,6 +562,16 @@ def run_daily_predictions():
         # Get game_time from one of the matchups
         game_time = teams[0].get('game_time', 'TBD')
 
+        # Collect game-level ledger data
+        _game_ledger_data.append({
+            "stadium": stadium,
+            "weather": weather,
+            "away_team": away_team,
+            "home_team": home_team,
+            "nrfi_result": nrfi_result,
+            "game_result": game_result,
+        })
+
         game_section = _format_game_report(
             away_team, home_team, stadium, weather,
             away_pitcher, home_pitcher, away_ph, home_ph,
@@ -474,6 +595,10 @@ def run_daily_predictions():
     with open(out_path, "w") as f:
         f.write(full_report)
     print(f"\n[SUCCESS] Report saved to {out_path}")
+
+    # ---- Write prediction ledger for backtesting ----
+    _write_prediction_ledger(today_str, games_by_stadium, props_results,
+                             _game_ledger_data)
 
 
 if __name__ == "__main__":
