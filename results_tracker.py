@@ -3,9 +3,15 @@
 System 2 Judge: grades yesterday's predictions from prediction_ledger.csv against
 real MLB outcomes. Computes per-market Brier scores, calibration analysis,
 error pattern detection, writes training_feedback.json, and sends 2 Discord messages.
+
+Now includes self-improvement monitoring metrics:
+- Training data growth tracking
+- Model improvement vs baseline (XGBoost vs Raw MC)
+- Context freshness indicators
 """
 import json
 import os
+import glob as glob_module
 
 import numpy as np
 import pandas as pd
@@ -14,6 +20,168 @@ from datetime import datetime, timedelta
 import pytz
 
 DISCORD_WEBHOOK_URL = os.environ.get("DISCORD_WEBHOOK", "")
+
+
+# ---------------------------------------------------------------------------
+# Self-Improvement Monitoring Helpers
+# ---------------------------------------------------------------------------
+
+def get_training_data_metrics() -> dict:
+    """
+    Extract metrics about training data growth and freshness.
+    Returns dict with row_count, unique_dates, latest_date, days_of_data.
+    """
+    metrics = {
+        "row_count": 0,
+        "unique_dates": 0,
+        "latest_date": None,
+        "days_of_data": 0,
+        "status": "NO_DATA",
+    }
+    training_file = "historical_training_data.csv"
+    if not os.path.exists(training_file):
+        return metrics
+
+    try:
+        df = pd.read_csv(training_file)
+        metrics["row_count"] = len(df)
+        if "Date" in df.columns:
+            dates = pd.to_datetime(df["Date"], errors="coerce").dropna()
+            metrics["unique_dates"] = int(dates.dt.date.nunique())
+            if not dates.empty:
+                metrics["latest_date"] = str(dates.max().date())
+                metrics["days_of_data"] = (dates.max() - dates.min()).days + 1
+        metrics["status"] = "ACTIVE" if metrics["row_count"] > 1000 else "BUILDING"
+    except Exception:
+        metrics["status"] = "ERROR"
+    return metrics
+
+
+def get_model_improvement_metrics() -> dict:
+    """
+    Read enhanced_model_results.csv to get XGBoost vs Raw MC improvement data.
+    Returns dict with per-market improvement percentages and overall status.
+    """
+    metrics = {
+        "markets": {},
+        "overall_improvement_pct": 0.0,
+        "improving_markets": 0,
+        "total_markets": 0,
+        "status": "NO_MODELS",
+    }
+    results_file = "enhanced_model_results.csv"
+    if not os.path.exists(results_file):
+        return metrics
+
+    try:
+        df = pd.read_csv(results_file)
+        if df.empty:
+            return metrics
+
+        total_improvement = 0.0
+        improving = 0
+        for _, row in df.iterrows():
+            market = row.get("market", "")
+            brier = float(row.get("brier_score", 0))
+            raw_mc = float(row.get("raw_mc_brier", 0)) if pd.notna(row.get("raw_mc_brier")) else None
+
+            if raw_mc and raw_mc > 0:
+                delta = raw_mc - brier
+                improvement_pct = (delta / raw_mc) * 100
+                metrics["markets"][market] = {
+                    "xgb_brier": round(brier, 4),
+                    "raw_mc_brier": round(raw_mc, 4),
+                    "improvement_pct": round(improvement_pct, 2),
+                    "is_improving": delta > 0,
+                }
+                total_improvement += improvement_pct
+                if delta > 0:
+                    improving += 1
+
+        metrics["total_markets"] = len(metrics["markets"])
+        if metrics["total_markets"] > 0:
+            metrics["overall_improvement_pct"] = round(total_improvement / metrics["total_markets"], 2)
+            metrics["improving_markets"] = improving
+            if improving == metrics["total_markets"]:
+                metrics["status"] = "ALL_IMPROVING"
+            elif improving > 0:
+                metrics["status"] = "PARTIAL_IMPROVEMENT"
+            else:
+                metrics["status"] = "NO_IMPROVEMENT"
+    except Exception:
+        metrics["status"] = "ERROR"
+    return metrics
+
+
+def get_model_freshness() -> dict:
+    """
+    Check model file timestamps to determine context freshness.
+    Returns dict with last_retrain timestamp and staleness status.
+    """
+    metrics = {
+        "last_retrain": None,
+        "hours_since_retrain": None,
+        "status": "NO_MODELS",
+    }
+    model_patterns = ["enhanced_model_*.json", "mlb_xgboost_brain.json"]
+    model_files = []
+    for pattern in model_patterns:
+        model_files.extend(glob_module.glob(pattern))
+
+    if not model_files:
+        return metrics
+
+    try:
+        latest_mtime = max(os.path.getmtime(f) for f in model_files)
+        last_retrain = datetime.fromtimestamp(latest_mtime)
+        hours_ago = (datetime.now() - last_retrain).total_seconds() / 3600
+
+        metrics["last_retrain"] = last_retrain.strftime("%Y-%m-%d %H:%M")
+        metrics["hours_since_retrain"] = round(hours_ago, 1)
+
+        if hours_ago < 24:
+            metrics["status"] = "FRESH"
+        elif hours_ago < 48:
+            metrics["status"] = "RECENT"
+        else:
+            metrics["status"] = "STALE"
+    except Exception:
+        metrics["status"] = "ERROR"
+    return metrics
+
+
+def get_self_improvement_summary() -> dict:
+    """
+    Aggregate all self-improvement indicators into a single summary.
+    Returns comprehensive dict for Discord reporting.
+    """
+    training_metrics = get_training_data_metrics()
+    model_metrics = get_model_improvement_metrics()
+    freshness_metrics = get_model_freshness()
+
+    # Determine overall system status
+    has_data = training_metrics["row_count"] > 0
+    has_models = model_metrics["total_markets"] > 0
+    is_improving = model_metrics["improving_markets"] > 0
+    is_fresh = freshness_metrics["status"] in ("FRESH", "RECENT")
+
+    if has_data and has_models and is_improving and is_fresh:
+        overall_status = "✅ IMPROVING"
+    elif has_data and has_models and is_fresh:
+        overall_status = "⚠️ ACTIVE (no improvement)"
+    elif has_data and has_models:
+        overall_status = "⚠️ STALE CONTEXT"
+    elif has_data:
+        overall_status = "🔄 BUILDING MODELS"
+    else:
+        overall_status = "❌ NO FEEDBACK LOOP"
+
+    return {
+        "training": training_metrics,
+        "models": model_metrics,
+        "freshness": freshness_metrics,
+        "overall_status": overall_status,
+    }
 
 # ---------------------------------------------------------------------------
 # Per-market Brier benchmarks (lower = better)
@@ -417,7 +585,7 @@ def _send_discord_chunks(message: str, webhook: str) -> None:
 
 def _build_report_card(date_str: str, graded_df: pd.DataFrame, calibration: dict,
                        weak_slices: list, prev_brier: float | None) -> str:
-    """Build the Message 2 Performance Report Card."""
+    """Build the Message 2 Performance Report Card with self-improvement metrics."""
     total = len(graded_df)
     if total == 0:
         return f"📊 **MLB System 2 Report Card ({date_str})** 📊\nNo graded predictions available."
@@ -432,10 +600,18 @@ def _build_report_card(date_str: str, graded_df: pd.DataFrame, calibration: dict
         .groupby(["Away_Team", "Home_Team", "Date"]).ngroups
     ) if "Away_Team" in graded_df.columns else 0
 
+    # Get self-improvement metrics
+    improvement_summary = get_self_improvement_summary()
+    training_m = improvement_summary["training"]
+    model_m = improvement_summary["models"]
+    fresh_m = improvement_summary["freshness"]
+
     lines = [
         f"📊 **MLB System 2 Report Card ({date_str})** 📊",
         "",
-        "🎯 **OVERALL**",
+        f"🧠 **FEEDBACK LOOP STATUS**: {improvement_summary['overall_status']}",
+        "",
+        "🎯 **OVERALL PERFORMANCE**",
         f"  Brier Score: {overall_brier:.4f} | Binary Accuracy: {accuracy:.1f}% | ECE: {calibration['ece']:.3f}",
         f"  Props Graded: {props_count} | Games Graded: {games_count}",
         "",
@@ -450,6 +626,39 @@ def _build_report_card(date_str: str, graded_df: pd.DataFrame, calibration: dict
         bench = _get_benchmark(mg)
         status = "✅ OK" if b <= bench else "❌ UNDER"
         lines.append(f"  {mg:<10} | {b:>6.3f} | {bench:>6.3f} | {status:<10} | {len(mdf):>5}")
+
+    # Add self-improvement section
+    lines += [
+        "",
+        "🔄 **SELF-IMPROVEMENT METRICS**",
+    ]
+
+    # Training data growth
+    if training_m["row_count"] > 0:
+        lines.append(f"  📚 Training Data: {training_m['row_count']:,} examples | {training_m['unique_dates']} days | Status: {training_m['status']}")
+        if training_m["latest_date"]:
+            lines.append(f"      Latest data: {training_m['latest_date']}")
+    else:
+        lines.append("  📚 Training Data: ❌ No historical data found")
+
+    # Model improvement vs baseline
+    if model_m["total_markets"] > 0:
+        lines.append(f"  🎯 Model vs Baseline: {model_m['improving_markets']}/{model_m['total_markets']} markets improving | Avg: {model_m['overall_improvement_pct']:+.1f}%")
+        lines.append(f"  {'Market':<6} | {'XGB':>7} | {'Raw MC':>7} | {'Δ':>8}")
+        lines.append("  " + "-" * 35)
+        for market, data in model_m["markets"].items():
+            delta_str = f"{data['improvement_pct']:+.1f}%" if data['is_improving'] else f"{data['improvement_pct']:.1f}%"
+            icon = "✅" if data['is_improving'] else "❌"
+            lines.append(f"  {market:<6} | {data['xgb_brier']:.4f} | {data['raw_mc_brier']:.4f} | {icon} {delta_str}")
+    else:
+        lines.append("  🎯 Model vs Baseline: ❌ No model comparison data (run train_enhanced_model.py)")
+
+    # Context freshness
+    if fresh_m["last_retrain"]:
+        fresh_icon = "✅" if fresh_m["status"] == "FRESH" else "⚠️" if fresh_m["status"] == "RECENT" else "❌"
+        lines.append(f"  ⏰ Context Freshness: {fresh_icon} Last retrain: {fresh_m['last_retrain']} ({fresh_m['hours_since_retrain']:.0f}h ago)")
+    else:
+        lines.append("  ⏰ Context Freshness: ❌ No model files found")
 
     lines += [
         "",
