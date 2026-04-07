@@ -27650,3 +27650,1092 @@ Date,Player,Market,Prob
 2026-04-07,Citi Field,72,0,none,Arizona Diamondbacks,New York Mets,GAME_TOTAL,F5_Over_4.5,0.4293,,,,,,,,,,system2
 2026-04-07,Citi Field,72,0,none,Arizona Diamondbacks,New York Mets,GAME_TOTAL,TeamTotal_Away_Over_4.5,0.442,,,,,,,,,,system2
 2026-04-07,Citi Field,72,0,none,Arizona Diamondbacks,New York Mets,GAME_TOTAL,TeamTotal_Home_Over_4.5,0.4167,,,,,,,,,,system2
+2026-04-07,Progressive Field,72,0,none,Kansas City Royals,Cleveland Guardians,Bobby Witt Jr.,HR,0.128773,R,Balanced,0.32,Gavin Williams,R,Power,1.25,1,0,system2
+2026-04-07,Progressive Field,72,0,none,Kansas City Royals,Cleveland Guardians,Bobby Witt Jr.,Hit,0.580417,R,Balanced,0.32,Gavin Williams,R,Power,1.25,1,0,system2
+2026-04-07,Progressive Field,72,0,none,Kansas City Royals,Cleveland Guardians,Bobby Witt Jr.,TB,0.381902,R,Balanced,0.32,Gavin Williams,R,Power,1.25,1,0,system2
+2026-04-07,Progressive Field,72,0,none,Kansas City Royals,Cleveland Guardians,Bobby Witt Jr.,Run,0.381594,R,Balanced,0.32,Gavin Williams,R,Power,1.25,1,0,system2
+2026-04-07,Progressive Field,72,0,none,Kansas City Royals,Cleveland Guardians,Bobby Witt Jr.,RBI,0.266605,R,Balanced,0.32,Gavin Williams,R,Power,1.25,1,0,system2
+2026-04-07,Progressive Field,72,0,none,Kansas City Royals,Cleveland Guardians,Carter Jensen,HR,0.157563,L,Balanced,0.32,Gavin Williams,R,Power,1.25,2,1,system2
+2026-04-07,Progressive Field,72,0,none,Kansas City Royals,Cleveland Guardians,Carter Jensen,Hit,0.62515,L,Balanced,0.32,Gavin Williams,R,Power,1.25,2,1,system2
+2026-04-07,Progressive Field,72,0,none,Kansas City Royals,Cleveland Guardians,Carter Jensen,TB,0.373088,L,Balanced,0.32,Gavin Williams,R,Power,1.25,2,1,system2
+2026-04-07,Progressive Field,72,0,none,Kansas City Royals,Cleveland Guardians,Carter Jensen,Run,0.38221,L,Balanced,0.32,Gavin Williams,R,Power,1.25,2,1,system2
+2026-04-07,Progressive Field,72,0,none,Kansas City Royals,Cleveland Guardians,Carter Jensen,RBI,0.258968,L,Balanced,0.32,Gavin Williams,R,Power,1.25,2,1,system2
+2026-04-07,Progressive Field,72,0,none,Kansas City Royals,Cleveland Guardians,Isaac Collins,HR,0.12972,S,Balanced,0.32,Gavin Williams,R,Power,1.25,3,1,system2
+2026-04-07,Progressive Field,72,0,none,Kansas City Royals,Cleveland Guardians,Isaac Collins,Hit,0.599036,S,Balanced,0.32,Gavin Williams,R,Power,1.25,3,1,system2
+2026-04-07,Progressive Field,72,0,none,Kansas City Royals,Cleveland Guardians,Isaac Collins,TB,0.351,S,Balanced,0.32,Gavin Williams,R,Power,1.25,3,1,system2
+2026-04-07,Progressive Field,72,0,none,Kansas City Royals,Cleveland Guardians,Isaac Collins,Run,0.357134,S,Balanced,0.32,Gavin Williams,R,Power,1.25,3,1,system2
+2026-04-07,Progressive Field,72,0,none,Kansas City Royals,Cleveland Guardians,Isaac Collins,RBI,0.27326,S,Balanced,0.32,Gavin Williams,R,Power,1.25,3,1,system2
+2026-04-07,Progressive Field,72,0,none,Kansas City Royals,Cleveland Guardians,Jac Caglianone,HR,0.140138,L,Balanced,0.32,Gavin Williams,R,Power,1.25,4,1,system2
+2026-04-07,Progressive Field,72,0,none,Kansas City Royals,Cleveland Guardians,Jac Caglianone,Hit,0.593464,L,Balanced,0.32,Gavin Williams,R,Power,1.25,4,1,system2
+2026-04-07,Progressive Field,72,0,none,Kansas City Royals,Cleveland Guardians,Jac Caglianone,TB,0.345235,L,Balanced,0.32,Gavin Williams,R,Power,1.25,4,1,system2
+2026-04-07,Progressive Field,72,0,none,Kansas City Royals,Cleveland Guardians,Jac Caglianone,Run,0.357065,L,Balanced,0.32,Gavin Williams,R,Power,1.25,4,1,system2
+2026-04-07,Progressive Field,72,0,none,Kansas City Royals,Cleveland Guardians,Jac Caglianone,RBI,0.272933,L,Balanced,0.32,Gavin Williams,R,Power,1.25,4,1,system2
+2026-04-07,Progressive Field,72,0,none,Kansas City Royals,Cleveland Guardians,Jonathan India,HR,0.118888,R,Balanced,0.32,Gavin Williams,R,Power,1.25,5,0,system2
+2026-04-07,Progressive Field,72,0,none,Kansas City Royals,Cleveland Guardians,Jonathan India,Hit,0.549227,R,Balanced,0.32,Gavin Williams,R,Power,1.25,5,0,system2
+2026-04-07,Progressive Field,72,0,none,Kansas City Royals,Cleveland Guardians,Jonathan India,TB,0.335541,R,Balanced,0.32,Gavin Williams,R,Power,1.25,5,0,system2
+2026-04-07,Progressive Field,72,0,none,Kansas City Royals,Cleveland Guardians,Jonathan India,Run,0.327247,R,Balanced,0.32,Gavin Williams,R,Power,1.25,5,0,system2
+2026-04-07,Progressive Field,72,0,none,Kansas City Royals,Cleveland Guardians,Jonathan India,RBI,0.239834,R,Balanced,0.32,Gavin Williams,R,Power,1.25,5,0,system2
+2026-04-07,Progressive Field,72,0,none,Kansas City Royals,Cleveland Guardians,Kyle Isbel,HR,0.119163,L,Balanced,0.32,Gavin Williams,R,Power,1.25,6,1,system2
+2026-04-07,Progressive Field,72,0,none,Kansas City Royals,Cleveland Guardians,Kyle Isbel,Hit,0.554712,L,Balanced,0.32,Gavin Williams,R,Power,1.25,6,1,system2
+2026-04-07,Progressive Field,72,0,none,Kansas City Royals,Cleveland Guardians,Kyle Isbel,TB,0.317072,L,Balanced,0.32,Gavin Williams,R,Power,1.25,6,1,system2
+2026-04-07,Progressive Field,72,0,none,Kansas City Royals,Cleveland Guardians,Kyle Isbel,Run,0.31293,L,Balanced,0.32,Gavin Williams,R,Power,1.25,6,1,system2
+2026-04-07,Progressive Field,72,0,none,Kansas City Royals,Cleveland Guardians,Kyle Isbel,RBI,0.242434,L,Balanced,0.32,Gavin Williams,R,Power,1.25,6,1,system2
+2026-04-07,Progressive Field,72,0,none,Kansas City Royals,Cleveland Guardians,Lane Thomas,HR,0.090293,R,Balanced,0.32,Gavin Williams,R,Power,1.25,7,0,system2
+2026-04-07,Progressive Field,72,0,none,Kansas City Royals,Cleveland Guardians,Lane Thomas,Hit,0.525878,R,Balanced,0.32,Gavin Williams,R,Power,1.25,7,0,system2
+2026-04-07,Progressive Field,72,0,none,Kansas City Royals,Cleveland Guardians,Lane Thomas,TB,0.320679,R,Balanced,0.32,Gavin Williams,R,Power,1.25,7,0,system2
+2026-04-07,Progressive Field,72,0,none,Kansas City Royals,Cleveland Guardians,Lane Thomas,Run,0.290323,R,Balanced,0.32,Gavin Williams,R,Power,1.25,7,0,system2
+2026-04-07,Progressive Field,72,0,none,Kansas City Royals,Cleveland Guardians,Lane Thomas,RBI,0.221428,R,Balanced,0.32,Gavin Williams,R,Power,1.25,7,0,system2
+2026-04-07,Progressive Field,72,0,none,Kansas City Royals,Cleveland Guardians,Maikel Garcia,HR,0.088132,R,Balanced,0.32,Gavin Williams,R,Power,1.25,8,0,system2
+2026-04-07,Progressive Field,72,0,none,Kansas City Royals,Cleveland Guardians,Maikel Garcia,Hit,0.525095,R,Balanced,0.32,Gavin Williams,R,Power,1.25,8,0,system2
+2026-04-07,Progressive Field,72,0,none,Kansas City Royals,Cleveland Guardians,Maikel Garcia,TB,0.287086,R,Balanced,0.32,Gavin Williams,R,Power,1.25,8,0,system2
+2026-04-07,Progressive Field,72,0,none,Kansas City Royals,Cleveland Guardians,Maikel Garcia,Run,0.30725,R,Balanced,0.32,Gavin Williams,R,Power,1.25,8,0,system2
+2026-04-07,Progressive Field,72,0,none,Kansas City Royals,Cleveland Guardians,Maikel Garcia,RBI,0.22005,R,Balanced,0.32,Gavin Williams,R,Power,1.25,8,0,system2
+2026-04-07,Progressive Field,72,0,none,Kansas City Royals,Cleveland Guardians,Michael Massey,HR,0.109441,L,Balanced,0.32,Gavin Williams,R,Power,1.25,9,1,system2
+2026-04-07,Progressive Field,72,0,none,Kansas City Royals,Cleveland Guardians,Michael Massey,Hit,0.547442,L,Balanced,0.32,Gavin Williams,R,Power,1.25,9,1,system2
+2026-04-07,Progressive Field,72,0,none,Kansas City Royals,Cleveland Guardians,Michael Massey,TB,0.283882,L,Balanced,0.32,Gavin Williams,R,Power,1.25,9,1,system2
+2026-04-07,Progressive Field,72,0,none,Kansas City Royals,Cleveland Guardians,Michael Massey,Run,0.319737,L,Balanced,0.32,Gavin Williams,R,Power,1.25,9,1,system2
+2026-04-07,Progressive Field,72,0,none,Kansas City Royals,Cleveland Guardians,Michael Massey,RBI,0.225791,L,Balanced,0.32,Gavin Williams,R,Power,1.25,9,1,system2
+2026-04-07,Progressive Field,72,0,none,Kansas City Royals,Cleveland Guardians,Angel Martínez,HR,0.173239,S,Balanced,0.32,Noah Cameron,R,Power,1.25,1,1,system2
+2026-04-07,Progressive Field,72,0,none,Kansas City Royals,Cleveland Guardians,Angel Martínez,Hit,0.638935,S,Balanced,0.32,Noah Cameron,R,Power,1.25,1,1,system2
+2026-04-07,Progressive Field,72,0,none,Kansas City Royals,Cleveland Guardians,Angel Martínez,TB,0.403923,S,Balanced,0.32,Noah Cameron,R,Power,1.25,1,1,system2
+2026-04-07,Progressive Field,72,0,none,Kansas City Royals,Cleveland Guardians,Angel Martínez,Run,0.404114,S,Balanced,0.32,Noah Cameron,R,Power,1.25,1,1,system2
+2026-04-07,Progressive Field,72,0,none,Kansas City Royals,Cleveland Guardians,Angel Martínez,RBI,0.268846,S,Balanced,0.32,Noah Cameron,R,Power,1.25,1,1,system2
+2026-04-07,Progressive Field,72,0,none,Kansas City Royals,Cleveland Guardians,Austin Hedges,HR,0.114951,R,Balanced,0.32,Noah Cameron,R,Power,1.25,2,0,system2
+2026-04-07,Progressive Field,72,0,none,Kansas City Royals,Cleveland Guardians,Austin Hedges,Hit,0.56179,R,Balanced,0.32,Noah Cameron,R,Power,1.25,2,0,system2
+2026-04-07,Progressive Field,72,0,none,Kansas City Royals,Cleveland Guardians,Austin Hedges,TB,0.331853,R,Balanced,0.32,Noah Cameron,R,Power,1.25,2,0,system2
+2026-04-07,Progressive Field,72,0,none,Kansas City Royals,Cleveland Guardians,Austin Hedges,Run,0.386022,R,Balanced,0.32,Noah Cameron,R,Power,1.25,2,0,system2
+2026-04-07,Progressive Field,72,0,none,Kansas City Royals,Cleveland Guardians,Austin Hedges,RBI,0.266101,R,Balanced,0.32,Noah Cameron,R,Power,1.25,2,0,system2
+2026-04-07,Progressive Field,72,0,none,Kansas City Royals,Cleveland Guardians,Bo Naylor,HR,0.158185,L,Balanced,0.32,Noah Cameron,R,Power,1.25,3,1,system2
+2026-04-07,Progressive Field,72,0,none,Kansas City Royals,Cleveland Guardians,Bo Naylor,Hit,0.631877,L,Balanced,0.32,Noah Cameron,R,Power,1.25,3,1,system2
+2026-04-07,Progressive Field,72,0,none,Kansas City Royals,Cleveland Guardians,Bo Naylor,TB,0.359165,L,Balanced,0.32,Noah Cameron,R,Power,1.25,3,1,system2
+2026-04-07,Progressive Field,72,0,none,Kansas City Royals,Cleveland Guardians,Bo Naylor,Run,0.35532,L,Balanced,0.32,Noah Cameron,R,Power,1.25,3,1,system2
+2026-04-07,Progressive Field,72,0,none,Kansas City Royals,Cleveland Guardians,Bo Naylor,RBI,0.290617,L,Balanced,0.32,Noah Cameron,R,Power,1.25,3,1,system2
+2026-04-07,Progressive Field,72,0,none,Kansas City Royals,Cleveland Guardians,Brayan Rocchio,HR,0.140138,S,Balanced,0.32,Noah Cameron,R,Power,1.25,4,1,system2
+2026-04-07,Progressive Field,72,0,none,Kansas City Royals,Cleveland Guardians,Brayan Rocchio,Hit,0.599558,S,Balanced,0.32,Noah Cameron,R,Power,1.25,4,1,system2
+2026-04-07,Progressive Field,72,0,none,Kansas City Royals,Cleveland Guardians,Brayan Rocchio,TB,0.37379,S,Balanced,0.32,Noah Cameron,R,Power,1.25,4,1,system2
+2026-04-07,Progressive Field,72,0,none,Kansas City Royals,Cleveland Guardians,Brayan Rocchio,Run,0.357065,S,Balanced,0.32,Noah Cameron,R,Power,1.25,4,1,system2
+2026-04-07,Progressive Field,72,0,none,Kansas City Royals,Cleveland Guardians,Brayan Rocchio,RBI,0.271713,S,Balanced,0.32,Noah Cameron,R,Power,1.25,4,1,system2
+2026-04-07,Progressive Field,72,0,none,Kansas City Royals,Cleveland Guardians,CJ Kayfus,HR,0.119603,L,Balanced,0.32,Noah Cameron,R,Power,1.25,5,1,system2
+2026-04-07,Progressive Field,72,0,none,Kansas City Royals,Cleveland Guardians,CJ Kayfus,Hit,0.570639,L,Balanced,0.32,Noah Cameron,R,Power,1.25,5,1,system2
+2026-04-07,Progressive Field,72,0,none,Kansas City Royals,Cleveland Guardians,CJ Kayfus,TB,0.340095,L,Balanced,0.32,Noah Cameron,R,Power,1.25,5,1,system2
+2026-04-07,Progressive Field,72,0,none,Kansas City Royals,Cleveland Guardians,CJ Kayfus,Run,0.351085,L,Balanced,0.32,Noah Cameron,R,Power,1.25,5,1,system2
+2026-04-07,Progressive Field,72,0,none,Kansas City Royals,Cleveland Guardians,CJ Kayfus,RBI,0.272628,L,Balanced,0.32,Noah Cameron,R,Power,1.25,5,1,system2
+2026-04-07,Progressive Field,72,0,none,Kansas City Royals,Cleveland Guardians,Chase DeLauter,HR,0.12682,L,Balanced,0.32,Noah Cameron,R,Power,1.25,6,1,system2
+2026-04-07,Progressive Field,72,0,none,Kansas City Royals,Cleveland Guardians,Chase DeLauter,Hit,0.564506,L,Balanced,0.32,Noah Cameron,R,Power,1.25,6,1,system2
+2026-04-07,Progressive Field,72,0,none,Kansas City Royals,Cleveland Guardians,Chase DeLauter,TB,0.354984,L,Balanced,0.32,Noah Cameron,R,Power,1.25,6,1,system2
+2026-04-07,Progressive Field,72,0,none,Kansas City Royals,Cleveland Guardians,Chase DeLauter,Run,0.31293,L,Balanced,0.32,Noah Cameron,R,Power,1.25,6,1,system2
+2026-04-07,Progressive Field,72,0,none,Kansas City Royals,Cleveland Guardians,Chase DeLauter,RBI,0.250873,L,Balanced,0.32,Noah Cameron,R,Power,1.25,6,1,system2
+2026-04-07,Progressive Field,72,0,none,Kansas City Royals,Cleveland Guardians,Daniel Schneemann,HR,0.109195,L,Balanced,0.32,Noah Cameron,R,Power,1.25,7,1,system2
+2026-04-07,Progressive Field,72,0,none,Kansas City Royals,Cleveland Guardians,Daniel Schneemann,Hit,0.556705,L,Balanced,0.32,Noah Cameron,R,Power,1.25,7,1,system2
+2026-04-07,Progressive Field,72,0,none,Kansas City Royals,Cleveland Guardians,Daniel Schneemann,TB,0.306547,L,Balanced,0.32,Noah Cameron,R,Power,1.25,7,1,system2
+2026-04-07,Progressive Field,72,0,none,Kansas City Royals,Cleveland Guardians,Daniel Schneemann,Run,0.319245,L,Balanced,0.32,Noah Cameron,R,Power,1.25,7,1,system2
+2026-04-07,Progressive Field,72,0,none,Kansas City Royals,Cleveland Guardians,Daniel Schneemann,RBI,0.237398,L,Balanced,0.32,Noah Cameron,R,Power,1.25,7,1,system2
+2026-04-07,Progressive Field,72,0,none,Kansas City Royals,Cleveland Guardians,David Fry,HR,0.097356,R,Balanced,0.32,Noah Cameron,R,Power,1.25,8,0,system2
+2026-04-07,Progressive Field,72,0,none,Kansas City Royals,Cleveland Guardians,David Fry,Hit,0.523518,R,Balanced,0.32,Noah Cameron,R,Power,1.25,8,0,system2
+2026-04-07,Progressive Field,72,0,none,Kansas City Royals,Cleveland Guardians,David Fry,TB,0.318586,R,Balanced,0.32,Noah Cameron,R,Power,1.25,8,0,system2
+2026-04-07,Progressive Field,72,0,none,Kansas City Royals,Cleveland Guardians,David Fry,Run,0.30725,R,Balanced,0.32,Noah Cameron,R,Power,1.25,8,0,system2
+2026-04-07,Progressive Field,72,0,none,Kansas City Royals,Cleveland Guardians,David Fry,RBI,0.22005,R,Balanced,0.32,Noah Cameron,R,Power,1.25,8,0,system2
+2026-04-07,Progressive Field,72,0,none,Kansas City Royals,Cleveland Guardians,José Ramírez,HR,0.116361,S,Balanced,0.32,Noah Cameron,R,Power,1.25,9,1,system2
+2026-04-07,Progressive Field,72,0,none,Kansas City Royals,Cleveland Guardians,José Ramírez,Hit,0.540572,S,Balanced,0.32,Noah Cameron,R,Power,1.25,9,1,system2
+2026-04-07,Progressive Field,72,0,none,Kansas City Royals,Cleveland Guardians,José Ramírez,TB,0.276828,S,Balanced,0.32,Noah Cameron,R,Power,1.25,9,1,system2
+2026-04-07,Progressive Field,72,0,none,Kansas City Royals,Cleveland Guardians,José Ramírez,Run,0.3202,S,Balanced,0.32,Noah Cameron,R,Power,1.25,9,1,system2
+2026-04-07,Progressive Field,72,0,none,Kansas City Royals,Cleveland Guardians,José Ramírez,RBI,0.218514,S,Balanced,0.32,Noah Cameron,R,Power,1.25,9,1,system2
+2026-04-07,Rate Field,72,0,none,Baltimore Orioles,Chicago White Sox,Adley Rutschman,HR,0.163425,S,Balanced,0.32,Shane Smith,R,Power,1.25,1,1,system2
+2026-04-07,Rate Field,72,0,none,Baltimore Orioles,Chicago White Sox,Adley Rutschman,Hit,0.638935,S,Balanced,0.32,Shane Smith,R,Power,1.25,1,1,system2
+2026-04-07,Rate Field,72,0,none,Baltimore Orioles,Chicago White Sox,Adley Rutschman,TB,0.38492,S,Balanced,0.32,Shane Smith,R,Power,1.25,1,1,system2
+2026-04-07,Rate Field,72,0,none,Baltimore Orioles,Chicago White Sox,Adley Rutschman,Run,0.426851,S,Balanced,0.32,Shane Smith,R,Power,1.25,1,1,system2
+2026-04-07,Rate Field,72,0,none,Baltimore Orioles,Chicago White Sox,Adley Rutschman,RBI,0.268184,S,Balanced,0.32,Shane Smith,R,Power,1.25,1,1,system2
+2026-04-07,Rate Field,72,0,none,Baltimore Orioles,Chicago White Sox,Blaze Alexander,HR,0.115891,R,Balanced,0.32,Shane Smith,R,Power,1.25,2,0,system2
+2026-04-07,Rate Field,72,0,none,Baltimore Orioles,Chicago White Sox,Blaze Alexander,Hit,0.567518,R,Balanced,0.32,Shane Smith,R,Power,1.25,2,0,system2
+2026-04-07,Rate Field,72,0,none,Baltimore Orioles,Chicago White Sox,Blaze Alexander,TB,0.325075,R,Balanced,0.32,Shane Smith,R,Power,1.25,2,0,system2
+2026-04-07,Rate Field,72,0,none,Baltimore Orioles,Chicago White Sox,Blaze Alexander,Run,0.350928,R,Balanced,0.32,Shane Smith,R,Power,1.25,2,0,system2
+2026-04-07,Rate Field,72,0,none,Baltimore Orioles,Chicago White Sox,Blaze Alexander,RBI,0.244478,R,Balanced,0.32,Shane Smith,R,Power,1.25,2,0,system2
+2026-04-07,Rate Field,72,0,none,Baltimore Orioles,Chicago White Sox,Coby Mayo,HR,0.121685,R,Balanced,0.32,Shane Smith,R,Power,1.25,3,0,system2
+2026-04-07,Rate Field,72,0,none,Baltimore Orioles,Chicago White Sox,Coby Mayo,Hit,0.600813,R,Balanced,0.32,Shane Smith,R,Power,1.25,3,0,system2
+2026-04-07,Rate Field,72,0,none,Baltimore Orioles,Chicago White Sox,Coby Mayo,TB,0.35619,R,Balanced,0.32,Shane Smith,R,Power,1.25,3,0,system2
+2026-04-07,Rate Field,72,0,none,Baltimore Orioles,Chicago White Sox,Coby Mayo,Run,0.320616,R,Balanced,0.32,Shane Smith,R,Power,1.25,3,0,system2
+2026-04-07,Rate Field,72,0,none,Baltimore Orioles,Chicago White Sox,Coby Mayo,RBI,0.28151,R,Balanced,0.32,Shane Smith,R,Power,1.25,3,0,system2
+2026-04-07,Rate Field,72,0,none,Baltimore Orioles,Chicago White Sox,Colton Cowser,HR,0.13026,L,Balanced,0.32,Shane Smith,R,Power,1.25,4,1,system2
+2026-04-07,Rate Field,72,0,none,Baltimore Orioles,Chicago White Sox,Colton Cowser,Hit,0.593464,L,Balanced,0.32,Shane Smith,R,Power,1.25,4,1,system2
+2026-04-07,Rate Field,72,0,none,Baltimore Orioles,Chicago White Sox,Colton Cowser,TB,0.344221,L,Balanced,0.32,Shane Smith,R,Power,1.25,4,1,system2
+2026-04-07,Rate Field,72,0,none,Baltimore Orioles,Chicago White Sox,Colton Cowser,Run,0.336202,L,Balanced,0.32,Shane Smith,R,Power,1.25,4,1,system2
+2026-04-07,Rate Field,72,0,none,Baltimore Orioles,Chicago White Sox,Colton Cowser,RBI,0.272421,L,Balanced,0.32,Shane Smith,R,Power,1.25,4,1,system2
+2026-04-07,Rate Field,72,0,none,Baltimore Orioles,Chicago White Sox,Dylan Beavers,HR,0.127284,L,Balanced,0.32,Shane Smith,R,Power,1.25,5,1,system2
+2026-04-07,Rate Field,72,0,none,Baltimore Orioles,Chicago White Sox,Dylan Beavers,Hit,0.570639,L,Balanced,0.32,Shane Smith,R,Power,1.25,5,1,system2
+2026-04-07,Rate Field,72,0,none,Baltimore Orioles,Chicago White Sox,Dylan Beavers,TB,0.339736,L,Balanced,0.32,Shane Smith,R,Power,1.25,5,1,system2
+2026-04-07,Rate Field,72,0,none,Baltimore Orioles,Chicago White Sox,Dylan Beavers,Run,0.318138,L,Balanced,0.32,Shane Smith,R,Power,1.25,5,1,system2
+2026-04-07,Rate Field,72,0,none,Baltimore Orioles,Chicago White Sox,Dylan Beavers,RBI,0.252532,L,Balanced,0.32,Shane Smith,R,Power,1.25,5,1,system2
+2026-04-07,Rate Field,72,0,none,Baltimore Orioles,Chicago White Sox,Gunnar Henderson,HR,0.135925,L,Balanced,0.32,Shane Smith,R,Power,1.25,6,1,system2
+2026-04-07,Rate Field,72,0,none,Baltimore Orioles,Chicago White Sox,Gunnar Henderson,Hit,0.56623,L,Balanced,0.32,Shane Smith,R,Power,1.25,6,1,system2
+2026-04-07,Rate Field,72,0,none,Baltimore Orioles,Chicago White Sox,Gunnar Henderson,TB,0.32342,L,Balanced,0.32,Shane Smith,R,Power,1.25,6,1,system2
+2026-04-07,Rate Field,72,0,none,Baltimore Orioles,Chicago White Sox,Gunnar Henderson,Run,0.329951,L,Balanced,0.32,Shane Smith,R,Power,1.25,6,1,system2
+2026-04-07,Rate Field,72,0,none,Baltimore Orioles,Chicago White Sox,Gunnar Henderson,RBI,0.249607,L,Balanced,0.32,Shane Smith,R,Power,1.25,6,1,system2
+2026-04-07,Rate Field,72,0,none,Baltimore Orioles,Chicago White Sox,Jeremiah Jackson,HR,0.118657,R,Balanced,0.32,Shane Smith,R,Power,1.25,7,0,system2
+2026-04-07,Rate Field,72,0,none,Baltimore Orioles,Chicago White Sox,Jeremiah Jackson,Hit,0.525878,R,Balanced,0.32,Shane Smith,R,Power,1.25,7,0,system2
+2026-04-07,Rate Field,72,0,none,Baltimore Orioles,Chicago White Sox,Jeremiah Jackson,TB,0.328417,R,Balanced,0.32,Shane Smith,R,Power,1.25,7,0,system2
+2026-04-07,Rate Field,72,0,none,Baltimore Orioles,Chicago White Sox,Jeremiah Jackson,Run,0.314568,R,Balanced,0.32,Shane Smith,R,Power,1.25,7,0,system2
+2026-04-07,Rate Field,72,0,none,Baltimore Orioles,Chicago White Sox,Jeremiah Jackson,RBI,0.216632,R,Balanced,0.32,Shane Smith,R,Power,1.25,7,0,system2
+2026-04-07,Rate Field,72,0,none,Baltimore Orioles,Chicago White Sox,Leody Taveras,HR,0.107947,S,Balanced,0.32,Shane Smith,R,Power,1.25,8,1,system2
+2026-04-07,Rate Field,72,0,none,Baltimore Orioles,Chicago White Sox,Leody Taveras,Hit,0.571508,S,Balanced,0.32,Shane Smith,R,Power,1.25,8,1,system2
+2026-04-07,Rate Field,72,0,none,Baltimore Orioles,Chicago White Sox,Leody Taveras,TB,0.299549,S,Balanced,0.32,Shane Smith,R,Power,1.25,8,1,system2
+2026-04-07,Rate Field,72,0,none,Baltimore Orioles,Chicago White Sox,Leody Taveras,Run,0.32485,S,Balanced,0.32,Shane Smith,R,Power,1.25,8,1,system2
+2026-04-07,Rate Field,72,0,none,Baltimore Orioles,Chicago White Sox,Leody Taveras,RBI,0.235936,S,Balanced,0.32,Shane Smith,R,Power,1.25,8,1,system2
+2026-04-07,Rate Field,72,0,none,Baltimore Orioles,Chicago White Sox,Pete Alonso,HR,0.102583,R,Balanced,0.32,Shane Smith,R,Power,1.25,9,0,system2
+2026-04-07,Rate Field,72,0,none,Baltimore Orioles,Chicago White Sox,Pete Alonso,Hit,0.484827,R,Balanced,0.32,Shane Smith,R,Power,1.25,9,0,system2
+2026-04-07,Rate Field,72,0,none,Baltimore Orioles,Chicago White Sox,Pete Alonso,TB,0.289007,R,Balanced,0.32,Shane Smith,R,Power,1.25,9,0,system2
+2026-04-07,Rate Field,72,0,none,Baltimore Orioles,Chicago White Sox,Pete Alonso,Run,0.30685,R,Balanced,0.32,Shane Smith,R,Power,1.25,9,0,system2
+2026-04-07,Rate Field,72,0,none,Baltimore Orioles,Chicago White Sox,Pete Alonso,RBI,0.21535,R,Balanced,0.32,Shane Smith,R,Power,1.25,9,0,system2
+2026-04-07,Rate Field,72,0,none,Baltimore Orioles,Chicago White Sox,Andrew Benintendi,HR,0.1366,L,Balanced,0.32,Trevor Rogers,R,Power,1.25,1,1,system2
+2026-04-07,Rate Field,72,0,none,Baltimore Orioles,Chicago White Sox,Andrew Benintendi,Hit,0.638935,L,Balanced,0.32,Trevor Rogers,R,Power,1.25,1,1,system2
+2026-04-07,Rate Field,72,0,none,Baltimore Orioles,Chicago White Sox,Andrew Benintendi,TB,0.37575,L,Balanced,0.32,Trevor Rogers,R,Power,1.25,1,1,system2
+2026-04-07,Rate Field,72,0,none,Baltimore Orioles,Chicago White Sox,Andrew Benintendi,Run,0.371837,L,Balanced,0.32,Trevor Rogers,R,Power,1.25,1,1,system2
+2026-04-07,Rate Field,72,0,none,Baltimore Orioles,Chicago White Sox,Andrew Benintendi,RBI,0.281103,L,Balanced,0.32,Trevor Rogers,R,Power,1.25,1,1,system2
+2026-04-07,Rate Field,72,0,none,Baltimore Orioles,Chicago White Sox,Chase Meidroth,HR,0.124062,R,Balanced,0.32,Trevor Rogers,R,Power,1.25,2,0,system2
+2026-04-07,Rate Field,72,0,none,Baltimore Orioles,Chicago White Sox,Chase Meidroth,Hit,0.567518,R,Balanced,0.32,Trevor Rogers,R,Power,1.25,2,0,system2
+2026-04-07,Rate Field,72,0,none,Baltimore Orioles,Chicago White Sox,Chase Meidroth,TB,0.325075,R,Balanced,0.32,Trevor Rogers,R,Power,1.25,2,0,system2
+2026-04-07,Rate Field,72,0,none,Baltimore Orioles,Chicago White Sox,Chase Meidroth,Run,0.3499,R,Balanced,0.32,Trevor Rogers,R,Power,1.25,2,0,system2
+2026-04-07,Rate Field,72,0,none,Baltimore Orioles,Chicago White Sox,Chase Meidroth,RBI,0.244478,R,Balanced,0.32,Trevor Rogers,R,Power,1.25,2,0,system2
+2026-04-07,Rate Field,72,0,none,Baltimore Orioles,Chicago White Sox,Colson Montgomery,HR,0.150205,L,Balanced,0.32,Trevor Rogers,R,Power,1.25,3,1,system2
+2026-04-07,Rate Field,72,0,none,Baltimore Orioles,Chicago White Sox,Colson Montgomery,Hit,0.638617,L,Balanced,0.32,Trevor Rogers,R,Power,1.25,3,1,system2
+2026-04-07,Rate Field,72,0,none,Baltimore Orioles,Chicago White Sox,Colson Montgomery,TB,0.355283,L,Balanced,0.32,Trevor Rogers,R,Power,1.25,3,1,system2
+2026-04-07,Rate Field,72,0,none,Baltimore Orioles,Chicago White Sox,Colson Montgomery,Run,0.367893,L,Balanced,0.32,Trevor Rogers,R,Power,1.25,3,1,system2
+2026-04-07,Rate Field,72,0,none,Baltimore Orioles,Chicago White Sox,Colson Montgomery,RBI,0.27326,L,Balanced,0.32,Trevor Rogers,R,Power,1.25,3,1,system2
+2026-04-07,Rate Field,72,0,none,Baltimore Orioles,Chicago White Sox,Derek Hill,HR,0.107997,R,Balanced,0.32,Trevor Rogers,R,Power,1.25,4,0,system2
+2026-04-07,Rate Field,72,0,none,Baltimore Orioles,Chicago White Sox,Derek Hill,Hit,0.550986,R,Balanced,0.32,Trevor Rogers,R,Power,1.25,4,0,system2
+2026-04-07,Rate Field,72,0,none,Baltimore Orioles,Chicago White Sox,Derek Hill,TB,0.326606,R,Balanced,0.32,Trevor Rogers,R,Power,1.25,4,0,system2
+2026-04-07,Rate Field,72,0,none,Baltimore Orioles,Chicago White Sox,Derek Hill,Run,0.315999,R,Balanced,0.32,Trevor Rogers,R,Power,1.25,4,0,system2
+2026-04-07,Rate Field,72,0,none,Baltimore Orioles,Chicago White Sox,Derek Hill,RBI,0.272421,R,Balanced,0.32,Trevor Rogers,R,Power,1.25,4,0,system2
+2026-04-07,Rate Field,72,0,none,Baltimore Orioles,Chicago White Sox,Dustin Harris,HR,0.108322,L,Balanced,0.32,Trevor Rogers,R,Power,1.25,5,1,system2
+2026-04-07,Rate Field,72,0,none,Baltimore Orioles,Chicago White Sox,Dustin Harris,Hit,0.547331,L,Balanced,0.32,Trevor Rogers,R,Power,1.25,5,1,system2
+2026-04-07,Rate Field,72,0,none,Baltimore Orioles,Chicago White Sox,Dustin Harris,TB,0.343274,L,Balanced,0.32,Trevor Rogers,R,Power,1.25,5,1,system2
+2026-04-07,Rate Field,72,0,none,Baltimore Orioles,Chicago White Sox,Dustin Harris,Run,0.318138,L,Balanced,0.32,Trevor Rogers,R,Power,1.25,5,1,system2
+2026-04-07,Rate Field,72,0,none,Baltimore Orioles,Chicago White Sox,Dustin Harris,RBI,0.261417,L,Balanced,0.32,Trevor Rogers,R,Power,1.25,5,1,system2
+2026-04-07,Rate Field,72,0,none,Baltimore Orioles,Chicago White Sox,Edgar Quero,HR,0.119163,S,Balanced,0.32,Trevor Rogers,R,Power,1.25,6,1,system2
+2026-04-07,Rate Field,72,0,none,Baltimore Orioles,Chicago White Sox,Edgar Quero,Hit,0.564854,S,Balanced,0.32,Trevor Rogers,R,Power,1.25,6,1,system2
+2026-04-07,Rate Field,72,0,none,Baltimore Orioles,Chicago White Sox,Edgar Quero,TB,0.321348,S,Balanced,0.32,Trevor Rogers,R,Power,1.25,6,1,system2
+2026-04-07,Rate Field,72,0,none,Baltimore Orioles,Chicago White Sox,Edgar Quero,Run,0.340197,S,Balanced,0.32,Trevor Rogers,R,Power,1.25,6,1,system2
+2026-04-07,Rate Field,72,0,none,Baltimore Orioles,Chicago White Sox,Edgar Quero,RBI,0.25972,S,Balanced,0.32,Trevor Rogers,R,Power,1.25,6,1,system2
+2026-04-07,Rate Field,72,0,none,Baltimore Orioles,Chicago White Sox,Lenyn Sosa,HR,0.105152,R,Balanced,0.32,Trevor Rogers,R,Power,1.25,7,0,system2
+2026-04-07,Rate Field,72,0,none,Baltimore Orioles,Chicago White Sox,Lenyn Sosa,Hit,0.517808,R,Balanced,0.32,Trevor Rogers,R,Power,1.25,7,0,system2
+2026-04-07,Rate Field,72,0,none,Baltimore Orioles,Chicago White Sox,Lenyn Sosa,TB,0.291454,R,Balanced,0.32,Trevor Rogers,R,Power,1.25,7,0,system2
+2026-04-07,Rate Field,72,0,none,Baltimore Orioles,Chicago White Sox,Lenyn Sosa,Run,0.307256,R,Balanced,0.32,Trevor Rogers,R,Power,1.25,7,0,system2
+2026-04-07,Rate Field,72,0,none,Baltimore Orioles,Chicago White Sox,Lenyn Sosa,RBI,0.210681,R,Balanced,0.32,Trevor Rogers,R,Power,1.25,7,0,system2
+2026-04-07,Rate Field,72,0,none,Baltimore Orioles,Chicago White Sox,Luisangel Acuña,HR,0.082399,R,Balanced,0.32,Trevor Rogers,R,Power,1.25,8,0,system2
+2026-04-07,Rate Field,72,0,none,Baltimore Orioles,Chicago White Sox,Luisangel Acuña,Hit,0.510258,R,Balanced,0.32,Trevor Rogers,R,Power,1.25,8,0,system2
+2026-04-07,Rate Field,72,0,none,Baltimore Orioles,Chicago White Sox,Luisangel Acuña,TB,0.283298,R,Balanced,0.32,Trevor Rogers,R,Power,1.25,8,0,system2
+2026-04-07,Rate Field,72,0,none,Baltimore Orioles,Chicago White Sox,Luisangel Acuña,Run,0.30725,R,Balanced,0.32,Trevor Rogers,R,Power,1.25,8,0,system2
+2026-04-07,Rate Field,72,0,none,Baltimore Orioles,Chicago White Sox,Luisangel Acuña,RBI,0.212844,R,Balanced,0.32,Trevor Rogers,R,Power,1.25,8,0,system2
+2026-04-07,Rate Field,72,0,none,Baltimore Orioles,Chicago White Sox,Miguel Vargas,HR,0.088486,R,Balanced,0.32,Trevor Rogers,R,Power,1.25,9,0,system2
+2026-04-07,Rate Field,72,0,none,Baltimore Orioles,Chicago White Sox,Miguel Vargas,Hit,0.497836,R,Balanced,0.32,Trevor Rogers,R,Power,1.25,9,0,system2
+2026-04-07,Rate Field,72,0,none,Baltimore Orioles,Chicago White Sox,Miguel Vargas,TB,0.275045,R,Balanced,0.32,Trevor Rogers,R,Power,1.25,9,0,system2
+2026-04-07,Rate Field,72,0,none,Baltimore Orioles,Chicago White Sox,Miguel Vargas,Run,0.299486,R,Balanced,0.32,Trevor Rogers,R,Power,1.25,9,0,system2
+2026-04-07,Rate Field,72,0,none,Baltimore Orioles,Chicago White Sox,Miguel Vargas,RBI,0.216083,R,Balanced,0.32,Trevor Rogers,R,Power,1.25,9,0,system2
+2026-04-07,Citi Field,72,0,none,Arizona Diamondbacks,New York Mets,Adrian Del Castillo,HR,0.116004,L,Balanced,0.32,Freddy Peralta,R,Power,1.25,1,1,system2
+2026-04-07,Citi Field,72,0,none,Arizona Diamondbacks,New York Mets,Adrian Del Castillo,Hit,0.605827,L,Balanced,0.32,Freddy Peralta,R,Power,1.25,1,1,system2
+2026-04-07,Citi Field,72,0,none,Arizona Diamondbacks,New York Mets,Adrian Del Castillo,TB,0.38492,L,Balanced,0.32,Freddy Peralta,R,Power,1.25,1,1,system2
+2026-04-07,Citi Field,72,0,none,Arizona Diamondbacks,New York Mets,Adrian Del Castillo,Run,0.377064,L,Balanced,0.32,Freddy Peralta,R,Power,1.25,1,1,system2
+2026-04-07,Citi Field,72,0,none,Arizona Diamondbacks,New York Mets,Adrian Del Castillo,RBI,0.239702,L,Balanced,0.32,Freddy Peralta,R,Power,1.25,1,1,system2
+2026-04-07,Citi Field,72,0,none,Arizona Diamondbacks,New York Mets,Alek Thomas,HR,0.130267,L,Balanced,0.32,Freddy Peralta,R,Power,1.25,2,1,system2
+2026-04-07,Citi Field,72,0,none,Arizona Diamondbacks,New York Mets,Alek Thomas,Hit,0.629313,L,Balanced,0.32,Freddy Peralta,R,Power,1.25,2,1,system2
+2026-04-07,Citi Field,72,0,none,Arizona Diamondbacks,New York Mets,Alek Thomas,TB,0.373088,L,Balanced,0.32,Freddy Peralta,R,Power,1.25,2,1,system2
+2026-04-07,Citi Field,72,0,none,Arizona Diamondbacks,New York Mets,Alek Thomas,Run,0.379015,L,Balanced,0.32,Freddy Peralta,R,Power,1.25,2,1,system2
+2026-04-07,Citi Field,72,0,none,Arizona Diamondbacks,New York Mets,Alek Thomas,RBI,0.264259,L,Balanced,0.32,Freddy Peralta,R,Power,1.25,2,1,system2
+2026-04-07,Citi Field,72,0,none,Arizona Diamondbacks,New York Mets,Corbin Carroll,HR,0.137949,L,Balanced,0.32,Freddy Peralta,R,Power,1.25,3,1,system2
+2026-04-07,Citi Field,72,0,none,Arizona Diamondbacks,New York Mets,Corbin Carroll,Hit,0.632807,L,Balanced,0.32,Freddy Peralta,R,Power,1.25,3,1,system2
+2026-04-07,Citi Field,72,0,none,Arizona Diamondbacks,New York Mets,Corbin Carroll,TB,0.387625,L,Balanced,0.32,Freddy Peralta,R,Power,1.25,3,1,system2
+2026-04-07,Citi Field,72,0,none,Arizona Diamondbacks,New York Mets,Corbin Carroll,Run,0.330564,L,Balanced,0.32,Freddy Peralta,R,Power,1.25,3,1,system2
+2026-04-07,Citi Field,72,0,none,Arizona Diamondbacks,New York Mets,Corbin Carroll,RBI,0.274602,L,Balanced,0.32,Freddy Peralta,R,Power,1.25,3,1,system2
+2026-04-07,Citi Field,72,0,none,Arizona Diamondbacks,New York Mets,Gabriel Moreno,HR,0.104023,R,Balanced,0.32,Freddy Peralta,R,Power,1.25,4,0,system2
+2026-04-07,Citi Field,72,0,none,Arizona Diamondbacks,New York Mets,Gabriel Moreno,Hit,0.550986,R,Balanced,0.32,Freddy Peralta,R,Power,1.25,4,0,system2
+2026-04-07,Citi Field,72,0,none,Arizona Diamondbacks,New York Mets,Gabriel Moreno,TB,0.325231,R,Balanced,0.32,Freddy Peralta,R,Power,1.25,4,0,system2
+2026-04-07,Citi Field,72,0,none,Arizona Diamondbacks,New York Mets,Gabriel Moreno,Run,0.334034,R,Balanced,0.32,Freddy Peralta,R,Power,1.25,4,0,system2
+2026-04-07,Citi Field,72,0,none,Arizona Diamondbacks,New York Mets,Gabriel Moreno,RBI,0.24231,R,Balanced,0.32,Freddy Peralta,R,Power,1.25,4,0,system2
+2026-04-07,Citi Field,72,0,none,Arizona Diamondbacks,New York Mets,Geraldo Perdomo,HR,0.119603,S,Balanced,0.32,Freddy Peralta,R,Power,1.25,5,1,system2
+2026-04-07,Citi Field,72,0,none,Arizona Diamondbacks,New York Mets,Geraldo Perdomo,Hit,0.570639,S,Balanced,0.32,Freddy Peralta,R,Power,1.25,5,1,system2
+2026-04-07,Citi Field,72,0,none,Arizona Diamondbacks,New York Mets,Geraldo Perdomo,TB,0.34505,S,Balanced,0.32,Freddy Peralta,R,Power,1.25,5,1,system2
+2026-04-07,Citi Field,72,0,none,Arizona Diamondbacks,New York Mets,Geraldo Perdomo,Run,0.348697,S,Balanced,0.32,Freddy Peralta,R,Power,1.25,5,1,system2
+2026-04-07,Citi Field,72,0,none,Arizona Diamondbacks,New York Mets,Geraldo Perdomo,RBI,0.261417,S,Balanced,0.32,Freddy Peralta,R,Power,1.25,5,1,system2
+2026-04-07,Citi Field,72,0,none,Arizona Diamondbacks,New York Mets,Ildemaro Vargas,HR,0.107012,S,Balanced,0.32,Freddy Peralta,R,Power,1.25,6,1,system2
+2026-04-07,Citi Field,72,0,none,Arizona Diamondbacks,New York Mets,Ildemaro Vargas,Hit,0.553851,S,Balanced,0.32,Freddy Peralta,R,Power,1.25,6,1,system2
+2026-04-07,Citi Field,72,0,none,Arizona Diamondbacks,New York Mets,Ildemaro Vargas,TB,0.316351,S,Balanced,0.32,Freddy Peralta,R,Power,1.25,6,1,system2
+2026-04-07,Citi Field,72,0,none,Arizona Diamondbacks,New York Mets,Ildemaro Vargas,Run,0.332183,S,Balanced,0.32,Freddy Peralta,R,Power,1.25,6,1,system2
+2026-04-07,Citi Field,72,0,none,Arizona Diamondbacks,New York Mets,Ildemaro Vargas,RBI,0.233725,S,Balanced,0.32,Freddy Peralta,R,Power,1.25,6,1,system2
+2026-04-07,Citi Field,72,0,none,Arizona Diamondbacks,New York Mets,James McCann,HR,0.105152,R,Balanced,0.32,Freddy Peralta,R,Power,1.25,7,0,system2
+2026-04-07,Citi Field,72,0,none,Arizona Diamondbacks,New York Mets,James McCann,Hit,0.525878,R,Balanced,0.32,Freddy Peralta,R,Power,1.25,7,0,system2
+2026-04-07,Citi Field,72,0,none,Arizona Diamondbacks,New York Mets,James McCann,TB,0.291209,R,Balanced,0.32,Freddy Peralta,R,Power,1.25,7,0,system2
+2026-04-07,Citi Field,72,0,none,Arizona Diamondbacks,New York Mets,James McCann,Run,0.307256,R,Balanced,0.32,Freddy Peralta,R,Power,1.25,7,0,system2
+2026-04-07,Citi Field,72,0,none,Arizona Diamondbacks,New York Mets,James McCann,RBI,0.21937,R,Balanced,0.32,Freddy Peralta,R,Power,1.25,7,0,system2
+2026-04-07,Citi Field,72,0,none,Arizona Diamondbacks,New York Mets,Jorge Barrosa,HR,0.115823,S,Balanced,0.32,Freddy Peralta,R,Power,1.25,8,1,system2
+2026-04-07,Citi Field,72,0,none,Arizona Diamondbacks,New York Mets,Jorge Barrosa,Hit,0.523049,S,Balanced,0.32,Freddy Peralta,R,Power,1.25,8,1,system2
+2026-04-07,Citi Field,72,0,none,Arizona Diamondbacks,New York Mets,Jorge Barrosa,TB,0.295805,S,Balanced,0.32,Freddy Peralta,R,Power,1.25,8,1,system2
+2026-04-07,Citi Field,72,0,none,Arizona Diamondbacks,New York Mets,Jorge Barrosa,Run,0.312922,S,Balanced,0.32,Freddy Peralta,R,Power,1.25,8,1,system2
+2026-04-07,Citi Field,72,0,none,Arizona Diamondbacks,New York Mets,Jorge Barrosa,RBI,0.235963,S,Balanced,0.32,Freddy Peralta,R,Power,1.25,8,1,system2
+2026-04-07,Citi Field,72,0,none,Arizona Diamondbacks,New York Mets,Jose Fernandez,HR,0.112028,R,Balanced,0.32,Freddy Peralta,R,Power,1.25,9,0,system2
+2026-04-07,Citi Field,72,0,none,Arizona Diamondbacks,New York Mets,Jose Fernandez,Hit,0.480295,R,Balanced,0.32,Freddy Peralta,R,Power,1.25,9,0,system2
+2026-04-07,Citi Field,72,0,none,Arizona Diamondbacks,New York Mets,Jose Fernandez,TB,0.273593,R,Balanced,0.32,Freddy Peralta,R,Power,1.25,9,0,system2
+2026-04-07,Citi Field,72,0,none,Arizona Diamondbacks,New York Mets,Jose Fernandez,Run,0.300978,R,Balanced,0.32,Freddy Peralta,R,Power,1.25,9,0,system2
+2026-04-07,Citi Field,72,0,none,Arizona Diamondbacks,New York Mets,Jose Fernandez,RBI,0.216083,R,Balanced,0.32,Freddy Peralta,R,Power,1.25,9,0,system2
+2026-04-07,Citi Field,72,0,none,Arizona Diamondbacks,New York Mets,Bo Bichette,HR,0.130601,R,Balanced,0.32,Zac Gallen,R,Power,1.25,1,0,system2
+2026-04-07,Citi Field,72,0,none,Arizona Diamondbacks,New York Mets,Bo Bichette,Hit,0.598669,R,Balanced,0.32,Zac Gallen,R,Power,1.25,1,0,system2
+2026-04-07,Citi Field,72,0,none,Arizona Diamondbacks,New York Mets,Bo Bichette,TB,0.350353,R,Balanced,0.32,Zac Gallen,R,Power,1.25,1,0,system2
+2026-04-07,Citi Field,72,0,none,Arizona Diamondbacks,New York Mets,Bo Bichette,Run,0.384204,R,Balanced,0.32,Zac Gallen,R,Power,1.25,1,0,system2
+2026-04-07,Citi Field,72,0,none,Arizona Diamondbacks,New York Mets,Bo Bichette,RBI,0.238108,R,Balanced,0.32,Zac Gallen,R,Power,1.25,1,0,system2
+2026-04-07,Citi Field,72,0,none,Arizona Diamondbacks,New York Mets,Brett Baty,HR,0.138525,L,Balanced,0.32,Zac Gallen,R,Power,1.25,2,1,system2
+2026-04-07,Citi Field,72,0,none,Arizona Diamondbacks,New York Mets,Brett Baty,Hit,0.629313,L,Balanced,0.32,Zac Gallen,R,Power,1.25,2,1,system2
+2026-04-07,Citi Field,72,0,none,Arizona Diamondbacks,New York Mets,Brett Baty,TB,0.373088,L,Balanced,0.32,Zac Gallen,R,Power,1.25,2,1,system2
+2026-04-07,Citi Field,72,0,none,Arizona Diamondbacks,New York Mets,Brett Baty,Run,0.386022,L,Balanced,0.32,Zac Gallen,R,Power,1.25,2,1,system2
+2026-04-07,Citi Field,72,0,none,Arizona Diamondbacks,New York Mets,Brett Baty,RBI,0.276386,L,Balanced,0.32,Zac Gallen,R,Power,1.25,2,1,system2
+2026-04-07,Citi Field,72,0,none,Arizona Diamondbacks,New York Mets,Carson Benge,HR,0.150681,L,Balanced,0.32,Zac Gallen,R,Power,1.25,3,1,system2
+2026-04-07,Citi Field,72,0,none,Arizona Diamondbacks,New York Mets,Carson Benge,Hit,0.636009,L,Balanced,0.32,Zac Gallen,R,Power,1.25,3,1,system2
+2026-04-07,Citi Field,72,0,none,Arizona Diamondbacks,New York Mets,Carson Benge,TB,0.402048,L,Balanced,0.32,Zac Gallen,R,Power,1.25,3,1,system2
+2026-04-07,Citi Field,72,0,none,Arizona Diamondbacks,New York Mets,Carson Benge,Run,0.354336,L,Balanced,0.32,Zac Gallen,R,Power,1.25,3,1,system2
+2026-04-07,Citi Field,72,0,none,Arizona Diamondbacks,New York Mets,Carson Benge,RBI,0.283143,L,Balanced,0.32,Zac Gallen,R,Power,1.25,3,1,system2
+2026-04-07,Citi Field,72,0,none,Arizona Diamondbacks,New York Mets,Francisco Alvarez,HR,0.104023,R,Balanced,0.32,Zac Gallen,R,Power,1.25,4,0,system2
+2026-04-07,Citi Field,72,0,none,Arizona Diamondbacks,New York Mets,Francisco Alvarez,Hit,0.550986,R,Balanced,0.32,Zac Gallen,R,Power,1.25,4,0,system2
+2026-04-07,Citi Field,72,0,none,Arizona Diamondbacks,New York Mets,Francisco Alvarez,TB,0.342534,R,Balanced,0.32,Zac Gallen,R,Power,1.25,4,0,system2
+2026-04-07,Citi Field,72,0,none,Arizona Diamondbacks,New York Mets,Francisco Alvarez,Run,0.334439,R,Balanced,0.32,Zac Gallen,R,Power,1.25,4,0,system2
+2026-04-07,Citi Field,72,0,none,Arizona Diamondbacks,New York Mets,Francisco Alvarez,RBI,0.243106,R,Balanced,0.32,Zac Gallen,R,Power,1.25,4,0,system2
+2026-04-07,Citi Field,72,0,none,Arizona Diamondbacks,New York Mets,Francisco Lindor,HR,0.108605,S,Balanced,0.32,Zac Gallen,R,Power,1.25,5,1,system2
+2026-04-07,Citi Field,72,0,none,Arizona Diamondbacks,New York Mets,Francisco Lindor,Hit,0.548656,S,Balanced,0.32,Zac Gallen,R,Power,1.25,5,1,system2
+2026-04-07,Citi Field,72,0,none,Arizona Diamondbacks,New York Mets,Francisco Lindor,TB,0.316439,S,Balanced,0.32,Zac Gallen,R,Power,1.25,5,1,system2
+2026-04-07,Citi Field,72,0,none,Arizona Diamondbacks,New York Mets,Francisco Lindor,Run,0.325798,S,Balanced,0.32,Zac Gallen,R,Power,1.25,5,1,system2
+2026-04-07,Citi Field,72,0,none,Arizona Diamondbacks,New York Mets,Francisco Lindor,RBI,0.258081,S,Balanced,0.32,Zac Gallen,R,Power,1.25,5,1,system2
+2026-04-07,Citi Field,72,0,none,Arizona Diamondbacks,New York Mets,Jared Young,HR,0.119163,L,Balanced,0.32,Zac Gallen,R,Power,1.25,6,1,system2
+2026-04-07,Citi Field,72,0,none,Arizona Diamondbacks,New York Mets,Jared Young,Hit,0.556994,L,Balanced,0.32,Zac Gallen,R,Power,1.25,6,1,system2
+2026-04-07,Citi Field,72,0,none,Arizona Diamondbacks,New York Mets,Jared Young,TB,0.315807,L,Balanced,0.32,Zac Gallen,R,Power,1.25,6,1,system2
+2026-04-07,Citi Field,72,0,none,Arizona Diamondbacks,New York Mets,Jared Young,Run,0.32687,L,Balanced,0.32,Zac Gallen,R,Power,1.25,6,1,system2
+2026-04-07,Citi Field,72,0,none,Arizona Diamondbacks,New York Mets,Jared Young,RBI,0.25972,L,Balanced,0.32,Zac Gallen,R,Power,1.25,6,1,system2
+2026-04-07,Citi Field,72,0,none,Arizona Diamondbacks,New York Mets,Jorge Polanco,HR,0.094859,S,Balanced,0.32,Zac Gallen,R,Power,1.25,7,1,system2
+2026-04-07,Citi Field,72,0,none,Arizona Diamondbacks,New York Mets,Jorge Polanco,Hit,0.547565,S,Balanced,0.32,Zac Gallen,R,Power,1.25,7,1,system2
+2026-04-07,Citi Field,72,0,none,Arizona Diamondbacks,New York Mets,Jorge Polanco,TB,0.298709,S,Balanced,0.32,Zac Gallen,R,Power,1.25,7,1,system2
+2026-04-07,Citi Field,72,0,none,Arizona Diamondbacks,New York Mets,Jorge Polanco,Run,0.314792,S,Balanced,0.32,Zac Gallen,R,Power,1.25,7,1,system2
+2026-04-07,Citi Field,72,0,none,Arizona Diamondbacks,New York Mets,Jorge Polanco,RBI,0.237398,S,Balanced,0.32,Zac Gallen,R,Power,1.25,7,1,system2
+2026-04-07,Citi Field,72,0,none,Arizona Diamondbacks,New York Mets,Luis Robert Jr.,HR,0.143674,R,Balanced,0.32,Zac Gallen,R,Power,1.25,8,0,system2
+2026-04-07,Citi Field,72,0,none,Arizona Diamondbacks,New York Mets,Luis Robert Jr.,Hit,0.498212,R,Balanced,0.32,Zac Gallen,R,Power,1.25,8,0,system2
+2026-04-07,Citi Field,72,0,none,Arizona Diamondbacks,New York Mets,Luis Robert Jr.,TB,0.280793,R,Balanced,0.32,Zac Gallen,R,Power,1.25,8,0,system2
+2026-04-07,Citi Field,72,0,none,Arizona Diamondbacks,New York Mets,Luis Robert Jr.,Run,0.314786,R,Balanced,0.32,Zac Gallen,R,Power,1.25,8,0,system2
+2026-04-07,Citi Field,72,0,none,Arizona Diamondbacks,New York Mets,Luis Robert Jr.,RBI,0.212844,R,Balanced,0.32,Zac Gallen,R,Power,1.25,8,0,system2
+2026-04-07,Citi Field,72,0,none,Arizona Diamondbacks,New York Mets,Luis Torrens,HR,0.090998,R,Balanced,0.32,Zac Gallen,R,Power,1.25,9,0,system2
+2026-04-07,Citi Field,72,0,none,Arizona Diamondbacks,New York Mets,Luis Torrens,Hit,0.481665,R,Balanced,0.32,Zac Gallen,R,Power,1.25,9,0,system2
+2026-04-07,Citi Field,72,0,none,Arizona Diamondbacks,New York Mets,Luis Torrens,TB,0.208997,R,Balanced,0.32,Zac Gallen,R,Power,1.25,9,0,system2
+2026-04-07,Citi Field,72,0,none,Arizona Diamondbacks,New York Mets,Luis Torrens,Run,0.307088,R,Balanced,0.32,Zac Gallen,R,Power,1.25,9,0,system2
+2026-04-07,Citi Field,72,0,none,Arizona Diamondbacks,New York Mets,Luis Torrens,RBI,0.204687,R,Balanced,0.32,Zac Gallen,R,Power,1.25,9,0,system2
+2026-04-07,PNC Park,72,0,none,San Diego Padres,Pittsburgh Pirates,Bryce Johnson,HR,0.159921,S,Balanced,0.32,Paul Skenes,R,Power,1.25,1,1,system2
+2026-04-07,PNC Park,72,0,none,San Diego Padres,Pittsburgh Pirates,Bryce Johnson,Hit,0.638988,S,Balanced,0.32,Paul Skenes,R,Power,1.25,1,1,system2
+2026-04-07,PNC Park,72,0,none,San Diego Padres,Pittsburgh Pirates,Bryce Johnson,TB,0.419093,S,Balanced,0.32,Paul Skenes,R,Power,1.25,1,1,system2
+2026-04-07,PNC Park,72,0,none,San Diego Padres,Pittsburgh Pirates,Bryce Johnson,Run,0.426851,S,Balanced,0.32,Paul Skenes,R,Power,1.25,1,1,system2
+2026-04-07,PNC Park,72,0,none,San Diego Padres,Pittsburgh Pirates,Bryce Johnson,RBI,0.268846,S,Balanced,0.32,Paul Skenes,R,Power,1.25,1,1,system2
+2026-04-07,PNC Park,72,0,none,San Diego Padres,Pittsburgh Pirates,Fernando Tatis Jr.,HR,0.115891,R,Balanced,0.32,Paul Skenes,R,Power,1.25,2,0,system2
+2026-04-07,PNC Park,72,0,none,San Diego Padres,Pittsburgh Pirates,Fernando Tatis Jr.,Hit,0.553973,R,Balanced,0.32,Paul Skenes,R,Power,1.25,2,0,system2
+2026-04-07,PNC Park,72,0,none,San Diego Padres,Pittsburgh Pirates,Fernando Tatis Jr.,TB,0.324739,R,Balanced,0.32,Paul Skenes,R,Power,1.25,2,0,system2
+2026-04-07,PNC Park,72,0,none,San Diego Padres,Pittsburgh Pirates,Fernando Tatis Jr.,Run,0.360721,R,Balanced,0.32,Paul Skenes,R,Power,1.25,2,0,system2
+2026-04-07,PNC Park,72,0,none,San Diego Padres,Pittsburgh Pirates,Fernando Tatis Jr.,RBI,0.244478,R,Balanced,0.32,Paul Skenes,R,Power,1.25,2,0,system2
+2026-04-07,PNC Park,72,0,none,San Diego Padres,Pittsburgh Pirates,Freddy Fermin,HR,0.121685,R,Balanced,0.32,Paul Skenes,R,Power,1.25,3,0,system2
+2026-04-07,PNC Park,72,0,none,San Diego Padres,Pittsburgh Pirates,Freddy Fermin,Hit,0.562686,R,Balanced,0.32,Paul Skenes,R,Power,1.25,3,0,system2
+2026-04-07,PNC Park,72,0,none,San Diego Padres,Pittsburgh Pirates,Freddy Fermin,TB,0.330765,R,Balanced,0.32,Paul Skenes,R,Power,1.25,3,0,system2
+2026-04-07,PNC Park,72,0,none,San Diego Padres,Pittsburgh Pirates,Freddy Fermin,Run,0.326314,R,Balanced,0.32,Paul Skenes,R,Power,1.25,3,0,system2
+2026-04-07,PNC Park,72,0,none,San Diego Padres,Pittsburgh Pirates,Freddy Fermin,RBI,0.247821,R,Balanced,0.32,Paul Skenes,R,Power,1.25,3,0,system2
+2026-04-07,PNC Park,72,0,none,San Diego Padres,Pittsburgh Pirates,Gavin Sheets,HR,0.13969,L,Balanced,0.32,Paul Skenes,R,Power,1.25,4,1,system2
+2026-04-07,PNC Park,72,0,none,San Diego Padres,Pittsburgh Pirates,Gavin Sheets,Hit,0.593464,L,Balanced,0.32,Paul Skenes,R,Power,1.25,4,1,system2
+2026-04-07,PNC Park,72,0,none,San Diego Padres,Pittsburgh Pirates,Gavin Sheets,TB,0.354556,L,Balanced,0.32,Paul Skenes,R,Power,1.25,4,1,system2
+2026-04-07,PNC Park,72,0,none,San Diego Padres,Pittsburgh Pirates,Gavin Sheets,Run,0.356044,L,Balanced,0.32,Paul Skenes,R,Power,1.25,4,1,system2
+2026-04-07,PNC Park,72,0,none,San Diego Padres,Pittsburgh Pirates,Gavin Sheets,RBI,0.272421,L,Balanced,0.32,Paul Skenes,R,Power,1.25,4,1,system2
+2026-04-07,PNC Park,72,0,none,San Diego Padres,Pittsburgh Pirates,Jackson Merrill,HR,0.106533,L,Balanced,0.32,Paul Skenes,R,Power,1.25,5,1,system2
+2026-04-07,PNC Park,72,0,none,San Diego Padres,Pittsburgh Pirates,Jackson Merrill,Hit,0.55149,L,Balanced,0.32,Paul Skenes,R,Power,1.25,5,1,system2
+2026-04-07,PNC Park,72,0,none,San Diego Padres,Pittsburgh Pirates,Jackson Merrill,TB,0.343274,L,Balanced,0.32,Paul Skenes,R,Power,1.25,5,1,system2
+2026-04-07,PNC Park,72,0,none,San Diego Padres,Pittsburgh Pirates,Jackson Merrill,Run,0.325076,L,Balanced,0.32,Paul Skenes,R,Power,1.25,5,1,system2
+2026-04-07,PNC Park,72,0,none,San Diego Padres,Pittsburgh Pirates,Jackson Merrill,RBI,0.261417,L,Balanced,0.32,Paul Skenes,R,Power,1.25,5,1,system2
+2026-04-07,PNC Park,72,0,none,San Diego Padres,Pittsburgh Pirates,Jake Cronenworth,HR,0.105074,L,Balanced,0.32,Paul Skenes,R,Power,1.25,6,1,system2
+2026-04-07,PNC Park,72,0,none,San Diego Padres,Pittsburgh Pirates,Jake Cronenworth,Hit,0.550688,L,Balanced,0.32,Paul Skenes,R,Power,1.25,6,1,system2
+2026-04-07,PNC Park,72,0,none,San Diego Padres,Pittsburgh Pirates,Jake Cronenworth,TB,0.319556,L,Balanced,0.32,Paul Skenes,R,Power,1.25,6,1,system2
+2026-04-07,PNC Park,72,0,none,San Diego Padres,Pittsburgh Pirates,Jake Cronenworth,Run,0.329951,L,Balanced,0.32,Paul Skenes,R,Power,1.25,6,1,system2
+2026-04-07,PNC Park,72,0,none,San Diego Padres,Pittsburgh Pirates,Jake Cronenworth,RBI,0.232621,L,Balanced,0.32,Paul Skenes,R,Power,1.25,6,1,system2
+2026-04-07,PNC Park,72,0,none,San Diego Padres,Pittsburgh Pirates,Luis Campusano,HR,0.128655,R,Balanced,0.32,Paul Skenes,R,Power,1.25,7,0,system2
+2026-04-07,PNC Park,72,0,none,San Diego Padres,Pittsburgh Pirates,Luis Campusano,Hit,0.531353,R,Balanced,0.32,Paul Skenes,R,Power,1.25,7,0,system2
+2026-04-07,PNC Park,72,0,none,San Diego Padres,Pittsburgh Pirates,Luis Campusano,TB,0.288695,R,Balanced,0.32,Paul Skenes,R,Power,1.25,7,0,system2
+2026-04-07,PNC Park,72,0,none,San Diego Padres,Pittsburgh Pirates,Luis Campusano,Run,0.310211,R,Balanced,0.32,Paul Skenes,R,Power,1.25,7,0,system2
+2026-04-07,PNC Park,72,0,none,San Diego Padres,Pittsburgh Pirates,Luis Campusano,RBI,0.215475,R,Balanced,0.32,Paul Skenes,R,Power,1.25,7,0,system2
+2026-04-07,PNC Park,72,0,none,San Diego Padres,Pittsburgh Pirates,Manny Machado,HR,0.082399,R,Balanced,0.32,Paul Skenes,R,Power,1.25,8,0,system2
+2026-04-07,PNC Park,72,0,none,San Diego Padres,Pittsburgh Pirates,Manny Machado,Hit,0.523518,R,Balanced,0.32,Paul Skenes,R,Power,1.25,8,0,system2
+2026-04-07,PNC Park,72,0,none,San Diego Padres,Pittsburgh Pirates,Manny Machado,TB,0.287086,R,Balanced,0.32,Paul Skenes,R,Power,1.25,8,0,system2
+2026-04-07,PNC Park,72,0,none,San Diego Padres,Pittsburgh Pirates,Manny Machado,Run,0.286318,R,Balanced,0.32,Paul Skenes,R,Power,1.25,8,0,system2
+2026-04-07,PNC Park,72,0,none,San Diego Padres,Pittsburgh Pirates,Manny Machado,RBI,0.222943,R,Balanced,0.32,Paul Skenes,R,Power,1.25,8,0,system2
+2026-04-07,PNC Park,72,0,none,San Diego Padres,Pittsburgh Pirates,Miguel Andujar,HR,0.090998,R,Balanced,0.32,Paul Skenes,R,Power,1.25,9,0,system2
+2026-04-07,PNC Park,72,0,none,San Diego Padres,Pittsburgh Pirates,Miguel Andujar,Hit,0.493885,R,Balanced,0.32,Paul Skenes,R,Power,1.25,9,0,system2
+2026-04-07,PNC Park,72,0,none,San Diego Padres,Pittsburgh Pirates,Miguel Andujar,TB,0.274391,R,Balanced,0.32,Paul Skenes,R,Power,1.25,9,0,system2
+2026-04-07,PNC Park,72,0,none,San Diego Padres,Pittsburgh Pirates,Miguel Andujar,Run,0.268329,R,Balanced,0.32,Paul Skenes,R,Power,1.25,9,0,system2
+2026-04-07,PNC Park,72,0,none,San Diego Padres,Pittsburgh Pirates,Miguel Andujar,RBI,0.205688,R,Balanced,0.32,Paul Skenes,R,Power,1.25,9,0,system2
+2026-04-07,PNC Park,72,0,none,San Diego Padres,Pittsburgh Pirates,Billy Cook,HR,0.130601,R,Balanced,0.32,Nick Pivetta,R,Power,1.25,1,0,system2
+2026-04-07,PNC Park,72,0,none,San Diego Padres,Pittsburgh Pirates,Billy Cook,Hit,0.605827,R,Balanced,0.32,Nick Pivetta,R,Power,1.25,1,0,system2
+2026-04-07,PNC Park,72,0,none,San Diego Padres,Pittsburgh Pirates,Billy Cook,TB,0.373807,R,Balanced,0.32,Nick Pivetta,R,Power,1.25,1,0,system2
+2026-04-07,PNC Park,72,0,none,San Diego Padres,Pittsburgh Pirates,Billy Cook,Run,0.402448,R,Balanced,0.32,Nick Pivetta,R,Power,1.25,1,0,system2
+2026-04-07,PNC Park,72,0,none,San Diego Padres,Pittsburgh Pirates,Billy Cook,RBI,0.241033,R,Balanced,0.32,Nick Pivetta,R,Power,1.25,1,0,system2
+2026-04-07,PNC Park,72,0,none,San Diego Padres,Pittsburgh Pirates,Brandon Lowe,HR,0.129083,L,Balanced,0.32,Nick Pivetta,R,Power,1.25,2,1,system2
+2026-04-07,PNC Park,72,0,none,San Diego Padres,Pittsburgh Pirates,Brandon Lowe,Hit,0.630237,L,Balanced,0.32,Nick Pivetta,R,Power,1.25,2,1,system2
+2026-04-07,PNC Park,72,0,none,San Diego Padres,Pittsburgh Pirates,Brandon Lowe,TB,0.373088,L,Balanced,0.32,Nick Pivetta,R,Power,1.25,2,1,system2
+2026-04-07,PNC Park,72,0,none,San Diego Padres,Pittsburgh Pirates,Brandon Lowe,Run,0.366695,L,Balanced,0.32,Nick Pivetta,R,Power,1.25,2,1,system2
+2026-04-07,PNC Park,72,0,none,San Diego Padres,Pittsburgh Pirates,Brandon Lowe,RBI,0.254227,L,Balanced,0.32,Nick Pivetta,R,Power,1.25,2,1,system2
+2026-04-07,PNC Park,72,0,none,San Diego Padres,Pittsburgh Pirates,Bryan Reynolds,HR,0.12972,S,Balanced,0.32,Nick Pivetta,R,Power,1.25,3,1,system2
+2026-04-07,PNC Park,72,0,none,San Diego Padres,Pittsburgh Pirates,Bryan Reynolds,Hit,0.621119,S,Balanced,0.32,Nick Pivetta,R,Power,1.25,3,1,system2
+2026-04-07,PNC Park,72,0,none,San Diego Padres,Pittsburgh Pirates,Bryan Reynolds,TB,0.359165,S,Balanced,0.32,Nick Pivetta,R,Power,1.25,3,1,system2
+2026-04-07,PNC Park,72,0,none,San Diego Padres,Pittsburgh Pirates,Bryan Reynolds,Run,0.327062,S,Balanced,0.32,Nick Pivetta,R,Power,1.25,3,1,system2
+2026-04-07,PNC Park,72,0,none,San Diego Padres,Pittsburgh Pirates,Bryan Reynolds,RBI,0.27326,S,Balanced,0.32,Nick Pivetta,R,Power,1.25,3,1,system2
+2026-04-07,PNC Park,72,0,none,San Diego Padres,Pittsburgh Pirates,Henry Davis,HR,0.109982,R,Balanced,0.32,Nick Pivetta,R,Power,1.25,4,0,system2
+2026-04-07,PNC Park,72,0,none,San Diego Padres,Pittsburgh Pirates,Henry Davis,Hit,0.549535,R,Balanced,0.32,Nick Pivetta,R,Power,1.25,4,0,system2
+2026-04-07,PNC Park,72,0,none,San Diego Padres,Pittsburgh Pirates,Henry Davis,TB,0.338771,R,Balanced,0.32,Nick Pivetta,R,Power,1.25,4,0,system2
+2026-04-07,PNC Park,72,0,none,San Diego Padres,Pittsburgh Pirates,Henry Davis,Run,0.323948,R,Balanced,0.32,Nick Pivetta,R,Power,1.25,4,0,system2
+2026-04-07,PNC Park,72,0,none,San Diego Padres,Pittsburgh Pirates,Henry Davis,RBI,0.246227,R,Balanced,0.32,Nick Pivetta,R,Power,1.25,4,0,system2
+2026-04-07,PNC Park,72,0,none,San Diego Padres,Pittsburgh Pirates,Jake Mangum,HR,0.108605,S,Balanced,0.32,Nick Pivetta,R,Power,1.25,5,1,system2
+2026-04-07,PNC Park,72,0,none,San Diego Padres,Pittsburgh Pirates,Jake Mangum,Hit,0.55149,S,Balanced,0.32,Nick Pivetta,R,Power,1.25,5,1,system2
+2026-04-07,PNC Park,72,0,none,San Diego Padres,Pittsburgh Pirates,Jake Mangum,TB,0.347448,S,Balanced,0.32,Nick Pivetta,R,Power,1.25,5,1,system2
+2026-04-07,PNC Park,72,0,none,San Diego Padres,Pittsburgh Pirates,Jake Mangum,Run,0.325798,S,Balanced,0.32,Nick Pivetta,R,Power,1.25,5,1,system2
+2026-04-07,PNC Park,72,0,none,San Diego Padres,Pittsburgh Pirates,Jake Mangum,RBI,0.244056,S,Balanced,0.32,Nick Pivetta,R,Power,1.25,5,1,system2
+2026-04-07,PNC Park,72,0,none,San Diego Padres,Pittsburgh Pirates,Joey Bart,HR,0.114638,R,Balanced,0.32,Nick Pivetta,R,Power,1.25,6,0,system2
+2026-04-07,PNC Park,72,0,none,San Diego Padres,Pittsburgh Pirates,Joey Bart,Hit,0.530428,R,Balanced,0.32,Nick Pivetta,R,Power,1.25,6,0,system2
+2026-04-07,PNC Park,72,0,none,San Diego Padres,Pittsburgh Pirates,Joey Bart,TB,0.329847,R,Balanced,0.32,Nick Pivetta,R,Power,1.25,6,0,system2
+2026-04-07,PNC Park,72,0,none,San Diego Padres,Pittsburgh Pirates,Joey Bart,Run,0.31373,R,Balanced,0.32,Nick Pivetta,R,Power,1.25,6,0,system2
+2026-04-07,PNC Park,72,0,none,San Diego Padres,Pittsburgh Pirates,Joey Bart,RBI,0.234255,R,Balanced,0.32,Nick Pivetta,R,Power,1.25,6,0,system2
+2026-04-07,PNC Park,72,0,none,San Diego Padres,Pittsburgh Pirates,Konnor Griffin,HR,0.084921,R,Balanced,0.32,Nick Pivetta,R,Power,1.25,7,0,system2
+2026-04-07,PNC Park,72,0,none,San Diego Padres,Pittsburgh Pirates,Konnor Griffin,Hit,0.510022,R,Balanced,0.32,Nick Pivetta,R,Power,1.25,7,0,system2
+2026-04-07,PNC Park,72,0,none,San Diego Padres,Pittsburgh Pirates,Konnor Griffin,TB,0.289705,R,Balanced,0.32,Nick Pivetta,R,Power,1.25,7,0,system2
+2026-04-07,PNC Park,72,0,none,San Diego Padres,Pittsburgh Pirates,Konnor Griffin,Run,0.30877,R,Balanced,0.32,Nick Pivetta,R,Power,1.25,7,0,system2
+2026-04-07,PNC Park,72,0,none,San Diego Padres,Pittsburgh Pirates,Konnor Griffin,RBI,0.21937,R,Balanced,0.32,Nick Pivetta,R,Power,1.25,7,0,system2
+2026-04-07,PNC Park,72,0,none,San Diego Padres,Pittsburgh Pirates,Marcell Ozuna,HR,0.095897,R,Balanced,0.32,Nick Pivetta,R,Power,1.25,8,0,system2
+2026-04-07,PNC Park,72,0,none,San Diego Padres,Pittsburgh Pirates,Marcell Ozuna,Hit,0.53052,R,Balanced,0.32,Nick Pivetta,R,Power,1.25,8,0,system2
+2026-04-07,PNC Park,72,0,none,San Diego Padres,Pittsburgh Pirates,Marcell Ozuna,TB,0.27604,R,Balanced,0.32,Nick Pivetta,R,Power,1.25,8,0,system2
+2026-04-07,PNC Park,72,0,none,San Diego Padres,Pittsburgh Pirates,Marcell Ozuna,Run,0.314786,R,Balanced,0.32,Nick Pivetta,R,Power,1.25,8,0,system2
+2026-04-07,PNC Park,72,0,none,San Diego Padres,Pittsburgh Pirates,Marcell Ozuna,RBI,0.22005,R,Balanced,0.32,Nick Pivetta,R,Power,1.25,8,0,system2
+2026-04-07,PNC Park,72,0,none,San Diego Padres,Pittsburgh Pirates,Nick Gonzales,HR,0.093275,R,Balanced,0.32,Nick Pivetta,R,Power,1.25,9,0,system2
+2026-04-07,PNC Park,72,0,none,San Diego Padres,Pittsburgh Pirates,Nick Gonzales,Hit,0.481665,R,Balanced,0.32,Nick Pivetta,R,Power,1.25,9,0,system2
+2026-04-07,PNC Park,72,0,none,San Diego Padres,Pittsburgh Pirates,Nick Gonzales,TB,0.274391,R,Balanced,0.32,Nick Pivetta,R,Power,1.25,9,0,system2
+2026-04-07,PNC Park,72,0,none,San Diego Padres,Pittsburgh Pirates,Nick Gonzales,Run,0.306803,R,Balanced,0.32,Nick Pivetta,R,Power,1.25,9,0,system2
+2026-04-07,PNC Park,72,0,none,San Diego Padres,Pittsburgh Pirates,Nick Gonzales,RBI,0.213737,R,Balanced,0.32,Nick Pivetta,R,Power,1.25,9,0,system2
+2026-04-07,Tropicana Field,72,0,none,Chicago Cubs,Tampa Bay Rays,Alex Bregman,HR,0.132568,R,Balanced,0.32,Mason Englert,R,Power,1.25,1,0,system2
+2026-04-07,Tropicana Field,72,0,none,Chicago Cubs,Tampa Bay Rays,Alex Bregman,Hit,0.610354,R,Balanced,0.32,Mason Englert,R,Power,1.25,1,0,system2
+2026-04-07,Tropicana Field,72,0,none,Chicago Cubs,Tampa Bay Rays,Alex Bregman,TB,0.360746,R,Balanced,0.32,Mason Englert,R,Power,1.25,1,0,system2
+2026-04-07,Tropicana Field,72,0,none,Chicago Cubs,Tampa Bay Rays,Alex Bregman,Run,0.360489,R,Balanced,0.32,Mason Englert,R,Power,1.25,1,0,system2
+2026-04-07,Tropicana Field,72,0,none,Chicago Cubs,Tampa Bay Rays,Alex Bregman,RBI,0.241613,R,Balanced,0.32,Mason Englert,R,Power,1.25,1,0,system2
+2026-04-07,Tropicana Field,72,0,none,Chicago Cubs,Tampa Bay Rays,Carson Kelly,HR,0.124062,R,Balanced,0.32,Mason Englert,R,Power,1.25,2,0,system2
+2026-04-07,Tropicana Field,72,0,none,Chicago Cubs,Tampa Bay Rays,Carson Kelly,Hit,0.56806,R,Balanced,0.32,Mason Englert,R,Power,1.25,2,0,system2
+2026-04-07,Tropicana Field,72,0,none,Chicago Cubs,Tampa Bay Rays,Carson Kelly,TB,0.345909,R,Balanced,0.32,Mason Englert,R,Power,1.25,2,0,system2
+2026-04-07,Tropicana Field,72,0,none,Chicago Cubs,Tampa Bay Rays,Carson Kelly,Run,0.360721,R,Balanced,0.32,Mason Englert,R,Power,1.25,2,0,system2
+2026-04-07,Tropicana Field,72,0,none,Chicago Cubs,Tampa Bay Rays,Carson Kelly,RBI,0.243893,R,Balanced,0.32,Mason Englert,R,Power,1.25,2,0,system2
+2026-04-07,Tropicana Field,72,0,none,Chicago Cubs,Tampa Bay Rays,Dansby Swanson,HR,0.115395,R,Balanced,0.32,Mason Englert,R,Power,1.25,3,0,system2
+2026-04-07,Tropicana Field,72,0,none,Chicago Cubs,Tampa Bay Rays,Dansby Swanson,Hit,0.570469,R,Balanced,0.32,Mason Englert,R,Power,1.25,3,0,system2
+2026-04-07,Tropicana Field,72,0,none,Chicago Cubs,Tampa Bay Rays,Dansby Swanson,TB,0.354723,R,Balanced,0.32,Mason Englert,R,Power,1.25,3,0,system2
+2026-04-07,Tropicana Field,72,0,none,Chicago Cubs,Tampa Bay Rays,Dansby Swanson,Run,0.339614,R,Balanced,0.32,Mason Englert,R,Power,1.25,3,0,system2
+2026-04-07,Tropicana Field,72,0,none,Chicago Cubs,Tampa Bay Rays,Dansby Swanson,RBI,0.283143,R,Balanced,0.32,Mason Englert,R,Power,1.25,3,0,system2
+2026-04-07,Tropicana Field,72,0,none,Chicago Cubs,Tampa Bay Rays,Dylan Carlson,HR,0.121301,S,Balanced,0.32,Mason Englert,R,Power,1.25,4,1,system2
+2026-04-07,Tropicana Field,72,0,none,Chicago Cubs,Tampa Bay Rays,Dylan Carlson,Hit,0.592555,S,Balanced,0.32,Mason Englert,R,Power,1.25,4,1,system2
+2026-04-07,Tropicana Field,72,0,none,Chicago Cubs,Tampa Bay Rays,Dylan Carlson,TB,0.369094,S,Balanced,0.32,Mason Englert,R,Power,1.25,4,1,system2
+2026-04-07,Tropicana Field,72,0,none,Chicago Cubs,Tampa Bay Rays,Dylan Carlson,Run,0.37394,S,Balanced,0.32,Mason Englert,R,Power,1.25,4,1,system2
+2026-04-07,Tropicana Field,72,0,none,Chicago Cubs,Tampa Bay Rays,Dylan Carlson,RBI,0.272421,S,Balanced,0.32,Mason Englert,R,Power,1.25,4,1,system2
+2026-04-07,Tropicana Field,72,0,none,Chicago Cubs,Tampa Bay Rays,Ian Happ,HR,0.119603,S,Balanced,0.32,Mason Englert,R,Power,1.25,5,1,system2
+2026-04-07,Tropicana Field,72,0,none,Chicago Cubs,Tampa Bay Rays,Ian Happ,Hit,0.570639,S,Balanced,0.32,Mason Englert,R,Power,1.25,5,1,system2
+2026-04-07,Tropicana Field,72,0,none,Chicago Cubs,Tampa Bay Rays,Ian Happ,TB,0.359324,S,Balanced,0.32,Mason Englert,R,Power,1.25,5,1,system2
+2026-04-07,Tropicana Field,72,0,none,Chicago Cubs,Tampa Bay Rays,Ian Happ,Run,0.357146,S,Balanced,0.32,Mason Englert,R,Power,1.25,5,1,system2
+2026-04-07,Tropicana Field,72,0,none,Chicago Cubs,Tampa Bay Rays,Ian Happ,RBI,0.25126,S,Balanced,0.32,Mason Englert,R,Power,1.25,5,1,system2
+2026-04-07,Tropicana Field,72,0,none,Chicago Cubs,Tampa Bay Rays,Matt Shaw,HR,0.085309,R,Balanced,0.32,Mason Englert,R,Power,1.25,6,0,system2
+2026-04-07,Tropicana Field,72,0,none,Chicago Cubs,Tampa Bay Rays,Matt Shaw,Hit,0.552789,R,Balanced,0.32,Mason Englert,R,Power,1.25,6,0,system2
+2026-04-07,Tropicana Field,72,0,none,Chicago Cubs,Tampa Bay Rays,Matt Shaw,TB,0.33686,R,Balanced,0.32,Mason Englert,R,Power,1.25,6,0,system2
+2026-04-07,Tropicana Field,72,0,none,Chicago Cubs,Tampa Bay Rays,Matt Shaw,Run,0.31373,R,Balanced,0.32,Mason Englert,R,Power,1.25,6,0,system2
+2026-04-07,Tropicana Field,72,0,none,Chicago Cubs,Tampa Bay Rays,Matt Shaw,RBI,0.235033,R,Balanced,0.32,Mason Englert,R,Power,1.25,6,0,system2
+2026-04-07,Tropicana Field,72,0,none,Chicago Cubs,Tampa Bay Rays,Michael Busch,HR,0.118657,L,Balanced,0.32,Mason Englert,R,Power,1.25,7,1,system2
+2026-04-07,Tropicana Field,72,0,none,Chicago Cubs,Tampa Bay Rays,Michael Busch,Hit,0.534278,L,Balanced,0.32,Mason Englert,R,Power,1.25,7,1,system2
+2026-04-07,Tropicana Field,72,0,none,Chicago Cubs,Tampa Bay Rays,Michael Busch,TB,0.307255,L,Balanced,0.32,Mason Englert,R,Power,1.25,7,1,system2
+2026-04-07,Tropicana Field,72,0,none,Chicago Cubs,Tampa Bay Rays,Michael Busch,Run,0.324855,L,Balanced,0.32,Mason Englert,R,Power,1.25,7,1,system2
+2026-04-07,Tropicana Field,72,0,none,Chicago Cubs,Tampa Bay Rays,Michael Busch,RBI,0.216632,L,Balanced,0.32,Mason Englert,R,Power,1.25,7,1,system2
+2026-04-07,Tropicana Field,72,0,none,Chicago Cubs,Tampa Bay Rays,Michael Conforto,HR,0.104303,L,Balanced,0.32,Mason Englert,R,Power,1.25,8,1,system2
+2026-04-07,Tropicana Field,72,0,none,Chicago Cubs,Tampa Bay Rays,Michael Conforto,Hit,0.534092,L,Balanced,0.32,Mason Englert,R,Power,1.25,8,1,system2
+2026-04-07,Tropicana Field,72,0,none,Chicago Cubs,Tampa Bay Rays,Michael Conforto,TB,0.29229,L,Balanced,0.32,Mason Englert,R,Power,1.25,8,1,system2
+2026-04-07,Tropicana Field,72,0,none,Chicago Cubs,Tampa Bay Rays,Michael Conforto,Run,0.314786,L,Balanced,0.32,Mason Englert,R,Power,1.25,8,1,system2
+2026-04-07,Tropicana Field,72,0,none,Chicago Cubs,Tampa Bay Rays,Michael Conforto,RBI,0.230343,L,Balanced,0.32,Mason Englert,R,Power,1.25,8,1,system2
+2026-04-07,Tropicana Field,72,0,none,Chicago Cubs,Tampa Bay Rays,Miguel Amaya,HR,0.097448,R,Balanced,0.32,Mason Englert,R,Power,1.25,9,0,system2
+2026-04-07,Tropicana Field,72,0,none,Chicago Cubs,Tampa Bay Rays,Miguel Amaya,Hit,0.477994,R,Balanced,0.32,Mason Englert,R,Power,1.25,9,0,system2
+2026-04-07,Tropicana Field,72,0,none,Chicago Cubs,Tampa Bay Rays,Miguel Amaya,TB,0.275045,R,Balanced,0.32,Mason Englert,R,Power,1.25,9,0,system2
+2026-04-07,Tropicana Field,72,0,none,Chicago Cubs,Tampa Bay Rays,Miguel Amaya,Run,0.264073,R,Balanced,0.32,Mason Englert,R,Power,1.25,9,0,system2
+2026-04-07,Tropicana Field,72,0,none,Chicago Cubs,Tampa Bay Rays,Miguel Amaya,RBI,0.219656,R,Balanced,0.32,Mason Englert,R,Power,1.25,9,0,system2
+2026-04-07,Tropicana Field,72,0,none,Chicago Cubs,Tampa Bay Rays,Ben Williamson,HR,0.117162,R,Balanced,0.32,Javier Assad,R,Power,1.25,1,0,system2
+2026-04-07,Tropicana Field,72,0,none,Chicago Cubs,Tampa Bay Rays,Ben Williamson,Hit,0.602555,R,Balanced,0.32,Javier Assad,R,Power,1.25,1,0,system2
+2026-04-07,Tropicana Field,72,0,none,Chicago Cubs,Tampa Bay Rays,Ben Williamson,TB,0.354216,R,Balanced,0.32,Javier Assad,R,Power,1.25,1,0,system2
+2026-04-07,Tropicana Field,72,0,none,Chicago Cubs,Tampa Bay Rays,Ben Williamson,Run,0.3684,R,Balanced,0.32,Javier Assad,R,Power,1.25,1,0,system2
+2026-04-07,Tropicana Field,72,0,none,Chicago Cubs,Tampa Bay Rays,Ben Williamson,RBI,0.238579,R,Balanced,0.32,Javier Assad,R,Power,1.25,1,0,system2
+2026-04-07,Tropicana Field,72,0,none,Chicago Cubs,Tampa Bay Rays,Cedric Mullins,HR,0.115891,L,Balanced,0.32,Javier Assad,R,Power,1.25,2,1,system2
+2026-04-07,Tropicana Field,72,0,none,Chicago Cubs,Tampa Bay Rays,Cedric Mullins,Hit,0.622758,L,Balanced,0.32,Javier Assad,R,Power,1.25,2,1,system2
+2026-04-07,Tropicana Field,72,0,none,Chicago Cubs,Tampa Bay Rays,Cedric Mullins,TB,0.392854,L,Balanced,0.32,Javier Assad,R,Power,1.25,2,1,system2
+2026-04-07,Tropicana Field,72,0,none,Chicago Cubs,Tampa Bay Rays,Cedric Mullins,Run,0.366695,L,Balanced,0.32,Javier Assad,R,Power,1.25,2,1,system2
+2026-04-07,Tropicana Field,72,0,none,Chicago Cubs,Tampa Bay Rays,Cedric Mullins,RBI,0.256065,L,Balanced,0.32,Javier Assad,R,Power,1.25,2,1,system2
+2026-04-07,Tropicana Field,72,0,none,Chicago Cubs,Tampa Bay Rays,Chandler Simpson,HR,0.137949,L,Balanced,0.32,Javier Assad,R,Power,1.25,3,1,system2
+2026-04-07,Tropicana Field,72,0,none,Chicago Cubs,Tampa Bay Rays,Chandler Simpson,Hit,0.630349,L,Balanced,0.32,Javier Assad,R,Power,1.25,3,1,system2
+2026-04-07,Tropicana Field,72,0,none,Chicago Cubs,Tampa Bay Rays,Chandler Simpson,TB,0.351,L,Balanced,0.32,Javier Assad,R,Power,1.25,3,1,system2
+2026-04-07,Tropicana Field,72,0,none,Chicago Cubs,Tampa Bay Rays,Chandler Simpson,Run,0.363087,L,Balanced,0.32,Javier Assad,R,Power,1.25,3,1,system2
+2026-04-07,Tropicana Field,72,0,none,Chicago Cubs,Tampa Bay Rays,Chandler Simpson,RBI,0.27756,L,Balanced,0.32,Javier Assad,R,Power,1.25,3,1,system2
+2026-04-07,Tropicana Field,72,0,none,Chicago Cubs,Tampa Bay Rays,Hunter Feduccia,HR,0.1112,L,Balanced,0.32,Javier Assad,R,Power,1.25,4,1,system2
+2026-04-07,Tropicana Field,72,0,none,Chicago Cubs,Tampa Bay Rays,Hunter Feduccia,Hit,0.572802,L,Balanced,0.32,Javier Assad,R,Power,1.25,4,1,system2
+2026-04-07,Tropicana Field,72,0,none,Chicago Cubs,Tampa Bay Rays,Hunter Feduccia,TB,0.346586,L,Balanced,0.32,Javier Assad,R,Power,1.25,4,1,system2
+2026-04-07,Tropicana Field,72,0,none,Chicago Cubs,Tampa Bay Rays,Hunter Feduccia,Run,0.352,L,Balanced,0.32,Javier Assad,R,Power,1.25,4,1,system2
+2026-04-07,Tropicana Field,72,0,none,Chicago Cubs,Tampa Bay Rays,Hunter Feduccia,RBI,0.272421,L,Balanced,0.32,Javier Assad,R,Power,1.25,4,1,system2
+2026-04-07,Tropicana Field,72,0,none,Chicago Cubs,Tampa Bay Rays,Jake Fraley,HR,0.107413,L,Balanced,0.32,Javier Assad,R,Power,1.25,5,1,system2
+2026-04-07,Tropicana Field,72,0,none,Chicago Cubs,Tampa Bay Rays,Jake Fraley,Hit,0.570639,L,Balanced,0.32,Javier Assad,R,Power,1.25,5,1,system2
+2026-04-07,Tropicana Field,72,0,none,Chicago Cubs,Tampa Bay Rays,Jake Fraley,TB,0.340866,L,Balanced,0.32,Javier Assad,R,Power,1.25,5,1,system2
+2026-04-07,Tropicana Field,72,0,none,Chicago Cubs,Tampa Bay Rays,Jake Fraley,Run,0.318138,L,Balanced,0.32,Javier Assad,R,Power,1.25,5,1,system2
+2026-04-07,Tropicana Field,72,0,none,Chicago Cubs,Tampa Bay Rays,Jake Fraley,RBI,0.261417,L,Balanced,0.32,Javier Assad,R,Power,1.25,5,1,system2
+2026-04-07,Tropicana Field,72,0,none,Chicago Cubs,Tampa Bay Rays,Jonathan Aranda,HR,0.107012,L,Balanced,0.32,Javier Assad,R,Power,1.25,6,1,system2
+2026-04-07,Tropicana Field,72,0,none,Chicago Cubs,Tampa Bay Rays,Jonathan Aranda,Hit,0.554712,L,Balanced,0.32,Javier Assad,R,Power,1.25,6,1,system2
+2026-04-07,Tropicana Field,72,0,none,Chicago Cubs,Tampa Bay Rays,Jonathan Aranda,TB,0.32342,L,Balanced,0.32,Javier Assad,R,Power,1.25,6,1,system2
+2026-04-07,Tropicana Field,72,0,none,Chicago Cubs,Tampa Bay Rays,Jonathan Aranda,Run,0.329951,L,Balanced,0.32,Javier Assad,R,Power,1.25,6,1,system2
+2026-04-07,Tropicana Field,72,0,none,Chicago Cubs,Tampa Bay Rays,Jonathan Aranda,RBI,0.232621,L,Balanced,0.32,Javier Assad,R,Power,1.25,6,1,system2
+2026-04-07,Tropicana Field,72,0,none,Chicago Cubs,Tampa Bay Rays,Jonny DeLuca,HR,0.083934,R,Balanced,0.32,Javier Assad,R,Power,1.25,7,0,system2
+2026-04-07,Tropicana Field,72,0,none,Chicago Cubs,Tampa Bay Rays,Jonny DeLuca,Hit,0.525878,R,Balanced,0.32,Javier Assad,R,Power,1.25,7,0,system2
+2026-04-07,Tropicana Field,72,0,none,Chicago Cubs,Tampa Bay Rays,Jonny DeLuca,TB,0.2989,R,Balanced,0.32,Javier Assad,R,Power,1.25,7,0,system2
+2026-04-07,Tropicana Field,72,0,none,Chicago Cubs,Tampa Bay Rays,Jonny DeLuca,Run,0.311759,R,Balanced,0.32,Javier Assad,R,Power,1.25,7,0,system2
+2026-04-07,Tropicana Field,72,0,none,Chicago Cubs,Tampa Bay Rays,Jonny DeLuca,RBI,0.220707,R,Balanced,0.32,Javier Assad,R,Power,1.25,7,0,system2
+2026-04-07,Tropicana Field,72,0,none,Chicago Cubs,Tampa Bay Rays,Junior Caminero,HR,0.090225,R,Balanced,0.32,Javier Assad,R,Power,1.25,8,0,system2
+2026-04-07,Tropicana Field,72,0,none,Chicago Cubs,Tampa Bay Rays,Junior Caminero,Hit,0.498935,R,Balanced,0.32,Javier Assad,R,Power,1.25,8,0,system2
+2026-04-07,Tropicana Field,72,0,none,Chicago Cubs,Tampa Bay Rays,Junior Caminero,TB,0.27604,R,Balanced,0.32,Javier Assad,R,Power,1.25,8,0,system2
+2026-04-07,Tropicana Field,72,0,none,Chicago Cubs,Tampa Bay Rays,Junior Caminero,Run,0.262162,R,Balanced,0.32,Javier Assad,R,Power,1.25,8,0,system2
+2026-04-07,Tropicana Field,72,0,none,Chicago Cubs,Tampa Bay Rays,Junior Caminero,RBI,0.217673,R,Balanced,0.32,Javier Assad,R,Power,1.25,8,0,system2
+2026-04-07,Tropicana Field,72,0,none,Chicago Cubs,Tampa Bay Rays,Nick Fortes,HR,0.085513,R,Balanced,0.32,Javier Assad,R,Power,1.25,9,0,system2
+2026-04-07,Tropicana Field,72,0,none,Chicago Cubs,Tampa Bay Rays,Nick Fortes,Hit,0.483356,R,Balanced,0.32,Javier Assad,R,Power,1.25,9,0,system2
+2026-04-07,Tropicana Field,72,0,none,Chicago Cubs,Tampa Bay Rays,Nick Fortes,TB,0.230805,R,Balanced,0.32,Javier Assad,R,Power,1.25,9,0,system2
+2026-04-07,Tropicana Field,72,0,none,Chicago Cubs,Tampa Bay Rays,Nick Fortes,Run,0.264073,R,Balanced,0.32,Javier Assad,R,Power,1.25,9,0,system2
+2026-04-07,Tropicana Field,72,0,none,Chicago Cubs,Tampa Bay Rays,Nick Fortes,RBI,0.218939,R,Balanced,0.32,Javier Assad,R,Power,1.25,9,0,system2
+2026-04-07,loanDepot park,72,0,none,Cincinnati Reds,Miami Marlins,Dane Myers,HR,0.130601,R,Balanced,0.32,Sandy Alcantara,R,Power,1.25,1,0,system2
+2026-04-07,loanDepot park,72,0,none,Cincinnati Reds,Miami Marlins,Dane Myers,Hit,0.583597,R,Balanced,0.32,Sandy Alcantara,R,Power,1.25,1,0,system2
+2026-04-07,loanDepot park,72,0,none,Cincinnati Reds,Miami Marlins,Dane Myers,TB,0.358323,R,Balanced,0.32,Sandy Alcantara,R,Power,1.25,1,0,system2
+2026-04-07,loanDepot park,72,0,none,Cincinnati Reds,Miami Marlins,Dane Myers,Run,0.402448,R,Balanced,0.32,Sandy Alcantara,R,Power,1.25,1,0,system2
+2026-04-07,loanDepot park,72,0,none,Cincinnati Reds,Miami Marlins,Dane Myers,RBI,0.239702,R,Balanced,0.32,Sandy Alcantara,R,Power,1.25,1,0,system2
+2026-04-07,loanDepot park,72,0,none,Cincinnati Reds,Miami Marlins,Elly De La Cruz,HR,0.155595,S,Balanced,0.32,Sandy Alcantara,R,Power,1.25,2,1,system2
+2026-04-07,loanDepot park,72,0,none,Cincinnati Reds,Miami Marlins,Elly De La Cruz,Hit,0.630237,S,Balanced,0.32,Sandy Alcantara,R,Power,1.25,2,1,system2
+2026-04-07,loanDepot park,72,0,none,Cincinnati Reds,Miami Marlins,Elly De La Cruz,TB,0.392854,S,Balanced,0.32,Sandy Alcantara,R,Power,1.25,2,1,system2
+2026-04-07,loanDepot park,72,0,none,Cincinnati Reds,Miami Marlins,Elly De La Cruz,Run,0.384504,S,Balanced,0.32,Sandy Alcantara,R,Power,1.25,2,1,system2
+2026-04-07,loanDepot park,72,0,none,Cincinnati Reds,Miami Marlins,Elly De La Cruz,RBI,0.261431,S,Balanced,0.32,Sandy Alcantara,R,Power,1.25,2,1,system2
+2026-04-07,loanDepot park,72,0,none,Cincinnati Reds,Miami Marlins,Eugenio Suárez,HR,0.102158,R,Balanced,0.32,Sandy Alcantara,R,Power,1.25,3,0,system2
+2026-04-07,loanDepot park,72,0,none,Cincinnati Reds,Miami Marlins,Eugenio Suárez,Hit,0.566369,R,Balanced,0.32,Sandy Alcantara,R,Power,1.25,3,0,system2
+2026-04-07,loanDepot park,72,0,none,Cincinnati Reds,Miami Marlins,Eugenio Suárez,TB,0.326638,R,Balanced,0.32,Sandy Alcantara,R,Power,1.25,3,0,system2
+2026-04-07,loanDepot park,72,0,none,Cincinnati Reds,Miami Marlins,Eugenio Suárez,Run,0.338788,R,Balanced,0.32,Sandy Alcantara,R,Power,1.25,3,0,system2
+2026-04-07,loanDepot park,72,0,none,Cincinnati Reds,Miami Marlins,Eugenio Suárez,RBI,0.24863,R,Balanced,0.32,Sandy Alcantara,R,Power,1.25,3,0,system2
+2026-04-07,loanDepot park,72,0,none,Cincinnati Reds,Miami Marlins,Jose Trevino,HR,0.107367,R,Balanced,0.32,Sandy Alcantara,R,Power,1.25,4,0,system2
+2026-04-07,loanDepot park,72,0,none,Cincinnati Reds,Miami Marlins,Jose Trevino,Hit,0.596597,R,Balanced,0.32,Sandy Alcantara,R,Power,1.25,4,0,system2
+2026-04-07,loanDepot park,72,0,none,Cincinnati Reds,Miami Marlins,Jose Trevino,TB,0.33514,R,Balanced,0.32,Sandy Alcantara,R,Power,1.25,4,0,system2
+2026-04-07,loanDepot park,72,0,none,Cincinnati Reds,Miami Marlins,Jose Trevino,Run,0.328353,R,Balanced,0.32,Sandy Alcantara,R,Power,1.25,4,0,system2
+2026-04-07,loanDepot park,72,0,none,Cincinnati Reds,Miami Marlins,Jose Trevino,RBI,0.243106,R,Balanced,0.32,Sandy Alcantara,R,Power,1.25,4,0,system2
+2026-04-07,loanDepot park,72,0,none,Cincinnati Reds,Miami Marlins,Ke'Bryan Hayes,HR,0.115064,R,Balanced,0.32,Sandy Alcantara,R,Power,1.25,5,0,system2
+2026-04-07,loanDepot park,72,0,none,Cincinnati Reds,Miami Marlins,Ke'Bryan Hayes,Hit,0.549227,R,Balanced,0.32,Sandy Alcantara,R,Power,1.25,5,0,system2
+2026-04-07,loanDepot park,72,0,none,Cincinnati Reds,Miami Marlins,Ke'Bryan Hayes,TB,0.335541,R,Balanced,0.32,Sandy Alcantara,R,Power,1.25,5,0,system2
+2026-04-07,loanDepot park,72,0,none,Cincinnati Reds,Miami Marlins,Ke'Bryan Hayes,Run,0.335969,R,Balanced,0.32,Sandy Alcantara,R,Power,1.25,5,0,system2
+2026-04-07,loanDepot park,72,0,none,Cincinnati Reds,Miami Marlins,Ke'Bryan Hayes,RBI,0.236874,R,Balanced,0.32,Sandy Alcantara,R,Power,1.25,5,0,system2
+2026-04-07,loanDepot park,72,0,none,Cincinnati Reds,Miami Marlins,Matt McLain,HR,0.11845,R,Balanced,0.32,Sandy Alcantara,R,Power,1.25,6,0,system2
+2026-04-07,loanDepot park,72,0,none,Cincinnati Reds,Miami Marlins,Matt McLain,Hit,0.552789,R,Balanced,0.32,Sandy Alcantara,R,Power,1.25,6,0,system2
+2026-04-07,loanDepot park,72,0,none,Cincinnati Reds,Miami Marlins,Matt McLain,TB,0.333128,R,Balanced,0.32,Sandy Alcantara,R,Power,1.25,6,0,system2
+2026-04-07,loanDepot park,72,0,none,Cincinnati Reds,Miami Marlins,Matt McLain,Run,0.324294,R,Balanced,0.32,Sandy Alcantara,R,Power,1.25,6,0,system2
+2026-04-07,loanDepot park,72,0,none,Cincinnati Reds,Miami Marlins,Matt McLain,RBI,0.235033,R,Balanced,0.32,Sandy Alcantara,R,Power,1.25,6,0,system2
+2026-04-07,loanDepot park,72,0,none,Cincinnati Reds,Miami Marlins,Nathaniel Lowe,HR,0.099708,L,Balanced,0.32,Sandy Alcantara,R,Power,1.25,7,1,system2
+2026-04-07,loanDepot park,72,0,none,Cincinnati Reds,Miami Marlins,Nathaniel Lowe,Hit,0.544977,L,Balanced,0.32,Sandy Alcantara,R,Power,1.25,7,1,system2
+2026-04-07,loanDepot park,72,0,none,Cincinnati Reds,Miami Marlins,Nathaniel Lowe,TB,0.300005,L,Balanced,0.32,Sandy Alcantara,R,Power,1.25,7,1,system2
+2026-04-07,loanDepot park,72,0,none,Cincinnati Reds,Miami Marlins,Nathaniel Lowe,Run,0.305666,L,Balanced,0.32,Sandy Alcantara,R,Power,1.25,7,1,system2
+2026-04-07,loanDepot park,72,0,none,Cincinnati Reds,Miami Marlins,Nathaniel Lowe,RBI,0.237398,L,Balanced,0.32,Sandy Alcantara,R,Power,1.25,7,1,system2
+2026-04-07,loanDepot park,72,0,none,Cincinnati Reds,Miami Marlins,Noelvi Marte,HR,0.090506,R,Balanced,0.32,Sandy Alcantara,R,Power,1.25,8,0,system2
+2026-04-07,loanDepot park,72,0,none,Cincinnati Reds,Miami Marlins,Noelvi Marte,Hit,0.502827,R,Balanced,0.32,Sandy Alcantara,R,Power,1.25,8,0,system2
+2026-04-07,loanDepot park,72,0,none,Cincinnati Reds,Miami Marlins,Noelvi Marte,TB,0.326298,R,Balanced,0.32,Sandy Alcantara,R,Power,1.25,8,0,system2
+2026-04-07,loanDepot park,72,0,none,Cincinnati Reds,Miami Marlins,Noelvi Marte,Run,0.312922,R,Balanced,0.32,Sandy Alcantara,R,Power,1.25,8,0,system2
+2026-04-07,loanDepot park,72,0,none,Cincinnati Reds,Miami Marlins,Noelvi Marte,RBI,0.22005,R,Balanced,0.32,Sandy Alcantara,R,Power,1.25,8,0,system2
+2026-04-07,loanDepot park,72,0,none,Cincinnati Reds,Miami Marlins,Sal Stewart,HR,0.109787,R,Balanced,0.32,Sandy Alcantara,R,Power,1.25,9,0,system2
+2026-04-07,loanDepot park,72,0,none,Cincinnati Reds,Miami Marlins,Sal Stewart,Hit,0.484827,R,Balanced,0.32,Sandy Alcantara,R,Power,1.25,9,0,system2
+2026-04-07,loanDepot park,72,0,none,Cincinnati Reds,Miami Marlins,Sal Stewart,TB,0.275045,R,Balanced,0.32,Sandy Alcantara,R,Power,1.25,9,0,system2
+2026-04-07,loanDepot park,72,0,none,Cincinnati Reds,Miami Marlins,Sal Stewart,Run,0.299486,R,Balanced,0.32,Sandy Alcantara,R,Power,1.25,9,0,system2
+2026-04-07,loanDepot park,72,0,none,Cincinnati Reds,Miami Marlins,Sal Stewart,RBI,0.21535,R,Balanced,0.32,Sandy Alcantara,R,Power,1.25,9,0,system2
+2026-04-07,loanDepot park,72,0,none,Cincinnati Reds,Miami Marlins,Agustín Ramírez,HR,0.117162,R,Balanced,0.32,Andrew Abbott,R,Power,1.25,1,0,system2
+2026-04-07,loanDepot park,72,0,none,Cincinnati Reds,Miami Marlins,Agustín Ramírez,Hit,0.610354,R,Balanced,0.32,Andrew Abbott,R,Power,1.25,1,0,system2
+2026-04-07,loanDepot park,72,0,none,Cincinnati Reds,Miami Marlins,Agustín Ramírez,TB,0.354216,R,Balanced,0.32,Andrew Abbott,R,Power,1.25,1,0,system2
+2026-04-07,loanDepot park,72,0,none,Cincinnati Reds,Miami Marlins,Agustín Ramírez,Run,0.3684,R,Balanced,0.32,Andrew Abbott,R,Power,1.25,1,0,system2
+2026-04-07,loanDepot park,72,0,none,Cincinnati Reds,Miami Marlins,Agustín Ramírez,RBI,0.266605,R,Balanced,0.32,Andrew Abbott,R,Power,1.25,1,0,system2
+2026-04-07,loanDepot park,72,0,none,Cincinnati Reds,Miami Marlins,Austin Slater,HR,0.122203,R,Balanced,0.32,Andrew Abbott,R,Power,1.25,2,0,system2
+2026-04-07,loanDepot park,72,0,none,Cincinnati Reds,Miami Marlins,Austin Slater,Hit,0.559849,R,Balanced,0.32,Andrew Abbott,R,Power,1.25,2,0,system2
+2026-04-07,loanDepot park,72,0,none,Cincinnati Reds,Miami Marlins,Austin Slater,TB,0.325075,R,Balanced,0.32,Andrew Abbott,R,Power,1.25,2,0,system2
+2026-04-07,loanDepot park,72,0,none,Cincinnati Reds,Miami Marlins,Austin Slater,Run,0.342007,R,Balanced,0.32,Andrew Abbott,R,Power,1.25,2,0,system2
+2026-04-07,loanDepot park,72,0,none,Cincinnati Reds,Miami Marlins,Austin Slater,RBI,0.266101,R,Balanced,0.32,Andrew Abbott,R,Power,1.25,2,0,system2
+2026-04-07,loanDepot park,72,0,none,Cincinnati Reds,Miami Marlins,Connor Norby,HR,0.115395,R,Balanced,0.32,Andrew Abbott,R,Power,1.25,3,0,system2
+2026-04-07,loanDepot park,72,0,none,Cincinnati Reds,Miami Marlins,Connor Norby,Hit,0.576708,R,Balanced,0.32,Andrew Abbott,R,Power,1.25,3,0,system2
+2026-04-07,loanDepot park,72,0,none,Cincinnati Reds,Miami Marlins,Connor Norby,TB,0.331824,R,Balanced,0.32,Andrew Abbott,R,Power,1.25,3,0,system2
+2026-04-07,loanDepot park,72,0,none,Cincinnati Reds,Miami Marlins,Connor Norby,Run,0.336534,R,Balanced,0.32,Andrew Abbott,R,Power,1.25,3,0,system2
+2026-04-07,loanDepot park,72,0,none,Cincinnati Reds,Miami Marlins,Connor Norby,RBI,0.246124,R,Balanced,0.32,Andrew Abbott,R,Power,1.25,3,0,system2
+2026-04-07,loanDepot park,72,0,none,Cincinnati Reds,Miami Marlins,Graham Pauley,HR,0.109982,L,Balanced,0.32,Andrew Abbott,R,Power,1.25,4,1,system2
+2026-04-07,loanDepot park,72,0,none,Cincinnati Reds,Miami Marlins,Graham Pauley,Hit,0.586784,L,Balanced,0.32,Andrew Abbott,R,Power,1.25,4,1,system2
+2026-04-07,loanDepot park,72,0,none,Cincinnati Reds,Miami Marlins,Graham Pauley,TB,0.347912,L,Balanced,0.32,Andrew Abbott,R,Power,1.25,4,1,system2
+2026-04-07,loanDepot park,72,0,none,Cincinnati Reds,Miami Marlins,Graham Pauley,Run,0.33058,L,Balanced,0.32,Andrew Abbott,R,Power,1.25,4,1,system2
+2026-04-07,loanDepot park,72,0,none,Cincinnati Reds,Miami Marlins,Graham Pauley,RBI,0.272421,L,Balanced,0.32,Andrew Abbott,R,Power,1.25,4,1,system2
+2026-04-07,loanDepot park,72,0,none,Cincinnati Reds,Miami Marlins,Griffin Conine,HR,0.119603,L,Balanced,0.32,Andrew Abbott,R,Power,1.25,5,1,system2
+2026-04-07,loanDepot park,72,0,none,Cincinnati Reds,Miami Marlins,Griffin Conine,Hit,0.548551,L,Balanced,0.32,Andrew Abbott,R,Power,1.25,5,1,system2
+2026-04-07,loanDepot park,72,0,none,Cincinnati Reds,Miami Marlins,Griffin Conine,TB,0.342113,L,Balanced,0.32,Andrew Abbott,R,Power,1.25,5,1,system2
+2026-04-07,loanDepot park,72,0,none,Cincinnati Reds,Miami Marlins,Griffin Conine,Run,0.360279,L,Balanced,0.32,Andrew Abbott,R,Power,1.25,5,1,system2
+2026-04-07,loanDepot park,72,0,none,Cincinnati Reds,Miami Marlins,Griffin Conine,RBI,0.255336,L,Balanced,0.32,Andrew Abbott,R,Power,1.25,5,1,system2
+2026-04-07,loanDepot park,72,0,none,Cincinnati Reds,Miami Marlins,Heriberto Hernández,HR,0.087301,R,Balanced,0.32,Andrew Abbott,R,Power,1.25,6,0,system2
+2026-04-07,loanDepot park,72,0,none,Cincinnati Reds,Miami Marlins,Heriberto Hernández,Hit,0.558214,R,Balanced,0.32,Andrew Abbott,R,Power,1.25,6,0,system2
+2026-04-07,loanDepot park,72,0,none,Cincinnati Reds,Miami Marlins,Heriberto Hernández,TB,0.310328,R,Balanced,0.32,Andrew Abbott,R,Power,1.25,6,0,system2
+2026-04-07,loanDepot park,72,0,none,Cincinnati Reds,Miami Marlins,Heriberto Hernández,Run,0.317462,R,Balanced,0.32,Andrew Abbott,R,Power,1.25,6,0,system2
+2026-04-07,loanDepot park,72,0,none,Cincinnati Reds,Miami Marlins,Heriberto Hernández,RBI,0.25972,R,Balanced,0.32,Andrew Abbott,R,Power,1.25,6,0,system2
+2026-04-07,loanDepot park,72,0,none,Cincinnati Reds,Miami Marlins,Jakob Marsee,HR,0.101718,L,Balanced,0.32,Andrew Abbott,R,Power,1.25,7,1,system2
+2026-04-07,loanDepot park,72,0,none,Cincinnati Reds,Miami Marlins,Jakob Marsee,Hit,0.579674,L,Balanced,0.32,Andrew Abbott,R,Power,1.25,7,1,system2
+2026-04-07,loanDepot park,72,0,none,Cincinnati Reds,Miami Marlins,Jakob Marsee,TB,0.306057,L,Balanced,0.32,Andrew Abbott,R,Power,1.25,7,1,system2
+2026-04-07,loanDepot park,72,0,none,Cincinnati Reds,Miami Marlins,Jakob Marsee,Run,0.304338,L,Balanced,0.32,Andrew Abbott,R,Power,1.25,7,1,system2
+2026-04-07,loanDepot park,72,0,none,Cincinnati Reds,Miami Marlins,Jakob Marsee,RBI,0.220362,L,Balanced,0.32,Andrew Abbott,R,Power,1.25,7,1,system2
+2026-04-07,loanDepot park,72,0,none,Cincinnati Reds,Miami Marlins,Javier Sanoja,HR,0.111565,R,Balanced,0.32,Andrew Abbott,R,Power,1.25,8,0,system2
+2026-04-07,loanDepot park,72,0,none,Cincinnati Reds,Miami Marlins,Javier Sanoja,Hit,0.52788,R,Balanced,0.32,Andrew Abbott,R,Power,1.25,8,0,system2
+2026-04-07,loanDepot park,72,0,none,Cincinnati Reds,Miami Marlins,Javier Sanoja,TB,0.296803,R,Balanced,0.32,Andrew Abbott,R,Power,1.25,8,0,system2
+2026-04-07,loanDepot park,72,0,none,Cincinnati Reds,Miami Marlins,Javier Sanoja,Run,0.312464,R,Balanced,0.32,Andrew Abbott,R,Power,1.25,8,0,system2
+2026-04-07,loanDepot park,72,0,none,Cincinnati Reds,Miami Marlins,Javier Sanoja,RBI,0.22005,R,Balanced,0.32,Andrew Abbott,R,Power,1.25,8,0,system2
+2026-04-07,loanDepot park,72,0,none,Cincinnati Reds,Miami Marlins,Leo Jiménez,HR,0.088216,R,Balanced,0.32,Andrew Abbott,R,Power,1.25,9,0,system2
+2026-04-07,loanDepot park,72,0,none,Cincinnati Reds,Miami Marlins,Leo Jiménez,Hit,0.481665,R,Balanced,0.32,Andrew Abbott,R,Power,1.25,9,0,system2
+2026-04-07,loanDepot park,72,0,none,Cincinnati Reds,Miami Marlins,Leo Jiménez,TB,0.275045,R,Balanced,0.32,Andrew Abbott,R,Power,1.25,9,0,system2
+2026-04-07,loanDepot park,72,0,none,Cincinnati Reds,Miami Marlins,Leo Jiménez,Run,0.299486,R,Balanced,0.32,Andrew Abbott,R,Power,1.25,9,0,system2
+2026-04-07,loanDepot park,72,0,none,Cincinnati Reds,Miami Marlins,Leo Jiménez,RBI,0.219656,R,Balanced,0.32,Andrew Abbott,R,Power,1.25,9,0,system2
+2026-04-07,Nationals Park,72,0,none,St. Louis Cardinals,Washington Nationals,Alec Burleson,HR,0.153858,L,Balanced,0.32,Cade Cavalli,R,Power,1.25,1,1,system2
+2026-04-07,Nationals Park,72,0,none,St. Louis Cardinals,Washington Nationals,Alec Burleson,Hit,0.639849,L,Balanced,0.32,Cade Cavalli,R,Power,1.25,1,1,system2
+2026-04-07,Nationals Park,72,0,none,St. Louis Cardinals,Washington Nationals,Alec Burleson,TB,0.427198,L,Balanced,0.32,Cade Cavalli,R,Power,1.25,1,1,system2
+2026-04-07,Nationals Park,72,0,none,St. Louis Cardinals,Washington Nationals,Alec Burleson,Run,0.417705,L,Balanced,0.32,Cade Cavalli,R,Power,1.25,1,1,system2
+2026-04-07,Nationals Park,72,0,none,St. Louis Cardinals,Washington Nationals,Alec Burleson,RBI,0.258701,L,Balanced,0.32,Cade Cavalli,R,Power,1.25,1,1,system2
+2026-04-07,Nationals Park,72,0,none,St. Louis Cardinals,Washington Nationals,Iván Herrera,HR,0.124062,R,Balanced,0.32,Cade Cavalli,R,Power,1.25,2,0,system2
+2026-04-07,Nationals Park,72,0,none,St. Louis Cardinals,Washington Nationals,Iván Herrera,Hit,0.584394,R,Balanced,0.32,Cade Cavalli,R,Power,1.25,2,0,system2
+2026-04-07,Nationals Park,72,0,none,St. Louis Cardinals,Washington Nationals,Iván Herrera,TB,0.321371,R,Balanced,0.32,Cade Cavalli,R,Power,1.25,2,0,system2
+2026-04-07,Nationals Park,72,0,none,St. Louis Cardinals,Washington Nationals,Iván Herrera,Run,0.36134,R,Balanced,0.32,Cade Cavalli,R,Power,1.25,2,0,system2
+2026-04-07,Nationals Park,72,0,none,St. Louis Cardinals,Washington Nationals,Iván Herrera,RBI,0.243095,R,Balanced,0.32,Cade Cavalli,R,Power,1.25,2,0,system2
+2026-04-07,Nationals Park,72,0,none,St. Louis Cardinals,Washington Nationals,JJ Wetherholt,HR,0.154028,L,Balanced,0.32,Cade Cavalli,R,Power,1.25,3,1,system2
+2026-04-07,Nationals Park,72,0,none,St. Louis Cardinals,Washington Nationals,JJ Wetherholt,Hit,0.638617,L,Balanced,0.32,Cade Cavalli,R,Power,1.25,3,1,system2
+2026-04-07,Nationals Park,72,0,none,St. Louis Cardinals,Washington Nationals,JJ Wetherholt,TB,0.359165,L,Balanced,0.32,Cade Cavalli,R,Power,1.25,3,1,system2
+2026-04-07,Nationals Park,72,0,none,St. Louis Cardinals,Washington Nationals,JJ Wetherholt,Run,0.332946,L,Balanced,0.32,Cade Cavalli,R,Power,1.25,3,1,system2
+2026-04-07,Nationals Park,72,0,none,St. Louis Cardinals,Washington Nationals,JJ Wetherholt,RBI,0.290617,L,Balanced,0.32,Cade Cavalli,R,Power,1.25,3,1,system2
+2026-04-07,Nationals Park,72,0,none,St. Louis Cardinals,Washington Nationals,Jordan Walker,HR,0.109982,R,Balanced,0.32,Cade Cavalli,R,Power,1.25,4,0,system2
+2026-04-07,Nationals Park,72,0,none,St. Louis Cardinals,Washington Nationals,Jordan Walker,Hit,0.549448,R,Balanced,0.32,Cade Cavalli,R,Power,1.25,4,0,system2
+2026-04-07,Nationals Park,72,0,none,St. Louis Cardinals,Washington Nationals,Jordan Walker,TB,0.320098,R,Balanced,0.32,Cade Cavalli,R,Power,1.25,4,0,system2
+2026-04-07,Nationals Park,72,0,none,St. Louis Cardinals,Washington Nationals,Jordan Walker,Run,0.328353,R,Balanced,0.32,Cade Cavalli,R,Power,1.25,4,0,system2
+2026-04-07,Nationals Park,72,0,none,St. Louis Cardinals,Washington Nationals,Jordan Walker,RBI,0.240164,R,Balanced,0.32,Cade Cavalli,R,Power,1.25,4,0,system2
+2026-04-07,Nationals Park,72,0,none,St. Louis Cardinals,Washington Nationals,José Fermín,HR,0.088983,R,Balanced,0.32,Cade Cavalli,R,Power,1.25,5,0,system2
+2026-04-07,Nationals Park,72,0,none,St. Louis Cardinals,Washington Nationals,José Fermín,Hit,0.547797,R,Balanced,0.32,Cade Cavalli,R,Power,1.25,5,0,system2
+2026-04-07,Nationals Park,72,0,none,St. Louis Cardinals,Washington Nationals,José Fermín,TB,0.296845,R,Balanced,0.32,Cade Cavalli,R,Power,1.25,5,0,system2
+2026-04-07,Nationals Park,72,0,none,St. Louis Cardinals,Washington Nationals,José Fermín,Run,0.323873,R,Balanced,0.32,Cade Cavalli,R,Power,1.25,5,0,system2
+2026-04-07,Nationals Park,72,0,none,St. Louis Cardinals,Washington Nationals,José Fermín,RBI,0.240764,R,Balanced,0.32,Cade Cavalli,R,Power,1.25,5,0,system2
+2026-04-07,Nationals Park,72,0,none,St. Louis Cardinals,Washington Nationals,Masyn Winn,HR,0.144446,R,Balanced,0.32,Cade Cavalli,R,Power,1.25,6,0,system2
+2026-04-07,Nationals Park,72,0,none,St. Louis Cardinals,Washington Nationals,Masyn Winn,Hit,0.558214,R,Balanced,0.32,Cade Cavalli,R,Power,1.25,6,0,system2
+2026-04-07,Nationals Park,72,0,none,St. Louis Cardinals,Washington Nationals,Masyn Winn,TB,0.329847,R,Balanced,0.32,Cade Cavalli,R,Power,1.25,6,0,system2
+2026-04-07,Nationals Park,72,0,none,St. Louis Cardinals,Washington Nationals,Masyn Winn,Run,0.319804,R,Balanced,0.32,Cade Cavalli,R,Power,1.25,6,0,system2
+2026-04-07,Nationals Park,72,0,none,St. Louis Cardinals,Washington Nationals,Masyn Winn,RBI,0.235033,R,Balanced,0.32,Cade Cavalli,R,Power,1.25,6,0,system2
+2026-04-07,Nationals Park,72,0,none,St. Louis Cardinals,Washington Nationals,Nathan Church,HR,0.110395,L,Balanced,0.32,Cade Cavalli,R,Power,1.25,7,1,system2
+2026-04-07,Nationals Park,72,0,none,St. Louis Cardinals,Washington Nationals,Nathan Church,Hit,0.540418,L,Balanced,0.32,Cade Cavalli,R,Power,1.25,7,1,system2
+2026-04-07,Nationals Park,72,0,none,St. Louis Cardinals,Washington Nationals,Nathan Church,TB,0.307255,L,Balanced,0.32,Cade Cavalli,R,Power,1.25,7,1,system2
+2026-04-07,Nationals Park,72,0,none,St. Louis Cardinals,Washington Nationals,Nathan Church,Run,0.324855,L,Balanced,0.32,Cade Cavalli,R,Power,1.25,7,1,system2
+2026-04-07,Nationals Park,72,0,none,St. Louis Cardinals,Washington Nationals,Nathan Church,RBI,0.221789,L,Balanced,0.32,Cade Cavalli,R,Power,1.25,7,1,system2
+2026-04-07,Nationals Park,72,0,none,St. Louis Cardinals,Washington Nationals,Nolan Gorman,HR,0.117334,L,Balanced,0.32,Cade Cavalli,R,Power,1.25,8,1,system2
+2026-04-07,Nationals Park,72,0,none,St. Louis Cardinals,Washington Nationals,Nolan Gorman,Hit,0.533719,L,Balanced,0.32,Cade Cavalli,R,Power,1.25,8,1,system2
+2026-04-07,Nationals Park,72,0,none,St. Louis Cardinals,Washington Nationals,Nolan Gorman,TB,0.302987,L,Balanced,0.32,Cade Cavalli,R,Power,1.25,8,1,system2
+2026-04-07,Nationals Park,72,0,none,St. Louis Cardinals,Washington Nationals,Nolan Gorman,Run,0.339898,L,Balanced,0.32,Cade Cavalli,R,Power,1.25,8,1,system2
+2026-04-07,Nationals Park,72,0,none,St. Louis Cardinals,Washington Nationals,Nolan Gorman,RBI,0.230343,L,Balanced,0.32,Cade Cavalli,R,Power,1.25,8,1,system2
+2026-04-07,Nationals Park,72,0,none,St. Louis Cardinals,Washington Nationals,Pedro Pagés,HR,0.085513,R,Balanced,0.32,Cade Cavalli,R,Power,1.25,9,0,system2
+2026-04-07,Nationals Park,72,0,none,St. Louis Cardinals,Washington Nationals,Pedro Pagés,Hit,0.481017,R,Balanced,0.32,Cade Cavalli,R,Power,1.25,9,0,system2
+2026-04-07,Nationals Park,72,0,none,St. Louis Cardinals,Washington Nationals,Pedro Pagés,TB,0.291071,R,Balanced,0.32,Cade Cavalli,R,Power,1.25,9,0,system2
+2026-04-07,Nationals Park,72,0,none,St. Louis Cardinals,Washington Nationals,Pedro Pagés,Run,0.27887,R,Balanced,0.32,Cade Cavalli,R,Power,1.25,9,0,system2
+2026-04-07,Nationals Park,72,0,none,St. Louis Cardinals,Washington Nationals,Pedro Pagés,RBI,0.213737,R,Balanced,0.32,Cade Cavalli,R,Power,1.25,9,0,system2
+2026-04-07,Nationals Park,72,0,none,St. Louis Cardinals,Washington Nationals,Brady House,HR,0.117162,R,Balanced,0.32,Matthew Liberatore,R,Power,1.25,1,0,system2
+2026-04-07,Nationals Park,72,0,none,St. Louis Cardinals,Washington Nationals,Brady House,Hit,0.634793,R,Balanced,0.32,Matthew Liberatore,R,Power,1.25,1,0,system2
+2026-04-07,Nationals Park,72,0,none,St. Louis Cardinals,Washington Nationals,Brady House,TB,0.372411,R,Balanced,0.32,Matthew Liberatore,R,Power,1.25,1,0,system2
+2026-04-07,Nationals Park,72,0,none,St. Louis Cardinals,Washington Nationals,Brady House,Run,0.413441,R,Balanced,0.32,Matthew Liberatore,R,Power,1.25,1,0,system2
+2026-04-07,Nationals Park,72,0,none,St. Louis Cardinals,Washington Nationals,Brady House,RBI,0.262404,R,Balanced,0.32,Matthew Liberatore,R,Power,1.25,1,0,system2
+2026-04-07,Nationals Park,72,0,none,St. Louis Cardinals,Washington Nationals,CJ Abrams,HR,0.162688,L,Balanced,0.32,Matthew Liberatore,R,Power,1.25,2,1,system2
+2026-04-07,Nationals Park,72,0,none,St. Louis Cardinals,Washington Nationals,CJ Abrams,Hit,0.629313,L,Balanced,0.32,Matthew Liberatore,R,Power,1.25,2,1,system2
+2026-04-07,Nationals Park,72,0,none,St. Louis Cardinals,Washington Nationals,CJ Abrams,TB,0.392854,L,Balanced,0.32,Matthew Liberatore,R,Power,1.25,2,1,system2
+2026-04-07,Nationals Park,72,0,none,St. Louis Cardinals,Washington Nationals,CJ Abrams,Run,0.379015,L,Balanced,0.32,Matthew Liberatore,R,Power,1.25,2,1,system2
+2026-04-07,Nationals Park,72,0,none,St. Louis Cardinals,Washington Nationals,CJ Abrams,RBI,0.249232,L,Balanced,0.32,Matthew Liberatore,R,Power,1.25,2,1,system2
+2026-04-07,Nationals Park,72,0,none,St. Louis Cardinals,Washington Nationals,Curtis Mead,HR,0.115395,R,Balanced,0.32,Matthew Liberatore,R,Power,1.25,3,0,system2
+2026-04-07,Nationals Park,72,0,none,St. Louis Cardinals,Washington Nationals,Curtis Mead,Hit,0.56943,R,Balanced,0.32,Matthew Liberatore,R,Power,1.25,3,0,system2
+2026-04-07,Nationals Park,72,0,none,St. Louis Cardinals,Washington Nationals,Curtis Mead,TB,0.330765,R,Balanced,0.32,Matthew Liberatore,R,Power,1.25,3,0,system2
+2026-04-07,Nationals Park,72,0,none,St. Louis Cardinals,Washington Nationals,Curtis Mead,Run,0.327062,R,Balanced,0.32,Matthew Liberatore,R,Power,1.25,3,0,system2
+2026-04-07,Nationals Park,72,0,none,St. Louis Cardinals,Washington Nationals,Curtis Mead,RBI,0.256282,R,Balanced,0.32,Matthew Liberatore,R,Power,1.25,3,0,system2
+2026-04-07,Nationals Park,72,0,none,St. Louis Cardinals,Washington Nationals,Daylen Lile,HR,0.121301,L,Balanced,0.32,Matthew Liberatore,R,Power,1.25,4,1,system2
+2026-04-07,Nationals Park,72,0,none,St. Louis Cardinals,Washington Nationals,Daylen Lile,Hit,0.593464,L,Balanced,0.32,Matthew Liberatore,R,Power,1.25,4,1,system2
+2026-04-07,Nationals Park,72,0,none,St. Louis Cardinals,Washington Nationals,Daylen Lile,TB,0.354424,L,Balanced,0.32,Matthew Liberatore,R,Power,1.25,4,1,system2
+2026-04-07,Nationals Park,72,0,none,St. Louis Cardinals,Washington Nationals,Daylen Lile,Run,0.336202,L,Balanced,0.32,Matthew Liberatore,R,Power,1.25,4,1,system2
+2026-04-07,Nationals Park,72,0,none,St. Louis Cardinals,Washington Nationals,Daylen Lile,RBI,0.266176,L,Balanced,0.32,Matthew Liberatore,R,Power,1.25,4,1,system2
+2026-04-07,Nationals Park,72,0,none,St. Louis Cardinals,Washington Nationals,Drew Millas,HR,0.118503,S,Balanced,0.32,Matthew Liberatore,R,Power,1.25,5,1,system2
+2026-04-07,Nationals Park,72,0,none,St. Louis Cardinals,Washington Nationals,Drew Millas,Hit,0.569187,S,Balanced,0.32,Matthew Liberatore,R,Power,1.25,5,1,system2
+2026-04-07,Nationals Park,72,0,none,St. Louis Cardinals,Washington Nationals,Drew Millas,TB,0.338216,S,Balanced,0.32,Matthew Liberatore,R,Power,1.25,5,1,system2
+2026-04-07,Nationals Park,72,0,none,St. Louis Cardinals,Washington Nationals,Drew Millas,Run,0.325798,S,Balanced,0.32,Matthew Liberatore,R,Power,1.25,5,1,system2
+2026-04-07,Nationals Park,72,0,none,St. Louis Cardinals,Washington Nationals,Drew Millas,RBI,0.255336,S,Balanced,0.32,Matthew Liberatore,R,Power,1.25,5,1,system2
+2026-04-07,Nationals Park,72,0,none,St. Louis Cardinals,Washington Nationals,Jacob Young,HR,0.107012,R,Balanced,0.32,Matthew Liberatore,R,Power,1.25,6,0,system2
+2026-04-07,Nationals Park,72,0,none,St. Louis Cardinals,Washington Nationals,Jacob Young,Hit,0.555851,R,Balanced,0.32,Matthew Liberatore,R,Power,1.25,6,0,system2
+2026-04-07,Nationals Park,72,0,none,St. Louis Cardinals,Washington Nationals,Jacob Young,TB,0.33072,R,Balanced,0.32,Matthew Liberatore,R,Power,1.25,6,0,system2
+2026-04-07,Nationals Park,72,0,none,St. Louis Cardinals,Washington Nationals,Jacob Young,Run,0.310599,R,Balanced,0.32,Matthew Liberatore,R,Power,1.25,6,0,system2
+2026-04-07,Nationals Park,72,0,none,St. Louis Cardinals,Washington Nationals,Jacob Young,RBI,0.235033,R,Balanced,0.32,Matthew Liberatore,R,Power,1.25,6,0,system2
+2026-04-07,Nationals Park,72,0,none,St. Louis Cardinals,Washington Nationals,James Wood,HR,0.109195,L,Balanced,0.32,Matthew Liberatore,R,Power,1.25,7,1,system2
+2026-04-07,Nationals Park,72,0,none,St. Louis Cardinals,Washington Nationals,James Wood,Hit,0.548974,L,Balanced,0.32,Matthew Liberatore,R,Power,1.25,7,1,system2
+2026-04-07,Nationals Park,72,0,none,St. Louis Cardinals,Washington Nationals,James Wood,TB,0.302268,L,Balanced,0.32,Matthew Liberatore,R,Power,1.25,7,1,system2
+2026-04-07,Nationals Park,72,0,none,St. Louis Cardinals,Washington Nationals,James Wood,Run,0.324855,L,Balanced,0.32,Matthew Liberatore,R,Power,1.25,7,1,system2
+2026-04-07,Nationals Park,72,0,none,St. Louis Cardinals,Washington Nationals,James Wood,RBI,0.237398,L,Balanced,0.32,Matthew Liberatore,R,Power,1.25,7,1,system2
+2026-04-07,Nationals Park,72,0,none,St. Louis Cardinals,Washington Nationals,Joey Wiemer,HR,0.086515,R,Balanced,0.32,Matthew Liberatore,R,Power,1.25,8,0,system2
+2026-04-07,Nationals Park,72,0,none,St. Louis Cardinals,Washington Nationals,Joey Wiemer,Hit,0.509369,R,Balanced,0.32,Matthew Liberatore,R,Power,1.25,8,0,system2
+2026-04-07,Nationals Park,72,0,none,St. Louis Cardinals,Washington Nationals,Joey Wiemer,TB,0.283056,R,Balanced,0.32,Matthew Liberatore,R,Power,1.25,8,0,system2
+2026-04-07,Nationals Park,72,0,none,St. Louis Cardinals,Washington Nationals,Joey Wiemer,Run,0.267831,R,Balanced,0.32,Matthew Liberatore,R,Power,1.25,8,0,system2
+2026-04-07,Nationals Park,72,0,none,St. Louis Cardinals,Washington Nationals,Joey Wiemer,RBI,0.22295,R,Balanced,0.32,Matthew Liberatore,R,Power,1.25,8,0,system2
+2026-04-07,Nationals Park,72,0,none,St. Louis Cardinals,Washington Nationals,Jorbit Vivas,HR,0.090311,L,Balanced,0.32,Matthew Liberatore,R,Power,1.25,9,1,system2
+2026-04-07,Nationals Park,72,0,none,St. Louis Cardinals,Washington Nationals,Jorbit Vivas,Hit,0.490466,L,Balanced,0.32,Matthew Liberatore,R,Power,1.25,9,1,system2
+2026-04-07,Nationals Park,72,0,none,St. Louis Cardinals,Washington Nationals,Jorbit Vivas,TB,0.281643,L,Balanced,0.32,Matthew Liberatore,R,Power,1.25,9,1,system2
+2026-04-07,Nationals Park,72,0,none,St. Louis Cardinals,Washington Nationals,Jorbit Vivas,Run,0.306803,L,Balanced,0.32,Matthew Liberatore,R,Power,1.25,9,1,system2
+2026-04-07,Nationals Park,72,0,none,St. Louis Cardinals,Washington Nationals,Jorbit Vivas,RBI,0.21535,L,Balanced,0.32,Matthew Liberatore,R,Power,1.25,9,1,system2
+2026-04-07,Fenway Park,72,0,none,Milwaukee Brewers,Boston Red Sox,Blake Perkins,HR,0.144597,S,Balanced,0.32,Garrett Crochet,R,Power,1.25,1,1,system2
+2026-04-07,Fenway Park,72,0,none,Milwaukee Brewers,Boston Red Sox,Blake Perkins,Hit,0.639849,S,Balanced,0.32,Garrett Crochet,R,Power,1.25,1,1,system2
+2026-04-07,Fenway Park,72,0,none,Milwaukee Brewers,Boston Red Sox,Blake Perkins,TB,0.431803,S,Balanced,0.32,Garrett Crochet,R,Power,1.25,1,1,system2
+2026-04-07,Fenway Park,72,0,none,Milwaukee Brewers,Boston Red Sox,Blake Perkins,Run,0.377064,S,Balanced,0.32,Garrett Crochet,R,Power,1.25,1,1,system2
+2026-04-07,Fenway Park,72,0,none,Milwaukee Brewers,Boston Red Sox,Blake Perkins,RBI,0.258701,S,Balanced,0.32,Garrett Crochet,R,Power,1.25,1,1,system2
+2026-04-07,Fenway Park,72,0,none,Milwaukee Brewers,Boston Red Sox,Brandon Lockridge,HR,0.124062,R,Balanced,0.32,Garrett Crochet,R,Power,1.25,2,0,system2
+2026-04-07,Fenway Park,72,0,none,Milwaukee Brewers,Boston Red Sox,Brandon Lockridge,Hit,0.56342,R,Balanced,0.32,Garrett Crochet,R,Power,1.25,2,0,system2
+2026-04-07,Fenway Park,72,0,none,Milwaukee Brewers,Boston Red Sox,Brandon Lockridge,TB,0.347435,R,Balanced,0.32,Garrett Crochet,R,Power,1.25,2,0,system2
+2026-04-07,Fenway Park,72,0,none,Milwaukee Brewers,Boston Red Sox,Brandon Lockridge,Run,0.36596,R,Balanced,0.32,Garrett Crochet,R,Power,1.25,2,0,system2
+2026-04-07,Fenway Park,72,0,none,Milwaukee Brewers,Boston Red Sox,Brandon Lockridge,RBI,0.244478,R,Balanced,0.32,Garrett Crochet,R,Power,1.25,2,0,system2
+2026-04-07,Fenway Park,72,0,none,Milwaukee Brewers,Boston Red Sox,Brice Turang,HR,0.150205,L,Balanced,0.32,Garrett Crochet,R,Power,1.25,3,1,system2
+2026-04-07,Fenway Park,72,0,none,Milwaukee Brewers,Boston Red Sox,Brice Turang,Hit,0.592853,L,Balanced,0.32,Garrett Crochet,R,Power,1.25,3,1,system2
+2026-04-07,Fenway Park,72,0,none,Milwaukee Brewers,Boston Red Sox,Brice Turang,TB,0.354723,L,Balanced,0.32,Garrett Crochet,R,Power,1.25,3,1,system2
+2026-04-07,Fenway Park,72,0,none,Milwaukee Brewers,Boston Red Sox,Brice Turang,Run,0.336534,L,Balanced,0.32,Garrett Crochet,R,Power,1.25,3,1,system2
+2026-04-07,Fenway Park,72,0,none,Milwaukee Brewers,Boston Red Sox,Brice Turang,RBI,0.283143,L,Balanced,0.32,Garrett Crochet,R,Power,1.25,3,1,system2
+2026-04-07,Fenway Park,72,0,none,Milwaukee Brewers,Boston Red Sox,Christian Yelich,HR,0.115241,L,Balanced,0.32,Garrett Crochet,R,Power,1.25,4,1,system2
+2026-04-07,Fenway Park,72,0,none,Milwaukee Brewers,Boston Red Sox,Christian Yelich,Hit,0.593464,L,Balanced,0.32,Garrett Crochet,R,Power,1.25,4,1,system2
+2026-04-07,Fenway Park,72,0,none,Milwaukee Brewers,Boston Red Sox,Christian Yelich,TB,0.346586,L,Balanced,0.32,Garrett Crochet,R,Power,1.25,4,1,system2
+2026-04-07,Fenway Park,72,0,none,Milwaukee Brewers,Boston Red Sox,Christian Yelich,Run,0.328353,L,Balanced,0.32,Garrett Crochet,R,Power,1.25,4,1,system2
+2026-04-07,Fenway Park,72,0,none,Milwaukee Brewers,Boston Red Sox,Christian Yelich,RBI,0.250821,L,Balanced,0.32,Garrett Crochet,R,Power,1.25,4,1,system2
+2026-04-07,Fenway Park,72,0,none,Milwaukee Brewers,Boston Red Sox,David Hamilton,HR,0.119603,L,Balanced,0.32,Garrett Crochet,R,Power,1.25,5,1,system2
+2026-04-07,Fenway Park,72,0,none,Milwaukee Brewers,Boston Red Sox,David Hamilton,Hit,0.570639,L,Balanced,0.32,Garrett Crochet,R,Power,1.25,5,1,system2
+2026-04-07,Fenway Park,72,0,none,Milwaukee Brewers,Boston Red Sox,David Hamilton,TB,0.354706,L,Balanced,0.32,Garrett Crochet,R,Power,1.25,5,1,system2
+2026-04-07,Fenway Park,72,0,none,Milwaukee Brewers,Boston Red Sox,David Hamilton,Run,0.348697,L,Balanced,0.32,Garrett Crochet,R,Power,1.25,5,1,system2
+2026-04-07,Fenway Park,72,0,none,Milwaukee Brewers,Boston Red Sox,David Hamilton,RBI,0.252532,L,Balanced,0.32,Garrett Crochet,R,Power,1.25,5,1,system2
+2026-04-07,Fenway Park,72,0,none,Milwaukee Brewers,Boston Red Sox,Garrett Mitchell,HR,0.118066,L,Balanced,0.32,Garrett Crochet,R,Power,1.25,6,1,system2
+2026-04-07,Fenway Park,72,0,none,Milwaukee Brewers,Boston Red Sox,Garrett Mitchell,Hit,0.550688,L,Balanced,0.32,Garrett Crochet,R,Power,1.25,6,1,system2
+2026-04-07,Fenway Park,72,0,none,Milwaukee Brewers,Boston Red Sox,Garrett Mitchell,TB,0.321348,L,Balanced,0.32,Garrett Crochet,R,Power,1.25,6,1,system2
+2026-04-07,Fenway Park,72,0,none,Milwaukee Brewers,Boston Red Sox,Garrett Mitchell,Run,0.329951,L,Balanced,0.32,Garrett Crochet,R,Power,1.25,6,1,system2
+2026-04-07,Fenway Park,72,0,none,Milwaukee Brewers,Boston Red Sox,Garrett Mitchell,RBI,0.25972,L,Balanced,0.32,Garrett Crochet,R,Power,1.25,6,1,system2
+2026-04-07,Fenway Park,72,0,none,Milwaukee Brewers,Boston Red Sox,Gary Sánchez,HR,0.098261,R,Balanced,0.32,Garrett Crochet,R,Power,1.25,7,0,system2
+2026-04-07,Fenway Park,72,0,none,Milwaukee Brewers,Boston Red Sox,Gary Sánchez,Hit,0.519617,R,Balanced,0.32,Garrett Crochet,R,Power,1.25,7,0,system2
+2026-04-07,Fenway Park,72,0,none,Milwaukee Brewers,Boston Red Sox,Gary Sánchez,TB,0.277611,R,Balanced,0.32,Garrett Crochet,R,Power,1.25,7,0,system2
+2026-04-07,Fenway Park,72,0,none,Milwaukee Brewers,Boston Red Sox,Gary Sánchez,Run,0.307256,R,Balanced,0.32,Garrett Crochet,R,Power,1.25,7,0,system2
+2026-04-07,Fenway Park,72,0,none,Milwaukee Brewers,Boston Red Sox,Gary Sánchez,RBI,0.218629,R,Balanced,0.32,Garrett Crochet,R,Power,1.25,7,0,system2
+2026-04-07,Fenway Park,72,0,none,Milwaukee Brewers,Boston Red Sox,Jake Bauers,HR,0.107947,L,Balanced,0.32,Garrett Crochet,R,Power,1.25,8,1,system2
+2026-04-07,Fenway Park,72,0,none,Milwaukee Brewers,Boston Red Sox,Jake Bauers,Hit,0.548789,L,Balanced,0.32,Garrett Crochet,R,Power,1.25,8,1,system2
+2026-04-07,Fenway Park,72,0,none,Milwaukee Brewers,Boston Red Sox,Jake Bauers,TB,0.29229,L,Balanced,0.32,Garrett Crochet,R,Power,1.25,8,1,system2
+2026-04-07,Fenway Park,72,0,none,Milwaukee Brewers,Boston Red Sox,Jake Bauers,Run,0.312922,L,Balanced,0.32,Garrett Crochet,R,Power,1.25,8,1,system2
+2026-04-07,Fenway Park,72,0,none,Milwaukee Brewers,Boston Red Sox,Jake Bauers,RBI,0.217748,L,Balanced,0.32,Garrett Crochet,R,Power,1.25,8,1,system2
+2026-04-07,Fenway Park,72,0,none,Milwaukee Brewers,Boston Red Sox,Joey Ortiz,HR,0.098187,R,Balanced,0.32,Garrett Crochet,R,Power,1.25,9,0,system2
+2026-04-07,Fenway Park,72,0,none,Milwaukee Brewers,Boston Red Sox,Joey Ortiz,Hit,0.483356,R,Balanced,0.32,Garrett Crochet,R,Power,1.25,9,0,system2
+2026-04-07,Fenway Park,72,0,none,Milwaukee Brewers,Boston Red Sox,Joey Ortiz,TB,0.291071,R,Balanced,0.32,Garrett Crochet,R,Power,1.25,9,0,system2
+2026-04-07,Fenway Park,72,0,none,Milwaukee Brewers,Boston Red Sox,Joey Ortiz,Run,0.255118,R,Balanced,0.32,Garrett Crochet,R,Power,1.25,9,0,system2
+2026-04-07,Fenway Park,72,0,none,Milwaukee Brewers,Boston Red Sox,Joey Ortiz,RBI,0.213737,R,Balanced,0.32,Garrett Crochet,R,Power,1.25,9,0,system2
+2026-04-07,Fenway Park,72,0,none,Milwaukee Brewers,Boston Red Sox,Andruw Monasterio,HR,0.119105,R,Balanced,0.32,Jacob Misiorowski,R,Power,1.25,1,0,system2
+2026-04-07,Fenway Park,72,0,none,Milwaukee Brewers,Boston Red Sox,Andruw Monasterio,Hit,0.580417,R,Balanced,0.32,Jacob Misiorowski,R,Power,1.25,1,0,system2
+2026-04-07,Fenway Park,72,0,none,Milwaukee Brewers,Boston Red Sox,Andruw Monasterio,TB,0.373807,R,Balanced,0.32,Jacob Misiorowski,R,Power,1.25,1,0,system2
+2026-04-07,Fenway Park,72,0,none,Milwaukee Brewers,Boston Red Sox,Andruw Monasterio,Run,0.375962,R,Balanced,0.32,Jacob Misiorowski,R,Power,1.25,1,0,system2
+2026-04-07,Fenway Park,72,0,none,Milwaukee Brewers,Boston Red Sox,Andruw Monasterio,RBI,0.238579,R,Balanced,0.32,Jacob Misiorowski,R,Power,1.25,1,0,system2
+2026-04-07,Fenway Park,72,0,none,Milwaukee Brewers,Boston Red Sox,Caleb Durbin,HR,0.114951,R,Balanced,0.32,Jacob Misiorowski,R,Power,1.25,2,0,system2
+2026-04-07,Fenway Park,72,0,none,Milwaukee Brewers,Boston Red Sox,Caleb Durbin,Hit,0.5733,R,Balanced,0.32,Jacob Misiorowski,R,Power,1.25,2,0,system2
+2026-04-07,Fenway Park,72,0,none,Milwaukee Brewers,Boston Red Sox,Caleb Durbin,TB,0.329016,R,Balanced,0.32,Jacob Misiorowski,R,Power,1.25,2,0,system2
+2026-04-07,Fenway Park,72,0,none,Milwaukee Brewers,Boston Red Sox,Caleb Durbin,Run,0.350928,R,Balanced,0.32,Jacob Misiorowski,R,Power,1.25,2,0,system2
+2026-04-07,Fenway Park,72,0,none,Milwaukee Brewers,Boston Red Sox,Caleb Durbin,RBI,0.244478,R,Balanced,0.32,Jacob Misiorowski,R,Power,1.25,2,0,system2
+2026-04-07,Fenway Park,72,0,none,Milwaukee Brewers,Boston Red Sox,Carlos Narváez,HR,0.123537,R,Balanced,0.32,Jacob Misiorowski,R,Power,1.25,3,0,system2
+2026-04-07,Fenway Park,72,0,none,Milwaukee Brewers,Boston Red Sox,Carlos Narváez,Hit,0.572091,R,Balanced,0.32,Jacob Misiorowski,R,Power,1.25,3,0,system2
+2026-04-07,Fenway Park,72,0,none,Milwaukee Brewers,Boston Red Sox,Carlos Narváez,TB,0.333554,R,Balanced,0.32,Jacob Misiorowski,R,Power,1.25,3,0,system2
+2026-04-07,Fenway Park,72,0,none,Milwaukee Brewers,Boston Red Sox,Carlos Narváez,Run,0.333142,R,Balanced,0.32,Jacob Misiorowski,R,Power,1.25,3,0,system2
+2026-04-07,Fenway Park,72,0,none,Milwaukee Brewers,Boston Red Sox,Carlos Narváez,RBI,0.283143,R,Balanced,0.32,Jacob Misiorowski,R,Power,1.25,3,0,system2
+2026-04-07,Fenway Park,72,0,none,Milwaukee Brewers,Boston Red Sox,Ceddanne Rafaela,HR,0.104023,R,Balanced,0.32,Jacob Misiorowski,R,Power,1.25,4,0,system2
+2026-04-07,Fenway Park,72,0,none,Milwaukee Brewers,Boston Red Sox,Ceddanne Rafaela,Hit,0.549448,R,Balanced,0.32,Jacob Misiorowski,R,Power,1.25,4,0,system2
+2026-04-07,Fenway Park,72,0,none,Milwaukee Brewers,Boston Red Sox,Ceddanne Rafaela,TB,0.288905,R,Balanced,0.32,Jacob Misiorowski,R,Power,1.25,4,0,system2
+2026-04-07,Fenway Park,72,0,none,Milwaukee Brewers,Boston Red Sox,Ceddanne Rafaela,Run,0.327072,R,Balanced,0.32,Jacob Misiorowski,R,Power,1.25,4,0,system2
+2026-04-07,Fenway Park,72,0,none,Milwaukee Brewers,Boston Red Sox,Ceddanne Rafaela,RBI,0.236967,R,Balanced,0.32,Jacob Misiorowski,R,Power,1.25,4,0,system2
+2026-04-07,Fenway Park,72,0,none,Milwaukee Brewers,Boston Red Sox,Connor Wong,HR,0.100608,R,Balanced,0.32,Jacob Misiorowski,R,Power,1.25,5,0,system2
+2026-04-07,Fenway Park,72,0,none,Milwaukee Brewers,Boston Red Sox,Connor Wong,Hit,0.549227,R,Balanced,0.32,Jacob Misiorowski,R,Power,1.25,5,0,system2
+2026-04-07,Fenway Park,72,0,none,Milwaukee Brewers,Boston Red Sox,Connor Wong,TB,0.31842,R,Balanced,0.32,Jacob Misiorowski,R,Power,1.25,5,0,system2
+2026-04-07,Fenway Park,72,0,none,Milwaukee Brewers,Boston Red Sox,Connor Wong,Run,0.330102,R,Balanced,0.32,Jacob Misiorowski,R,Power,1.25,5,0,system2
+2026-04-07,Fenway Park,72,0,none,Milwaukee Brewers,Boston Red Sox,Connor Wong,RBI,0.237658,R,Balanced,0.32,Jacob Misiorowski,R,Power,1.25,5,0,system2
+2026-04-07,Fenway Park,72,0,none,Milwaukee Brewers,Boston Red Sox,Isiah Kiner-Falefa,HR,0.114638,R,Balanced,0.32,Jacob Misiorowski,R,Power,1.25,6,0,system2
+2026-04-07,Fenway Park,72,0,none,Milwaukee Brewers,Boston Red Sox,Isiah Kiner-Falefa,Hit,0.555851,R,Balanced,0.32,Jacob Misiorowski,R,Power,1.25,6,0,system2
+2026-04-07,Fenway Park,72,0,none,Milwaukee Brewers,Boston Red Sox,Isiah Kiner-Falefa,TB,0.308858,R,Balanced,0.32,Jacob Misiorowski,R,Power,1.25,6,0,system2
+2026-04-07,Fenway Park,72,0,none,Milwaukee Brewers,Boston Red Sox,Isiah Kiner-Falefa,Run,0.31626,R,Balanced,0.32,Jacob Misiorowski,R,Power,1.25,6,0,system2
+2026-04-07,Fenway Park,72,0,none,Milwaukee Brewers,Boston Red Sox,Isiah Kiner-Falefa,RBI,0.234255,R,Balanced,0.32,Jacob Misiorowski,R,Power,1.25,6,0,system2
+2026-04-07,Fenway Park,72,0,none,Milwaukee Brewers,Boston Red Sox,Jarren Duran,HR,0.100156,L,Balanced,0.32,Jacob Misiorowski,R,Power,1.25,7,1,system2
+2026-04-07,Fenway Park,72,0,none,Milwaukee Brewers,Boston Red Sox,Jarren Duran,Hit,0.547023,L,Balanced,0.32,Jacob Misiorowski,R,Power,1.25,7,1,system2
+2026-04-07,Fenway Park,72,0,none,Milwaukee Brewers,Boston Red Sox,Jarren Duran,TB,0.298709,L,Balanced,0.32,Jacob Misiorowski,R,Power,1.25,7,1,system2
+2026-04-07,Fenway Park,72,0,none,Milwaukee Brewers,Boston Red Sox,Jarren Duran,Run,0.32707,L,Balanced,0.32,Jacob Misiorowski,R,Power,1.25,7,1,system2
+2026-04-07,Fenway Park,72,0,none,Milwaukee Brewers,Boston Red Sox,Jarren Duran,RBI,0.234272,L,Balanced,0.32,Jacob Misiorowski,R,Power,1.25,7,1,system2
+2026-04-07,Fenway Park,72,0,none,Milwaukee Brewers,Boston Red Sox,Marcelo Mayer,HR,0.100716,L,Balanced,0.32,Jacob Misiorowski,R,Power,1.25,8,1,system2
+2026-04-07,Fenway Park,72,0,none,Milwaukee Brewers,Boston Red Sox,Marcelo Mayer,Hit,0.534092,L,Balanced,0.32,Jacob Misiorowski,R,Power,1.25,8,1,system2
+2026-04-07,Fenway Park,72,0,none,Milwaukee Brewers,Boston Red Sox,Marcelo Mayer,TB,0.300661,L,Balanced,0.32,Jacob Misiorowski,R,Power,1.25,8,1,system2
+2026-04-07,Fenway Park,72,0,none,Milwaukee Brewers,Boston Red Sox,Marcelo Mayer,Run,0.31604,L,Balanced,0.32,Jacob Misiorowski,R,Power,1.25,8,1,system2
+2026-04-07,Fenway Park,72,0,none,Milwaukee Brewers,Boston Red Sox,Marcelo Mayer,RBI,0.235936,L,Balanced,0.32,Jacob Misiorowski,R,Power,1.25,8,1,system2
+2026-04-07,Fenway Park,72,0,none,Milwaukee Brewers,Boston Red Sox,Masataka Yoshida,HR,0.109787,L,Balanced,0.32,Jacob Misiorowski,R,Power,1.25,9,1,system2
+2026-04-07,Fenway Park,72,0,none,Milwaukee Brewers,Boston Red Sox,Masataka Yoshida,Hit,0.540555,L,Balanced,0.32,Jacob Misiorowski,R,Power,1.25,9,1,system2
+2026-04-07,Fenway Park,72,0,none,Milwaukee Brewers,Boston Red Sox,Masataka Yoshida,TB,0.281643,L,Balanced,0.32,Jacob Misiorowski,R,Power,1.25,9,1,system2
+2026-04-07,Fenway Park,72,0,none,Milwaukee Brewers,Boston Red Sox,Masataka Yoshida,Run,0.314632,L,Balanced,0.32,Jacob Misiorowski,R,Power,1.25,9,1,system2
+2026-04-07,Fenway Park,72,0,none,Milwaukee Brewers,Boston Red Sox,Masataka Yoshida,RBI,0.20926,L,Balanced,0.32,Jacob Misiorowski,R,Power,1.25,9,1,system2
+2026-04-07,Yankee Stadium,72,0,none,Athletics,New York Yankees,Andy Ibáñez,HR,0.117162,R,Balanced,0.32,Cam Schlittler,R,Power,1.25,1,0,system2
+2026-04-07,Yankee Stadium,72,0,none,Athletics,New York Yankees,Andy Ibáñez,Hit,0.60179,R,Balanced,0.32,Cam Schlittler,R,Power,1.25,1,0,system2
+2026-04-07,Yankee Stadium,72,0,none,Athletics,New York Yankees,Andy Ibáñez,TB,0.375177,R,Balanced,0.32,Cam Schlittler,R,Power,1.25,1,0,system2
+2026-04-07,Yankee Stadium,72,0,none,Athletics,New York Yankees,Andy Ibáñez,Run,0.402448,R,Balanced,0.32,Cam Schlittler,R,Power,1.25,1,0,system2
+2026-04-07,Yankee Stadium,72,0,none,Athletics,New York Yankees,Andy Ibáñez,RBI,0.268184,R,Balanced,0.32,Cam Schlittler,R,Power,1.25,1,0,system2
+2026-04-07,Yankee Stadium,72,0,none,Athletics,New York Yankees,Austin Wynns,HR,0.118421,R,Balanced,0.32,Cam Schlittler,R,Power,1.25,2,0,system2
+2026-04-07,Yankee Stadium,72,0,none,Athletics,New York Yankees,Austin Wynns,Hit,0.563197,R,Balanced,0.32,Cam Schlittler,R,Power,1.25,2,0,system2
+2026-04-07,Yankee Stadium,72,0,none,Athletics,New York Yankees,Austin Wynns,TB,0.325075,R,Balanced,0.32,Cam Schlittler,R,Power,1.25,2,0,system2
+2026-04-07,Yankee Stadium,72,0,none,Athletics,New York Yankees,Austin Wynns,Run,0.360721,R,Balanced,0.32,Cam Schlittler,R,Power,1.25,2,0,system2
+2026-04-07,Yankee Stadium,72,0,none,Athletics,New York Yankees,Austin Wynns,RBI,0.266101,R,Balanced,0.32,Cam Schlittler,R,Power,1.25,2,0,system2
+2026-04-07,Yankee Stadium,72,0,none,Athletics,New York Yankees,Brent Rooker,HR,0.121685,R,Balanced,0.32,Cam Schlittler,R,Power,1.25,3,0,system2
+2026-04-07,Yankee Stadium,72,0,none,Athletics,New York Yankees,Brent Rooker,Hit,0.577714,R,Balanced,0.32,Cam Schlittler,R,Power,1.25,3,0,system2
+2026-04-07,Yankee Stadium,72,0,none,Athletics,New York Yankees,Brent Rooker,TB,0.333554,R,Balanced,0.32,Cam Schlittler,R,Power,1.25,3,0,system2
+2026-04-07,Yankee Stadium,72,0,none,Athletics,New York Yankees,Brent Rooker,Run,0.336534,R,Balanced,0.32,Cam Schlittler,R,Power,1.25,3,0,system2
+2026-04-07,Yankee Stadium,72,0,none,Athletics,New York Yankees,Brent Rooker,RBI,0.28151,R,Balanced,0.32,Cam Schlittler,R,Power,1.25,3,0,system2
+2026-04-07,Yankee Stadium,72,0,none,Athletics,New York Yankees,Carlos Cortes,HR,0.1112,L,Balanced,0.32,Cam Schlittler,R,Power,1.25,4,1,system2
+2026-04-07,Yankee Stadium,72,0,none,Athletics,New York Yankees,Carlos Cortes,Hit,0.589821,L,Balanced,0.32,Cam Schlittler,R,Power,1.25,4,1,system2
+2026-04-07,Yankee Stadium,72,0,none,Athletics,New York Yankees,Carlos Cortes,TB,0.349172,L,Balanced,0.32,Cam Schlittler,R,Power,1.25,4,1,system2
+2026-04-07,Yankee Stadium,72,0,none,Athletics,New York Yankees,Carlos Cortes,Run,0.362414,L,Balanced,0.32,Cam Schlittler,R,Power,1.25,4,1,system2
+2026-04-07,Yankee Stadium,72,0,none,Athletics,New York Yankees,Carlos Cortes,RBI,0.272421,L,Balanced,0.32,Cam Schlittler,R,Power,1.25,4,1,system2
+2026-04-07,Yankee Stadium,72,0,none,Athletics,New York Yankees,Darell Hernaiz,HR,0.105469,R,Balanced,0.32,Cam Schlittler,R,Power,1.25,5,0,system2
+2026-04-07,Yankee Stadium,72,0,none,Athletics,New York Yankees,Darell Hernaiz,Hit,0.544517,R,Balanced,0.32,Cam Schlittler,R,Power,1.25,5,0,system2
+2026-04-07,Yankee Stadium,72,0,none,Athletics,New York Yankees,Darell Hernaiz,TB,0.326838,R,Balanced,0.32,Cam Schlittler,R,Power,1.25,5,0,system2
+2026-04-07,Yankee Stadium,72,0,none,Athletics,New York Yankees,Darell Hernaiz,Run,0.321725,R,Balanced,0.32,Cam Schlittler,R,Power,1.25,5,0,system2
+2026-04-07,Yankee Stadium,72,0,none,Athletics,New York Yankees,Darell Hernaiz,RBI,0.234761,R,Balanced,0.32,Cam Schlittler,R,Power,1.25,5,0,system2
+2026-04-07,Yankee Stadium,72,0,none,Athletics,New York Yankees,Denzel Clarke,HR,0.089557,R,Balanced,0.32,Cam Schlittler,R,Power,1.25,6,0,system2
+2026-04-07,Yankee Stadium,72,0,none,Athletics,New York Yankees,Denzel Clarke,Hit,0.556791,R,Balanced,0.32,Cam Schlittler,R,Power,1.25,6,0,system2
+2026-04-07,Yankee Stadium,72,0,none,Athletics,New York Yankees,Denzel Clarke,TB,0.300353,R,Balanced,0.32,Cam Schlittler,R,Power,1.25,6,0,system2
+2026-04-07,Yankee Stadium,72,0,none,Athletics,New York Yankees,Denzel Clarke,Run,0.319804,R,Balanced,0.32,Cam Schlittler,R,Power,1.25,6,0,system2
+2026-04-07,Yankee Stadium,72,0,none,Athletics,New York Yankees,Denzel Clarke,RBI,0.235033,R,Balanced,0.32,Cam Schlittler,R,Power,1.25,6,0,system2
+2026-04-07,Yankee Stadium,72,0,none,Athletics,New York Yankees,Jacob Wilson,HR,0.105152,R,Balanced,0.32,Cam Schlittler,R,Power,1.25,7,0,system2
+2026-04-07,Yankee Stadium,72,0,none,Athletics,New York Yankees,Jacob Wilson,Hit,0.525878,R,Balanced,0.32,Cam Schlittler,R,Power,1.25,7,0,system2
+2026-04-07,Yankee Stadium,72,0,none,Athletics,New York Yankees,Jacob Wilson,TB,0.277611,R,Balanced,0.32,Cam Schlittler,R,Power,1.25,7,0,system2
+2026-04-07,Yankee Stadium,72,0,none,Athletics,New York Yankees,Jacob Wilson,Run,0.307256,R,Balanced,0.32,Cam Schlittler,R,Power,1.25,7,0,system2
+2026-04-07,Yankee Stadium,72,0,none,Athletics,New York Yankees,Jacob Wilson,RBI,0.218629,R,Balanced,0.32,Cam Schlittler,R,Power,1.25,7,0,system2
+2026-04-07,Yankee Stadium,72,0,none,Athletics,New York Yankees,Jeff McNeil,HR,0.126041,L,Balanced,0.32,Cam Schlittler,R,Power,1.25,8,1,system2
+2026-04-07,Yankee Stadium,72,0,none,Athletics,New York Yankees,Jeff McNeil,Hit,0.55652,L,Balanced,0.32,Cam Schlittler,R,Power,1.25,8,1,system2
+2026-04-07,Yankee Stadium,72,0,none,Athletics,New York Yankees,Jeff McNeil,TB,0.303144,L,Balanced,0.32,Cam Schlittler,R,Power,1.25,8,1,system2
+2026-04-07,Yankee Stadium,72,0,none,Athletics,New York Yankees,Jeff McNeil,Run,0.327064,L,Balanced,0.32,Cam Schlittler,R,Power,1.25,8,1,system2
+2026-04-07,Yankee Stadium,72,0,none,Athletics,New York Yankees,Jeff McNeil,RBI,0.230343,L,Balanced,0.32,Cam Schlittler,R,Power,1.25,8,1,system2
+2026-04-07,Yankee Stadium,72,0,none,Athletics,New York Yankees,Lawrence Butler,HR,0.107637,L,Balanced,0.32,Cam Schlittler,R,Power,1.25,9,1,system2
+2026-04-07,Yankee Stadium,72,0,none,Athletics,New York Yankees,Lawrence Butler,Hit,0.526784,L,Balanced,0.32,Cam Schlittler,R,Power,1.25,9,1,system2
+2026-04-07,Yankee Stadium,72,0,none,Athletics,New York Yankees,Lawrence Butler,TB,0.281643,L,Balanced,0.32,Cam Schlittler,R,Power,1.25,9,1,system2
+2026-04-07,Yankee Stadium,72,0,none,Athletics,New York Yankees,Lawrence Butler,Run,0.309992,L,Balanced,0.32,Cam Schlittler,R,Power,1.25,9,1,system2
+2026-04-07,Yankee Stadium,72,0,none,Athletics,New York Yankees,Lawrence Butler,RBI,0.217065,L,Balanced,0.32,Cam Schlittler,R,Power,1.25,9,1,system2
+2026-04-07,Yankee Stadium,72,0,none,Athletics,New York Yankees,Aaron Judge,HR,0.128212,R,Balanced,0.32,Aaron Civale,R,Power,1.25,1,0,system2
+2026-04-07,Yankee Stadium,72,0,none,Athletics,New York Yankees,Aaron Judge,Hit,0.610354,R,Balanced,0.32,Aaron Civale,R,Power,1.25,1,0,system2
+2026-04-07,Yankee Stadium,72,0,none,Athletics,New York Yankees,Aaron Judge,TB,0.360746,R,Balanced,0.32,Aaron Civale,R,Power,1.25,1,0,system2
+2026-04-07,Yankee Stadium,72,0,none,Athletics,New York Yankees,Aaron Judge,Run,0.363073,R,Balanced,0.32,Aaron Civale,R,Power,1.25,1,0,system2
+2026-04-07,Yankee Stadium,72,0,none,Athletics,New York Yankees,Aaron Judge,RBI,0.268184,R,Balanced,0.32,Aaron Civale,R,Power,1.25,1,0,system2
+2026-04-07,Yankee Stadium,72,0,none,Athletics,New York Yankees,Amed Rosario,HR,0.124062,R,Balanced,0.32,Aaron Civale,R,Power,1.25,2,0,system2
+2026-04-07,Yankee Stadium,72,0,none,Athletics,New York Yankees,Amed Rosario,Hit,0.562774,R,Balanced,0.32,Aaron Civale,R,Power,1.25,2,0,system2
+2026-04-07,Yankee Stadium,72,0,none,Athletics,New York Yankees,Amed Rosario,TB,0.322322,R,Balanced,0.32,Aaron Civale,R,Power,1.25,2,0,system2
+2026-04-07,Yankee Stadium,72,0,none,Athletics,New York Yankees,Amed Rosario,Run,0.36596,R,Balanced,0.32,Aaron Civale,R,Power,1.25,2,0,system2
+2026-04-07,Yankee Stadium,72,0,none,Athletics,New York Yankees,Amed Rosario,RBI,0.242552,R,Balanced,0.32,Aaron Civale,R,Power,1.25,2,0,system2
+2026-04-07,Yankee Stadium,72,0,none,Athletics,New York Yankees,Austin Wells,HR,0.117916,L,Balanced,0.32,Aaron Civale,R,Power,1.25,3,1,system2
+2026-04-07,Yankee Stadium,72,0,none,Athletics,New York Yankees,Austin Wells,Hit,0.599036,L,Balanced,0.32,Aaron Civale,R,Power,1.25,3,1,system2
+2026-04-07,Yankee Stadium,72,0,none,Athletics,New York Yankees,Austin Wells,TB,0.399928,L,Balanced,0.32,Aaron Civale,R,Power,1.25,3,1,system2
+2026-04-07,Yankee Stadium,72,0,none,Athletics,New York Yankees,Austin Wells,Run,0.336534,L,Balanced,0.32,Aaron Civale,R,Power,1.25,3,1,system2
+2026-04-07,Yankee Stadium,72,0,none,Athletics,New York Yankees,Austin Wells,RBI,0.274602,L,Balanced,0.32,Aaron Civale,R,Power,1.25,3,1,system2
+2026-04-07,Yankee Stadium,72,0,none,Athletics,New York Yankees,Ben Rice,HR,0.145329,L,Balanced,0.32,Aaron Civale,R,Power,1.25,4,1,system2
+2026-04-07,Yankee Stadium,72,0,none,Athletics,New York Yankees,Ben Rice,Hit,0.593464,L,Balanced,0.32,Aaron Civale,R,Power,1.25,4,1,system2
+2026-04-07,Yankee Stadium,72,0,none,Athletics,New York Yankees,Ben Rice,TB,0.369094,L,Balanced,0.32,Aaron Civale,R,Power,1.25,4,1,system2
+2026-04-07,Yankee Stadium,72,0,none,Athletics,New York Yankees,Ben Rice,Run,0.356044,L,Balanced,0.32,Aaron Civale,R,Power,1.25,4,1,system2
+2026-04-07,Yankee Stadium,72,0,none,Athletics,New York Yankees,Ben Rice,RBI,0.263295,L,Balanced,0.32,Aaron Civale,R,Power,1.25,4,1,system2
+2026-04-07,Yankee Stadium,72,0,none,Athletics,New York Yankees,Cody Bellinger,HR,0.118503,L,Balanced,0.32,Aaron Civale,R,Power,1.25,5,1,system2
+2026-04-07,Yankee Stadium,72,0,none,Athletics,New York Yankees,Cody Bellinger,Hit,0.548656,L,Balanced,0.32,Aaron Civale,R,Power,1.25,5,1,system2
+2026-04-07,Yankee Stadium,72,0,none,Athletics,New York Yankees,Cody Bellinger,TB,0.340866,L,Balanced,0.32,Aaron Civale,R,Power,1.25,5,1,system2
+2026-04-07,Yankee Stadium,72,0,none,Athletics,New York Yankees,Cody Bellinger,Run,0.328016,L,Balanced,0.32,Aaron Civale,R,Power,1.25,5,1,system2
+2026-04-07,Yankee Stadium,72,0,none,Athletics,New York Yankees,Cody Bellinger,RBI,0.261417,L,Balanced,0.32,Aaron Civale,R,Power,1.25,5,1,system2
+2026-04-07,Yankee Stadium,72,0,none,Athletics,New York Yankees,Giancarlo Stanton,HR,0.107012,R,Balanced,0.32,Aaron Civale,R,Power,1.25,6,0,system2
+2026-04-07,Yankee Stadium,72,0,none,Athletics,New York Yankees,Giancarlo Stanton,Hit,0.552789,R,Balanced,0.32,Aaron Civale,R,Power,1.25,6,0,system2
+2026-04-07,Yankee Stadium,72,0,none,Athletics,New York Yankees,Giancarlo Stanton,TB,0.28715,R,Balanced,0.32,Aaron Civale,R,Power,1.25,6,0,system2
+2026-04-07,Yankee Stadium,72,0,none,Athletics,New York Yankees,Giancarlo Stanton,Run,0.324294,R,Balanced,0.32,Aaron Civale,R,Power,1.25,6,0,system2
+2026-04-07,Yankee Stadium,72,0,none,Athletics,New York Yankees,Giancarlo Stanton,RBI,0.237193,R,Balanced,0.32,Aaron Civale,R,Power,1.25,6,0,system2
+2026-04-07,Yankee Stadium,72,0,none,Athletics,New York Yankees,J.C. Escarra,HR,0.101098,L,Balanced,0.32,Aaron Civale,R,Power,1.25,7,1,system2
+2026-04-07,Yankee Stadium,72,0,none,Athletics,New York Yankees,J.C. Escarra,Hit,0.543873,L,Balanced,0.32,Aaron Civale,R,Power,1.25,7,1,system2
+2026-04-07,Yankee Stadium,72,0,none,Athletics,New York Yankees,J.C. Escarra,TB,0.313373,L,Balanced,0.32,Aaron Civale,R,Power,1.25,7,1,system2
+2026-04-07,Yankee Stadium,72,0,none,Athletics,New York Yankees,J.C. Escarra,Run,0.307884,L,Balanced,0.32,Aaron Civale,R,Power,1.25,7,1,system2
+2026-04-07,Yankee Stadium,72,0,none,Athletics,New York Yankees,J.C. Escarra,RBI,0.237398,L,Balanced,0.32,Aaron Civale,R,Power,1.25,7,1,system2
+2026-04-07,Yankee Stadium,72,0,none,Athletics,New York Yankees,Jazz Chisholm Jr.,HR,0.115823,L,Balanced,0.32,Aaron Civale,R,Power,1.25,8,1,system2
+2026-04-07,Yankee Stadium,72,0,none,Athletics,New York Yankees,Jazz Chisholm Jr.,Hit,0.547379,L,Balanced,0.32,Aaron Civale,R,Power,1.25,8,1,system2
+2026-04-07,Yankee Stadium,72,0,none,Athletics,New York Yankees,Jazz Chisholm Jr.,TB,0.295805,L,Balanced,0.32,Aaron Civale,R,Power,1.25,8,1,system2
+2026-04-07,Yankee Stadium,72,0,none,Athletics,New York Yankees,Jazz Chisholm Jr.,Run,0.312116,L,Balanced,0.32,Aaron Civale,R,Power,1.25,8,1,system2
+2026-04-07,Yankee Stadium,72,0,none,Athletics,New York Yankees,Jazz Chisholm Jr.,RBI,0.230343,L,Balanced,0.32,Aaron Civale,R,Power,1.25,8,1,system2
+2026-04-07,Yankee Stadium,72,0,none,Athletics,New York Yankees,José Caballero,HR,0.114925,R,Balanced,0.32,Aaron Civale,R,Power,1.25,9,0,system2
+2026-04-07,Yankee Stadium,72,0,none,Athletics,New York Yankees,José Caballero,Hit,0.493944,R,Balanced,0.32,Aaron Civale,R,Power,1.25,9,0,system2
+2026-04-07,Yankee Stadium,72,0,none,Athletics,New York Yankees,José Caballero,TB,0.274391,R,Balanced,0.32,Aaron Civale,R,Power,1.25,9,0,system2
+2026-04-07,Yankee Stadium,72,0,none,Athletics,New York Yankees,José Caballero,Run,0.264073,R,Balanced,0.32,Aaron Civale,R,Power,1.25,9,0,system2
+2026-04-07,Yankee Stadium,72,0,none,Athletics,New York Yankees,José Caballero,RBI,0.216083,R,Balanced,0.32,Aaron Civale,R,Power,1.25,9,0,system2
+2026-04-07,Rogers Centre,72,0,none,Los Angeles Dodgers,Toronto Blue Jays,Alex Call,HR,0.110755,R,Balanced,0.32,Kevin Gausman,R,Power,1.25,1,0,system2
+2026-04-07,Rogers Centre,72,0,none,Los Angeles Dodgers,Toronto Blue Jays,Alex Call,Hit,0.598669,R,Balanced,0.32,Kevin Gausman,R,Power,1.25,1,0,system2
+2026-04-07,Rogers Centre,72,0,none,Los Angeles Dodgers,Toronto Blue Jays,Alex Call,TB,0.354216,R,Balanced,0.32,Kevin Gausman,R,Power,1.25,1,0,system2
+2026-04-07,Rogers Centre,72,0,none,Los Angeles Dodgers,Toronto Blue Jays,Alex Call,Run,0.402448,R,Balanced,0.32,Kevin Gausman,R,Power,1.25,1,0,system2
+2026-04-07,Rogers Centre,72,0,none,Los Angeles Dodgers,Toronto Blue Jays,Alex Call,RBI,0.266605,R,Balanced,0.32,Kevin Gausman,R,Power,1.25,1,0,system2
+2026-04-07,Rogers Centre,72,0,none,Los Angeles Dodgers,Toronto Blue Jays,Alex Freeland,HR,0.1139,S,Balanced,0.32,Kevin Gausman,R,Power,1.25,2,1,system2
+2026-04-07,Rogers Centre,72,0,none,Los Angeles Dodgers,Toronto Blue Jays,Alex Freeland,Hit,0.588485,S,Balanced,0.32,Kevin Gausman,R,Power,1.25,2,1,system2
+2026-04-07,Rogers Centre,72,0,none,Los Angeles Dodgers,Toronto Blue Jays,Alex Freeland,TB,0.343317,S,Balanced,0.32,Kevin Gausman,R,Power,1.25,2,1,system2
+2026-04-07,Rogers Centre,72,0,none,Los Angeles Dodgers,Toronto Blue Jays,Alex Freeland,Run,0.354449,S,Balanced,0.32,Kevin Gausman,R,Power,1.25,2,1,system2
+2026-04-07,Rogers Centre,72,0,none,Los Angeles Dodgers,Toronto Blue Jays,Alex Freeland,RBI,0.244478,S,Balanced,0.32,Kevin Gausman,R,Power,1.25,2,1,system2
+2026-04-07,Rogers Centre,72,0,none,Los Angeles Dodgers,Toronto Blue Jays,Andy Pages,HR,0.129225,R,Balanced,0.32,Kevin Gausman,R,Power,1.25,3,0,system2
+2026-04-07,Rogers Centre,72,0,none,Los Angeles Dodgers,Toronto Blue Jays,Andy Pages,Hit,0.572091,R,Balanced,0.32,Kevin Gausman,R,Power,1.25,3,0,system2
+2026-04-07,Rogers Centre,72,0,none,Los Angeles Dodgers,Toronto Blue Jays,Andy Pages,TB,0.354646,R,Balanced,0.32,Kevin Gausman,R,Power,1.25,3,0,system2
+2026-04-07,Rogers Centre,72,0,none,Los Angeles Dodgers,Toronto Blue Jays,Andy Pages,Run,0.343879,R,Balanced,0.32,Kevin Gausman,R,Power,1.25,3,0,system2
+2026-04-07,Rogers Centre,72,0,none,Los Angeles Dodgers,Toronto Blue Jays,Andy Pages,RBI,0.250874,R,Balanced,0.32,Kevin Gausman,R,Power,1.25,3,0,system2
+2026-04-07,Rogers Centre,72,0,none,Los Angeles Dodgers,Toronto Blue Jays,Dalton Rushing,HR,0.141878,L,Balanced,0.32,Kevin Gausman,R,Power,1.25,4,1,system2
+2026-04-07,Rogers Centre,72,0,none,Los Angeles Dodgers,Toronto Blue Jays,Dalton Rushing,Hit,0.593464,L,Balanced,0.32,Kevin Gausman,R,Power,1.25,4,1,system2
+2026-04-07,Rogers Centre,72,0,none,Los Angeles Dodgers,Toronto Blue Jays,Dalton Rushing,TB,0.369094,L,Balanced,0.32,Kevin Gausman,R,Power,1.25,4,1,system2
+2026-04-07,Rogers Centre,72,0,none,Los Angeles Dodgers,Toronto Blue Jays,Dalton Rushing,Run,0.350671,L,Balanced,0.32,Kevin Gausman,R,Power,1.25,4,1,system2
+2026-04-07,Rogers Centre,72,0,none,Los Angeles Dodgers,Toronto Blue Jays,Dalton Rushing,RBI,0.272933,L,Balanced,0.32,Kevin Gausman,R,Power,1.25,4,1,system2
+2026-04-07,Rogers Centre,72,0,none,Los Angeles Dodgers,Toronto Blue Jays,Freddie Freeman,HR,0.108322,L,Balanced,0.32,Kevin Gausman,R,Power,1.25,5,1,system2
+2026-04-07,Rogers Centre,72,0,none,Los Angeles Dodgers,Toronto Blue Jays,Freddie Freeman,Hit,0.56092,L,Balanced,0.32,Kevin Gausman,R,Power,1.25,5,1,system2
+2026-04-07,Rogers Centre,72,0,none,Los Angeles Dodgers,Toronto Blue Jays,Freddie Freeman,TB,0.337211,L,Balanced,0.32,Kevin Gausman,R,Power,1.25,5,1,system2
+2026-04-07,Rogers Centre,72,0,none,Los Angeles Dodgers,Toronto Blue Jays,Freddie Freeman,Run,0.318138,L,Balanced,0.32,Kevin Gausman,R,Power,1.25,5,1,system2
+2026-04-07,Rogers Centre,72,0,none,Los Angeles Dodgers,Toronto Blue Jays,Freddie Freeman,RBI,0.25126,L,Balanced,0.32,Kevin Gausman,R,Power,1.25,5,1,system2
+2026-04-07,Rogers Centre,72,0,none,Los Angeles Dodgers,Toronto Blue Jays,Hyeseong Kim,HR,0.118066,L,Balanced,0.32,Kevin Gausman,R,Power,1.25,6,1,system2
+2026-04-07,Rogers Centre,72,0,none,Los Angeles Dodgers,Toronto Blue Jays,Hyeseong Kim,Hit,0.563599,L,Balanced,0.32,Kevin Gausman,R,Power,1.25,6,1,system2
+2026-04-07,Rogers Centre,72,0,none,Los Angeles Dodgers,Toronto Blue Jays,Hyeseong Kim,TB,0.354984,L,Balanced,0.32,Kevin Gausman,R,Power,1.25,6,1,system2
+2026-04-07,Rogers Centre,72,0,none,Los Angeles Dodgers,Toronto Blue Jays,Hyeseong Kim,Run,0.33148,L,Balanced,0.32,Kevin Gausman,R,Power,1.25,6,1,system2
+2026-04-07,Rogers Centre,72,0,none,Los Angeles Dodgers,Toronto Blue Jays,Hyeseong Kim,RBI,0.250873,L,Balanced,0.32,Kevin Gausman,R,Power,1.25,6,1,system2
+2026-04-07,Rogers Centre,72,0,none,Los Angeles Dodgers,Toronto Blue Jays,Kyle Tucker,HR,0.110395,L,Balanced,0.32,Kevin Gausman,R,Power,1.25,7,1,system2
+2026-04-07,Rogers Centre,72,0,none,Los Angeles Dodgers,Toronto Blue Jays,Kyle Tucker,Hit,0.533905,L,Balanced,0.32,Kevin Gausman,R,Power,1.25,7,1,system2
+2026-04-07,Rogers Centre,72,0,none,Los Angeles Dodgers,Toronto Blue Jays,Kyle Tucker,TB,0.344585,L,Balanced,0.32,Kevin Gausman,R,Power,1.25,7,1,system2
+2026-04-07,Rogers Centre,72,0,none,Los Angeles Dodgers,Toronto Blue Jays,Kyle Tucker,Run,0.322618,L,Balanced,0.32,Kevin Gausman,R,Power,1.25,7,1,system2
+2026-04-07,Rogers Centre,72,0,none,Los Angeles Dodgers,Toronto Blue Jays,Kyle Tucker,RBI,0.237398,L,Balanced,0.32,Kevin Gausman,R,Power,1.25,7,1,system2
+2026-04-07,Rogers Centre,72,0,none,Los Angeles Dodgers,Toronto Blue Jays,Max Muncy,HR,0.110156,L,Balanced,0.32,Kevin Gausman,R,Power,1.25,8,1,system2
+2026-04-07,Rogers Centre,72,0,none,Los Angeles Dodgers,Toronto Blue Jays,Max Muncy,Hit,0.579492,L,Balanced,0.32,Kevin Gausman,R,Power,1.25,8,1,system2
+2026-04-07,Rogers Centre,72,0,none,Los Angeles Dodgers,Toronto Blue Jays,Max Muncy,TB,0.303144,L,Balanced,0.32,Kevin Gausman,R,Power,1.25,8,1,system2
+2026-04-07,Rogers Centre,72,0,none,Los Angeles Dodgers,Toronto Blue Jays,Max Muncy,Run,0.32485,L,Balanced,0.32,Kevin Gausman,R,Power,1.25,8,1,system2
+2026-04-07,Rogers Centre,72,0,none,Los Angeles Dodgers,Toronto Blue Jays,Max Muncy,RBI,0.22005,L,Balanced,0.32,Kevin Gausman,R,Power,1.25,8,1,system2
+2026-04-07,Rogers Centre,72,0,none,Los Angeles Dodgers,Toronto Blue Jays,Miguel Rojas,HR,0.085513,R,Balanced,0.32,Kevin Gausman,R,Power,1.25,9,0,system2
+2026-04-07,Rogers Centre,72,0,none,Los Angeles Dodgers,Toronto Blue Jays,Miguel Rojas,Hit,0.476349,R,Balanced,0.32,Kevin Gausman,R,Power,1.25,9,0,system2
+2026-04-07,Rogers Centre,72,0,none,Los Angeles Dodgers,Toronto Blue Jays,Miguel Rojas,TB,0.284234,R,Balanced,0.32,Kevin Gausman,R,Power,1.25,9,0,system2
+2026-04-07,Rogers Centre,72,0,none,Los Angeles Dodgers,Toronto Blue Jays,Miguel Rojas,Run,0.286041,R,Balanced,0.32,Kevin Gausman,R,Power,1.25,9,0,system2
+2026-04-07,Rogers Centre,72,0,none,Los Angeles Dodgers,Toronto Blue Jays,Miguel Rojas,RBI,0.208972,R,Balanced,0.32,Kevin Gausman,R,Power,1.25,9,0,system2
+2026-04-07,Rogers Centre,72,0,none,Los Angeles Dodgers,Toronto Blue Jays,Andrés Giménez,HR,0.176201,L,Balanced,0.32,Yoshinobu Yamamoto,R,Power,1.25,1,1,system2
+2026-04-07,Rogers Centre,72,0,none,Los Angeles Dodgers,Toronto Blue Jays,Andrés Giménez,Hit,0.635744,L,Balanced,0.32,Yoshinobu Yamamoto,R,Power,1.25,1,1,system2
+2026-04-07,Rogers Centre,72,0,none,Los Angeles Dodgers,Toronto Blue Jays,Andrés Giménez,TB,0.412496,L,Balanced,0.32,Yoshinobu Yamamoto,R,Power,1.25,1,1,system2
+2026-04-07,Rogers Centre,72,0,none,Los Angeles Dodgers,Toronto Blue Jays,Andrés Giménez,Run,0.381594,L,Balanced,0.32,Yoshinobu Yamamoto,R,Power,1.25,1,1,system2
+2026-04-07,Rogers Centre,72,0,none,Los Angeles Dodgers,Toronto Blue Jays,Andrés Giménez,RBI,0.256041,L,Balanced,0.32,Yoshinobu Yamamoto,R,Power,1.25,1,1,system2
+2026-04-07,Rogers Centre,72,0,none,Los Angeles Dodgers,Toronto Blue Jays,Brandon Valenzuela,HR,0.153156,S,Balanced,0.32,Yoshinobu Yamamoto,R,Power,1.25,2,1,system2
+2026-04-07,Rogers Centre,72,0,none,Los Angeles Dodgers,Toronto Blue Jays,Brandon Valenzuela,Hit,0.625125,S,Balanced,0.32,Yoshinobu Yamamoto,R,Power,1.25,2,1,system2
+2026-04-07,Rogers Centre,72,0,none,Los Angeles Dodgers,Toronto Blue Jays,Brandon Valenzuela,TB,0.392854,S,Balanced,0.32,Yoshinobu Yamamoto,R,Power,1.25,2,1,system2
+2026-04-07,Rogers Centre,72,0,none,Los Angeles Dodgers,Toronto Blue Jays,Brandon Valenzuela,Run,0.399796,S,Balanced,0.32,Yoshinobu Yamamoto,R,Power,1.25,2,1,system2
+2026-04-07,Rogers Centre,72,0,none,Los Angeles Dodgers,Toronto Blue Jays,Brandon Valenzuela,RBI,0.261431,S,Balanced,0.32,Yoshinobu Yamamoto,R,Power,1.25,2,1,system2
+2026-04-07,Rogers Centre,72,0,none,Los Angeles Dodgers,Toronto Blue Jays,Daulton Varsho,HR,0.110602,L,Balanced,0.32,Yoshinobu Yamamoto,R,Power,1.25,3,1,system2
+2026-04-07,Rogers Centre,72,0,none,Los Angeles Dodgers,Toronto Blue Jays,Daulton Varsho,Hit,0.636009,L,Balanced,0.32,Yoshinobu Yamamoto,R,Power,1.25,3,1,system2
+2026-04-07,Rogers Centre,72,0,none,Los Angeles Dodgers,Toronto Blue Jays,Daulton Varsho,TB,0.385481,L,Balanced,0.32,Yoshinobu Yamamoto,R,Power,1.25,3,1,system2
+2026-04-07,Rogers Centre,72,0,none,Los Angeles Dodgers,Toronto Blue Jays,Daulton Varsho,Run,0.354336,L,Balanced,0.32,Yoshinobu Yamamoto,R,Power,1.25,3,1,system2
+2026-04-07,Rogers Centre,72,0,none,Los Angeles Dodgers,Toronto Blue Jays,Daulton Varsho,RBI,0.261782,L,Balanced,0.32,Yoshinobu Yamamoto,R,Power,1.25,3,1,system2
+2026-04-07,Rogers Centre,72,0,none,Los Angeles Dodgers,Toronto Blue Jays,Davis Schneider,HR,0.109982,R,Balanced,0.32,Yoshinobu Yamamoto,R,Power,1.25,4,0,system2
+2026-04-07,Rogers Centre,72,0,none,Los Angeles Dodgers,Toronto Blue Jays,Davis Schneider,Hit,0.539603,R,Balanced,0.32,Yoshinobu Yamamoto,R,Power,1.25,4,0,system2
+2026-04-07,Rogers Centre,72,0,none,Los Angeles Dodgers,Toronto Blue Jays,Davis Schneider,TB,0.338771,R,Balanced,0.32,Yoshinobu Yamamoto,R,Power,1.25,4,0,system2
+2026-04-07,Rogers Centre,72,0,none,Los Angeles Dodgers,Toronto Blue Jays,Davis Schneider,Run,0.332541,R,Balanced,0.32,Yoshinobu Yamamoto,R,Power,1.25,4,0,system2
+2026-04-07,Rogers Centre,72,0,none,Los Angeles Dodgers,Toronto Blue Jays,Davis Schneider,RBI,0.24231,R,Balanced,0.32,Yoshinobu Yamamoto,R,Power,1.25,4,0,system2
+2026-04-07,Rogers Centre,72,0,none,Los Angeles Dodgers,Toronto Blue Jays,Ernie Clement,HR,0.09408,R,Balanced,0.32,Yoshinobu Yamamoto,R,Power,1.25,5,0,system2
+2026-04-07,Rogers Centre,72,0,none,Los Angeles Dodgers,Toronto Blue Jays,Ernie Clement,Hit,0.546854,R,Balanced,0.32,Yoshinobu Yamamoto,R,Power,1.25,5,0,system2
+2026-04-07,Rogers Centre,72,0,none,Los Angeles Dodgers,Toronto Blue Jays,Ernie Clement,TB,0.31842,R,Balanced,0.32,Yoshinobu Yamamoto,R,Power,1.25,5,0,system2
+2026-04-07,Rogers Centre,72,0,none,Los Angeles Dodgers,Toronto Blue Jays,Ernie Clement,Run,0.324464,R,Balanced,0.32,Yoshinobu Yamamoto,R,Power,1.25,5,0,system2
+2026-04-07,Rogers Centre,72,0,none,Los Angeles Dodgers,Toronto Blue Jays,Ernie Clement,RBI,0.237658,R,Balanced,0.32,Yoshinobu Yamamoto,R,Power,1.25,5,0,system2
+2026-04-07,Rogers Centre,72,0,none,Los Angeles Dodgers,Toronto Blue Jays,George Springer,HR,0.114638,R,Balanced,0.32,Yoshinobu Yamamoto,R,Power,1.25,6,0,system2
+2026-04-07,Rogers Centre,72,0,none,Los Angeles Dodgers,Toronto Blue Jays,George Springer,Hit,0.558214,R,Balanced,0.32,Yoshinobu Yamamoto,R,Power,1.25,6,0,system2
+2026-04-07,Rogers Centre,72,0,none,Los Angeles Dodgers,Toronto Blue Jays,George Springer,TB,0.305323,R,Balanced,0.32,Yoshinobu Yamamoto,R,Power,1.25,6,0,system2
+2026-04-07,Rogers Centre,72,0,none,Los Angeles Dodgers,Toronto Blue Jays,George Springer,Run,0.31626,R,Balanced,0.32,Yoshinobu Yamamoto,R,Power,1.25,6,0,system2
+2026-04-07,Rogers Centre,72,0,none,Los Angeles Dodgers,Toronto Blue Jays,George Springer,RBI,0.235033,R,Balanced,0.32,Yoshinobu Yamamoto,R,Power,1.25,6,0,system2
+2026-04-07,Rogers Centre,72,0,none,Los Angeles Dodgers,Toronto Blue Jays,Jesús Sánchez,HR,0.094859,L,Balanced,0.32,Yoshinobu Yamamoto,R,Power,1.25,7,1,system2
+2026-04-07,Rogers Centre,72,0,none,Los Angeles Dodgers,Toronto Blue Jays,Jesús Sánchez,Hit,0.533905,L,Balanced,0.32,Yoshinobu Yamamoto,R,Power,1.25,7,1,system2
+2026-04-07,Rogers Centre,72,0,none,Los Angeles Dodgers,Toronto Blue Jays,Jesús Sánchez,TB,0.313497,L,Balanced,0.32,Yoshinobu Yamamoto,R,Power,1.25,7,1,system2
+2026-04-07,Rogers Centre,72,0,none,Los Angeles Dodgers,Toronto Blue Jays,Jesús Sánchez,Run,0.314568,L,Balanced,0.32,Yoshinobu Yamamoto,R,Power,1.25,7,1,system2
+2026-04-07,Rogers Centre,72,0,none,Los Angeles Dodgers,Toronto Blue Jays,Jesús Sánchez,RBI,0.237398,L,Balanced,0.32,Yoshinobu Yamamoto,R,Power,1.25,7,1,system2
+2026-04-07,Rogers Centre,72,0,none,Los Angeles Dodgers,Toronto Blue Jays,Kazuma Okamoto,HR,0.098094,R,Balanced,0.32,Yoshinobu Yamamoto,R,Power,1.25,8,0,system2
+2026-04-07,Rogers Centre,72,0,none,Los Angeles Dodgers,Toronto Blue Jays,Kazuma Okamoto,Hit,0.458842,R,Balanced,0.32,Yoshinobu Yamamoto,R,Power,1.25,8,0,system2
+2026-04-07,Rogers Centre,72,0,none,Los Angeles Dodgers,Toronto Blue Jays,Kazuma Okamoto,TB,0.299484,R,Balanced,0.32,Yoshinobu Yamamoto,R,Power,1.25,8,0,system2
+2026-04-07,Rogers Centre,72,0,none,Los Angeles Dodgers,Toronto Blue Jays,Kazuma Okamoto,Run,0.30725,R,Balanced,0.32,Yoshinobu Yamamoto,R,Power,1.25,8,0,system2
+2026-04-07,Rogers Centre,72,0,none,Los Angeles Dodgers,Toronto Blue Jays,Kazuma Okamoto,RBI,0.222943,R,Balanced,0.32,Yoshinobu Yamamoto,R,Power,1.25,8,0,system2
+2026-04-07,Rogers Centre,72,0,none,Los Angeles Dodgers,Toronto Blue Jays,Myles Straw,HR,0.114925,R,Balanced,0.32,Yoshinobu Yamamoto,R,Power,1.25,9,0,system2
+2026-04-07,Rogers Centre,72,0,none,Los Angeles Dodgers,Toronto Blue Jays,Myles Straw,Hit,0.503278,R,Balanced,0.32,Yoshinobu Yamamoto,R,Power,1.25,9,0,system2
+2026-04-07,Rogers Centre,72,0,none,Los Angeles Dodgers,Toronto Blue Jays,Myles Straw,TB,0.274391,R,Balanced,0.32,Yoshinobu Yamamoto,R,Power,1.25,9,0,system2
+2026-04-07,Rogers Centre,72,0,none,Los Angeles Dodgers,Toronto Blue Jays,Myles Straw,Run,0.299486,R,Balanced,0.32,Yoshinobu Yamamoto,R,Power,1.25,9,0,system2
+2026-04-07,Rogers Centre,72,0,none,Los Angeles Dodgers,Toronto Blue Jays,Myles Straw,RBI,0.216083,R,Balanced,0.32,Yoshinobu Yamamoto,R,Power,1.25,9,0,system2
+2026-04-07,Target Field,72,0,none,Detroit Tigers,Minnesota Twins,Colt Keith,HR,0.156667,L,Balanced,0.32,Taj Bradley,R,Power,1.25,1,1,system2
+2026-04-07,Target Field,72,0,none,Detroit Tigers,Minnesota Twins,Colt Keith,Hit,0.639849,L,Balanced,0.32,Taj Bradley,R,Power,1.25,1,1,system2
+2026-04-07,Target Field,72,0,none,Detroit Tigers,Minnesota Twins,Colt Keith,TB,0.427198,L,Balanced,0.32,Taj Bradley,R,Power,1.25,1,1,system2
+2026-04-07,Target Field,72,0,none,Detroit Tigers,Minnesota Twins,Colt Keith,Run,0.396441,L,Balanced,0.32,Taj Bradley,R,Power,1.25,1,1,system2
+2026-04-07,Target Field,72,0,none,Detroit Tigers,Minnesota Twins,Colt Keith,RBI,0.250193,L,Balanced,0.32,Taj Bradley,R,Power,1.25,1,1,system2
+2026-04-07,Target Field,72,0,none,Detroit Tigers,Minnesota Twins,Dillon Dingler,HR,0.111253,R,Balanced,0.32,Taj Bradley,R,Power,1.25,2,0,system2
+2026-04-07,Target Field,72,0,none,Detroit Tigers,Minnesota Twins,Dillon Dingler,Hit,0.558477,R,Balanced,0.32,Taj Bradley,R,Power,1.25,2,0,system2
+2026-04-07,Target Field,72,0,none,Detroit Tigers,Minnesota Twins,Dillon Dingler,TB,0.322322,R,Balanced,0.32,Taj Bradley,R,Power,1.25,2,0,system2
+2026-04-07,Target Field,72,0,none,Detroit Tigers,Minnesota Twins,Dillon Dingler,Run,0.36596,R,Balanced,0.32,Taj Bradley,R,Power,1.25,2,0,system2
+2026-04-07,Target Field,72,0,none,Detroit Tigers,Minnesota Twins,Dillon Dingler,RBI,0.242552,R,Balanced,0.32,Taj Bradley,R,Power,1.25,2,0,system2
+2026-04-07,Target Field,72,0,none,Detroit Tigers,Minnesota Twins,Gleyber Torres,HR,0.095219,R,Balanced,0.32,Taj Bradley,R,Power,1.25,3,0,system2
+2026-04-07,Target Field,72,0,none,Detroit Tigers,Minnesota Twins,Gleyber Torres,Hit,0.600813,R,Balanced,0.32,Taj Bradley,R,Power,1.25,3,0,system2
+2026-04-07,Target Field,72,0,none,Detroit Tigers,Minnesota Twins,Gleyber Torres,TB,0.350428,R,Balanced,0.32,Taj Bradley,R,Power,1.25,3,0,system2
+2026-04-07,Target Field,72,0,none,Detroit Tigers,Minnesota Twins,Gleyber Torres,Run,0.336534,R,Balanced,0.32,Taj Bradley,R,Power,1.25,3,0,system2
+2026-04-07,Target Field,72,0,none,Detroit Tigers,Minnesota Twins,Gleyber Torres,RBI,0.24863,R,Balanced,0.32,Taj Bradley,R,Power,1.25,3,0,system2
+2026-04-07,Target Field,72,0,none,Detroit Tigers,Minnesota Twins,Jahmai Jones,HR,0.13026,R,Balanced,0.32,Taj Bradley,R,Power,1.25,4,0,system2
+2026-04-07,Target Field,72,0,none,Detroit Tigers,Minnesota Twins,Jahmai Jones,Hit,0.550986,R,Balanced,0.32,Taj Bradley,R,Power,1.25,4,0,system2
+2026-04-07,Target Field,72,0,none,Detroit Tigers,Minnesota Twins,Jahmai Jones,TB,0.320098,R,Balanced,0.32,Taj Bradley,R,Power,1.25,4,0,system2
+2026-04-07,Target Field,72,0,none,Detroit Tigers,Minnesota Twins,Jahmai Jones,Run,0.319001,R,Balanced,0.32,Taj Bradley,R,Power,1.25,4,0,system2
+2026-04-07,Target Field,72,0,none,Detroit Tigers,Minnesota Twins,Jahmai Jones,RBI,0.272421,R,Balanced,0.32,Taj Bradley,R,Power,1.25,4,0,system2
+2026-04-07,Target Field,72,0,none,Detroit Tigers,Minnesota Twins,Jake Rogers,HR,0.118888,R,Balanced,0.32,Taj Bradley,R,Power,1.25,5,0,system2
+2026-04-07,Target Field,72,0,none,Detroit Tigers,Minnesota Twins,Jake Rogers,Hit,0.547797,R,Balanced,0.32,Taj Bradley,R,Power,1.25,5,0,system2
+2026-04-07,Target Field,72,0,none,Detroit Tigers,Minnesota Twins,Jake Rogers,TB,0.335541,R,Balanced,0.32,Taj Bradley,R,Power,1.25,5,0,system2
+2026-04-07,Target Field,72,0,none,Detroit Tigers,Minnesota Twins,Jake Rogers,Run,0.328016,R,Balanced,0.32,Taj Bradley,R,Power,1.25,5,0,system2
+2026-04-07,Target Field,72,0,none,Detroit Tigers,Minnesota Twins,Jake Rogers,RBI,0.238707,R,Balanced,0.32,Taj Bradley,R,Power,1.25,5,0,system2
+2026-04-07,Target Field,72,0,none,Detroit Tigers,Minnesota Twins,Javier Báez,HR,0.11845,R,Balanced,0.32,Taj Bradley,R,Power,1.25,6,0,system2
+2026-04-07,Target Field,72,0,none,Detroit Tigers,Minnesota Twins,Javier Báez,Hit,0.552789,R,Balanced,0.32,Taj Bradley,R,Power,1.25,6,0,system2
+2026-04-07,Target Field,72,0,none,Detroit Tigers,Minnesota Twins,Javier Báez,TB,0.33858,R,Balanced,0.32,Taj Bradley,R,Power,1.25,6,0,system2
+2026-04-07,Target Field,72,0,none,Detroit Tigers,Minnesota Twins,Javier Báez,Run,0.319804,R,Balanced,0.32,Taj Bradley,R,Power,1.25,6,0,system2
+2026-04-07,Target Field,72,0,none,Detroit Tigers,Minnesota Twins,Javier Báez,RBI,0.235033,R,Balanced,0.32,Taj Bradley,R,Power,1.25,6,0,system2
+2026-04-07,Target Field,72,0,none,Detroit Tigers,Minnesota Twins,Kerry Carpenter,HR,0.101718,L,Balanced,0.32,Taj Bradley,R,Power,1.25,7,1,system2
+2026-04-07,Target Field,72,0,none,Detroit Tigers,Minnesota Twins,Kerry Carpenter,Hit,0.547565,L,Balanced,0.32,Taj Bradley,R,Power,1.25,7,1,system2
+2026-04-07,Target Field,72,0,none,Detroit Tigers,Minnesota Twins,Kerry Carpenter,TB,0.298709,L,Balanced,0.32,Taj Bradley,R,Power,1.25,7,1,system2
+2026-04-07,Target Field,72,0,none,Detroit Tigers,Minnesota Twins,Kerry Carpenter,Run,0.313459,L,Balanced,0.32,Taj Bradley,R,Power,1.25,7,1,system2
+2026-04-07,Target Field,72,0,none,Detroit Tigers,Minnesota Twins,Kerry Carpenter,RBI,0.218124,L,Balanced,0.32,Taj Bradley,R,Power,1.25,7,1,system2
+2026-04-07,Target Field,72,0,none,Detroit Tigers,Minnesota Twins,Kevin McGonigle,HR,0.100716,L,Balanced,0.32,Taj Bradley,R,Power,1.25,8,1,system2
+2026-04-07,Target Field,72,0,none,Detroit Tigers,Minnesota Twins,Kevin McGonigle,Hit,0.545428,L,Balanced,0.32,Taj Bradley,R,Power,1.25,8,1,system2
+2026-04-07,Target Field,72,0,none,Detroit Tigers,Minnesota Twins,Kevin McGonigle,TB,0.300732,L,Balanced,0.32,Taj Bradley,R,Power,1.25,8,1,system2
+2026-04-07,Target Field,72,0,none,Detroit Tigers,Minnesota Twins,Kevin McGonigle,Run,0.301938,L,Balanced,0.32,Taj Bradley,R,Power,1.25,8,1,system2
+2026-04-07,Target Field,72,0,none,Detroit Tigers,Minnesota Twins,Kevin McGonigle,RBI,0.230343,L,Balanced,0.32,Taj Bradley,R,Power,1.25,8,1,system2
+2026-04-07,Target Field,72,0,none,Detroit Tigers,Minnesota Twins,Matt Vierling,HR,0.090311,R,Balanced,0.32,Taj Bradley,R,Power,1.25,9,0,system2
+2026-04-07,Target Field,72,0,none,Detroit Tigers,Minnesota Twins,Matt Vierling,Hit,0.481665,R,Balanced,0.32,Taj Bradley,R,Power,1.25,9,0,system2
+2026-04-07,Target Field,72,0,none,Detroit Tigers,Minnesota Twins,Matt Vierling,TB,0.273593,R,Balanced,0.32,Taj Bradley,R,Power,1.25,9,0,system2
+2026-04-07,Target Field,72,0,none,Detroit Tigers,Minnesota Twins,Matt Vierling,Run,0.286041,R,Balanced,0.32,Taj Bradley,R,Power,1.25,9,0,system2
+2026-04-07,Target Field,72,0,none,Detroit Tigers,Minnesota Twins,Matt Vierling,RBI,0.219656,R,Balanced,0.32,Taj Bradley,R,Power,1.25,9,0,system2
+2026-04-07,Target Field,72,0,none,Detroit Tigers,Minnesota Twins,Austin Martin,HR,0.125406,R,Balanced,0.32,Tarik Skubal,R,Power,1.25,1,0,system2
+2026-04-07,Target Field,72,0,none,Detroit Tigers,Minnesota Twins,Austin Martin,Hit,0.592786,R,Balanced,0.32,Tarik Skubal,R,Power,1.25,1,0,system2
+2026-04-07,Target Field,72,0,none,Detroit Tigers,Minnesota Twins,Austin Martin,TB,0.37769,R,Balanced,0.32,Tarik Skubal,R,Power,1.25,1,0,system2
+2026-04-07,Target Field,72,0,none,Detroit Tigers,Minnesota Twins,Austin Martin,Run,0.371837,R,Balanced,0.32,Tarik Skubal,R,Power,1.25,1,0,system2
+2026-04-07,Target Field,72,0,none,Detroit Tigers,Minnesota Twins,Austin Martin,RBI,0.281103,R,Balanced,0.32,Tarik Skubal,R,Power,1.25,1,0,system2
+2026-04-07,Target Field,72,0,none,Detroit Tigers,Minnesota Twins,Brooks Lee,HR,0.157563,S,Balanced,0.32,Tarik Skubal,R,Power,1.25,2,1,system2
+2026-04-07,Target Field,72,0,none,Detroit Tigers,Minnesota Twins,Brooks Lee,Hit,0.62515,S,Balanced,0.32,Tarik Skubal,R,Power,1.25,2,1,system2
+2026-04-07,Target Field,72,0,none,Detroit Tigers,Minnesota Twins,Brooks Lee,TB,0.361198,S,Balanced,0.32,Tarik Skubal,R,Power,1.25,2,1,system2
+2026-04-07,Target Field,72,0,none,Detroit Tigers,Minnesota Twins,Brooks Lee,Run,0.387767,S,Balanced,0.32,Tarik Skubal,R,Power,1.25,2,1,system2
+2026-04-07,Target Field,72,0,none,Detroit Tigers,Minnesota Twins,Brooks Lee,RBI,0.264259,S,Balanced,0.32,Tarik Skubal,R,Power,1.25,2,1,system2
+2026-04-07,Target Field,72,0,none,Detroit Tigers,Minnesota Twins,Byron Buxton,HR,0.123537,R,Balanced,0.32,Tarik Skubal,R,Power,1.25,3,0,system2
+2026-04-07,Target Field,72,0,none,Detroit Tigers,Minnesota Twins,Byron Buxton,Hit,0.568665,R,Balanced,0.32,Tarik Skubal,R,Power,1.25,3,0,system2
+2026-04-07,Target Field,72,0,none,Detroit Tigers,Minnesota Twins,Byron Buxton,TB,0.333554,R,Balanced,0.32,Tarik Skubal,R,Power,1.25,3,0,system2
+2026-04-07,Target Field,72,0,none,Detroit Tigers,Minnesota Twins,Byron Buxton,Run,0.327062,R,Balanced,0.32,Tarik Skubal,R,Power,1.25,3,0,system2
+2026-04-07,Target Field,72,0,none,Detroit Tigers,Minnesota Twins,Byron Buxton,RBI,0.247821,R,Balanced,0.32,Tarik Skubal,R,Power,1.25,3,0,system2
+2026-04-07,Target Field,72,0,none,Detroit Tigers,Minnesota Twins,James Outman,HR,0.122424,L,Balanced,0.32,Tarik Skubal,R,Power,1.25,4,1,system2
+2026-04-07,Target Field,72,0,none,Detroit Tigers,Minnesota Twins,James Outman,Hit,0.593464,L,Balanced,0.32,Tarik Skubal,R,Power,1.25,4,1,system2
+2026-04-07,Target Field,72,0,none,Detroit Tigers,Minnesota Twins,James Outman,TB,0.345235,L,Balanced,0.32,Tarik Skubal,R,Power,1.25,4,1,system2
+2026-04-07,Target Field,72,0,none,Detroit Tigers,Minnesota Twins,James Outman,Run,0.349163,L,Balanced,0.32,Tarik Skubal,R,Power,1.25,4,1,system2
+2026-04-07,Target Field,72,0,none,Detroit Tigers,Minnesota Twins,James Outman,RBI,0.270046,L,Balanced,0.32,Tarik Skubal,R,Power,1.25,4,1,system2
+2026-04-07,Target Field,72,0,none,Detroit Tigers,Minnesota Twins,Josh Bell,HR,0.127284,S,Balanced,0.32,Tarik Skubal,R,Power,1.25,5,1,system2
+2026-04-07,Target Field,72,0,none,Detroit Tigers,Minnesota Twins,Josh Bell,Hit,0.55149,S,Balanced,0.32,Tarik Skubal,R,Power,1.25,5,1,system2
+2026-04-07,Target Field,72,0,none,Detroit Tigers,Minnesota Twins,Josh Bell,TB,0.347448,S,Balanced,0.32,Tarik Skubal,R,Power,1.25,5,1,system2
+2026-04-07,Target Field,72,0,none,Detroit Tigers,Minnesota Twins,Josh Bell,Run,0.325798,S,Balanced,0.32,Tarik Skubal,R,Power,1.25,5,1,system2
+2026-04-07,Target Field,72,0,none,Detroit Tigers,Minnesota Twins,Josh Bell,RBI,0.261417,S,Balanced,0.32,Tarik Skubal,R,Power,1.25,5,1,system2
+2026-04-07,Target Field,72,0,none,Detroit Tigers,Minnesota Twins,Kody Clemens,HR,0.12682,L,Balanced,0.32,Tarik Skubal,R,Power,1.25,6,1,system2
+2026-04-07,Target Field,72,0,none,Detroit Tigers,Minnesota Twins,Kody Clemens,Hit,0.550688,L,Balanced,0.32,Tarik Skubal,R,Power,1.25,6,1,system2
+2026-04-07,Target Field,72,0,none,Detroit Tigers,Minnesota Twins,Kody Clemens,TB,0.316999,L,Balanced,0.32,Tarik Skubal,R,Power,1.25,6,1,system2
+2026-04-07,Target Field,72,0,none,Detroit Tigers,Minnesota Twins,Kody Clemens,Run,0.325311,L,Balanced,0.32,Tarik Skubal,R,Power,1.25,6,1,system2
+2026-04-07,Target Field,72,0,none,Detroit Tigers,Minnesota Twins,Kody Clemens,RBI,0.25972,L,Balanced,0.32,Tarik Skubal,R,Power,1.25,6,1,system2
+2026-04-07,Target Field,72,0,none,Detroit Tigers,Minnesota Twins,Luke Keaschall,HR,0.100156,R,Balanced,0.32,Tarik Skubal,R,Power,1.25,7,0,system2
+2026-04-07,Target Field,72,0,none,Detroit Tigers,Minnesota Twins,Luke Keaschall,Hit,0.528967,R,Balanced,0.32,Tarik Skubal,R,Power,1.25,7,0,system2
+2026-04-07,Target Field,72,0,none,Detroit Tigers,Minnesota Twins,Luke Keaschall,TB,0.323049,R,Balanced,0.32,Tarik Skubal,R,Power,1.25,7,0,system2
+2026-04-07,Target Field,72,0,none,Detroit Tigers,Minnesota Twins,Luke Keaschall,Run,0.32707,R,Balanced,0.32,Tarik Skubal,R,Power,1.25,7,0,system2
+2026-04-07,Target Field,72,0,none,Detroit Tigers,Minnesota Twins,Luke Keaschall,RBI,0.237398,R,Balanced,0.32,Tarik Skubal,R,Power,1.25,7,0,system2
+2026-04-07,Target Field,72,0,none,Detroit Tigers,Minnesota Twins,Matt Wallner,HR,0.105829,L,Balanced,0.32,Tarik Skubal,R,Power,1.25,8,1,system2
+2026-04-07,Target Field,72,0,none,Detroit Tigers,Minnesota Twins,Matt Wallner,Hit,0.548789,L,Balanced,0.32,Tarik Skubal,R,Power,1.25,8,1,system2
+2026-04-07,Target Field,72,0,none,Detroit Tigers,Minnesota Twins,Matt Wallner,TB,0.303144,L,Balanced,0.32,Tarik Skubal,R,Power,1.25,8,1,system2
+2026-04-07,Target Field,72,0,none,Detroit Tigers,Minnesota Twins,Matt Wallner,Run,0.301938,L,Balanced,0.32,Tarik Skubal,R,Power,1.25,8,1,system2
+2026-04-07,Target Field,72,0,none,Detroit Tigers,Minnesota Twins,Matt Wallner,RBI,0.230343,L,Balanced,0.32,Tarik Skubal,R,Power,1.25,8,1,system2
+2026-04-07,Target Field,72,0,none,Detroit Tigers,Minnesota Twins,Royce Lewis,HR,0.0898,R,Balanced,0.32,Tarik Skubal,R,Power,1.25,9,0,system2
+2026-04-07,Target Field,72,0,none,Detroit Tigers,Minnesota Twins,Royce Lewis,Hit,0.485568,R,Balanced,0.32,Tarik Skubal,R,Power,1.25,9,0,system2
+2026-04-07,Target Field,72,0,none,Detroit Tigers,Minnesota Twins,Royce Lewis,TB,0.274391,R,Balanced,0.32,Tarik Skubal,R,Power,1.25,9,0,system2
+2026-04-07,Target Field,72,0,none,Detroit Tigers,Minnesota Twins,Royce Lewis,Run,0.255118,R,Balanced,0.32,Tarik Skubal,R,Power,1.25,9,0,system2
+2026-04-07,Target Field,72,0,none,Detroit Tigers,Minnesota Twins,Royce Lewis,RBI,0.210395,R,Balanced,0.32,Tarik Skubal,R,Power,1.25,9,0,system2
+2026-04-07,Progressive Field,72,0,none,Kansas City Royals,Cleveland Guardians,GAME_TOTAL,NRFI,0.538,,,,,,,,,,system2
+2026-04-07,Progressive Field,72,0,none,Kansas City Royals,Cleveland Guardians,GAME_TOTAL,ML_Away,0.512,,,,,,,,,,system2
+2026-04-07,Progressive Field,72,0,none,Kansas City Royals,Cleveland Guardians,GAME_TOTAL,ML_Home,0.488,,,,,,,,,,system2
+2026-04-07,Progressive Field,72,0,none,Kansas City Royals,Cleveland Guardians,GAME_TOTAL,Over_8.5,0.5073,,,,,,,,,,system2
+2026-04-07,Progressive Field,72,0,none,Kansas City Royals,Cleveland Guardians,GAME_TOTAL,F5_ML_Away,0.4073,,,,,,,,,,system2
+2026-04-07,Progressive Field,72,0,none,Kansas City Royals,Cleveland Guardians,GAME_TOTAL,F5_ML_Home,0.4087,,,,,,,,,,system2
+2026-04-07,Progressive Field,72,0,none,Kansas City Royals,Cleveland Guardians,GAME_TOTAL,F5_Over_4.5,0.4487,,,,,,,,,,system2
+2026-04-07,Progressive Field,72,0,none,Kansas City Royals,Cleveland Guardians,GAME_TOTAL,TeamTotal_Away_Over_4.5,0.4393,,,,,,,,,,system2
+2026-04-07,Progressive Field,72,0,none,Kansas City Royals,Cleveland Guardians,GAME_TOTAL,TeamTotal_Home_Over_4.5,0.4453,,,,,,,,,,system2
+2026-04-07,Rate Field,72,0,none,Baltimore Orioles,Chicago White Sox,GAME_TOTAL,NRFI,0.5267,,,,,,,,,,system2
+2026-04-07,Rate Field,72,0,none,Baltimore Orioles,Chicago White Sox,GAME_TOTAL,ML_Away,0.468,,,,,,,,,,system2
+2026-04-07,Rate Field,72,0,none,Baltimore Orioles,Chicago White Sox,GAME_TOTAL,ML_Home,0.532,,,,,,,,,,system2
+2026-04-07,Rate Field,72,0,none,Baltimore Orioles,Chicago White Sox,GAME_TOTAL,Over_9.5,0.402,,,,,,,,,,system2
+2026-04-07,Rate Field,72,0,none,Baltimore Orioles,Chicago White Sox,GAME_TOTAL,F5_ML_Away,0.4167,,,,,,,,,,system2
+2026-04-07,Rate Field,72,0,none,Baltimore Orioles,Chicago White Sox,GAME_TOTAL,F5_ML_Home,0.42,,,,,,,,,,system2
+2026-04-07,Rate Field,72,0,none,Baltimore Orioles,Chicago White Sox,GAME_TOTAL,F5_Over_4.5,0.4587,,,,,,,,,,system2
+2026-04-07,Rate Field,72,0,none,Baltimore Orioles,Chicago White Sox,GAME_TOTAL,TeamTotal_Away_Over_4.5,0.4353,,,,,,,,,,system2
+2026-04-07,Rate Field,72,0,none,Baltimore Orioles,Chicago White Sox,GAME_TOTAL,TeamTotal_Home_Over_4.5,0.4753,,,,,,,,,,system2
+2026-04-07,Citi Field,72,0,none,Arizona Diamondbacks,New York Mets,GAME_TOTAL,NRFI,0.5317,,,,,,,,,,system2
+2026-04-07,Citi Field,72,0,none,Arizona Diamondbacks,New York Mets,GAME_TOTAL,ML_Away,0.5127,,,,,,,,,,system2
+2026-04-07,Citi Field,72,0,none,Arizona Diamondbacks,New York Mets,GAME_TOTAL,ML_Home,0.4873,,,,,,,,,,system2
+2026-04-07,Citi Field,72,0,none,Arizona Diamondbacks,New York Mets,GAME_TOTAL,Over_8.5,0.5033,,,,,,,,,,system2
+2026-04-07,Citi Field,72,0,none,Arizona Diamondbacks,New York Mets,GAME_TOTAL,F5_ML_Away,0.4307,,,,,,,,,,system2
+2026-04-07,Citi Field,72,0,none,Arizona Diamondbacks,New York Mets,GAME_TOTAL,F5_ML_Home,0.406,,,,,,,,,,system2
+2026-04-07,Citi Field,72,0,none,Arizona Diamondbacks,New York Mets,GAME_TOTAL,F5_Over_4.5,0.444,,,,,,,,,,system2
+2026-04-07,Citi Field,72,0,none,Arizona Diamondbacks,New York Mets,GAME_TOTAL,TeamTotal_Away_Over_4.5,0.4587,,,,,,,,,,system2
+2026-04-07,Citi Field,72,0,none,Arizona Diamondbacks,New York Mets,GAME_TOTAL,TeamTotal_Home_Over_4.5,0.4313,,,,,,,,,,system2
+2026-04-07,PNC Park,72,0,none,San Diego Padres,Pittsburgh Pirates,GAME_TOTAL,NRFI,0.5761,,,,,,,,,,system2
+2026-04-07,PNC Park,72,0,none,San Diego Padres,Pittsburgh Pirates,GAME_TOTAL,ML_Away,0.5173,,,,,,,,,,system2
+2026-04-07,PNC Park,72,0,none,San Diego Padres,Pittsburgh Pirates,GAME_TOTAL,ML_Home,0.4827,,,,,,,,,,system2
+2026-04-07,PNC Park,72,0,none,San Diego Padres,Pittsburgh Pirates,GAME_TOTAL,Over_7.5,0.48,,,,,,,,,,system2
+2026-04-07,PNC Park,72,0,none,San Diego Padres,Pittsburgh Pirates,GAME_TOTAL,F5_ML_Away,0.4207,,,,,,,,,,system2
+2026-04-07,PNC Park,72,0,none,San Diego Padres,Pittsburgh Pirates,GAME_TOTAL,F5_ML_Home,0.3967,,,,,,,,,,system2
+2026-04-07,PNC Park,72,0,none,San Diego Padres,Pittsburgh Pirates,GAME_TOTAL,F5_Over_3.5,0.504,,,,,,,,,,system2
+2026-04-07,PNC Park,72,0,none,San Diego Padres,Pittsburgh Pirates,GAME_TOTAL,TeamTotal_Away_Over_4.5,0.3693,,,,,,,,,,system2
+2026-04-07,PNC Park,72,0,none,San Diego Padres,Pittsburgh Pirates,GAME_TOTAL,TeamTotal_Home_Over_3.5,0.4773,,,,,,,,,,system2
+2026-04-07,Tropicana Field,72,0,none,Chicago Cubs,Tampa Bay Rays,GAME_TOTAL,NRFI,0.5533,,,,,,,,,,system2
+2026-04-07,Tropicana Field,72,0,none,Chicago Cubs,Tampa Bay Rays,GAME_TOTAL,ML_Away,0.4687,,,,,,,,,,system2
+2026-04-07,Tropicana Field,72,0,none,Chicago Cubs,Tampa Bay Rays,GAME_TOTAL,ML_Home,0.5313,,,,,,,,,,system2
+2026-04-07,Tropicana Field,72,0,none,Chicago Cubs,Tampa Bay Rays,GAME_TOTAL,Over_8.5,0.494,,,,,,,,,,system2
+2026-04-07,Tropicana Field,72,0,none,Chicago Cubs,Tampa Bay Rays,GAME_TOTAL,F5_ML_Away,0.3827,,,,,,,,,,system2
+2026-04-07,Tropicana Field,72,0,none,Chicago Cubs,Tampa Bay Rays,GAME_TOTAL,F5_ML_Home,0.4433,,,,,,,,,,system2
+2026-04-07,Tropicana Field,72,0,none,Chicago Cubs,Tampa Bay Rays,GAME_TOTAL,F5_Over_4.5,0.4387,,,,,,,,,,system2
+2026-04-07,Tropicana Field,72,0,none,Chicago Cubs,Tampa Bay Rays,GAME_TOTAL,TeamTotal_Away_Over_4.5,0.412,,,,,,,,,,system2
+2026-04-07,Tropicana Field,72,0,none,Chicago Cubs,Tampa Bay Rays,GAME_TOTAL,TeamTotal_Home_Over_4.5,0.454,,,,,,,,,,system2
+2026-04-07,loanDepot park,72,0,none,Cincinnati Reds,Miami Marlins,GAME_TOTAL,NRFI,0.5587,,,,,,,,,,system2
+2026-04-07,loanDepot park,72,0,none,Cincinnati Reds,Miami Marlins,GAME_TOTAL,ML_Away,0.498,,,,,,,,,,system2
+2026-04-07,loanDepot park,72,0,none,Cincinnati Reds,Miami Marlins,GAME_TOTAL,ML_Home,0.502,,,,,,,,,,system2
+2026-04-07,loanDepot park,72,0,none,Cincinnati Reds,Miami Marlins,GAME_TOTAL,Over_8.5,0.446,,,,,,,,,,system2
+2026-04-07,loanDepot park,72,0,none,Cincinnati Reds,Miami Marlins,GAME_TOTAL,F5_ML_Away,0.424,,,,,,,,,,system2
+2026-04-07,loanDepot park,72,0,none,Cincinnati Reds,Miami Marlins,GAME_TOTAL,F5_ML_Home,0.4067,,,,,,,,,,system2
+2026-04-07,loanDepot park,72,0,none,Cincinnati Reds,Miami Marlins,GAME_TOTAL,F5_Over_4.5,0.404,,,,,,,,,,system2
+2026-04-07,loanDepot park,72,0,none,Cincinnati Reds,Miami Marlins,GAME_TOTAL,TeamTotal_Away_Over_4.5,0.406,,,,,,,,,,system2
+2026-04-07,loanDepot park,72,0,none,Cincinnati Reds,Miami Marlins,GAME_TOTAL,TeamTotal_Home_Over_4.5,0.4093,,,,,,,,,,system2
+2026-04-07,Nationals Park,72,0,none,St. Louis Cardinals,Washington Nationals,GAME_TOTAL,NRFI,0.5281,,,,,,,,,,system2
+2026-04-07,Nationals Park,72,0,none,St. Louis Cardinals,Washington Nationals,GAME_TOTAL,ML_Away,0.51,,,,,,,,,,system2
+2026-04-07,Nationals Park,72,0,none,St. Louis Cardinals,Washington Nationals,GAME_TOTAL,ML_Home,0.49,,,,,,,,,,system2
+2026-04-07,Nationals Park,72,0,none,St. Louis Cardinals,Washington Nationals,GAME_TOTAL,Over_8.5,0.4993,,,,,,,,,,system2
+2026-04-07,Nationals Park,72,0,none,St. Louis Cardinals,Washington Nationals,GAME_TOTAL,F5_ML_Away,0.4347,,,,,,,,,,system2
+2026-04-07,Nationals Park,72,0,none,St. Louis Cardinals,Washington Nationals,GAME_TOTAL,F5_ML_Home,0.4033,,,,,,,,,,system2
+2026-04-07,Nationals Park,72,0,none,St. Louis Cardinals,Washington Nationals,GAME_TOTAL,F5_Over_4.5,0.44,,,,,,,,,,system2
+2026-04-07,Nationals Park,72,0,none,St. Louis Cardinals,Washington Nationals,GAME_TOTAL,TeamTotal_Away_Over_4.5,0.4447,,,,,,,,,,system2
+2026-04-07,Nationals Park,72,0,none,St. Louis Cardinals,Washington Nationals,GAME_TOTAL,TeamTotal_Home_Over_4.5,0.4347,,,,,,,,,,system2
+2026-04-07,Fenway Park,72,0,none,Milwaukee Brewers,Boston Red Sox,GAME_TOTAL,NRFI,0.5238,,,,,,,,,,system2
+2026-04-07,Fenway Park,72,0,none,Milwaukee Brewers,Boston Red Sox,GAME_TOTAL,ML_Away,0.5507,,,,,,,,,,system2
+2026-04-07,Fenway Park,72,0,none,Milwaukee Brewers,Boston Red Sox,GAME_TOTAL,ML_Home,0.4493,,,,,,,,,,system2
+2026-04-07,Fenway Park,72,0,none,Milwaukee Brewers,Boston Red Sox,GAME_TOTAL,Over_9.5,0.4733,,,,,,,,,,system2
+2026-04-07,Fenway Park,72,0,none,Milwaukee Brewers,Boston Red Sox,GAME_TOTAL,F5_ML_Away,0.456,,,,,,,,,,system2
+2026-04-07,Fenway Park,72,0,none,Milwaukee Brewers,Boston Red Sox,GAME_TOTAL,F5_ML_Home,0.3973,,,,,,,,,,system2
+2026-04-07,Fenway Park,72,0,none,Milwaukee Brewers,Boston Red Sox,GAME_TOTAL,F5_Over_5.5,0.3847,,,,,,,,,,system2
+2026-04-07,Fenway Park,72,0,none,Milwaukee Brewers,Boston Red Sox,GAME_TOTAL,TeamTotal_Away_Over_5.5,0.4367,,,,,,,,,,system2
+2026-04-07,Fenway Park,72,0,none,Milwaukee Brewers,Boston Red Sox,GAME_TOTAL,TeamTotal_Home_Over_4.5,0.466,,,,,,,,,,system2
+2026-04-07,Yankee Stadium,72,0,none,Athletics,New York Yankees,GAME_TOTAL,NRFI,0.5199,,,,,,,,,,system2
+2026-04-07,Yankee Stadium,72,0,none,Athletics,New York Yankees,GAME_TOTAL,ML_Away,0.472,,,,,,,,,,system2
+2026-04-07,Yankee Stadium,72,0,none,Athletics,New York Yankees,GAME_TOTAL,ML_Home,0.528,,,,,,,,,,system2
+2026-04-07,Yankee Stadium,72,0,none,Athletics,New York Yankees,GAME_TOTAL,Over_9.5,0.4233,,,,,,,,,,system2
+2026-04-07,Yankee Stadium,72,0,none,Athletics,New York Yankees,GAME_TOTAL,F5_ML_Away,0.4333,,,,,,,,,,system2
+2026-04-07,Yankee Stadium,72,0,none,Athletics,New York Yankees,GAME_TOTAL,F5_ML_Home,0.4147,,,,,,,,,,system2
+2026-04-07,Yankee Stadium,72,0,none,Athletics,New York Yankees,GAME_TOTAL,F5_Over_4.5,0.474,,,,,,,,,,system2
+2026-04-07,Yankee Stadium,72,0,none,Athletics,New York Yankees,GAME_TOTAL,TeamTotal_Away_Over_4.5,0.4267,,,,,,,,,,system2
+2026-04-07,Yankee Stadium,72,0,none,Athletics,New York Yankees,GAME_TOTAL,TeamTotal_Home_Over_4.5,0.47,,,,,,,,,,system2
+2026-04-07,Rogers Centre,72,0,none,Los Angeles Dodgers,Toronto Blue Jays,GAME_TOTAL,NRFI,0.5243,,,,,,,,,,system2
+2026-04-07,Rogers Centre,72,0,none,Los Angeles Dodgers,Toronto Blue Jays,GAME_TOTAL,ML_Away,0.4967,,,,,,,,,,system2
+2026-04-07,Rogers Centre,72,0,none,Los Angeles Dodgers,Toronto Blue Jays,GAME_TOTAL,ML_Home,0.5033,,,,,,,,,,system2
+2026-04-07,Rogers Centre,72,0,none,Los Angeles Dodgers,Toronto Blue Jays,GAME_TOTAL,Over_9.5,0.4147,,,,,,,,,,system2
+2026-04-07,Rogers Centre,72,0,none,Los Angeles Dodgers,Toronto Blue Jays,GAME_TOTAL,F5_ML_Away,0.414,,,,,,,,,,system2
+2026-04-07,Rogers Centre,72,0,none,Los Angeles Dodgers,Toronto Blue Jays,GAME_TOTAL,F5_ML_Home,0.4113,,,,,,,,,,system2
+2026-04-07,Rogers Centre,72,0,none,Los Angeles Dodgers,Toronto Blue Jays,GAME_TOTAL,F5_Over_4.5,0.4633,,,,,,,,,,system2
+2026-04-07,Rogers Centre,72,0,none,Los Angeles Dodgers,Toronto Blue Jays,GAME_TOTAL,TeamTotal_Away_Over_4.5,0.4607,,,,,,,,,,system2
+2026-04-07,Rogers Centre,72,0,none,Los Angeles Dodgers,Toronto Blue Jays,GAME_TOTAL,TeamTotal_Home_Over_4.5,0.4647,,,,,,,,,,system2
+2026-04-07,Target Field,72,0,none,Detroit Tigers,Minnesota Twins,GAME_TOTAL,NRFI,0.5405,,,,,,,,,,system2
+2026-04-07,Target Field,72,0,none,Detroit Tigers,Minnesota Twins,GAME_TOTAL,ML_Away,0.472,,,,,,,,,,system2
+2026-04-07,Target Field,72,0,none,Detroit Tigers,Minnesota Twins,GAME_TOTAL,ML_Home,0.528,,,,,,,,,,system2
+2026-04-07,Target Field,72,0,none,Detroit Tigers,Minnesota Twins,GAME_TOTAL,Over_9.5,0.3927,,,,,,,,,,system2
+2026-04-07,Target Field,72,0,none,Detroit Tigers,Minnesota Twins,GAME_TOTAL,F5_ML_Away,0.3927,,,,,,,,,,system2
+2026-04-07,Target Field,72,0,none,Detroit Tigers,Minnesota Twins,GAME_TOTAL,F5_ML_Home,0.4393,,,,,,,,,,system2
+2026-04-07,Target Field,72,0,none,Detroit Tigers,Minnesota Twins,GAME_TOTAL,F5_Over_4.5,0.4253,,,,,,,,,,system2
+2026-04-07,Target Field,72,0,none,Detroit Tigers,Minnesota Twins,GAME_TOTAL,TeamTotal_Away_Over_4.5,0.44,,,,,,,,,,system2
+2026-04-07,Target Field,72,0,none,Detroit Tigers,Minnesota Twins,GAME_TOTAL,TeamTotal_Home_Over_4.5,0.4447,,,,,,,,,,system2
