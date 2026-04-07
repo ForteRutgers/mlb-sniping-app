@@ -101,15 +101,21 @@ def capture_model_state(model: xgb.Booster) -> ModelState:
 
 
 def _accumulate_tree_stats(node: dict, stats: dict) -> None:
-    """Recursively accumulate statistics from a tree node."""
+    """
+    Recursively accumulate statistics from a tree node.
+    
+    Note: 'weight' accumulates both split count (internal nodes) and leaf values (terminal nodes)
+    to provide a comprehensive measure of tree complexity and learned adjustments.
+    """
     if 'leaf' in node:
         stats['leaves'] += 1
         stats['leaf_sum'] += abs(node['leaf'])
+        # Leaf values represent learned adjustments - include in weight for completeness
         stats['weight'] += abs(node['leaf'])
     else:
-        # Internal node
+        # Internal node - count splits as structural weight
         if 'split_condition' in node:
-            stats['weight'] += 1  # Count splits as weight
+            stats['weight'] += 1
         if 'children' in node:
             for child in node['children']:
                 _accumulate_tree_stats(child, stats)
@@ -130,7 +136,8 @@ def generate_bad_prediction_scenario(n_samples: int = 200, seed: int = 42) -> tu
     Returns:
         X: Feature matrix
         y_true: Actual outcomes
-        y_pred_bad: Intentionally bad predictions (high loss)
+        synthetic_inverted_probs: Synthetically generated inverted probabilities
+            (not model predictions - used only for generating test data)
     """
     np.random.seed(seed)
     
@@ -145,7 +152,11 @@ def generate_bad_prediction_scenario(n_samples: int = 200, seed: int = 42) -> tu
     is_hard_hit = (launch_speed >= 95).astype(int)
     is_barrel = ((launch_speed >= 98) & (launch_angle >= 26) & (launch_angle <= 30)).astype(int)
     is_blast = ((launch_speed >= 100) & (launch_angle >= 26) & (launch_angle <= 30)).astype(int)
-    hr_park_factor = np.random.choice([85, 95, 100, 105, 115, 126], n_samples)
+    
+    # Park factors: 100 is neutral, >100 is hitter-friendly, <100 is pitcher-friendly
+    # Values based on MLB Statcast park factors: COL=113, CIN=126, LAD=118, etc.
+    PARK_FACTORS = [85, 95, 100, 105, 115, 126]  # Range from pitcher-friendly to extreme hitter-friendly
+    hr_park_factor = np.random.choice(PARK_FACTORS, n_samples)
     
     X = np.column_stack([
         launch_speed, launch_angle, release_speed,
@@ -163,12 +174,13 @@ def generate_bad_prediction_scenario(n_samples: int = 200, seed: int = 42) -> tu
     
     y_true = (np.random.random(n_samples) < hr_prob_true).astype(int)
     
-    # BAD predictions: systematically wrong
-    # Invert the relationship - predict HIGH when should be LOW and vice versa
-    y_pred_bad = 1 - hr_prob_true + np.random.normal(0, 0.1, n_samples)
-    y_pred_bad = y_pred_bad.clip(0.01, 0.99)
+    # Synthetic inverted probabilities: systematically wrong
+    # Invert the relationship - HIGH when should be LOW and vice versa
+    # Note: These are manufactured for testing, NOT model predictions
+    synthetic_inverted_probs = 1 - hr_prob_true + np.random.normal(0, 0.1, n_samples)
+    synthetic_inverted_probs = synthetic_inverted_probs.clip(0.01, 0.99)
     
-    return X, y_true, y_pred_bad
+    return X, y_true, synthetic_inverted_probs
 
 
 # ==============================================================================
@@ -277,7 +289,8 @@ def test_self_improvement_feedback_loop():
     # ==========================================================================
     print("\n💥 STEP 2: Simulating BAD prediction scenario (negative reinforcement trigger)...")
     
-    X_fail, y_true_fail, y_pred_bad = generate_bad_prediction_scenario(n_samples=200, seed=456)
+    # Generate failure scenario data - the third return value is synthetic inverted probs (unused)
+    X_fail, y_true_fail, _ = generate_bad_prediction_scenario(n_samples=200, seed=456)
     
     # Get model's actual predictions on failure data
     dfail = xgb.DMatrix(X_fail, feature_names=['launch_speed', 'launch_angle', 'release_speed',
@@ -561,16 +574,16 @@ if __name__ == "__main__":
     print("\n" + "#" * 80)
     print("#" + " " * 78 + "#")
     print("#" + "  AI SELF-IMPROVEMENT FEEDBACK LOOP - INTEGRATION TEST SUITE  ".center(78) + "#")
-    print("#" + " " * 78 + "#")  
+    print("#" + " " * 78 + "#")
     print("#" * 80)
-    
+
     # Run main integration test
     main_test_passed = test_self_improvement_feedback_loop()
-    
+
     # Run diagnostic test
     print("\n")
     diagnostic_passed = test_incremental_vs_fresh_training()
-    
+
     # Final verdict
     print("\n" + "#" * 80)
     if main_test_passed and diagnostic_passed:
