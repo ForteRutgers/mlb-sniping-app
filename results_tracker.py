@@ -9,9 +9,9 @@ Now includes self-improvement monitoring metrics:
 - Model improvement vs baseline (XGBoost vs Raw MC)
 - Context freshness indicators
 """
+import glob
 import json
 import os
-import glob as glob_module
 
 import numpy as np
 import pandas as pd
@@ -20,6 +20,12 @@ from datetime import datetime, timedelta
 import pytz
 
 DISCORD_WEBHOOK_URL = os.environ.get("DISCORD_WEBHOOK", "")
+
+# ---------------------------------------------------------------------------
+# Self-Improvement Monitoring Constants
+# ---------------------------------------------------------------------------
+
+MIN_TRAINING_ROWS_FOR_ACTIVE = 1000  # Minimum rows before status changes to ACTIVE
 
 
 # ---------------------------------------------------------------------------
@@ -51,7 +57,7 @@ def get_training_data_metrics() -> dict:
             if not dates.empty:
                 metrics["latest_date"] = str(dates.max().date())
                 metrics["days_of_data"] = (dates.max() - dates.min()).days + 1
-        metrics["status"] = "ACTIVE" if metrics["row_count"] > 1000 else "BUILDING"
+        metrics["status"] = "ACTIVE" if metrics["row_count"] > MIN_TRAINING_ROWS_FOR_ACTIVE else "BUILDING"
     except Exception:
         metrics["status"] = "ERROR"
     return metrics
@@ -126,17 +132,20 @@ def get_model_freshness() -> dict:
     model_patterns = ["enhanced_model_*.json", "mlb_xgboost_brain.json"]
     model_files = []
     for pattern in model_patterns:
-        model_files.extend(glob_module.glob(pattern))
+        model_files.extend(glob.glob(pattern))
 
     if not model_files:
         return metrics
 
     try:
         latest_mtime = max(os.path.getmtime(f) for f in model_files)
-        last_retrain = datetime.fromtimestamp(latest_mtime)
-        hours_ago = (datetime.now() - last_retrain).total_seconds() / 3600
+        # Use timezone-aware datetime for consistent comparisons
+        utc = pytz.UTC
+        last_retrain = datetime.fromtimestamp(latest_mtime, tz=utc)
+        now_utc = datetime.now(utc)
+        hours_ago = (now_utc - last_retrain).total_seconds() / 3600
 
-        metrics["last_retrain"] = last_retrain.strftime("%Y-%m-%d %H:%M")
+        metrics["last_retrain"] = last_retrain.strftime("%Y-%m-%d %H:%M UTC")
         metrics["hours_since_retrain"] = round(hours_ago, 1)
 
         if hours_ago < 24:
