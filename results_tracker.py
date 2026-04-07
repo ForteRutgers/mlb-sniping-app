@@ -160,7 +160,7 @@ def fetch_yesterdays_boxscores(yesterday_str: str) -> dict:
 # Grading
 # ---------------------------------------------------------------------------
 
-def _match_game(away_t: str, home_t: str, game_outcomes: dict) -> dict | None:
+def _match_game(away_t: str, home_t: str, game_outcomes: dict) -> "dict | None":
     """Fuzzy-match a (away, home) team pair against the API outcomes dict."""
     for go in game_outcomes.values():
         if go["away_team"] == away_t and go["home_team"] == home_t:
@@ -172,9 +172,9 @@ def _match_game(away_t: str, home_t: str, game_outcomes: dict) -> dict | None:
     return None
 
 
-def _grade_actual(market: str, prob: float, matched: dict | None,
-                  p_stats: dict | None) -> float | None:
-    """Return Brier score for one prediction row, or None if unresolvable."""
+def _grade_actual(market: str, prob: float, matched: "dict | None",
+                  p_stats: "dict | None") -> "tuple[float, int] | None":
+    """Return (brier_score, actual_outcome) for one prediction row, or None if unresolvable."""
     actual: int | None = None
 
     if p_stats is not None:
@@ -347,8 +347,7 @@ def compute_error_patterns(graded_df: pd.DataFrame) -> list:
 
     # By Platoon_Adv × Market_Group
     if "Platoon_Adv" in graded_df.columns:
-        platoon_df = graded_df[pd.to_numeric(graded_df["Platoon_Adv"], errors="coerce").notna()]
-        platoon_df = platoon_df.copy()
+        platoon_df = graded_df[pd.to_numeric(graded_df["Platoon_Adv"], errors="coerce").notna()].copy()
         platoon_df["Platoon_Adv"] = pd.to_numeric(platoon_df["Platoon_Adv"])
         for (val, mg), sub in platoon_df.groupby(["Platoon_Adv", "Market_Group"]):
             _check("Platoon_Adv", val, sub, mg)
@@ -366,9 +365,12 @@ def compute_error_patterns(graded_df: pd.DataFrame) -> list:
     if "Temp" in graded_df.columns:
         t_df = graded_df[pd.to_numeric(graded_df["Temp"], errors="coerce").notna()].copy()
         t_df["Temp"] = pd.to_numeric(t_df["Temp"])
-        for group_label, cond in [("cold<65", t_df["Temp"] < 65),
-                                   ("mild65-80", (t_df["Temp"] >= 65) & (t_df["Temp"] <= 80)),
-                                   ("hot>80", t_df["Temp"] > 80)]:
+        temp_groups = [
+            ("cold<65", t_df["Temp"] < 65),
+            ("mild65-80", (t_df["Temp"] >= 65) & (t_df["Temp"] <= 80)),
+            ("hot>80", t_df["Temp"] > 80),
+        ]
+        for group_label, cond in temp_groups:
             for mg, sub in t_df[cond].groupby("Market_Group"):
                 _check("Temperature", group_label, sub, mg)
 

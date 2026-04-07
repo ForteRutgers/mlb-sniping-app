@@ -449,7 +449,6 @@ def _write_prediction_ledger(today_str: str, games_by_stadium: dict,
         print("[!] No ledger rows to write.")
         return
 
-    import pandas as pd
     df_ledger = pd.DataFrame(ledger_rows)
     ledger_path = "prediction_ledger.csv"
     if os.path.exists(ledger_path):
