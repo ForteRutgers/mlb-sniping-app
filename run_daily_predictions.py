@@ -68,40 +68,105 @@ ENHANCED_MODELS, ENHANCED_COLS = _load_enhanced_models()
 
 
 # ---------------------------------------------------------------------------
-# Database Logic (With Schema Fix)
+# Database Logic (With FULL Schema Fix for both tables)
 # ---------------------------------------------------------------------------
 
 def _write_to_sqlite(props_results, game_ledger_data):
-    """Saves predictions into the SQLite database with duplicate protection."""
+    """Saves predictions into the SQLite database with duplicate protection and schema repair."""
     db_path = 'mlb_predictions.db'
     conn = sqlite3.connect(db_path)
     cursor = conn.cursor()
 
-    # 1. Ensure Table Schemas
-    cursor.execute('''CREATE TABLE IF NOT EXISTS game_predictions (
-        id INTEGER PRIMARY KEY, date TEXT, away_team TEXT, home_team TEXT, 
-        stadium TEXT, market TEXT, probability REAL, fair_odds TEXT, game_total_line REAL
-    )''')
+    # --- TABLE 1: GAME PREDICTIONS ---
+    cursor.execute('''CREATE TABLE IF NOT EXISTS game_predictions
+                      (
+                          id
+                          INTEGER
+                          PRIMARY
+                          KEY,
+                          date
+                          TEXT,
+                          away_team
+                          TEXT,
+                          home_team
+                          TEXT,
+                          stadium
+                          TEXT,
+                          market
+                          TEXT,
+                          probability
+                          REAL,
+                          fair_odds
+                          TEXT,
+                          game_total_line
+                          REAL
+                      )''')
 
-    cursor.execute('''CREATE TABLE IF NOT EXISTS player_predictions (
-        id INTEGER PRIMARY KEY, date TEXT, player_name TEXT, team TEXT, 
-        opponent TEXT, market TEXT, probability REAL, lineup_spot INTEGER
-    )''')
-
-    # 2. Schema Verification: Ensure 'date' column exists to prevent OperationalError
+    # Schema Check for Game Table
     cursor.execute("PRAGMA table_info(game_predictions)")
-    cols = [i[1] for i in cursor.fetchall()]
-    if 'date' not in cols:
-        print("[!] DB Schema Outdated. Dropping and Recreating 'game_predictions'...")
+    game_cols = [i[1] for i in cursor.fetchall()]
+    if 'date' not in game_cols:
+        print("[!] Game Table Schema Outdated (missing 'date'). Recreating...")
         cursor.execute("DROP TABLE game_predictions")
-        cursor.execute('''CREATE TABLE game_predictions (
-            id INTEGER PRIMARY KEY, date TEXT, away_team TEXT, home_team TEXT, 
-            stadium TEXT, market TEXT, probability REAL, fair_odds TEXT, game_total_line REAL
-        )''')
+        cursor.execute('''CREATE TABLE game_predictions
+                          (
+                              id              INTEGER PRIMARY KEY,
+                              date            TEXT,
+                              away_team       TEXT,
+                              home_team       TEXT,
+                              stadium         TEXT,
+                              market          TEXT,
+                              probability     REAL,
+                              fair_odds       TEXT,
+                              game_total_line REAL
+                          )''')
 
-    run_date = datetime.now().strftime('%Y-%m-%d')
+    # --- TABLE 2: PLAYER PREDICTIONS ---
+    cursor.execute('''CREATE TABLE IF NOT EXISTS player_predictions
+                      (
+                          id
+                          INTEGER
+                          PRIMARY
+                          KEY,
+                          date
+                          TEXT,
+                          player_name
+                          TEXT,
+                          team
+                          TEXT,
+                          opponent
+                          TEXT,
+                          market
+                          TEXT,
+                          probability
+                          REAL,
+                          lineup_spot
+                          INTEGER
+                      )''')
 
-    # 3. Game Data Insert
+    # Schema Check for Player Table (Fixes the current error)
+    cursor.execute("PRAGMA table_info(player_predictions)")
+    player_cols = [i[1] for i in cursor.fetchall()]
+    if 'date' not in player_cols:
+        print("[!] Player Table Schema Outdated (missing 'date'). Recreating...")
+        cursor.execute("DROP TABLE player_predictions")
+        cursor.execute('''CREATE TABLE player_predictions
+                          (
+                              id          INTEGER PRIMARY KEY,
+                              date        TEXT,
+                              player_name TEXT,
+                              team        TEXT,
+                              opponent    TEXT,
+                              market      TEXT,
+                              probability REAL,
+                              lineup_spot INTEGER
+                          )''')
+
+    # Use current Eastern Time for consistent daily tracking
+    eastern = pytz.timezone("US/Eastern")
+    run_date = datetime.now(eastern).strftime('%Y-%m-%d')
+
+    # --- INSERT GAME DATA ---
     for entry in game_ledger_data:
         gr, nr = entry['game_result'], entry['nrfi_result']
         gt_line = gr.get('game_total_line', 8.5)
@@ -119,19 +184,19 @@ def _write_to_sqlite(props_results, game_ledger_data):
         ]
 
         for m_name, prob, odds in markets:
-            cursor.execute('''INSERT INTO game_predictions 
-                (date, away_team, home_team, stadium, market, probability, fair_odds, game_total_line)
-                VALUES (?, ?, ?, ?, ?, ?, ?, ?)''',
+            cursor.execute('''INSERT INTO game_predictions
+                              (date, away_team, home_team, stadium, market, probability, fair_odds, game_total_line)
+                              VALUES (?, ?, ?, ?, ?, ?, ?, ?)''',
                            (run_date, entry['away_team'], entry['home_team'], entry['stadium'], m_name, float(prob),
                             str(odds), float(gt_line)))
 
-    # 4. Player Prop Insert
+    # --- INSERT PLAYER DATA ---
     for prop in props_results:
         cursor.execute("DELETE FROM player_predictions WHERE date=? AND player_name=?", (run_date, prop['name']))
         for m_name, prob in prop['props'].items():
-            cursor.execute('''INSERT INTO player_predictions 
-                (date, player_name, team, opponent, market, probability, lineup_spot)
-                VALUES (?, ?, ?, ?, ?, ?, ?)''',
+            cursor.execute('''INSERT INTO player_predictions
+                                  (date, player_name, team, opponent, market, probability, lineup_spot)
+                              VALUES (?, ?, ?, ?, ?, ?, ?)''',
                            (run_date, prop['name'], prop['team'], prop['pitcher'], m_name, float(prob), prop['order']))
 
     conn.commit()
