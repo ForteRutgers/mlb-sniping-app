@@ -40,9 +40,9 @@ def run_totals_backtest():
     conn = sqlite3.connect('mlb_predictions.db')
     cursor = conn.cursor()
 
-    # Get all the "Total" predictions from the database
+    # Get all the "Total" predictions from the database, now grabbing game_total_line too
     cursor.execute('''
-                   SELECT date, away_team, home_team, market, probability
+                   SELECT date, away_team, home_team, market, probability, game_total_line
                    FROM game_predictions
                    WHERE market LIKE 'Total_%'
                    ''')
@@ -64,7 +64,8 @@ def run_totals_backtest():
 
     print("\n--- GRADING RESULTS ---")
     for row in predictions:
-        pred_date, away, home, market, prob = row
+        # We now unpack 6 items instead of 5, matching our new database search!
+        pred_date, away, home, market, prob, game_total_line = row
 
         # Only grade predictions where the AI had a lean (>50% probability)
         if prob < 0.50:
@@ -82,10 +83,10 @@ def run_totals_backtest():
         if actual_runs is None:
             continue  # Game might not be finished yet or rained out
 
-        # Parse the line from the market (e.g., 'Total_Over_8.5')
+        # Get 'Over' or 'Under' from market, and safely use our new game_total_line!
         parts = market.split('_')
-        pick_type = parts[1]  # 'Over' or 'Under'
-        line = float(parts[2])
+        pick_type = parts[1]
+        line = float(game_total_line)
 
         total_graded += 1
 
