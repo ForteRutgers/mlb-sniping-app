@@ -68,7 +68,7 @@ ENHANCED_MODELS, ENHANCED_COLS = _load_enhanced_models()
 
 
 # ---------------------------------------------------------------------------
-# Database Logic
+# Database Logic (With Schema Fix)
 # ---------------------------------------------------------------------------
 
 def _write_to_sqlite(props_results, game_ledger_data):
@@ -77,57 +77,33 @@ def _write_to_sqlite(props_results, game_ledger_data):
     conn = sqlite3.connect(db_path)
     cursor = conn.cursor()
 
-    cursor.execute('''CREATE TABLE IF NOT EXISTS game_predictions
-                      (
-                          id
-                          INTEGER
-                          PRIMARY
-                          KEY,
-                          date
-                          TEXT,
-                          away_team
-                          TEXT,
-                          home_team
-                          TEXT,
-                          stadium
-                          TEXT,
-                          market
-                          TEXT,
-                          probability
-                          REAL,
-                          fair_odds
-                          TEXT,
-                          game_total_line
-                          REAL
-                      )''')
+    # 1. Ensure Table Schemas
+    cursor.execute('''CREATE TABLE IF NOT EXISTS game_predictions (
+        id INTEGER PRIMARY KEY, date TEXT, away_team TEXT, home_team TEXT, 
+        stadium TEXT, market TEXT, probability REAL, fair_odds TEXT, game_total_line REAL
+    )''')
 
-    cursor.execute('''CREATE TABLE IF NOT EXISTS player_predictions
-                      (
-                          id
-                          INTEGER
-                          PRIMARY
-                          KEY,
-                          date
-                          TEXT,
-                          player_name
-                          TEXT,
-                          team
-                          TEXT,
-                          opponent
-                          TEXT,
-                          market
-                          TEXT,
-                          probability
-                          REAL,
-                          lineup_spot
-                          INTEGER
-                      )''')
+    cursor.execute('''CREATE TABLE IF NOT EXISTS player_predictions (
+        id INTEGER PRIMARY KEY, date TEXT, player_name TEXT, team TEXT, 
+        opponent TEXT, market TEXT, probability REAL, lineup_spot INTEGER
+    )''')
+
+    # 2. Schema Verification: Ensure 'date' column exists to prevent OperationalError
+    cursor.execute("PRAGMA table_info(game_predictions)")
+    cols = [i[1] for i in cursor.fetchall()]
+    if 'date' not in cols:
+        print("[!] DB Schema Outdated. Dropping and Recreating 'game_predictions'...")
+        cursor.execute("DROP TABLE game_predictions")
+        cursor.execute('''CREATE TABLE game_predictions (
+            id INTEGER PRIMARY KEY, date TEXT, away_team TEXT, home_team TEXT, 
+            stadium TEXT, market TEXT, probability REAL, fair_odds TEXT, game_total_line REAL
+        )''')
 
     run_date = datetime.now().strftime('%Y-%m-%d')
 
+    # 3. Game Data Insert
     for entry in game_ledger_data:
-        gr = entry['game_result']
-        nr = entry['nrfi_result']
+        gr, nr = entry['game_result'], entry['nrfi_result']
         gt_line = gr.get('game_total_line', 8.5)
 
         cursor.execute("DELETE FROM game_predictions WHERE date=? AND away_team=? AND home_team=?",
@@ -143,20 +119,28 @@ def _write_to_sqlite(props_results, game_ledger_data):
         ]
 
         for m_name, prob, odds in markets:
-            cursor.execute('''
-                           INSERT INTO game_predictions (date, away_team, home_team, stadium, market, probability,
-                                                         fair_odds, game_total_line)
-                           VALUES (?, ?, ?, ?, ?, ?, ?, ?)
-                           ''',
+            cursor.execute('''INSERT INTO game_predictions 
+                (date, away_team, home_team, stadium, market, probability, fair_odds, game_total_line)
+                VALUES (?, ?, ?, ?, ?, ?, ?, ?)''',
                            (run_date, entry['away_team'], entry['home_team'], entry['stadium'], m_name, float(prob),
                             str(odds), float(gt_line)))
 
+    # 4. Player Prop Insert
+    for prop in props_results:
+        cursor.execute("DELETE FROM player_predictions WHERE date=? AND player_name=?", (run_date, prop['name']))
+        for m_name, prob in prop['props'].items():
+            cursor.execute('''INSERT INTO player_predictions 
+                (date, player_name, team, opponent, market, probability, lineup_spot)
+                VALUES (?, ?, ?, ?, ?, ?, ?)''',
+                           (run_date, prop['name'], prop['team'], prop['pitcher'], m_name, float(prob), prop['order']))
+
     conn.commit()
     conn.close()
+    print(f" [SUCCESS] Database updated for {run_date}")
 
 
 # ---------------------------------------------------------------------------
-# Formatting Helpers
+# Formatting & Logic Helpers
 # ---------------------------------------------------------------------------
 
 def _recommendation(nrfi_prob: float) -> str:
@@ -166,56 +150,47 @@ def _recommendation(nrfi_prob: float) -> str:
     if nrfi_prob <= 0.35: return "💥💥💥 STRONG YRFI"
     if nrfi_prob <= 0.42: return "💥💥 LEAN YRFI"
     if nrfi_prob <= 0.48: return "💥 SLIGHT YRFI"
-    return "➖ NEUTRAL (No Edge)"
+    return "➖ NEUTRAL"
 
 
 def _format_game_report(away_t, home_t, stadium, weather, away_p, home_p, away_ph, home_ph, nrfi_r, game_r,
                         game_time) -> str:
     W = 70
     lines = [
-        "=" * W,
-        f"🏟️  {away_t.upper()} @ {home_t.upper()}",
+        "=" * W, f"🏟️  {away_t.upper()} @ {home_t.upper()}",
         f"⏰ {game_time} | 📍 {stadium}",
         f"🌡️ {weather['temp']}°F | 💨 {weather['wind_speed']}mph {weather['wind_dir']}",
-        f"⚾ Pitchers: {away_p} ({away_ph}) vs {home_p} ({home_ph})",
-        "=" * W
+        f"⚾ Pitchers: {away_p} ({away_ph}) vs {home_p} ({home_ph})", "=" * W
     ]
 
-    # --- Full Game Markets ---
+    # Game Markets Section
     lines.append(f"┌{'─' * (W - 2)}┐")
     lines.append(f"│{'📊 GAME MARKETS (Full Game)'.center(W - 2)}│")
     lines.append(f"├{'─' * (W - 2)}┤")
-
-    ml_line = f"  ML Probabilities: {away_t} {game_r['away_ml_prob'] * 100:.1f}% | {home_t} {game_r['home_ml_prob'] * 100:.1f}%"
-    lines.append(f"│{ml_line.ljust(W - 2)}│")
-
-    gt_line = game_r.get('game_total_line', 8.5)
-    total_text = f"  O/U {gt_line}: Over {game_r['game_total_over'] * 100:.1f}% | Under {game_r['game_total_under'] * 100:.1f}%"
-    lines.append(f"│{total_text.ljust(W - 2)}│")
-
-    exp_total = f"  AI Projected Score: {game_r.get('game_total_mean', 0):.2f} runs"
-    lines.append(f"│{exp_total.ljust(W - 2)}│")
+    lines.append(
+        f"│  ML: {away_t} {game_r['away_ml_prob'] * 100:.1f}% | {home_t} {game_r['home_ml_prob'] * 100:.1f}%".ljust(
+            W - 1) + "│")
+    gt = game_r.get('game_total_line', 8.5)
+    lines.append(
+        f"│  O/U {gt}: Over {game_r['game_total_over'] * 100:.1f}% | Under {game_r['game_total_under'] * 100:.1f}%".ljust(
+            W - 1) + "│")
+    lines.append(f"│  AI Projected Score: {game_r.get('game_total_mean', 0):.2f} runs".ljust(W - 1) + "│")
     lines.append(f"└{'─' * (W - 2)}┘")
 
-    # --- First Inning (NRFI) ---
+    # NRFI Section
     lines.append(f"┌{'─' * (W - 2)}┐")
     lines.append(f"│{'🥇 FIRST INNING MARKETS'.center(W - 2)}│")
     lines.append(f"├{'─' * (W - 2)}┤")
-
-    nrfi_text = f"  NRFI: {nrfi_r.get('nrfi_prob', 0) * 100:.1f}% ({nrfi_r.get('nrfi_odds', 'N/A')})"
-    lines.append(f"│{nrfi_text.ljust(W - 2)}│")
-
-    rec_text = f"  Recommendation: {_recommendation(nrfi_r.get('nrfi_prob', 0.5))}"
-    lines.append(f"│{rec_text.ljust(W - 2)}│")
+    lines.append(
+        f"│  NRFI: {nrfi_r.get('nrfi_prob', 0) * 100:.1f}% ({nrfi_r.get('nrfi_odds', 'N/A')})".ljust(W - 1) + "│")
+    lines.append(f"│  Recommendation: {_recommendation(nrfi_r.get('nrfi_prob', 0.5))}".ljust(W - 1) + "│")
     lines.append(f"└{'─' * (W - 2)}┘\n")
-
     return "\n".join(lines)
 
 
 def _format_props_section(props_list: list) -> str:
     if not props_list: return ""
-    m0 = props_list[0]
-    lines = ["-" * 40, f"PLAYER PROPS: {m0['team']}", "-" * 40]
+    lines = ["-" * 40, f"PLAYER PROPS: {props_list[0]['team']}", "-" * 40]
     for b in props_list:
         lines.append(f"> {b['order']}. {b['name']} ({b['hand']})")
         lines.append(f"  Hit | {b['props']['Hit'] * 100:.1f}% | {format_odds(b['props']['Hit'])}")
@@ -223,15 +198,14 @@ def _format_props_section(props_list: list) -> str:
 
 
 # ---------------------------------------------------------------------------
-# Main Logic
+# Simulation & Execution
 # ---------------------------------------------------------------------------
 
 def _apply_model(market: str, feature_vector: dict, raw_prob: float) -> float:
     if ENHANCED_MODELS.get(market) and ENHANCED_COLS:
         row = {col: feature_vector.get(col, 0) for col in ENHANCED_COLS}
-        X = pd.DataFrame([row])
         try:
-            return float(ENHANCED_MODELS[market].predict_proba(X)[0, 1])
+            return float(ENHANCED_MODELS[market].predict_proba(pd.DataFrame([row]))[0, 1])
         except:
             pass
     return raw_prob
@@ -240,20 +214,18 @@ def _apply_model(market: str, feature_vector: dict, raw_prob: float) -> float:
 def _predict_player_props(matchups: list, gmp: GameMarketsPredictor) -> list:
     try:
         from daily_bets import get_prop_matrices, match_player_name, simulate_full_game_with_archetypes, \
-            generate_pitcher_profile, PARK_FACTORS as LEGACY_PARK
+            PARK_FACTORS as PF
         batters_db, pitchers_db = get_prop_matrices()
-    except Exception as exc:
-        print(f"[!] Prop load fail: {exc}")
+    except:
         return []
 
     SIM_GAMES = 1000
     results = []
-    batter_keys = list(batters_db.keys())
     key_map = {"HR": "HR_1", "Hit": "H_1", "TB": "TB_2", "Run": "R_1", "RBI": "RBI_1"}
 
     for m in matchups:
         stadium = m.get("home_stadium", "Unknown")
-        park_hr, park_avg = LEGACY_PARK.get(stadium, [1.0, 1.0])
+        park_hr, park_avg = PF.get(stadium, [1.0, 1.0])
         p_name, p_hand = m.get("opposing_pitcher", "TBD"), m.get("opposing_pitcher_hand", "R")
         p_stats = pitchers_db.get(match_player_name(p_name, list(pitchers_db.keys())), LEAGUE_AVG_PITCHER)
         p_hr9 = p_stats["CALC_HR9"]
@@ -262,11 +234,11 @@ def _predict_player_props(matchups: list, gmp: GameMarketsPredictor) -> list:
         w_boost = 1 + ((w["temp"] - 70) * 0.01) + ((w["wind_speed"] / 5) * 0.05 if w["wind_dir"] == "out" else 0)
 
         for idx, b_info in enumerate(m["lineup"]):
-            b_key = match_player_name(b_info['name'], batter_keys)
+            b_key = match_player_name(b_info['name'], list(batters_db.keys()))
             b = batters_db.get(b_key, LEAGUE_AVG_BATTER).copy()
             b["Hand"], b["Name"] = b_info["hand"], b_info["name"]
 
-            tracker = {"HR_1": 0, "H_1": 0, "TB_2": 0, "R_1": 0, "RBI_1": 0}
+            tracker = {k: 0 for k in key_map.values()}
             for _ in range(SIM_GAMES):
                 hr, hits, tb, runs, rbis, *_ = simulate_full_game_with_archetypes(b, p_hr9, p_hand, w_boost, park_hr,
                                                                                   park_avg, idx)
@@ -279,7 +251,6 @@ def _predict_player_props(matchups: list, gmp: GameMarketsPredictor) -> list:
             raw = {k: v / SIM_GAMES for k, v in tracker.items()}
             f_ctx = {"Temp": w["temp"], "Wind_Speed": w["wind_speed"], "Lineup_Spot": idx + 1,
                      "Platoon_Adv": 1 if (b["Hand"] != p_hand) else 0}
-
             props = {mkt: _apply_model(mkt, {**f_ctx, "Prob": raw[key_map[mkt]]}, raw[key_map[mkt]]) for mkt in MARKETS}
             results.append({"team": m["team"], "name": b["Name"], "order": idx + 1, "hand": b["Hand"], "props": props,
                             "pitcher": p_name})
@@ -315,7 +286,6 @@ def run_daily_predictions():
 
         _game_ledger_data.append({"stadium": stadium, "weather": w, "away_team": m0["team"], "home_team": m1["team"],
                                   "nrfi_result": nrfi_res, "game_result": game_res})
-
         report_parts.append(
             _format_game_report(m0["team"], m1["team"], stadium, w, m0["opposing_pitcher"], m1["opposing_pitcher"],
                                 m0["opposing_pitcher_hand"], m1["opposing_pitcher_hand"], nrfi_res, game_res,
