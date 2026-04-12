@@ -4,13 +4,20 @@ MLB ENHANCED PREDICTIONS - 2026-04-12
 ======================================================================
 🏟️  SAN FRANCISCO GIANTS @ BALTIMORE ORIOLES
 ⏰ 01:35 PM ET | 📍 Oriole Park at Camden Yards
-🌡️ 61°F | 💨 7mph none
+🌡️ 69°F | 💨 14mph out
 ⚾ Pitchers: Cade Povich (R) vs Adrian Houser (R)
 ======================================================================
 ┌────────────────────────────────────────────────────────────────────┐
+│                     📊 GAME MARKETS (Full Game)                     │
+├────────────────────────────────────────────────────────────────────┤
+│  ML: San Francisco Giants 48.2% | Baltimore Orioles 51.8%          │
+│  O/U 9.5: Over 44.0% | Under 56.0%                                 │
+│  AI Projected Score: 9.40 runs                                     │
+└────────────────────────────────────────────────────────────────────┘
+┌────────────────────────────────────────────────────────────────────┐
 │                       🥇 FIRST INNING MARKETS                       │
 ├────────────────────────────────────────────────────────────────────┤
-│  NRFI: 43.7% (+128)                                                │
+│  NRFI: 42.4% (+135)                                                │
 │  Recommendation: 💥 SLIGHT YRFI                                     │
 └────────────────────────────────────────────────────────────────────┘
 
@@ -18,54 +25,61 @@ MLB ENHANCED PREDICTIONS - 2026-04-12
 PLAYER PROPS: San Francisco Giants
 ----------------------------------------
 > 1. Willy Adames (R)
-  Hit | 42.7% | +134
+  Hit | 38.2% | +161
 > 2. Rafael Devers (L)
-  Hit | 41.0% | +144
+  Hit | 39.3% | +154
 > 3. Matt Chapman (R)
-  Hit | 39.4% | +154
+  Hit | 38.5% | +159
 > 4. Casey Schmitt (R)
-  Hit | 37.5% | +166
+  Hit | 38.0% | +163
 > 5. Jung Hoo Lee (L)
-  Hit | 38.8% | +158
+  Hit | 37.7% | +165
 > 6. Heliot Ramos (R)
-  Hit | 42.9% | +132
+  Hit | 45.3% | +120
 > 7. Daniel Susac (R)
-  Hit | 43.1% | +131
+  Hit | 45.3% | +120
 > 8. Jerar Encarnacion (R)
-  Hit | 43.5% | +130
+  Hit | 45.4% | +120
 > 9. Christian Koss (R)
-  Hit | 41.1% | +143
+  Hit | 43.6% | +129
 ----------------------------------------
 PLAYER PROPS: Baltimore Orioles
 ----------------------------------------
-> 1. Blaze Alexander (R)
-  Hit | 42.7% | +134
-> 2. Coby Mayo (R)
-  Hit | 39.9% | +150
-> 3. Colton Cowser (L)
-  Hit | 39.5% | +152
-> 4. Dylan Beavers (L)
-  Hit | 37.5% | +166
-> 5. Gunnar Henderson (L)
-  Hit | 38.8% | +158
-> 6. Jeremiah Jackson (R)
-  Hit | 42.9% | +132
-> 7. Leody Taveras (S)
-  Hit | 43.7% | +129
-> 8. Maverick Handley (R)
-  Hit | 43.5% | +130
-> 9. Pete Alonso (R)
-  Hit | 41.1% | +143
+> 1. Gunnar Henderson (L)
+  Hit | 38.5% | +159
+> 2. Taylor Ward (R)
+  Hit | 39.3% | +154
+> 3. Pete Alonso (R)
+  Hit | 38.5% | +159
+> 4. Samuel Basallo (L)
+  Hit | 37.0% | +170
+> 5. Dylan Beavers (L)
+  Hit | 37.9% | +164
+> 6. Leody Taveras (S)
+  Hit | 46.6% | +114
+> 7. Colton Cowser (L)
+  Hit | 45.5% | +119
+> 8. Coby Mayo (R)
+  Hit | 44.9% | +122
+> 9. Jeremiah Jackson (R)
+  Hit | 44.0% | +127
 ======================================================================
 🏟️  ARIZONA DIAMONDBACKS @ PHILADELPHIA PHILLIES
 ⏰ 01:35 PM ET | 📍 Citizens Bank Park
-🌡️ 58°F | 💨 6mph none
-⚾ Pitchers: Andrew Painter (R) vs Zac Gallen (R)
+🌡️ 65°F | 💨 12mph out
+⚾ Pitchers: Zach Pop (R) vs Zac Gallen (R)
 ======================================================================
+┌────────────────────────────────────────────────────────────────────┐
+│                     📊 GAME MARKETS (Full Game)                     │
+├────────────────────────────────────────────────────────────────────┤
+│  ML: Arizona Diamondbacks 47.9% | Philadelphia Phillies 52.1%      │
+│  O/U 10.5: Over 44.7% | Under 55.3%                                │
+│  AI Projected Score: 10.02 runs                                    │
+└────────────────────────────────────────────────────────────────────┘
 ┌────────────────────────────────────────────────────────────────────┐
 │                       🥇 FIRST INNING MARKETS                       │
 ├────────────────────────────────────────────────────────────────────┤
-│  NRFI: 39.2% (+154)                                                │
+│  NRFI: 40.1% (+149)                                                │
 │  Recommendation: 💥💥 LEAN YRFI                                      │
 └────────────────────────────────────────────────────────────────────┘
 
@@ -73,44 +87,44 @@ PLAYER PROPS: Baltimore Orioles
 PLAYER PROPS: Arizona Diamondbacks
 ----------------------------------------
 > 1. Ildemaro Vargas (S)
-  Hit | 44.9% | +122
+  Hit | 42.5% | +135
 > 2. Corbin Carroll (L)
-  Hit | 42.0% | +137
+  Hit | 45.0% | +122
 > 3. Geraldo Perdomo (S)
-  Hit | 44.0% | +127
+  Hit | 39.8% | +151
 > 4. Jose Fernandez (R)
-  Hit | 39.9% | +150
+  Hit | 36.9% | +171
 > 5. Nolan Arenado (R)
-  Hit | 44.8% | +123
+  Hit | 37.3% | +168
 > 6. Tim Tawa (R)
-  Hit | 53.8% | -116
+  Hit | 44.8% | +123
 > 7. James McCann (R)
-  Hit | 54.3% | -118
+  Hit | 46.0% | +117
 > 8. Alek Thomas (L)
-  Hit | 53.8% | -116
+  Hit | 49.7% | +101
 > 9. Jorge Barrosa (S)
-  Hit | 56.2% | -128
+  Hit | 47.1% | +112
 ----------------------------------------
 PLAYER PROPS: Philadelphia Phillies
 ----------------------------------------
-> 1. Adolis García (R)
-  Hit | 40.1% | +149
-> 2. Alec Bohm (R)
-  Hit | 39.2% | +155
-> 3. Brandon Marsh (L)
-  Hit | 38.7% | +158
-> 4. Bryce Harper (L)
-  Hit | 36.8% | +171
+> 1. Trea Turner (R)
+  Hit | 39.1% | +155
+> 2. Kyle Schwarber (L)
+  Hit | 38.3% | +160
+> 3. Bryce Harper (L)
+  Hit | 38.6% | +158
+> 4. Brandon Marsh (L)
+  Hit | 38.1% | +162
 > 5. Bryson Stott (L)
-  Hit | 39.3% | +154
-> 6. Dylan Moore (R)
-  Hit | 40.1% | +149
-> 7. Edmundo Sosa (R)
-  Hit | 41.8% | +139
-> 8. J.T. Realmuto (R)
-  Hit | 41.3% | +142
+  Hit | 36.7% | +172
+> 6. Adolis García (R)
+  Hit | 41.1% | +143
+> 7. Alec Bohm (R)
+  Hit | 40.5% | +146
+> 8. Rafael Marchán (S)
+  Hit | 41.5% | +141
 > 9. Justin Crawford (L)
-  Hit | 41.0% | +143
+  Hit | 40.0% | +149
 ======================================================================
 🏟️  MINNESOTA TWINS @ TORONTO BLUE JAYS
 ⏰ 01:37 PM ET | 📍 Rogers Centre
@@ -118,9 +132,16 @@ PLAYER PROPS: Philadelphia Phillies
 ⚾ Pitchers: Max Scherzer (R) vs Taj Bradley (R)
 ======================================================================
 ┌────────────────────────────────────────────────────────────────────┐
+│                     📊 GAME MARKETS (Full Game)                     │
+├────────────────────────────────────────────────────────────────────┤
+│  ML: Minnesota Twins 51.7% | Toronto Blue Jays 48.3%               │
+│  O/U 9.5: Over 43.7% | Under 56.3%                                 │
+│  AI Projected Score: 8.85 runs                                     │
+└────────────────────────────────────────────────────────────────────┘
+┌────────────────────────────────────────────────────────────────────┐
 │                       🥇 FIRST INNING MARKETS                       │
 ├────────────────────────────────────────────────────────────────────┤
-│  NRFI: 42.8% (+133)                                                │
+│  NRFI: 44.5% (+124)                                                │
 │  Recommendation: 💥 SLIGHT YRFI                                     │
 └────────────────────────────────────────────────────────────────────┘
 
@@ -128,209 +149,230 @@ PLAYER PROPS: Philadelphia Phillies
 PLAYER PROPS: Minnesota Twins
 ----------------------------------------
 > 1. Kody Clemens (L)
-  Hit | 45.0% | +122
+  Hit | 40.7% | +145
 > 2. Trevor Larnach (L)
-  Hit | 42.6% | +134
+  Hit | 44.2% | +126
 > 3. Luke Keaschall (R)
-  Hit | 37.7% | +165
+  Hit | 44.6% | +124
 > 4. Josh Bell (S)
-  Hit | 42.7% | +134
+  Hit | 42.5% | +135
 > 5. Matt Wallner (L)
-  Hit | 41.8% | +139
+  Hit | 40.6% | +146
 > 6. Victor Caratini (S)
-  Hit | 44.5% | +124
+  Hit | 49.9% | +100
 > 7. Tristan Gray (L)
-  Hit | 42.6% | +134
+  Hit | 46.0% | +117
 > 8. Brooks Lee (S)
-  Hit | 45.0% | +122
+  Hit | 49.9% | +100
 > 9. James Outman (L)
-  Hit | 42.3% | +136
+  Hit | 44.3% | +125
 ----------------------------------------
 PLAYER PROPS: Toronto Blue Jays
 ----------------------------------------
-> 1. Andrés Giménez (L)
-  Hit | 41.7% | +139
-> 2. Brandon Valenzuela (S)
-  Hit | 38.0% | +163
-> 3. Daulton Varsho (L)
-  Hit | 37.2% | +169
-> 4. Davis Schneider (R)
-  Hit | 38.7% | +158
-> 5. Ernie Clement (R)
-  Hit | 36.9% | +170
-> 6. George Springer (R)
-  Hit | 42.2% | +136
-> 7. Jesús Sánchez (L)
-  Hit | 42.4% | +135
-> 8. Kazuma Okamoto (R)
+> 1. Ernie Clement (R)
+  Hit | 37.1% | +169
+> 2. Daulton Varsho (L)
+  Hit | 39.0% | +156
+> 3. Vladimir Guerrero Jr. (R)
+  Hit | 36.7% | +172
+> 4. Jesús Sánchez (L)
+  Hit | 35.3% | +183
+> 5. Kazuma Okamoto (R)
+  Hit | 38.1% | +162
+> 6. Nathan Lukes (L)
+  Hit | 41.8% | +139
+> 7. Eloy Jiménez (R)
+  Hit | 40.8% | +145
+> 8. Andrés Giménez (L)
   Hit | 41.6% | +140
-> 9. Myles Straw (R)
-  Hit | 40.2% | +149
+> 9. Brandon Valenzuela (S)
+  Hit | 39.6% | +152
 ======================================================================
 🏟️  LOS ANGELES ANGELS @ CINCINNATI REDS
 ⏰ 01:40 PM ET | 📍 Great American Ball Park
-🌡️ 64°F | 💨 6mph none
+🌡️ 81°F | 💨 13mph out
 ⚾ Pitchers: Andrew Abbott (R) vs José Soriano (R)
 ======================================================================
 ┌────────────────────────────────────────────────────────────────────┐
+│                     📊 GAME MARKETS (Full Game)                     │
+├────────────────────────────────────────────────────────────────────┤
+│  ML: Los Angeles Angels 52.1% | Cincinnati Reds 47.9%              │
+│  O/U 9.5: Over 42.3% | Under 57.7%                                 │
+│  AI Projected Score: 9.41 runs                                     │
+└────────────────────────────────────────────────────────────────────┘
+┌────────────────────────────────────────────────────────────────────┐
 │                       🥇 FIRST INNING MARKETS                       │
 ├────────────────────────────────────────────────────────────────────┤
-│  NRFI: 39.8% (+151)                                                │
+│  NRFI: 38.3% (+161)                                                │
 │  Recommendation: 💥💥 LEAN YRFI                                      │
 └────────────────────────────────────────────────────────────────────┘
 
 ----------------------------------------
 PLAYER PROPS: Los Angeles Angels
 ----------------------------------------
-> 1. Adam Frazier (L)
-  Hit | 42.8% | +133
-> 2. Bryce Teodosio (R)
-  Hit | 37.7% | +165
+> 1. Zach Neto (R)
+  Hit | 40.8% | +145
+> 2. Mike Trout (R)
+  Hit | 42.3% | +136
 > 3. Jo Adell (R)
-  Hit | 39.8% | +151
+  Hit | 39.6% | +152
 > 4. Jorge Soler (R)
-  Hit | 36.6% | +173
-> 5. Josh Lowe (L)
-  Hit | 38.2% | +161
-> 6. Logan O'Hoppe (R)
-  Hit | 43.9% | +128
-> 7. Mike Trout (R)
-  Hit | 40.9% | +144
-> 8. Nolan Schanuel (L)
-  Hit | 43.0% | +132
-> 9. Oswald Peraza (R)
-  Hit | 39.8% | +151
+  Hit | 40.1% | +149
+> 5. Vaughn Grissom (R)
+  Hit | 40.4% | +147
+> 6. Nolan Schanuel (L)
+  Hit | 45.9% | +117
+> 7. Logan O'Hoppe (R)
+  Hit | 43.6% | +129
+> 8. Oswald Peraza (R)
+  Hit | 45.7% | +118
+> 9. Bryce Teodosio (R)
+  Hit | 43.8% | +128
 ----------------------------------------
 PLAYER PROPS: Cincinnati Reds
 ----------------------------------------
 > 1. TJ Friedl (L)
-  Hit | 42.8% | +133
+  Hit | 40.6% | +146
 > 2. Matt McLain (R)
-  Hit | 39.0% | +156
+  Hit | 42.5% | +135
 > 3. Elly De La Cruz (S)
-  Hit | 38.7% | +158
+  Hit | 41.6% | +140
 > 4. Sal Stewart (R)
-  Hit | 36.7% | +172
+  Hit | 40.1% | +149
 > 5. Eugenio Suárez (R)
-  Hit | 38.2% | +161
+  Hit | 41.7% | +139
 > 6. Nathaniel Lowe (L)
-  Hit | 43.0% | +132
+  Hit | 45.7% | +118
 > 7. Spencer Steer (R)
-  Hit | 42.7% | +134
+  Hit | 46.0% | +117
 > 8. Noelvi Marte (R)
-  Hit | 42.2% | +137
+  Hit | 43.6% | +129
 > 9. P.J. Higgins (R)
-  Hit | 40.2% | +149
+  Hit | 43.5% | +130
 ======================================================================
 🏟️  ATHLETICS @ NEW YORK METS
 ⏰ 01:40 PM ET | 📍 Citi Field
-🌡️ 53°F | 💨 4mph none
+🌡️ 61°F | 💨 12mph out
 ⚾ Pitchers: Freddy Peralta (R) vs Aaron Civale (R)
 ======================================================================
 ┌────────────────────────────────────────────────────────────────────┐
+│                     📊 GAME MARKETS (Full Game)                     │
+├────────────────────────────────────────────────────────────────────┤
+│  ML: Athletics 51.3% | New York Mets 48.7%                         │
+│  O/U 8.5: Over 40.5% | Under 59.5%                                 │
+│  AI Projected Score: 8.40 runs                                     │
+└────────────────────────────────────────────────────────────────────┘
+┌────────────────────────────────────────────────────────────────────┐
 │                       🥇 FIRST INNING MARKETS                       │
 ├────────────────────────────────────────────────────────────────────┤
-│  NRFI: 43.9% (+128)                                                │
+│  NRFI: 45.4% (+120)                                                │
 │  Recommendation: 💥 SLIGHT YRFI                                     │
 └────────────────────────────────────────────────────────────────────┘
 
 ----------------------------------------
 PLAYER PROPS: Athletics
 ----------------------------------------
-> 1. Andy Ibáñez (R)
-  Hit | 39.1% | +155
-> 2. Austin Wynns (R)
-  Hit | 38.2% | +161
-> 3. Carlos Cortes (L)
-  Hit | 41.4% | +141
-> 4. Darell Hernaiz (R)
-  Hit | 38.3% | +160
-> 5. Denzel Clarke (R)
-  Hit | 39.3% | +154
-> 6. Jacob Wilson (R)
-  Hit | 40.6% | +146
+> 1. Lawrence Butler (L)
+  Hit | 38.1% | +162
+> 2. Nick Kurtz (L)
+  Hit | 36.1% | +177
+> 3. Shea Langeliers (R)
+  Hit | 36.0% | +177
+> 4. Tyler Soderstrom (L)
+  Hit | 33.2% | +201
+> 5. Carlos Cortes (L)
+  Hit | 36.9% | +171
+> 6. Max Muncy (R)
+  Hit | 40.5% | +146
 > 7. Jeff McNeil (L)
-  Hit | 40.3% | +148
-> 8. Lawrence Butler (L)
-  Hit | 42.3% | +136
-> 9. Max Muncy (R)
-  Hit | 42.8% | +133
+  Hit | 41.3% | +142
+> 8. Darell Hernaiz (R)
+  Hit | 42.1% | +137
+> 9. Denzel Clarke (R)
+  Hit | 40.8% | +145
 ----------------------------------------
 PLAYER PROPS: New York Mets
 ----------------------------------------
 > 1. Francisco Lindor (S)
-  Hit | 46.1% | +116
+  Hit | 36.9% | +170
 > 2. Jorge Polanco (S)
-  Hit | 41.7% | +140
-> 3. Jared Young (L)
-  Hit | 40.1% | +149
+  Hit | 38.3% | +160
+> 3. Mark Vientos (R)
+  Hit | 36.1% | +176
 > 4. Bo Bichette (R)
-  Hit | 39.1% | +155
+  Hit | 36.8% | +172
 > 5. Brett Baty (L)
-  Hit | 38.1% | +162
+  Hit | 36.0% | +177
 > 6. Marcus Semien (R)
-  Hit | 40.6% | +146
-> 7. Carson Benge (L)
   Hit | 41.5% | +141
+> 7. Carson Benge (L)
+  Hit | 41.3% | +142
 > 8. Luis Torrens (R)
-  Hit | 42.3% | +136
+  Hit | 42.1% | +137
 > 9. Tyrone Taylor (R)
-  Hit | 42.2% | +137
+  Hit | 40.0% | +149
 ======================================================================
 🏟️  MIAMI MARLINS @ DETROIT TIGERS
 ⏰ 01:40 PM ET | 📍 Comerica Park
-🌡️ 53°F | 💨 7mph none
+🌡️ 77°F | 💨 13mph out
 ⚾ Pitchers: Tarik Skubal (R) vs Sandy Alcantara (R)
 ======================================================================
 ┌────────────────────────────────────────────────────────────────────┐
+│                     📊 GAME MARKETS (Full Game)                     │
+├────────────────────────────────────────────────────────────────────┤
+│  ML: Miami Marlins 48.8% | Detroit Tigers 51.2%                    │
+│  O/U 8.5: Over 50.9% | Under 49.1%                                 │
+│  AI Projected Score: 8.76 runs                                     │
+└────────────────────────────────────────────────────────────────────┘
+┌────────────────────────────────────────────────────────────────────┐
 │                       🥇 FIRST INNING MARKETS                       │
 ├────────────────────────────────────────────────────────────────────┤
-│  NRFI: 43.7% (+129)                                                │
+│  NRFI: 42.3% (+136)                                                │
 │  Recommendation: 💥 SLIGHT YRFI                                     │
 └────────────────────────────────────────────────────────────────────┘
 
 ----------------------------------------
 PLAYER PROPS: Miami Marlins
 ----------------------------------------
-> 1. Agustín Ramírez (R)
-  Hit | 40.7% | +145
-> 2. Austin Slater (R)
+> 1. Austin Slater (R)
+  Hit | 36.9% | +171
+> 2. Agustín Ramírez (R)
   Hit | 36.4% | +174
-> 3. Connor Norby (R)
-  Hit | 36.9% | +170
-> 4. Deyvison De Los Santos (R)
-  Hit | 42.6% | +134
-> 5. Graham Pauley (L)
-  Hit | 43.5% | +129
-> 6. Heriberto Hernández (R)
-  Hit | 41.2% | +142
-> 7. Jakob Marsee (L)
-  Hit | 42.6% | +134
-> 8. Javier Sanoja (R)
-  Hit | 42.8% | +133
-> 9. Leo Jiménez (R)
-  Hit | 42.8% | +133
+> 3. Jakob Marsee (L)
+  Hit | 36.5% | +174
+> 4. Otto Lopez (R)
+  Hit | 36.1% | +177
+> 5. Heriberto Hernández (R)
+  Hit | 37.6% | +165
+> 6. Connor Norby (R)
+  Hit | 42.5% | +135
+> 7. Xavier Edwards (S)
+  Hit | 42.7% | +134
+> 8. Liam Hicks (L)
+  Hit | 42.7% | +134
+> 9. Javier Sanoja (R)
+  Hit | 42.0% | +137
 ----------------------------------------
 PLAYER PROPS: Detroit Tigers
 ----------------------------------------
 > 1. Kevin McGonigle (L)
-  Hit | 50.4% | -101
+  Hit | 41.3% | +141
 > 2. Gleyber Torres (R)
-  Hit | 45.3% | +120
+  Hit | 42.0% | +138
 > 3. Colt Keith (L)
-  Hit | 45.2% | +121
+  Hit | 43.0% | +132
 > 4. Riley Greene (L)
-  Hit | 45.3% | +120
+  Hit | 40.7% | +145
 > 5. Dillon Dingler (R)
-  Hit | 42.5% | +135
+  Hit | 41.4% | +141
 > 6. Kerry Carpenter (L)
-  Hit | 44.3% | +125
+  Hit | 47.9% | +108
 > 7. Spencer Torkelson (R)
-  Hit | 43.4% | +130
+  Hit | 43.5% | +130
 > 8. Zach McKinstry (L)
-  Hit | 44.5% | +124
+  Hit | 48.1% | +108
 > 9. Javier Báez (R)
-  Hit | 44.3% | +125
+  Hit | 44.7% | +123
 ======================================================================
 🏟️  NEW YORK YANKEES @ TAMPA BAY RAYS
 ⏰ 01:40 PM ET | 📍 Tropicana Field
@@ -338,109 +380,123 @@ PLAYER PROPS: Detroit Tigers
 ⚾ Pitchers: Drew Rasmussen (R) vs Cam Schlittler (R)
 ======================================================================
 ┌────────────────────────────────────────────────────────────────────┐
+│                     📊 GAME MARKETS (Full Game)                     │
+├────────────────────────────────────────────────────────────────────┤
+│  ML: New York Yankees 49.3% | Tampa Bay Rays 50.7%                 │
+│  O/U 8.5: Over 52.2% | Under 47.8%                                 │
+│  AI Projected Score: 8.66 runs                                     │
+└────────────────────────────────────────────────────────────────────┘
+┌────────────────────────────────────────────────────────────────────┐
 │                       🥇 FIRST INNING MARKETS                       │
 ├────────────────────────────────────────────────────────────────────┤
-│  NRFI: 45.2% (+121)                                                │
+│  NRFI: 43.3% (+131)                                                │
 │  Recommendation: 💥 SLIGHT YRFI                                     │
 └────────────────────────────────────────────────────────────────────┘
 
 ----------------------------------------
 PLAYER PROPS: New York Yankees
 ----------------------------------------
-> 1. Aaron Judge (R)
-  Hit | 46.4% | +115
-> 2. Amed Rosario (R)
-  Hit | 43.8% | +128
-> 3. Austin Wells (L)
+> 1. Trent Grisham (L)
+  Hit | 42.1% | +137
+> 2. Ben Rice (L)
   Hit | 43.2% | +131
-> 4. Ben Rice (L)
-  Hit | 42.7% | +134
-> 5. Cody Bellinger (L)
-  Hit | 41.3% | +142
-> 6. Giancarlo Stanton (R)
+> 3. Aaron Judge (R)
   Hit | 44.2% | +126
-> 7. J.C. Escarra (L)
-  Hit | 44.4% | +125
-> 8. Jazz Chisholm Jr. (L)
-  Hit | 44.7% | +123
+> 4. Cody Bellinger (L)
+  Hit | 41.5% | +141
+> 5. Jazz Chisholm Jr. (L)
+  Hit | 40.6% | +146
+> 6. Amed Rosario (R)
+  Hit | 49.9% | +100
+> 7. Austin Wells (L)
+  Hit | 49.9% | +100
+> 8. Ryan McMahon (L)
+  Hit | 49.9% | +100
 > 9. José Caballero (R)
-  Hit | 42.3% | +136
+  Hit | 44.9% | +122
 ----------------------------------------
 PLAYER PROPS: Tampa Bay Rays
 ----------------------------------------
 > 1. Chandler Simpson (L)
-  Hit | 46.7% | +114
+  Hit | 42.5% | +135
 > 2. Junior Caminero (R)
-  Hit | 41.1% | +143
+  Hit | 44.0% | +127
 > 3. Jonathan Aranda (L)
-  Hit | 44.1% | +126
+  Hit | 43.5% | +129
 > 4. Yandy Díaz (R)
-  Hit | 42.7% | +134
+  Hit | 41.5% | +141
 > 5. Jake Fraley (L)
-  Hit | 41.3% | +142
+  Hit | 40.6% | +146
 > 6. Cedric Mullins (L)
-  Hit | 44.2% | +126
+  Hit | 49.9% | +100
 > 7. Richie Palacios (L)
-  Hit | 44.7% | +123
+  Hit | 49.9% | +100
 > 8. Taylor Walls (S)
-  Hit | 43.9% | +127
-> 9. Hunter Feduccia (L)
-  Hit | 42.3% | +136
+  Hit | 46.3% | +116
+> 9. Nick Fortes (R)
+  Hit | 44.3% | +125
 ======================================================================
 🏟️  CHICAGO WHITE SOX @ KANSAS CITY ROYALS
 ⏰ 02:10 PM ET | 📍 Kauffman Stadium
-🌡️ 66°F | 💨 19mph out
+🌡️ 64°F | 💨 11mph out
 ⚾ Pitchers: Noah Cameron (R) vs Grant Taylor (R)
 ======================================================================
 ┌────────────────────────────────────────────────────────────────────┐
+│                     📊 GAME MARKETS (Full Game)                     │
+├────────────────────────────────────────────────────────────────────┤
+│  ML: Chicago White Sox 52.8% | Kansas City Royals 47.2%            │
+│  O/U 8.5: Over 49.2% | Under 50.8%                                 │
+│  AI Projected Score: 8.15 runs                                     │
+└────────────────────────────────────────────────────────────────────┘
+┌────────────────────────────────────────────────────────────────────┐
 │                       🥇 FIRST INNING MARKETS                       │
 ├────────────────────────────────────────────────────────────────────┤
-│  NRFI: 46.5% (+115)                                                │
+│  NRFI: 47.8% (+109)                                                │
 │  Recommendation: 💥 SLIGHT YRFI                                     │
 └────────────────────────────────────────────────────────────────────┘
 
 ----------------------------------------
 PLAYER PROPS: Chicago White Sox
 ----------------------------------------
-> 1. Andrew Benintendi (L)
-  Hit | 47.7% | +109
+> 1. Miguel Vargas (R)
+  Hit | 37.3% | +167
 > 2. Chase Meidroth (R)
-  Hit | 43.2% | +131
-> 3. Colson Montgomery (L)
-  Hit | 44.3% | +125
-> 4. Derek Hill (R)
-  Hit | 36.9% | +171
-> 5. Dustin Harris (L)
-  Hit | 41.6% | +140
-> 6. Edgar Quero (S)
-  Hit | 43.6% | +129
-> 7. Lenyn Sosa (R)
-  Hit | 43.8% | +128
+  Hit | 41.5% | +140
+> 3. Munetaka Murakami (L)
+  Hit | 43.5% | +129
+> 4. Lenyn Sosa (R)
+  Hit | 41.8% | +138
+> 5. Edgar Quero (S)
+  Hit | 40.5% | +146
+> 6. Colson Montgomery (L)
+  Hit | 48.5% | +106
+> 7. Tanner Murray (R)
+  Hit | 47.6% | +110
 > 8. Luisangel Acuña (R)
-  Hit | 44.1% | +126
-> 9. Miguel Vargas (R)
-  Hit | 41.0% | +143
+  Hit | 48.6% | +105
+> 9. Derek Hill (R)
+  Hit | 42.9% | +132
 ----------------------------------------
 PLAYER PROPS: Kansas City Royals
 ----------------------------------------
-> 1. Bobby Witt Jr. (R)
-  Hit | 47.5% | +110
-> 2. Carter Jensen (L)
-  Hit | 44.9% | +122
-> 3. Isaac Collins (S)
-  Hit | 39.1% | +155
-> 4. Jac Caglianone (L)
-  Hit | 42.4% | +135
-> 5. Jonathan India (R)
-  Hit | 41.8% | +139
-> 6. Kyle Isbel (L)
-  Hit | 43.6% | +129
-> 7. Lane Thomas (R)
-  Hit | 43.1% | +132
-> 8. Maikel Garcia (R)
-  Hit | 44.1% | +126
-> 9. Michael Massey (L)
-  Hit | 42.0% | +137
+> 1. Maikel Garcia (R)
+  Hit | 44.6% | +124
+> 2. Bobby Witt Jr. (R)
+  Hit | 45.6% | +119
+> 3. Vinnie Pasquantino (L)
+  Hit | 45.6% | +119
+> 4. Salvador Perez (R)
+  Hit | 41.8% | +138
+> 5. Carter Jensen (L)
+  Hit | 40.5% | +146
+> 6. Michael Massey (L)
+  Hit | 48.5% | +106
+> 7. Jac Caglianone (L)
+  Hit | 48.5% | +106
+> 8. Isaac Collins (S)
+  Hit | 44.5% | +124
+> 9. Kyle Isbel (L)
+  Hit | 45.3% | +120
 ======================================================================
 🏟️  WASHINGTON NATIONALS @ MILWAUKEE BREWERS
 ⏰ 02:10 PM ET | 📍 American Family Field
@@ -448,381 +504,430 @@ PLAYER PROPS: Kansas City Royals
 ⚾ Pitchers: Brandon Woodruff (R) vs Zack Littell (R)
 ======================================================================
 ┌────────────────────────────────────────────────────────────────────┐
+│                     📊 GAME MARKETS (Full Game)                     │
+├────────────────────────────────────────────────────────────────────┤
+│  ML: Washington Nationals 50.3% | Milwaukee Brewers 49.7%          │
+│  O/U 8.5: Over 56.7% | Under 43.3%                                 │
+│  AI Projected Score: 8.66 runs                                     │
+└────────────────────────────────────────────────────────────────────┘
+┌────────────────────────────────────────────────────────────────────┐
 │                       🥇 FIRST INNING MARKETS                       │
 ├────────────────────────────────────────────────────────────────────┤
-│  NRFI: 44.3% (+125)                                                │
-│  Recommendation: 💥 SLIGHT YRFI                                     │
+│  NRFI: 41.6% (+140)                                                │
+│  Recommendation: 💥💥 LEAN YRFI                                      │
 └────────────────────────────────────────────────────────────────────┘
 
 ----------------------------------------
 PLAYER PROPS: Washington Nationals
 ----------------------------------------
-> 1. Brady House (R)
-  Hit | 45.0% | +122
-> 2. CJ Abrams (L)
-  Hit | 43.8% | +128
-> 3. Curtis Mead (R)
-  Hit | 37.7% | +165
-> 4. Daylen Lile (L)
-  Hit | 42.7% | +134
-> 5. Drew Millas (S)
-  Hit | 41.5% | +140
-> 6. Jacob Young (R)
+> 1. James Wood (L)
+  Hit | 43.2% | +131
+> 2. Luis García Jr. (L)
   Hit | 44.2% | +126
-> 7. James Wood (L)
-  Hit | 44.7% | +123
-> 8. Joey Wiemer (R)
-  Hit | 43.9% | +127
-> 9. Jorbit Vivas (L)
-  Hit | 42.3% | +136
+> 3. Brady House (R)
+  Hit | 44.6% | +124
+> 4. Daylen Lile (L)
+  Hit | 41.5% | +141
+> 5. CJ Abrams (L)
+  Hit | 40.6% | +146
+> 6. Jacob Young (R)
+  Hit | 49.9% | +100
+> 7. Jorbit Vivas (L)
+  Hit | 49.9% | +100
+> 8. Drew Millas (S)
+  Hit | 49.9% | +100
+> 9. Nasim Nuñez (S)
+  Hit | 43.8% | +128
 ----------------------------------------
 PLAYER PROPS: Milwaukee Brewers
 ----------------------------------------
-> 1. Blake Perkins (S)
-  Hit | 42.4% | +135
-> 2. Brandon Lockridge (R)
-  Hit | 35.3% | +183
-> 3. Brice Turang (L)
-  Hit | 37.5% | +166
-> 4. Christian Yelich (L)
-  Hit | 37.9% | +163
-> 5. David Hamilton (L)
-  Hit | 37.2% | +168
-> 6. Garrett Mitchell (L)
-  Hit | 40.8% | +145
-> 7. Gary Sánchez (R)
-  Hit | 41.6% | +140
-> 8. Jake Bauers (L)
-  Hit | 41.9% | +138
-> 9. Joey Ortiz (R)
+> 1. Brice Turang (L)
+  Hit | 37.3% | +168
+> 2. William Contreras (R)
   Hit | 40.9% | +144
+> 3. Gary Sánchez (R)
+  Hit | 37.6% | +166
+> 4. Garrett Mitchell (L)
+  Hit | 38.6% | +159
+> 5. Jake Bauers (L)
+  Hit | 37.1% | +169
+> 6. Sal Frelick (L)
+  Hit | 41.5% | +140
+> 7. Brandon Lockridge (R)
+  Hit | 40.0% | +149
+> 8. David Hamilton (L)
+  Hit | 41.6% | +140
+> 9. Joey Ortiz (R)
+  Hit | 41.1% | +143
 ======================================================================
 🏟️  BOSTON RED SOX @ ST. LOUIS CARDINALS
 ⏰ 02:15 PM ET | 📍 Busch Stadium
-🌡️ 69°F | 💨 12mph out
+🌡️ 75°F | 💨 17mph out
 ⚾ Pitchers: Andre Pallante (R) vs Brayan Bello (R)
 ======================================================================
 ┌────────────────────────────────────────────────────────────────────┐
+│                     📊 GAME MARKETS (Full Game)                     │
+├────────────────────────────────────────────────────────────────────┤
+│  ML: Boston Red Sox 50.9% | St. Louis Cardinals 49.1%              │
+│  O/U 9.5: Over 42.9% | Under 57.1%                                 │
+│  AI Projected Score: 9.49 runs                                     │
+└────────────────────────────────────────────────────────────────────┘
+┌────────────────────────────────────────────────────────────────────┐
 │                       🥇 FIRST INNING MARKETS                       │
 ├────────────────────────────────────────────────────────────────────┤
-│  NRFI: 44.2% (+126)                                                │
-│  Recommendation: 💥 SLIGHT YRFI                                     │
+│  NRFI: 40.5% (+146)                                                │
+│  Recommendation: 💥💥 LEAN YRFI                                      │
 └────────────────────────────────────────────────────────────────────┘
 
 ----------------------------------------
 PLAYER PROPS: Boston Red Sox
 ----------------------------------------
-> 1. Andruw Monasterio (R)
-  Hit | 39.8% | +151
+> 1. Roman Anthony (L)
+  Hit | 36.4% | +174
 > 2. Caleb Durbin (R)
-  Hit | 37.4% | +167
-> 3. Carlos Narváez (R)
-  Hit | 39.6% | +152
-> 4. Ceddanne Rafaela (R)
-  Hit | 37.8% | +164
-> 5. Connor Wong (R)
-  Hit | 36.3% | +175
-> 6. Isiah Kiner-Falefa (R)
-  Hit | 40.7% | +145
-> 7. Jarren Duran (L)
+  Hit | 38.2% | +161
+> 3. Jarren Duran (L)
+  Hit | 36.0% | +178
+> 4. Willson Contreras (R)
+  Hit | 37.3% | +168
+> 5. Wilyer Abreu (L)
+  Hit | 35.8% | +179
+> 6. Trevor Story (R)
+  Hit | 42.3% | +136
+> 7. Marcelo Mayer (L)
+  Hit | 42.3% | +136
+> 8. Connor Wong (R)
   Hit | 41.7% | +139
-> 8. Marcelo Mayer (L)
-  Hit | 40.7% | +145
-> 9. Masataka Yoshida (L)
-  Hit | 40.0% | +150
+> 9. Ceddanne Rafaela (R)
+  Hit | 41.5% | +140
 ----------------------------------------
 PLAYER PROPS: St. Louis Cardinals
 ----------------------------------------
 > 1. JJ Wetherholt (L)
-  Hit | 43.7% | +128
+  Hit | 36.3% | +175
 > 2. Iván Herrera (R)
-  Hit | 39.1% | +155
+  Hit | 36.7% | +172
 > 3. Alec Burleson (L)
-  Hit | 38.6% | +159
+  Hit | 38.9% | +157
 > 4. Jordan Walker (R)
-  Hit | 36.1% | +177
+  Hit | 36.4% | +174
 > 5. Nolan Gorman (L)
-  Hit | 37.7% | +165
+  Hit | 36.3% | +175
 > 6. Ramón Urías (R)
-  Hit | 40.8% | +144
+  Hit | 42.1% | +137
 > 7. José Fermín (R)
-  Hit | 40.6% | +146
+  Hit | 42.4% | +135
 > 8. Thomas Saggese (R)
-  Hit | 41.5% | +141
+  Hit | 41.5% | +140
 > 9. Victor Scott II (L)
-  Hit | 39.4% | +153
+  Hit | 42.5% | +135
 ======================================================================
 🏟️  PITTSBURGH PIRATES @ CHICAGO CUBS
 ⏰ 02:20 PM ET | 📍 Wrigley Field
-🌡️ 64°F | 💨 13mph out
+🌡️ 77°F | 💨 16mph out
 ⚾ Pitchers: Jameson Taillon (R) vs Bubba Chandler (R)
 ======================================================================
 ┌────────────────────────────────────────────────────────────────────┐
+│                     📊 GAME MARKETS (Full Game)                     │
+├────────────────────────────────────────────────────────────────────┤
+│  ML: Pittsburgh Pirates 54.6% | Chicago Cubs 45.4%                 │
+│  O/U 9.5: Over 48.7% | Under 51.3%                                 │
+│  AI Projected Score: 9.20 runs                                     │
+└────────────────────────────────────────────────────────────────────┘
+┌────────────────────────────────────────────────────────────────────┐
 │                       🥇 FIRST INNING MARKETS                       │
 ├────────────────────────────────────────────────────────────────────┤
-│  NRFI: 45.0% (+122)                                                │
-│  Recommendation: 💥 SLIGHT YRFI                                     │
+│  NRFI: 40.9% (+144)                                                │
+│  Recommendation: 💥💥 LEAN YRFI                                      │
 └────────────────────────────────────────────────────────────────────┘
 
 ----------------------------------------
 PLAYER PROPS: Pittsburgh Pirates
 ----------------------------------------
-> 1. Billy Cook (R)
-  Hit | 41.8% | +139
+> 1. Oneil Cruz (L)
+  Hit | 38.3% | +161
 > 2. Brandon Lowe (L)
-  Hit | 39.9% | +150
+  Hit | 40.1% | +149
 > 3. Bryan Reynolds (S)
-  Hit | 38.5% | +159
-> 4. Henry Davis (R)
-  Hit | 35.2% | +184
-> 5. Jake Mangum (S)
+  Hit | 37.8% | +164
+> 4. Ryan O'Hearn (L)
+  Hit | 36.2% | +175
+> 5. Nick Yorke (R)
   Hit | 38.2% | +161
-> 6. Joey Bart (R)
-  Hit | 41.8% | +139
-> 7. Konnor Griffin (R)
-  Hit | 42.2% | +137
-> 8. Marcell Ozuna (R)
-  Hit | 41.5% | +140
-> 9. Nick Gonzales (R)
-  Hit | 39.2% | +155
+> 6. Marcell Ozuna (R)
+  Hit | 42.8% | +133
+> 7. Spencer Horwitz (L)
+  Hit | 43.5% | +129
+> 8. Konnor Griffin (R)
+  Hit | 42.9% | +133
+> 9. Joey Bart (R)
+  Hit | 43.5% | +129
 ----------------------------------------
 PLAYER PROPS: Chicago Cubs
 ----------------------------------------
-> 1. Alex Bregman (R)
-  Hit | 47.7% | +109
-> 2. Carson Kelly (R)
-  Hit | 39.3% | +154
-> 3. Dansby Swanson (R)
-  Hit | 42.7% | +134
+> 1. Nico Hoerner (R)
+  Hit | 42.0% | +137
+> 2. Moisés Ballesteros (L)
+  Hit | 42.0% | +138
+> 3. Alex Bregman (R)
+  Hit | 43.0% | +132
 > 4. Ian Happ (S)
-  Hit | 42.4% | +135
-> 5. Matt Shaw (R)
-  Hit | 37.6% | +165
-> 6. Michael Busch (L)
-  Hit | 44.7% | +123
-> 7. Michael Conforto (L)
-  Hit | 45.3% | +120
-> 8. Miguel Amaya (R)
-  Hit | 45.4% | +120
-> 9. Moisés Ballesteros (L)
-  Hit | 41.2% | +142
+  Hit | 40.3% | +147
+> 5. Seiya Suzuki (R)
+  Hit | 39.9% | +150
+> 6. Carson Kelly (R)
+  Hit | 47.9% | +108
+> 7. Pete Crow-Armstrong (L)
+  Hit | 48.0% | +108
+> 8. Dansby Swanson (R)
+  Hit | 49.2% | +103
+> 9. Matt Shaw (R)
+  Hit | 43.6% | +129
 ======================================================================
 🏟️  COLORADO ROCKIES @ SAN DIEGO PADRES
 ⏰ 04:10 PM ET | 📍 Petco Park
-🌡️ 58°F | 💨 7mph none
+🌡️ 65°F | 💨 14mph out
 ⚾ Pitchers: Nick Pivetta (R) vs Kyle Freeland (R)
 ======================================================================
 ┌────────────────────────────────────────────────────────────────────┐
+│                     📊 GAME MARKETS (Full Game)                     │
+├────────────────────────────────────────────────────────────────────┤
+│  ML: Colorado Rockies 51.7% | San Diego Padres 48.3%               │
+│  O/U 8.5: Over 50.5% | Under 49.5%                                 │
+│  AI Projected Score: 8.59 runs                                     │
+└────────────────────────────────────────────────────────────────────┘
+┌────────────────────────────────────────────────────────────────────┐
 │                       🥇 FIRST INNING MARKETS                       │
 ├────────────────────────────────────────────────────────────────────┤
-│  NRFI: 44.6% (+124)                                                │
+│  NRFI: 43.1% (+132)                                                │
 │  Recommendation: 💥 SLIGHT YRFI                                     │
 └────────────────────────────────────────────────────────────────────┘
 
 ----------------------------------------
 PLAYER PROPS: Colorado Rockies
 ----------------------------------------
-> 1. Brenton Doyle (R)
-  Hit | 43.8% | +128
-> 2. Brett Sullivan (L)
-  Hit | 34.7% | +187
-> 3. Edouard Julien (L)
-  Hit | 35.7% | +179
-> 4. Ezequiel Tovar (R)
-  Hit | 37.9% | +164
-> 5. Hunter Goodman (R)
-  Hit | 37.3% | +168
-> 6. Jake McCarthy (L)
-  Hit | 41.9% | +138
-> 7. Jordan Beck (R)
-  Hit | 41.7% | +139
-> 8. Kyle Karros (R)
-  Hit | 40.9% | +144
-> 9. Mickey Moniak (L)
-  Hit | 40.7% | +145
+> 1. Edouard Julien (L)
+  Hit | 39.7% | +151
+> 2. Tyler Freeman (R)
+  Hit | 39.9% | +150
+> 3. Mickey Moniak (L)
+  Hit | 40.2% | +148
+> 4. Hunter Goodman (R)
+  Hit | 36.7% | +172
+> 5. TJ Rumfield (L)
+  Hit | 38.3% | +161
+> 6. Ezequiel Tovar (R)
+  Hit | 40.6% | +146
+> 7. Brenton Doyle (R)
+  Hit | 40.5% | +146
+> 8. Brett Sullivan (L)
+  Hit | 39.5% | +153
+> 9. Kyle Karros (R)
+  Hit | 40.0% | +149
 ----------------------------------------
 PLAYER PROPS: San Diego Padres
 ----------------------------------------
-> 1. Bryce Johnson (S)
-  Hit | 42.5% | +135
+> 1. Ramón Laureano (R)
+  Hit | 37.5% | +166
 > 2. Fernando Tatis Jr. (R)
-  Hit | 40.5% | +146
-> 3. Freddy Fermin (R)
-  Hit | 39.6% | +152
-> 4. Gavin Sheets (L)
+  Hit | 39.1% | +155
+> 3. Jackson Merrill (L)
+  Hit | 38.4% | +160
+> 4. Manny Machado (R)
+  Hit | 36.8% | +172
+> 5. Xander Bogaerts (R)
   Hit | 37.3% | +168
-> 5. Jackson Merrill (L)
-  Hit | 39.2% | +155
-> 6. Jake Cronenworth (L)
-  Hit | 42.4% | +135
-> 7. Luis Campusano (R)
-  Hit | 42.9% | +133
-> 8. Manny Machado (R)
-  Hit | 42.4% | +136
-> 9. Miguel Andujar (R)
-  Hit | 41.7% | +139
+> 6. Nick Castellanos (R)
+  Hit | 44.6% | +124
+> 7. Ty France (R)
+  Hit | 41.6% | +140
+> 8. Bryce Johnson (S)
+  Hit | 45.1% | +121
+> 9. Freddy Fermin (R)
+  Hit | 40.4% | +147
 ======================================================================
 🏟️  HOUSTON ASTROS @ SEATTLE MARINERS
 ⏰ 04:10 PM ET | 📍 T-Mobile Park
 🌡️ 72°F | 💨 0mph none
-⚾ Pitchers: Logan Gilbert (R) vs TBD (R)
+⚾ Pitchers: Logan Gilbert (R) vs Cody Bolton (R)
 ======================================================================
+┌────────────────────────────────────────────────────────────────────┐
+│                     📊 GAME MARKETS (Full Game)                     │
+├────────────────────────────────────────────────────────────────────┤
+│  ML: Houston Astros 48.3% | Seattle Mariners 51.7%                 │
+│  O/U 8.5: Over 55.4% | Under 44.6%                                 │
+│  AI Projected Score: 8.52 runs                                     │
+└────────────────────────────────────────────────────────────────────┘
 ┌────────────────────────────────────────────────────────────────────┐
 │                       🥇 FIRST INNING MARKETS                       │
 ├────────────────────────────────────────────────────────────────────┤
-│  NRFI: 49.0% (+104)                                                │
-│  Recommendation: ➖ NEUTRAL (No Edge)                               │
+│  NRFI: 49.7% (+101)                                                │
+│  Recommendation: ➖ NEUTRAL                                         │
 └────────────────────────────────────────────────────────────────────┘
 
 ----------------------------------------
 PLAYER PROPS: Houston Astros
 ----------------------------------------
-> 1. Brice Matthews (R)
-  Hit | 38.1% | +162
-> 2. Cam Smith (R)
-  Hit | 37.2% | +168
-> 3. Carlos Correa (R)
+> 1. Jose Altuve (R)
   Hit | 36.1% | +176
-> 4. Christian Vázquez (R)
-  Hit | 36.1% | +177
-> 5. Christian Walker (R)
-  Hit | 36.8% | +171
-> 6. Isaac Paredes (R)
-  Hit | 41.3% | +142
-> 7. Jeremy Peña (R)
-  Hit | 41.5% | +140
-> 8. Joey Loperfido (L)
-  Hit | 40.5% | +146
-> 9. Jose Altuve (R)
-  Hit | 40.5% | +146
+> 2. Yordan Alvarez (L)
+  Hit | 40.9% | +144
+> 3. Isaac Paredes (R)
+  Hit | 38.3% | +160
+> 4. Christian Walker (R)
+  Hit | 35.3% | +183
+> 5. Cam Smith (R)
+  Hit | 38.1% | +162
+> 6. Joey Loperfido (L)
+  Hit | 42.3% | +136
+> 7. Yainer Diaz (R)
+  Hit | 41.4% | +141
+> 8. Taylor Trammell (L)
+  Hit | 44.8% | +123
+> 9. Nick Allen (R)
+  Hit | 40.4% | +147
 ----------------------------------------
 PLAYER PROPS: Seattle Mariners
 ----------------------------------------
 > 1. Brendan Donovan (L)
-  Hit | 45.5% | +119
+  Hit | 40.6% | +146
 > 2. Cal Raleigh (S)
-  Hit | 44.7% | +123
-> 3. Cole Young (L)
-  Hit | 42.1% | +137
-> 4. Connor Joe (R)
-  Hit | 37.6% | +166
-> 5. Dominic Canzone (L)
-  Hit | 39.4% | +154
-> 6. J.P. Crawford (L)
-  Hit | 44.2% | +126
-> 7. Josh Naylor (L)
-  Hit | 44.7% | +123
-> 8. Julio Rodríguez (R)
-  Hit | 44.7% | +123
-> 9. Leo Rivas (S)
-  Hit | 43.0% | +132
+  Hit | 41.6% | +140
+> 3. Julio Rodríguez (R)
+  Hit | 41.6% | +140
+> 4. Josh Naylor (L)
+  Hit | 42.3% | +136
+> 5. Randy Arozarena (R)
+  Hit | 41.0% | +144
+> 6. Luke Raley (L)
+  Hit | 54.4% | -119
+> 7. J.P. Crawford (L)
+  Hit | 54.4% | -119
+> 8. Dominic Canzone (L)
+  Hit | 48.7% | +105
+> 9. Cole Young (L)
+  Hit | 52.7% | -111
 ======================================================================
 🏟️  TEXAS RANGERS @ LOS ANGELES DODGERS
 ⏰ 04:10 PM ET | 📍 UNIQLO Field at Dodger Stadium
-🌡️ 56°F | 💨 6mph none
+🌡️ 63°F | 💨 12mph out
 ⚾ Pitchers: Roki Sasaki (R) vs Jacob deGrom (R)
 ======================================================================
 ┌────────────────────────────────────────────────────────────────────┐
+│                     📊 GAME MARKETS (Full Game)                     │
+├────────────────────────────────────────────────────────────────────┤
+│  ML: Texas Rangers 48.6% | Los Angeles Dodgers 51.4%               │
+│  O/U 9.5: Over 46.2% | Under 53.8%                                 │
+│  AI Projected Score: 9.17 runs                                     │
+└────────────────────────────────────────────────────────────────────┘
+┌────────────────────────────────────────────────────────────────────┐
 │                       🥇 FIRST INNING MARKETS                       │
 ├────────────────────────────────────────────────────────────────────┤
-│  NRFI: 45.9% (+117)                                                │
+│  NRFI: 45.5% (+119)                                                │
 │  Recommendation: 💥 SLIGHT YRFI                                     │
 └────────────────────────────────────────────────────────────────────┘
 
 ----------------------------------------
 PLAYER PROPS: Texas Rangers
 ----------------------------------------
-> 1. Andrew McCutchen (R)
-  Hit | 44.3% | +125
-> 2. Brandon Nimmo (L)
-  Hit | 45.1% | +121
+> 1. Brandon Nimmo (L)
+  Hit | 43.9% | +127
+> 2. Evan Carter (L)
+  Hit | 43.5% | +129
 > 3. Corey Seager (L)
-  Hit | 44.2% | +126
-> 4. Danny Jansen (R)
-  Hit | 37.3% | +168
-> 5. Evan Carter (L)
-  Hit | 38.1% | +162
-> 6. Ezequiel Duran (R)
-  Hit | 43.2% | +131
-> 7. Jake Burger (R)
-  Hit | 46.8% | +113
-> 8. Joc Pederson (L)
-  Hit | 44.1% | +126
-> 9. Josh Jung (R)
-  Hit | 43.1% | +131
+  Hit | 45.6% | +119
+> 4. Jake Burger (R)
+  Hit | 41.8% | +138
+> 5. Joc Pederson (L)
+  Hit | 41.9% | +138
+> 6. Danny Jansen (R)
+  Hit | 44.9% | +122
+> 7. Josh Smith (L)
+  Hit | 48.5% | +106
+> 8. Josh Jung (R)
+  Hit | 43.8% | +128
+> 9. Ezequiel Duran (R)
+  Hit | 43.6% | +129
 ----------------------------------------
 PLAYER PROPS: Los Angeles Dodgers
 ----------------------------------------
-> 1. Alex Call (R)
-  Hit | 47.4% | +110
-> 2. Alex Freeland (S)
-  Hit | 42.0% | +137
+> 1. Shohei Ohtani (L)
+  Hit | 40.8% | +145
+> 2. Kyle Tucker (L)
+  Hit | 43.7% | +128
 > 3. Andy Pages (R)
-  Hit | 41.5% | +141
-> 4. Dalton Rushing (L)
-  Hit | 39.9% | +150
-> 5. Freddie Freeman (L)
-  Hit | 45.3% | +120
-> 6. Hyeseong Kim (L)
-  Hit | 52.4% | -109
-> 7. Kyle Tucker (L)
-  Hit | 54.3% | -118
-> 8. Max Muncy (L)
-  Hit | 52.3% | -109
-> 9. Miguel Rojas (R)
-  Hit | 56.2% | -128
+  Hit | 43.1% | +131
+> 4. Freddie Freeman (L)
+  Hit | 40.8% | +145
+> 5. Max Muncy (L)
+  Hit | 44.1% | +127
+> 6. Alex Freeland (S)
+  Hit | 52.5% | -110
+> 7. Dalton Rushing (L)
+  Hit | 50.0% | -100
+> 8. Alex Call (R)
+  Hit | 53.6% | -115
+> 9. Hyeseong Kim (L)
+  Hit | 52.5% | -110
 ======================================================================
 🏟️  CLEVELAND GUARDIANS @ ATLANTA BRAVES
 ⏰ 07:20 PM ET | 📍 Truist Park
-🌡️ 67°F | 💨 5mph none
+🌡️ 83°F | 💨 10mph out
 ⚾ Pitchers: Chris Sale (R) vs Tanner Bibee (R)
 ======================================================================
 ┌────────────────────────────────────────────────────────────────────┐
+│                     📊 GAME MARKETS (Full Game)                     │
+├────────────────────────────────────────────────────────────────────┤
+│  ML: Cleveland Guardians 47.1% | Atlanta Braves 52.9%              │
+│  O/U 9.5: Over 47.4% | Under 52.6%                                 │
+│  AI Projected Score: 9.23 runs                                     │
+└────────────────────────────────────────────────────────────────────┘
+┌────────────────────────────────────────────────────────────────────┐
 │                       🥇 FIRST INNING MARKETS                       │
 ├────────────────────────────────────────────────────────────────────┤
-│  NRFI: 43.6% (+129)                                                │
-│  Recommendation: 💥 SLIGHT YRFI                                     │
+│  NRFI: 37.6% (+166)                                                │
+│  Recommendation: 💥💥 LEAN YRFI                                      │
 └────────────────────────────────────────────────────────────────────┘
 
 ----------------------------------------
 PLAYER PROPS: Cleveland Guardians
 ----------------------------------------
 > 1. Angel Martínez (S)
-  Hit | 39.2% | +155
-> 2. Austin Hedges (R)
-  Hit | 37.2% | +169
-> 3. Bo Naylor (L)
-  Hit | 34.0% | +193
-> 4. Brayan Rocchio (S)
-  Hit | 36.6% | +173
-> 5. CJ Kayfus (L)
-  Hit | 36.9% | +170
-> 6. Chase DeLauter (L)
-  Hit | 40.8% | +144
-> 7. Daniel Schneemann (L)
-  Hit | 42.7% | +134
-> 8. David Fry (R)
-  Hit | 40.9% | +144
-> 9. José Ramírez (S)
-  Hit | 38.7% | +158
+  Hit | 41.7% | +139
+> 2. Chase DeLauter (L)
+  Hit | 43.7% | +128
+> 3. José Ramírez (S)
+  Hit | 41.9% | +138
+> 4. David Fry (R)
+  Hit | 39.7% | +151
+> 5. Rhys Hoskins (R)
+  Hit | 43.3% | +131
+> 6. Kyle Manzardo (L)
+  Hit | 40.3% | +148
+> 7. Juan Brito (S)
+  Hit | 47.3% | +111
+> 8. Daniel Schneemann (L)
+  Hit | 45.7% | +118
+> 9. Brayan Rocchio (S)
+  Hit | 44.4% | +124
 ----------------------------------------
 PLAYER PROPS: Atlanta Braves
 ----------------------------------------
-> 1. Austin Riley (R)
+> 1. Ronald Acuña Jr. (R)
+  Hit | 40.0% | +149
+> 2. Drake Baldwin (L)
+  Hit | 42.6% | +134
+> 3. Matt Olson (L)
+  Hit | 44.2% | +126
+> 4. Austin Riley (R)
+  Hit | 41.0% | +143
+> 5. Mike Yastrzemski (L)
   Hit | 44.6% | +124
-> 2. Dominic Smith (L)
-  Hit | 38.3% | +160
-> 3. Drake Baldwin (L)
-  Hit | 36.7% | +172
-> 4. Eli White (R)
-  Hit | 36.6% | +173
-> 5. Jonah Heim (S)
-  Hit | 36.9% | +170
-> 6. Jorge Mateo (R)
-  Hit | 40.7% | +145
-> 7. Kyle Farmer (R)
-  Hit | 40.4% | +147
-> 8. Luke Williams (R)
-  Hit | 43.0% | +132
-> 9. Matt Olson (L)
-  Hit | 38.7% | +158
+> 6. Ozzie Albies (S)
+  Hit | 44.9% | +122
+> 7. Dominic Smith (L)
+  Hit | 45.7% | +118
+> 8. Mauricio Dubón (R)
+  Hit | 45.8% | +118
+> 9. Jorge Mateo (R)
+  Hit | 48.0% | +108
