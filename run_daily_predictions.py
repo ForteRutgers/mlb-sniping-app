@@ -245,5 +245,9 @@ def _format_game_report(away_t, home_t, stadium, weather, away_p, home_p, away_p
 
 def _format_props_section(props_list: list) -> str:
     if not props_list: return ""
-    lines = [f"
-             http: // googleusercontent.com / immersive_entry_chip / 0
+
+    lines = []
+    for prop in props_list:
+        lines.append(f"{prop.get('name', 'Unknown')} - {prop.get('market', 'Prop')}")
+
+    return "\n".join(lines)
