@@ -42,7 +42,7 @@ def run_totals_backtest():
 
     # Get all the "Total" predictions from the database
     cursor.execute('''
-                   SELECT prediction_date, away_team, home_team, market, probability
+                   SELECT date, away_team, home_team, market, probability
                    FROM game_predictions
                    WHERE market LIKE 'Total_%'
                    ''')
