@@ -1,0 +1,1 @@
+park_factor,temp,wind_speed,wind_out,away_top3_xwoba,home_top3_xwoba,away_pitcher_k,home_pitcher_k

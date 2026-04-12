@@ -1,0 +1,167 @@
+name: MLB Daily Sniper Auto-Pilot
+
+on:
+  schedule:
+    - cron: '0 16 * * *'   # 12 PM EDT / 11 AM EST - catches early games (1 PM starts)
+    - cron: '0 19 * * *'   # 3 PM EDT / 2 PM EST - catches afternoon games
+    - cron: '0 22 * * *'   # 6 PM EDT / 5 PM EST - catches most night games
+    - cron: '30 23 * * *'  # 7:30 PM EDT / 6:30 PM EST - catches West Coast games
+  workflow_dispatch:
+    inputs:
+      run_bootstrap:
+        description: 'Run full data bootstrap (takes 30+ min)'
+        required: false
+        default: 'false'
+        type: boolean
+      run_training:
+        description: 'Run model training'
+        required: false
+        default: 'false'
+        type: boolean
+
+permissions:
+  contents: write
+
+jobs:
+  run-mlb-engine:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120  # 2 hour timeout for bootstrap runs
+
+    steps:
+    - name: Checkout Repository
+      uses: actions/checkout@v4
+
+    - name: Set up Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.11'
+
+    - name: Cache pip dependencies
+      uses: actions/cache@v4
+      with:
+        path: ~/.cache/pip
+        key: ${{ runner.os }}-pip-${{ hashFiles('requirements.txt') }}
+        restore-keys: |
+          ${{ runner.os }}-pip-
+
+    - name: Cache Statcast data
+      uses: actions/cache@v4
+      with:
+        path: |
+          statcast_raw_2024_2025.csv
+          batter_advanced_metrics_2024_2025.csv
+          pitcher_advanced_metrics_2024_2025.csv
+          batter_expected_stats.csv
+          pitcher_expected_stats.csv
+          recent_form_data.csv
+        key: statcast-data-v1-${{ github.run_id }}
+        restore-keys: |
+          statcast-data-v1-
+
+    - name: Cache trained models
+      uses: actions/cache@v4
+      with:
+        path: |
+          enhanced_model_*.json
+          nrfi_model.json
+          enhanced_model_features.txt
+        key: trained-models-v1-${{ github.run_id }}
+        restore-keys: |
+          trained-models-v1-
+
+    - name: Install Dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r requirements.txt
+
+    # ===== OPTIONAL: Run Bootstrap (Manual Trigger Only) =====
+    - name: Run Data Bootstrap (if requested)
+      if: ${{ github.event.inputs.run_bootstrap == 'true' }}
+      run: |
+        echo "🚀 Running enhanced data bootstrap..."
+        python enhanced_historical_bootstrap.py
+      timeout-minutes: 90
+
+    # ===== OPTIONAL: Run Training (Manual Trigger Only) =====
+    - name: Run Model Training (if requested)
+      if: ${{ github.event.inputs.run_training == 'true' }}
+      run: |
+        echo "🧠 Training enhanced models..."
+        python train_enhanced_model.py
+      timeout-minutes: 30
+
+    # ===== DAILY: Run Predictions =====
+    - name: Run System 2 Predictions
+      run: |
+        python run_daily_predictions.py
+
+    - name: Send Predictions to Discord
+      env:
+        DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
+      run: |
+        if [ -f "enhanced_predictions_report.txt" ] && [ -n "$DISCORD_WEBHOOK" ]; then
+          curl -X POST \
+            -F "payload_json={\"content\": \"⚾ **MLB System 2 Predictions are Live!**\"}" \
+            -F "file=@enhanced_predictions_report.txt" "$DISCORD_WEBHOOK"
+        else
+          echo "No predictions report found or Discord webhook not configured"
+        fi
+      continue-on-error: true
+
+    # ===== DAILY: Grade Yesterday's Predictions =====
+    - name: Grade Yesterday's Predictions
+      env:
+        DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
+      run: |
+        python results_tracker.py || echo "No predictions to grade yet"
+      continue-on-error: true
+
+    # ===== NEW DAILY: Backtest Totals (O/U) =====
+    - name: Run Totals Backtester
+      env:
+        DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
+      run: |
+        python backtest_totals.py > backtest_summary.txt
+        cat backtest_summary.txt
+        
+        # Only send to Discord if the script actually found finished games to grade
+        if grep -q "WIN\|LOSS" backtest_summary.txt; then
+          if [ -n "$DISCORD_WEBHOOK" ]; then
+            curl -X POST \
+              -F "payload_json={\"content\": \"📊 **Daily Over/Under Backtest Results**\"}" \
+              -F "file=@backtest_summary.txt" "$DISCORD_WEBHOOK"
+          fi
+        else
+          echo "No finished games to report to Discord yet."
+        fi
+      continue-on-error: true
+
+    # ===== DAILY: Retrain Models with New Data =====
+    - name: Retrain Models Daily
+      run: |
+        echo "🧠 Retraining models with latest data..."
+        python train_enhanced_model.py || echo "Training skipped - insufficient data"
+      continue-on-error: true
+      timeout-minutes: 30
+
+    # ===== FINAL: Save Everything Back to Repo =====
+    - name: Save Updated Files to Repo
+      run: |
+        git config --global user.name "github-actions[bot]"
+        git config --global user.email "github-actions[bot]@users.noreply.github.com"
+        
+        # Add the Database file
+        git add mlb_predictions.db 2>/dev/null || true
+        
+        # Add existing files
+        git add prediction_ledger.csv 2>/dev/null || true
+        git add enhanced_predictions_report.txt 2>/dev/null || true
+        git add enhanced_model_*.json nrfi_model.json enhanced_model_features.txt 2>/dev/null || true
+        git add batter_advanced_metrics_2024_2025.csv pitcher_advanced_metrics_2024_2025.csv 2>/dev/null || true
+        git add enhanced_model_results.csv 2>/dev/null || true
+        git add historical_training_data.csv 2>/dev/null || true
+        git add training_feedback.json 2>/dev/null || true
+        
+        # Commit and Push
+        git diff --staged --quiet || git commit -m "Automated Database & Ledger update: $(date +'%Y-%m-%d') [skip ci]"
+        git push || echo "Nothing to push"

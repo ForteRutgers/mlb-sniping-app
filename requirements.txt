@@ -1,0 +1,16 @@
+# Machine Learning & Math
+pandas
+numpy
+scikit-learn
+xgboost
+
+# Baseball Data & Scraping
+pybaseball
+requests
+
+# Utilities
+pytz
+
+# Dashboard & Visualization
+streamlit
+plotly
