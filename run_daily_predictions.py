@@ -30,9 +30,9 @@ def send_to_discord(message_text):
     Sends the prediction report to Discord via Webhook.
     """
     # !!! PASTE YOUR ACTUAL WEBHOOK URL HERE !!!
-    webhook_url = "YOUR_WEBHOOK_URL_HERE"
+    webhook_url = "https://discord.com/api/webhooks/1487199773256585239/Ci6G7sxUSvvlNPVdT2ng4CpbtTn69t0u7bVn9AupakQa5YYMoZkk7t3GuhnyM4BCWZov"
 
-    if "YOUR_WEBHOOK_URL" in webhook_url or not webhook_url.startswith("https"):
+    if "https://discord.com/api/webhooks/1487199773256585239/Ci6G7sxUSvvlNPVdT2ng4CpbtTn69t0u7bVn9AupakQa5YYMoZkk7t3GuhnyM4BCWZov" in webhook_url or not webhook_url.startswith("https"):
         print("[!] Warning: Discord Webhook URL is not set correctly. Skipping notification.")
         return
 
