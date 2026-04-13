@@ -251,3 +251,28 @@ def _format_props_section(props_list: list) -> str:
         lines.append(f"{prop.get('name', 'Unknown')} - {prop.get('market', 'Prop')}")
 
     return "\n".join(lines)
+
+
+# =====================================================================
+# NEW HR PROP ENGINE INTEGRATION (ISOLATED EXECUTION)
+# =====================================================================
+import subprocess
+
+if __name__ == "__main__":  # Or place inside your existing main() block at the end
+    print("\n" + "=" * 50)
+    print("Initiating Experimental HR Prop Predictions...")
+    print("=" * 50)
+
+    try:
+        # We run this as a separate system process to ensure absolute
+        # isolation. If this crashes, the main program stays alive.
+        subprocess.run(
+            ["python", "hr_prop_engine/predict_daily_hrs.py"],
+            check=True
+        )
+    except subprocess.CalledProcessError as e:
+        print(f"\n⚠️ Notice: HR Prop Engine encountered an issue.")
+        print(f"Your main predictions were unaffected. Error details: {e}")
+    except FileNotFoundError:
+        print(
+            "\n⚠️ Notice: Could not find 'predict_daily_hrs.py'. Ensure the 'hr_prop_engine' folder exists in the root directory.")
