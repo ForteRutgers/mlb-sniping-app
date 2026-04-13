@@ -7,16 +7,54 @@ Includes: NRFI/YRFI, Full-game, F5, and experimental HR Prop Engines.
 import os
 import sys
 import subprocess
+import requests
+import json
 from datetime import datetime
 import pytz
 import pandas as pd
 
-from live_scraper import get_todays_matchups
-from game_markets_predictor import GameMarketsPredictor, format_odds, get_edge_rating
+# External logic imports
+try:
+    from live_scraper import get_todays_matchups
+    from game_markets_predictor import GameMarketsPredictor, format_odds, get_edge_rating
+except ImportError as e:
+    print(f"[!] Critical Import Error: {e}")
+    sys.exit(1)
 
 
 # -----------------------------------------------------------
-# NEW: HR PROP ENGINE HELPER
+# DISCORD NOTIFIER FUNCTION (Fixed NameError)
+# -----------------------------------------------------------
+def send_to_discord(message_text):
+    """
+    Sends the prediction report to Discord via Webhook.
+    """
+    # !!! PASTE YOUR ACTUAL WEBHOOK URL HERE !!!
+    webhook_url = "YOUR_WEBHOOK_URL_HERE"
+
+    if "YOUR_WEBHOOK_URL" in webhook_url or not webhook_url.startswith("https"):
+        print("[!] Warning: Discord Webhook URL is not set correctly. Skipping notification.")
+        return
+
+    # Discord has a 2000 character limit. This trims the message to prevent errors.
+    if len(message_text) > 2000:
+        message_text = message_text[:1990] + "..."
+
+    payload = {"content": message_text}
+    headers = {"Content-Type": "application/json"}
+
+    try:
+        response = requests.post(webhook_url, data=json.dumps(payload), headers=headers)
+        if response.status_code == 204:
+            print("[SUCCESS] Report sent to Discord.")
+        else:
+            print(f"[!] Discord returned status code {response.status_code}: {response.text}")
+    except Exception as e:
+        print(f"[!] Error sending to Discord: {e}")
+
+
+# -----------------------------------------------------------
+# HR PROP ENGINE HELPER
 # -----------------------------------------------------------
 def _get_hr_discord_snippet():
     """
@@ -25,8 +63,10 @@ def _get_hr_discord_snippet():
     snippet_path = 'hr_prop_engine/discord_snippet.txt'
 
     # 1. Run the isolated HR prediction script
+    print("Initiating Experimental HR Prop Predictions...")
     try:
-        subprocess.run(["python", "hr_prop_engine/predict_daily_hrs.py"], check=True)
+        # We use sys.executable to ensure we use the same environment's python
+        subprocess.run([sys.executable, "hr_prop_engine/predict_daily_hrs.py"], check=True)
     except Exception as e:
         return f"\n⚠️ HR Prop Engine Notice: Could not generate picks today. ({e})"
 
@@ -38,28 +78,8 @@ def _get_hr_discord_snippet():
 
 
 # -----------------------------------------------------------
-# EXISTING MLB ARCHITECTURE
+# MAIN EXECUTION LOGIC
 # -----------------------------------------------------------
-try:
-    from feature_engineering import FeatureEngineer, LEAGUE_AVG_BATTER, LEAGUE_AVG_PITCHER
-
-    _FE_AVAILABLE = True
-except ImportError:
-    _FE_AVAILABLE = False
-    LEAGUE_AVG_BATTER = {
-        "1B_Rate": 0.145, "2B_Rate": 0.045, "3B_Rate": 0.004, "HR_Rate": 0.030,
-        "BB_Rate": 0.085, "K_Rate": 0.225, "R_Conv": 0.310, "RBI_Conv": 0.150,
-        "SB_Conv": 0.050, "Barrel_Rate": 0.080, "xwOBA": 0.320,
-        "Archetype": "Balanced", "Hand": "R",
-    }
-    LEAGUE_AVG_PITCHER = {
-        "CALC_HR9": 1.25, "K_Rate": 0.22, "BB_Rate": 0.08, "H_Rate": 0.24, "BF_per_Start": 22
-    }
-
-
-# (Existing Simulation Logic - Condensed for readability)
-# [Include your _apply_model, _predict_player_props, _format_game_report, etc. here]
-
 def run_daily_predictions():
     eastern = pytz.timezone("US/Eastern")
     today_str = datetime.now(eastern).strftime("%Y-%m-%d")
@@ -68,8 +88,7 @@ def run_daily_predictions():
     print(f" MLB ENHANCED PREDICTIONS - {today_str} ")
     print("=" * 70)
 
-    # Init predictors and fetch data
-    gmp = GameMarketsPredictor()
+    # 1. Fetch Data
     print("\n[1/3] Fetching today's matchups...")
     matchups = get_todays_matchups()
 
@@ -77,38 +96,37 @@ def run_daily_predictions():
         print("[!] No matchups found for today.")
         return
 
+    # 2. Run Game Simulations (Placeholder for your existing logic)
     print("\n[2/3] Running game simulations...")
     report_parts = [
-        f"========================================\nMLB ENHANCED PREDICTIONS - {today_str}\n========================================\n"]
+        f"========================================\nMLB ENHANCED PREDICTIONS - {today_str}\n========================================\n"
+    ]
 
-    # ... (Standard game simulation loop remains unchanged) ...
-    # This loop populates 'report_parts' with NRFI and game results
+    # Note: Your specific NRFI/Game logic usually populates report_parts here.
+    # We will proceed to the HR capture.
 
-    # -----------------------------------------------------------
-    # FINAL: GENERATE REPORT AND TRIGGER HR ENGINE
-    # -----------------------------------------------------------
-    print("\n[3/3] Generating report...")
+    # 3. Generate Report and Trigger HR Engine
+    print("\n[3/3] Generating report and triggering HR engine...")
     full_report = "\n".join(report_parts)
 
-    # NEW: Capture HR props for the Discord alert
+    # Capture HR props for the Discord alert
     hr_snippet = _get_hr_discord_snippet()
     full_report += f"\n{hr_snippet}"
 
     # Output to console
     print(full_report)
 
-    # Save to file
+    # Save to file locally
     out_path = "enhanced_predictions_report.txt"
     with open(out_path, "w") as f:
         f.write(full_report)
-    print(f"\n[SUCCESS] Report saved to {out_path}")
+    print(f"\n[LOCAL SUCCESS] Report saved to {out_path}")
 
-    # --- UNCOMMENTED AND ACTIVATED ---
-    # We remove the # from the lines below so they actually run
+    # 4. Final Discord Trigger
     DISCORD_ACTIVE = True
     if DISCORD_ACTIVE:
+        print("Attempting to send to Discord...")
         send_to_discord(full_report)
-        print("[SUCCESS] Report sent to Discord!")
 
 
 if __name__ == "__main__":
