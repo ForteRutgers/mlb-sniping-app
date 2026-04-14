@@ -99,7 +99,7 @@ def get_team_roster_data(team_id):
 
 def get_todays_matchups():
     eastern = pytz.timezone('US/Eastern')
-    today = "2026-04-12"
+    today = datetime.now(eastern).strftime('%Y-%m-%d')
 
     url = f"https://statsapi.mlb.com/api/v1/schedule?sportId=1&date={today}&hydrate=probablePitcher"
 
