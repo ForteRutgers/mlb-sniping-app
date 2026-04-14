@@ -164,7 +164,7 @@ def _write_to_sqlite(props_results, game_ledger_data):
 
     # Use current Eastern Time for consistent daily tracking
     eastern = pytz.timezone("US/Eastern")
-    run_date = datetime.now(eastern).strftime('%Y-%m-%d')
+    run_date = "2026-04-12"
 
     # --- INSERT GAME DATA ---
     for entry in game_ledger_data:
