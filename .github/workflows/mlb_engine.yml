@@ -22,6 +22,10 @@ on:
 permissions:
   contents: write
 
+# FIX 1: We set the environment timezone for ALL jobs to Eastern Time
+env:
+  TZ: 'America/New_York'
+
 jobs:
   run-mlb-engine:
     runs-on: ubuntu-latest
@@ -93,6 +97,8 @@ jobs:
     # ===== DAILY: Run Predictions =====
     - name: Run System 2 Predictions
       run: |
+        # FIX 2: Delete the old report so stale data is NEVER sent to Discord
+        rm -f enhanced_predictions_report.txt 
         python run_daily_predictions.py
 
     - name: Send Predictions to Discord
@@ -104,7 +110,7 @@ jobs:
             -F "payload_json={\"content\": \"⚾ **MLB System 2 Predictions are Live!**\"}" \
             -F "file=@enhanced_predictions_report.txt" "$DISCORD_WEBHOOK"
         else
-          echo "No predictions report found or Discord webhook not configured"
+          echo "No new predictions report was generated today, skipping Discord message."
         fi
       continue-on-error: true
 
