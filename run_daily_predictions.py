@@ -73,11 +73,10 @@ def _write_to_sqlite(game_ledger_data):
                        (run_date, entry['away_team'], entry['home_team']))
 
         game_res = entry['game_result']
-        nrfi_res = entry['nrfi_result']
         total_line = game_res.get('game_total_line', 8.5)
 
         markets = [
-            ('NRFI', nrfi_res.get('nrfi_prob', 0.5), "N/A"),
+            ('NRFI', game_res.get('nrfi_prob', 0.5), "N/A"),
             ('Total_Over', game_res.get('game_total_over', 0.5), "N/A"),
             ('Total_Under', game_res.get('game_total_under', 0.5), "N/A")
         ]
@@ -103,11 +102,11 @@ def _recommendation(nrfi_prob: float) -> str:
     return "➖ NEUTRAL"
 
 
-def _format_game_report(away_t, home_t, nrfi_r, game_r, game_time) -> str:
+def _format_game_report(away_t, home_t, game_r, game_time) -> str:
     over_p = game_r.get('game_total_over', 0.5) * 100
     under_p = game_r.get('game_total_under', 0.5) * 100
     total_line = game_r.get('game_total_line', 8.5)
-    nrfi_p = nrfi_r.get('nrfi_prob', 0.5) * 100
+    nrfi_p = game_r.get('nrfi_prob', 0.5) * 100
     yrfi_p = (1 - (nrfi_p / 100)) * 100
 
     return (
@@ -143,28 +142,44 @@ def run_daily_predictions():
         away_data = all_matchups[i]
         home_data = all_matchups[i + 1]
 
-        # Format names for the report using the correct 'team' key
         away_name = away_data['team']
         home_name = home_data['team']
         stadium = home_data['home_stadium']
         game_time = home_data['game_time']
+        weather = home_data['weather']
+
+        away_lineup = away_data['lineup']
+        home_lineup = home_data['lineup']
+
+        # The opposing pitcher for the away team is the home pitcher
+        home_pitcher = away_data['opposing_pitcher']
+        home_pitcher_hand = away_data['opposing_pitcher_hand']
+        away_pitcher = home_data['opposing_pitcher']
+        away_pitcher_hand = home_data['opposing_pitcher_hand']
 
         print(f"Analyzing {away_name} @ {home_name}...")
 
-        # Run Simulation (Using home_data as the primary container for the game)
-        nrfi_results = predictor.predict_nrfi(home_data)
-        game_results = predictor.predict_game_outcome(home_data)
+        # Run ONE Simulation that captures both Game Totals and NRFI
+        game_results = predictor.predict_full_game(
+            away_lineup=away_lineup,
+            home_lineup=home_lineup,
+            away_pitcher=away_pitcher,
+            home_pitcher=home_pitcher,
+            stadium=stadium,
+            away_pitcher_hand=away_pitcher_hand,
+            home_pitcher_hand=home_pitcher_hand,
+            weather=weather
+        )
 
         full_report += _format_game_report(
             away_name, home_name,
-            nrfi_results, game_results, game_time
+            game_results, game_time
         )
 
         game_ledger.append({
             'away_team': away_name,
             'home_team': home_name,
             'stadium': stadium,
-            'nrfi_result': nrfi_results,
             'game_result': game_results
         })
 
