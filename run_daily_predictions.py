@@ -115,7 +115,7 @@ def _recommendation(nrfi_prob: float) -> str:
             f"> 🕒 **1st Inn:** NRFI {nrfi_p:.0f}% | YRFI {yrfi_p:.0f}%\n"
             f"> 🎯 **Edge:** {_recommendation(nrfi_p / 100)}\n\n"
         )
-    )
+
 
 
 # ---------------------------------------------------------------------------
