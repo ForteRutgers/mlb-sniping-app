@@ -71,8 +71,13 @@ def _write_to_sqlite(game_ledger_data):
     run_date = datetime.now(eastern).strftime('%Y-%m-%d')
 
     for entry in game_ledger_data:
+        # Use .get() to safely pull the team names for the database
+        away_t = entry.get('away_team', entry.get('away', 'Away'))
+        home_t = entry.get('home_team', entry.get('home', 'Home'))
+        stadium = entry.get('stadium', 'Unknown')
+
         cursor.execute("DELETE FROM game_predictions WHERE date=? AND away_team=? AND home_team=?",
-                       (run_date, entry['away_team'], entry['home_team']))
+                       (run_date, away_t, home_t))
 
         game_res = entry['game_result']
         nrfi_res = entry['nrfi_result']
@@ -89,8 +94,7 @@ def _write_to_sqlite(game_ledger_data):
                 '''INSERT INTO game_predictions
                    (date, away_team, home_team, stadium, market, probability, fair_odds, game_total_line)
                    VALUES (?, ?, ?, ?, ?, ?, ?, ?)''',
-                (run_date, entry['away_team'], entry['home_team'], entry['stadium'], m_name, float(prob), str(odds),
-                 float(total_line))
+                (run_date, away_t, home_t, stadium, m_name, float(prob), str(odds), float(total_line))
             )
 
     conn.commit()
@@ -142,7 +146,15 @@ def run_daily_predictions():
 
     # 2. Process each game
     for game in matchups:
-        print(f"Analyzing {game['away_team']} @ {game['home_team']}...")
+        print(f"DEBUG - Available labels: {game.keys()}")
+        print(f"DEBUG - Full game data: {game}")
+
+        # Safe assignment that won't crash if 'away_team' is missing
+        away = game.get('away_team', game.get('away', 'Away'))
+        home = game.get('home_team', game.get('home', 'Home'))
+        game_time = game.get('time', 'TBD')
+
+        print(f"Analyzing {away} @ {home}...")
 
         # Run Simulation
         nrfi_results = predictor.predict_nrfi(game)
@@ -150,14 +162,14 @@ def run_daily_predictions():
 
         # Build Report
         full_report += _format_game_report(
-            game['away_team'], game['home_team'],
-            nrfi_results, game_results, game['time']
+            away, home,
+            nrfi_results, game_results, game_time
         )
 
         game_ledger.append({
-            'away_team': game['away_team'],
-            'home_team': game['home_team'],
-            'stadium': game['stadium'],
+            'away_team': away,
+            'home_team': home,
+            'stadium': game.get('stadium', 'Unknown'),
             'nrfi_result': nrfi_results,
             'game_result': game_results
         })
