@@ -143,7 +143,7 @@ def run_daily_predictions():
         away_data = all_matchups[i]
         home_data = all_matchups[i + 1]
 
-        # Format names for the report
+        # Format names for the report using the correct 'team' key
         away_name = away_data['team']
         home_name = home_data['team']
         stadium = home_data['home_stadium']
