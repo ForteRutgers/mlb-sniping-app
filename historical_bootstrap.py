@@ -5,6 +5,7 @@ from datetime import datetime, timedelta
 import time
 import os
 import sys
+from concurrent.futures import ThreadPoolExecutor
 
 # Import the core physics engine from your daily script
 from daily_bets import (
@@ -22,85 +23,95 @@ league_avg_batter = {
 league_avg_pitcher = {'CALC_HR9': 1.25, 'K_Rate': 0.22, 'BB_Rate': 0.08, 'H_Rate': 0.24, 'BF_per_Start': 22}
 
 
+def _process_game(game):
+    """Processes a single game's data."""
+    if game['status']['statusCode'] not in ['F', 'O']:
+        return []
+
+    game_pk = game['gamePk']
+    # CRITICAL FIX: Pull the individual box score so it doesn't get truncated!
+    try:
+        box_data = requests.get(f"https://statsapi.mlb.com/api/v1/game/{game_pk}/boxscore", timeout=5).json()
+    except:
+        return []
+
+    info = box_data.get('info', [])
+    temp, wind_speed, wind_dir = 72, 0, 'none'
+    for item in info:
+        if 'Weather' in item.get('label', ''):
+            val = item.get('value', '').lower()
+            try:
+                temp = int([x for x in val.split() if 'degrees' in x or 'f' in x or x.isdigit()][0].replace('f', '').replace('degrees', ''))
+                if 'mph' in val: wind_speed = int(val.split('mph')[0].split()[-1])
+                if 'out' in val: wind_dir = 'out'
+            except:
+                pass
+
+    stadium = game.get('venue', {}).get('name', 'Unknown')
+    boxscore_teams = box_data.get('teams', {})
+    game_results = []
+
+    for is_home in [True, False]:
+        team_side = 'home' if is_home else 'away'
+        opp_side = 'away' if is_home else 'home'
+
+        team_box = boxscore_teams.get(team_side, {})
+        opp_box = boxscore_teams.get(opp_side, {})
+
+        batting_order = team_box.get('battingOrder', [])
+        players_dict = team_box.get('players', {})
+        opp_players_dict = opp_box.get('players', {})
+
+        if not batting_order: continue
+
+        opp_pitchers = opp_box.get('pitchers', [])
+        if not opp_pitchers: continue
+        sp_id = f"ID{opp_pitchers[0]}"
+        sp_data = opp_players_dict.get(sp_id, {})
+        sp_name = sp_data.get('person', {}).get('fullName', 'TBD')
+        sp_hand = sp_data.get('person', {}).get('pitchHand', {}).get('code', 'R')
+
+        lineup = []
+        for pid in batting_order:
+            p_key = f"ID{pid}"
+            if p_key in players_dict:
+                p_data = players_dict[p_key]
+                name = p_data['person']['fullName'].replace('*', '').replace('#', '').strip()
+                hand = p_data['person'].get('batSide', {}).get('code', 'R')
+
+                stats = p_data.get('stats', {}).get('batting', {})
+                actuals = {
+                    'HR': stats.get('homeRuns', 0), 'Hit': stats.get('hits', 0),
+                    'TB': stats.get('totalBases', 0), 'Run': stats.get('runs', 0),
+                    'RBI': stats.get('rbi', 0)
+                }
+                lineup.append({'name': name, 'hand': hand, 'actuals': actuals})
+
+        game_results.append({
+            'stadium': stadium, 'temp': temp, 'wind_speed': wind_speed, 'wind_dir': wind_dir,
+            'opp_pitcher': sp_name, 'opp_p_hand': sp_hand, 'lineup': lineup
+        })
+    return game_results
+
+
 def fetch_historical_day(date_str):
-    """Pings the MLB API for historical boxscores, weather, and lineups."""
+    """Pings the MLB API for historical boxscores, weather, and lineups using concurrency."""
     url = f"https://statsapi.mlb.com/api/v1/schedule?sportId=1&date={date_str}"
     try:
         data = requests.get(url, timeout=10).json()
     except Exception:
         return []
 
+    if 'dates' not in data or not data['dates']: return []
+
+    games = data['dates'][0].get('games', [])
     games_data = []
-    if 'dates' not in data or not data['dates']: return games_data
 
-    for game in data['dates'][0].get('games', []):
-        if game['status']['statusCode'] not in ['F', 'O']: continue
+    with ThreadPoolExecutor(max_workers=10) as executor:
+        results = list(executor.map(_process_game, games))
 
-        game_pk = game['gamePk']
-
-        # CRITICAL FIX: Pull the individual box score so it doesn't get truncated!
-        try:
-            box_data = requests.get(f"https://statsapi.mlb.com/api/v1/game/{game_pk}/boxscore", timeout=5).json()
-        except:
-            continue
-
-        info = box_data.get('info', [])
-        temp, wind_speed, wind_dir = 72, 0, 'none'
-        for item in info:
-            if 'Weather' in item.get('label', ''):
-                val = item.get('value', '').lower()
-                try:
-                    temp = int([x for x in val.split() if 'degrees' in x or 'f' in x or x.isdigit()][0].replace('f',
-                                                                                                                '').replace(
-                        'degrees', ''))
-                    if 'mph' in val: wind_speed = int(val.split('mph')[0].split()[-1])
-                    if 'out' in val: wind_dir = 'out'
-                except:
-                    pass
-
-        stadium = game.get('venue', {}).get('name', 'Unknown')
-        boxscore_teams = box_data.get('teams', {})
-
-        for is_home in [True, False]:
-            team_side = 'home' if is_home else 'away'
-            opp_side = 'away' if is_home else 'home'
-
-            team_box = boxscore_teams.get(team_side, {})
-            opp_box = boxscore_teams.get(opp_side, {})
-
-            batting_order = team_box.get('battingOrder', [])
-            players_dict = team_box.get('players', {})
-            opp_players_dict = opp_box.get('players', {})
-
-            if not batting_order: continue
-
-            opp_pitchers = opp_box.get('pitchers', [])
-            if not opp_pitchers: continue
-            sp_id = f"ID{opp_pitchers[0]}"
-            sp_data = opp_players_dict.get(sp_id, {})
-            sp_name = sp_data.get('person', {}).get('fullName', 'TBD')
-            sp_hand = sp_data.get('person', {}).get('pitchHand', {}).get('code', 'R')
-
-            lineup = []
-            for pid in batting_order:
-                p_key = f"ID{pid}"
-                if p_key in players_dict:
-                    p_data = players_dict[p_key]
-                    name = p_data['person']['fullName'].replace('*', '').replace('#', '').strip()
-                    hand = p_data['person'].get('batSide', {}).get('code', 'R')
-
-                    stats = p_data.get('stats', {}).get('batting', {})
-                    actuals = {
-                        'HR': stats.get('homeRuns', 0), 'Hit': stats.get('hits', 0),
-                        'TB': stats.get('totalBases', 0), 'Run': stats.get('runs', 0),
-                        'RBI': stats.get('rbi', 0)
-                    }
-                    lineup.append({'name': name, 'hand': hand, 'actuals': actuals})
-
-            games_data.append({
-                'stadium': stadium, 'temp': temp, 'wind_speed': wind_speed, 'wind_dir': wind_dir,
-                'opp_pitcher': sp_name, 'opp_p_hand': sp_hand, 'lineup': lineup
-            })
+    for res in results:
+        games_data.extend(res)
 
     return games_data
 
