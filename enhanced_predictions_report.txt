@@ -1,0 +1,92 @@
+# ⚾ MLB Daily System 2 Predictions
+
+**Arizona Diamondbacks @ Baltimore Orioles** (12:35 PM ET)
+```yaml
+O/U 8.5: Over 53%  vs Under 47%
+1st Inn: NRFI 57%  vs YRFI 43%
+Edge:  ➖ NEUTRAL
+```
+**Cleveland Guardians @ St. Louis Cardinals** (01:15 PM ET)
+```yaml
+O/U 8.5: Over 49%  vs Under 51%
+1st Inn: NRFI 59%  vs YRFI 41%
+Edge:  🔥🔥 LEAN NRFI
+```
+**Boston Red Sox @ Minnesota Twins** (01:40 PM ET)
+```yaml
+O/U 8.5: Over 46%  vs Under 54%
+1st Inn: NRFI 61%  vs YRFI 39%
+Edge:  🔥🔥 LEAN NRFI
+```
+**Kansas City Royals @ Detroit Tigers** (06:40 PM ET)
+```yaml
+O/U 8.5: Over 45%  vs Under 55%
+1st Inn: NRFI 58%  vs YRFI 42%
+Edge:  🔥🔥 LEAN NRFI
+```
+**Washington Nationals @ Pittsburgh Pirates** (06:40 PM ET)
+```yaml
+O/U 7.5: Over 43%  vs Under 57%
+1st Inn: NRFI 62%  vs YRFI 38%
+Edge:  🔥🔥 LEAN NRFI
+```
+**San Francisco Giants @ Cincinnati Reds** (06:40 PM ET)
+```yaml
+O/U 10.5: Over 42%  vs Under 58%
+1st Inn: NRFI 53%  vs YRFI 47%
+Edge:  ➖ NEUTRAL
+```
+**Chicago Cubs @ Philadelphia Phillies** (06:40 PM ET)
+```yaml
+O/U 9.5: Over 58%  vs Under 42%
+1st Inn: NRFI 54%  vs YRFI 46%
+Edge:  ➖ NEUTRAL
+```
+**Los Angeles Angels @ New York Yankees** (07:05 PM ET)
+```yaml
+O/U 8.5: Over 51%  vs Under 49%
+1st Inn: NRFI 56%  vs YRFI 44%
+Edge:  ➖ NEUTRAL
+```
+**Miami Marlins @ Atlanta Braves** (07:15 PM ET)
+```yaml
+O/U 8.5: Over 40%  vs Under 60%
+1st Inn: NRFI 58%  vs YRFI 42%
+Edge:  🔥🔥 LEAN NRFI
+```
+**Tampa Bay Rays @ Chicago White Sox** (07:40 PM ET)
+```yaml
+O/U 9.5: Over 44%  vs Under 56%
+1st Inn: NRFI 58%  vs YRFI 42%
+Edge:  ➖ NEUTRAL
+```
+**Toronto Blue Jays @ Milwaukee Brewers** (07:40 PM ET)
+```yaml
+O/U 8.5: Over 55%  vs Under 45%
+1st Inn: NRFI 57%  vs YRFI 43%
+Edge:  ➖ NEUTRAL
+```
+**Colorado Rockies @ Houston Astros** (08:10 PM ET)
+```yaml
+O/U 8.5: Over 49%  vs Under 51%
+1st Inn: NRFI 58%  vs YRFI 42%
+Edge:  ➖ NEUTRAL
+```
+**Seattle Mariners @ San Diego Padres** (09:40 PM ET)
+```yaml
+O/U 7.5: Over 47%  vs Under 53%
+1st Inn: NRFI 59%  vs YRFI 41%
+Edge:  🔥🔥 LEAN NRFI
+```
+**Texas Rangers @ Athletics** (09:40 PM ET)
+```yaml
+O/U 7.5: Over 57%  vs Under 43%
+1st Inn: NRFI 59%  vs YRFI 41%
+Edge:  🔥🔥 LEAN NRFI
+```
+**New York Mets @ Los Angeles Dodgers** (10:10 PM ET)
+```yaml
+O/U 8.5: Over 40%  vs Under 60%
+1st Inn: NRFI 59%  vs YRFI 41%
+Edge:  🔥🔥 LEAN NRFI
+```
