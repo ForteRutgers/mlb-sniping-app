@@ -109,13 +109,12 @@ def _format_game_report(away_t, home_t, game_r, game_time) -> str:
     nrfi_p = game_r.get('nrfi_prob', 0.5) * 100
     yrfi_p = (1 - (nrfi_p / 100)) * 100
 
+    # Clean, modern Discord formatting using blockquotes
     return (
-        f"**{away_t} @ {home_t}** ({game_time})\n"
-        f"```yaml\n"
-        f"O/U {total_line}: Over {over_p:.0f}%  vs Under {under_p:.0f}%\n"
-        f"1st Inn: NRFI {nrfi_p:.0f}%  vs YRFI {yrfi_p:.0f}%\n"
-        f"Edge:  {_recommendation(nrfi_p / 100)}\n"
-        f"```\n"
+        f"⚾ **{away_t} @ {home_t}** ({game_time})\n"
+        f"> 📊 **O/U {total_line}:** Over {over_p:.0f}% | Under {under_p:.0f}%\n"
+        f"> 🕒 **1st Inn:** NRFI {nrfi_p:.0f}% | YRFI {yrfi_p:.0f}%\n"
+        f"> 🎯 **Edge:** {_recommendation(nrfi_p / 100)}\n\n"
     )
 
 
