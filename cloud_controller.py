@@ -66,8 +66,103 @@ def check_lineup_confirmed(game_pk):
         return False
 
 
+# =====================================================================
+# SELF-IMPROVEMENT PIPELINE — Runs before predictions each day
+# =====================================================================
+
+def _run_step(script_name, description):
+    """
+    Safely runs a single step of the self-improvement pipeline.
+    Returns True if the step succeeded, False if it failed.
+    Failures are logged but NEVER stop the rest of the pipeline.
+    """
+    print(f"\n    [LEARNING] {description}...")
+    try:
+        result = subprocess.run(
+            [sys.executable, script_name],
+            capture_output=True,
+            text=True,
+            timeout=600  # 10 minute safety timeout per step
+        )
+        if result.returncode == 0:
+            print(f"    [OK] {description} — completed successfully.")
+            return True
+        else:
+            print(f"    [WARN] {description} — exited with code {result.returncode}.")
+            if result.stderr:
+                # Print only the last 3 lines of the error to keep logs clean
+                error_lines = result.stderr.strip().split('\n')[-3:]
+                for line in error_lines:
+                    print(f"           {line}")
+            return False
+    except subprocess.TimeoutExpired:
+        print(f"    [WARN] {description} — timed out after 10 minutes. Skipping.")
+        return False
+    except Exception as e:
+        print(f"    [WARN] {description} — unexpected error: {e}. Skipping.")
+        return False
+
+
+def run_self_improvement_pipeline():
+    """
+    Executes the full self-improvement loop BEFORE daily predictions.
+
+    Order of operations:
+      1. Grade yesterday's predictions against real MLB outcomes
+      2. Retrain the AI Corrector on all accumulated graded history
+
+    Every step is wrapped in try/except so that a failure in any single
+    step (e.g., no games yesterday, API down) will NOT prevent the
+    daily predictions from running.
+    """
+    print("\n" + "=" * 70)
+    print("  🧠 SELF-IMPROVEMENT PIPELINE — Learning from yesterday's results")
+    print("=" * 70)
+
+    steps_attempted = 0
+    steps_succeeded = 0
+
+    # --- Step 1: Grade yesterday's predictions ---
+    # This compares what we predicted to what actually happened,
+    # writes training_feedback.json, and appends to historical_training_data.csv
+    if os.path.exists("results_tracker.py") and os.path.exists("prediction_ledger.csv"):
+        steps_attempted += 1
+        if _run_step("results_tracker.py", "Step 1/2: Grading yesterday's predictions"):
+            steps_succeeded += 1
+    else:
+        print("    [SKIP] results_tracker.py or prediction_ledger.csv not found — skipping grading step.")
+
+    # --- Step 2: Retrain the AI Corrector on accumulated graded history ---
+    # This reads historical_training_data.csv (which grows every day after grading)
+    # and retrains the XGBoost corrector that adjusts raw Monte Carlo probabilities
+    # It will regenerate mlb_xgboost_brain.json from the graded data
+    if os.path.exists("ai_corrector.py") and os.path.exists("historical_training_data.csv"):
+        steps_attempted += 1
+        if _run_step("ai_corrector.py", "Step 2/2: Retraining AI Corrector on graded history"):
+            steps_succeeded += 1
+    else:
+        print("    [SKIP] ai_corrector.py or historical_training_data.csv not found — skipping corrector retrain.")
+
+    # --- Summary ---
+    print("\n" + "-" * 70)
+    print(f"  🧠 SELF-IMPROVEMENT COMPLETE: {steps_succeeded}/{steps_attempted} steps succeeded.")
+    if steps_attempted == 0:
+        print("     (No learning scripts or data found. Models will run with current weights.)")
+    print("-" * 70 + "\n")
+
+
+# =====================================================================
+# MAIN ENGINE — Now calls the learning pipeline before predicting
+# =====================================================================
+
 def run_engine():
-    print(f"\n[TRIGGER] Official 9-Man Lineups Confirmed! Launching MLB Monte Carlo Engine...")
+    print(f"\n[TRIGGER] Official 9-Man Lineups Confirmed! Launching MLB Sniping Engine...")
+
+    # === NEW: Learn from yesterday BEFORE making today's predictions ===
+    run_self_improvement_pipeline()
+
+    # === Generate today's predictions with the (now smarter) models ===
+    print("[ENGINE] Running daily predictions with updated models...")
     subprocess.run([sys.executable, "daily_bets.py", "--auto"])
     print(f"\n[SUCCESS] Engine finished. Dashboard generated with locked lineups.")
 
