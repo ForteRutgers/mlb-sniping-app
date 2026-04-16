@@ -70,6 +70,11 @@ def check_lineup_confirmed(game_pk):
 # SELF-IMPROVEMENT PIPELINE — Runs before predictions each day
 # =====================================================================
 
+_PIPELINE_STEP_TIMEOUT = 600  # 10 minutes per learning step
+_PREDICTION_LEDGER = "prediction_ledger.csv"
+_HISTORICAL_DATA = "historical_training_data.csv"
+
+
 def _run_step(script_name, description):
     """
     Safely runs a single step of the self-improvement pipeline.
@@ -82,7 +87,7 @@ def _run_step(script_name, description):
             [sys.executable, script_name],
             capture_output=True,
             text=True,
-            timeout=600  # 10 minute safety timeout per step
+            timeout=_PIPELINE_STEP_TIMEOUT
         )
         if result.returncode == 0:
             print(f"    [OK] {description} — completed successfully.")
@@ -96,7 +101,7 @@ def _run_step(script_name, description):
                     print(f"           {line}")
             return False
     except subprocess.TimeoutExpired:
-        print(f"    [WARN] {description} — timed out after 10 minutes. Skipping.")
+        print(f"    [WARN] {description} — timed out after {_PIPELINE_STEP_TIMEOUT // 60} minutes. Skipping.")
         return False
     except Exception as e:
         print(f"    [WARN] {description} — unexpected error: {e}. Skipping.")
@@ -125,7 +130,7 @@ def run_self_improvement_pipeline():
     # --- Step 1: Grade yesterday's predictions ---
     # This compares what we predicted to what actually happened,
     # writes training_feedback.json, and appends to historical_training_data.csv
-    if os.path.exists("results_tracker.py") and os.path.exists("prediction_ledger.csv"):
+    if os.path.exists("results_tracker.py") and os.path.exists(_PREDICTION_LEDGER):
         steps_attempted += 1
         if _run_step("results_tracker.py", "Step 1/2: Grading yesterday's predictions"):
             steps_succeeded += 1
@@ -136,7 +141,7 @@ def run_self_improvement_pipeline():
     # This reads historical_training_data.csv (which grows every day after grading)
     # and retrains the XGBoost corrector that adjusts raw Monte Carlo probabilities
     # It will regenerate mlb_xgboost_brain.json from the graded data
-    if os.path.exists("ai_corrector.py") and os.path.exists("historical_training_data.csv"):
+    if os.path.exists("ai_corrector.py") and os.path.exists(_HISTORICAL_DATA):
         steps_attempted += 1
         if _run_step("ai_corrector.py", "Step 2/2: Retraining AI Corrector on graded history"):
             steps_succeeded += 1
