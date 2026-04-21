@@ -1,77 +1,77 @@
 # ⚾ MLB Daily System 2 Predictions
 
 ⚾ **Houston Astros @ Cleveland Guardians** (06:10 PM ET)
-> 📊 **O/U 9.5:** Over 44% | Under 56%
-> 🕒 **1st Inn:** NRFI 55% | YRFI 45%
-> 🎯 **Edge:** ➖ NEUTRAL
-
-⚾ **Cincinnati Reds @ Tampa Bay Rays** (06:40 PM ET)
-> 📊 **O/U 8.5:** Over 48% | Under 52%
-> 🕒 **1st Inn:** NRFI 60% | YRFI 40%
-> 🎯 **Edge:** 🔥🔥 LEAN NRFI
-
-⚾ **St. Louis Cardinals @ Miami Marlins** (06:40 PM ET)
-> 📊 **O/U 8.5:** Over 56% | Under 44%
-> 🕒 **1st Inn:** NRFI 59% | YRFI 41%
-> 🎯 **Edge:** 🔥🔥 LEAN NRFI
-
-⚾ **Milwaukee Brewers @ Detroit Tigers** (06:40 PM ET)
-> 📊 **O/U 8.5:** Over 46% | Under 55%
-> 🕒 **1st Inn:** NRFI 61% | YRFI 39%
-> 🎯 **Edge:** 🔥🔥 LEAN NRFI
-
-⚾ **Atlanta Braves @ Washington Nationals** (06:45 PM ET)
-> 📊 **O/U 9.5:** Over 42% | Under 58%
-> 🕒 **1st Inn:** NRFI 58% | YRFI 42%
-> 🎯 **Edge:** ➖ NEUTRAL
-
-⚾ **New York Yankees @ Boston Red Sox** (06:45 PM ET)
-> 📊 **O/U 9.5:** Over 54% | Under 46%
-> 🕒 **1st Inn:** NRFI 53% | YRFI 47%
-> 🎯 **Edge:** ➖ NEUTRAL
-
-⚾ **Minnesota Twins @ New York Mets** (07:10 PM ET)
-> 📊 **O/U 8.5:** Over 48% | Under 52%
-> 🕒 **1st Inn:** NRFI 59% | YRFI 41%
-> 🎯 **Edge:** 🔥🔥 LEAN NRFI
-
-⚾ **Baltimore Orioles @ Kansas City Royals** (07:40 PM ET)
-> 📊 **O/U 10.5:** Over 55% | Under 45%
-> 🕒 **1st Inn:** NRFI 56% | YRFI 44%
-> 🎯 **Edge:** ➖ NEUTRAL
-
-⚾ **Philadelphia Phillies @ Chicago Cubs** (07:40 PM ET)
-> 📊 **O/U 9.5:** Over 48% | Under 52%
-> 🕒 **1st Inn:** NRFI 55% | YRFI 45%
-> 🎯 **Edge:** ➖ NEUTRAL
-
-⚾ **Pittsburgh Pirates @ Texas Rangers** (08:05 PM ET)
 > 📊 **O/U 8.5:** Over 52% | Under 48%
 > 🕒 **1st Inn:** NRFI 58% | YRFI 42%
 > 🎯 **Edge:** 🔥🔥 LEAN NRFI
 
+⚾ **Cincinnati Reds @ Tampa Bay Rays** (06:40 PM ET)
+> 📊 **O/U 8.5:** Over 49% | Under 51%
+> 🕒 **1st Inn:** NRFI 60% | YRFI 40%
+> 🎯 **Edge:** 🔥🔥 LEAN NRFI
+
+⚾ **St. Louis Cardinals @ Miami Marlins** (06:40 PM ET)
+> 📊 **O/U 8.5:** Over 50% | Under 50%
+> 🕒 **1st Inn:** NRFI 59% | YRFI 41%
+> 🎯 **Edge:** 🔥🔥 LEAN NRFI
+
+⚾ **Milwaukee Brewers @ Detroit Tigers** (06:40 PM ET)
+> 📊 **O/U 9.5:** Over 43% | Under 57%
+> 🕒 **1st Inn:** NRFI 57% | YRFI 43%
+> 🎯 **Edge:** ➖ NEUTRAL
+
+⚾ **Atlanta Braves @ Washington Nationals** (06:45 PM ET)
+> 📊 **O/U 9.5:** Over 42% | Under 58%
+> 🕒 **1st Inn:** NRFI 59% | YRFI 41%
+> 🎯 **Edge:** 🔥🔥 LEAN NRFI
+
+⚾ **New York Yankees @ Boston Red Sox** (06:45 PM ET)
+> 📊 **O/U 9.5:** Over 46% | Under 54%
+> 🕒 **1st Inn:** NRFI 55% | YRFI 45%
+> 🎯 **Edge:** ➖ NEUTRAL
+
+⚾ **Minnesota Twins @ New York Mets** (07:10 PM ET)
+> 📊 **O/U 7.5:** Over 50% | Under 50%
+> 🕒 **1st Inn:** NRFI 61% | YRFI 39%
+> 🎯 **Edge:** 🔥🔥 LEAN NRFI
+
+⚾ **Baltimore Orioles @ Kansas City Royals** (07:40 PM ET)
+> 📊 **O/U 10.5:** Over 54% | Under 46%
+> 🕒 **1st Inn:** NRFI 58% | YRFI 42%
+> 🎯 **Edge:** ➖ NEUTRAL
+
+⚾ **Philadelphia Phillies @ Chicago Cubs** (07:40 PM ET)
+> 📊 **O/U 9.5:** Over 44% | Under 56%
+> 🕒 **1st Inn:** NRFI 56% | YRFI 44%
+> 🎯 **Edge:** ➖ NEUTRAL
+
+⚾ **Pittsburgh Pirates @ Texas Rangers** (08:05 PM ET)
+> 📊 **O/U 8.5:** Over 53% | Under 47%
+> 🕒 **1st Inn:** NRFI 58% | YRFI 42%
+> 🎯 **Edge:** ➖ NEUTRAL
+
 ⚾ **San Diego Padres @ Colorado Rockies** (08:40 PM ET)
-> 📊 **O/U 12.5:** Over 48% | Under 52%
-> 🕒 **1st Inn:** NRFI 47% | YRFI 53%
+> 📊 **O/U 13.5:** Over 48% | Under 52%
+> 🕒 **1st Inn:** NRFI 46% | YRFI 54%
 > 🎯 **Edge:** ➖ NEUTRAL
 
 ⚾ **Toronto Blue Jays @ Los Angeles Angels** (09:38 PM ET)
-> 📊 **O/U 8.5:** Over 51% | Under 49%
-> 🕒 **1st Inn:** NRFI 58% | YRFI 42%
-> 🎯 **Edge:** 🔥🔥 LEAN NRFI
+> 📊 **O/U 9.5:** Over 51% | Under 49%
+> 🕒 **1st Inn:** NRFI 57% | YRFI 43%
+> 🎯 **Edge:** ➖ NEUTRAL
 
 ⚾ **Athletics @ Seattle Mariners** (09:40 PM ET)
 > 📊 **O/U 8.5:** Over 53% | Under 47%
-> 🕒 **1st Inn:** NRFI 60% | YRFI 40%
+> 🕒 **1st Inn:** NRFI 61% | YRFI 39%
 > 🎯 **Edge:** 🔥🔥 LEAN NRFI
 
 ⚾ **Chicago White Sox @ Arizona Diamondbacks** (09:40 PM ET)
-> 📊 **O/U 9.5:** Over 40% | Under 60%
-> 🕒 **1st Inn:** NRFI 60% | YRFI 40%
+> 📊 **O/U 8.5:** Over 51% | Under 49%
+> 🕒 **1st Inn:** NRFI 59% | YRFI 41%
 > 🎯 **Edge:** 🔥🔥 LEAN NRFI
 
 ⚾ **Los Angeles Dodgers @ San Francisco Giants** (09:45 PM ET)
-> 📊 **O/U 7.5:** Over 44% | Under 56%
-> 🕒 **1st Inn:** NRFI 63% | YRFI 37%
+> 📊 **O/U 9.5:** Over 45% | Under 55%
+> 🕒 **1st Inn:** NRFI 60% | YRFI 40%
 > 🎯 **Edge:** 🔥🔥 LEAN NRFI
 
