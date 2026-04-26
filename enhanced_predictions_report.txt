@@ -1,72 +1,82 @@
 # ⚾ MLB Daily System 2 Predictions
 
-⚾ **Boston Red Sox @ Baltimore Orioles** (12:05 PM ET)
+⚾ **Boston Red Sox @ Baltimore Orioles** (01:35 PM ET)
+> 📊 **O/U 8.5:** Over 44% | Under 56%
+> 🕒 **1st Inn:** NRFI 57% | YRFI 43%
+> 🎯 **Edge:** ➖ NEUTRAL
+
+⚾ **Philadelphia Phillies @ Atlanta Braves** (01:35 PM ET)
 > 📊 **O/U 8.5:** Over 45% | Under 55%
-> 🕒 **1st Inn:** NRFI 59% | YRFI 41%
-> 🎯 **Edge:** 🔥🔥 LEAN NRFI
+> 🕒 **1st Inn:** NRFI 57% | YRFI 43%
+> 🎯 **Edge:** ➖ NEUTRAL
 
-⚾ **Seattle Mariners @ St. Louis Cardinals** (02:15 PM ET)
+⚾ **Cleveland Guardians @ Toronto Blue Jays** (01:37 PM ET)
 > 📊 **O/U 8.5:** Over 50% | Under 50%
-> 🕒 **1st Inn:** NRFI 59% | YRFI 41%
-> 🎯 **Edge:** 🔥🔥 LEAN NRFI
-
-⚾ **Cleveland Guardians @ Toronto Blue Jays** (03:07 PM ET)
-> 📊 **O/U 8.5:** Over 49% | Under 51%
 > 🕒 **1st Inn:** NRFI 60% | YRFI 40%
 > 🎯 **Edge:** 🔥🔥 LEAN NRFI
 
-⚾ **Miami Marlins @ San Francisco Giants** (04:05 PM ET)
-> 📊 **O/U 7.5:** Over 44% | Under 56%
-> 🕒 **1st Inn:** NRFI 61% | YRFI 39%
-> 🎯 **Edge:** 🔥🔥 LEAN NRFI
+⚾ **Detroit Tigers @ Cincinnati Reds** (01:40 PM ET)
+> 📊 **O/U 9.5:** Over 49% | Under 51%
+> 🕒 **1st Inn:** NRFI 52% | YRFI 48%
+> 🎯 **Edge:** ➖ NEUTRAL
 
-⚾ **Minnesota Twins @ Tampa Bay Rays** (04:10 PM ET)
-> 📊 **O/U 8.5:** Over 48% | Under 52%
+⚾ **Colorado Rockies @ New York Mets** (01:40 PM ET)
+> 📊 **O/U 9.5:** Over 44% | Under 56%
+> 🕒 **1st Inn:** NRFI 58% | YRFI 42%
+> 🎯 **Edge:** ➖ NEUTRAL
+
+⚾ **Colorado Rockies @ New York Mets** (01:45 PM ET)
+> 📊 **O/U 9.5:** Over 44% | Under 56%
+> 🕒 **1st Inn:** NRFI 57% | YRFI 43%
+> 🎯 **Edge:** ➖ NEUTRAL
+
+⚾ **Minnesota Twins @ Tampa Bay Rays** (01:40 PM ET)
+> 📊 **O/U 8.5:** Over 49% | Under 51%
 > 🕒 **1st Inn:** NRFI 59% | YRFI 41%
 > 🎯 **Edge:** 🔥🔥 LEAN NRFI
 
-⚾ **Washington Nationals @ Chicago White Sox** (04:10 PM ET)
+⚾ **Washington Nationals @ Chicago White Sox** (02:10 PM ET)
+> 📊 **O/U 9.5:** Over 44% | Under 56%
+> 🕒 **1st Inn:** NRFI 57% | YRFI 43%
+> 🎯 **Edge:** ➖ NEUTRAL
+
+⚾ **New York Yankees @ Houston Astros** (02:10 PM ET)
+> 📊 **O/U 9.5:** Over 42% | Under 58%
+> 🕒 **1st Inn:** NRFI 58% | YRFI 42%
+> 🎯 **Edge:** ➖ NEUTRAL
+
+⚾ **Pittsburgh Pirates @ Milwaukee Brewers** (02:10 PM ET)
+> 📊 **O/U 8.5:** Over 54% | Under 46%
+> 🕒 **1st Inn:** NRFI 56% | YRFI 44%
+> 🎯 **Edge:** ➖ NEUTRAL
+
+⚾ **Seattle Mariners @ St. Louis Cardinals** (02:15 PM ET)
+> 📊 **O/U 8.5:** Over 41% | Under 59%
+> 🕒 **1st Inn:** NRFI 59% | YRFI 41%
+> 🎯 **Edge:** 🔥🔥 LEAN NRFI
+
+⚾ **Athletics @ Texas Rangers** (02:35 PM ET)
 > 📊 **O/U 8.5:** Over 56% | Under 44%
 > 🕒 **1st Inn:** NRFI 55% | YRFI 45%
 > 🎯 **Edge:** ➖ NEUTRAL
 
-⚾ **San Diego Padres @ Arizona Diamondbacks** (06:05 PM ET)
-> 📊 **O/U 8.5:** Over 48% | Under 52%
-> 🕒 **1st Inn:** NRFI 60% | YRFI 40%
-> 🎯 **Edge:** 🔥🔥 LEAN NRFI
-
-⚾ **Athletics @ Texas Rangers** (07:05 PM ET)
-> 📊 **O/U 8.5:** Over 52% | Under 48%
-> 🕒 **1st Inn:** NRFI 57% | YRFI 43%
+⚾ **San Diego Padres @ Arizona Diamondbacks** (04:05 PM ET)
+> 📊 **O/U 9.5:** Over 42% | Under 58%
+> 🕒 **1st Inn:** NRFI 56% | YRFI 44%
 > 🎯 **Edge:** ➖ NEUTRAL
 
-⚾ **Los Angeles Angels @ Kansas City Royals** (07:10 PM ET)
-> 📊 **O/U 8.5:** Over 51% | Under 49%
-> 🕒 **1st Inn:** NRFI 58% | YRFI 42%
-> 🎯 **Edge:** ➖ NEUTRAL
-
-⚾ **New York Yankees @ Houston Astros** (07:10 PM ET)
-> 📊 **O/U 8.5:** Over 52% | Under 48%
+⚾ **Miami Marlins @ San Francisco Giants** (04:05 PM ET)
+> 📊 **O/U 7.5:** Over 44% | Under 56%
 > 🕒 **1st Inn:** NRFI 59% | YRFI 41%
 > 🎯 **Edge:** 🔥🔥 LEAN NRFI
 
-⚾ **Pittsburgh Pirates @ Milwaukee Brewers** (07:10 PM ET)
-> 📊 **O/U 8.5:** Over 58% | Under 42%
+⚾ **Los Angeles Angels @ Kansas City Royals** (04:10 PM ET)
+> 📊 **O/U 8.5:** Over 40% | Under 60%
 > 🕒 **1st Inn:** NRFI 57% | YRFI 43%
 > 🎯 **Edge:** ➖ NEUTRAL
 
-⚾ **Detroit Tigers @ Cincinnati Reds** (07:15 PM ET)
-> 📊 **O/U 10.5:** Over 44% | Under 56%
-> 🕒 **1st Inn:** NRFI 52% | YRFI 48%
-> 🎯 **Edge:** ➖ NEUTRAL
-
-⚾ **Chicago Cubs @ Los Angeles Dodgers** (07:15 PM ET)
-> 📊 **O/U 9.5:** Over 45% | Under 55%
+⚾ **Chicago Cubs @ Los Angeles Dodgers** (04:10 PM ET)
+> 📊 **O/U 9.5:** Over 42% | Under 58%
 > 🕒 **1st Inn:** NRFI 58% | YRFI 42%
 > 🎯 **Edge:** 🔥🔥 LEAN NRFI
-
-⚾ **Philadelphia Phillies @ Atlanta Braves** (07:15 PM ET)
-> 📊 **O/U 8.5:** Over 46% | Under 54%
-> 🕒 **1st Inn:** NRFI 55% | YRFI 45%
-> 🎯 **Edge:** ➖ NEUTRAL
 
